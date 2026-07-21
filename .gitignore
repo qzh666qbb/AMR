@@ -1,0 +1,35 @@
+# Codex / agent runtime state
+.agents/
+.codex/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large downloaded assets and generated experiment data
+models/
+vectors/
+data/raw/
+data/processed/
+output/
+results/raw/
+baselines/local/*/runs/
+
+# Local logs and editor files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
