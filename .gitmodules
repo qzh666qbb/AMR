@@ -1,0 +1,3 @@
+[submodule "third_party/SWAN"]
+	path = third_party/SWAN
+	url = https://github.com/amazon-science/SWAN.git

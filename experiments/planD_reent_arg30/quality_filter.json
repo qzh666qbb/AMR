@@ -1,0 +1,362 @@
+[
+  {
+    "index": 0,
+    "z": 3.464101615137755,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": false,
+      "length": true
+    }
+  },
+  {
+    "index": 1,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 2,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 3,
+    "z": 3.8729833462074166,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 4,
+    "z": 3.8729833462074166,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 5,
+    "z": 3.8729833462074166,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 6,
+    "z": -1.2909944487358056,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 7,
+    "z": 3.8729833462074166,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": false,
+      "length": true
+    }
+  },
+  {
+    "index": 8,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 9,
+    "z": 3.8729833462074166,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 10,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 11,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 12,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 13,
+    "z": -1.2909944487358056,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 14,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 15,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 16,
+    "z": 3.464101615137755,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": false,
+      "length": true
+    }
+  },
+  {
+    "index": 17,
+    "z": 2.3094010767585034,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": false,
+      "length": true
+    }
+  },
+  {
+    "index": 18,
+    "z": 2.3094010767585034,
+    "pass": false,
+    "checks": {
+      "numbers": false,
+      "entities": false,
+      "negation": true,
+      "sentences": false,
+      "length": true
+    }
+  },
+  {
+    "index": 19,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 20,
+    "z": -1.2909944487358056,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 21,
+    "z": 3.8729833462074166,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 22,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 23,
+    "z": 1.8073922282301278,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 24,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 25,
+    "z": 2.840187787218772,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 26,
+    "z": 0.7745966692414834,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 27,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  },
+  {
+    "index": 28,
+    "z": 2.3094010767585034,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "sentences": false,
+      "length": false
+    }
+  },
+  {
+    "index": 29,
+    "z": 3.8729833462074166,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "sentences": true,
+      "length": true
+    }
+  }
+]

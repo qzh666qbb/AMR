@@ -1,0 +1,1359 @@
+{
+  "model": "deepseek-v4-flash",
+  "temperature": 0.7,
+  "selection_threshold_1pct_fpr": 2.33,
+  "limit": 50,
+  "complete": true,
+  "records": [
+    {
+      "source_index": 0,
+      "baseline_z": 3.8729833462074166,
+      "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "candidates": {
+        "amr_guided": "A server was launched by IBM Corporation. IBM Corporation is the cluster topic. Something is related to IBM Corporation. IBM Corporation.",
+        "sentence_boundary": "IBM Corporation launched a server. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+        "plain_paraphrase": "IBM Corporation introduced a server. IBM Corporation. The cluster topic is IBM Corporation. IBM Corporation is related to something. IBM Corporation."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 1,
+      "baseline_z": 3.8729833462074166,
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "candidates": {
+        "amr_guided": "You must make the report transparent. The organization's earning occurred. At some time, Prasar Bharti's earning happened. The organization's earning occurred. Prasar Bharti's earning was limited to something.",
+        "sentence_boundary": "Make the report transparent. The organization earned something, and Prasar Bharti earned something at some time. The organization earned something, but Prasar Bharti earned only something.",
+        "plain_paraphrase": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 2,
+      "baseline_z": 3.8729833462074166,
+      "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+      "candidates": {
+        "amr_guided": "Something is defined by marketers. Apple is defined by marketers. The Apple brand is defined as something by marketers. A marketer is the one who defines the Apple brand. Apple is defined as a brand by a marketer.",
+        "sentence_boundary": "Marketers define something and Apple. They define the Apple brand as something. Define the Apple brand as a marketer does. A marketer defines Apple as a brand.",
+        "plain_paraphrase": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 3,
+      "baseline_z": 3.8729833462074166,
+      "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "candidates": {
+        "amr_guided": "The library, which is the appointee of the Township of Middletown, appointed Kim Rinaldi as a director. The Township of Middletown's appointment of the library resulted in Kim Rinaldi being appointed as a director. The library's appointment of Kim Rinaldi was as a director, and this was due to the Township of Middletown appointing the library. The library's appointment of Kim Rinaldi was as a director, and this was due to the Township of Middletown appointing the library. Kim Rinaldi was appointed as a director by the library.",
+        "sentence_boundary": "Middletown Township Public Library appointed Kim Rinaldi as a director. This appointment was made by the library. The Township of Middletown appointed the library to appoint Kim Rinaldi. The Township of Middletown appointed the library to appoint Kim Rinaldi. Kim Rinaldi was appointed as a director by the library.",
+        "plain_paraphrase": "Middletown Township Public Library hired Kim Rinaldi as a director. The library made Kim Rinaldi the director. The Township of Middletown appointed the library to appoint Kim Rinaldi. The Township of Middletown appointed the library to appoint Kim Rinaldi. The library hired Kim Rinaldi as a director."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 4,
+      "baseline_z": 3.8729833462074166,
+      "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+      "candidates": {
+        "amr_guided": "The report's statement is that you should detail your report. The World Health Organization is stated by the report. Something is stated by the report, and the World Health Organization is stated again.",
+        "sentence_boundary": "The report states something. It says to make your report detailed. The report mentions the World Health Organization. It states something again. It also mentions the World Health Organization.",
+        "plain_paraphrase": "The report indicates that you should make your report detailed. It also mentions the World Health Organization, and it says something else about the WHO."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 5,
+      "baseline_z": 3.8729833462074166,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "candidates": {
+        "amr_guided": "You are commanded to cease your service and to cease Allo. A company's ceasing of something occurred. Google's ceasing of something occurred in a service. You are commanded to cease your service.",
+        "sentence_boundary": "Cease your service and Allo. A company, specifically Google, ceased something within a service. Cease your service.",
+        "plain_paraphrase": "Cease your service. Cease Allo. A company ceased something. Google ceased something within a service. Cease your service."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 7,
+      "baseline_z": 3.8729833462074166,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "candidates": {
+        "amr_guided": "There was a giving event. The giver was someone. The recipient was Washington. The thing given was a presentation. The imperative is to give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. The imperative is to give a presentation about Washington, D.C. to Washington.",
+        "sentence_boundary": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+        "plain_paraphrase": "A presentation was given to Washington by someone. Give someone a presentation. Washington, D.C. received a presentation. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 8,
+      "baseline_z": 3.8729833462074166,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "candidates": {
+        "amr_guided": "Let the conversation remain serious. New England's extent is vast. Something caused something to leave New England. Something left New England. Something made a departure from New England to a location.",
+        "sentence_boundary": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+        "plain_paraphrase": "Maintain a serious tone. New England covers a large area. Something departed from New England to something. Something left New England. Something moved from New England to a location."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 9,
+      "baseline_z": 3.8729833462074166,
+      "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "candidates": {
+        "amr_guided": "Something was missed by a person. The definition of the acronym ICYMI was missed by you. Let the abbreviation ICYMI be defined now. Let the acronym ICYMI be defined. Let the ICYMI abbreviation be defined at this time.",
+        "sentence_boundary": "A person missed something. You missed what ICYMI stands for. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+        "plain_paraphrase": "An individual overlooked something. You missed the definition of the abbreviation ICYMI. Now define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation right now."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 10,
+      "baseline_z": 3.8729833462074166,
+      "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "candidates": {
+        "amr_guided": "The jury must be told the acquittal. The jury must be told the acquittal. The jury must be told the acquittal. The jury must be told that the widow was acquitted concerning the nightclub. The jury must be told that the widow was acquitted concerning the Pulse nightclub.",
+        "sentence_boundary": "Tell the jury the acquittal of the widow about the Pulse nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+        "plain_paraphrase": "Inform the jury about the acquittal. Inform the jury about the acquittal. Inform the jury about the acquittal. Inform the jury about the widow's acquittal regarding the nightclub. Inform the jury about the widow's acquittal regarding the Pulse nightclub."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 11,
+      "baseline_z": 3.8729833462074166,
+      "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "candidates": {
+        "amr_guided": "QVC has some aggressiveness. QVC's planning for Black Friday is aggressive. You should inform QVC about Black Friday. The aggressiveness belongs to QVC. Black Friday is the target of QVC's plan.",
+        "sentence_boundary": "QVC is aggressive to an extent. QVC aggressively plans something for Black Friday. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+        "plain_paraphrase": "QVC is somewhat aggressive. QVC is aggressively planning something for Black Friday. Tell QVC about Black Friday. QVC's aggressive something. QVC is planning something for Black Friday."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 12,
+      "baseline_z": 3.8729833462074166,
+      "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+      "candidates": {
+        "amr_guided": "Malala Yousafzai's academic brilliance is described. A description is given by Malala Yousafzai. The brilliant Malala Yousafzai exists. A description by Malala Yousafzai occurs in 2024. A community receives a description of Malala Yousafzai from someone.",
+        "sentence_boundary": "Malala Yousafzai is brilliant in academics and describes something. Brilliant Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+        "plain_paraphrase": "Malala Yousafzai excels in her studies. She gives a description. The brilliant Malala Yousafzai. In 2024, she provides a description. Someone describes Malala Yousafzai to a group."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 14,
+      "baseline_z": 3.8729833462074166,
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "candidates": {
+        "amr_guided": "WebMD Health Corp. is held by someone for some purpose. The holding of WebMD Health Corp. occurred in 2015. The importance of WebMD Health Corp. for something is noted, and its importance for something else is also noted.",
+        "sentence_boundary": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something, and it was held in 2015. The company is important for something, and it is also important for something.",
+        "plain_paraphrase": "For some reason, an individual holds WebMD Health Corp. WebMD Health Corp. is significant for something. In 2015, WebMD Health Corp. was held. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 15,
+      "baseline_z": 3.8729833462074166,
+      "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "candidates": {
+        "amr_guided": "The conference held something. An attendee was shown a session about SocialDevCamp Chicago at the conference. SocialDevCamp Chicago was an event hosted by the conference. An event was held by SocialDevCamp Chicago in 2024. SocialDevCamp Chicago held an event in 2024.",
+        "sentence_boundary": "The conference held something. At the conference, an attendee was shown a session about SocialDevCamp Chicago. The conference hosted SocialDevCamp Chicago. In 2024, SocialDevCamp Chicago held an event. SocialDevCamp Chicago held an event in 2024.",
+        "plain_paraphrase": "The conference featured an event. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference hosted an event called SocialDevCamp Chicago. SocialDevCamp Chicago had an event in 2024. SocialDevCamp Chicago held an event in 2024."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 16,
+      "baseline_z": 3.464101615137755,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "candidates": {
+        "amr_guided": "Something defines BlackRock Inc. as something. BlackRock Inc. globally operates something. BlackRock Inc. is something about itself.",
+        "sentence_boundary": "BlackRock Inc. operates globally. Define it as something. Define BlackRock Inc. It operates something. It is something about BlackRock Inc.",
+        "plain_paraphrase": "BlackRock Inc. functions worldwide. Characterize BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. manages something. BlackRock Inc. is something related to BlackRock Inc."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 17,
+      "baseline_z": 3.8729833462074166,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "candidates": {
+        "amr_guided": "The sale of the home to New York occurred in 2023. New York underwent a sale in 2023. The home was the recipient of New York's sale. There was a sale of New York in 2023. New York acted as seller of the home in 2023.",
+        "sentence_boundary": "The home was sold to New York in 2023. Also, New York was sold in 2023, and New York was sold to the home. New York was sold in 2023. Moreover, New York sold the home in 2023.",
+        "plain_paraphrase": "In 2023, the home was sold to New York. New York was sold in 2023. The home was sold to New York. New York was sold in 2023. In 2023, New York sold the home."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 18,
+      "baseline_z": 3.8729833462074166,
+      "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "candidates": {
+        "amr_guided": "Something defines a 2-to-2 ratio as a concept. Something defines the concept of NASCAR as something. At a time, something defines the concept of NASCAR as something. You define a concept as something. Something defines the concept of NASCAR as something.",
+        "sentence_boundary": "A 2-to-2 ratio is defined as a concept. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+        "plain_paraphrase": "A 2-to-2 ratio is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 19,
+      "baseline_z": 3.8729833462074166,
+      "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "candidates": {
+        "amr_guided": "A location was reached by Jeff Deardorff. A location was reached by Jeff Deardorff. Let a day arrive. A location was reached by Jeff Deardorff. A location was reached by Jeff Deardorff.",
+        "sentence_boundary": "Jeff Deardorff has arrived at a location. He arrived at a location. Imagine a day arriving. He arrived at a location. He arrived at a location.",
+        "plain_paraphrase": "Jeff Deardorff has reached a location. Jeff Deardorff reached a location. Picture a day arriving. Jeff Deardorff reached a location. Jeff Deardorff reached a location."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 21,
+      "baseline_z": 3.8729833462074166,
+      "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "candidates": {
+        "amr_guided": "The UAE's recent ordering of two military helicopters occurred. Two military helicopters were ordered by the UAE. The ordering of two military helicopters for the UAE was done. The UAE's ordering of two military helicopters from an entity happened.",
+        "sentence_boundary": "The UAE ordered two military helicopters recently. They ordered two military helicopters. They ordered two military helicopters from an entity. Order two military helicopters for the UAE.",
+        "plain_paraphrase": "Procure two military helicopters for the UAE. Procure two military helicopters. Procure two military helicopters. The UAE recently procured two military helicopters. The UAE procured two military helicopters from a supplier."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 22,
+      "baseline_z": 3.8729833462074166,
+      "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "candidates": {
+        "amr_guided": "Something is the topic of Barack Obama. A lawmaker should be asked about the topic of Barack Obama in Washington. A lawmaker should be asked about the advice that Barack Obama gave on Washington. A lawmaker should be asked about Barack Obama. Barack Obama should be asked about.",
+        "sentence_boundary": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+        "plain_paraphrase": "The subject of Barack Obama is something. Inquire of a lawmaker about the subject of Barack Obama in Washington. Inquire of a lawmaker about the counsel that Barack Obama gave on Washington. Inquire of a lawmaker about Barack Obama. Inquire about Barack Obama."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 24,
+      "baseline_z": 3.8729833462074166,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "candidates": {
+        "amr_guided": "Something is a definer of Mario. Mario's definition of something occurred. Mario's definition of something had a location. Something is a definer of Mario. Mario's definition of something was new.",
+        "sentence_boundary": "Something defines Mario. Mario defined something. It was at a location. Something defines Mario. Mario defined something new.",
+        "plain_paraphrase": "Mario is defined by something. He defined something. He defined something at a location. Mario is defined by something. He defined something new."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 25,
+      "baseline_z": 3.8729833462074166,
+      "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+      "candidates": {
+        "amr_guided": "A nine-run lead was built by Council Bluffs Marshalltown. The team must be given a win against Council Bluffs. The team must be given a win. Against Council Bluffs, a win was built. Council Bluffs is of great quality.",
+        "sentence_boundary": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+        "plain_paraphrase": "Council Bluffs Marshalltown established a nine-run advantage. Ensure the team defeats Council Bluffs. Secure a win for the team. A victory was constructed against Council Bluffs. Council Bluffs is extremely good."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 27,
+      "baseline_z": 3.8729833462074166,
+      "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "candidates": {
+        "amr_guided": "A company received DERA funding from an unnamed giver. The funding should be provided to help reauthorize the U.S. Environmental Protection Agency program. A company was the beneficiary of DERA funding from someone. DERA funding was recently given to a company. A company was given DERA funding by someone.",
+        "sentence_boundary": "Someone gave DERA funding to a company to help reauthorize the program at the U.S. Environmental Protection Agency. This funding was given recently. Someone gave DERA funding to a company. Someone gave DERA funding to a company.",
+        "plain_paraphrase": "A company was given DERA funding by someone. To help reauthorize the program at the U.S. Environmental Protection Agency, DERA funding should be given. A company received DERA funding from someone. A company was recently given DERA funding. Somebody provided DERA funding to a company."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 28,
+      "baseline_z": 3.8729833462074166,
+      "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "candidates": {
+        "amr_guided": "The horror movie Echo had a 2008 release. A role in it was cast by someone. The 2008 film Echo saw a role cast.",
+        "sentence_boundary": "Echo was released in 2008. In that horror movie, someone cast a role. A role was cast in Echo (2008), a horror movie.",
+        "plain_paraphrase": "The horror movie Echo came out in 2008. Someone cast a role in it. A role was cast in Echo (2008)."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 29,
+      "baseline_z": 3.8729833462074166,
+      "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "candidates": {
+        "amr_guided": "A location heard a holler from Travis Scott. A 2018 hollering by Travis Scott occurred. Something was hollered by Travis Scott in 2018. Something was hollered by a person.",
+        "sentence_boundary": "In 2018, Travis Scott hollered at a location. He hollered something. A person hollered something.",
+        "plain_paraphrase": "Travis Scott shouted at a place. In 2018, he shouted. Travis Scott yelled something. In 2018, he yelled something. A person shouted something."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 30,
+      "baseline_z": 3.8729833462074166,
+      "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+      "candidates": {
+        "amr_guided": "Let the concept of graciousness be defined. Graciousness is defined as a national attribute. A nation gives a definition of graciousness. Mr Lim Siong Guan provides a definition of graciousness. Mr Lim Siong Guan provides a definition of something at a location.",
+        "sentence_boundary": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+        "plain_paraphrase": "Explain what graciousness means. Describe graciousness as a trait of the nation. A country defines graciousness. Lim Siong Guan defines graciousness. Lim Siong Guan defines something in a particular place."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 31,
+      "baseline_z": 3.8729833462074166,
+      "source": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+      "candidates": {
+        "amr_guided": "Bus Bob Krause died. Someone recently reported his death to someone. Do something good.",
+        "sentence_boundary": "Bus Bob Krause died. His death was reported to someone. That happened recently. Make something good.",
+        "plain_paraphrase": "Bus Bob Krause passed away. Someone was recently told about Bus Bob Krause's death. Do something good."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 32,
+      "baseline_z": 3.8729833462074166,
+      "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+      "candidates": {
+        "amr_guided": "The death of Robert E. Gates occurred. Someone died. Flip's death left Cindy Thompson. Cindy Thompson experienced death.",
+        "sentence_boundary": "Robert E. Gates passed away. A person died. Flip died, leaving Cindy Thompson. Cindy Thompson passed away.",
+        "plain_paraphrase": "Robert E. Gates has died. A person passed away. Flip passed away, leaving Cindy Thompson. Cindy Thompson has died."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 33,
+      "baseline_z": 3.8729833462074166,
+      "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+      "candidates": {
+        "amr_guided": "Let a person tell Alice a story about something. Let a person tell someone a story about a city. Alice has some age and is a person. Let a person tell someone a story about a city. Let Alice be told a story about New York City by a person.",
+        "sentence_boundary": "Alice, whose age is something, is a person. Tell a person a story about something to Alice, and also tell a person a story about a city. Additionally, tell a person a story about New York City to Alice.",
+        "plain_paraphrase": "Share a story about something with Alice. Share a story about a city with someone. Alice is a person of some age. Share a story about a city with someone. Share a story about New York City with Alice."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 34,
+      "baseline_z": 3.8729833462074166,
+      "source": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. Throw a pass.",
+      "candidates": {
+        "amr_guided": "Josh Rosen is hot. In 2015, a throw of something by Josh Rosen occurred. You are a thrower of something. A pass is to be thrown.",
+        "sentence_boundary": "Josh Rosen is hot and threw something in 2015. You throw something. Throw a pass.",
+        "plain_paraphrase": "Josh Rosen is hot. In 2015, Josh Rosen threw something. You throw something. Throw a pass."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 35,
+      "baseline_z": 3.8729833462074166,
+      "source": "The New England Patriots. The New England Patriots played in 2019. The topic about the New England Patriots. Fans discuss the game outcome. Fans discuss the outcome.",
+      "candidates": {
+        "amr_guided": "The New England Patriots' 2019 game outcome is discussed by fans.",
+        "sentence_boundary": "The New England Patriots played in 2019. The topic about them. Fans discuss the game outcome and the outcome.",
+        "plain_paraphrase": "The New England Patriots participated in the 2019 season. Fans are talking about the game's result and the outcome."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 36,
+      "baseline_z": 3.8729833462074166,
+      "source": "Lynn teaches two employees. Teach two employees. Lynn Blake did not teach two hospital employees. Lynn Blake taught two hospital employees CPR. Lynn Blake.",
+      "candidates": {
+        "amr_guided": "Lynn is the teacher of two employees. The teaching of two employees is done by Lynn. No teaching of two hospital employees was done by Lynn Blake. The teaching of CPR to two hospital employees was done by Lynn Blake. Lynn Blake is the name.",
+        "sentence_boundary": "Lynn teaches two employees. She teaches two employees. Lynn Blake did not teach two hospital employees. She taught two hospital employees CPR. She is Lynn Blake.",
+        "plain_paraphrase": "Lynn instructs two workers. Instruct two workers. Lynn Blake did not instruct two hospital workers. Lynn Blake taught two hospital workers CPR. Lynn Blake."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 37,
+      "baseline_z": 3.8729833462074166,
+      "source": "The Sports Academy's Mamba Mentality. Sports Academy defines the Mamba Mentality. Define the Mamba Mentality. Define the Mamba Mentality. Sports Academy defined the Mamba Mentality as something recently.",
+      "candidates": {
+        "amr_guided": "The Mamba Mentality belongs to the Sports Academy. The Sports Academy's definition of the Mamba Mentality is given. Define the Mamba Mentality. Define the Mamba Mentality. The Sports Academy's recent definition of the Mamba Mentality was as something.",
+        "sentence_boundary": "The Sports Academy's Mamba Mentality is defined by the Sports Academy. The Mamba Mentality should be defined. The Mamba Mentality should be defined. Recently, the Sports Academy defined the Mamba Mentality as something.",
+        "plain_paraphrase": "The Sports Academy's Mamba Mentality. The Sports Academy defines the Mamba Mentality. Define the Mamba Mentality. Define the Mamba Mentality. The Sports Academy recently defined the Mamba Mentality as something."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 39,
+      "baseline_z": 3.8729833462074166,
+      "source": "Tell a user something about the mood of paranoia in Westminster to a politician. The mood of paranoia pervades Westminster. Tell a politician about the mood of paranoia in Westminster. The mood of paranoia pervades Westminster. The mood of paranoia pervades Westminster.",
+      "candidates": {
+        "amr_guided": "You should inform a politician that a paranoid mood exists in Westminster. Westminster is experiencing pervasive paranoia. You must tell a politician about the paranoid mood in Westminster. Westminster is pervaded by paranoia. Westminster is pervaded by paranoia.",
+        "sentence_boundary": "The mood of paranoia pervades Westminster. Tell a user something about this mood to a politician. The mood of paranoia pervades Westminster. Tell a politician about the mood of paranoia in Westminster. The mood of paranoia pervades Westminster.",
+        "plain_paraphrase": "Inform a politician about the paranoid atmosphere in Westminster. Paranoia is widespread in Westminster. Tell a politician about the paranoid mood in Westminster. Paranoia is widespread in Westminster. Paranoia is widespread in Westminster."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 40,
+      "baseline_z": 3.8729833462074166,
+      "source": "Virtuoso Luxe Report surveyed something. Survey your advisor about the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report was surveyed. Virtuoso Luxe Report. An advisor surveyed Virtuoso Luxe Report about a topic.",
+      "candidates": {
+        "amr_guided": "Something was surveyed by the Virtuoso Luxe Report. You should survey your advisor regarding the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report underwent a survey. Virtuoso Luxe Report. A topic was what an advisor surveyed the Virtuoso Luxe Report about.",
+        "sentence_boundary": "The Virtuoso Luxe Report surveyed something. Survey your advisor about it for Virtuoso. It was surveyed. Virtuoso Luxe Report. An advisor surveyed it about a topic.",
+        "plain_paraphrase": "The Virtuoso Luxe Report conducted a survey. Ask your advisor about the Virtuoso Luxe Report from Virtuoso. The Virtuoso Luxe Report was surveyed. Virtuoso Luxe Report. An advisor surveyed the Virtuoso Luxe Report on a topic."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 41,
+      "baseline_z": 2.840187787218772,
+      "source": "The General Government Structural Balance as a percentage of potential GDP for Israel in 2015 equaled negative two. Set the balance to negative. Set the structural balance of Israel to negative two. Set the structural balance to negative. Set the structural balance of Israel to negative two.",
+      "candidates": {
+        "amr_guided": "The structural balance of the general government, as a percentage of potential GDP, was negative two for Israel in 2015. You are commanded to set the balance to negative. The structural balance of Israel is to be set to negative two. The structural balance is to be made negative. Israel's structural balance is to be set to negative two.",
+        "sentence_boundary": "The General Government Structural Balance as a percentage of potential GDP for Israel in 2015 equaled negative two. Set the balance to negative. The structural balance of Israel should be set to negative two. Make the structural balance negative. Israel's structural balance must be set to negative two.",
+        "plain_paraphrase": "In 2015, Israel's general government structural balance as a share of potential GDP was minus two. Make the balance negative. Set Israel's structural balance to minus two. Make the structural balance negative. Set Israel's structural balance to minus two."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 42,
+      "baseline_z": 3.8729833462074166,
+      "source": "Ann Iungerich was not defined. Ann Iungerich was not defined. Ann Iungerich shared lessons learned. Someone taught Ann Iungerich a lesson. Ann Iungerich shared a lesson in 2024.",
+      "candidates": {
+        "amr_guided": "Ann Iungerich remained undefined. Ann Iungerich remained undefined. The lessons Ann Iungerich shared had been learned from a teaching by someone. The sharing occurred in 2024.",
+        "sentence_boundary": "Ann Iungerich was not defined. Ann Iungerich was not defined. Ann Iungerich shared lessons learned in 2024, after someone taught her a lesson.",
+        "plain_paraphrase": "Ann Iungerich lacked definition. Ann Iungerich lacked definition. Ann Iungerich imparted lessons. Someone taught Ann Iungerich a lesson. Ann Iungerich imparted a lesson in 2024."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": false
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": false
+        }
+      }
+    },
+    {
+      "source_index": 43,
+      "baseline_z": 3.8729833462074166,
+      "source": "Tell a story about a woman dying in childbirth at New York Presbyterian Hospital. The death of a woman at New York Presbyterian Hospital is a tragedy. New York Presbyterian Hospital suffered a tragedy. A tragedy occurred at New York Presbyterian Hospital. A New York Presbyterian tragedy.",
+      "candidates": {
+        "amr_guided": "Narrate a story where a woman dies while giving birth at New York Presbyterian Hospital. The woman's death at New York Presbyterian Hospital is tragic. A tragedy befell New York Presbyterian Hospital. At New York Presbyterian Hospital, a tragedy occurred. This is a New York Presbyterian tragedy.",
+        "sentence_boundary": "Tell a story about a woman dying in childbirth. It happened at New York Presbyterian Hospital. The death of a woman at New York Presbyterian Hospital is a tragedy. New York Presbyterian Hospital suffered a tragedy. A tragedy occurred there. A New York Presbyterian tragedy.",
+        "plain_paraphrase": "Recount a story about a woman dying during childbirth at New York Presbyterian Hospital. The loss of a woman at New York Presbyterian Hospital is a tragic event. New York Presbyterian Hospital experienced a tragedy. A tragic event occurred at New York Presbyterian Hospital. A tragedy at New York Presbyterian."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 44,
+      "baseline_z": 3.8729833462074166,
+      "source": "MOVE Systems redesigned something. MOVE Systems redesigned something for a future. MOVE Systems redesigned something. MOVE Systems is a company named MOVE Systems. MOVE Systems is a company.",
+      "candidates": {
+        "amr_guided": "There was a company named MOVE Systems. It performed a redesign of something. It also performed a redesign of something for a future. It performed a redesign of something.",
+        "sentence_boundary": "MOVE Systems is a company. It redesigned something. It also redesigned something for a future. It redesigned something again.",
+        "plain_paraphrase": "MOVE Systems, a company, redesigned something. MOVE Systems, a company, redesigned something for a future. MOVE Systems, a company, redesigned something."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 46,
+      "baseline_z": 3.8729833462074166,
+      "source": "The defense overcame the Carolina Panthers. The defense overcame something. The defense overcame the Carolina Panthers. The defense overcame the Carolina Panthers. The defense overcame the Carolina Panthers.",
+      "candidates": {
+        "amr_guided": "The defense's overcoming of the Carolina Panthers occurred. The defense's overcoming of something occurred. The defense's overcoming of the Carolina Panthers occurred. The defense's overcoming of the Carolina Panthers occurred. The defense's overcoming of the Carolina Panthers occurred.",
+        "sentence_boundary": "The defense overcame the Carolina Panthers. It overcame something. It overcame the Carolina Panthers. It overcame the Carolina Panthers. It overcame the Carolina Panthers.",
+        "plain_paraphrase": "The defense got the better of the Carolina Panthers. The defense got the better of something. The defense got the better of the Carolina Panthers. The defense got the better of the Carolina Panthers. The defense got the better of the Carolina Panthers."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 47,
+      "baseline_z": 3.8729833462074166,
+      "source": "Ask a teacher about the history of France. Ask a teacher about the history of France. A teacher's France history. The history of France is important to a teacher. Ask a teacher about the history of France for something.",
+      "candidates": {
+        "amr_guided": "Request that a teacher discuss French history. A teacher finds French history important. Ask a teacher for something about France's history. France's history belongs to a teacher.",
+        "sentence_boundary": "Ask a teacher about the history of France. The history of France is important to a teacher. Ask a teacher about it for something. A teacher's France history.",
+        "plain_paraphrase": "Inquire of an educator regarding the history of France. Ask a teacher about French history. A teacher's knowledge of France's history. French history holds significance for a teacher. Pose a question to a teacher about France's history for a purpose."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 48,
+      "baseline_z": 3.8729833462074166,
+      "source": "SpaceX Dragon. SpaceX Dragon. SpaceX Dragon. Make the rocket used. SpaceX Dragon launched a used supply ship to something.",
+      "candidates": {
+        "amr_guided": "SpaceX Dragon, SpaceX Dragon, SpaceX Dragon. The rocket should be made used. A supply ship that had been used was launched by SpaceX Dragon to some destination.",
+        "sentence_boundary": "SpaceX Dragon, SpaceX Dragon, SpaceX Dragon. Make the rocket used. SpaceX Dragon launched a used supply ship to something.",
+        "plain_paraphrase": "SpaceX Dragon. SpaceX Dragon. SpaceX Dragon. Ensure the rocket is used. A used supply ship was launched by SpaceX Dragon to a destination."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 49,
+      "baseline_z": 2.840187787218772,
+      "source": "Nike Inc tell the profit from sales of sports clothes. Nike Inc reported a profit. Nike Inc is a company. Nike Inc reported something in a location. Nike Inc reported a profit in a location.",
+      "candidates": {
+        "amr_guided": "Nike Inc's reporting of a profit from sports clothes sales occurred at a location. The company's profit was announced. Nike Inc is a corporation. The reporting happened at that location.",
+        "plain_paraphrase": "Nike Inc disclosed its profit from sportswear sales. The company announced a profit. Nike Inc is a corporation. Nike Inc made an announcement at a location. The profit was reported by Nike Inc at a location.",
+        "sentence_boundary": "Nike Inc, a company, reported a profit from sales of sports clothes. This profit was announced at a location. Nike Inc reported something at that location."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 50,
+      "baseline_z": 3.8729833462074166,
+      "source": "Check the windows for damage. Check the windows for damage. Check the windows for damage about the Berlin to Saarbrücken train. The train was damaged by something. The ICE was damaged in 2023.",
+      "candidates": {
+        "amr_guided": "You must check the windows for damage. You must check the windows for damage. The windows on the train from Berlin to Saarbrücken need checking for damage. The train suffered damage from something. The ICE experienced damage in 2023.",
+        "plain_paraphrase": "Inspect the windows for damage. Inspect the windows for damage. Inspect the windows for damage on the Berlin to Saarbrücken train. Something damaged the train. The ICE was damaged in 2023.",
+        "sentence_boundary": "Check the windows for damage. Check the windows for damage. Check the windows for damage. This is about the Berlin to Saarbrücken train. Something damaged the train. The ICE was damaged in 2023."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 51,
+      "baseline_z": 3.8729833462074166,
+      "source": "The amount topic is about the N8. The N8 amount defines something. The amount of something is defined as the N8 part. Define the amount as the part. The amount is defined as the part.",
+      "candidates": {
+        "amr_guided": "The N8 is the topic. The N8 amount defines something. Something's amount is defined as the N8 part. Define the part as the amount. The part defines the amount.",
+        "plain_paraphrase": "The topic concerns the N8. The N8 amount defines something. The part of something is defined as the N8 part. Define the amount as the part. The amount is defined as the part.",
+        "sentence_boundary": "The N8 amount defines something. The amount topic is about the N8. The amount of something is defined as the N8 part. Define the amount as the part. The amount is defined as the part."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 52,
+      "baseline_z": 2.840187787218772,
+      "source": "Follow the water. Follow the liquid water. Follow the water to the liquid Earth's moon. Follow the liquid water to the Earth's moon. Liquid water on Earth's moon is wet to a certain extent.",
+      "candidates": {
+        "amr_guided": "You should follow water. Follow the liquid water. The water should be followed to the liquid Earth's moon. The liquid water should be followed to Earth's moon. There is liquid water on Earth's moon, and it is wet to a certain extent.",
+        "plain_paraphrase": "Trace the water. Trace the liquid water. Trace the water to Earth's moon, which is liquid. Trace the liquid water to Earth's moon. Liquid water on Earth's moon is somewhat wet.",
+        "sentence_boundary": "Follow the water, the liquid water. Follow it to the liquid Earth's moon. Follow the liquid water to Earth's moon. Liquid water there is wet to a certain extent."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 54,
+      "baseline_z": 3.8729833462074166,
+      "source": "Patty Jenkins revealed details about the sequel at an event. Patty Jenkins revealed details about something. Details about Patty Jenkins. Patty Jenkins revealed details about something. Patty Jenkins revealed details about something.",
+      "candidates": {
+        "amr_guided": "The sequel's details were revealed by Patty Jenkins at an event. Something's details were revealed by Patty Jenkins. Patty Jenkins's details. Something's details were revealed by Patty Jenkins. Something's details were revealed by Patty Jenkins.",
+        "plain_paraphrase": "At an event, Patty Jenkins disclosed specifics about the sequel. Patty Jenkins disclosed specifics about something. Specifics about Patty Jenkins. Patty Jenkins disclosed specifics about something. Patty Jenkins disclosed specifics about something.",
+        "sentence_boundary": "Patty Jenkins revealed details about the sequel at an event. She revealed details about something. Details about her. She revealed details about something. She revealed details about something."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 55,
+      "baseline_z": 3.8729833462074166,
+      "source": "The data layer shows Maharashtra. Something defines Maharashtra as a state. Maharashtra defines a state. Maharashtra was defined as a state in 2009. Define the state as something.",
+      "candidates": {
+        "amr_guided": "Maharashtra is shown by the data layer. A state is what Maharashtra is defined as. Maharashtra defines a state. The year 2009 saw Maharashtra defined as a state. Something should be defined as the state.",
+        "plain_paraphrase": "The data layer indicates Maharashtra. Maharashtra is defined as a state. Maharashtra defines a state. In 2009, Maharashtra was defined as a state. Define the state as something.",
+        "sentence_boundary": "The data layer shows Maharashtra, which is defined as a state. Maharashtra defines a state, and it was defined as such in 2009. Define the state as something."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 56,
+      "baseline_z": 3.8729833462074166,
+      "source": "Show Mattel a future for the brand \"Mattel\" to the company. The brand Mattel future. Mattel brand future. The future of the Mattel brand was shown to the company. Show Mattel a future for the brand \"Mattel\" to the company.",
+      "candidates": {
+        "amr_guided": "Show the company the Mattel brand's future. The brand's future belongs to Mattel. The future of the brand is Mattel's. The company saw the Mattel brand's future. Show the company the Mattel brand's future.",
+        "plain_paraphrase": "The company was shown a future for the Mattel brand. The Mattel brand's future. The brand's future. The future of the Mattel brand was presented to the company. Show the company a future for the Mattel brand.",
+        "sentence_boundary": "Show Mattel a future for the brand. The Mattel brand's future was shown to the company. The brand's future. The future of the Mattel brand."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 57,
+      "baseline_z": 3.8729833462074166,
+      "source": "A character explores a concept. Harry Connolly is interested in a concept. Explore a concept. Harry Connolly explores a concept. Explore the concept of Harry Connolly with a named entity.",
+      "candidates": {
+        "amr_guided": "A character examines a concept. Harry Connolly finds a concept interesting. Examine a concept. Harry Connolly examines a concept. Examine with a named entity the concept of Harry Connolly.",
+        "plain_paraphrase": "A character looks into an idea. Harry Connolly has an interest in an idea. Look into an idea. Harry Connolly looks into an idea. Look into the idea of Harry Connolly with a named entity.",
+        "sentence_boundary": "A character explores a concept. Harry Connolly is interested in a concept. Explore a concept. Harry Connolly explores a concept. Explore the concept of Harry Connolly with a named entity."
+      },
+      "surface_checks": {
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    }
+  ]
+}

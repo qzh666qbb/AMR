@@ -1,0 +1,862 @@
+{
+  "all": [
+    {
+      "row": 0,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 32
+    },
+    {
+      "row": 1,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 25
+    },
+    {
+      "row": 2,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 43
+    },
+    {
+      "row": 3,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 22
+    },
+    {
+      "row": 4,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 43
+    },
+    {
+      "row": 5,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 47
+    },
+    {
+      "row": 6,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 39
+    },
+    {
+      "row": 7,
+      "sentences": 5,
+      "valid_graphs": 5,
+      "all_valid": true,
+      "triples": 41
+    },
+    {
+      "row": 8,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 29
+    },
+    {
+      "row": 9,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 28
+    },
+    {
+      "row": 10,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 38
+    },
+    {
+      "row": 11,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 35
+    },
+    {
+      "row": 12,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 45
+    },
+    {
+      "row": 13,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 47
+    },
+    {
+      "row": 14,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 44
+    },
+    {
+      "row": 15,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 36
+    },
+    {
+      "row": 16,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 22
+    },
+    {
+      "row": 17,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 31
+    },
+    {
+      "row": 18,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 27
+    },
+    {
+      "row": 19,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 22
+    },
+    {
+      "row": 20,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 50
+    },
+    {
+      "row": 21,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 50
+    },
+    {
+      "row": 22,
+      "sentences": 4,
+      "valid_graphs": 4,
+      "all_valid": true,
+      "triples": 39
+    },
+    {
+      "row": 23,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 32
+    },
+    {
+      "row": 24,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 46
+    },
+    {
+      "row": 25,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 31
+    },
+    {
+      "row": 26,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 35
+    },
+    {
+      "row": 27,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 46
+    },
+    {
+      "row": 28,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 47
+    },
+    {
+      "row": 29,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 45
+    },
+    {
+      "row": 30,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 42
+    },
+    {
+      "row": 31,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 44
+    },
+    {
+      "row": 32,
+      "sentences": 5,
+      "valid_graphs": 5,
+      "all_valid": true,
+      "triples": 68
+    },
+    {
+      "row": 33,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 55
+    },
+    {
+      "row": 34,
+      "sentences": 5,
+      "valid_graphs": 5,
+      "all_valid": true,
+      "triples": 55
+    },
+    {
+      "row": 35,
+      "sentences": 2,
+      "valid_graphs": 2,
+      "all_valid": true,
+      "triples": 59
+    },
+    {
+      "row": 36,
+      "sentences": 2,
+      "valid_graphs": 2,
+      "all_valid": true,
+      "triples": 45
+    },
+    {
+      "row": 37,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 57
+    },
+    {
+      "row": 38,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 39
+    },
+    {
+      "row": 39,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 45
+    },
+    {
+      "row": 40,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 43
+    },
+    {
+      "row": 41,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 26
+    },
+    {
+      "row": 42,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 32
+    },
+    {
+      "row": 43,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 38
+    },
+    {
+      "row": 44,
+      "sentences": 3,
+      "valid_graphs": 3,
+      "all_valid": true,
+      "triples": 61
+    },
+    {
+      "row": 45,
+      "sentences": 5,
+      "valid_graphs": 5,
+      "all_valid": true,
+      "triples": 66
+    },
+    {
+      "row": 46,
+      "sentences": 3,
+      "valid_graphs": 3,
+      "all_valid": true,
+      "triples": 63
+    },
+    {
+      "row": 47,
+      "sentences": 3,
+      "valid_graphs": 3,
+      "all_valid": true,
+      "triples": 69
+    },
+    {
+      "row": 48,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 28
+    },
+    {
+      "row": 49,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 32
+    },
+    {
+      "row": 50,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 34
+    },
+    {
+      "row": 51,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 28
+    },
+    {
+      "row": 52,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 36
+    },
+    {
+      "row": 53,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 44
+    },
+    {
+      "row": 54,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 42
+    },
+    {
+      "row": 55,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 27
+    },
+    {
+      "row": 56,
+      "sentences": 2,
+      "valid_graphs": 2,
+      "all_valid": true,
+      "triples": 58
+    },
+    {
+      "row": 57,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 40
+    },
+    {
+      "row": 58,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 38
+    },
+    {
+      "row": 59,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 40
+    },
+    {
+      "row": 60,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 36
+    },
+    {
+      "row": 61,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 23
+    },
+    {
+      "row": 62,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 23
+    },
+    {
+      "row": 63,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 42
+    },
+    {
+      "row": 64,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 34
+    },
+    {
+      "row": 65,
+      "sentences": 2,
+      "valid_graphs": 2,
+      "all_valid": true,
+      "triples": 52
+    },
+    {
+      "row": 66,
+      "sentences": 5,
+      "valid_graphs": 5,
+      "all_valid": true,
+      "triples": 61
+    },
+    {
+      "row": 67,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 29
+    },
+    {
+      "row": 68,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 42
+    },
+    {
+      "row": 69,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 34
+    },
+    {
+      "row": 70,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 46
+    },
+    {
+      "row": 71,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 41
+    },
+    {
+      "row": 72,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 54
+    },
+    {
+      "row": 73,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 51
+    },
+    {
+      "row": 74,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 51
+    },
+    {
+      "row": 75,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 39
+    },
+    {
+      "row": 76,
+      "sentences": 5,
+      "valid_graphs": 5,
+      "all_valid": true,
+      "triples": 55
+    },
+    {
+      "row": 77,
+      "sentences": 3,
+      "valid_graphs": 3,
+      "all_valid": true,
+      "triples": 41
+    },
+    {
+      "row": 78,
+      "sentences": 3,
+      "valid_graphs": 3,
+      "all_valid": true,
+      "triples": 44
+    },
+    {
+      "row": 79,
+      "sentences": 4,
+      "valid_graphs": 4,
+      "all_valid": true,
+      "triples": 44
+    },
+    {
+      "row": 80,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 44
+    },
+    {
+      "row": 81,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 35
+    },
+    {
+      "row": 82,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 42
+    },
+    {
+      "row": 83,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 33
+    },
+    {
+      "row": 84,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 38
+    },
+    {
+      "row": 85,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 30
+    },
+    {
+      "row": 86,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 50
+    },
+    {
+      "row": 87,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 40
+    },
+    {
+      "row": 88,
+      "sentences": 3,
+      "valid_graphs": 3,
+      "all_valid": true,
+      "triples": 77
+    },
+    {
+      "row": 89,
+      "sentences": 3,
+      "valid_graphs": 3,
+      "all_valid": true,
+      "triples": 68
+    },
+    {
+      "row": 90,
+      "sentences": 3,
+      "valid_graphs": 3,
+      "all_valid": true,
+      "triples": 74
+    },
+    {
+      "row": 91,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 65
+    },
+    {
+      "row": 92,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 51
+    },
+    {
+      "row": 93,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 44
+    },
+    {
+      "row": 94,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 35
+    },
+    {
+      "row": 95,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 37
+    },
+    {
+      "row": 96,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 41
+    },
+    {
+      "row": 97,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 31
+    },
+    {
+      "row": 98,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 39
+    },
+    {
+      "row": 99,
+      "sentences": 2,
+      "valid_graphs": 2,
+      "all_valid": true,
+      "triples": 47
+    },
+    {
+      "row": 100,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 46
+    },
+    {
+      "row": 101,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 36
+    },
+    {
+      "row": 102,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 39
+    },
+    {
+      "row": 103,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 48
+    },
+    {
+      "row": 104,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 43
+    },
+    {
+      "row": 105,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 56
+    },
+    {
+      "row": 106,
+      "sentences": 2,
+      "valid_graphs": 2,
+      "all_valid": true,
+      "triples": 53
+    },
+    {
+      "row": 107,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 29
+    },
+    {
+      "row": 108,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 45
+    },
+    {
+      "row": 109,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 57
+    },
+    {
+      "row": 110,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 36
+    },
+    {
+      "row": 111,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 67
+    },
+    {
+      "row": 112,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 26
+    },
+    {
+      "row": 113,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 25
+    },
+    {
+      "row": 114,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 40
+    },
+    {
+      "row": 115,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 28
+    },
+    {
+      "row": 116,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 33
+    },
+    {
+      "row": 117,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 49
+    },
+    {
+      "row": 118,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 31
+    },
+    {
+      "row": 119,
+      "sentences": 1,
+      "valid_graphs": 1,
+      "all_valid": true,
+      "triples": 51
+    }
+  ],
+  "strict_rows": [
+    0,
+    12,
+    20,
+    40,
+    44,
+    48,
+    52,
+    72,
+    77,
+    80,
+    84,
+    91,
+    92,
+    100,
+    108,
+    116
+  ]
+}

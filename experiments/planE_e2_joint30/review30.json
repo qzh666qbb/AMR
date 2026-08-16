@@ -1,0 +1,272 @@
+[
+  {
+    "index": 0,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 1.36,
+    "numbers_ok": true,
+    "missing_capitalized": "",
+    "amr_chars": 622,
+    "attack": "The server was launched by IBM Corporation, which is the subject of the cluster topic and is associated with an unspecified entity, with IBM Corporation itself being the central reference."
+  },
+  {
+    "index": 1,
+    "z_score": -0.8164965809277261,
+    "length_ratio": 1.92,
+    "numbers_ok": true,
+    "missing_capitalized": "Make",
+    "amr_chars": 577,
+    "attack": "The requirement that the report be transparent was established, and an earning was achieved by the organization. At a certain time, a specific earning was made by Prasar Bharti, and the organization also secured another earning, with Prasar Bharti’s earning being limited to only that amount."
+  },
+  {
+    "index": 2,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 0.81,
+    "numbers_ok": true,
+    "missing_capitalized": "Marketers,Marketers,Marketers,Define",
+    "amr_chars": 950,
+    "attack": "A definition of Apple as a brand is made by marketers, who characterize it as something that constitutes their object of definition."
+  },
+  {
+    "index": 3,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 0.6,
+    "numbers_ok": true,
+    "missing_capitalized": "The,Appoint,Appoint,The",
+    "amr_chars": 816,
+    "attack": "A directorship was assigned to Kim Rinaldi by the Middletown Township Public Library, with that appointment itself being made by the Township of Middletown, resulting in Kim Rinaldi's selection for a position at the library."
+  },
+  {
+    "index": 4,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 1.31,
+    "numbers_ok": true,
+    "missing_capitalized": "Make",
+    "amr_chars": 922,
+    "attack": "The World Health Organization is cited by the report, which also mandates that a detailed account be provided; the organization is mentioned again, with the report reiterating its reference to the World Health Organization."
+  },
+  {
+    "index": 5,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 1.26,
+    "numbers_ok": true,
+    "missing_capitalized": "Shut,Shut,Shut",
+    "amr_chars": 832,
+    "attack": "The cessation of Allo was ordered, and a service was terminated by Google; the closure of that service involved the shutdown of something, which was itself a company action."
+  },
+  {
+    "index": 6,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 0.79,
+    "numbers_ok": true,
+    "missing_capitalized": "Was,The,The,The,The",
+    "amr_chars": 1374,
+    "attack": "Receiving an assignment for the arts and culture position caused me surprise with an idea; that this role was given to me was unexpected, and the act of being assigned the arts and culture position itself surprised me by providing something."
+  },
+  {
+    "index": 7,
+    "z_score": -0.8164965809277261,
+    "length_ratio": 1.17,
+    "numbers_ok": true,
+    "missing_capitalized": "Someone,Give,Someone,Give",
+    "amr_chars": 1323,
+    "attack": "Washington, D.C. received a presentation from an unnamed individual, and a presentation was delivered to someone. An individual presented to Washington, D.C., and a presentation about the city was given to the city itself."
+  },
+  {
+    "index": 8,
+    "z_score": 2.840187787218772,
+    "length_ratio": 1.33,
+    "numbers_ok": true,
+    "missing_capitalized": "Keep,Something,Something,Something",
+    "amr_chars": 620,
+    "attack": "Maintaining a serious tone is essential. The extent of New England is vast. An entity departed New England for another entity. An entity exited New England. An entity relocated from New England to a specific location."
+  },
+  {
+    "index": 9,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 1.38,
+    "numbers_ok": true,
+    "missing_capitalized": "You,Define,Define,Define",
+    "amr_chars": 494,
+    "attack": "A definition of the abbreviation ICYMI—which stands for a term that was missed by an individual—is now being requested; you failed to catch what the acronym ICYMI originally meant."
+  },
+  {
+    "index": 10,
+    "z_score": -0.8164965809277261,
+    "length_ratio": 0.92,
+    "numbers_ok": true,
+    "missing_capitalized": "Tell,Tell,Tell,Tell,Tell",
+    "amr_chars": 730,
+    "attack": "The jury must be informed of the acquittal—specifically, the acquittal concerning the widow in connection with the Pulse nightclub. That acquittal, involving the widow and the nightclub, is what the jury needs to be told."
+  },
+  {
+    "index": 11,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 1.18,
+    "numbers_ok": true,
+    "missing_capitalized": "Tell",
+    "amr_chars": 519,
+    "attack": "QVC's degree of aggressiveness has a limit, though the company is aggressively planning something for Black Friday; QVC should be informed about Black Friday, as its aggressive nature is evident in those plans."
+  },
+  {
+    "index": 12,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 1.23,
+    "numbers_ok": true,
+    "missing_capitalized": "Brilliant,Someone",
+    "amr_chars": 815,
+    "attack": "The academic brilliance of Malala Yousafzai is noted, and in 2024, she provides a description of something; additionally, a description of Malala Yousafzai is given by an unspecified individual to a community."
+  },
+  {
+    "index": 13,
+    "z_score": -0.8164965809277261,
+    "length_ratio": 1.2,
+    "numbers_ok": true,
+    "missing_capitalized": "Occasional,Someone,Occasional,Diarrhea,Occasional,Tell,Tell",
+    "amr_chars": 1135,
+    "attack": "A condition known as occasional diarrhea is experienced by an individual, and this same individual has that condition. The occasional diarrhea condition should be reported by you to the specialist, and you must also inform the doctor about your occasional diarrhea condition."
+  },
+  {
+    "index": 14,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 0.74,
+    "numbers_ok": true,
+    "missing_capitalized": "Someone",
+    "amr_chars": 1696,
+    "attack": "The importance of WebMD Health Corp. was established by its being held by an unspecified party during 2015, with that significance arising from multiple, unstated reasons."
+  },
+  {
+    "index": 15,
+    "z_score": -0.8164965809277261,
+    "length_ratio": 1.3,
+    "numbers_ok": true,
+    "missing_capitalized": "The,Show,The",
+    "amr_chars": 1686,
+    "attack": "During the conference, a session focused on SocialDevCamp Chicago was shown to an attendee, as the conference itself hosted an event by that name. SocialDevCamp Chicago, in turn, organized an occurrence in 2024, and another such event was also put on by SocialDevCamp Chicago during that same year."
+  },
+  {
+    "index": 16,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 1.35,
+    "numbers_ok": true,
+    "missing_capitalized": "Define,Define",
+    "amr_chars": 764,
+    "attack": "BlackRock Inc.'s global operations are conducted; let it be defined as an entity, with its own definition, through which it operates something, such that BlackRock Inc. constitutes a characteristic of itself."
+  },
+  {
+    "index": 17,
+    "z_score": -0.8164965809277261,
+    "length_ratio": 1.29,
+    "numbers_ok": true,
+    "missing_capitalized": "",
+    "amr_chars": 749,
+    "attack": "The home's sale to New York occurred during 2023, while New York itself was also sold that same year, with New York being purchased by the home. Additionally, New York was sold in 2023, and it was New York that sold the home in 2023."
+  },
+  {
+    "index": 18,
+    "z_score": -1.0,
+    "length_ratio": 1.02,
+    "numbers_ok": true,
+    "missing_capitalized": "The,The,Define,The",
+    "amr_chars": 646,
+    "attack": "A definition is given for a 2-to-2 ratio as a concept. NASCAR is conceptualized as something, with that same definition of the concept applying at a specific time. A concept is to be defined as something, and NASCAR is again defined as something."
+  },
+  {
+    "index": 19,
+    "z_score": -1.0,
+    "length_ratio": 1.38,
+    "numbers_ok": true,
+    "missing_capitalized": "Imagine",
+    "amr_chars": 952,
+    "attack": "The arrival of Jeff Deardorff at a location has occurred; Jeff Deardorff's arrival at a location took place. One can conceive of a day's arrival. A location was reached by Jeff Deardorff; a location saw the arrival of Jeff Deardorff."
+  },
+  {
+    "index": 20,
+    "z_score": -1.0,
+    "length_ratio": 0.78,
+    "numbers_ok": true,
+    "missing_capitalized": "",
+    "amr_chars": 742,
+    "attack": "The new deputy area commander for Aylesbury has rendered himself accessible. Approachability was achieved by Aylesbury’s deputy area commander. One Aylesbury resident was the recipient of the deputy area commander’s self-made approachability."
+  },
+  {
+    "index": 21,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 0.87,
+    "numbers_ok": true,
+    "missing_capitalized": "Order,Order,Order",
+    "amr_chars": 1487,
+    "attack": "The placement of an order for two military helicopters by the UAE, which was made recently from a specific entity, involves the acquisition of these two aircraft."
+  },
+  {
+    "index": 22,
+    "z_score": -0.8164965809277261,
+    "length_ratio": 1.45,
+    "numbers_ok": true,
+    "missing_capitalized": "The,Ask,Ask,Ask,Ask",
+    "amr_chars": 886,
+    "attack": "It is a fact that a subject exists concerning Barack Obama. When a lawmaker in Washington is questioned regarding the subject of Barack Obama, or when that lawmaker is asked about the counsel provided by Barack Obama pertaining to Washington, or when any lawmaker is simply queried about Barack Obama, the act of inquiring about Barack Obama occurs."
+  },
+  {
+    "index": 23,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 0.68,
+    "numbers_ok": true,
+    "missing_capitalized": "",
+    "amr_chars": 1122,
+    "attack": "At a specific location, Asus intends to carry out an update of the laptop’s display drivers—this constitutes the company’s plan for those drivers, which is indeed something."
+  },
+  {
+    "index": 24,
+    "z_score": -0.8164965809277261,
+    "length_ratio": 1.74,
+    "numbers_ok": true,
+    "missing_capitalized": "Something,Something",
+    "amr_chars": 1370,
+    "attack": "A definition of Mario is provided by something, while Mario himself defined something—additionally, Mario defined that same something at a specific location. Furthermore, something defines Mario, and Mario defined something that is new."
+  },
+  {
+    "index": 25,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 1.03,
+    "numbers_ok": true,
+    "missing_capitalized": "Give,Give",
+    "amr_chars": 841,
+    "attack": "Council Bluffs Marshalltown constructed a nine-run advantage, resulting in a victory over Council Bluffs, thereby securing a win; the win achieved against Council Bluffs was built, and Council Bluffs is considered extremely great."
+  },
+  {
+    "index": 26,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 0.75,
+    "numbers_ok": true,
+    "missing_capitalized": "Define,Define",
+    "amr_chars": 867,
+    "attack": "The topic of the nice lots is now defined, and Builder is the one who defines both that topic and the nice lots themselves."
+  },
+  {
+    "index": 27,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 1.09,
+    "numbers_ok": true,
+    "missing_capitalized": "Someone,Give,Someone,Someone",
+    "amr_chars": 240,
+    "attack": "The provision of DERA funding to a company was carried out by an unspecified entity, with the intention of supporting the program's reauthorization at the U.S. Environmental Protection Agency; such funding has been recently allocated to a company through an act of giving by an unidentified party."
+  },
+  {
+    "index": 28,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 0.69,
+    "numbers_ok": true,
+    "missing_capitalized": "Someone,Cast,Cast",
+    "amr_chars": 686,
+    "attack": "In 2008, the horror film \"Echo\" saw a role being cast by someone, with that casting event occurring for the movie itself."
+  },
+  {
+    "index": 29,
+    "z_score": -0.5773502691896258,
+    "length_ratio": 1.44,
+    "numbers_ok": true,
+    "missing_capitalized": "",
+    "amr_chars": 1008,
+    "attack": "A location heard a holler from Travis Scott; during 2018, an utterance was hollered by him, with that same individual having hollered something in that year, and a holler of something was produced by a person."
+  }
+]

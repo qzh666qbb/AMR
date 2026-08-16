@@ -1,0 +1,47 @@
+[
+  {
+    "method": "Plan B combo 250",
+    "n": 250,
+    "mean_z": 3.148,
+    "low_rate": 0.2,
+    "quality_rate": "NA",
+    "strict_rate": "NA",
+    "auroc": 0.982
+  },
+  {
+    "method": "Plan C mod+arg 30",
+    "n": 30,
+    "mean_z": 2.855,
+    "low_rate": 0.267,
+    "quality_rate": 0.467,
+    "strict_rate": 0.033,
+    "auroc": 0.926
+  },
+  {
+    "method": "Plan C mod+arg 100",
+    "n": 100,
+    "mean_z": 3.086,
+    "low_rate": 0.23,
+    "quality_rate": 0.46,
+    "strict_rate": 0.04,
+    "auroc": 0.974
+  },
+  {
+    "method": "Plan D reentrancy 30",
+    "n": 30,
+    "mean_z": 2.966,
+    "low_rate": 0.267,
+    "quality_rate": "NA",
+    "strict_rate": "NA",
+    "auroc": 0.928
+  },
+  {
+    "method": "Plan D reent+arg 30",
+    "n": 30,
+    "mean_z": 2.966,
+    "low_rate": 0.267,
+    "quality_rate": 0.5,
+    "strict_rate": 0.033,
+    "auroc": 0.928
+  }
+]

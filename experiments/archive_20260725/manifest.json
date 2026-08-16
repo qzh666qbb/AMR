@@ -1,0 +1,32 @@
+﻿[
+    {
+        "Path":  "baselines\\local\\swan_acl2026_realnews",
+        "Files":  82,
+        "Bytes":  2301689
+    },
+    {
+        "Path":  "experiments\\e1_invariance",
+        "Files":  3,
+        "Bytes":  102752
+    },
+    {
+        "Path":  "experiments\\e2_attack_pilot",
+        "Files":  31,
+        "Bytes":  622509
+    },
+    {
+        "Path":  "experiments\\e3_main",
+        "Files":  36,
+        "Bytes":  2009676
+    },
+    {
+        "Path":  "experiments\\e4_ablation",
+        "Files":  19,
+        "Bytes":  318402
+    },
+    {
+        "Path":  "scripts",
+        "Files":  15,
+        "Bytes":  57688
+    }
+]

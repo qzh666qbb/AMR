@@ -1,0 +1,32 @@
+[
+  {
+    "paragraph": 3,
+    "sentence": 1,
+    "text": "The library appointed Kim Rinaldi as a director.",
+    "attack": "Kim Rinaldi was appointed as a director by the library."
+  },
+  {
+    "paragraph": 3,
+    "sentence": 2,
+    "text": "Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown.",
+    "attack": "The Township of Middletown's appointment of Kim Rinaldi is to have the library appointed as the appointee."
+  },
+  {
+    "paragraph": 3,
+    "sentence": 3,
+    "text": "Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown.",
+    "attack": "The Township of Middletown's appointment of Kim Rinaldi is to have the library appointed as the appointee."
+  },
+  {
+    "paragraph": 6,
+    "sentence": 1,
+    "text": "The assignment of the arts and culture position was a surprise to me.",
+    "attack": "The assignment of the arts and culture position came as a surprise to me."
+  },
+  {
+    "paragraph": 6,
+    "sentence": 3,
+    "text": "The arts and culture position assignment surprised me.",
+    "attack": "The assignment of the arts and culture position was surprising to me."
+  }
+]

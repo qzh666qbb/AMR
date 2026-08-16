@@ -1,0 +1,2002 @@
+[
+  {
+    "index": 0,
+    "candidate": 0,
+    "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+    "attack": "The launch of a server was carried out by IBM Corporation, which is itself the subject of the cluster topic, and this same entity is linked to an unspecified something, as noted in the repeated reference to IBM Corporation.",
+    "position": 0,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 1,
+    "candidate": 0,
+    "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+    "attack": "Prasar Bharti achieved only a specific earning during a certain period, and the same organization also obtained something else, while the report must be made transparent, with the entity's acquisition occurring at an identified time.",
+    "position": 4,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 2,
+    "candidate": 0,
+    "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+    "attack": "Apple’s brand is defined by marketers, who characterize it as a marketer’s definition of the company itself—specifically, the Apple brand is identified by marketers as being defined in that very act, with a marketer framing Apple as a brand through this definition.",
+    "position": 8,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 3,
+    "candidate": 0,
+    "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "attack": "The appointment of Kim Rinaldi to the position of director was made by the Middletown Township Public Library, which itself had been designated as the appointee for that same appointment by the Township of Middletown; this action resulted in Kim Rinaldi being named to a role by the library.",
+    "position": 12,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 4,
+    "candidate": 0,
+    "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+    "attack": "The requirement for a detailed report is stated, with the World Health Organization being cited by that same report, which further notes the World Health Organization as the entity referenced in its own assertions.",
+    "position": 16,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 5,
+    "candidate": 1,
+    "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+    "attack": "A directive is issued to terminate the service, including the specific termination of Allo. An unnamed company carried out the shutdown of an entity, with Google being the entity that discontinued a component within one of its services. The instruction to deactivate the service is reiterated.",
+    "position": 21,
+    "z_score": -1.0
+  },
+  {
+    "index": 6,
+    "candidate": 2,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "That I was given something came as a surprise. My being assigned the arts and culture position was something that surprised me. A surprise, in the form of something, was what the assignment of the arts and culture position gave me. The arts and culture position assignment caused my surprise. An idea was what the arts and culture position assignment surprised me with.",
+    "position": 26,
+    "z_score": -1.2909944487358056
+  },
+  {
+    "index": 7,
+    "candidate": 0,
+    "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+    "attack": "A presentation was delivered to Washington, D.C. by an individual; that same individual also gave a presentation to someone, and a presentation about Washington, D.C. was given to Washington.",
+    "position": 28,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 8,
+    "candidate": 1,
+    "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+    "attack": "Maintaining a serious tone is essential, given the extensive size of New England, from which something departed for a location, something else left New England, and another entity also exited New England toward a destination.",
+    "position": 33,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 9,
+    "candidate": 0,
+    "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+    "attack": "A definition for the abbreviation ICYMI, which stands for \"in case you missed it,\" was missed by you. The ICYMI abbreviation's definition is now required to be provided, as something was overlooked by an individual.",
+    "position": 36,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 10,
+    "candidate": 2,
+    "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "attack": "The jury must be informed of the acquittal concerning the widow and the Pulse nightclub; repeatedly, the acquittal itself is what the jury needs to be told about the widow in relation to that nightclub.",
+    "position": 42,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 11,
+    "candidate": 0,
+    "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+    "attack": "QVC's aggressiveness is evident in its planning for Black Friday, and it is being told something about the event; the company's aggressive approach underlies its Black Friday plans.",
+    "position": 44,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 12,
+    "candidate": 0,
+    "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+    "attack": "It was in 2024 that Malala Yousafzai, an academic standout, provided a description of something, while also being the subject of a description given to a community by an unspecified individual; the brilliance of Malala Yousafzai is affirmed.",
+    "position": 48,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 13,
+    "candidate": 0,
+    "source": "Occasional diarrhea affects someone. Someone experiences Occasional Diarrhea as a condition. Occasional diarrhea is a condition. Tell the doctor about your occasional diarrhea condition to the specialist. Tell the specialist about your occasional diarrhea condition.",
+    "attack": "The condition of occasional diarrhea is experienced by an individual, and this person is affected by it as a medical issue. It is necessary for that individual to inform a specialist, specifically the doctor, regarding the presence of this occasional diarrhea condition.",
+    "position": 52,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 14,
+    "candidate": 0,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "Held by an unspecified party in 2015, WebMD Health Corp. is considered significant for multiple distinct reasons, though the specific purposes for which it was held and its importance are not identified.",
+    "position": 56,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 15,
+    "candidate": 0,
+    "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+    "attack": "At the conference, a session about SocialDevCamp Chicago was shown to an attendee; this conference hosted an event called SocialDevCamp Chicago, which itself took place in 2024—a year in which SocialDevCamp Chicago also held an event.",
+    "position": 60,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 16,
+    "candidate": 0,
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "attack": "The global operations of BlackRock Inc. are conducted; let BlackRock Inc. be defined as an entity, and let BlackRock Inc. itself be specified. Something is operated by BlackRock Inc., and a certain characterization of BlackRock Inc. pertains to what BlackRock Inc. is.",
+    "position": 64,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 17,
+    "candidate": 0,
+    "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+    "attack": "The home was purchased by New York in 2023; that same year, New York itself was sold, and furthermore, New York was transferred to the home, with New York also being sold in 2023, and additionally, New York completed the sale of the home during 2023.",
+    "position": 68,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 18,
+    "candidate": 1,
+    "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+    "attack": "A concept is established whereby a 2-to-2 ratio of something is defined; simultaneously, the notion of NASCAR is specified as something, with that same specification of NASCAR as something occurring at a particular time. A definition of a concept as something is provided, and the concept of NASCAR is further defined as something.",
+    "position": 73,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 19,
+    "candidate": 0,
+    "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+    "attack": "The arrival of Jeff Deardorff at a specific place has occurred; additionally, Jeff Deardorff reached that same location. One might conceive of a day's beginning. Furthermore, Jeff Deardorff completed his arrival at the location, and Jeff Deardorff also showed up at that place.",
+    "position": 76,
+    "z_score": -1.0
+  },
+  {
+    "index": 20,
+    "candidate": 0,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "The new deputy area commander for Aylesbury has rendered himself accessible. Despite his appointment, accessibility was established by this official. Aylesbury’s deputy area commander, who is newly appointed, achieved personal approachability. One resident of Aylesbury was the recipient of this approachable demeanor from the deputy area commander.",
+    "position": 80,
+    "z_score": -1.1547005383792517
+  },
+  {
+    "index": 21,
+    "candidate": 0,
+    "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+    "attack": "A recent acquisition involves the UAE's procurement of two military helicopters from a specific entity, with that same transaction—ordering two military helicopters—being reiterated across multiple statements.",
+    "position": 84,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 22,
+    "candidate": 0,
+    "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+    "attack": "Asking a lawmaker in Washington about Barack Obama yields something; the topic itself is something. Inquiring of a lawmaker there about the advice that Obama offered produces a response. A lawmaker can be questioned regarding Obama. The query is about Obama.",
+    "position": 88,
+    "z_score": 0.0
+  },
+  {
+    "index": 23,
+    "candidate": 0,
+    "source": "Asus's plan for the laptop's display drivers is something. Asus plans something at a location. Asus updates the laptop's display drivers at a location. Asus plans to update the display drivers. Asus's plan for the laptop's display drivers is something.",
+    "attack": "The existence of a plan by Asus for updating the laptop’s display drivers—which involves a specific location where this update is to occur—constitutes something; furthermore, this planned action is characterized as Asus updating those drivers at that location, and the nature of that plan itself is defined as something.",
+    "position": 92,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 24,
+    "candidate": 3,
+    "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+    "attack": "A definition of Mario is provided by something; that same something is also defined by Mario. At a certain location, Mario provided a definition of something, and this definition was for something new. Mario is again defined by something, and the act of defining something new was performed by Mario.",
+    "position": 99,
+    "z_score": -1.0
+  },
+  {
+    "index": 25,
+    "candidate": 0,
+    "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+    "attack": "Council Bluffs Marshalltown constructed a nine-run advantage, which secured a victory for the team versus Council Bluffs; another win was thereby achieved for the squad. This triumph was assembled in opposition to Council Bluffs, and Council Bluffs is considered extremely excellent.",
+    "position": 100,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 26,
+    "candidate": 0,
+    "source": "The nice lots define something now. Define the topic of the nice lots to Builder. Builder defines the topic of the nice lots. Define the nice lots. Builder defines the nice lots.",
+    "attack": "The topic of the nice lots is currently being defined by them, and it must be defined for Builder, who also defines that same topic, while the nice lots themselves are defined, and Builder additionally defines these nice lots.",
+    "position": 104,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 27,
+    "candidate": 0,
+    "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+    "attack": "A company recently received DERA funding from an unidentified source, which was allocated to support the reauthorization of the program at the U.S. Environmental Protection Agency, and this same entity was also the recipient of DERA funding on multiple occasions.",
+    "position": 108,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 28,
+    "candidate": 0,
+    "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+    "attack": "The casting of a role in the 2008 horror film \"Echo\" occurred when someone cast something in it, with that role being placed into the movie upon its release that same year.",
+    "position": 112,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 29,
+    "candidate": 0,
+    "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+    "attack": "A holler was emitted by Travis Scott at some place, and the same individual also produced a holler during 2018, with that holler being directed toward an unspecified entity, which itself was vocalized by a person in that same year.",
+    "position": 116,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 30,
+    "candidate": 0,
+    "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+    "attack": "Mr Lim Siong Guan, at a specific location, provides a definition of graciousness, which is to be understood as an attribute of a nation; a nation itself also defines what graciousness means.",
+    "position": 120,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 31,
+    "candidate": 0,
+    "source": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+    "attack": "The recent reporting of Bus Bob Krause's death to an unspecified recipient has occurred, and a beneficial outcome should be generated from this event.",
+    "position": 124,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 32,
+    "candidate": 0,
+    "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+    "attack": "The passing of Robert E. Gates, an individual who died, occurred alongside the death of Flip, who left behind Cindy Thompson; Cindy Thompson herself also died, as did another person.",
+    "position": 128,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 33,
+    "candidate": 0,
+    "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+    "attack": "A story about something should be told to Alice by a person, and that same person is also required to tell her a story regarding a city. Alice, being a person of some unspecified age, is the recipient. Additionally, a person must tell Alice a story concerning a city, and furthermore, a story about New York City specifically must be narrated to her by a person.",
+    "position": 132,
+    "z_score": -1.0
+  },
+  {
+    "index": 34,
+    "candidate": 0,
+    "source": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. Throw a pass.",
+    "attack": "The considerable attractiveness of Josh Rosen was noted, and a pass was thrown by him specifically during the year 2015; additionally, the action of throwing something is performed by you, with that thrown object being a pass.",
+    "position": 136,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 35,
+    "candidate": 0,
+    "source": "The New England Patriots. The New England Patriots played in 2019. The topic about the New England Patriots. Fans discuss the game outcome. Fans discuss the outcome.",
+    "attack": "The 2019 season involved the New England Patriots, and it was the New England Patriots who played that year; discussions among fans regarding the outcome of the game have occurred, specifically concerning that same outcome.",
+    "position": 140,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 36,
+    "candidate": 0,
+    "source": "Lynn teaches two employees. Teach two employees. Lynn Blake did not teach two hospital employees. Lynn Blake taught two hospital employees CPR. Lynn Blake.",
+    "attack": "Lynn Blake's instruction of CPR was provided to two hospital employees, though it was not the case that two hospital employees were taught by Lynn; rather, Lynn taught two employees, and those two hospital employees received CPR training from Lynn Blake.",
+    "position": 144,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 37,
+    "candidate": 2,
+    "source": "The Sports Academy's Mamba Mentality. Sports Academy defines the Mamba Mentality. Define the Mamba Mentality. Define the Mamba Mentality. Sports Academy defined the Mamba Mentality as something recently.",
+    "attack": "The Mamba Mentality, as recently defined by Sports Academy, is what Sports Academy calls the Mamba Mentality; this definition, which Sports Academy has provided, constitutes the Mamba Mentality's meaning.",
+    "position": 150,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 38,
+    "candidate": 1,
+    "source": "The longest edition of Football Weekly has something. The longest edition of Football Weekly gave something to one Football Weekly. Tell the listener something about Football Weekly Max. Tell the listener something about Football Weekly Max. Tell the listener something about Football Weekly Max.",
+    "attack": "A particular quality belongs to the longest Football Weekly installment, and that same installment provided one Football Weekly with a gift. Regarding Football Weekly Max, three separate pieces of information must be conveyed to the listener.",
+    "position": 153,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 39,
+    "candidate": 0,
+    "source": "Tell a user something about the mood of paranoia in Westminster to a politician. The mood of paranoia pervades Westminster. Tell a politician about the mood of paranoia in Westminster. The mood of paranoia pervades Westminster. The mood of paranoia pervades Westminster.",
+    "attack": "A politician should be informed that a pervasive mood of paranoia currently characterizes Westminster, with this same atmosphere of suspicion being reported to them as an ongoing condition throughout the political establishment.",
+    "position": 156,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 40,
+    "candidate": 1,
+    "source": "Virtuoso Luxe Report surveyed something. Survey your advisor about the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report was surveyed. Virtuoso Luxe Report. An advisor surveyed Virtuoso Luxe Report about a topic.",
+    "attack": "The Virtuoso Luxe Report's survey was administered; regarding this report, you should consult your advisor within Virtuoso. That same survey, which addressed a specific topic, was conducted by an advisor on behalf of the Virtuoso Luxe Report itself.",
+    "position": 161,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 41,
+    "candidate": 2,
+    "source": "The General Government Structural Balance as a percentage of potential GDP for Israel in 2015 equaled negative two. Set the balance to negative. Set the structural balance of Israel to negative two. Set the structural balance to negative. Set the structural balance of Israel to negative two.",
+    "attack": "For Israel in 2015, the general government structural balance, expressed as a percentage of potential GDP, was negative two. That balance must be set to negative; Israel’s structural balance is to be set at negative two, and the structural balance itself is to be negative, with Israel’s structural balance again set to negative two.",
+    "position": 166,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 42,
+    "candidate": 0,
+    "source": "Ann Iungerich was not defined. Ann Iungerich was not defined. Ann Iungerich shared lessons learned. Someone taught Ann Iungerich a lesson. Ann Iungerich shared a lesson in 2024.",
+    "attack": "In 2024, a lesson that had been taught to Ann Iungerich was shared by her, yet she was never defined; additionally, the fact that Ann Iungerich was not defined remained true, and a separate instance of her sharing lessons learned also occurred.",
+    "position": 168,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 43,
+    "candidate": 0,
+    "source": "Tell a story about a woman dying in childbirth at New York Presbyterian Hospital. The death of a woman at New York Presbyterian Hospital is a tragedy. New York Presbyterian Hospital suffered a tragedy. A tragedy occurred at New York Presbyterian Hospital. A New York Presbyterian tragedy.",
+    "attack": "A tragedy unfolded at New York Presbyterian Hospital when a woman died during childbirth, marking an event that the institution itself endured—the loss of a life there is described as a tragedy, and that same tragedy, centered on New York Presbyterian, is what this story recounts.",
+    "position": 172,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 44,
+    "candidate": 0,
+    "source": "MOVE Systems redesigned something. MOVE Systems redesigned something for a future. MOVE Systems redesigned something. MOVE Systems is a company named MOVE Systems. MOVE Systems is a company.",
+    "attack": "For a future, a redesign of something was undertaken by the company MOVE Systems, which is named MOVE Systems, and that same company also redesigned something, with the company itself being MOVE Systems.",
+    "position": 176,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 45,
+    "candidate": 2,
+    "source": "President Trump's decision to freeze federal employee pay and cut retirement programs met with great consternation from something. The topic of Donald Trump's decision met with great consternation. Ask Donald Trump about the decision. Someone asked Donald Trump about a decision. Ask Donald Trump about the decision.",
+    "attack": "A query directed at Donald Trump regarding his choice to halt increases in federal worker compensation and reduce pension benefits—a move that elicited significant dismay from certain quarters—was posed to him. That same action by President Trump became the subject of considerable unease. Someone specifically inquired of Donald Trump about that very decision.",
+    "position": 182,
+    "z_score": -1.0
+  },
+  {
+    "index": 46,
+    "candidate": 0,
+    "source": "The defense overcame the Carolina Panthers. The defense overcame something. The defense overcame the Carolina Panthers. The defense overcame the Carolina Panthers. The defense overcame the Carolina Panthers.",
+    "attack": "A victory over the Carolina Panthers was achieved by the defense, which also managed to prevail against that same opponent repeatedly—specifically, the defense's success over the Carolina Panthers occurred multiple times, as the defense overcame the Carolina Panthers on more than one occasion.",
+    "position": 184,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 47,
+    "candidate": 2,
+    "source": "Ask a teacher about the history of France. Ask a teacher about the history of France. A teacher's France history. The history of France is important to a teacher. Ask a teacher about the history of France for something.",
+    "attack": "A teacher might be consulted regarding the history of France; that same educator could be asked about France's history once more. The historical narrative of France as known to a teacher holds significance for them. One should inquire of a teacher concerning the history of France for some particular purpose.",
+    "position": 190,
+    "z_score": -1.0
+  },
+  {
+    "index": 48,
+    "candidate": 0,
+    "source": "SpaceX Dragon. SpaceX Dragon. SpaceX Dragon. Make the rocket used. SpaceX Dragon launched a used supply ship to something.",
+    "attack": "The capsule, known as SpaceX Dragon, was the vehicle that carried a previously flown rocket into orbit; that launch involved a used supply ship heading to an unspecified destination.",
+    "position": 192,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 49,
+    "candidate": 0,
+    "source": "Nike Inc tell the profit from sales of sports clothes. Nike Inc reported a profit. Nike Inc is a company. Nike Inc reported something in a location. Nike Inc reported a profit in a location.",
+    "attack": "Nike Inc., as a company, disclosed during a financial report delivered at a specific location that it had generated a profit, which was attributed to the revenue from sales of sports apparel; this profit announcement was made by Nike Inc. at that same location.",
+    "position": 196,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 50,
+    "candidate": 0,
+    "source": "Check the windows for damage. Check the windows for damage. Check the windows for damage about the Berlin to Saarbrücken train. The train was damaged by something. The ICE was damaged in 2023.",
+    "attack": "The windows of the ICE train traveling from Berlin to Saarbrücken should be examined for damage, as the train was affected by an unspecified cause in 2023, and a repeated assessment of the windows is required.",
+    "position": 200,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 51,
+    "candidate": 2,
+    "source": "The amount topic is about the N8. The N8 amount defines something. The amount of something is defined as the N8 part. Define the amount as the part. The amount is defined as the part.",
+    "attack": "The N8 serves as the subject of the amount topic, with that amount being defined as the N8 component. By specifying the amount as this part, the definition establishes the amount as the part itself.",
+    "position": 206,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 52,
+    "candidate": 0,
+    "source": "Follow the water. Follow the liquid water. Follow the water to the liquid Earth's moon. Follow the liquid water to the Earth's moon. Liquid water on Earth's moon is wet to a certain extent.",
+    "attack": "To a certain extent, the liquid water that is found on Earth's moon is wet; one should follow that water, specifically the liquid form, and trace it to this lunar body.",
+    "position": 208,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 53,
+    "candidate": 0,
+    "source": "A vehicle attack involves a three-word named entity. A vehicle attack targeted the \"Vehicle Attack\" entity. A vehicle attack targeted a three-word named entity with something. A vehicle attack targeted the \"Vehicle Attack\" entity with something. A vehicle attack targeted something with a \"Vehicle Attack\" entity.",
+    "attack": "A \"Vehicle Attack\" entity, which is a three-word named entity, was the target of a vehicle attack, and that same vehicle attack also involved that entity being targeted with something; additionally, a vehicle attack targeted a three-word named entity with something, and yet another vehicle attack targeted something with a \"Vehicle Attack\" entity.",
+    "position": 212,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 54,
+    "candidate": 0,
+    "source": "Patty Jenkins revealed details about the sequel at an event. Patty Jenkins revealed details about something. Details about Patty Jenkins. Patty Jenkins revealed details about something. Patty Jenkins revealed details about something.",
+    "attack": "At an event, details concerning the sequel were disclosed by Patty Jenkins, who also provided information about an unspecified matter, with those details pertaining to her, alongside additional revelations about an unknown subject and further disclosures regarding another unspecified topic.",
+    "position": 216,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 55,
+    "candidate": 0,
+    "source": "The data layer shows Maharashtra. Something defines Maharashtra as a state. Maharashtra defines a state. Maharashtra was defined as a state in 2009. Define the state as something.",
+    "attack": "Maharashtra is displayed by the data layer; it is a state as defined by something, and that same something also identifies Maharashtra as a state—which was itself defined as a state in 2009—so the state is to be defined as something.",
+    "position": 220,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 56,
+    "candidate": 0,
+    "source": "Show Mattel a future for the brand \"Mattel\" to the company. The brand Mattel future. Mattel brand future. The future of the Mattel brand was shown to the company. Show Mattel a future for the brand \"Mattel\" to the company.",
+    "attack": "A future for the brand \"Mattel\" was presented to the company by showing it to Mattel; the brand's future—the future of the Mattel brand—was demonstrated to the company, and Mattel was shown a future for the brand \"Mattel\" to the company.",
+    "position": 224,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 57,
+    "candidate": 1,
+    "source": "A character explores a concept. Harry Connolly is interested in a concept. Explore a concept. Harry Connolly explores a concept. Explore the concept of Harry Connolly with a named entity.",
+    "attack": "A named entity, Harry Connolly, has his concept being explored by a character who is also interested in that same concept; exploring the concept of Harry Connolly involves the act of exploration itself.",
+    "position": 229,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 58,
+    "candidate": 2,
+    "source": "Diascia is found in a sunny border. Diascia finds a sunny border. Diascia is not found. Diascia was recently found as something in a sunny border. Diascia was recently found.",
+    "attack": "Diascia's presence in a sunny border has been established; however, it also actively occupies such a border, though its absence is noted. A recent discovery identified Diascia as something within a sunny border, and that finding occurred recently.",
+    "position": 234,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 59,
+    "candidate": 1,
+    "source": "Someone gave a welcome to Julian Clary. Someone gave a welcome to Julian Clary. Someone gave a welcome. Julian Clary gave a welcome in 2024. Julian Clary gave a welcome in 2024.",
+    "attack": "A welcome was extended to Julian Clary, and the same person also offered a greeting to him; additionally, a separate welcome was given. In 2024, Julian Clary himself delivered a welcome, and he also provided one during that same year.",
+    "position": 237,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 60,
+    "candidate": 0,
+    "source": "The bill triggered protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. Tell the bill. The bill triggered protests.",
+    "attack": "Protests that were triggered by the bill in Assam were directed against the Citizenship Amendment Bill, and this same bill repeatedly sparked those protests—each instance being against the Citizenship Amendment Bill in Assam. An instruction to tell the bill was given, as the bill’s triggering of protests occurred.",
+    "position": 240,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 61,
+    "candidate": 0,
+    "source": "The Vikings played at a location. The topic is the Vikings team. The Vikings played at a location. The Vikings played at a location. The team played something.",
+    "attack": "The Vikings' team, as the subject being discussed, was engaged in gameplay at a certain venue, with that same team having competed at a location, and additionally, the squad participated in a match at a site, while the group also performed an unspecified activity.",
+    "position": 244,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 62,
+    "candidate": 1,
+    "source": "Someone gave a description to New England. A description of New England was given to something. Give a description of New England to someone. A description of New England was given to something. A description of New England was given to something.",
+    "attack": "A description of New England was provided to an unspecified recipient; an entity received that same description. The act of giving a description of New England occurred, directed at some party. That description of New England was conveyed to an unknown target, and again to another target.",
+    "position": 249,
+    "z_score": -1.0
+  },
+  {
+    "index": 63,
+    "candidate": 0,
+    "source": "Golden State Warriors. The Golden State Warriors will be made do with. Show the Warriors the team's topic about Golden State. The Golden State Warriors will make do. Golden State Warriors.",
+    "attack": "The topic concerning the team known as the Golden State Warriors is what must be shown to them, as the Golden State Warriors will be forced to manage with what they have, and the Golden State Warriors will manage accordingly—Golden State Warriors.",
+    "position": 252,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 64,
+    "candidate": 0,
+    "source": "A suspect shot a victim with a gun. A shooting of a victim with a gun occurred. A shooting of a teen victim with a weapon occurred. A shooting of a teen by a suspect with a weapon occurred recently. Shoot the victim.",
+    "attack": "A recent event involved a suspect using a firearm to shoot a teen victim; this incident was described as a shooting of a victim with a gun, a shooting of a teen victim with a weapon, and a shooting of a teen by a suspect with a weapon, and the victim was shot.",
+    "position": 256,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 65,
+    "candidate": 0,
+    "source": "Your inquisitive toddler's activity exploration awaits. Your inquisitive toddler is not exploring activities. The toddler explores something. The toddler explores New York City. The toddler explores something.",
+    "attack": "The exploration of activities by your inquisitive toddler remains pending; no activity exploration is currently being undertaken by that child. Instead, the toddler engages in the exploration of New York City, as the object of their inquisitive focus.",
+    "position": 260,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 66,
+    "candidate": 0,
+    "source": "Ukraine is siphoning off Russian gas. Ukraine stop siphoning Russian gas to Europe. Ukraine stopped siphoning something to Europe. Ukraine stopped something recently. Ukraine stopped siphoning something to Europe recently.",
+    "attack": "The recent cessation of Ukraine's siphoning of Russian gas destined for Europe has been confirmed, marking a halt to the diversion of this resource to European markets.",
+    "position": 264,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 67,
+    "candidate": 2,
+    "source": "Supo reported risks from links between radical Islam and terrorism at a time. The report does not name Finland. Supo reported risks from radical Islam and terrorism at a recent time. Ask the report about radical Islam and terrorism from Supo. The report names Finland.",
+    "attack": "At a certain point, Supo identified dangers arising from connections between radical Islam and terrorism, though Finland was not specified in that account. Risks tied to radical Islam and terrorism were recently flagged by Supo; regarding radical Islam and terrorism, the report should be consulted from Supo, and it does include a mention of Finland.",
+    "position": 270,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 68,
+    "candidate": 0,
+    "source": "Drew Griffin made an attempt at something. Drew Griffin made an attempt at something. Drew Griffin attempted something. Make an attempt. Drew Griffin made an attempt.",
+    "attack": "An attempt was made by Drew Griffin, and Drew Griffin attempted something, and an attempt was made, which Drew Griffin also attempted, and yet another attempt was made by Drew Griffin.",
+    "position": 272,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 69,
+    "candidate": 3,
+    "source": "J. is something. J. J. feels something in a location. J. J. feels something. J. J. feels something. Feel something.",
+    "attack": "In a certain location, a feeling of something is experienced by J., with J. also sensing something else, while J. continues to feel an additional something, and that something is felt—J. is something.",
+    "position": 279,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 70,
+    "candidate": 1,
+    "source": "Find the Eagles' replacement for the running back from Buffalo. Find the Eagles' replacement for something. The topic of the Buffalo Bills is the replacement. Find the Eagles' replacement for the Buffalo Bills topic. The Eagles found something.",
+    "attack": "The task of locating a substitute for the Buffalo running back was assigned to the Eagles, as was the search for an unspecified replacement. A replacement concerning the subject of the Buffalo Bills became the focus, with the Eagles being tasked to find one for that topic. It was the Eagles who ultimately made a discovery.",
+    "position": 281,
+    "z_score": 0.3333333333333333
+  },
+  {
+    "index": 71,
+    "candidate": 0,
+    "source": "Tell a user the definition of Geneva. Someone defines Geneva as a city. Geneva is defined as a city in 2013. Define a user as Geneva a city. Define Geneva as a city.",
+    "attack": "In 2013, it was established that Geneva is classified as a city; a user should be informed of this definition, and the same classification—Geneva being a city—must be assigned to both the user and Geneva itself.",
+    "position": 284,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 72,
+    "candidate": 0,
+    "source": "Find your music folder. Google Music found your music folder. Find two times two. Find your music. Something found Google Music something.",
+    "attack": "Your music folder should be located; it was discovered by Google Music. The product of two multiplied by two is to be found. Your music requires locating. An unspecified entity discovered an unspecified aspect of Google Music.",
+    "position": 288,
+    "z_score": -1.1547005383792517
+  },
+  {
+    "index": 73,
+    "candidate": 0,
+    "source": "The BlackBerry is not being replaced. Standard Chartered is a bank named Standard Chartered. The iPhone replaced something recently. Someone replaced Standard Chartered with a device. Someone replaced something with a device.",
+    "attack": "Standard Chartered, a bank, has not been replaced by any device; the BlackBerry also remains unreplaced, while the iPhone has recently replaced an unspecified entity, and an unidentified party replaced Standard Chartered with a device, just as another party replaced something else with a device.",
+    "position": 292,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 74,
+    "candidate": 0,
+    "source": "Check the ducks for bills. Check the ducks for bills. At Donnelly Park, the ducks' bills were checked for something at a location. At Donnelly Park, the ducks' bills were checked for something recently. Donnelly Park.",
+    "attack": "At Donnelly Park, a recent check of the ducks' bills for something occurred at a specific location, where each duck's bill was examined; this inspection, performed at Donnelly Park, involved verifying the ducks' bills for something.",
+    "position": 296,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 75,
+    "candidate": 1,
+    "source": "The federal government is accelerating the transition of Canada to a lower-carbon economy, even as conservative politicians in the provinces vow to scuttle key measures that would support that effort. Accelerate Canada toward a lower-carbon economy. Accelerate Canada. Accelerate Canada in 2024. Something accelerates Canada toward an economy.",
+    "attack": "Despite provincial conservative politicians pledging to dismantle essential supports for the shift, Canada’s federal government is speeding up its move toward a lower-carbon economy throughout 2024.",
+    "position": 301,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 76,
+    "candidate": 0,
+    "source": "A craftsman crafted an item. A craftsman crafted something. A craftsman crafted something from a London fur recently. A craftsman crafted something in 1878. A craftsman crafted something from a London fur.",
+    "attack": "In 1878, a London fur was used by a craftsman to craft an item, with that same craftsman having recently crafted something from that fur, and the craftsman also crafted something else from the same London fur.",
+    "position": 304,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 77,
+    "candidate": 0,
+    "source": "A study was conducted at Emory University in 2023. A smartphone plays a role. Emory University shows a smartphone. A smartphone shows Emory University as something. A smartphone shows Emory University as a tool.",
+    "attack": "In 2023, Emory University hosted a study in which a smartphone functioned as an instrument, with the university itself being depicted by that smartphone as a tool.",
+    "position": 308,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 78,
+    "candidate": 3,
+    "source": "Show me a picture of New York City at Christmas. Show me a picture. Show me a picture. A picture about New York City. Show me a picture of New York City at Christmas.",
+    "attack": "A request is made for an image depicting New York City during Christmas, with that same request for an image being repeated multiple times, specifically for a picture that is about New York City, and again for a picture of New York City at the Christmas holiday.",
+    "position": 315,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 79,
+    "candidate": 0,
+    "source": "Christopher Moynihan inked something. Christopher Moynihan inked something. Make the something exclusive. An exclusive topic about Christopher Moynihan. Make the topic exclusive.",
+    "attack": "A single exclusive subject concerning Christopher Moynihan was inked by him, and that same exclusive subject was inked again by him, with the instruction that the subject be rendered exclusive.",
+    "position": 316,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 80,
+    "candidate": 3,
+    "source": "Enjoy the North Pole Christmas celebration. You enjoy the celebration. Enjoy the celebration of the North Pole Christmas event. Enjoy the North Pole Christmas celebration. Enjoy the North Pole Christmas celebration.",
+    "attack": "The North Pole Christmas celebration should be enjoyed by you, as you are the one who enjoys it; this event, which is the North Pole Christmas celebration, is to be enjoyed, and indeed, the North Pole Christmas celebration itself is what you enjoy—so enjoy that North Pole Christmas celebration.",
+    "position": 323,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 81,
+    "candidate": 0,
+    "source": "Alice Johnson mastered technique. Alice Johnson mastered something from a technique recently. Someone mastered Alice Johnson from a technique. Alice Johnson mastered a technique from something. Mastery was achieved from something.",
+    "attack": "Alice Johnson’s recent mastery of a technique originated from something, and that same technique also enabled someone to gain mastery over Alice Johnson, with the achievement of mastery itself deriving from something.",
+    "position": 324,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 82,
+    "candidate": 1,
+    "source": "The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with the prosecution accusing the Washington Post of espionage. Begin the trial with the prosecution accusing the Washington Post of espionage.",
+    "attack": "The prosecution’s accusation that the Washington Post engaged in espionage marked the commencement of Jason Rezaian’s trial.",
+    "position": 329,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 83,
+    "candidate": 0,
+    "source": "Lift the drought emergency after the winter. Lift the drought emergency. Lift the drought emergency. California lifted the drought emergency in the state. California drought emergency.",
+    "attack": "Following the winter season, the state of California has rescinded its drought emergency declaration; this emergency, which had been in effect, is now lifted, and the drought emergency status for California has been formally terminated.",
+    "position": 332,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 84,
+    "candidate": 1,
+    "source": "Delly Delly's brand fell to something. Delly Delly's brand fell to something. Tell the user something about Delly Delly's brand to the company. Delly Delly's brand fell to something. Delly Delly's brand fell to a company.",
+    "attack": "The decline of Delly Delly's brand was toward an unspecified entity; that same descent of Delly Delly's brand occurred again, settling upon a company. It is requested that the user be informed of a particular detail regarding Delly Delly's brand in relation to that organization. A further drop of Delly Delly's brand to something took place, and ultimately, Delly Delly's brand fell to a company.",
+    "position": 337,
+    "z_score": -1.0
+  },
+  {
+    "index": 85,
+    "candidate": 2,
+    "source": "A woman's body was found as the location of a river at the boatyard in Woodbridge, Suffolk. Find a woman's body. Find a woman's body in a river. Find a woman's body. Someone found the body of a woman at a boatyard.",
+    "attack": "At a boatyard in Woodbridge, Suffolk, the discovery of a female corpse occurred within a river. The recovery of a woman's remains from the river was made, with that same body located at the boatyard. A woman's body was found there, and someone located it.",
+    "position": 342,
+    "z_score": -1.0
+  },
+  {
+    "index": 86,
+    "candidate": 0,
+    "source": "Chicago is sad about a boy. Tell the police the name of the boy's home fire in Chicago. The fire killed the boy in Chicago. The fire killed the boy Chicago. The fire killed the boy.",
+    "attack": "A boy’s death in a Chicago fire has caused grief in the city; authorities must be informed of the name associated with his residence where the blaze occurred, which claimed his life in Chicago, with the same fire fatally claiming the boy in Chicago, and that fire being the one that killed him.",
+    "position": 344,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 87,
+    "candidate": 0,
+    "source": "Kid the audience. Kid the audience with something about New York City. The New York City audience is being kidded. The topic is something about New York City. The New York City audience.",
+    "attack": "Kidding the audience about New York City is what takes place; that same audience in New York City is being kidded on a topic concerning New York City, and the kidding involves that New York City audience.",
+    "position": 348,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 88,
+    "candidate": 0,
+    "source": "Alexander the Great was not a pioneer. Alexander the Great idea. Alexander the Great had an idea. Tell Alexander the Great an idea about Alexander the Great. Alexander the Great had an idea.",
+    "attack": "It is not true that Alexander the Great was a pioneer; rather, a concept existed for Alexander the Great, and that concept was possessed by Alexander the Great. The communication of an idea regarding Alexander the Great should be directed to Alexander the Great himself, and it is a fact that Alexander the Great held an idea.",
+    "position": 352,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 89,
+    "candidate": 0,
+    "source": "New England is very large. Immigration reform affects New England something. Immigration reform affects New England. New England affects immigration reform. New England affects immigration reform.",
+    "attack": "A significant size characterizes New England, and immigration reform exerts an influence upon it, as does immigration reform's impact on New England; conversely, New England itself exerts an influence upon immigration reform, and New England also influences immigration reform.",
+    "position": 356,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 90,
+    "candidate": 0,
+    "source": "The Democratic Alliance was voted for at a time. The Democratic Alliance was voted for in 2023. The Democratic Alliance was voted for by someone in 2023. The Democratic Alliance was voted for in a location. The Democratic Alliance's topic is a vote.",
+    "attack": "In 2023, a vote for the Democratic Alliance occurred, cast by an unspecified individual at an unspecified location, with that vote itself serving as the subject of the alliance.",
+    "position": 360,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 91,
+    "candidate": 0,
+    "source": "The National Ski and Snowboarding Championship was not held. Something canceled the Gulmarg Championship. Something canceled the championship. The Gulmarg Championship was canceled. The championship was canceled by something.",
+    "attack": "The cancellation of the Gulmarg Championship, which was also referred to as the National Ski and Snowboarding Championship, occurred due to an unspecified cause; this same unidentified factor prevented the event from taking place, resulting in the championship not being held.",
+    "position": 364,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 92,
+    "candidate": 2,
+    "source": "Rahul Dravid read a book at the stadium. Rahul Dravid read a book at the stadium. Ask your friend about the topic of the book at Rahul Dravid. Ask your friend about the topic of the book. Rahul Dravid was read.",
+    "attack": "The stadium served as the location where Rahul Dravid engaged in reading a book; additionally, the topic of that book should be inquired about from your friend, specifically regarding Rahul Dravid. Furthermore, the fact that Rahul Dravid was read to is also established.",
+    "position": 370,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 93,
+    "candidate": 2,
+    "source": "Ask the group about the problem of Hamas image. Hamas faces an image problem. Hamas faces an image problem. Someone faces Hamas with an image problem. Ask the group about the problem.",
+    "attack": "The problem of Hamas's image ought to be raised with the group; an image problem is what Hamas confronts. That same image problem is what Hamas contends with, and it is also with an image problem that someone confronts Hamas. A question about this problem should be posed to the group.",
+    "position": 374,
+    "z_score": -1.0
+  },
+  {
+    "index": 94,
+    "candidate": 0,
+    "source": "LeBron James delivered a top performance. LeBron James did not deliver a top performance. Someone delivered a top performance to a school from LeBron James. LeBron James delivered a performance at a school. Deliver a top performance to a school from LeBron James.",
+    "attack": "A top performance was delivered by LeBron James, yet a top performance was not delivered by him; a top performance was delivered to a school on behalf of LeBron James by someone, and a performance was delivered by LeBron James at a school—a top performance's delivery to a school from LeBron James is to be carried out.",
+    "position": 376,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 95,
+    "candidate": 1,
+    "source": "George Bush waved to reporters. George Bush waved to reporters. Waving acknowledged something. George Bush waved to someone. Someone waved something to George Bush.",
+    "attack": "A waving gesture, directed at reporters, was performed by George Bush, and this act of waving constituted an acknowledgment of something. The same individual, George Bush, also waved at a specific person, while an unidentified person waved an object in the direction of George Bush.",
+    "position": 381,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 96,
+    "candidate": 1,
+    "source": "A Taycheedah crash injured two men and one other entity. Tell the officer about the Taycheedah crash to the hospital. Tell the officer about the victim of the Taycheedah crash to the hospital. The crash injured something. The crash injured something to the hospital.",
+    "attack": "Two men and an additional individual sustained injuries in an incident at Taycheedah. The officer must be informed that the crash victims were transported to the hospital. The same officer should be notified regarding those harmed in the Taycheedah crash, specifically their conveyance to the hospital. The event caused harm to unspecified entities, with those injured being taken to the hospital for care.",
+    "position": 385,
+    "z_score": -1.1547005383792517
+  },
+  {
+    "index": 97,
+    "candidate": 0,
+    "source": "Peter Gutmann reported in a location. Peter Gutmann is extensive to an unknown extent. Something extensive about Windows Vista. Peter Gutmann reported in a location. Peter Gutmann reported in 2007.",
+    "attack": "In 2007, a report was issued by Peter Gutmann from an unspecified location, detailing something extensive—to an unknown degree—concerning Windows Vista; this same individual, Gutmann, additionally provided a separate report from a location, also in 2007.",
+    "position": 388,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 98,
+    "candidate": 3,
+    "source": "The summit assigns one reporter as its recipient and something as its theme. Assign a reporter a summit theme. The summit assigned a reporter a theme. The summit assigned a reporter a theme. Asean, at 20 years old, assigned a reporter a summit theme.",
+    "attack": "A reporter was assigned a theme by the summit, which also designated something as its subject and selected one journalist as its addressee. At twenty years of age, ASEAN gave a summit theme to a reporter. A reporter had a theme assigned by the summit, and the summit assigned a theme to a reporter.",
+    "position": 395,
+    "z_score": -1.0
+  },
+  {
+    "index": 99,
+    "candidate": 0,
+    "source": "The company announced something. Announce the upgrade. The upgrade was announced. The company announced an upgrade. The upgrade was announced.",
+    "attack": "The company made an announcement regarding an upgrade, with that upgrade having been announced by the company, and the upgrade itself was announced.",
+    "position": 396,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 100,
+    "candidate": 0,
+    "source": "The stabbing is reported as something. The fatal stabbing scene is a reported incident. A reported incident of a man was a fatal stabbing scene at a house on Rutland Grove, Crumlin to one Garda. Report the fatal scene. The fatal stabbing scene was reported to a Garda.",
+    "attack": "At a house on Rutland Grove in Crumlin, a fatal stabbing—reported as an incident involving one man—was the scene communicated to a single Garda; the reporting of this stabbing constitutes the incident’s documentation.",
+    "position": 400,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 101,
+    "candidate": 0,
+    "source": "United Airlines' something fee. United Airlines yesterday began a fee. Charge a customer a fee that American Airlines charges to Chicago. Charge a customer a bag fee. Charge a customer a fee.",
+    "attack": "A fee that is similar to one American Airlines imposes for travel to Chicago was introduced yesterday by United Airlines; this charge applies to customers as a bag fee.",
+    "position": 404,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 102,
+    "candidate": 1,
+    "source": "Defend the Constitution. Someone defended the Constitution against something. The president defended the Constitution. Defend the Constitution against something. Defend the Constitution against a threat.",
+    "attack": "A defense of the Constitution was carried out by the president, who acted to protect it from a specific threat; this action involved someone defending the Constitution against an unidentified something, and the Constitution itself was the object of defense against both that something and the threat.",
+    "position": 409,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 103,
+    "candidate": 0,
+    "source": "Jalapeno's name is used for something at a time. Jalapeno is not named. Jalapeno is used for something. Jalapeno is not named. Jalapeno is used for something.",
+    "attack": "The name \"Jalapeno\" is applied to an entity on a given occasion, though Jalapeno itself remains unnamed. That same entity makes use of Jalapeno, while Jalapeno continues to lack a name. Furthermore, Jalapeno is employed for a purpose, still without being named.",
+    "position": 412,
+    "z_score": -1.0
+  },
+  {
+    "index": 104,
+    "candidate": 0,
+    "source": "A 35-year-old cop from the Railway Protection Force received four sutures on the head from a Nigerian drug peddler. A cop received a clobbering. Keep the situation calm. Keep the situation calm. Tell the cop about the clobbering by the Nigerian drug peddler.",
+    "attack": "A clobbering was administered to a 35-year-old Railway Protection Force officer by a Nigerian drug peddler, resulting in four sutures being required on his head. The situation must be kept calm, and the officer should be informed that the Nigerian drug peddler delivered the clobbering.",
+    "position": 416,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 105,
+    "candidate": 0,
+    "source": "Make the status active. The state panel heard testimony on missing Indigenous women. Make the status active. The status of missing Indigenous women is active for Helena. The panel heard something.",
+    "attack": "The panel received testimony concerning missing Indigenous women, and for Helena, the status of these missing Indigenous women is now designated as active; the panel's hearing of that testimony is what occurred, and the status is to be made active.",
+    "position": 420,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 106,
+    "candidate": 0,
+    "source": "Find the answer. Find the answer. The marathon is significant for a Charlotte cancer patient's something. Find the patient's marathon. Find the patient's marathon.",
+    "attack": "Locating the response is required. Locating the response is required. For a Charlotte cancer patient's unspecified entity, the marathon holds importance. The patient's marathon must be located. The patient's marathon must be located.",
+    "position": 424,
+    "z_score": -1.2909944487358056
+  },
+  {
+    "index": 107,
+    "candidate": 0,
+    "source": "Apple Inc. faced something. Make something clear. Make the situation clear. Apple Inc. faced something about a situation. Apple Inc. faced something.",
+    "attack": "The clarity of a situation was something that Apple Inc. encountered, and that situation required clarification; Apple Inc. had faced this particular situation, which was itself something Apple Inc. had encountered.",
+    "position": 428,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 108,
+    "candidate": 0,
+    "source": "Search for constitutional government using a search engine. Search for \"constitutional government\" using a search engine. Search for something constitutional. Search for something using a search engine yesterday. Search for constitutional government using a search engine yesterday.",
+    "attack": "A search engine was used yesterday to look up \"constitutional government,\" as well as something constitutional, and also something else via a search engine yesterday.",
+    "position": 432,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 109,
+    "candidate": 0,
+    "source": "Hindustan Unilever reported something at a location. Hindustan Unilever's something is good. Hindustan Unilever reported something. Hindustan Unilever reported something in 2018. Hindustan Unilever was good relative to something.",
+    "attack": "A report from Hindustan Unilever in 2018 conveyed a positive outcome for an entity at a specific site, with the company's performance being favorable in comparison to a benchmark.",
+    "position": 436,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 110,
+    "candidate": 0,
+    "source": "Doug Melvin signed something. Doug Melvin signed something. Doug Melvin signed a contract with something recently. Doug Melvin. Doug Melvin signed something at a location.",
+    "attack": "Doug Melvin, at a recent point in time, put his signature to a contractual agreement, an action he performed at some specific place, and this signing event—repeatedly referenced—involved the same individual, Doug Melvin, who was the signatory.",
+    "position": 440,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 111,
+    "candidate": 0,
+    "source": "Carrie Underwood. Carrie Underwood was posted at a time. Carrie Underwood posted something. Post a picture of \"American Idol\" to Carrie Underwood. Carrie Underwood is beautiful.",
+    "attack": "A posting of \"American Idol\" was made to Carrie Underwood, who had been posted at a certain time and who herself posted something; it is asserted that Carrie Underwood is beautiful.",
+    "position": 444,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 112,
+    "candidate": 0,
+    "source": "Recall the affected product. The company recalled its Original Tahini Sauce in 2023. The company recalled the Original Tahini Sauce. The company recalled the Original Tahini Sauce. The company recalled the Original Tahini Sauce in 2023.",
+    "attack": "A 2023 recall of the company's Original Tahini Sauce, which is the affected product, was undertaken by the company for that same item, with the action occurring in 2023.",
+    "position": 448,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 113,
+    "candidate": 0,
+    "source": "Someone finds Paris for a purpose. Paris finds something. In 2023, someone found Paris. Someone found something. Paris found something.",
+    "attack": "In 2023, Paris was discovered by an individual for a reason; the same individual also located an unspecified thing, while Paris itself made a discovery of something.",
+    "position": 452,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 114,
+    "candidate": 3,
+    "source": "Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for Meghan Markle. Meghan Markle opted for a look. Meghan Markle was opted for at a time.",
+    "attack": "A look that was popularized by Meghan Markle, having been taken from Kate Middleton, should be chosen; selecting Meghan Markle herself is also an option, as she opted for a particular look at a specific time when she was being opted for.",
+    "position": 459,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 115,
+    "candidate": 0,
+    "source": "Keep the provision key. Keep the key provision. Keep the key provision. A key provision is kept by Basketball Properties Ltd. Keep the key provision regarding the agreement with Basketball Properties Ltd. that was made with Los Angeles County.",
+    "attack": "The key provision, which concerns the agreement formed with Los Angeles County, must be retained by Basketball Properties Ltd.; this same provision is to be kept, as is the provision key itself.",
+    "position": 460,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 116,
+    "candidate": 0,
+    "source": "The Transformative Fund Account holds something. Make the fund transparent. Make the fund transparent. The Transformative Fund Account is transparent. Make the fund transparent.",
+    "attack": "The requirement for transparency applies to the Transformative Fund Account, with the account's transparent status being asserted, and the directive to ensure the fund's transparency is repeated multiple times.",
+    "position": 464,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 117,
+    "candidate": 0,
+    "source": "Enjoy your off-road driving challenges. Drive your vehicle through the Ford Bronco obstacles. Drive your vehicle through the Ford Bronco obstacles. The Ford Bronco. Ford Bronco.",
+    "attack": "Off-road driving challenges should be enjoyed, with your vehicle being taken through the obstacles of the Ford Bronco; the Ford Bronco obstacles are what your vehicle must be driven through, and the Ford Bronco itself is the vehicle referenced, as the Ford Bronco is repeatedly named.",
+    "position": 468,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 118,
+    "candidate": 0,
+    "source": "Tell a device something about New York City to a sommelier. Tell a device about New York City to a sommelier. Tell a sommelier about New York City to a device. Tell a device about New York City to a sommelier. A topic about New York City to a device.",
+    "attack": "The act of communicating information concerning New York City to a sommelier must be performed by a device, and that same device should also be tasked with relaying details about New York City to a sommelier. A sommelier is to receive an account of New York City from a device, while a device is to be the recipient of a subject matter pertaining to New York City from a sommelier. A device is to convey a topic about New York City to a sommelier, and a topic about New York City is to be directed toward a device.",
+    "position": 472,
+    "z_score": -1.0
+  },
+  {
+    "index": 119,
+    "candidate": 0,
+    "source": "Explore the chief executive. Ronan Dunne explored something. Ronan Dunne was not explored. Ronan Dunne was explored. Ronan Dunne was explored by something.",
+    "attack": "The chief executive was examined, though Ronan Dunne was not the one examined; rather, Ronan Dunne carried out an examination of something, and something else also examined Ronan Dunne, with an additional instance of Ronan Dunne being examined by that same something.",
+    "position": 476,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 120,
+    "candidate": 3,
+    "source": "Identify a neutrino event as identifiable. Identify a neutrino event as identifiable. A neutrino event is identifiable by something from a neutrino. Identify a neutrino event by something. The James Webb Space Telescope identified a neutrino event.",
+    "attack": "The determination of a neutrino event's identifiability is accomplished through a characteristic originating from a neutrino itself; such an event's identification relies on that same characteristic. The James Webb Space Telescope was the instrument that achieved the identification of a specific neutrino event.",
+    "position": 483,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 121,
+    "candidate": 0,
+    "source": "Elon Musk hopes for organ donations. Elon Musk hopes for something. Make something good. Elon Musk hopes for donations to India. Make a good donation to India.",
+    "attack": "Elon Musk's aspiration is that organ donations occur, specifically that something beneficial is achieved, with a particular focus on contributions being made to India, and that such a donation to India is of a positive nature.",
+    "position": 484,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 122,
+    "candidate": 3,
+    "source": "The shooting critically injured a person named Memphis Tenn. Tell Memphis Tenn the topic of Memphis Tenn. Tell the person the topic of the incident to Memphis Tenn. Tell the officer the topic of the incident. The topic of the incident is Memphis Tenn.",
+    "attack": "A critical injury was sustained by an individual identified as Memphis Tenn. Memphis Tenn is to be informed regarding the subject of Memphis Tenn. The subject of the occurrence must be conveyed to that individual as well as to the officer. The subject of the occurrence is Memphis Tenn.",
+    "position": 491,
+    "z_score": -1.0
+  },
+  {
+    "index": 123,
+    "candidate": 3,
+    "source": "Show the truck the Albian Sands project. Show the truck the Albian Sands project. Albian Sands project shows the truck. The truck shows something. The truck shows something.",
+    "attack": "The Albian Sands project is shown to the truck; the truck is shown the Albian Sands project in turn. The truck itself demonstrates an unspecified object, with that same object being demonstrated by the truck as well.",
+    "position": 495,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 124,
+    "candidate": 0,
+    "source": "Someone put the Boots Advent Calendar on a waiting list. Someone put the Boots Advent Calendar on a list. Boots is popular with a waiting list. The topic is the Boots Advent Calendar. The Boots Advent Calendar was not put on a list.",
+    "attack": "The Boots Advent Calendar, a popular topic, was placed on a waiting list by an unspecified individual, and another individual also added it to a separate list; however, it was never actually included on any list.",
+    "position": 496,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 125,
+    "candidate": 0,
+    "source": "Help solve the problem. Sanivation was founded in 2014. Sanivation was founded in a location. Andrew Foote delivered something to one Sanivation. A sanitation solution.",
+    "attack": "In 2014, Sanivation was established at a specific site, and Andrew Foote provided a sanitation solution to one such Sanivation, thereby aiding in resolving the issue.",
+    "position": 500,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 126,
+    "candidate": 0,
+    "source": "Khleo Thomas. Khleo Thomas. Khleo Thomas. Khleo Thomas showcased something to one Disney Channel. A tweet about Khleo Thomas.",
+    "attack": "A tweet concerning Khleo Thomas was posted, and Khleo Thomas demonstrated something for a single Disney Channel; this individual, Khleo Thomas, is mentioned repeatedly.",
+    "position": 504,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 127,
+    "candidate": 0,
+    "source": "Someone told about the American Renaissance conference. Tell someone about the topic of the American Renaissance conference. Tell someone about the topic of the American Renaissance conference. Tell someone about the topic of the conference. Tell about the American Renaissance conference.",
+    "attack": "The American Renaissance conference's topic was conveyed to an individual, following which a second individual was to be informed regarding that same subject; additionally, a third person was to receive details about the conference's theme, and a general account of the American Renaissance conference was to be provided.",
+    "position": 508,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 128,
+    "candidate": 2,
+    "source": "Make the model the topic of a discussion about Rocky. The model discussed Rocky. Make the model happy. Make the model the topic of a discussion about Rocky. Make the model happy.",
+    "attack": "A discussion about Rocky should have the model as its central subject; during that discussion, the model talked about Rocky. It is required that the model be made happy. The model must again be positioned as the topic when Rocky is discussed, and ensuring the model's happiness remains necessary.",
+    "position": 514,
+    "z_score": -1.0
+  },
+  {
+    "index": 129,
+    "candidate": 3,
+    "source": "Foxconn Technology is being discussed in talks at this time. Foxconn Technology is related to something. Foxconn Technology is located somewhere. Foxconn Technology is not discussed. Something is discussing Apple Inc. about something.",
+    "attack": "Negotiations currently involving the Foxconn Technology company are occurring, with this entity linked to an unspecified subject and situated at an undisclosed location; however, Foxconn Technology itself is not under discussion. Instead, an unidentified party is engaged in talks with Apple Inc. concerning a particular matter.",
+    "position": 519,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 130,
+    "candidate": 0,
+    "source": "A detective received a video. You receive a video. You receive a detective. You receive a video. You receive a video.",
+    "attack": "A video was received by a detective, and you are also receiving a video; additionally, you receive a detective, and you receive a video, followed by your receipt of another video.",
+    "position": 520,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 131,
+    "candidate": 0,
+    "source": "Turkey said something. Tell Turkey that the Syrian government forces should not be allowed in Manbij as the US-backed Kurdish militia proposes. Tell Turkey that the Syrian government forces should not be allowed in Manbij as proposed by the US-backed Kurdish militia. Tell Turkey that Syrian government forces should not be allowed in Manbij as proposed by the US-backed Kurdish militia. A device said something.",
+    "attack": "The statement attributed to Turkey was issued, and a separate announcement came from a device. It must be communicated to Ankara that, according to the proposal of the Kurdish militia which receives US backing, Syrian government troops are not to be permitted entry into Manbij. Furthermore, the same prohibition—barring Syrian government forces from Manbij, as advocated by the US-supported Kurdish militia—is to be conveyed to Turkey.",
+    "position": 524,
+    "z_score": -1.0
+  },
+  {
+    "index": 132,
+    "candidate": 0,
+    "source": "Shakisa Olinda Harvey was admitted to the bar. Shakisa Olinda Harvey was admitted to the bar. The admission of Shakisa Olinda Harvey to the bar occurred. Admitted Shakisa Olinda Harvey to the bar. The admission of Shakisa Olinda Harvey to the bar occurred.",
+    "attack": "The bar admitted Shakisa Olinda Harvey, an event that saw her being admitted to it; indeed, that admission of Shakisa Olinda Harvey to the bar took place, as she was admitted to the bar.",
+    "position": 528,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 133,
+    "candidate": 0,
+    "source": "Choose your jacket's color for the visit. The color of Angela Merkel's jacket is suitable for the visit. Angela Merkel visited. The jacket conveys calm. Choose your jacket's color for the visit.",
+    "attack": "For the visit, the color of your jacket should be selected; that of Angela Merkel’s jacket, which she wore when she visited, conveys calm, so the jacket’s color for the visit must be chosen.",
+    "position": 532,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 134,
+    "candidate": 2,
+    "source": "Fans need to understand that players must step up their games before something. Fans need to step up their games before something. The team's behavior must be more responsible before a disaster. New York Yankees fans must step up their game before a disaster. Fans must step up their game before a disaster involving the New York Yankees.",
+    "attack": "A need exists for fans to comprehend that players are required to elevate their performance prior to an unspecified event. Prior to that same unspecified event, fans themselves must elevate their performance. Increased responsibility in the team's conduct is mandatory before a disaster strikes. Before a disaster occurs, the game of New York Yankees fans must be elevated. Prior to a disaster that involves the New York Yankees, the game of fans must be elevated.",
+    "position": 538,
+    "z_score": -1.2909944487358056
+  },
+  {
+    "index": 135,
+    "candidate": 0,
+    "source": "Make the election transparent. The Northgate and West Green election is transparent. Make the Northgate and West Green election transparent for something. Make the election transparent. Make the election transparent.",
+    "attack": "A single demand for transparency in the election is issued, with the Northgate and West Green election specifically being transparent, and a requirement that the Northgate and West Green election be made transparent for some purpose; this call for election transparency is repeated, and then reiterated once more.",
+    "position": 540,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 136,
+    "candidate": 1,
+    "source": "Entries are now open for the well-loved Helen's Trust 10k and 3k fun run at Chatsworth. Helen's Trust is similar to an event. An entry opens something. Helen's Trust opened entries. Helen's Trust opened entries for something.",
+    "attack": "Entries for the widely cherished 10k and 3k fun run at Chatsworth, hosted by Helen's Trust, are currently being accepted. This organization, Helen's Trust, operates in a manner comparable to an event itself, and it has initiated the opening of entries for these races.",
+    "position": 545,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 137,
+    "candidate": 0,
+    "source": "Apply to Harvard. Apply to Harvard University in 2024. Apply to Harvard University. Apply to Harvard University. Apply to Harvard University.",
+    "attack": "Submitting an application to Harvard University should be completed during 2024; the act of applying to Harvard must be done, and applying to Harvard University is required, with the application to Harvard University being repeated, and the submission to Harvard University is necessary.",
+    "position": 548,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 138,
+    "candidate": 0,
+    "source": "An interception was thrown by McSorley. Throw an interception about Penn State to Ohio State. Throw an interception to Penn State. Throw an interception about Penn State to Ohio State. Throw an interception about Penn State to Ohio State.",
+    "attack": "McSorley committed an interception, with that interception being thrown concerning Penn State toward Ohio State; another interception was thrown to Penn State, followed by an interception thrown about Penn State to Ohio State, and then an additional interception thrown about Penn State to Ohio State.",
+    "position": 552,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 139,
+    "candidate": 3,
+    "source": "The Brew Stooges were not defined. The concept of a brewery was defined as something. The Brew Stooges defined something. The Brew Stooges were defined as something. The Brew Stooges were defined as something.",
+    "attack": "The Brew Stooges lacked a definition, while a brewery’s concept was established as a specific entity. By the Brew Stooges, something was defined, and they themselves were characterized as something; additionally, the Brew Stooges were identified as something else.",
+    "position": 559,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 140,
+    "candidate": 3,
+    "source": "Chandan Taparia recommends something to Dr. Reddy's Laboratories Ltd. at a target. Chandan Taparia recommends buying Dr. Reddy's Laboratories Ltd. at a target. Chandan Taparia recommends at a location. Dr. Reddy's Laboratories Ltd. is not recommended. Dr. Reddy's Laboratories Ltd. is not recommended.",
+    "attack": "A buy recommendation for Dr. Reddy's Laboratories Ltd. has been issued by Chandan Taparia, with a specific target price attached. This recommendation from Chandan Taparia also includes a designated location. Dr. Reddy's Laboratories Ltd. itself is not being recommended, and the company also fails to receive any recommendation.",
+    "position": 563,
+    "z_score": -1.0
+  },
+  {
+    "index": 141,
+    "candidate": 0,
+    "source": "Help the royalty. The Wagon Days royalty helped something. The Wagon Days royalty is helpful to something. The Wagon Days royalty helped something. Help the royalty with the parade at the Wagon Days event.",
+    "attack": "The Wagon Days event's parade required assistance from its royalty, who were helpful by providing aid to something, as they had done previously.",
+    "position": 564,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 142,
+    "candidate": 1,
+    "source": "Martin Scorsese and Robert De Niro are as great as ever. Martin Scorsese and Robert De Niro collaborate at a location. The collaboration involves something. Something collaborates with Martin Scorsese at a location. Something collaborates with Martin Scorsese at a location.",
+    "attack": "Martin Scorsese and Robert De Niro remain as exceptional as they have always been. A joint effort between these two figures is taking place at a specific site. That effort concerns an unidentified matter. An unnamed entity is partnering with Martin Scorsese at that same location. Another unnamed entity is also working alongside Martin Scorsese at that location.",
+    "position": 569,
+    "z_score": -1.2909944487358056
+  },
+  {
+    "index": 143,
+    "candidate": 0,
+    "source": "A well-made Swiss watch will hold its value at a future time. Maintain your Swiss watch so it holds its value over time. A well-made Swiss watch will hold something at a future time. A well-made Swiss watch will hold its value at a future time. A well-made Swiss watch.",
+    "attack": "A well-constructed timepiece from Switzerland retains its worth in the years to come; by providing proper care to that watch, its long-term value is preserved. Such a watch will maintain some form of value later on, and a high-quality Swiss watch consistently upholds its monetary worth into the future—specifically, one that is finely crafted.",
+    "position": 572,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 144,
+    "candidate": 3,
+    "source": "Granite Geek's topic is drought. David Brooks discussed the drought topic. Make the object dry. Granite Geek made the drought topic dry something. Make the object dry.",
+    "attack": "After David Brooks addressed it, drought became the subject of Granite Geek's discussion. The object's drying was effected by Granite Geek's treatment of the drought topic, with the instruction to render that object dry.",
+    "position": 579,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 145,
+    "candidate": 3,
+    "source": "Consider the commercial development. Consider the developer's evaluation of the New England Patriots' trade for Tom Brady. Consider the developer's evaluation of the New England Patriots' trade for Tom Brady. Consider the evaluation carefully. Evaluate the commercial development for something.",
+    "attack": "The commercial development must be considered, along with a careful evaluation of the developer's assessment regarding the New England Patriots' acquisition of Tom Brady through a trade; that same evaluation of the developer's assessment of the Patriots' trade for Tom Brady should also be examined. Something is the target for which the commercial development is to be evaluated.",
+    "position": 583,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 146,
+    "candidate": 1,
+    "source": "Activist shareholders demand something new on Thursday. Activist shareholders demand alignment of Whitehaven Coal with the Paris agreement. Activist shareholders do not demand Whitehaven Coal. Demand alignment of the company strategy with the Paris agreement from Whitehaven Coal. Demand alignment of Whitehaven Coal with the Paris agreement.",
+    "attack": "On Thursday, a demand for something new is made by activist shareholders: that Whitehaven Coal be aligned with the Paris agreement. What is not being demanded by these shareholders is Whitehaven Coal itself; rather, it is the alignment of the company’s strategy with the Paris agreement that is being demanded from Whitehaven Coal, specifically demanding that Whitehaven Coal be brought into alignment with the Paris agreement.",
+    "position": 585,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 147,
+    "candidate": 3,
+    "source": "The accident at SITIAWAN was attributed to something at the time. Tell the committee about the incident at SITIAWAN to the authorities. Sitiawan attributed the incident to something. Tell the committee about the incident. The Sitiawan incident.",
+    "attack": "The committee must be informed by someone about the Sitiawan occurrence, which was blamed on an unspecified cause at that time; this same event, as attributed by Sitiawan itself to something, requires reporting to the authorities, and the committee should receive details of that Sitiawan incident.",
+    "position": 591,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 148,
+    "candidate": 1,
+    "source": "Keep your composure. The Pussycat Dolls' performance of \"AGGGHH! Keep your composure\" at the MTV Movie Awards was criticized for something. Ask your device about the MTV Movie Awards performance. The Pussycat Dolls criticized something. The Pussycat Dolls criticized the performance of \"AGGGHH! Keep your composure\" at the MTV Movie Awards for something.",
+    "attack": "A criticism was directed at something regarding the Pussycat Dolls' rendition of \"AGGGHH! Keep your composure\" during the MTV Movie Awards; your device should be queried about that specific performance. Something drew the Pussycat Dolls' own critique, and they also took issue with the MTV Movie Awards presentation of \"AGGGHH! Keep your composure\" for a particular reason.",
+    "position": 593,
+    "z_score": 0.0
+  },
+  {
+    "index": 149,
+    "candidate": 0,
+    "source": "The Newbridge College campus defines something as a concept. The Newbridge College campus defines something as a concept currently. The Newbridge College campus defines a concept. The Newbridge College concept. The Newbridge College concept.",
+    "attack": "The definition of a concept is currently being established by the Newbridge College campus, where that same campus identifies something as a concept, and the Newbridge College concept itself is what is being defined.",
+    "position": 596,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 150,
+    "candidate": 0,
+    "source": "Visit the Navodaya Vidyalaya Samiti website for the notification. The Navodaya Vidyalaya Samiti notification details the recruitment for posts. Check the Navodaya Vidyalaya Samiti website for the notification. The Navodaya Vidyalaya Samiti released a notification. Check the official notification.",
+    "attack": "The recruitment notification for posts, released by the Navodaya Vidyalaya Samiti, is detailed in the official notice, which can be accessed by visiting the Navodaya Vidyalaya Samiti website to check the notification.",
+    "position": 600,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 151,
+    "candidate": 1,
+    "source": "The display of the bottle showed something. Show your bottle. The bottle displayed a New England artifact. Show your artifact. The display showed a New England artifact to the bottle.",
+    "attack": "The bottle was shown a New England artifact by the display, and then the bottle itself was to be shown. The display's showing of a New England artifact occurred to the bottle, and the artifact itself required being shown.",
+    "position": 605,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 152,
+    "candidate": 0,
+    "source": "An audit examined something. An audit examined something. Check your return. The IRS audited something old. Check your return for an audit of the IRS by the IRS.",
+    "attack": "The examination of something by an audit was conducted, and a separate audit also examined something. A check of your return is required, as the IRS performed an audit of something that was old. For the IRS's own audit of itself, you must check your return.",
+    "position": 608,
+    "z_score": -1.0
+  },
+  {
+    "index": 153,
+    "candidate": 0,
+    "source": "Old Pike Plantation is not described. Old Pike Plantation is described as something. Buy the description of the purchase of Old Pike Plantation from Old Pike Plantation. Old Pike Plantation is not described. Someone described Old Pike Plantation as a purchase.",
+    "attack": "The description of Old Pike Plantation remains absent, yet it has been characterized as a transaction; acquiring the account of its acquisition from Old Pike Plantation is required, though Old Pike Plantation itself lacks depiction, with an individual having portrayed it solely as a purchase.",
+    "position": 612,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 154,
+    "candidate": 2,
+    "source": "John, aged 40, ran away from home. John ran away from something. John ran away from something at age 40 preceded by running away from home. Be brave. Tell a story about the company to Mary.",
+    "attack": "A story about the company, one that requires bravery, should be told to Mary, concerning John, who at the age of 40 fled both his home and an unspecified something; this flight from home was preceded by a separate flight from that same unspecified something at the same age.",
+    "position": 618,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 155,
+    "candidate": 0,
+    "source": "Something gave Shelby Carter a child. Shelby Carter was given a child in 2015. Shelby Carter was given something in a location. Something gave Shelby Carter a child. A child was given to Shelby Carter.",
+    "attack": "A child was received by Shelby Carter in 2015, with that child having been given to Shelby Carter from something, and the giving of that something to Shelby Carter occurred at a location.",
+    "position": 620,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 156,
+    "candidate": 0,
+    "source": "Alleged scam sees a device for New York City. A scam targeted New York City with a device. A scam targeted New York City with a device. Check the scam for the device. Someone targeted New York City with a device.",
+    "attack": "A device was involved in an alleged scam that targeted New York City; the same scam, using this device, was directed at New York City, and it should be examined for the device, as an individual employed a device to target New York City.",
+    "position": 624,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 157,
+    "candidate": 2,
+    "source": "Ask Hannah for a story about New York City. A story about New York City. Ask Hannah for a story about New York City. Ask Hannah for a New York City story. Ask someone for a story about New York City.",
+    "attack": "A request to Hannah must be made for any narrative regarding New York City; a tale set in New York City is what Hannah should be asked to provide. The act of soliciting from Hannah a story focused on New York City is required, and alternatively, some other individual could be petitioned for a New York City–themed account.",
+    "position": 630,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 158,
+    "candidate": 3,
+    "source": "Zoran Janković rebuffed something. Zoran Janković rebuffed something. Zoran Janković rebuffed an allegation. Keep your assets. Keep your assets.",
+    "attack": "Zoran Janković’s rejection of a particular claim was issued, while a separate matter was also dismissed by him. The same individual refused to accept an accusation. A directive to retain one’s property holdings was given, and the instruction to preserve those assets was repeated.",
+    "position": 635,
+    "z_score": -1.0
+  },
+  {
+    "index": 159,
+    "candidate": 2,
+    "source": "Saving two parts of food waste reduces costs. The best way to save money on food is to not throw it away. A person reduces waste. Reduce the waste of leftover food from a local restaurant to a supermarket. Tesco reduces something.",
+    "attack": "Reducing food waste by saving two portions leads to cost reduction; avoiding disposal is identified as the optimal method for minimizing food expenses, with an individual decreasing waste by cutting leftovers from a local restaurant and directing them to a supermarket, while Tesco achieves a reduction in some unspecified item.",
+    "position": 638,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 160,
+    "candidate": 0,
+    "source": "A neighbor attacked Dove in 2024. A neighbor attacked Dove in 2024. A neighbor attacked something. A neighbor attacked Dove in a location. A neighbor attacked Dove in a location.",
+    "attack": "The 2024 attack on Dove by a neighbor, which took place at a specific location, involved the neighbor assaulting something as well; this event occurred when the neighbor targeted Dove in that location during 2024.",
+    "position": 640,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 161,
+    "candidate": 2,
+    "source": "The meaning of \"The Names\" is something. Show the meaning of \"The Names\" to the poet. A poetic theme of the names. Show the poet the meaning of \"The Names\". Show the poet the meaning of \"The Names\".",
+    "attack": "A demonstration of the meaning behind \"The Names\" must be presented to the poet, as that meaning constitutes a certain thing. The poet is to be shown what \"The Names\" signifies, with the names themselves forming a poetic theme; the poet's reception of this significance is required, and the poet must again be shown the meaning of \"The Names.\"",
+    "position": 646,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 162,
+    "candidate": 0,
+    "source": "Explain the topic of King to the government. The government topic was explained by one official to the King. Explain the topic of the King to the government. One official explained the King to the government. One official explained the King to the government about the topic.",
+    "attack": "The government was to receive an explanation regarding the topic of the King, which one official had already delivered to the monarch. That same official, on the topic of the King, provided an explanation to the government. Additionally, the King’s topic was explained to the government by the official, who also addressed the government about the King in relation to the topic.",
+    "position": 648,
+    "z_score": -1.0
+  },
+  {
+    "index": 163,
+    "candidate": 0,
+    "source": "The field session ended with observations. Observe your observations. Drew observed at the location. Observe your observations. The team observed the New England Patriots in 2023.",
+    "attack": "The location was where Drew made his observation, and the team's 2023 observation focused on the New England Patriots; the field session concluded with observations, requiring that observations themselves be observed—observe your observations.",
+    "position": 652,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 164,
+    "candidate": 0,
+    "source": "The South African Federation will cause a major split. The South African Federation is extensive. Make the South African Federation a topic about the South African Federation. The South African Federation was split in 2024. Tell the South African Federation a topic about the South African Federation to Cosatu.",
+    "attack": "A major split will be caused by the extensive South African Federation; in 2024, this Federation was divided, and it is to be made a topic about itself, with that same topic being told to Cosatu.",
+    "position": 656,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 165,
+    "candidate": 3,
+    "source": "Destroy the enemy base near the city. Destroy the enemy base that the attack on ISIS near Mosul destroyed. Destroy the enemy base. Destroy the attack on ISIS near Mosul that destroyed the base. Mosul.",
+    "attack": "The enemy base near Mosul, which was destroyed by the attack on ISIS, must be destroyed; the attack on ISIS near Mosul that led to the base’s destruction is also to be destroyed, as is the base itself—Mosul.",
+    "position": 663,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 166,
+    "candidate": 2,
+    "source": "Samantha Who? made Dena a breakout hit. Dena made a breakout hit of Samantha Who? recent. Dena was made a breakout hit by Samantha Who? Dena made Samantha Who? a breakout hit recently. Samantha Who? made Dena a breakout hit recently.",
+    "attack": "The recent breakout hit status of Dena was achieved through Samantha Who?, while Dena, in turn, recently elevated Samantha Who? to a breakout hit; additionally, Samantha Who? had previously established Dena as a breakout hit, and Dena’s own recent efforts made Samantha Who? a breakout hit, just as Samantha Who? recently made Dena a breakout hit.",
+    "position": 666,
+    "z_score": -0.2581988897471611
+  },
+  {
+    "index": 167,
+    "candidate": 0,
+    "source": "Redwood City. The city approved something. Please approve the ordinance. The ordinance was approved for something by Redwood City. Redwood City approved something at a location.",
+    "attack": "Redwood City's approval of the ordinance for a specific purpose occurred at a particular location; the city's action, which involved the ordinance being passed, is what requires ratification.",
+    "position": 668,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 168,
+    "candidate": 0,
+    "source": "Tell the audience to watch the debate featuring Kamala Harris and Joe Biden. Watch Kamala Harris. Kamala Harris debated. Watch Kamala Harris debate Joe Biden. The audience watched the debate.",
+    "attack": "Instruct the audience to observe the debate in which Kamala Harris and Joe Biden participated, and to specifically watch Harris, who engaged in that debate against Biden, an event that the audience has already witnessed.",
+    "position": 672,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 169,
+    "candidate": 0,
+    "source": "The something elected European Parliament with a majority of seats. The European Parliament was elected today. The European Parliament was elected today. Something elected the European Parliament with a majority. The European Parliament was elected today.",
+    "attack": "The European Parliament, having secured a majority of seats, was elected today by something, with that same body elected again today, while something else elected it with a majority, and the European Parliament’s election occurred today.",
+    "position": 676,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 170,
+    "candidate": 0,
+    "source": "Share a story about a Whopper of the Week nominee remembering Strom. A nominee remembered Strom about a story. Remember a nominee about Strom. A nominee remembered Strom. Strom remembered a nominee.",
+    "attack": "A story concerning a Whopper of the Week nominee's recollection of Strom was shared; a nominee's memory of Strom involved a narrative, and a nominee was recalled in relation to Strom. The act of remembering Strom by a nominee occurred, just as a nominee was remembered by Strom.",
+    "position": 680,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 171,
+    "candidate": 0,
+    "source": "The topic is about BigString Corp. BigString Corp is a company whose age is something. BigString Corp is a company. BigString Corp is a company. BigString Corp was appointed at some time.",
+    "attack": "BigString Corp, a company of unspecified age, was appointed at an unknown time, and it remains a company—this topic concerns that same entity.",
+    "position": 684,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 172,
+    "candidate": 2,
+    "source": "James Robert Thomason is not described. James Robert Thomason is not described. The topic is something about James Robert Thomason. Ask James Robert Thomason what the company that acquired the product is named. Ask James Robert Thomason the name of the company that acquired the product.",
+    "attack": "No description exists for James Robert Thomason; it is a topic concerning him that remains unspecified. The name of the company which acquired the product should be requested from James Robert Thomason, and he should also be asked what that acquiring company is called.",
+    "position": 690,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 173,
+    "candidate": 0,
+    "source": "NE1 taught something about NE2 recently. Teach a student about the College Board to a teacher. NE1 taught something about NE2 recently. NE1 is relevant to NE2. A teacher taught about the College Board to a student recently.",
+    "attack": "A recent event involved NE1 instructing a student about NE2, with that same instruction covering the College Board and being directed toward a teacher; additionally, NE1 recently conveyed something regarding NE2, and NE1 holds relevance to NE2, while a teacher recently provided instruction about the College Board to a student.",
+    "position": 692,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 174,
+    "candidate": 0,
+    "source": "Someone gave the Daily Star something. The Daily Star gave something. The Daily Star was not given. The Daily Star gave something. Something about the Daily Star.",
+    "attack": "The Daily Star received an item from an unnamed source, subsequently passed along that same item, and was itself never the recipient of any such transfer; furthermore, the item in question pertained to the Daily Star itself.",
+    "position": 696,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 175,
+    "candidate": 3,
+    "source": "The ram complicates everything. Complicate your device with what Wallace Stevens wrote about ARIES. Wallace Stevens complicated everything. Complicate ARIES with something. Complicate ARIES with something.",
+    "attack": "The entire situation is made more difficult by the ram. Using what Wallace Stevens wrote about ARIES, you should introduce complexity into your device. A tendency to complicate all matters was exhibited by Wallace Stevens. ARIES must be complicated by something, and that same something should also be used to complicate ARIES.",
+    "position": 703,
+    "z_score": 0.0
+  },
+  {
+    "index": 176,
+    "candidate": 2,
+    "source": "Keep the area clean. Keep the area clean. Keep the area clean. The army achieved a turn-around. The British Army achieved a remarkable turn-around.",
+    "attack": "The directive to maintain cleanliness in the area was repeated three times. A turn-around was accomplished by the army, and a remarkable one was specifically achieved by the British Army.",
+    "position": 706,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 177,
+    "candidate": 0,
+    "source": "The Jeep Grand Cherokee's topic is something. The Jeep Grand Cherokee was introduced in 2011. The Jeep Grand Cherokee introduced the topic of something. The Jeep Grand Cherokee introduced the topic of something. The Jeep Grand Cherokee introduced a feature of the Jeep Grand Cherokee.",
+    "attack": "The introduction of the Jeep Grand Cherokee in 2011 brought about the topic of something, and this model also introduced a feature of itself.",
+    "position": 708,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 178,
+    "candidate": 0,
+    "source": "The New York Times received something. The New York Times received something. The New York Times received something. The New York Times received something. Something about the New York Times.",
+    "attack": "The receipt by The New York Times of a certain item occurred; that same item was obtained by The New York Times on a repeated basis. A matter pertaining to The New York Times constitutes the subject of that item.",
+    "position": 712,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 179,
+    "candidate": 0,
+    "source": "Monsanto Company launched a product. Monsanto Company launched a product that uses glyphosate. Monsanto Company launched a product. Monsanto launched a product using glyphosate for something recently. Launch a product.",
+    "attack": "A product that employs glyphosate was recently introduced by Monsanto Company, with that same firm having also put forth a separate product, and another product utilizing glyphosate was launched as well; additionally, the act of launching a product occurred.",
+    "position": 716,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 180,
+    "candidate": 0,
+    "source": "Ed Berthiaume stepped down in 2025. Ed Berthiaume announced his departure from The Post-Crescent as a change. Ed Berthiaume announced something at The Post-Crescent. Make something clear. Ed Berthiaume announced a change.",
+    "attack": "In 2025, Ed Berthiaume departed from The Post-Crescent, having announced his own exit as a change and making clear that this shift was communicated by him at the publication.",
+    "position": 720,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 181,
+    "candidate": 0,
+    "source": "Sally Beauty offers this. Free shipping is offered on all beauty products or supplies orders over $34 by Sally Beauty. Sally Beauty. Offer free shipping. Sally Beauty offers something on all beauty products or supplies orders over $34.",
+    "attack": "Free shipping on all orders exceeding $34 for beauty products or supplies is provided by Sally Beauty, which makes this offer available, and the same company, Sally Beauty, extends that free shipping promotion.",
+    "position": 724,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 182,
+    "candidate": 2,
+    "source": "Something muddled the Great Magician by a potion. The Great Magician was not muddled by a potion. Something muddled the Great Magician by a potion. The Great Magician muddled something by a potion. Muddle a potion about \"The Great Magician\" by a warlord.",
+    "attack": "A potion caused the muddling of the Great Magician, yet the Great Magician remained unmuddled by any potion. A potion’s muddling of the Great Magician occurred, while the Great Magician muddled something else with a potion. A warlord’s instruction to muddle a potion regarding “The Great Magician” was given.",
+    "position": 730,
+    "z_score": -1.0
+  },
+  {
+    "index": 183,
+    "candidate": 1,
+    "source": "Putin is some age. Putin is some age. Putin's age is something. Putin is asked about something old. Someone asked Putin about a topic.",
+    "attack": "Putin’s age has been inquired about by an individual, and the topic of something old was raised with him. That individual posed a question to Putin on a certain subject, while Putin himself is of a particular age, and his age remains unspecified.",
+    "position": 733,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 184,
+    "candidate": 1,
+    "source": "The 29-6 team lost to Florida State. Auburn Tigers team. The Auburn Tigers team lost to something last season. Tell the Auburn Tigers team the result of losing to Florida State. The Auburn Tigers team.",
+    "attack": "The 29-6 squad was defeated by Florida State, a result that should be communicated to the Auburn Tigers team, which itself suffered a loss to some opponent during the previous season.",
+    "position": 737,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 185,
+    "candidate": 0,
+    "source": "The image shows something. Almond Street reimagines something. Almond Street reimagines something. A reimagined street image. Reimagine the street.",
+    "attack": "The image presented is a reimagining of Almond Street, specifically depicting a vision for what the street could become.",
+    "position": 740,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 186,
+    "candidate": 0,
+    "source": "AOL launched something new recently. A new feature about AOL Pictures. AOL Pictures was not launched. AOL Pictures was launched recently. AOL Pictures was launched recently.",
+    "attack": "A recent launch by AOL introduced a new feature concerning AOL Pictures; this feature, rather than the AOL Pictures service itself, was newly released, although the service had already been launched at a recent prior time.",
+    "position": 744,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 187,
+    "candidate": 0,
+    "source": "Palomar. Palomar is extensive to some extent. Show me a map of Palomar with the cleared land. Palomar is clearing something. Palomar is extensive to something.",
+    "attack": "The extent of Palomar is considerable; a map displaying Palomar alongside its cleared land should be shown to me, as Palomar is engaged in a clearing activity and its extensiveness relates to something.",
+    "position": 748,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 188,
+    "candidate": 0,
+    "source": "Find the dragon egg of a tricky brainteaser challenge in the cushions. Find the dragon egg. Find the dragon egg. Find the hidden object in something. Find the dragon egg.",
+    "attack": "A tricky brainteaser challenge involves locating the dragon egg concealed within the cushions; this hidden object must be found, and the dragon egg is the specific item to be repeatedly sought.",
+    "position": 752,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 189,
+    "candidate": 0,
+    "source": "Torture has been inflicted on something. Torture has been extensive on tens of thousands of people. Torture has been extensive on a Syrian concept. Tell the regime about the extensive torture of Syrian people. Torture has been extensive on a Syrian concept.",
+    "attack": "A regime has been told that tens of thousands of individuals have undergone extensive torture, and that this torture has also been extensively inflicted upon a Syrian concept.",
+    "position": 756,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 190,
+    "candidate": 0,
+    "source": "A person makes a donation. A person makes a donation of two two. Elon Musk made a donation in an unspecified location. A donation was made to something by Elon Musk. Elon Musk made a donation somewhere.",
+    "attack": "A donation is made by an individual; a second donation of two is also made by an individual; Elon Musk donated in a location that remains unspecified; a recipient received a donation from Elon Musk; a donation was carried out by Elon Musk at some place.",
+    "position": 760,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 191,
+    "candidate": 3,
+    "source": "Drive your motorcycle to the checkpoint. The driver is mistaken for an Angkas rider. The man who drives his wife to work on their motorcycle is often mistaken for an Angkas rider by enforcers. The man is mistaken for an Angkas rider. The driver is mistaken for an Angkas rider.",
+    "attack": "Driving a motorcycle to the checkpoint results in the driver being mistaken for an Angkas rider. Enforcers frequently mistake the man who rides his wife to work on their motorcycle for an Angkas rider. The man is misidentified as an Angkas rider, and the driver is likewise misidentified as an Angkas rider.",
+    "position": 767,
+    "z_score": -1.0
+  },
+  {
+    "index": 192,
+    "candidate": 3,
+    "source": "Richard Sherman is on baby watch. Richard Sherman is on baby watch. Keep your calm. A person watches something. A person watches Richard Sherman.",
+    "attack": "Richard Sherman remains on baby watch; composure should be maintained by you, as an individual is observing something, with that same individual also keeping Richard Sherman under observation.",
+    "position": 771,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 193,
+    "candidate": 2,
+    "source": "Ridley Scott was immortalized in concrete. Ridley Scott is concrete-hard. Tell the director about concrete Ridley Scott. Ridley Scott's concrete is hard. Concrete Ridley Scott.",
+    "attack": "Ridley Scott's permanence was set within concrete, and the director himself possesses a hardness matching that material. Inform Ridley Scott that he, as a concrete figure, is both hard and immortalized. The hardness of Ridley Scott's concrete is definitive, constituting the concrete identity of Ridley Scott.",
+    "position": 774,
+    "z_score": -1.0
+  },
+  {
+    "index": 194,
+    "candidate": 0,
+    "source": "Les Beaucamps school is considered as a potential site. The Les Beaucamps school idea. Les Beaucamps school is considered as something currently. An idea about Les Beaucamps school. Les Beaucamps school is considering something at a location.",
+    "attack": "The current consideration of Les Beaucamps school as a potential site involves that institution itself weighing an option at a specific location.",
+    "position": 776,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 195,
+    "candidate": 1,
+    "source": "Subscribe to our sports newsletter! Subscribe to the sports newsletter! Subscribe to the sports newsletter! Subscribe to the sports newsletter for updates about your favorite teams. John Smith signed up for the sports newsletter.",
+    "attack": "A subscription to our sports newsletter is recommended; signing up for it provides updates about your favorite teams. John Smith became a subscriber to that same sports newsletter.",
+    "position": 781,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 196,
+    "candidate": 0,
+    "source": "Someone mentioned the stock on CNBC. CNBC mentioned a stock. CNBC mentioned a stock. CNBC mentioned something recently. A person mentioned something.",
+    "attack": "A stock was recently referenced on CNBC, with the network making mention of it, just as an individual also brought up something in a separate remark.",
+    "position": 784,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 197,
+    "candidate": 2,
+    "source": "Understanding what it's like to have no concept of it is to be unable to describe it. The event was described in the year 2023 by Alice Smith. Describe your device concept. Alice Smith described the concept. Alice Smith described the concept in 2023.",
+    "attack": "In 2023, Alice Smith provided a description of the event, and the inability to articulate a concept that is entirely absent from one's understanding constitutes the essence of lacking that concept. She also described the concept itself, and a description of your own device concept is required. Alice Smith's account of the concept was given in 2023.",
+    "position": 790,
+    "z_score": 0.3333333333333333
+  },
+  {
+    "index": 198,
+    "candidate": 0,
+    "source": "Share your device with the church. Share St Georges Cathedral with something. Share St Georges Cathedral with something for one First African Church. St Georges Cathedral was shared in April 2004. Share St Georges Cathedral with the church for a celebration.",
+    "attack": "In April 2004, the First African Church was the recipient of a shared use of St George's Cathedral, when that cathedral was made available for a celebration with the church; your device should also be shared with that same church, and St George's Cathedral is to be shared with something, as it was shared with something for one First African Church.",
+    "position": 792,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 199,
+    "candidate": 0,
+    "source": "The killing of a Richmond resident was related to something. Someone charged Larry Scott with conspiracy in a killing. Someone charged Larry Scott with conspiracy in a killing. Someone charged Larry Scott with something. Larry Scott was killed in something.",
+    "attack": "Larry Scott faced conspiracy charges related to a killing, and the death of a Richmond resident was connected to that same event; moreover, Larry Scott himself died in the incident, with the charges against him also encompassing that very killing.",
+    "position": 796,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 200,
+    "candidate": 0,
+    "source": "Curis announced something at a time. Curis, Inc. announced in Lexington. Curis announced development of a targeted therapy for something. Curis, Inc. is relevant to a targeted therapy. Curis announced something today.",
+    "attack": "In Lexington today, Curis, Inc. made an announcement concerning the development of a targeted therapy for a certain condition, with the company itself being the entity associated with that therapeutic approach.",
+    "position": 800,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 201,
+    "candidate": 1,
+    "source": "Weakness in the eurozone economy will cause a decline in imports and exports through North Europe ports this year. Weakness will cause a decline from something this year. You predict a decline. You predict a decline. Weakness will cause a decline in port trade from something.",
+    "attack": "The assertion that a decline in imports and exports at North European ports will occur this year is attributed to weakness within the eurozone economy. A decrease from an unspecified baseline is predicted, with this same economic fragility being identified as the cause. Furthermore, a reduction in port trade is forecasted, also stemming from that underlying weakness.",
+    "position": 805,
+    "z_score": -1.0
+  },
+  {
+    "index": 202,
+    "candidate": 0,
+    "source": "John Dixon greeted something. Greeted something to John Dixon. John Dixon greeted something. John Dixon is greeted by something. John Dixon greeted something warmly.",
+    "attack": "Something was greeted warmly by John Dixon, who extended a greeting to it, and that same thing also received a greeting from him, as he was greeted by it in return.",
+    "position": 808,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 203,
+    "candidate": 2,
+    "source": "MTN presented the last batch of 28 Hyundai cars to winners in Accra. Claim a prize car. Claim a prize car. Claim the car prize from MTN winners. Someone claimed a prize from MTN.",
+    "attack": "The final 28 Hyundai vehicles were handed over by MTN to their recipients in Accra. A prize vehicle should be collected. Awarded cars must be retrieved. The automobile prize is to be obtained from MTN's victors. An individual did take possession of a reward from MTN.",
+    "position": 814,
+    "z_score": 0.7745966692414834
+  },
+  {
+    "index": 204,
+    "candidate": 1,
+    "source": "The Daily Caller learned of a failure in 2023. Inform The Daily Caller about the backlog at the Memphis VA Medical Center. Someone informed The Daily Caller about a backlog. The backlog was informed to The Daily Caller. The Daily Caller was informed about a backlog.",
+    "attack": "In 2023, The Daily Caller was made aware of a failure, and that same outlet was told about a backlog existing at the Memphis VA Medical Center; the backlog was reported to The Daily Caller by an individual, who provided this information, meaning The Daily Caller received notification of the backlog.",
+    "position": 817,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 205,
+    "candidate": 0,
+    "source": "Cracking down on thieving retailers is a good idea. Amazon is a company. Amazon is good for something. Direct a retailer to something about Amazon Company. Direct a retailer to something about Amazon Company.",
+    "attack": "The notion that penalizing retailers who engage in theft constitutes a sound policy is widely accepted. Amazon, as a corporate entity, possesses certain redeeming qualities. One constructive action involves guiding a retailer toward information regarding the Amazon Corporation. A further step entails directing that same retailer to additional details pertaining to the Amazon Corporation.",
+    "position": 820,
+    "z_score": -1.1547005383792517
+  },
+  {
+    "index": 206,
+    "candidate": 0,
+    "source": "The teaser trailer unveiled something about the upcoming film. The teaser trailer unveiled a scene from the upcoming film recently. Show the teaser scene from the upcoming film to Jack Sparrow. The teaser trailer unveiled a scene from the film to something. The teaser trailer unveiled a scene from the upcoming film to Jack Sparrow.",
+    "attack": "A recent unveiling of the upcoming film's teaser trailer included a scene that was shown to Jack Sparrow; this teaser trailer, having disclosed something about the film, also presented that same scene to an unspecified entity.",
+    "position": 824,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 207,
+    "candidate": 0,
+    "source": "Proclus of Athens is defined. Proclus of Athens is defined as something. Proclus of Athens was defined in the year 412. A modified action is defined as something. Someone defined Proclus of Athens as a thing.",
+    "attack": "A definition for Proclus of Athens exists, having been established in 412, along with a separate definition for a modified action, with one individual having characterized Proclus of Athens as a particular entity.",
+    "position": 828,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 208,
+    "candidate": 0,
+    "source": "Kellyanne Conway was polite about the interview. Kellyanne Conway politely cut the interview. Kellyanne Conway cut the interview. Kellyanne Conway was polite to Dana Bash. Kellyanne Conway was polite to the extent of something.",
+    "attack": "The interview was politely cut by Kellyanne Conway, who exhibited politeness toward Dana Bash; this politeness extended to a certain degree, and the interview itself was indeed concluded by her.",
+    "position": 832,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 209,
+    "candidate": 1,
+    "source": "Play your instrument with a spring theme. Blackpool Symphony Orchestra's season. The orchestra plays something. The spring theme of the season. The Blackpool Symphony Orchestra performs at a location.",
+    "attack": "Performing with a spring theme is required for your instrument during the Blackpool Symphony Orchestra's season. At a location, the orchestra's playing of something occurs, and the season's spring theme is executed by the Blackpool Symphony Orchestra.",
+    "position": 837,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 210,
+    "candidate": 0,
+    "source": "Take the Green line. Take the Green line train's schedule from Metro. A schedule takes a train. Take the schedule of the train from the Green line at Metro. A schedule takes a train.",
+    "attack": "Obtaining a schedule from Metro for a train on the Green line is required; that schedule, which is taken from Metro, applies to a train, and the train itself is taken from the Green line, with the schedule being what takes the train.",
+    "position": 840,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 211,
+    "candidate": 0,
+    "source": "The application requires fingerprints and photos from visa applicants. A person must provide fingerprints to Canada. A person must provide fingerprints to Canada Border Services Agency. Provide your fingerprints. Provide your fingerprints to the application.",
+    "attack": "The submission of fingerprints and photographs is mandated from visa applicants by the application, with fingerprints required to be given to Canada, specifically to the Canada Border Services Agency, and it is necessary for an individual to provide those fingerprints to the application.",
+    "position": 844,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 212,
+    "candidate": 2,
+    "source": "Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Hillary Rodham Clinton was declared victorious to an extent. Jeffrey Berman declared Hillary Rodham Clinton to something. Hillary Rodham Clinton was declared victorious to something.",
+    "attack": "According to Jeffrey Berman, Hillary Rodham Clinton was proclaimed the winner to a certain degree; he attributed a victory to her, and she was declared victorious to some extent, as Berman made that assertion regarding her.",
+    "position": 850,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 213,
+    "candidate": 0,
+    "source": "The drowning of three children involved a Mexico City boat. The drowning involved a Mexico City boat. A Mexico City boat drowned something at a recent time. A Mexico City boat incident. A boat drowned something.",
+    "attack": "Three children were drowned by a Mexico City boat during a recent incident, with that same vessel being the one involved in their deaths.",
+    "position": 852,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 214,
+    "candidate": 2,
+    "source": "Kirill Kudryavtsev walked in Astana. Kirill Kudryavtsev walked in a location. A topic about Kirill Kudryavtsev with some modification. Tell Kirill Kudryavtsev a topic about a monument. Kirill Kudryavtsev is related to a monument.",
+    "attack": "In Astana, a walk was taken by Kirill Kudryavtsev, with that same individual having traversed some specific place. A certain subject concerning Kirill Kudryavtsev, albeit with a degree of alteration, exists. To Kirill Kudryavtsev, a topic regarding a monument should be conveyed, as that monument is connected to Kirill Kudryavtsev.",
+    "position": 858,
+    "z_score": -1.0
+  },
+  {
+    "index": 215,
+    "candidate": 1,
+    "source": "Make your final choice. Mallard Creek was not won by them. The team did not win something. Mallard Creek was not won by them. Mallard Creek did not win in 2024.",
+    "attack": "The final selection must be made. Victory in Mallard Creek eluded them; no achievement was secured by the team. Mallard Creek remained unwon on their part, with the year 2024 yielding no triumph for the team in that location.",
+    "position": 861,
+    "z_score": -1.0
+  },
+  {
+    "index": 216,
+    "candidate": 0,
+    "source": "The deer loved New Moon Farms. The deer loved New Moon Farms. The deer loved New Moon Farms. Ask the deer to describe the love of New Moon Farms for Loganville. The deer described New Moon Farms' love for Loganville to something.",
+    "attack": "The affection of the deer toward New Moon Farms was repeatedly expressed; they were asked to characterize the farm’s fondness for Loganville, and that fondness was described by the deer as being directed toward something.",
+    "position": 864,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 217,
+    "candidate": 0,
+    "source": "Apple Inc. is not centralized. Apple Inc. is located somewhere. Apple Inc. uses something for a portfolio. Apple Inc. is not centralized. Something uses Apple Inc. for a portfolio.",
+    "attack": "The decentralization of Apple Inc. is absent, and its physical location exists at an unspecified site. A certain entity is utilized by Apple Inc. for portfolio purposes, while that same entity incorporates Apple Inc. into its own portfolio; this lack of centralization persists.",
+    "position": 868,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 218,
+    "candidate": 0,
+    "source": "The Spirit of Australia is the fastest boat. Someone made the Spirit of Australia a boat. The Spirit of Australia made a boat. The Spirit of Australia made something a boat recently. Make the Spirit of Australia a boat.",
+    "attack": "The fastest boat, which was recently constructed, is the Spirit of Australia, and this vessel was built by an individual; furthermore, the Spirit of Australia itself was transformed into a boat, having been made into one by that same creator, with the instruction to now convert it into a boat being issued.",
+    "position": 872,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 219,
+    "candidate": 1,
+    "source": "KEI KECIL is a small island. Kei Kecil is small to an extent. Kei Kecil is not believed. Believe the belief about Kei Kecil. Kei Kecil is small to an extent.",
+    "attack": "The extent of Kei Kecil's smallness is not accepted as true by anyone; this belief regarding the island's size is itself to be held. Kei Kecil constitutes a small island, and the degree of its smallness is a matter of belief.",
+    "position": 877,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 220,
+    "candidate": 0,
+    "source": "Let the living be relaxed. Wildwood at Keowee provides relaxed living to someone. Let the living be relaxed. Wildwood at Keowee provides relaxed living to someone. Wildwood at Keowee provides relaxed living to someone.",
+    "attack": "A relaxed state of living is offered to an individual by Wildwood at Keowee; that same relaxed living is what should be allowed for the living, and Wildwood at Keowee again extends this relaxed living to someone, just as the living are to be permitted relaxation.",
+    "position": 880,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 221,
+    "candidate": 0,
+    "source": "Super Typhoon Ompong. Super Typhoon Ompong was not named. Let the device decide. Super Typhoon Ompong was not named at the time. Super Typhoon Ompong placed something.",
+    "attack": "At the moment in question, no name had been assigned to Super Typhoon Ompong; it was left for the device to determine. The naming of Super Typhoon Ompong had not yet occurred, and the typhoon itself had positioned some unspecified object.",
+    "position": 884,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 222,
+    "candidate": 0,
+    "source": "Rent an apartment. A tenant rents an apartment. A tenant rents an apartment. John Doe rents something. John Doe rents something.",
+    "attack": "John Doe's act of renting an apartment is what occurs when a tenant, such as John Doe himself, enters into a rental agreement for that same apartment, with the property being the thing that John Doe rents.",
+    "position": 888,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 223,
+    "candidate": 0,
+    "source": "Ehud Olmert is consistent with something. Ehud Olmert is consistent with something. Ehud Olmert is consistent with a position. Ehud Olmert's position aligns with something. Olmert's position aligns with the French stand.",
+    "attack": "Consistency can be found in Ehud Olmert, with a position that he holds being matched by something; this position of Olmert's is in alignment with the French stand, as that stand is something with which his position aligns.",
+    "position": 892,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 224,
+    "candidate": 0,
+    "source": "Someone achieved something with Lufkin. Lufkin was achieved on Sunday. Someone achieved Lufkin with something. Lufkin was achieved on Sunday. Lufkin was achieved on Sunday.",
+    "attack": "On Sunday, Lufkin was accomplished by an individual using a particular method; that same individual employed that method to accomplish Lufkin, which occurred again on Sunday, and once more on that same Sunday.",
+    "position": 896,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 225,
+    "candidate": 0,
+    "source": "The school held an event. Fort Saskatchewan Education Day. Make a day joyful. Fort Saskatchewan Education Day was held at a location. Make the day joyful.",
+    "attack": "The location of the Fort Saskatchewan Education Day event, which was organized by the school, served as the site where a day was made joyful, with that joyful day being the same Fort Saskatchewan Education Day.",
+    "position": 900,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 226,
+    "candidate": 0,
+    "source": "Montana Rescue Mission did not announce a familiar face. What is a topic about Billings Montana? Billings Montana was not announced. Billings Montana Rescue Mission announced a familiar face. Someone announced Billings Montana as something.",
+    "attack": "Montana Rescue Mission failed to reveal a known individual. A subject concerning Billings, Montana—what might it be? Billings, Montana, went undisclosed. The Billings Montana Rescue Mission did introduce a recognizable person. Billings, Montana, was identified by someone as a certain thing.",
+    "position": 904,
+    "z_score": 2.840187787218772
+  },
+  {
+    "index": 227,
+    "candidate": 0,
+    "source": "I compel spreading word about a Senate bill affecting private preschools in California. Spread the word about the bill affecting private preschools in California. Spread the word about the bill. Spread the word about the bill. Spread the word about the bill.",
+    "attack": "Spreading word about a California Senate bill that impacts private preschools is compelled by me. Word about the bill affecting California’s private preschools must be spread. Word about the bill must be spread. Word about the bill must be spread. Word about the bill must be spread.",
+    "position": 908,
+    "z_score": -1.2909944487358056
+  },
+  {
+    "index": 228,
+    "candidate": 1,
+    "source": "The No. 1 named entity gave a something to a single named entity. Baton Rouge gave a speech in Louisiana. Baton Rouge gave a speech to something. Baton Rouge was great to an extent. Baton Rouge gave a speech to something.",
+    "attack": "A single named entity received a something from the top-ranked named entity. In Louisiana, a speech was delivered by Baton Rouge. A speech was given by Baton Rouge to something. To a certain degree, Baton Rouge was great. Something was the recipient of a speech from Baton Rouge.",
+    "position": 913,
+    "z_score": 1.8073922282301278
+  },
+  {
+    "index": 229,
+    "candidate": 1,
+    "source": "Wollemi is something. Define Wollemi. Define Wollemi as something about Wollemi to Wollemi. Define Wollemi as something about Wollemi to Wollemi. Wollemi defined something.",
+    "attack": "The Wollemi constitutes a definable entity; it is characterized as a property pertaining to itself, directed toward itself, and this self-referential definition establishes that Wollemi has defined a particular something.",
+    "position": 917,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 230,
+    "candidate": 1,
+    "source": "Tell the inmate the complaint. Tell the inmate the complaint. The inmate told the complaint to Mississippi. Tell the inmate the complaint about Mississippi. The inmate told the complaint about the court of Mississippi.",
+    "attack": "The complaint should be communicated to the inmate, and it was this same complaint that the inmate conveyed to Mississippi. The inmate must be informed of the complaint regarding Mississippi, as the inmate had already reported the complaint concerning Mississippi's court.",
+    "position": 921,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 231,
+    "candidate": 2,
+    "source": "Ask your device a question about Kit Harington. Kit Harington revealed something. Kit Harington revealed something about a device recently. Ask your device a question about Kit Harington. Kit Harington is similar to a device.",
+    "attack": "A recent disclosure by Kit Harington concerned a device, and queries about him—posed to that same device—are recommended, as the actor and the device share similarities.",
+    "position": 926,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 232,
+    "candidate": 2,
+    "source": "Vote Leave has been accused of a subversion of democracy. Vote Leave has been accused of a subversion of democracy. Accuse Vote Leave of a subversion of democracy. Vote Leave's subversion of democracy accusation. Someone accused something.",
+    "attack": "A subversion of democracy has been alleged against Vote Leave, with the group facing an accusation of that same subversion. The charge of subverting democracy is directed at Vote Leave, as an accusation was made by someone concerning an unspecified entity.",
+    "position": 930,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 233,
+    "candidate": 0,
+    "source": "Tell a reporter about the topic of a network. The National Security Council network topic. The National Security Council is reported on about a network. Someone informed the National Security Council about a network. The National Security Council's network topic.",
+    "attack": "A reporter should be informed regarding the network topic, specifically that of the National Security Council. It is reported that the National Security Council itself has been the subject of reporting concerning a network, and that an individual provided information to the National Security Council about a network; this constitutes the National Security Council's network-related subject matter.",
+    "position": 932,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 234,
+    "candidate": 0,
+    "source": "The Young Adult Division was founded in 2008. The Young Adult Division held an event somewhere. The Young Adult Division event. Ask the Young Adult Division for the definition of the event held by the Middle East Forum's Young Adult Division. Ask the Young Adult Division for the definition of its event.",
+    "attack": "Having been established in 2008, the Young Adult Division—for which a request should be made regarding the definition of an event that it hosted somewhere, as well as for the definition of that same event held by the Middle East Forum's Young Adult Division—conducted that event.",
+    "position": 936,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 235,
+    "candidate": 0,
+    "source": "A company unveiled something. Sony did not unveil Sony. Sony unveiled something today. Sony Corporation is large to an extent. A company unveiled Sony to a device.",
+    "attack": "Sony Corporation, a company large to some degree, made a disclosure today concerning a device, though it was not Sony itself that was unveiled, and the entity that introduced Sony to that device was a company.",
+    "position": 940,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 236,
+    "candidate": 0,
+    "source": "Nashville Predators will open something. Something opened the Nashville Predators to a team. The Nashville Predators opened to a team. The Nashville Predators opened something. The Nashville Predators opened to a team.",
+    "attack": "A team will be opened to by the Nashville Predators, and the opening of something to that team is what the Nashville Predators will do, with the Nashville Predators having opened to a team and also having opened something.",
+    "position": 944,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 237,
+    "candidate": 0,
+    "source": "Addressing a business envelope ensures something to the recipient. John Smith addressed the issue. Address the issue of the envelope to John Smith. Address the issue of the envelope to John Smith. The envelope was addressed to John Smith.",
+    "attack": "Addressing a business envelope provides a guarantee for the recipient; the matter was taken up by John Smith, who should be the one to whom the envelope’s issue is directed, with that envelope having been addressed to John Smith.",
+    "position": 948,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 238,
+    "candidate": 0,
+    "source": "The Cleveland Browns touted a quarterback competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition at a location. The Cleveland Browns touted a competition at a location.",
+    "attack": "A quarterback competition was being touted by the Cleveland Browns, with that same competition receiving repeated emphasis from the organization, and it was additionally touted at a specific location by the Cleveland Browns, where the competition itself was also the subject of their touting at that location.",
+    "position": 952,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 239,
+    "candidate": 1,
+    "source": "Give up on white people. Give up on white people. Give up on white people. Give up on the role of a group. Give up the role of a group.",
+    "attack": "The directive to abandon any reliance on white individuals must be followed. A complete cessation of expectations from white people is required. The concept of a group's function should be relinquished, and the very notion of a collective role must be surrendered.",
+    "position": 957,
+    "z_score": -1.0
+  },
+  {
+    "index": 240,
+    "candidate": 3,
+    "source": "Give the team a new contract. Give the team a contract agreed to by James Jones with the Green Bay Packers. Give the team a new contract. Give the team a contract. A topic about the Green Bay Packers.",
+    "attack": "A new contract for the team—specifically, the one James Jones and the Green Bay Packers agreed upon—must be provided. It is a contract that has been given to the team, and this same topic concerns the Green Bay Packers.",
+    "position": 963,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 241,
+    "candidate": 0,
+    "source": "Design a device with a glass design. The company is experimenting with something. Design a device with a glass design. Apple Inc. experimented with a design in 2015. Design a device about Apple Inc. with a glass design.",
+    "attack": "In 2015, Apple Inc. conducted an experiment involving a glass-based design for a device, and the company is currently testing a similar concept, with the same glass design being applied to a device associated with Apple Inc.",
+    "position": 964,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 242,
+    "candidate": 0,
+    "source": "Cleveland claimed something. Cleveland. A woman claimed a prize. Cleveland claimed a prize at a location. Claim the prize with a ticket.",
+    "attack": "The claim made by Cleveland involved a woman who, at a specific location, asserted her entitlement to a prize, which was accomplished through the use of a ticket; this assertion was made by Cleveland herself.",
+    "position": 968,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 243,
+    "candidate": 0,
+    "source": "SAP Labs asked something. SAP Labs asked in Palo Alto. SAP Labs asked about the designed workspace something. SAP Labs asked something about the designed workspace. SAP Labs is important to something.",
+    "attack": "A query was made by SAP Labs in Palo Alto concerning the designed workspace, with that query also pertaining to something else, and SAP Labs holds significance for a particular matter.",
+    "position": 972,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 244,
+    "candidate": 0,
+    "source": "The EPA announced Trump's action to something. Trump. Make your position clear. Someone announced something to Donald Trump. Trump was not announced.",
+    "attack": "The announcement by the EPA of an action taken by Trump was directed toward a certain entity, and Trump himself was the subject of a directive to clarify a stance. A separate individual conveyed information to Donald Trump, yet Trump was never the one announced.",
+    "position": 976,
+    "z_score": -0.8164965809277261
+  },
+  {
+    "index": 245,
+    "candidate": 0,
+    "source": "Feel the tension. Najib arrived in 2024. Najib is tense about something. Najib arrived in 2024. Najib was tense to some extent.",
+    "attack": "One can sense the tension: it was in 2024 that Najib arrived, and he was feeling a degree of tension about something; his arrival occurred in 2024, and Najib was somewhat tense.",
+    "position": 980,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 246,
+    "candidate": 0,
+    "source": "Apple Music launched in a location. Apple Music launched in a location. Apple Music launched in 2015. Apple Music launched in a location. Apple Music launched in a location.",
+    "attack": "The year 2015 marked the launch of Apple Music across multiple unspecified locations, with the service becoming available in those distinct places simultaneously.",
+    "position": 984,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 247,
+    "candidate": 2,
+    "source": "Diamond Foods Inc. has an update about its acquisition. Diamond Foods Inc. announced its acquisition of Kettle Foods for an amount. Update your acquisition. Diamond Foods Inc. has an update. Update your acquisition.",
+    "attack": "An update regarding its acquisition of Kettle Foods for a specific amount has been provided by Diamond Foods Inc., which also announced that acquisition. The acquisition should be updated by you, as Diamond Foods Inc. has an update available. Your acquisition requires updating.",
+    "position": 990,
+    "z_score": -1.0
+  },
+  {
+    "index": 248,
+    "candidate": 0,
+    "source": "Make the game exciting. The match between Burnley and Newcastle will be exciting. The match between Burnley and Newcastle will be exciting. The match between Burnley and Newcastle will be exciting. Make the game exciting.",
+    "attack": "The excitement of the game must be ensured; the upcoming Burnley-versus-Newcastle fixture is guaranteed to be thrilling, with that same match between Burnley and Newcastle repeatedly described as exciting, and the requirement to make the game exciting is reiterated.",
+    "position": 992,
+    "z_score": -0.5773502691896258
+  },
+  {
+    "index": 249,
+    "candidate": 1,
+    "source": "Hair loss is no longer an inevitable march to baldness. The latest news topic. Elon Musk is located somewhere. Elon Musk is related to something. Elon Musk announced something about a company.",
+    "attack": "Hair loss no longer guarantees an inevitable progression toward baldness, as a recent news development involves Elon Musk, who is situated in an undisclosed location, having made an announcement concerning a company with which he is associated.",
+    "position": 997,
+    "z_score": -0.5773502691896258
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "model": "deepseek-v4-flash",
+  "temperature": 0.7,
+  "selection_threshold_1pct_fpr": 2.33,
+  "limit": 2,
+  "complete": true,
+  "records": [
+    {
+      "source_index": 0,
+      "baseline_z": 3.8729833462074166,
+      "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "candidates": {
+        "sentence_boundary": "IBM Corporation launched a server. The cluster topic is about IBM Corporation, which is related to something. IBM Corporation.",
+        "amr_guided": "A server was launched by IBM Corporation. The topic of the cluster is IBM Corporation, and IBM Corporation relates to something. IBM Corporation.",
+        "plain_paraphrase": "IBM Corporation launched a server. IBM Corporation. The cluster topic concerns IBM Corporation. IBM Corporation is associated with something. IBM Corporation."
+      },
+      "surface_checks": {
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    },
+    {
+      "source_index": 1,
+      "baseline_z": 3.8729833462074166,
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "candidates": {
+        "sentence_boundary": "Make the report transparent. The organization earned something at some time, and Prasar Bharti earned only something. The organization earned something.",
+        "amr_guided": "The report must be made transparent. The organization's earnings included something. Prasar Bharti's earnings at some time were only something. The organization's earnings included something. Prasar Bharti's earnings were only something.",
+        "plain_paraphrase": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something."
+      },
+      "surface_checks": {
+        "sentence_boundary": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "amr_guided": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        },
+        "plain_paraphrase": {
+          "nonempty": true,
+          "numbers_preserved": true,
+          "negation_preserved": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "index": 0,
+    "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+    "attack": ""
+  },
+  {
+    "index": 1,
+    "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+    "attack": "The report should be made transparent. Something was earned by the organization. At some time, Prasar Bharti earned something. The organization's acquisition of something occurred. Only something was earned by Prasar Bharti."
+  },
+  {
+    "index": 2,
+    "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+    "attack": ""
+  },
+  {
+    "index": 3,
+    "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "attack": ""
+  },
+  {
+    "index": 4,
+    "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+    "attack": ""
+  }
+]

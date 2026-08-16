@@ -11,6 +11,10 @@
 
 # Python environments and caches
 .venv/
+.python/
+.uv-cache/
+.hf-cache/
+.nltk_data/
 venv/
 __pycache__/
 *.py[cod]
@@ -26,6 +30,9 @@ data/processed/
 output/
 results/raw/
 baselines/local/*/runs/
+artifacts/downloads/
+third_party/SWAN/vectors/
+third_party/SWAN/data/
 
 # Local logs and editor files
 *.log

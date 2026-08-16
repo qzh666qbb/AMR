@@ -1,0 +1,17 @@
+[
+  [
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (b / V))\n    :ARG1 (x2 / N\n              :topic (x3 / N\n                         :ARG1-of (n / ADJ))))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (b / V))\n    :ARG1 (x2 / N\n              :topic (x3 / N\n                         :ARG1-of (n / ADJ))))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG1 (x2 / V\n              :ARG0 (x4 / NE\n                        :name (x7 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"\n                                  :op4 \"NE\"))\n              :ARG1 (x5 / N)))"
+  ],
+  [
+    "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x4 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / N)\n    :time (x3 / ADJ))"
+  ],
+  [
+    "(x0 / V\n    :ARG1 (x1 / N)\n    :ARG2 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\")\n              :mod (x3 / N)))"
+  ]
+]

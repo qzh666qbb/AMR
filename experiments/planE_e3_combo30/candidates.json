@@ -1,0 +1,724 @@
+{
+  "rows": [
+    {
+      "index": 0,
+      "candidate": 0,
+      "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "attack": "A server was launched by IBM Corporation, which is the subject of the cluster topic; this entity is linked to another, with IBM Corporation referenced repeatedly."
+    },
+    {
+      "index": 0,
+      "candidate": 1,
+      "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "attack": "A server was launched by IBM Corporation, which is the subject of the cluster topic; IBM Corporation itself is associated with an unspecified entity."
+    },
+    {
+      "index": 0,
+      "candidate": 2,
+      "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "attack": "A server was launched by IBM Corporation, as that entity is the central cluster topic, and it is also related to another unspecified something; indeed, the corporation itself is the subject of discussion."
+    },
+    {
+      "index": 0,
+      "candidate": 3,
+      "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "attack": "A server was launched by IBM Corporation, which itself is the subject of the cluster topic and is associated with an unspecified entity."
+    },
+    {
+      "index": 1,
+      "candidate": 0,
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "attack": "The report must be made transparent; at a certain time, something was earned by Prasar Bharti, and the organization has earned only that amount, while nothing else was earned by the organization."
+    },
+    {
+      "index": 1,
+      "candidate": 1,
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "attack": "Transparency in the report must be ensured, given that Prasar Bharti was the sole earner of something at a certain time, and the organization achieved this earning as well, with nothing else being earned by it."
+    },
+    {
+      "index": 1,
+      "candidate": 2,
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "attack": "Prasar Bharti’s earnings at a certain time were limited to a specific amount, but the organization’s overall earnings were not detailed; therefore, the report must be made transparent."
+    },
+    {
+      "index": 1,
+      "candidate": 3,
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "attack": "A report must be made transparent. Something was earned by the organization. At a particular time, something was earned by Prasar Bharti. An earning was achieved by the organization. Only something was what Prasar Bharti could earn."
+    },
+    {
+      "index": 2,
+      "candidate": 0,
+      "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+      "attack": "A marketer defines the Apple brand; the Apple brand is defined as a brand by a marketer, and Apple itself is defined as something by marketers."
+    },
+    {
+      "index": 2,
+      "candidate": 1,
+      "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+      "attack": "The Apple brand is defined by marketers as something, and this definition positions Apple itself as a brand, a characterization that marketers themselves establish."
+    },
+    {
+      "index": 2,
+      "candidate": 2,
+      "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+      "attack": "A marketer’s definition of Apple is that it constitutes a brand; similarly, the Apple brand is defined by marketers as something, and they also define Apple itself."
+    },
+    {
+      "index": 2,
+      "candidate": 3,
+      "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+      "attack": "The concept of Apple as a brand is defined by marketers, who characterize it as something; they are the ones that establish the definition of the Apple brand, with marketers being the entities that define Apple in this way."
+    },
+    {
+      "index": 3,
+      "candidate": 0,
+      "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "attack": "Kim Rinaldi was appointed to the position of director by the Middletown Township Public Library, which itself had been designated as the appointee in the appointment of Kim Rinaldi by the Township of Middletown; thus, the library made Kim Rinaldi its director."
+    },
+    {
+      "index": 3,
+      "candidate": 1,
+      "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "attack": "The Township of Middletown’s appointment of Kim Rinaldi was made, with the library named as the appointee; it was then that the library appointed her as a director, and the library also appointed her as something."
+    },
+    {
+      "index": 3,
+      "candidate": 2,
+      "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "attack": "Kim Rinaldi was named to a directorship by the Middletown Township Public Library; that library itself had been designated as the recipient of Kim Rinaldi's appointment, which originated from the Township of Middletown."
+    },
+    {
+      "index": 3,
+      "candidate": 3,
+      "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "attack": "Kim Rinaldi was appointed to a directorship by the Township of Middletown, with the library serving as the appointer for that appointment; as a result, the library designated her as its director."
+    },
+    {
+      "index": 4,
+      "candidate": 0,
+      "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+      "attack": "According to the report, the World Health Organization is detailed; the organization is stated, and a detailed statement about the World Health Organization is what the report makes."
+    },
+    {
+      "index": 4,
+      "candidate": 1,
+      "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+      "attack": "The report indicates that your submission must be comprehensive, while also specifying that the World Health Organization is the entity being referenced by the document."
+    },
+    {
+      "index": 4,
+      "candidate": 2,
+      "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+      "attack": "The report should be made detailed, and it states that the World Health Organization is included, with the same organization being stated again in the report."
+    },
+    {
+      "index": 4,
+      "candidate": 3,
+      "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+      "attack": "As the report requires, it should be made detailed; the World Health Organization is what it names."
+    },
+    {
+      "index": 5,
+      "candidate": 0,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "attack": "Your service must be terminated, and Allo must also be terminated; a corporation terminated something, specifically Google terminated something within a service, so the termination of your service is required."
+    },
+    {
+      "index": 5,
+      "candidate": 1,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "attack": "Your service must be shut down, and Allo must be shut down; a company performed a shutdown of something, and Google performed a shutdown of something within a service, so your service must be shut down."
+    },
+    {
+      "index": 5,
+      "candidate": 2,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "attack": "Your service must be terminated; Allo is being terminated. A termination of something by a company occurred. Within a service, something was terminated by Google. Your service requires termination."
+    },
+    {
+      "index": 5,
+      "candidate": 3,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "attack": "Google’s shutdown of Allo means your service is being shut down; the company has shut down something that was part of the service, and now your service is shut down."
+    },
+    {
+      "index": 6,
+      "candidate": 0,
+      "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+      "attack": "The arts and culture position assignment surprised me, as I had not expected to be given this role; it was an idea that came as a complete surprise, and the assignment itself was unexpected."
+    },
+    {
+      "index": 6,
+      "candidate": 1,
+      "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+      "attack": "Receiving that assignment—the arts and culture role—came as something of a surprise to me, for it was an idea that I had not anticipated being given."
+    },
+    {
+      "index": 6,
+      "candidate": 2,
+      "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+      "attack": "The assignment of the arts and culture position came as a surprise to me; indeed, being given that role was unexpected, and it surprised me with an idea."
+    },
+    {
+      "index": 6,
+      "candidate": 3,
+      "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+      "attack": "The idea that something was given surprised me, but it was the assignment of the arts and culture position itself that came as a surprise; being presented with that role, which was the arts and culture position, is what really caught me off guard."
+    },
+    {
+      "index": 7,
+      "candidate": 0,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "attack": "A presentation about Washington, D.C. was delivered to Washington by an individual; that same individual also presented to someone else, and a presentation was given to Washington, D.C., while Washington received a presentation from someone, and another presentation concerning Washington, D.C. was given to Washington."
+    },
+    {
+      "index": 7,
+      "candidate": 1,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "attack": "A presentation concerning Washington, D.C. was delivered to Washington by an individual; that same individual also presented about the nation's capital to the city itself, and a separate presentation had been provided to Washington, D.C., with the act of giving a presentation about the District of Columbia to Washington being repeated."
+    },
+    {
+      "index": 7,
+      "candidate": 2,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "attack": "A presentation about Washington, D.C. was delivered to that city by an unnamed presenter, who also gave a presentation to Washington itself, and a separate presentation about the capital was given to Washington, and someone presented to Washington, and a presentation was given to Washington, D.C."
+    },
+    {
+      "index": 7,
+      "candidate": 3,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "attack": "A presentation about Washington, D.C. was delivered to Washington by an individual, who also gave one to someone else; that same city received a presentation from someone, and a presentation was also given about it."
+    },
+    {
+      "index": 8,
+      "candidate": 0,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "attack": "Ensure that the tone of the discussion remains grave. New England occupies a broad territory. An entity departed from New England and relocated to another destination. That same entity exited New England entirely. Another movement from New England toward a specific place then occurred."
+    },
+    {
+      "index": 8,
+      "candidate": 1,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "attack": "A serious tone must be maintained throughout this discussion, for New England covers a vast territory; from this region, something was taken by an entity, that same entity then departed New England, and finally, something else was moved from New England to a specific place."
+    },
+    {
+      "index": 8,
+      "candidate": 2,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "attack": "Seriousness must be maintained in the conversation. The extent of New England is vast. An entity departed from New England for another entity. Something else exited New England. A further entity relocated from New England to a specific place."
+    },
+    {
+      "index": 8,
+      "candidate": 3,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "attack": "A serious tone should be maintained for the conversation, for New England possesses a vast extent. Something departed from New England, heading toward a location, and something else also left New England, while a further something made its exit from New England to something."
+    },
+    {
+      "index": 9,
+      "candidate": 0,
+      "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "attack": "An individual failed to notice a particular item; the definition of the acronym ICYMI was not caught by you. Let the abbreviation ICYMI be given its meaning immediately, and let the term ICYMI itself be defined."
+    },
+    {
+      "index": 9,
+      "candidate": 1,
+      "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "attack": "The definition of the abbreviation ICYMI, which stands for a phrase meaning something was previously missed, is what you failed to catch; therefore, provide the meaning of ICYMI, and do so immediately, because an individual overlooked that same piece of information."
+    },
+    {
+      "index": 9,
+      "candidate": 2,
+      "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "attack": "To clarify, the abbreviation \"ICYMI\" was not defined; a definition for \"ICYMI\" should now be provided, since its meaning was overlooked by someone, including you."
+    },
+    {
+      "index": 9,
+      "candidate": 3,
+      "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "attack": "A definition of the abbreviation ICYMI was not provided, as it had been overlooked by you; the initial omission of that acronym’s meaning by a person is now being rectified, so define ICYMI at this moment."
+    },
+    {
+      "index": 10,
+      "candidate": 0,
+      "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "attack": "The jury must be informed of the widow's acquittal concerning the Pulse nightclub; indeed, the jury is to be told of that acquittal regarding that nightclub, and the jury shall receive this information about the widow being acquitted in connection with the Pulse nightclub."
+    },
+    {
+      "index": 10,
+      "candidate": 1,
+      "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "attack": "The jury must be informed of the widow's acquittal concerning the Pulse nightclub; ensure that this verdict regarding the nightclub is communicated to them."
+    },
+    {
+      "index": 10,
+      "candidate": 2,
+      "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "attack": "The jury must be informed that the widow has been acquitted in connection with the Pulse nightclub incident; convey this verdict to them without alteration."
+    },
+    {
+      "index": 10,
+      "candidate": 3,
+      "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "attack": "The jury must be informed of the widow's acquittal regarding the Pulse nightclub; ensure that the jury receives this notification about the clearing of her name in connection with that venue."
+    },
+    {
+      "index": 11,
+      "candidate": 0,
+      "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "attack": "To some extent, QVC acts aggressively, and for Black Friday, it has aggressive plans. Something about Black Friday should be communicated to QVC, as the company is pursuing something aggressively. Its Black Friday plans involve aggressive action."
+    },
+    {
+      "index": 11,
+      "candidate": 1,
+      "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "attack": "To a certain degree, QVC operates aggressively. An aggressive Black Friday plan is being developed by QVC. QVC should be informed about Black Friday. That company’s aggressive nature drives its approach. A Black Friday initiative is being prepared by QVC."
+    },
+    {
+      "index": 11,
+      "candidate": 2,
+      "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "attack": "QVC is somewhat aggressive in its approach, and for Black Friday, QVC is planning an aggressive initiative. Let QVC be informed about Black Friday. An aggressive plan from QVC is what exists; QVC does have a plan for Black Friday."
+    },
+    {
+      "index": 11,
+      "candidate": 3,
+      "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "attack": "QVC demonstrates a certain level of aggressiveness, and it is planning a specific initiative for Black Friday with intensity. Provide QVC with information regarding Black Friday; the company’s aggressive approach is evident. A Black Friday plan is being developed by QVC."
+    },
+    {
+      "index": 12,
+      "candidate": 0,
+      "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+      "attack": "Academically brilliant, Malala Yousafzai delivered a description in 2024, and she was also described by someone to a community."
+    },
+    {
+      "index": 12,
+      "candidate": 1,
+      "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+      "attack": "Malala Yousafzai, whose academic brilliance is widely acknowledged, offered a description in 2024, and a separate description of her was given to a community."
+    },
+    {
+      "index": 12,
+      "candidate": 2,
+      "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+      "attack": "In 2024, an account was given by Malala Yousafzai, who is academically brilliant, of something she described; additionally, Malala Yousafzai was described to a community by another person."
+    },
+    {
+      "index": 12,
+      "candidate": 3,
+      "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+      "attack": "Having described a matter in 2024, Malala Yousafzai—brilliant in her academic pursuits—was described by an individual to a community."
+    },
+    {
+      "index": 13,
+      "candidate": 0,
+      "source": "Occasional diarrhea affects someone. Someone experiences Occasional Diarrhea as a condition. Occasional diarrhea is a condition. Tell the doctor about your occasional diarrhea condition to the specialist. Tell the specialist about your occasional diarrhea condition.",
+      "attack": "If you experience occasional diarrhea as a condition, that condition should be reported to a specialist, and you should also inform your doctor about it."
+    },
+    {
+      "index": 13,
+      "candidate": 1,
+      "source": "Occasional diarrhea affects someone. Someone experiences Occasional Diarrhea as a condition. Occasional diarrhea is a condition. Tell the doctor about your occasional diarrhea condition to the specialist. Tell the specialist about your occasional diarrhea condition.",
+      "attack": "If you are a person who has occasional diarrhea, which is considered a medical condition, that condition should be reported by you to your doctor, and also, you should tell the specialist about it."
+    },
+    {
+      "index": 13,
+      "candidate": 2,
+      "source": "Occasional diarrhea affects someone. Someone experiences Occasional Diarrhea as a condition. Occasional diarrhea is a condition. Tell the doctor about your occasional diarrhea condition to the specialist. Tell the specialist about your occasional diarrhea condition.",
+      "attack": "If you experience occasional diarrhea as a condition, this condition should be reported by you to the specialist, and the doctor should also be informed about it, with the understanding that occasional diarrhea is something that affects an individual on an occasional basis."
+    },
+    {
+      "index": 13,
+      "candidate": 3,
+      "source": "Occasional diarrhea affects someone. Someone experiences Occasional Diarrhea as a condition. Occasional diarrhea is a condition. Tell the doctor about your occasional diarrhea condition to the specialist. Tell the specialist about your occasional diarrhea condition.",
+      "attack": "A person may have occasional diarrhea, which is considered a medical condition, and this condition should be reported to the specialist by the doctor."
+    },
+    {
+      "index": 14,
+      "candidate": 0,
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "attack": "In 2015, there was a holding of WebMD Health Corp., which is considered important for multiple, if not identical, reasons. This very entity, WebMD Health Corp., was being held by someone, and its significance applies to more than one matter, though the specific reasons remain constant."
+    },
+    {
+      "index": 14,
+      "candidate": 1,
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "attack": "In 2015, an entity held WebMD Health Corp. with a designated purpose, and that corporation’s significance was asserted for multiple reasons, though its importance was not diminished by this possession."
+    },
+    {
+      "index": 14,
+      "candidate": 2,
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "attack": "A 2015 holding of WebMD Health Corp. was undertaken by an unspecified entity, with that corporation's significance being tied to multiple distinct purposes, each of which remains important."
+    },
+    {
+      "index": 14,
+      "candidate": 3,
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "attack": "In 2015, the significance of WebMD Health Corp. was held by an unspecified entity, and its importance was attributed to some purpose, while it also mattered for another reason."
+    },
+    {
+      "index": 15,
+      "candidate": 0,
+      "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "attack": "An attendee was shown a session regarding SocialDevCamp Chicago during the conference, which hosted an event named SocialDevCamp Chicago that took place in 2024, and that same event occurred again in 2024."
+    },
+    {
+      "index": 15,
+      "candidate": 1,
+      "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "attack": "During the conference, an attendee was shown a session focused on SocialDevCamp Chicago, an event that took place in 2024 and was organized by SocialDevCamp Chicago itself."
+    },
+    {
+      "index": 15,
+      "candidate": 2,
+      "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "attack": "During the conference, a session was presented to an attendee regarding SocialDevCamp Chicago, which was the name of an event that took place in 2024 and was itself held by the conference."
+    },
+    {
+      "index": 15,
+      "candidate": 3,
+      "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "attack": "During the conference, an attendee was shown a session focused on SocialDevCamp Chicago; this same conference featured an event called SocialDevCamp Chicago, which took place in 2024, and it also occurred in that same year."
+    },
+    {
+      "index": 16,
+      "candidate": 0,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "attack": "A global operation is run by BlackRock Inc., which must be defined as an entity; this entity, BlackRock Inc., is itself the operator of something, and it constitutes something that pertains to BlackRock Inc."
+    },
+    {
+      "index": 16,
+      "candidate": 1,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "attack": "BlackRock Inc. functions on a worldwide scale; one should characterize it in a particular way, and further define it. This entity runs certain operations, and it possesses attributes that pertain to itself."
+    },
+    {
+      "index": 16,
+      "candidate": 2,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "attack": "BlackRock Inc. conducts operations across the globe. Let BlackRock Inc. be defined as an entity. Define it as BlackRock Inc. There is something that BlackRock Inc. operates. BlackRock Inc. possesses a certain characteristic pertaining to itself."
+    },
+    {
+      "index": 16,
+      "candidate": 3,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "attack": "BlackRock Inc., operating on a global scale, is defined as an entity that itself operates something, and furthermore, BlackRock Inc. is characterized by something that pertains to BlackRock Inc."
+    },
+    {
+      "index": 17,
+      "candidate": 0,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "attack": "In 2023, New York sold a home, which was sold to New York during that same year; another transaction also occurred in 2023 when New York was sold to the home, and additionally, New York itself was sold in 2023."
+    },
+    {
+      "index": 17,
+      "candidate": 1,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "attack": "The year 2023 witnessed the sale of the home to New York, and that same year, New York itself was sold, specifically to the home; thus, it was in 2023 when New York sold the home."
+    },
+    {
+      "index": 17,
+      "candidate": 2,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "attack": "In 2023, the home changed hands to New York, and New York itself was sold during that same year; furthermore, the home became the recipient of New York when New York was sold, and New York also carried out the sale of the home in 2023."
+    },
+    {
+      "index": 17,
+      "candidate": 3,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "attack": "In 2023, New York was the purchaser of the home, and that same year saw New York itself being sold, with the home becoming its buyer, as the 2023 sale of New York to the home also occurred."
+    },
+    {
+      "index": 18,
+      "candidate": 0,
+      "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "attack": "A definition is provided for a 2-to-2 ratio as a concept, just as the notion of NASCAR is itself specified as something, and this specification of NASCAR as something occurs at a particular moment; thus, a concept should be defined as something, which is precisely how the idea of NASCAR is characterized as something."
+    },
+    {
+      "index": 18,
+      "candidate": 1,
+      "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "attack": "The definition of a 2-to-2 ratio establishes it as a concept, while the concept of NASCAR is itself defined as a particular something that exists at a specific time; a concept, in turn, is defined as something, and this same definition applies to the concept of NASCAR."
+    },
+    {
+      "index": 18,
+      "candidate": 2,
+      "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "attack": "When a 2-to-2 ratio is established, it is referred to as a concept, and at a specific time, the idea of NASCAR is also given that same definition; one is to define a concept as something, and the notion of NASCAR is consistently characterized as that something."
+    },
+    {
+      "index": 18,
+      "candidate": 3,
+      "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "attack": "The definition of a concept is established by a 2-to-2 ratio; NASCAR, at a given time, is itself defined as that same concept, and it is this relationship by which a concept is defined as something."
+    },
+    {
+      "index": 19,
+      "candidate": 0,
+      "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "attack": "Jeff Deardorff had been reaching some place. Reaching some place was what Jeff Deardorff did. Consider the arrival of a day. Some place was reached by Jeff Deardorff. A location saw Jeff Deardorff's arrival."
+    },
+    {
+      "index": 19,
+      "candidate": 1,
+      "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "attack": "Jeff Deardorff’s arrival at a location occurred; that same location saw his arrival. One could picture a day’s arrival. The location was arrived at by Jeff Deardorff, and Jeff Deardorff’s arrival there happened."
+    },
+    {
+      "index": 19,
+      "candidate": 2,
+      "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "attack": "Jeff Deardorff’s arrival at a certain place was accomplished by him. A day’s coming can be envisioned. That same individual reached a particular spot, and he also completed an arrival at that location."
+    },
+    {
+      "index": 19,
+      "candidate": 3,
+      "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "attack": "Jeff Deardorff’s arrival at a location has occurred. His reaching that same location also took place. A day’s arrival is to be imagined. Jeff Deardorff reached a location, and Jeff Deardorff did once again arrive there."
+    },
+    {
+      "index": 20,
+      "candidate": 0,
+      "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+      "attack": "The deputy area commander for Aylesbury, who recently assumed his position, has taken steps to ensure that he is approachable; indeed, he made himself accessible to the community of Aylesbury."
+    },
+    {
+      "index": 20,
+      "candidate": 1,
+      "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+      "attack": "The new deputy area commander for Aylesbury has actively ensured his own approachability, making himself accessible to the community there."
+    },
+    {
+      "index": 20,
+      "candidate": 2,
+      "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+      "attack": "The new deputy area commander for Aylesbury has been ensuring his own approachability; by making himself accessible, he has become approachable to that specific town."
+    },
+    {
+      "index": 20,
+      "candidate": 3,
+      "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+      "attack": "A new deputy area commander for Aylesbury has been ensuring his own approachability, and this individual did make himself approachable to one person in Aylesbury."
+    },
+    {
+      "index": 21,
+      "candidate": 0,
+      "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "attack": "Two military helicopters have been ordered for the UAE; recently, two such helicopters were procured by the UAE from a supplier, and an order for two military helicopters was placed."
+    },
+    {
+      "index": 21,
+      "candidate": 1,
+      "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "attack": "Two military helicopters are to be procured for the UAE, as a recent acquisition of two such aircraft from a specific entity has been confirmed by the nation."
+    },
+    {
+      "index": 21,
+      "candidate": 2,
+      "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "attack": "A recent order has been placed for two military helicopters, with the UAE serving as the ordering party; two such helicopters were procured by them from a specific entity, and this transaction for a pair of military helicopters has now been completed."
+    },
+    {
+      "index": 21,
+      "candidate": 3,
+      "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "attack": "Two military helicopters are to be ordered for the UAE, and a pair of military helicopters were recently procured by the UAE from some entity, with two additional military helicopters also being ordered."
+    },
+    {
+      "index": 22,
+      "candidate": 0,
+      "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "attack": "There exists a certain topic that concerns Barack Obama. If you question a legislator in Washington regarding this topic concerning Barack Obama, you might also inquire about the counsel that was provided by Barack Obama on Washington. You could additionally ask that legislator about Barack Obama himself, or simply seek information about Barack Obama."
+    },
+    {
+      "index": 22,
+      "candidate": 1,
+      "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "attack": "A certain matter concerns Barack Obama. When you query a legislator in Washington regarding that matter, you should also seek their perspective on the counsel Barack Obama offered to Washington. Inquire of a legislator about Barack Obama himself, and pursue information about Barack Obama."
+    },
+    {
+      "index": 22,
+      "candidate": 2,
+      "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "attack": "A subject exists concerning Barack Obama. When a legislator in Washington is queried regarding that subject, they are asked about counsel offered by Barack Obama on matters of Washington. Additionally, they are questioned about Barack Obama himself, and the inquiry also centers on the former president—requests for information about him are made repeatedly."
+    },
+    {
+      "index": 22,
+      "candidate": 3,
+      "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "attack": "Washington insiders can be questioned about the subject of Barack Obama; one should ask a legislator regarding the counsel provided by him on the capital city, and they should also query that same lawmaker about the former president directly, as well as inquire about Obama himself."
+    },
+    {
+      "index": 23,
+      "candidate": 0,
+      "source": "Asus's plan for the laptop's display drivers is something. Asus plans something at a location. Asus updates the laptop's display drivers at a location. Asus plans to update the display drivers. Asus's plan for the laptop's display drivers is something.",
+      "attack": "Asus has a plan concerning its laptop’s display drivers, and that plan involves performing an update at a specific location; it is at that same location where Asus will carry out the planned update of those drivers for the laptop."
+    },
+    {
+      "index": 23,
+      "candidate": 1,
+      "source": "Asus's plan for the laptop's display drivers is something. Asus plans something at a location. Asus updates the laptop's display drivers at a location. Asus plans to update the display drivers. Asus's plan for the laptop's display drivers is something.",
+      "attack": "An update to the laptop's display drivers is being planned by Asus, and that update is intended to occur at a specific location; it is this plan for the display drivers that Asus holds."
+    },
+    {
+      "index": 23,
+      "candidate": 2,
+      "source": "Asus's plan for the laptop's display drivers is something. Asus plans something at a location. Asus updates the laptop's display drivers at a location. Asus plans to update the display drivers. Asus's plan for the laptop's display drivers is something.",
+      "attack": "Asus has a plan regarding the laptop’s display drivers, and that plan is to update them; the update itself, which Asus intends to carry out at a specific location, involves the laptop’s display drivers."
+    },
+    {
+      "index": 23,
+      "candidate": 3,
+      "source": "Asus's plan for the laptop's display drivers is something. Asus plans something at a location. Asus updates the laptop's display drivers at a location. Asus plans to update the display drivers. Asus's plan for the laptop's display drivers is something.",
+      "attack": "Asus intends to update its laptop's display drivers at a given location, and this intention, which is for the drivers themselves, constitutes a plan that Asus holds."
+    },
+    {
+      "index": 24,
+      "candidate": 0,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "attack": "A location witnessed Mario’s act of defining a particular thing, while something else defines him; additionally, Mario defined a new thing, and something defines Mario once more."
+    },
+    {
+      "index": 24,
+      "candidate": 1,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "attack": "Mario is defined by something, and he also defined something at a location; additionally, something defines him, while a novel entity was defined by Mario."
+    },
+    {
+      "index": 24,
+      "candidate": 2,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "attack": "Mario is defined by something; that same something is also defined by Mario, who once defined something at a location, and later defined something new."
+    },
+    {
+      "index": 24,
+      "candidate": 3,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "attack": "Something that defines Mario is itself defined by him, although its location was previously determined. Mario’s act of defining something new recurs, and this same entity continues to define Mario."
+    },
+    {
+      "index": 25,
+      "candidate": 0,
+      "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+      "attack": "Marshalltown, having constructed a nine-run advantage over Council Bluffs, was awarded a victory by that margin; the team secured the win against Council Bluffs, which is considered extremely formidable."
+    },
+    {
+      "index": 25,
+      "candidate": 1,
+      "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+      "attack": "Council Bluffs Marshalltown constructed a nine-run advantage, securing a victory over Council Bluffs; that triumph was indeed built against Council Bluffs, which is considered extremely great."
+    },
+    {
+      "index": 25,
+      "candidate": 2,
+      "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+      "attack": "Council Bluffs built a nine-run advantage for Marshalltown, which earned the team a victory over Council Bluffs; that win was constructed against Council Bluffs, and Council Bluffs remains highly great."
+    },
+    {
+      "index": 25,
+      "candidate": 3,
+      "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+      "attack": "Council Bluffs Marshalltown constructed a nine-run advantage, which secured a victory for the team over Council Bluffs, thereby earning a win; the win was achieved against Council Bluffs, and Council Bluffs is considered extremely great."
+    },
+    {
+      "index": 26,
+      "candidate": 0,
+      "source": "The nice lots define something now. Define the topic of the nice lots to Builder. Builder defines the topic of the nice lots. Define the nice lots. Builder defines the nice lots.",
+      "attack": "Builder is now tasked with defining both the topic and the identity of the pleasant plots, and this definition of the pleasant plots and their associated topic is provided to Builder as a single act of specification."
+    },
+    {
+      "index": 26,
+      "candidate": 1,
+      "source": "The nice lots define something now. Define the topic of the nice lots to Builder. Builder defines the topic of the nice lots. Define the nice lots. Builder defines the nice lots.",
+      "attack": "The nice lots are now being used to establish a certain concept, and that concept—which pertains to the nice lots themselves—should be communicated to Builder; Builder, in turn, is the one who will define this concept, as well as define the nice lots, meaning that both the definition of the topic and the definition of the nice lots are tasks that Builder will carry out."
+    },
+    {
+      "index": 26,
+      "candidate": 2,
+      "source": "The nice lots define something now. Define the topic of the nice lots to Builder. Builder defines the topic of the nice lots. Define the nice lots. Builder defines the nice lots.",
+      "attack": "The topic of the well-regarded plots is being defined at this moment, and it must be defined for Builder; Builder now defines that same topic. These plots are then defined, and Builder defines them as well."
+    },
+    {
+      "index": 26,
+      "candidate": 3,
+      "source": "The nice lots define something now. Define the topic of the nice lots to Builder. Builder defines the topic of the nice lots. Define the nice lots. Builder defines the nice lots.",
+      "attack": "The good parcels are currently being defined, and their subject must be specified to the Builder, who proceeds to identify both the subject and the parcels themselves."
+    },
+    {
+      "index": 27,
+      "candidate": 0,
+      "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "attack": "A company has been the recipient of DERA funding, which was provided to facilitate the reauthorization of the program at the U.S. Environmental Protection Agency; this allocation of DERA funding to a company occurred recently, as a company was given DERA funding."
+    },
+    {
+      "index": 27,
+      "candidate": 1,
+      "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "attack": "A company was recently provided with DERA funding, which was allocated to assist in reauthorizing the U.S. Environmental Protection Agency's program; this financial support had been extended to that same company, and it was also the recipient of such funding on a separate occasion."
+    },
+    {
+      "index": 27,
+      "candidate": 2,
+      "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "attack": "A company recently received DERA funding, which was provided to support the reauthorization of a U.S. Environmental Protection Agency program, and this allocation of DERA funding to a company occurred."
+    },
+    {
+      "index": 27,
+      "candidate": 3,
+      "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "attack": "An entity recently provided DERA funding to a firm, with the aim of assisting the reauthorization of the program at the U.S. Environmental Protection Agency; that funding has been allocated to a company, as it was conferred upon a business not long ago, and a different party also granted DERA resources to an organization."
+    },
+    {
+      "index": 28,
+      "candidate": 0,
+      "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "attack": "In 2008, the horror film \"Echo\" saw its release, and a role within it was filled by an unidentified individual."
+    },
+    {
+      "index": 28,
+      "candidate": 1,
+      "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "attack": "In 2008, \"Echo\" came out, and a casting decision was made for that horror film, with a specific role being filled in the 2008 release \"Echo.\""
+    },
+    {
+      "index": 28,
+      "candidate": 2,
+      "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "attack": "In 2008, the horror film \"Echo\" saw its release, and within it, a role was assigned; the casting of that part occurred for the very same 2008 movie, a horror feature."
+    },
+    {
+      "index": 28,
+      "candidate": 3,
+      "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "attack": "A role in the horror film \"Echo\" (2008) had been cast; someone cast that role in it, and its release occurred in that same year."
+    },
+    {
+      "index": 29,
+      "candidate": 0,
+      "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "attack": "In 2018, a holler was let out by Travis Scott at some place; something was hollered by him that year, and an individual also hollered something."
+    },
+    {
+      "index": 29,
+      "candidate": 1,
+      "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "attack": "In 2018, a certain individual, namely Travis Scott, was the one who shouted out something from a specific place; that same year, this person also vocalized an utterance, and an additional individual likewise produced a shout of some kind."
+    },
+    {
+      "index": 29,
+      "candidate": 2,
+      "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "attack": "In 2018, a shout was emitted by Travis Scott from a venue; a specific utterance was voiced by him that same year, and it was also proclaimed by an individual."
+    },
+    {
+      "index": 29,
+      "candidate": 3,
+      "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "attack": "In 2018, a location echoed with a holler from Travis Scott; it was during that year when the artist himself let out a vocalization, with that same individual having also produced a holler that carried specific content, as another person likewise emitted a holler."
+    }
+  ]
+}

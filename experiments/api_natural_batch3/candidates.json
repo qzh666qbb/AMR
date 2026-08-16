@@ -1,0 +1,32 @@
+[
+  {
+    "paragraph": 15,
+    "sentence": 1,
+    "text": "Show an attendee a session about SocialDevCamp Chicago at the conference.",
+    "attack": "An attendee should be shown a session about SocialDevCamp Chicago at the conference."
+  },
+  {
+    "paragraph": 15,
+    "sentence": 2,
+    "text": "The conference held an event named SocialDevCamp Chicago.",
+    "attack": "The event named SocialDevCamp Chicago was held by the conference."
+  },
+  {
+    "paragraph": 17,
+    "sentence": 0,
+    "text": "The home was sold to New York in 2023.",
+    "attack": "The sale of the home to New York occurred in 2023."
+  },
+  {
+    "paragraph": 20,
+    "sentence": 0,
+    "text": "Aylesbury's new deputy area commander is making himself approachable.",
+    "attack": "The approachability of Aylesbury's new deputy area commander is being cultivated by himself."
+  },
+  {
+    "paragraph": 20,
+    "sentence": 3,
+    "text": "The new deputy area commander made himself approachable.",
+    "attack": "The new deputy area commander was made approachable by himself."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  [
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+  ],
+  [
+    "(x0 / N\n    :ARG1 (x1 / V\n              :ARG0 (x3 / NE\n                        :name (x7 / N\n                                  :op1 \"NE\"))\n              :ARG1 (x4 / NE\n                        :name (x8 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\")))\n    :ARG2 (x2 / V\n              :ARG1 (x5 / N)\n              :ARG2 (x6 / N\n                        :ARG1-of (a3 / V))))"
+  ],
+  [
+    "(x0 / N\n    :ARG1 (x1 / V\n              :ARG0 (x3 / NE\n                        :name (x7 / N\n                                  :op1 \"NE\"))\n              :ARG1 (x4 / NE\n                        :name (x8 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\")))\n    :ARG2 (x2 / V\n              :ARG1 (x5 / N)\n              :ARG2 (x6 / N\n                        :ARG1-of (a3 / V))))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / V\n              :ARG1 (x3 / N\n                        :topic (x4 / N\n                                   :op1 (x5 / N)\n                                   :op2 (x6 / N))))\n    :ARG1 (x2 / N))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / V\n              :ARG1 (x3 / V\n                        :ARG2 (x4 / N\n                                  :op1 (x5 / N)\n                                  :op2 (x6 / N))))\n    :ARG1 (x2 / N))"
+  ]
+]

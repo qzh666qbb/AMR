@@ -1,0 +1,43 @@
+{
+  "n": 100,
+  "families": {
+    "plain_paraphrase": {
+      "n": 34,
+      "quality_mean": 4.4338235294117645,
+      "quality_ge4_rate": 0.7941176470588235,
+      "quality_ge4_escape_rate": 0.08823529411764706,
+      "major_error_rate": 0.0,
+      "error_keywords": {
+        "repetition": 16,
+        "hallucination": 1,
+        "entity": 3,
+        "fragment": 6
+      }
+    },
+    "sentence_boundary": {
+      "n": 33,
+      "quality_mean": 4.242424242424242,
+      "quality_ge4_rate": 0.7272727272727273,
+      "quality_ge4_escape_rate": 0.2727272727272727,
+      "major_error_rate": 0.030303030303030304,
+      "error_keywords": {
+        "repetition": 18,
+        "hallucination": 5,
+        "fragment": 11
+      }
+    },
+    "amr_guided": {
+      "n": 33,
+      "quality_mean": 3.628787878787879,
+      "quality_ge4_rate": 0.5757575757575758,
+      "quality_ge4_escape_rate": 0.24242424242424243,
+      "major_error_rate": 0.09090909090909091,
+      "error_keywords": {
+        "repetition": 19,
+        "fragment": 12,
+        "entity": 4,
+        "hallucination": 6
+      }
+    }
+  }
+}

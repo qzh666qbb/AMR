@@ -1,0 +1,29 @@
+[
+  {
+    "method": "Plan B ??",
+    "n": 250,
+    "mean_z": 3.148,
+    "low_rate": 0.2,
+    "quality_rate": "n/a",
+    "strict_valid_rate": "n/a",
+    "auroc": 0.982
+  },
+  {
+    "method": "Plan C ??(30)",
+    "n": 30,
+    "mean_z": 2.855,
+    "low_rate": 0.267,
+    "quality_rate": 0.4666666666666667,
+    "strict_valid_rate": 0.03333333333333333,
+    "auroc": 0.926
+  },
+  {
+    "method": "Plan C ??(100)",
+    "n": 100,
+    "mean_z": 3.086,
+    "low_rate": 0.23,
+    "quality_rate": 0.46,
+    "strict_valid_rate": 0.04,
+    "auroc": 0.974
+  }
+]

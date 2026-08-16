@@ -1,0 +1,137 @@
+[
+  {
+    "index": 6,
+    "z": -1.2909944487358056,
+    "base_chars": 310,
+    "attack_chars": 309,
+    "len_ratio": 0.997,
+    "base_sents": 5,
+    "attack_sents": 5
+  },
+  {
+    "index": 13,
+    "z": -1.2909944487358056,
+    "base_chars": 266,
+    "attack_chars": 300,
+    "len_ratio": 1.128,
+    "base_sents": 5,
+    "attack_sents": 5
+  },
+  {
+    "index": 20,
+    "z": -1.2909944487358056,
+    "base_chars": 306,
+    "attack_chars": 335,
+    "len_ratio": 1.095,
+    "base_sents": 5,
+    "attack_sents": 5
+  },
+  {
+    "index": 26,
+    "z": -0.2581988897471611,
+    "base_chars": 178,
+    "attack_chars": 181,
+    "len_ratio": 1.017,
+    "base_sents": 5,
+    "attack_sents": 5
+  },
+  {
+    "index": 40,
+    "z": 1.6666666666666667,
+    "base_chars": 222,
+    "attack_chars": 223,
+    "len_ratio": 1.005,
+    "base_sents": 5,
+    "attack_sents": 3
+  },
+  {
+    "index": 38,
+    "z": 1.8073922282301278,
+    "base_chars": 296,
+    "attack_chars": 277,
+    "len_ratio": 0.936,
+    "base_sents": 5,
+    "attack_sents": 5
+  },
+  {
+    "index": 45,
+    "z": 1.8073922282301278,
+    "base_chars": 316,
+    "attack_chars": 318,
+    "len_ratio": 1.006,
+    "base_sents": 5,
+    "attack_sents": 5
+  },
+  {
+    "index": 18,
+    "z": 2.3094010767585034,
+    "base_chars": 234,
+    "attack_chars": 218,
+    "len_ratio": 0.932,
+    "base_sents": 5,
+    "attack_sents": 4
+  },
+  {
+    "index": 28,
+    "z": 2.3094010767585034,
+    "base_chars": 165,
+    "attack_chars": 221,
+    "len_ratio": 1.339,
+    "base_sents": 5,
+    "attack_sents": 6
+  },
+  {
+    "index": 48,
+    "z": 2.4494897427831783,
+    "base_chars": 122,
+    "attack_chars": 119,
+    "len_ratio": 0.975,
+    "base_sents": 5,
+    "attack_sents": 2
+  },
+  {
+    "index": 1,
+    "z": 2.840187787218772,
+    "base_chars": 180,
+    "attack_chars": 177,
+    "len_ratio": 0.983,
+    "base_sents": 5,
+    "attack_sents": 5
+  },
+  {
+    "index": 25,
+    "z": 2.840187787218772,
+    "base_chars": 185,
+    "attack_chars": 195,
+    "len_ratio": 1.054,
+    "base_sents": 5,
+    "attack_sents": 5
+  },
+  {
+    "index": 27,
+    "z": 2.840187787218772,
+    "base_chars": 260,
+    "attack_chars": 255,
+    "len_ratio": 0.981,
+    "base_sents": 7,
+    "attack_sents": 7
+  },
+  {
+    "index": 41,
+    "z": 2.840187787218772,
+    "base_chars": 292,
+    "attack_chars": 294,
+    "len_ratio": 1.007,
+    "base_sents": 5,
+    "attack_sents": 5
+  },
+  {
+    "index": 49,
+    "z": 2.840187787218772,
+    "base_chars": 190,
+    "attack_chars": 206,
+    "len_ratio": 1.084,
+    "base_sents": 5,
+    "attack_sents": 5
+  }
+]

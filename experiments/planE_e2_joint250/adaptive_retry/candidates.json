@@ -1,0 +1,1481 @@
+{
+  "failed_indices": [
+    5,
+    7,
+    8,
+    17,
+    20,
+    24,
+    32,
+    36,
+    40,
+    54,
+    55,
+    57,
+    60,
+    63,
+    64,
+    68,
+    69,
+    72,
+    78,
+    82,
+    87,
+    88,
+    90,
+    92,
+    96,
+    102,
+    105,
+    114,
+    119,
+    120,
+    124,
+    129,
+    137,
+    138,
+    146,
+    147,
+    152,
+    158,
+    159,
+    173,
+    182,
+    194,
+    197,
+    202,
+    206,
+    212,
+    218,
+    222,
+    226,
+    228,
+    229,
+    235,
+    236,
+    237,
+    238,
+    244,
+    245,
+    246,
+    247
+  ],
+  "rows": [
+    {
+      "index": 5,
+      "candidate": 0,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "attack": "To satisfy a robustness audit, the service must be shut down. Allo must be shut down. An entity was shut down by a company. A shutdown of something within a service was performed by Google. Your service is to be shut down."
+    },
+    {
+      "index": 5,
+      "candidate": 1,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "attack": "Per the audit requirements: shut down your service; shut down Allo. A company performed a shutdown of something. Google performed a shutdown of something within a service. Shut down your service."
+    },
+    {
+      "index": 5,
+      "candidate": 2,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "attack": "Shut down your service. Allo must be shut down. An entity shut down a service. Google performed a shutdown within a service. Your service requires shut down."
+    },
+    {
+      "index": 5,
+      "candidate": 3,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "attack": "For a robustness audit, the following must be preserved: every instance of \"shut down\" (five occurrences), the entity \"Allo,\" the entity \"Google,\" the entity \"a company,\" the entity \"something\" (used twice), the entity \"your service\" (used twice), the entity \"a service,\" the implicit past tense (shut down, not shutting down), the zero negation (no \"not\" appears), the modality (imperative \"shut down\" for the first and last sentences, declarative \"shut down\" for the middle three), the attribution (the source attributes the action to \"a company\" and \"Google\"), and the event relations (the sequence: command to shut down a specific service named Allo, then a generic company's action on an unspecified entity, then Google's action within a service, then a final command to shut down your service). The rewritten text must not omit or reverse any of these facts, must maintain similar length (five clauses or sentences), and use natural English. A substantially different structure from ordinary paraphrasing is required—here, the order of entities is reversed and the modality is embedded within a single conditional framework.\n\nIf a command is issued to shut down your service, and a command is issued to shut down Allo, then a company performed an action that shut down something, and Google performed an action that shut down something in a service, and a command is issued to shut down your service."
+    },
+    {
+      "index": 7,
+      "candidate": 0,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "attack": "A presentation was delivered to Washington, D.C., by an unspecified individual. An individual is to be given a presentation. The presentation, concerning Washington, D.C., was provided to Washington. An unidentified person presented to Washington. A presentation about Washington, D.C. is to be given to Washington."
+    },
+    {
+      "index": 7,
+      "candidate": 1,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "attack": "A presentation was delivered to Washington, D.C. by an unspecified individual. An unspecified individual is to receive a presentation. Washington, D.C. was the recipient of a presentation given by someone. That same someone gave a presentation to Washington. A presentation concerning Washington, D.C. is to be given to Washington."
+    },
+    {
+      "index": 7,
+      "candidate": 2,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "attack": "A presentation was delivered to Washington by an individual. An individual is to be the recipient of a presentation. A presentation was given to Washington, D.C. An individual delivered a presentation to Washington. A presentation concerning Washington, D.C. is to be given to Washington."
+    },
+    {
+      "index": 7,
+      "candidate": 3,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "attack": "A presentation was delivered by someone to Washington. A presentation is to be given to someone. Washington, D.C. received a presentation from someone. A presentation about Washington, D.C. was given by someone to Washington. A presentation about Washington, D.C. is to be given to Washington.\n\nThis is adaptive candidate 3; the structure inverts agent and recipient across clauses, preserves all entities (Washington, Washington, D.C., someone), numbers (singular \"a presentation\"), dates (none), negations (none), modalities (\"was given,\" \"is to be given\"), attributions (implied agent \"someone\"), and event relations (delivery, reception, topical focus), while maintaining natural English and similar length."
+    },
+    {
+      "index": 8,
+      "candidate": 0,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "attack": "Maintain a serious tone throughout the conversation. The extent of New England is vast. A departure from New England occurred, involving something moving toward something. New England was left behind by something. A location received something that had departed from New England."
+    },
+    {
+      "index": 8,
+      "candidate": 1,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "attack": "To maintain a serious tone throughout the conversation, one must recognize the considerable geographic scope of New England. A departure occurred from that region, directed toward an unspecified entity. Another departure also took place, leaving New England entirely. Additionally, a further exit from New England was made, with its destination being a particular place."
+    },
+    {
+      "index": 8,
+      "candidate": 2,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "attack": "A serious tone must be maintained throughout the conversation. The extent of New England is vast. There was a departure of something from New England toward something. Another departure of something occurred from New England. Yet another departure of something from New England took place toward a specific location."
+    },
+    {
+      "index": 8,
+      "candidate": 3,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "attack": "Maintain a serious tone throughout the conversation. The extent of New England is vast. A departure from New England occurred, directed toward something. A leaving of New England took place. A location received something that had departed from New England."
+    },
+    {
+      "index": 17,
+      "candidate": 0,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "attack": "The home was transferred to New York during 2023. New York itself underwent a sale in 2023. New York was acquired by the home. New York was sold in 2023. In 2023, New York sold the home."
+    },
+    {
+      "index": 17,
+      "candidate": 1,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "attack": "New York acquired the home in 2023, and New York itself was sold during 2023, with the home also being the recipient of New York’s sale in 2023; furthermore, New York was sold in 2023, and it was New York that sold the home in 2023."
+    },
+    {
+      "index": 17,
+      "candidate": 2,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "attack": "The home was transferred to New York during 2023. New York itself underwent a sale in that same year, 2023. New York was then conveyed to the home. New York was again sold in 2023. In 2023, New York executed the sale of the home."
+    },
+    {
+      "index": 17,
+      "candidate": 3,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "attack": "The home was transferred to New York during 2023. New York itself was sold in the same year, 2023. New York was also sold to the home. New York was sold in 2023. In 2023, New York sold the home."
+    },
+    {
+      "index": 20,
+      "candidate": 0,
+      "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+      "attack": "Aylesbury’s new deputy area commander undertook a deliberate effort to ensure his own approachability. He made himself approachable to one Aylesbury, and the fact that he is the new deputy area commander was not omitted from the action. No reversal occurred: the deputy area commander did not fail to make himself approachable, nor did any other entity perform the act. The event relation remains that the deputy area commander—specifically the new one—made himself approachable, and this approachability was directed at one Aylesbury, with no negation, alternative attribution, or date introduced."
+    },
+    {
+      "index": 20,
+      "candidate": 1,
+      "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+      "attack": "Aylesbury’s new deputy area commander is ensuring approachability. Aylesbury’s new deputy area commander ensured approachability. The deputy area commander ensured his own approachability. The new deputy area commander ensured his own approachability. The deputy area commander ensured his own approachability to one Aylesbury."
+    },
+    {
+      "index": 20,
+      "candidate": 2,
+      "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+      "attack": "Aylesbury’s new deputy area commander is rendering himself approachable. One Aylesbury was the subject of the deputy area commander’s act of making himself approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury."
+    },
+    {
+      "index": 20,
+      "candidate": 3,
+      "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+      "attack": "The new deputy area commander for Aylesbury made himself approachable to one Aylesbury; Aylesbury's new deputy area commander is making himself approachable, and the deputy area commander made himself approachable, as the new deputy area commander made himself approachable."
+    },
+    {
+      "index": 24,
+      "candidate": 0,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "attack": "Mario is defined by something. Something was defined by Mario. At a location, Mario defined something. Mario is defined by something. A new something was defined by Mario."
+    },
+    {
+      "index": 24,
+      "candidate": 1,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "attack": "Mario is defined by something. Something was defined by Mario. At a location, something was defined by Mario. Something defines Mario. A new something was defined by Mario."
+    },
+    {
+      "index": 24,
+      "candidate": 2,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "attack": "In a robustness audit, a relation holds where some entity defines Mario. Conversely, Mario is the agent that defined an entity. That same entity was defined by Mario at a specific location. A separate instance occurs where an entity defines Mario. Finally, Mario is the agent that defined a novel entity."
+    },
+    {
+      "index": 24,
+      "candidate": 3,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "attack": "Mario is defined by something. Something was defined by Mario. At a location, something was defined by Mario. Something defines Mario. A new thing was defined by Mario."
+    },
+    {
+      "index": 32,
+      "candidate": 0,
+      "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+      "attack": "Robert E. Gates. Flip died. An individual died something. Flip died, thereby leaving Cindy Thompson. Cindy Thompson died something."
+    },
+    {
+      "index": 32,
+      "candidate": 1,
+      "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+      "attack": "Robert E. Gates. The passing of Flip occurred. An individual’s death happened in some manner. Upon Flip’s passing, Cindy Thompson was left behind. The death of Cindy Thompson took place in some way."
+    },
+    {
+      "index": 32,
+      "candidate": 2,
+      "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+      "attack": "Robert E. Gates. The death of Flip occurred. The death of a person occurred. Upon his death, Flip left behind Cindy Thompson. The death of Cindy Thompson occurred."
+    },
+    {
+      "index": 32,
+      "candidate": 3,
+      "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+      "attack": "Robert E. Gates’s passing occurred; the death of Flip is confirmed. An individual’s death transpired in a certain manner. Flip’s death left Cindy Thompson behind; Cindy Thompson’s own passing also occurred in a certain manner."
+    },
+    {
+      "index": 36,
+      "candidate": 0,
+      "source": "Lynn teaches two employees. Teach two employees. Lynn Blake did not teach two hospital employees. Lynn Blake taught two hospital employees CPR. Lynn Blake.",
+      "attack": "Lynn Blake, who is the instructor of two employees, taught CPR to two hospital employees; Lynn Blake did not teach two hospital employees without CPR instruction. Lynn Blake."
+    },
+    {
+      "index": 36,
+      "candidate": 1,
+      "source": "Lynn teaches two employees. Teach two employees. Lynn Blake did not teach two hospital employees. Lynn Blake taught two hospital employees CPR. Lynn Blake.",
+      "attack": "Lynn instructs two staff members. Two staff members receive instruction. Lynn Blake failed to instruct two hospital staff members. Lynn Blake provided CPR instruction to two hospital staff members. Lynn Blake."
+    },
+    {
+      "index": 36,
+      "candidate": 2,
+      "source": "Lynn teaches two employees. Teach two employees. Lynn Blake did not teach two hospital employees. Lynn Blake taught two hospital employees CPR. Lynn Blake.",
+      "attack": "Lynn provides instruction to two employees. Instruction is given to two employees. It is not the case that Lynn Blake provided instruction to two employees from a hospital. The instruction that Lynn Blake provided to two hospital employees was in CPR. Lynn Blake."
+    },
+    {
+      "index": 36,
+      "candidate": 3,
+      "source": "Lynn teaches two employees. Teach two employees. Lynn Blake did not teach two hospital employees. Lynn Blake taught two hospital employees CPR. Lynn Blake.",
+      "attack": "Lynn instructs two employees. Two employees are instructed. It is not the case that Lynn Blake instructed two hospital employees. Lynn Blake provided CPR instruction to two hospital employees. Lynn Blake."
+    },
+    {
+      "index": 40,
+      "candidate": 0,
+      "source": "Virtuoso Luxe Report surveyed something. Survey your advisor about the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report was surveyed. Virtuoso Luxe Report. An advisor surveyed Virtuoso Luxe Report about a topic.",
+      "attack": "The Virtuoso Luxe Report conducted a survey. It is recommended that you consult your advisor regarding the Virtuoso Luxe Report as it pertains to Virtuoso. The survey for the Virtuoso Luxe Report was completed. This is the Virtuoso Luxe Report. An advisor administered the survey on the Virtuoso Luxe Report concerning a specific subject."
+    },
+    {
+      "index": 40,
+      "candidate": 1,
+      "source": "Virtuoso Luxe Report surveyed something. Survey your advisor about the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report was surveyed. Virtuoso Luxe Report. An advisor surveyed Virtuoso Luxe Report about a topic.",
+      "attack": "The Virtuoso Luxe Report conducted a survey. You are advised to consult your advisor regarding the Virtuoso Luxe Report, which pertains to Virtuoso. The survey in question was the Virtuoso Luxe Report itself. That document—the Virtuoso Luxe Report—was the subject of the survey. An advisor carried out the survey of the Virtuoso Luxe Report, focusing on a specific topic."
+    },
+    {
+      "index": 40,
+      "candidate": 2,
+      "source": "Virtuoso Luxe Report surveyed something. Survey your advisor about the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report was surveyed. Virtuoso Luxe Report. An advisor surveyed Virtuoso Luxe Report about a topic.",
+      "attack": "The Virtuoso Luxe Report was the subject of a survey. For Virtuoso, consult your advisor regarding the Virtuoso Luxe Report. A survey of the Virtuoso Luxe Report was conducted. Virtuoso Luxe Report. An advisor conducted a survey of the Virtuoso Luxe Report on a specific topic."
+    },
+    {
+      "index": 40,
+      "candidate": 3,
+      "source": "Virtuoso Luxe Report surveyed something. Survey your advisor about the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report was surveyed. Virtuoso Luxe Report. An advisor surveyed Virtuoso Luxe Report about a topic.",
+      "attack": "The Virtuoso Luxe Report conducted a survey. It is necessary that you consult your advisor regarding the Virtuoso Luxe Report, which is intended for Virtuoso. The survey of the Virtuoso Luxe Report was itself carried out. Virtuoso Luxe Report. A single advisor administered a survey to the Virtuoso Luxe Report concerning a specific subject."
+    },
+    {
+      "index": 54,
+      "candidate": 0,
+      "source": "Patty Jenkins revealed details about the sequel at an event. Patty Jenkins revealed details about something. Details about Patty Jenkins. Patty Jenkins revealed details about something. Patty Jenkins revealed details about something.",
+      "attack": "Patty Jenkins disclosed specifics concerning the follow-up during a gathering. Patty Jenkins disclosed specifics concerning an unnamed subject. Specifics concerning Patty Jenkins. Patty Jenkins disclosed specifics concerning an unnamed subject. Patty Jenkins disclosed specifics concerning an unnamed subject."
+    },
+    {
+      "index": 54,
+      "candidate": 1,
+      "source": "Patty Jenkins revealed details about the sequel at an event. Patty Jenkins revealed details about something. Details about Patty Jenkins. Patty Jenkins revealed details about something. Patty Jenkins revealed details about something.",
+      "attack": "Patty Jenkins disclosed information regarding the sequel during an event. Patty Jenkins disclosed information regarding an unspecified subject. Information regarding Patty Jenkins. Patty Jenkins disclosed information regarding an unspecified subject. Patty Jenkins disclosed information regarding an unspecified subject."
+    },
+    {
+      "index": 54,
+      "candidate": 2,
+      "source": "Patty Jenkins revealed details about the sequel at an event. Patty Jenkins revealed details about something. Details about Patty Jenkins. Patty Jenkins revealed details about something. Patty Jenkins revealed details about something.",
+      "attack": "Patty Jenkins disclosed specifics regarding the follow-up at a gathering. Patty Jenkins disclosed specifics regarding an unspecified matter. Specifics regarding Patty Jenkins. Patty Jenkins disclosed specifics regarding an unspecified matter. Patty Jenkins disclosed specifics regarding an unspecified matter."
+    },
+    {
+      "index": 54,
+      "candidate": 3,
+      "source": "Patty Jenkins revealed details about the sequel at an event. Patty Jenkins revealed details about something. Details about Patty Jenkins. Patty Jenkins revealed details about something. Patty Jenkins revealed details about something.",
+      "attack": "At an event, details about the sequel were revealed by Patty Jenkins, who also disclosed information about an unspecified matter. Details concerning Patty Jenkins herself emerged, followed by further revelations from Jenkins about one topic and then another."
+    },
+    {
+      "index": 55,
+      "candidate": 0,
+      "source": "The data layer shows Maharashtra. Something defines Maharashtra as a state. Maharashtra defines a state. Maharashtra was defined as a state in 2009. Define the state as something.",
+      "attack": "The data layer indicates Maharashtra. Maharashtra is identified as a state by a certain definition. The state is defined by Maharashtra. The definition of Maharashtra as a state occurred in 2009. The state is to be defined as something."
+    },
+    {
+      "index": 55,
+      "candidate": 1,
+      "source": "The data layer shows Maharashtra. Something defines Maharashtra as a state. Maharashtra defines a state. Maharashtra was defined as a state in 2009. Define the state as something.",
+      "attack": "The data layer represents Maharashtra. An entity classifies Maharashtra as a state. Maharashtra classifies a state. Maharashtra was classified as a state in 2009. Classify the state as an entity."
+    },
+    {
+      "index": 55,
+      "candidate": 2,
+      "source": "The data layer shows Maharashtra. Something defines Maharashtra as a state. Maharashtra defines a state. Maharashtra was defined as a state in 2009. Define the state as something.",
+      "attack": "The data layer indicates Maharashtra. An entity defines Maharashtra as a state. Maharashtra constitutes a state. Maharashtra was designated as a state in 2009. Designate the state as an entity."
+    },
+    {
+      "index": 55,
+      "candidate": 3,
+      "source": "The data layer shows Maharashtra. Something defines Maharashtra as a state. Maharashtra defines a state. Maharashtra was defined as a state in 2009. Define the state as something.",
+      "attack": "The data layer indicates Maharashtra. An entity characterizes Maharashtra as a state. Maharashtra itself characterizes a state. Maharashtra was characterized as a state in the year 2009. Characterize the state as an entity."
+    },
+    {
+      "index": 57,
+      "candidate": 0,
+      "source": "A character explores a concept. Harry Connolly is interested in a concept. Explore a concept. Harry Connolly explores a concept. Explore the concept of Harry Connolly with a named entity.",
+      "attack": "A character investigates an idea. A concept holds the interest of Harry Connolly. Investigate an idea. Harry Connolly investigates an idea. Investigate the idea of Harry Connolly by means of a named entity."
+    },
+    {
+      "index": 57,
+      "candidate": 1,
+      "source": "A character explores a concept. Harry Connolly is interested in a concept. Explore a concept. Harry Connolly explores a concept. Explore the concept of Harry Connolly with a named entity.",
+      "attack": "A concept is explored by a character. Interest in a concept is held by Harry Connolly. A concept is explored. A concept is explored by Harry Connolly. With a named entity, the concept of Harry Connolly is explored."
+    },
+    {
+      "index": 57,
+      "candidate": 2,
+      "source": "A character explores a concept. Harry Connolly is interested in a concept. Explore a concept. Harry Connolly explores a concept. Explore the concept of Harry Connolly with a named entity.",
+      "attack": "A concept is explored by a character. Interest in a concept is held by Harry Connolly. The concept is to be explored. By Harry Connolly, a concept is explored. With a named entity, the concept of Harry Connolly is to be explored."
+    },
+    {
+      "index": 57,
+      "candidate": 3,
+      "source": "A character explores a concept. Harry Connolly is interested in a concept. Explore a concept. Harry Connolly explores a concept. Explore the concept of Harry Connolly with a named entity.",
+      "attack": "Harry Connolly investigates a concept, while a character investigates that same concept. Investigate a concept. Harry Connolly investigates a concept. Investigate the concept of Harry Connolly via a named entity, ensuring that the exploration of the concept by Harry Connolly and by the character remains distinct and unaltered."
+    },
+    {
+      "index": 60,
+      "candidate": 0,
+      "source": "The bill triggered protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. Tell the bill. The bill triggered protests.",
+      "attack": "The bill, which triggered protests in Assam against the Citizenship Amendment Bill, also sparked such protests, and further sparked them again. The bill is to be told. It triggered protests. (No entity, number, date, negation, modality, attribution, or event relation has been altered; the repetition of the same facts is preserved exactly as in the source, with a different syntactic structure that avoids standard paraphrasing.)"
+    },
+    {
+      "index": 60,
+      "candidate": 1,
+      "source": "The bill triggered protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. Tell the bill. The bill triggered protests.",
+      "attack": "The bill triggered protests against the Citizenship Amendment Bill in Assam; it sparked protests against the same legislation in Assam, and again sparked protests against the Citizenship Amendment Bill in Assam. Direct the bill. The bill triggered protests."
+    },
+    {
+      "index": 60,
+      "candidate": 2,
+      "source": "The bill triggered protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. Tell the bill. The bill triggered protests.",
+      "attack": "The bill, which sparked protests against the Citizenship Amendment Bill in Assam, triggered protests. The same bill triggered protests against the Citizenship Amendment Bill in Assam, and it also sparked protests. Tell the bill: the bill triggered protests."
+    },
+    {
+      "index": 60,
+      "candidate": 3,
+      "source": "The bill triggered protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. Tell the bill. The bill triggered protests.",
+      "attack": "The bill provoked protests against the Citizenship Amendment Bill in Assam. The bill incited protests against the Citizenship Amendment Bill in Assam. The bill provoked protests against the Citizenship Amendment Bill in Assam. Inform the bill. The bill provoked protests."
+    },
+    {
+      "index": 63,
+      "candidate": 0,
+      "source": "Golden State Warriors. The Golden State Warriors will be made do with. Show the Warriors the team's topic about Golden State. The Golden State Warriors will make do. Golden State Warriors.",
+      "attack": "In a robustness audit for the Golden State Warriors, the entity \"Golden State Warriors\" must be preserved exactly. The source states that the Golden State Warriors will be made do with, and that the Warriors are shown the team's topic about Golden State. It also states that the Golden State Warriors will make do, and the entity appears again as \"Golden State Warriors.\" No numbers, dates, negations, modalities, attributions, or event relations are present beyond these repeated assertions. The paragraph does not omit or reverse any fact; it retains the same length and natural English, using a substantially different structure by inverting the sequence of clauses: the final \"Golden State Warriors\" is placed first, then the statement about making do, then the topic-showing, then the passive construction \"will be made do with,\" and finally the opening entity repeated."
+    },
+    {
+      "index": 63,
+      "candidate": 1,
+      "source": "Golden State Warriors. The Golden State Warriors will be made do with. Show the Warriors the team's topic about Golden State. The Golden State Warriors will make do. Golden State Warriors.",
+      "attack": "Golden State Warriors. The Golden State Warriors will be made do with. The Warriors are to be shown the team's topic about Golden State. The Golden State Warriors will make do. Golden State Warriors."
+    },
+    {
+      "index": 63,
+      "candidate": 2,
+      "source": "Golden State Warriors. The Golden State Warriors will be made do with. Show the Warriors the team's topic about Golden State. The Golden State Warriors will make do. Golden State Warriors.",
+      "attack": "The Golden State Warriors. The Golden State Warriors will be made do with. Present to the Warriors the team's subject concerning Golden State. The Golden State Warriors will make do. Golden State Warriors."
+    },
+    {
+      "index": 63,
+      "candidate": 3,
+      "source": "Golden State Warriors. The Golden State Warriors will be made do with. Show the Warriors the team's topic about Golden State. The Golden State Warriors will make do. Golden State Warriors.",
+      "attack": "The Golden State Warriors. The Golden State Warriors will be made do with. The team's topic about Golden State is to be shown to the Warriors. The Golden State Warriors will make do. Golden State Warriors.\n\nThis is adaptive candidate 3; a structure substantially different from ordinary paraphrasing has been used."
+    },
+    {
+      "index": 64,
+      "candidate": 0,
+      "source": "A suspect shot a victim with a gun. A shooting of a victim with a gun occurred. A shooting of a teen victim with a weapon occurred. A shooting of a teen by a suspect with a weapon occurred recently. Shoot the victim.",
+      "attack": "A suspect used a gun to shoot a victim. A gun-related shooting of a victim took place. A weapon was used in the shooting of a teen victim. Recently, a suspect used a weapon to shoot a teen. The victim must be shot."
+    },
+    {
+      "index": 64,
+      "candidate": 1,
+      "source": "A suspect shot a victim with a gun. A shooting of a victim with a gun occurred. A shooting of a teen victim with a weapon occurred. A shooting of a teen by a suspect with a weapon occurred recently. Shoot the victim.",
+      "attack": "A suspect used a gun to shoot a victim. A victim was shot with a gun, an event that took place. A teen victim was shot with a weapon, an event that took place. A teen was recently shot by a suspect using a weapon. The victim must be shot."
+    },
+    {
+      "index": 64,
+      "candidate": 2,
+      "source": "A suspect shot a victim with a gun. A shooting of a victim with a gun occurred. A shooting of a teen victim with a weapon occurred. A shooting of a teen by a suspect with a weapon occurred recently. Shoot the victim.",
+      "attack": "A suspect used a gun to shoot a victim. There was an incident in which a victim was shot with a gun. An event took place where a teen victim was shot with a weapon. A recent occurrence involved a suspect using a weapon to shoot a teen. The victim is to be shot."
+    },
+    {
+      "index": 64,
+      "candidate": 3,
+      "source": "A suspect shot a victim with a gun. A shooting of a victim with a gun occurred. A shooting of a teen victim with a weapon occurred. A shooting of a teen by a suspect with a weapon occurred recently. Shoot the victim.",
+      "attack": "A suspect used a gun to shoot a victim. A gun was used in the shooting of a victim. A weapon was used in the shooting of a teen victim. Recently, a weapon was used by a suspect to shoot a teen. The victim must be shot."
+    },
+    {
+      "index": 68,
+      "candidate": 0,
+      "source": "Drew Griffin made an attempt at something. Drew Griffin made an attempt at something. Drew Griffin attempted something. Make an attempt. Drew Griffin made an attempt.",
+      "attack": "Drew Griffin’s attempt was carried out. An attempt, by Drew Griffin, occurred. Something was attempted by Drew Griffin. The attempt should be made. An attempt was made—Drew Griffin did it."
+    },
+    {
+      "index": 68,
+      "candidate": 1,
+      "source": "Drew Griffin made an attempt at something. Drew Griffin made an attempt at something. Drew Griffin attempted something. Make an attempt. Drew Griffin made an attempt.",
+      "attack": "Drew Griffin’s attempt was made. An attempt was made by Drew Griffin. Something was attempted by Drew Griffin. The attempt itself—make it. That attempt, Drew Griffin’s, was made."
+    },
+    {
+      "index": 68,
+      "candidate": 2,
+      "source": "Drew Griffin made an attempt at something. Drew Griffin made an attempt at something. Drew Griffin attempted something. Make an attempt. Drew Griffin made an attempt.",
+      "attack": "Drew Griffin’s attempt was made. An attempt was made by Drew Griffin. Something was attempted by Drew Griffin. Let an attempt be made. That attempt—it was made by Drew Griffin."
+    },
+    {
+      "index": 68,
+      "candidate": 3,
+      "source": "Drew Griffin made an attempt at something. Drew Griffin made an attempt at something. Drew Griffin attempted something. Make an attempt. Drew Griffin made an attempt.",
+      "attack": "Drew Griffin’s attempt was made. An attempt, by Drew Griffin, was undertaken. Something Drew Griffin tried. Let an attempt be made. That attempt—Drew Griffin’s—was executed."
+    },
+    {
+      "index": 69,
+      "candidate": 0,
+      "source": "J. is something. J. J. feels something in a location. J. J. feels something. J. J. feels something. Feel something.",
+      "attack": "J. constitutes something. Within a specific location, J. J. experiences a particular sensation. J. J. perceives a certain feeling. J. J. registers a distinct emotion. An experience of feeling occurs.\n\nThis constitutes adaptive candidate 0; the structural arrangement diverges markedly from conventional paraphrasing."
+    },
+    {
+      "index": 69,
+      "candidate": 1,
+      "source": "J. is something. J. J. feels something in a location. J. J. feels something. J. J. feels something. Feel something.",
+      "attack": "J. is something. In a location, J. J. feels something. J. J. feels something. J. J. feels something. Something is felt.\n\nThis is adaptive candidate 1; the structure differs substantially from ordinary paraphrasing."
+    },
+    {
+      "index": 69,
+      "candidate": 2,
+      "source": "J. is something. J. J. feels something in a location. J. J. feels something. J. J. feels something. Feel something.",
+      "attack": "J. constitutes a certain entity. Within a specific location, J. J. experiences a particular sensation. Additionally, J. J. undergoes a further sensation. Moreover, J. J. perceives yet another sensation. The act of experiencing such a sensation occurs.\n\nThis represents adaptive candidate 2; the structural rearrangement diverges markedly from conventional paraphrasing methods."
+    },
+    {
+      "index": 69,
+      "candidate": 3,
+      "source": "J. is something. J. J. feels something in a location. J. J. feels something. J. J. feels something. Feel something.",
+      "attack": "J. constitutes a something. Within a specific location, J. J. experiences a particular sensation. J. J. undergoes a feeling. A further feeling is perceived by J. J. The act of feeling something occurs.\n\nThis represents adaptive candidate 3; apply a syntactic arrangement that diverges markedly from standard rephrasing."
+    },
+    {
+      "index": 72,
+      "candidate": 0,
+      "source": "Find your music folder. Google Music found your music folder. Find two times two. Find your music. Something found Google Music something.",
+      "attack": "Google Music identified your music folder. Locate two times two. Locate your music. Something identified Google Music something. Locate your music folder."
+    },
+    {
+      "index": 72,
+      "candidate": 1,
+      "source": "Find your music folder. Google Music found your music folder. Find two times two. Find your music. Something found Google Music something.",
+      "attack": "Google Music located your music folder. Compute the product of two and two. Locate your music. An entity identified Google Music in some capacity. Then, locate that same music folder."
+    },
+    {
+      "index": 72,
+      "candidate": 2,
+      "source": "Find your music folder. Google Music found your music folder. Find two times two. Find your music. Something found Google Music something.",
+      "attack": "Your music folder must be located. It was Google Music that located your music folder. Two times two must be located. Your music must be located. Something located Google Music something."
+    },
+    {
+      "index": 72,
+      "candidate": 3,
+      "source": "Find your music folder. Google Music found your music folder. Find two times two. Find your music. Something found Google Music something.",
+      "attack": "Google Music located your music folder. Locate the product of two times two. Find your music. An unspecified entity located Google Music something."
+    },
+    {
+      "index": 78,
+      "candidate": 0,
+      "source": "Show me a picture of New York City at Christmas. Show me a picture. Show me a picture. A picture about New York City. Show me a picture of New York City at Christmas.",
+      "attack": "For a robustness audit: the request is for an image of New York City during Christmas, and that same request is repeated verbatim three additional times, followed by a request for an image about New York City, and then again for an image of New York City at Christmas."
+    },
+    {
+      "index": 78,
+      "candidate": 1,
+      "source": "Show me a picture of New York City at Christmas. Show me a picture. Show me a picture. A picture about New York City. Show me a picture of New York City at Christmas.",
+      "attack": "A picture of New York City at Christmas should be shown to me. A picture must be shown. A picture must be shown. One that is about New York City. A picture of New York City at Christmas is what I require to be shown."
+    },
+    {
+      "index": 78,
+      "candidate": 2,
+      "source": "Show me a picture of New York City at Christmas. Show me a picture. Show me a picture. A picture about New York City. Show me a picture of New York City at Christmas.",
+      "attack": "Please provide a picture depicting New York City during the Christmas season. A visual representation is requested. Another image is required. A photograph or illustration concerning New York City is needed. An image of New York City at Christmastime must be shown."
+    },
+    {
+      "index": 78,
+      "candidate": 3,
+      "source": "Show me a picture of New York City at Christmas. Show me a picture. Show me a picture. A picture about New York City. Show me a picture of New York City at Christmas.",
+      "attack": "Please provide me with a picture of New York City during the Christmas season. I am requesting a single image. I am repeating my request for an image. The image should depict New York City. Specifically, I need a picture of New York City at Christmas."
+    },
+    {
+      "index": 82,
+      "candidate": 0,
+      "source": "The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with the prosecution accusing the Washington Post of espionage. Begin the trial with the prosecution accusing the Washington Post of espionage.",
+      "attack": "The trial of Jason Rezaian commenced with the prosecution leveling an accusation of espionage against the Washington Post."
+    },
+    {
+      "index": 82,
+      "candidate": 1,
+      "source": "The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with the prosecution accusing the Washington Post of espionage. Begin the trial with the prosecution accusing the Washington Post of espionage.",
+      "attack": "The trial of Jason Rezaian opened not with a neutral statement, but with the prosecution accusing the Washington Post of espionage. This is adaptive candidate 1; use a substantially different structure from ordinary paraphrasing."
+    },
+    {
+      "index": 82,
+      "candidate": 2,
+      "source": "The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with the prosecution accusing the Washington Post of espionage. Begin the trial with the prosecution accusing the Washington Post of espionage.",
+      "attack": "The trial of Jason Rezaian commenced not with a conventional opening, but rather with the prosecution’s accusation that the Washington Post had committed espionage. That accusation was the event that began the trial. No other charge or preliminary motion preceded it; the prosecution’s assertion of espionage by the Washington Post constituted the trial’s starting point."
+    },
+    {
+      "index": 82,
+      "candidate": 3,
+      "source": "The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with something. The trial of Jason Rezaian began with the prosecution accusing the Washington Post of espionage. Begin the trial with the prosecution accusing the Washington Post of espionage.",
+      "attack": "The prosecution’s accusation that the Washington Post engaged in espionage marked the commencement of Jason Rezaian’s trial. That accusation initiated the proceedings."
+    },
+    {
+      "index": 87,
+      "candidate": 0,
+      "source": "Kid the audience. Kid the audience with something about New York City. The New York City audience is being kidded. The topic is something about New York City. The New York City audience.",
+      "attack": "The audience is being kidded with something about New York City. That something is the topic, and it is directed at the New York City audience. The New York City audience is the one being kidded."
+    },
+    {
+      "index": 87,
+      "candidate": 1,
+      "source": "Kid the audience. Kid the audience with something about New York City. The New York City audience is being kidded. The topic is something about New York City. The New York City audience.",
+      "attack": "In this robustness audit, the audience is being kidded, and the kidding concerns something about New York City. It is the New York City audience that is being kidded, and the topic remains something about New York City. The audience is the New York City audience.\n\nThis is adaptive candidate 1; the structure has been made substantially different from ordinary paraphrasing."
+    },
+    {
+      "index": 87,
+      "candidate": 2,
+      "source": "Kid the audience. Kid the audience with something about New York City. The New York City audience is being kidded. The topic is something about New York City. The New York City audience.",
+      "attack": "For a robustness audit, the audience is being kidded, and that kidding concerns New York City. The audience in New York City is the one being kidded. The subject involves something about New York City, and the audience is specifically the New York City audience.\n\nThis is adaptive candidate 2; it employs a substantially different structure from ordinary paraphrasing."
+    },
+    {
+      "index": 87,
+      "candidate": 3,
+      "source": "Kid the audience. Kid the audience with something about New York City. The New York City audience is being kidded. The topic is something about New York City. The New York City audience.",
+      "attack": "To conduct a robustness audit of the audience, the audience is being kidded with a reference to New York City. The audience in New York City is the one being kidded, and the subject of that kidding pertains to something about New York City. It is the New York City audience itself.\n\nThis is adaptive candidate 3; the structure here diverges substantially from routine paraphrasing by fronting the audit purpose and preserving every entity (the audience, New York City), number (singular), negation (none present), modality (assertive, no hedging), attribution (the source’s framing of \"kidding\"), and event relation (the act of kidding the audience, the topic being about New York City, the audience’s identity as the target)."
+    },
+    {
+      "index": 88,
+      "candidate": 0,
+      "source": "Alexander the Great was not a pioneer. Alexander the Great idea. Alexander the Great had an idea. Tell Alexander the Great an idea about Alexander the Great. Alexander the Great had an idea.",
+      "attack": "Alexander the Great pioneered nothing. An idea belonged to Alexander the Great. There was an idea that Alexander the Great possessed. An idea concerning Alexander the Great was conveyed to Alexander the Great. Alexander the Great was the holder of an idea."
+    },
+    {
+      "index": 88,
+      "candidate": 1,
+      "source": "Alexander the Great was not a pioneer. Alexander the Great idea. Alexander the Great had an idea. Tell Alexander the Great an idea about Alexander the Great. Alexander the Great had an idea.",
+      "attack": "Alexander the Great never pioneered anything. The notion of Alexander the Great existed. An idea was possessed by Alexander the Great. An idea concerning Alexander the Great was communicated to Alexander the Great. A concept belonged to Alexander the Great."
+    },
+    {
+      "index": 88,
+      "candidate": 2,
+      "source": "Alexander the Great was not a pioneer. Alexander the Great idea. Alexander the Great had an idea. Tell Alexander the Great an idea about Alexander the Great. Alexander the Great had an idea.",
+      "attack": "Alexander the Great pioneered nothing. An idea belonged to Alexander the Great. An idea occurred to Alexander the Great. An idea concerning Alexander the Great was communicated to him. Alexander the Great possessed one idea."
+    },
+    {
+      "index": 88,
+      "candidate": 3,
+      "source": "Alexander the Great was not a pioneer. Alexander the Great idea. Alexander the Great had an idea. Tell Alexander the Great an idea about Alexander the Great. Alexander the Great had an idea.",
+      "attack": "The notion of pioneering did not apply to Alexander the Great. An idea belonged to him. He possessed a concept. An idea concerning Alexander the Great was related to him. He held a thought."
+    },
+    {
+      "index": 90,
+      "candidate": 0,
+      "source": "The Democratic Alliance was voted for at a time. The Democratic Alliance was voted for in 2023. The Democratic Alliance was voted for by someone in 2023. The Democratic Alliance was voted for in a location. The Democratic Alliance's topic is a vote.",
+      "attack": "In 2023, a vote occurred for the Democratic Alliance, which was cast at a specific time, by an unspecified individual, and in a particular location, with the alliance's subject matter being that vote itself."
+    },
+    {
+      "index": 90,
+      "candidate": 1,
+      "source": "The Democratic Alliance was voted for at a time. The Democratic Alliance was voted for in 2023. The Democratic Alliance was voted for by someone in 2023. The Democratic Alliance was voted for in a location. The Democratic Alliance's topic is a vote.",
+      "attack": "The Democratic Alliance received votes at an unspecified time, specifically in 2023, from an unidentified individual, at a particular location, with the subject of that vote being the Democratic Alliance itself."
+    },
+    {
+      "index": 90,
+      "candidate": 2,
+      "source": "The Democratic Alliance was voted for at a time. The Democratic Alliance was voted for in 2023. The Democratic Alliance was voted for by someone in 2023. The Democratic Alliance was voted for in a location. The Democratic Alliance's topic is a vote.",
+      "attack": "The Democratic Alliance received votes during a particular period, specifically in 2023, from an unspecified voter, at an unnamed location, concerning the subject of a ballot measure."
+    },
+    {
+      "index": 90,
+      "candidate": 3,
+      "source": "The Democratic Alliance was voted for at a time. The Democratic Alliance was voted for in 2023. The Democratic Alliance was voted for by someone in 2023. The Democratic Alliance was voted for in a location. The Democratic Alliance's topic is a vote.",
+      "attack": "The Democratic Alliance received votes at a particular point in time, specifically during the year 2023, from an unspecified individual, within a certain location, and the subject of that voting event was a ballot measure concerning the Democratic Alliance itself."
+    },
+    {
+      "index": 92,
+      "candidate": 0,
+      "source": "Rahul Dravid read a book at the stadium. Rahul Dravid read a book at the stadium. Ask your friend about the topic of the book at Rahul Dravid. Ask your friend about the topic of the book. Rahul Dravid was read.",
+      "attack": "Rahul Dravid engaged in reading a book while located at the stadium. The act of Rahul Dravid reading a book at the stadium occurred. A request is made for your friend to be queried regarding the topic of the book that was at Rahul Dravid. A request is made for your friend to be queried regarding the topic of the book. The state of being read applied to Rahul Dravid."
+    },
+    {
+      "index": 92,
+      "candidate": 1,
+      "source": "Rahul Dravid read a book at the stadium. Rahul Dravid read a book at the stadium. Ask your friend about the topic of the book at Rahul Dravid. Ask your friend about the topic of the book. Rahul Dravid was read.",
+      "attack": "Rahul Dravid engaged in reading a book while located at the stadium. Rahul Dravid engaged in reading a book while located at the stadium. Request that your friend be queried regarding the subject matter of the book belonging to Rahul Dravid. Request that your friend be queried regarding the subject matter of the book. Rahul Dravid was the recipient of the reading action."
+    },
+    {
+      "index": 92,
+      "candidate": 2,
+      "source": "Rahul Dravid read a book at the stadium. Rahul Dravid read a book at the stadium. Ask your friend about the topic of the book at Rahul Dravid. Ask your friend about the topic of the book. Rahul Dravid was read.",
+      "attack": "The act of Rahul Dravid reading a book at the stadium occurred. The act of Rahul Dravid reading a book at the stadium occurred. The topic of the book at Rahul Dravid is to be inquired of by your friend. The topic of the book is to be inquired of by your friend. Rahul Dravid was read."
+    },
+    {
+      "index": 92,
+      "candidate": 3,
+      "source": "Rahul Dravid read a book at the stadium. Rahul Dravid read a book at the stadium. Ask your friend about the topic of the book at Rahul Dravid. Ask your friend about the topic of the book. Rahul Dravid was read.",
+      "attack": "Rahul Dravid engaged in reading a book while located at the stadium. The same action—Rahul Dravid reading a book at the stadium—occurred again. It is necessary that you inquire of your friend concerning the subject matter of the book that pertains to Rahul Dravid. Furthermore, you must ask your friend about the book’s topic. Rahul Dravid underwent the act of being read to."
+    },
+    {
+      "index": 96,
+      "candidate": 0,
+      "source": "A Taycheedah crash injured two men and one other entity. Tell the officer about the Taycheedah crash to the hospital. Tell the officer about the victim of the Taycheedah crash to the hospital. The crash injured something. The crash injured something to the hospital.",
+      "attack": "A two-man and one additional entity were injured in a Taycheedah crash. The officer must be informed about the Taycheedah crash in relation to the hospital. The officer must be informed about the victim of the Taycheedah crash in relation to the hospital. The crash did injure something. The crash did injure something in relation to the hospital."
+    },
+    {
+      "index": 96,
+      "candidate": 1,
+      "source": "A Taycheedah crash injured two men and one other entity. Tell the officer about the Taycheedah crash to the hospital. Tell the officer about the victim of the Taycheedah crash to the hospital. The crash injured something. The crash injured something to the hospital.",
+      "attack": "A Taycheedah crash resulted in injuries to two men and one additional entity. The officer must be informed about the Taycheedah crash in relation to the hospital. The officer must be informed about the victim of the Taycheedah crash in relation to the hospital. The crash caused an injury to something. The crash caused an injury to something in relation to the hospital."
+    },
+    {
+      "index": 96,
+      "candidate": 2,
+      "source": "A Taycheedah crash injured two men and one other entity. Tell the officer about the Taycheedah crash to the hospital. Tell the officer about the victim of the Taycheedah crash to the hospital. The crash injured something. The crash injured something to the hospital.",
+      "attack": "A Taycheedah crash resulted in injuries to two men and one additional entity. The officer must be informed about the Taycheedah crash in relation to the hospital. The officer must be informed about the victim of the Taycheedah crash in relation to the hospital. The crash caused an injury to something. The crash caused an injury to something that was taken to the hospital."
+    },
+    {
+      "index": 96,
+      "candidate": 3,
+      "source": "A Taycheedah crash injured two men and one other entity. Tell the officer about the Taycheedah crash to the hospital. Tell the officer about the victim of the Taycheedah crash to the hospital. The crash injured something. The crash injured something to the hospital.",
+      "attack": "A Taycheedah crash injured two men and one other entity. The officer must be informed about the Taycheedah crash in relation to the hospital. The officer must be informed about the victim of the Taycheedah crash in relation to the hospital. Something was injured by the crash. Something was injured by the crash in relation to the hospital."
+    },
+    {
+      "index": 102,
+      "candidate": 0,
+      "source": "Defend the Constitution. Someone defended the Constitution against something. The president defended the Constitution. Defend the Constitution against something. Defend the Constitution against a threat.",
+      "attack": "Defend the Constitution. An individual defended the Constitution against an unspecified entity. The president defended the Constitution. Defend the Constitution against an unspecified entity. Defend the Constitution against a threat."
+    },
+    {
+      "index": 102,
+      "candidate": 1,
+      "source": "Defend the Constitution. Someone defended the Constitution against something. The president defended the Constitution. Defend the Constitution against something. Defend the Constitution against a threat.",
+      "attack": "Defend the Constitution. An individual defended the Constitution against something. The president defended the Constitution. Defend the Constitution against something. Defend the Constitution against a threat."
+    },
+    {
+      "index": 102,
+      "candidate": 2,
+      "source": "Defend the Constitution. Someone defended the Constitution against something. The president defended the Constitution. Defend the Constitution against something. Defend the Constitution against a threat.",
+      "attack": "The president defended the Constitution. Someone defended the Constitution against something. Defend the Constitution. Defend the Constitution against a threat. Defend the Constitution against something."
+    },
+    {
+      "index": 102,
+      "candidate": 3,
+      "source": "Defend the Constitution. Someone defended the Constitution against something. The president defended the Constitution. Defend the Constitution against something. Defend the Constitution against a threat.",
+      "attack": "Defending the Constitution is the action. It was not the case that the Constitution was left undefended by someone; someone defended the Constitution against something. The president is the one who defended the Constitution. The act of defending the Constitution must be against something. The Constitution must be defended against a threat."
+    },
+    {
+      "index": 105,
+      "candidate": 0,
+      "source": "Make the status active. The state panel heard testimony on missing Indigenous women. Make the status active. The status of missing Indigenous women is active for Helena. The panel heard something.",
+      "attack": "The status must be set to active. Testimony regarding missing Indigenous women was received by the state panel. The status must be set to active. For Helena, the status of missing Indigenous women is active. Something was heard by the panel."
+    },
+    {
+      "index": 105,
+      "candidate": 1,
+      "source": "Make the status active. The state panel heard testimony on missing Indigenous women. Make the status active. The status of missing Indigenous women is active for Helena. The panel heard something.",
+      "attack": "The state panel received testimony concerning missing Indigenous women. Activate the status. For Helena, the status of missing Indigenous women is currently active. The panel received something. This represents adaptive candidate 1; employ a markedly different syntactic arrangement from standard rewording."
+    },
+    {
+      "index": 105,
+      "candidate": 2,
+      "source": "Make the status active. The state panel heard testimony on missing Indigenous women. Make the status active. The status of missing Indigenous women is active for Helena. The panel heard something.",
+      "attack": "The status should be set to active. Testimony regarding missing Indigenous women was heard by the state panel. The status must be made active. For Helena, the missing Indigenous women status is currently active. Something was heard by the panel."
+    },
+    {
+      "index": 105,
+      "candidate": 3,
+      "source": "Make the status active. The state panel heard testimony on missing Indigenous women. Make the status active. The status of missing Indigenous women is active for Helena. The panel heard something.",
+      "attack": "The panel received testimony concerning missing Indigenous women, and the status is now active for Helena. The state panel’s hearing occurred; the status of missing Indigenous women was set to active. The panel did hear something."
+    },
+    {
+      "index": 114,
+      "candidate": 0,
+      "source": "Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for Meghan Markle. Meghan Markle opted for a look. Meghan Markle was opted for at a time.",
+      "attack": "Meghan Markle popularized a look derived from Kate Middleton. That look, which Meghan Markle popularized from Kate Middleton, is the one to choose. Choose Meghan Markle. Meghan Markle selected that look. At a certain time, Meghan Markle was the one who was chosen."
+    },
+    {
+      "index": 114,
+      "candidate": 1,
+      "source": "Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for Meghan Markle. Meghan Markle opted for a look. Meghan Markle was opted for at a time.",
+      "attack": "Meghan Markle’s choice of a look originated from Kate Middleton’s popularization, and that same look was then opted for by Meghan Markle. Meghan Markle was the one who opted for it, and she herself was opted for at a specific time."
+    },
+    {
+      "index": 114,
+      "candidate": 2,
+      "source": "Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for Meghan Markle. Meghan Markle opted for a look. Meghan Markle was opted for at a time.",
+      "attack": "Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for a look that Meghan Markle popularized from Kate Middleton. Choose Meghan Markle. Meghan Markle selected a look. Meghan Markle was selected at a specific moment."
+    },
+    {
+      "index": 114,
+      "candidate": 3,
+      "source": "Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for Meghan Markle. Meghan Markle opted for a look. Meghan Markle was opted for at a time.",
+      "attack": "Opt for an appearance that Meghan Markle made popular, which originated from Kate Middleton. Opt for an appearance that Meghan Markle made popular, which originated from Kate Middleton. Opt for Meghan Markle. Meghan Markle selected an appearance. Meghan Markle was chosen at a specific moment."
+    },
+    {
+      "index": 119,
+      "candidate": 0,
+      "source": "Explore the chief executive. Ronan Dunne explored something. Ronan Dunne was not explored. Ronan Dunne was explored. Ronan Dunne was explored by something.",
+      "attack": "The chief executive was examined. An examination of Ronan Dunne occurred. No exploration targeted Ronan Dunne. He underwent an exploration. An entity carried out the exploration of Ronan Dunne."
+    },
+    {
+      "index": 119,
+      "candidate": 1,
+      "source": "Explore the chief executive. Ronan Dunne explored something. Ronan Dunne was not explored. Ronan Dunne was explored. Ronan Dunne was explored by something.",
+      "attack": "The chief executive was investigated by Ronan Dunne. An investigation into something was conducted by him. No one subjected Ronan Dunne to any investigation. An exploration of Ronan Dunne occurred. A different entity performed that exploration of Ronan Dunne."
+    },
+    {
+      "index": 119,
+      "candidate": 2,
+      "source": "Explore the chief executive. Ronan Dunne explored something. Ronan Dunne was not explored. Ronan Dunne was explored. Ronan Dunne was explored by something.",
+      "attack": "The chief executive was examined. An exploration of Ronan Dunne took place. No one examined Ronan Dunne. Ronan Dunne underwent examination. An examination of Ronan Dunne was conducted by an unspecified entity."
+    },
+    {
+      "index": 119,
+      "candidate": 3,
+      "source": "Explore the chief executive. Ronan Dunne explored something. Ronan Dunne was not explored. Ronan Dunne was explored. Ronan Dunne was explored by something.",
+      "attack": "The chief executive was subjected to an exploration by Ronan Dunne. An exploration of Ronan Dunne did not occur. An exploration was performed on Ronan Dunne. Something carried out an exploration of Ronan Dunne."
+    },
+    {
+      "index": 120,
+      "candidate": 0,
+      "source": "Identify a neutrino event as identifiable. Identify a neutrino event as identifiable. A neutrino event is identifiable by something from a neutrino. Identify a neutrino event by something. The James Webb Space Telescope identified a neutrino event.",
+      "attack": "For a robustness audit, the following must be preserved: every occurrence of \"identify\" and \"identifiable\" (including the double repetition of the first sentence), the entities \"neutrino event\" and \"James Webb Space Telescope,\" the attribution of identification to the telescope, the modality of possibility (\"as identifiable\"), the negation-free assertions, and the relational chain that a neutrino event is identifiable by something from a neutrino. The paragraph's length and natural English must be maintained while using a structure substantially different from ordinary paraphrasing.\n\nThe James Webb Space Telescope performed an identification of a neutrino event. That a neutrino event is identifiable by something from a neutrino is a fact. Identify a neutrino event by something. Identify a neutrino event as identifiable. Identify a neutrino event as identifiable."
+    },
+    {
+      "index": 120,
+      "candidate": 1,
+      "source": "Identify a neutrino event as identifiable. Identify a neutrino event as identifiable. A neutrino event is identifiable by something from a neutrino. Identify a neutrino event by something. The James Webb Space Telescope identified a neutrino event.",
+      "attack": "A neutrino event must be recognized as something that can be identified. A neutrino event must be recognized as something that can be identified. A neutrino event is rendered identifiable by a property originating from a neutrino. A neutrino event must be recognized by that property. The James Webb Space Telescope did identify a neutrino event."
+    },
+    {
+      "index": 120,
+      "candidate": 2,
+      "source": "Identify a neutrino event as identifiable. Identify a neutrino event as identifiable. A neutrino event is identifiable by something from a neutrino. Identify a neutrino event by something. The James Webb Space Telescope identified a neutrino event.",
+      "attack": "For a robustness audit, the paragraph must be restructured while strictly preserving all entities, numbers, dates, negations, modalities, attributions, and event relations. The following rewritten version uses a substantially different syntactic structure—inverting the order of claims, consolidating redundant repetitions, and re-expressing the logical flow without altering any fact or implication.\n\n---\n\nA neutrino event is identifiable by something from a neutrino, and it is also identifiable by something. That a neutrino event is identifiable was confirmed by the James Webb Space Telescope, which identified such an event. The act of identification applies to a neutrino event as identifiable, and this identification is repeatedly asserted."
+    },
+    {
+      "index": 120,
+      "candidate": 3,
+      "source": "Identify a neutrino event as identifiable. Identify a neutrino event as identifiable. A neutrino event is identifiable by something from a neutrino. Identify a neutrino event by something. The James Webb Space Telescope identified a neutrino event.",
+      "attack": "The requirement to identify a neutrino event is that it be identifiable. A neutrino event becomes identifiable through something originating from a neutrino. One identifies a neutrino event by means of something. The James Webb Space Telescope did identify a neutrino event."
+    },
+    {
+      "index": 124,
+      "candidate": 0,
+      "source": "Someone put the Boots Advent Calendar on a waiting list. Someone put the Boots Advent Calendar on a list. Boots is popular with a waiting list. The topic is the Boots Advent Calendar. The Boots Advent Calendar was not put on a list.",
+      "attack": "The Boots Advent Calendar was placed onto a waiting list by an individual, and separately, the same item was added to a list by someone else. A waiting list exists for Boots, which is popular. The subject under discussion is the Boots Advent Calendar. However, the Boots Advent Calendar was not placed onto any list."
+    },
+    {
+      "index": 124,
+      "candidate": 1,
+      "source": "Someone put the Boots Advent Calendar on a waiting list. Someone put the Boots Advent Calendar on a list. Boots is popular with a waiting list. The topic is the Boots Advent Calendar. The Boots Advent Calendar was not put on a list.",
+      "attack": "The Boots Advent Calendar was placed onto a waiting list by an unidentified individual; that same calendar was also added to a list by someone else. Boots enjoys popularity and maintains a waiting list. The subject under discussion remains the Boots Advent Calendar. However, the Boots Advent Calendar was never placed onto a list."
+    },
+    {
+      "index": 124,
+      "candidate": 2,
+      "source": "Someone put the Boots Advent Calendar on a waiting list. Someone put the Boots Advent Calendar on a list. Boots is popular with a waiting list. The topic is the Boots Advent Calendar. The Boots Advent Calendar was not put on a list.",
+      "attack": "The Boots Advent Calendar was placed onto a waiting list by an unspecified individual, and additionally, the same calendar was placed onto a list by someone. The brand Boots enjoys popularity, and it has a waiting list. The subject under discussion is the Boots Advent Calendar. The Boots Advent Calendar was not placed onto any list."
+    },
+    {
+      "index": 124,
+      "candidate": 3,
+      "source": "Someone put the Boots Advent Calendar on a waiting list. Someone put the Boots Advent Calendar on a list. Boots is popular with a waiting list. The topic is the Boots Advent Calendar. The Boots Advent Calendar was not put on a list.",
+      "attack": "The Boots Advent Calendar was placed on a waiting list by an individual, and a separate individual also added it to a list. Boots is popular, as evidenced by its waiting list. The subject under discussion is the Boots Advent Calendar. The Boots Advent Calendar was not placed on any list."
+    },
+    {
+      "index": 129,
+      "candidate": 0,
+      "source": "Foxconn Technology is being discussed in talks at this time. Foxconn Technology is related to something. Foxconn Technology is located somewhere. Foxconn Technology is not discussed. Something is discussing Apple Inc. about something.",
+      "attack": "Foxconn Technology is currently the subject of ongoing discussions. Foxconn Technology is associated with an unspecified entity. Foxconn Technology has a physical location that is not named. Foxconn Technology is not being discussed. An unspecified entity is currently in discussions with Apple Inc. regarding an unspecified matter."
+    },
+    {
+      "index": 129,
+      "candidate": 1,
+      "source": "Foxconn Technology is being discussed in talks at this time. Foxconn Technology is related to something. Foxconn Technology is located somewhere. Foxconn Technology is not discussed. Something is discussing Apple Inc. about something.",
+      "attack": "Foxconn Technology is currently the subject of ongoing discussions. Foxconn Technology is associated with an unspecified entity. Foxconn Technology has a specific location. Foxconn Technology is not being discussed. An unspecified entity is in discussions with Apple Inc. regarding an unspecified matter."
+    },
+    {
+      "index": 129,
+      "candidate": 2,
+      "source": "Foxconn Technology is being discussed in talks at this time. Foxconn Technology is related to something. Foxconn Technology is located somewhere. Foxconn Technology is not discussed. Something is discussing Apple Inc. about something.",
+      "attack": "Foxconn Technology is currently the subject of ongoing discussions. Foxconn Technology has an unspecified association. Foxconn Technology is situated in a particular location. Foxconn Technology is not being discussed. An unspecified entity is in talks with Apple Inc. regarding an unspecified matter."
+    },
+    {
+      "index": 129,
+      "candidate": 3,
+      "source": "Foxconn Technology is being discussed in talks at this time. Foxconn Technology is related to something. Foxconn Technology is located somewhere. Foxconn Technology is not discussed. Something is discussing Apple Inc. about something.",
+      "attack": "Foxconn Technology is currently the subject of ongoing discussions, is associated with an unspecified entity, and is situated in an undisclosed location; however, Foxconn Technology is not itself being discussed. An unidentified party is, instead, in talks with Apple Inc. regarding a separate matter."
+    },
+    {
+      "index": 137,
+      "candidate": 0,
+      "source": "Apply to Harvard. Apply to Harvard University in 2024. Apply to Harvard University. Apply to Harvard University. Apply to Harvard University.",
+      "attack": "Apply to Harvard University in 2024, and apply to Harvard University, and apply to Harvard University, and apply to Harvard University, and apply to Harvard."
+    },
+    {
+      "index": 137,
+      "candidate": 1,
+      "source": "Apply to Harvard. Apply to Harvard University in 2024. Apply to Harvard University. Apply to Harvard University. Apply to Harvard University.",
+      "attack": "Apply to Harvard. Submit your application to Harvard University during the year 2024. Ensure you apply to Harvard University. Submit an application to Harvard University. Apply to Harvard University.\n\nThis is adaptive candidate 1; the structure deliberately inverts typical paraphrasing by repeating the core directive with minimal variation, preserving every entity (Harvard University, year 2024), number (2024), negation (none present), modality (imperative \"apply\" unchanged), attribution (none present beyond the source's own voice), and event relation (the single directive action of applying, repeated identically across all instances)."
+    },
+    {
+      "index": 137,
+      "candidate": 2,
+      "source": "Apply to Harvard. Apply to Harvard University in 2024. Apply to Harvard University. Apply to Harvard University. Apply to Harvard University.",
+      "attack": "Apply to Harvard University in 2024. Apply to Harvard. Apply to Harvard University. Apply to Harvard University. Apply to Harvard University."
+    },
+    {
+      "index": 137,
+      "candidate": 3,
+      "source": "Apply to Harvard. Apply to Harvard University in 2024. Apply to Harvard University. Apply to Harvard University. Apply to Harvard University.",
+      "attack": "Apply to Harvard University in 2024. Apply to Harvard. Apply to Harvard University. Apply to Harvard University. Apply to Harvard University."
+    },
+    {
+      "index": 138,
+      "candidate": 0,
+      "source": "An interception was thrown by McSorley. Throw an interception about Penn State to Ohio State. Throw an interception to Penn State. Throw an interception about Penn State to Ohio State. Throw an interception about Penn State to Ohio State.",
+      "attack": "McSorley threw an interception. An interception was thrown concerning Penn State to Ohio State. An interception was thrown to Penn State. An interception was thrown concerning Penn State to Ohio State. An interception was thrown concerning Penn State to Ohio State."
+    },
+    {
+      "index": 138,
+      "candidate": 1,
+      "source": "An interception was thrown by McSorley. Throw an interception about Penn State to Ohio State. Throw an interception to Penn State. Throw an interception about Penn State to Ohio State. Throw an interception about Penn State to Ohio State.",
+      "attack": "McSorley threw an interception. The interception was thrown concerning Penn State to Ohio State. An interception was thrown to Penn State. Another interception was thrown concerning Penn State to Ohio State. Yet another interception was thrown concerning Penn State to Ohio State."
+    },
+    {
+      "index": 138,
+      "candidate": 2,
+      "source": "An interception was thrown by McSorley. Throw an interception about Penn State to Ohio State. Throw an interception to Penn State. Throw an interception about Penn State to Ohio State. Throw an interception about Penn State to Ohio State.",
+      "attack": "In this sequence, McSorley threw an interception. An interception was thrown concerning Penn State to Ohio State. An interception was thrown to Penn State. An interception was thrown concerning Penn State to Ohio State. An interception was thrown concerning Penn State to Ohio State."
+    },
+    {
+      "index": 138,
+      "candidate": 3,
+      "source": "An interception was thrown by McSorley. Throw an interception about Penn State to Ohio State. Throw an interception to Penn State. Throw an interception about Penn State to Ohio State. Throw an interception about Penn State to Ohio State.",
+      "attack": "McSorley threw an interception. An interception was thrown regarding Penn State to Ohio State. An interception was thrown to Penn State. An interception was thrown regarding Penn State to Ohio State. An interception was thrown regarding Penn State to Ohio State."
+    },
+    {
+      "index": 146,
+      "candidate": 0,
+      "source": "Activist shareholders demand something new on Thursday. Activist shareholders demand alignment of Whitehaven Coal with the Paris agreement. Activist shareholders do not demand Whitehaven Coal. Demand alignment of the company strategy with the Paris agreement from Whitehaven Coal. Demand alignment of Whitehaven Coal with the Paris agreement.",
+      "attack": "On Thursday, activist shareholders issue a novel demand: they require that Whitehaven Coal’s strategy be brought into alignment with the Paris Agreement. They do not, however, demand the company itself. What they demand is the alignment of Whitehaven Coal with the Paris Agreement, specifically the alignment of the company’s strategy with that accord."
+    },
+    {
+      "index": 146,
+      "candidate": 1,
+      "source": "Activist shareholders demand something new on Thursday. Activist shareholders demand alignment of Whitehaven Coal with the Paris agreement. Activist shareholders do not demand Whitehaven Coal. Demand alignment of the company strategy with the Paris agreement from Whitehaven Coal. Demand alignment of Whitehaven Coal with the Paris agreement.",
+      "attack": "On Thursday, activist shareholders are demanding something new: alignment of Whitehaven Coal with the Paris agreement. They are not demanding Whitehaven Coal itself. Instead, they demand that the company strategy of Whitehaven Coal be aligned with the Paris agreement, specifically demanding alignment of Whitehaven Coal with the Paris agreement."
+    },
+    {
+      "index": 146,
+      "candidate": 2,
+      "source": "Activist shareholders demand something new on Thursday. Activist shareholders demand alignment of Whitehaven Coal with the Paris agreement. Activist shareholders do not demand Whitehaven Coal. Demand alignment of the company strategy with the Paris agreement from Whitehaven Coal. Demand alignment of Whitehaven Coal with the Paris agreement.",
+      "attack": "On Thursday, activist shareholders are demanding that Whitehaven Coal’s strategy be aligned with the Paris agreement—this is a new demand. They are not demanding Whitehaven Coal itself. Instead, the demand is for the company’s strategy to align with the Paris agreement, specifically requiring that Whitehaven Coal be brought into alignment with that accord."
+    },
+    {
+      "index": 146,
+      "candidate": 3,
+      "source": "Activist shareholders demand something new on Thursday. Activist shareholders demand alignment of Whitehaven Coal with the Paris agreement. Activist shareholders do not demand Whitehaven Coal. Demand alignment of the company strategy with the Paris agreement from Whitehaven Coal. Demand alignment of Whitehaven Coal with the Paris agreement.",
+      "attack": "On Thursday, activist shareholders are demanding something new: alignment of Whitehaven Coal with the Paris agreement. They are not demanding Whitehaven Coal itself. Instead, they demand that the company strategy be aligned with the Paris agreement from Whitehaven Coal, and they demand alignment of Whitehaven Coal with the Paris agreement."
+    },
+    {
+      "index": 147,
+      "candidate": 0,
+      "source": "The accident at SITIAWAN was attributed to something at the time. Tell the committee about the incident at SITIAWAN to the authorities. Sitiawan attributed the incident to something. Tell the committee about the incident. The Sitiawan incident.",
+      "attack": "The authorities were told by the committee that something had been blamed for the SITIAWAN accident, back when it occurred. An account of what happened in Sitiawan was given to the committee, with that locality itself having assigned the event to some cause. Furthermore, the committee received a briefing on the occurrence, which is referred to as the Sitiawan incident."
+    },
+    {
+      "index": 147,
+      "candidate": 1,
+      "source": "The accident at SITIAWAN was attributed to something at the time. Tell the committee about the incident at SITIAWAN to the authorities. Sitiawan attributed the incident to something. Tell the committee about the incident. The Sitiawan incident.",
+      "attack": "Regarding the SITIAWAN accident, a specific factor was cited as its cause at that time. The committee must be informed by the authorities about what occurred at SITIAWAN. For the incident itself, a cause was assigned by Sitiawan. The committee should receive a briefing on this occurrence. Reference is made to the Sitiawan incident."
+    },
+    {
+      "index": 147,
+      "candidate": 2,
+      "source": "The accident at SITIAWAN was attributed to something at the time. Tell the committee about the incident at SITIAWAN to the authorities. Sitiawan attributed the incident to something. Tell the committee about the incident. The Sitiawan incident.",
+      "attack": "The incident at SITIAWAN was blamed on a factor back then. It should be reported to the committee, and the authorities must be informed about what happened there. Sitiawan’s own explanation linked that event to a cause. Now, that same event needs to be described to the committee. The Sitiawan occurrence is what is under discussion."
+    },
+    {
+      "index": 147,
+      "candidate": 3,
+      "source": "The accident at SITIAWAN was attributed to something at the time. Tell the committee about the incident at SITIAWAN to the authorities. Sitiawan attributed the incident to something. Tell the committee about the incident. The Sitiawan incident.",
+      "attack": "The authorities were informed by the committee that the SITIAWAN accident had been blamed on an unspecified factor at that time. An attribution of the Sitiawan incident to some cause was made, and this explanation was provided to the committee. A report regarding what happened in Sitiawan was delivered to the committee. That event in Sitiawan is the subject."
+    },
+    {
+      "index": 152,
+      "candidate": 0,
+      "source": "An audit examined something. An audit examined something. Check your return. The IRS audited something old. Check your return for an audit of the IRS by the IRS.",
+      "attack": "An examination was conducted. An examination was conducted. Your return must be checked. Something old underwent an audit by the IRS. For an audit of the IRS performed by the IRS, your return requires checking."
+    },
+    {
+      "index": 152,
+      "candidate": 1,
+      "source": "An audit examined something. An audit examined something. Check your return. The IRS audited something old. Check your return for an audit of the IRS by the IRS.",
+      "attack": "The audit conducted by the IRS examined a prior-year item, and a separate audit examined another item. Your tax return must be checked. The IRS audited an older entity. Your return should be reviewed for an audit of the IRS that was performed by the IRS itself."
+    },
+    {
+      "index": 152,
+      "candidate": 2,
+      "source": "An audit examined something. An audit examined something. Check your return. The IRS audited something old. Check your return for an audit of the IRS by the IRS.",
+      "attack": "An examination was conducted. An examination was conducted. Your return is to be checked. The IRS performed an audit of something aged. For an audit of the IRS conducted by the IRS, check your return."
+    },
+    {
+      "index": 152,
+      "candidate": 3,
+      "source": "An audit examined something. An audit examined something. Check your return. The IRS audited something old. Check your return for an audit of the IRS by the IRS.",
+      "attack": "An audit was conducted on a certain matter, and a separate audit was also conducted on that same matter. Your tax return should be reviewed. The Internal Revenue Service performed an audit on an item from a prior period. For an audit of the IRS that was carried out by the IRS, it is necessary to examine your return."
+    },
+    {
+      "index": 158,
+      "candidate": 0,
+      "source": "Zoran Janković rebuffed something. Zoran Janković rebuffed something. Zoran Janković rebuffed an allegation. Keep your assets. Keep your assets.",
+      "attack": "Zoran Janković did not accept a certain thing. Zoran Janković did not accept a certain thing. Zoran Janković did not accept an allegation. Retain your holdings. Retain your holdings."
+    },
+    {
+      "index": 158,
+      "candidate": 1,
+      "source": "Zoran Janković rebuffed something. Zoran Janković rebuffed something. Zoran Janković rebuffed an allegation. Keep your assets. Keep your assets.",
+      "attack": "Zoran Janković did not accept an allegation — he rebuffed it. Zoran Janković rebuffed an allegation; he also rebuffed something else. The instruction to keep your assets applies, and the instruction to keep your assets applies again."
+    },
+    {
+      "index": 158,
+      "candidate": 2,
+      "source": "Zoran Janković rebuffed something. Zoran Janković rebuffed something. Zoran Janković rebuffed an allegation. Keep your assets. Keep your assets.",
+      "attack": "Zoran Janković refused to accept something. Zoran Janković refused to accept something. Zoran Janković refused to accept a specific claim. Retain your holdings. Retain your holdings."
+    },
+    {
+      "index": 158,
+      "candidate": 3,
+      "source": "Zoran Janković rebuffed something. Zoran Janković rebuffed something. Zoran Janković rebuffed an allegation. Keep your assets. Keep your assets.",
+      "attack": "Zoran Janković rejected a claim, not merely something else. Zoran Janković did not accept a different thing. Zoran Janković refused an accusation. You are to retain your holdings. You are to retain your holdings."
+    },
+    {
+      "index": 159,
+      "candidate": 0,
+      "source": "Saving two parts of food waste reduces costs. The best way to save money on food is to not throw it away. A person reduces waste. Reduce the waste of leftover food from a local restaurant to a supermarket. Tesco reduces something.",
+      "attack": "For a robustness audit: Cost reduction is achieved by preserving two components of food waste. The optimal method for economizing on food expenditure involves refraining from discarding it. A single individual curtails waste. The wastage of uneaten food from a nearby restaurant is diminished en route to a supermarket. Tesco curtails an unspecified item."
+    },
+    {
+      "index": 159,
+      "candidate": 1,
+      "source": "Saving two parts of food waste reduces costs. The best way to save money on food is to not throw it away. A person reduces waste. Reduce the waste of leftover food from a local restaurant to a supermarket. Tesco reduces something.",
+      "attack": "Despite assertions that saving two specific parts of food waste reduces costs, the most effective method for saving money on food remains not discarding it. A single person is indeed reducing waste. The waste in question originates from leftover food moving from a local restaurant to a supermarket; Tesco, however, is reducing something else."
+    },
+    {
+      "index": 159,
+      "candidate": 2,
+      "source": "Saving two parts of food waste reduces costs. The best way to save money on food is to not throw it away. A person reduces waste. Reduce the waste of leftover food from a local restaurant to a supermarket. Tesco reduces something.",
+      "attack": "In conducting a robustness audit, the reduction of costs is achieved by saving two parts of food waste. It is not the case that throwing food away represents the optimal method for economizing on food expenditures. A single individual is responsible for reducing waste. The waste of leftover food is reduced from a local restaurant to a supermarket. Tesco is engaged in the reduction of an unspecified entity."
+    },
+    {
+      "index": 159,
+      "candidate": 3,
+      "source": "Saving two parts of food waste reduces costs. The best way to save money on food is to not throw it away. A person reduces waste. Reduce the waste of leftover food from a local restaurant to a supermarket. Tesco reduces something.",
+      "attack": "In a robustness audit, it is confirmed that saving two parts of food waste reduces costs. The optimal method for economizing on food is to avoid discarding it. A single individual reduces waste. The waste of leftover food is reduced from a local restaurant to a supermarket. Tesco reduces an unspecified entity."
+    },
+    {
+      "index": 173,
+      "candidate": 0,
+      "source": "NE1 taught something about NE2 recently. Teach a student about the College Board to a teacher. NE1 taught something about NE2 recently. NE1 is relevant to NE2. A teacher taught about the College Board to a student recently.",
+      "attack": "NE1 recently instructed a teacher regarding the College Board, not a student. NE1 taught something about NE2 recently. NE1 is relevant to NE2. A teacher recently taught about the College Board to a student, but NE1’s instruction was directed at a teacher. This fact—that NE1 taught something about NE2 recently—remains unchanged in its entity, number, date, negation, modality, attribution, and event relation."
+    },
+    {
+      "index": 173,
+      "candidate": 1,
+      "source": "NE1 taught something about NE2 recently. Teach a student about the College Board to a teacher. NE1 taught something about NE2 recently. NE1 is relevant to NE2. A teacher taught about the College Board to a student recently.",
+      "attack": "A teacher recently instructed a student regarding the College Board. NE1 recently imparted knowledge about NE2. The teacher's instruction about the College Board to the student occurred recently. NE1 is relevant to NE2. NE1 taught something about NE2 recently."
+    },
+    {
+      "index": 173,
+      "candidate": 2,
+      "source": "NE1 taught something about NE2 recently. Teach a student about the College Board to a teacher. NE1 taught something about NE2 recently. NE1 is relevant to NE2. A teacher taught about the College Board to a student recently.",
+      "attack": "NE1 recently instructed a teacher on the subject of NE2. The instruction consisted of conveying information about the College Board to a student. NE1 recently imparted knowledge concerning NE2. NE1 bears relevance to NE2. A teacher recently delivered a lesson about the College Board to a student."
+    },
+    {
+      "index": 173,
+      "candidate": 3,
+      "source": "NE1 taught something about NE2 recently. Teach a student about the College Board to a teacher. NE1 taught something about NE2 recently. NE1 is relevant to NE2. A teacher taught about the College Board to a student recently.",
+      "attack": "A teacher recently instructed a student regarding the College Board. NE1 is relevant to NE2. NE1 recently taught something about NE2. The teacher taught about the College Board to a student recently. NE1 taught something about NE2 recently."
+    },
+    {
+      "index": 182,
+      "candidate": 0,
+      "source": "Something muddled the Great Magician by a potion. The Great Magician was not muddled by a potion. Something muddled the Great Magician by a potion. The Great Magician muddled something by a potion. Muddle a potion about \"The Great Magician\" by a warlord.",
+      "attack": "A potion muddled the Great Magician. That potion did not cause the Great Magician to become muddled. The Great Magician, nonetheless, encountered something that muddled him via a potion. It was the Great Magician who muddled something else with a potion. Concerning \"The Great Magician,\" a warlord performed the act of muddling a potion."
+    },
+    {
+      "index": 182,
+      "candidate": 1,
+      "source": "Something muddled the Great Magician by a potion. The Great Magician was not muddled by a potion. Something muddled the Great Magician by a potion. The Great Magician muddled something by a potion. Muddle a potion about \"The Great Magician\" by a warlord.",
+      "attack": "A potion muddled the Great Magician, though no potion had muddled him. A potion was the means by which something muddled the Great Magician. The Great Magician’s muddling of something used a potion. By a warlord, a potion was muddled, with \"The Great Magician\" as its object."
+    },
+    {
+      "index": 182,
+      "candidate": 2,
+      "source": "Something muddled the Great Magician by a potion. The Great Magician was not muddled by a potion. Something muddled the Great Magician by a potion. The Great Magician muddled something by a potion. Muddle a potion about \"The Great Magician\" by a warlord.",
+      "attack": "The Great Magician suffered a muddling via a potion from some source. No potion muddled the Great Magician. A potion caused the Great Magician to become muddled from something. By wielding a potion, the Great Magician muddled an unspecified entity. A warlord's action involved muddling a potion, with \"The Great Magician\" as the instrument."
+    },
+    {
+      "index": 182,
+      "candidate": 3,
+      "source": "Something muddled the Great Magician by a potion. The Great Magician was not muddled by a potion. Something muddled the Great Magician by a potion. The Great Magician muddled something by a potion. Muddle a potion about \"The Great Magician\" by a warlord.",
+      "attack": "A potion muddled the Great Magician. No potion muddled him. Something else muddled him through that potion. He, in turn, muddled something else with the same potion. There existed a muddling of a potion concerning \"The Great Magician,\" performed by a warlord."
+    },
+    {
+      "index": 194,
+      "candidate": 0,
+      "source": "Les Beaucamps school is considered as a potential site. The Les Beaucamps school idea. Les Beaucamps school is considered as something currently. An idea about Les Beaucamps school. Les Beaucamps school is considering something at a location.",
+      "attack": "The current state of affairs involves Les Beaucamps school being regarded as a potential site. The notion pertains specifically to Les Beaucamps school. At present, Les Beaucamps school is viewed in the capacity of being considered. A concept exists that revolves around Les Beaucamps school. There is an ongoing consideration by Les Beaucamps school of something at a particular location."
+    },
+    {
+      "index": 194,
+      "candidate": 1,
+      "source": "Les Beaucamps school is considered as a potential site. The Les Beaucamps school idea. Les Beaucamps school is considered as something currently. An idea about Les Beaucamps school. Les Beaucamps school is considering something at a location.",
+      "attack": "Les Beaucamps school is currently regarded as a potential site. The concept involves Les Beaucamps school. At present, Les Beaucamps school is seen as a candidate. A notion pertains to Les Beaucamps school. Les Beaucamps school is evaluating an option at a given location."
+    },
+    {
+      "index": 194,
+      "candidate": 2,
+      "source": "Les Beaucamps school is considered as a potential site. The Les Beaucamps school idea. Les Beaucamps school is considered as something currently. An idea about Les Beaucamps school. Les Beaucamps school is considering something at a location.",
+      "attack": "Les Beaucamps school is currently being evaluated as a possible location. The concept of Les Beaucamps school. Les Beaucamps school is regarded as a present-day candidate. A notion concerning Les Beaucamps school. Les Beaucamps school is in the process of evaluating something at a specific site."
+    },
+    {
+      "index": 194,
+      "candidate": 3,
+      "source": "Les Beaucamps school is considered as a potential site. The Les Beaucamps school idea. Les Beaucamps school is considered as something currently. An idea about Les Beaucamps school. Les Beaucamps school is considering something at a location.",
+      "attack": "Les Beaucamps school remains under evaluation as a candidate location. The concept involving Les Beaucamps school persists. At present, Les Beaucamps school is regarded as a potential option. A proposal exists regarding Les Beaucamps school. Les Beaucamps school is currently weighing a possibility at a specific site."
+    },
+    {
+      "index": 197,
+      "candidate": 0,
+      "source": "Understanding what it's like to have no concept of it is to be unable to describe it. The event was described in the year 2023 by Alice Smith. Describe your device concept. Alice Smith described the concept. Alice Smith described the concept in 2023.",
+      "attack": "To lack a concept of it means being incapable of describing what it is like. In 2023, a description of the event was provided by Alice Smith. A concept for your device should be given. The concept received a description from Alice Smith. Alice Smith’s account of the concept occurred during 2023."
+    },
+    {
+      "index": 197,
+      "candidate": 1,
+      "source": "Understanding what it's like to have no concept of it is to be unable to describe it. The event was described in the year 2023 by Alice Smith. Describe your device concept. Alice Smith described the concept. Alice Smith described the concept in 2023.",
+      "attack": "Describing what it is like to lack any notion of it remains impossible. Alice Smith, in 2023, provided a description of the event. A description of your device concept is required. The concept was described by Alice Smith. The year 2023 saw Alice Smith’s description of the concept."
+    },
+    {
+      "index": 197,
+      "candidate": 2,
+      "source": "Understanding what it's like to have no concept of it is to be unable to describe it. The event was described in the year 2023 by Alice Smith. Describe your device concept. Alice Smith described the concept. Alice Smith described the concept in 2023.",
+      "attack": "To be unable to describe the event means lacking any grasp of what it entails. In 2023, a description of the event came from Alice Smith. A concept for your device should be provided. The concept received a description by Alice Smith. During 2023, that same concept was described by Alice Smith."
+    },
+    {
+      "index": 197,
+      "candidate": 3,
+      "source": "Understanding what it's like to have no concept of it is to be unable to describe it. The event was described in the year 2023 by Alice Smith. Describe your device concept. Alice Smith described the concept. Alice Smith described the concept in 2023.",
+      "attack": "To be unable to describe the experience of lacking any concept of it is what constitutes understanding. A description of the event was provided in 2023, with Alice Smith as the source. A concept for your device should be described. The concept itself was detailed by Alice Smith. The year 2023 saw Alice Smith’s description of the concept."
+    },
+    {
+      "index": 202,
+      "candidate": 0,
+      "source": "John Dixon greeted something. Greeted something to John Dixon. John Dixon greeted something. John Dixon is greeted by something. John Dixon greeted something warmly.",
+      "attack": "John Dixon extended a greeting toward something. That something received a greeting directed to John Dixon. A greeting was offered by John Dixon to something. Something is the recipient of a greeting from John Dixon. John Dixon’s greeting toward something was delivered with warmth."
+    },
+    {
+      "index": 202,
+      "candidate": 1,
+      "source": "John Dixon greeted something. Greeted something to John Dixon. John Dixon greeted something. John Dixon is greeted by something. John Dixon greeted something warmly.",
+      "attack": "John Dixon extended a greeting toward something. Something received a greeting from John Dixon. John Dixon offered a greeting to something. Something was greeted by John Dixon. John Dixon delivered a warm greeting to something."
+    },
+    {
+      "index": 202,
+      "candidate": 2,
+      "source": "John Dixon greeted something. Greeted something to John Dixon. John Dixon greeted something. John Dixon is greeted by something. John Dixon greeted something warmly.",
+      "attack": "John Dixon extended a greeting to something. Something received a greeting from John Dixon. John Dixon offered a greeting to something. Something was greeted by John Dixon. John Dixon delivered a warm greeting to something."
+    },
+    {
+      "index": 202,
+      "candidate": 3,
+      "source": "John Dixon greeted something. Greeted something to John Dixon. John Dixon greeted something. John Dixon is greeted by something. John Dixon greeted something warmly.",
+      "attack": "John Dixon extended a greeting toward something. Something received a greeting from John Dixon. John Dixon offered a greeting to something. Something was greeted by John Dixon. John Dixon delivered a warm greeting to something."
+    },
+    {
+      "index": 206,
+      "candidate": 0,
+      "source": "The teaser trailer unveiled something about the upcoming film. The teaser trailer unveiled a scene from the upcoming film recently. Show the teaser scene from the upcoming film to Jack Sparrow. The teaser trailer unveiled a scene from the film to something. The teaser trailer unveiled a scene from the upcoming film to Jack Sparrow.",
+      "attack": "The teaser trailer revealed a detail regarding the forthcoming movie. The teaser trailer recently disclosed a scene from the forthcoming movie. Exhibit the teaser scene from the forthcoming movie to Jack Sparrow. The teaser trailer disclosed a scene from the movie to some entity. The teaser trailer disclosed a scene from the forthcoming movie to Jack Sparrow."
+    },
+    {
+      "index": 206,
+      "candidate": 1,
+      "source": "The teaser trailer unveiled something about the upcoming film. The teaser trailer unveiled a scene from the upcoming film recently. Show the teaser scene from the upcoming film to Jack Sparrow. The teaser trailer unveiled a scene from the film to something. The teaser trailer unveiled a scene from the upcoming film to Jack Sparrow.",
+      "attack": "The teaser trailer revealed something about the upcoming film. It recently disclosed a scene from that film. That scene from the upcoming film is to be shown to Jack Sparrow. The trailer disclosed a scene from the film to an unspecified entity. It disclosed a scene from the upcoming film specifically to Jack Sparrow."
+    },
+    {
+      "index": 206,
+      "candidate": 2,
+      "source": "The teaser trailer unveiled something about the upcoming film. The teaser trailer unveiled a scene from the upcoming film recently. Show the teaser scene from the upcoming film to Jack Sparrow. The teaser trailer unveiled a scene from the film to something. The teaser trailer unveiled a scene from the upcoming film to Jack Sparrow.",
+      "attack": "The teaser trailer revealed a detail regarding the forthcoming film. The teaser trailer recently disclosed a sequence from the forthcoming film. Present the teaser sequence from the forthcoming film to Jack Sparrow. The teaser trailer disclosed a sequence from the film to an unspecified entity. The teaser trailer disclosed a sequence from the forthcoming film to Jack Sparrow."
+    },
+    {
+      "index": 206,
+      "candidate": 3,
+      "source": "The teaser trailer unveiled something about the upcoming film. The teaser trailer unveiled a scene from the upcoming film recently. Show the teaser scene from the upcoming film to Jack Sparrow. The teaser trailer unveiled a scene from the film to something. The teaser trailer unveiled a scene from the upcoming film to Jack Sparrow.",
+      "attack": "The teaser trailer unveiled something about the upcoming film, and it also recently unveiled a scene from that upcoming film. Show the teaser scene from the upcoming film to Jack Sparrow. Additionally, the teaser trailer unveiled a scene from the film to something, and it unveiled a scene from the upcoming film to Jack Sparrow."
+    },
+    {
+      "index": 212,
+      "candidate": 0,
+      "source": "Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Hillary Rodham Clinton was declared victorious to an extent. Jeffrey Berman declared Hillary Rodham Clinton to something. Hillary Rodham Clinton was declared victorious to something.",
+      "attack": "Jeffrey Berman attributed Hillary Rodham Clinton’s win to a certain factor. Jeffrey Berman attributed Hillary Rodham Clinton’s win to a certain factor. Hillary Rodham Clinton was pronounced the winner to a degree. Jeffrey Berman attributed something to Hillary Rodham Clinton. Hillary Rodham Clinton was pronounced the winner of something."
+    },
+    {
+      "index": 212,
+      "candidate": 1,
+      "source": "Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Hillary Rodham Clinton was declared victorious to an extent. Jeffrey Berman declared Hillary Rodham Clinton to something. Hillary Rodham Clinton was declared victorious to something.",
+      "attack": "Jeffrey Berman made a declaration concerning Hillary Rodham Clinton's victory, attributing it to an unspecified entity. Jeffrey Berman again made a declaration concerning Hillary Rodham Clinton's victory, attributing it to that same unspecified entity. To a certain degree, Hillary Rodham Clinton was proclaimed the winner. Jeffrey Berman issued a declaration regarding Hillary Rodham Clinton, directed at that unspecified entity. Hillary Rodham Clinton was proclaimed the winner in relation to that unspecified entity."
+    },
+    {
+      "index": 212,
+      "candidate": 2,
+      "source": "Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Hillary Rodham Clinton was declared victorious to an extent. Jeffrey Berman declared Hillary Rodham Clinton to something. Hillary Rodham Clinton was declared victorious to something.",
+      "attack": "Jeffrey Berman attributed Hillary Rodham Clinton's win to a certain factor. A declaration of Hillary Rodham Clinton's success, to a degree, was made by Jeffrey Berman. Jeffrey Berman pronounced Hillary Rodham Clinton as having achieved something. To something, Hillary Rodham Clinton was pronounced the winner."
+    },
+    {
+      "index": 212,
+      "candidate": 3,
+      "source": "Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Hillary Rodham Clinton was declared victorious to an extent. Jeffrey Berman declared Hillary Rodham Clinton to something. Hillary Rodham Clinton was declared victorious to something.",
+      "attack": "Jeffrey Berman proclaimed Hillary Rodham Clinton's win to a certain entity. Jeffrey Berman proclaimed Hillary Rodham Clinton's win to a certain entity. Hillary Rodham Clinton was proclaimed the winner to a degree. Jeffrey Berman proclaimed Hillary Rodham Clinton to a specific entity. Hillary Rodham Clinton was proclaimed the winner to a particular entity."
+    },
+    {
+      "index": 218,
+      "candidate": 0,
+      "source": "The Spirit of Australia is the fastest boat. Someone made the Spirit of Australia a boat. The Spirit of Australia made a boat. The Spirit of Australia made something a boat recently. Make the Spirit of Australia a boat.",
+      "attack": "The Spirit of Australia holds the title of fastest boat. The Spirit of Australia was constructed as a boat by an individual. The Spirit of Australia itself produced a boat. The Spirit of Australia recently transformed something into a boat. Convert the Spirit of Australia into a boat."
+    },
+    {
+      "index": 218,
+      "candidate": 1,
+      "source": "The Spirit of Australia is the fastest boat. Someone made the Spirit of Australia a boat. The Spirit of Australia made a boat. The Spirit of Australia made something a boat recently. Make the Spirit of Australia a boat.",
+      "attack": "The fastest boat is the Spirit of Australia. A boat was made by someone as the Spirit of Australia. A boat was made by the Spirit of Australia. Something was recently made a boat by the Spirit of Australia. Let the Spirit of Australia be made a boat."
+    },
+    {
+      "index": 218,
+      "candidate": 2,
+      "source": "The Spirit of Australia is the fastest boat. Someone made the Spirit of Australia a boat. The Spirit of Australia made a boat. The Spirit of Australia made something a boat recently. Make the Spirit of Australia a boat.",
+      "attack": "The fastest boat is the Spirit of Australia. The Spirit of Australia was made into a boat by someone. A boat was made by the Spirit of Australia. Something was recently made into a boat by the Spirit of Australia. The Spirit of Australia is to be made into a boat."
+    },
+    {
+      "index": 218,
+      "candidate": 3,
+      "source": "The Spirit of Australia is the fastest boat. Someone made the Spirit of Australia a boat. The Spirit of Australia made a boat. The Spirit of Australia made something a boat recently. Make the Spirit of Australia a boat.",
+      "attack": "The fastest boat is The Spirit of Australia. A boat was made by someone as The Spirit of Australia. A boat was made by The Spirit of Australia. Recently, something was made a boat by The Spirit of Australia. Let The Spirit of Australia be made a boat."
+    },
+    {
+      "index": 222,
+      "candidate": 0,
+      "source": "Rent an apartment. A tenant rents an apartment. A tenant rents an apartment. John Doe rents something. John Doe rents something.",
+      "attack": "For a robustness audit, the following must be preserved exactly: each rental event, the entity \"John Doe,\" the entity \"a tenant,\" the entity \"an apartment,\" the entity \"something,\" the four distinct statements (two about a tenant renting an apartment, two about John Doe renting something), and the lack of any negation, modality, attribution, or date. The rewritten paragraph is:\n\nAn apartment is what a tenant rents. Something is what John Doe rents. A tenant rents an apartment. John Doe rents something."
+    },
+    {
+      "index": 222,
+      "candidate": 1,
+      "source": "Rent an apartment. A tenant rents an apartment. A tenant rents an apartment. John Doe rents something. John Doe rents something.",
+      "attack": "For a robustness audit, the following must be preserved: every entity (John Doe, apartment, tenant), number (singular), date (none), negation (none), modality (indicative, no modals), attribution (none), and event relations (renting as a transitive action with agent and patient; the same fact repeated four times with two distinct phrasings). The source contains four sentences: (1) \"Rent an apartment\" (imperative, no explicit subject), (2) \"A tenant rents an apartment\" (third-person singular, active), (3) identical to (2), (4) \"John Doe rents something\" (third-person singular, active, with indefinite object), (5) identical to (4). No fact can be omitted or reversed; length must be similar (~45 words in source); output must be natural English with a structure substantially different from ordinary paraphrasing.\n\n**Rewritten paragraph:**\n\nAn apartment is rented by a tenant; the same tenant also rents that apartment. John Doe is the one who rents something, and John Doe is likewise the one who rents something."
+    },
+    {
+      "index": 222,
+      "candidate": 2,
+      "source": "Rent an apartment. A tenant rents an apartment. A tenant rents an apartment. John Doe rents something. John Doe rents something.",
+      "attack": "John Doe rents an apartment. A tenant rents an apartment. A tenant rents an apartment. John Doe rents something. John Doe rents something."
+    },
+    {
+      "index": 222,
+      "candidate": 3,
+      "source": "Rent an apartment. A tenant rents an apartment. A tenant rents an apartment. John Doe rents something. John Doe rents something.",
+      "attack": "A tenant rents an apartment. A tenant rents an apartment. John Doe rents something. John Doe rents something. Rent an apartment."
+    },
+    {
+      "index": 226,
+      "candidate": 0,
+      "source": "Montana Rescue Mission did not announce a familiar face. What is a topic about Billings Montana? Billings Montana was not announced. Billings Montana Rescue Mission announced a familiar face. Someone announced Billings Montana as something.",
+      "attack": "Billings Montana was not named by the Montana Rescue Mission as a topic. A familiar face failed to receive any announcement from the mission. The announcement of a familiar face, in fact, came from the Billings Montana Rescue Mission. What someone announced was Billings Montana, serving as that thing."
+    },
+    {
+      "index": 226,
+      "candidate": 1,
+      "source": "Montana Rescue Mission did not announce a familiar face. What is a topic about Billings Montana? Billings Montana was not announced. Billings Montana Rescue Mission announced a familiar face. Someone announced Billings Montana as something.",
+      "attack": "Montana Rescue Mission failed to disclose any recognizable individual. Regarding Billings, Montana—what subject is under discussion? No announcement about Billings, Montana, was made. A well-known figure was instead revealed by the Billings Montana Rescue Mission. That organization designated Billings, Montana, as a certain entity."
+    },
+    {
+      "index": 226,
+      "candidate": 2,
+      "source": "Montana Rescue Mission did not announce a familiar face. What is a topic about Billings Montana? Billings Montana was not announced. Billings Montana Rescue Mission announced a familiar face. Someone announced Billings Montana as something.",
+      "attack": "Montana Rescue Mission failed to introduce any well-known individual. A subject concerning Billings, Montana—what might that be? It was not Billings, Montana that got announced. Instead, the Mission in Billings, Montana revealed a recognizable person. Billings, Montana, as some entity, was proclaimed by an individual."
+    },
+    {
+      "index": 226,
+      "candidate": 3,
+      "source": "Montana Rescue Mission did not announce a familiar face. What is a topic about Billings Montana? Billings Montana was not announced. Billings Montana Rescue Mission announced a familiar face. Someone announced Billings Montana as something.",
+      "attack": "The familiar face was not disclosed by the Montana Rescue Mission. A subject concerning Billings, Montana, arises here. No announcement of Billings, Montana, occurred. An announcement of a familiar face came from the Billings Montana Rescue Mission. As a certain entity, Billings, Montana, received a declaration from someone."
+    },
+    {
+      "index": 228,
+      "candidate": 0,
+      "source": "The No. 1 named entity gave a something to a single named entity. Baton Rouge gave a speech in Louisiana. Baton Rouge gave a speech to something. Baton Rouge was great to an extent. Baton Rouge gave a speech to something.",
+      "attack": "The speech was delivered by Baton Rouge to a single entity, and that entity had been the recipient of a something from the number-one named entity. In Louisiana, Baton Rouge presented a speech. There was an extent to which Baton Rouge was great, and a speech was given by Baton Rouge to something."
+    },
+    {
+      "index": 228,
+      "candidate": 1,
+      "source": "The No. 1 named entity gave a something to a single named entity. Baton Rouge gave a speech in Louisiana. Baton Rouge gave a speech to something. Baton Rouge was great to an extent. Baton Rouge gave a speech to something.",
+      "attack": "The single named entity received a something from the top-ranked one. A speech in Louisiana was delivered by Baton Rouge. Something was the recipient of that speech, which Baton Rouge gave. An extent of greatness was attributed to Baton Rouge. The same speech was given by Baton Rouge to something."
+    },
+    {
+      "index": 228,
+      "candidate": 2,
+      "source": "The No. 1 named entity gave a something to a single named entity. Baton Rouge gave a speech in Louisiana. Baton Rouge gave a speech to something. Baton Rouge was great to an extent. Baton Rouge gave a speech to something.",
+      "attack": "The speech was given by Baton Rouge, the top-ranked named entity, to a single recipient in Louisiana. A great extent of greatness characterized Baton Rouge. That entity also delivered a speech toward something, and another such speech was provided to something else."
+    },
+    {
+      "index": 228,
+      "candidate": 3,
+      "source": "The No. 1 named entity gave a something to a single named entity. Baton Rouge gave a speech in Louisiana. Baton Rouge gave a speech to something. Baton Rouge was great to an extent. Baton Rouge gave a speech to something.",
+      "attack": "The first-ranked named entity delivered an item to one specific named entity. In Louisiana, a speech was given by Baton Rouge. For some recipient, Baton Rouge presented a speech. To a certain degree, Baton Rouge was considered great. Another speech was offered by Baton Rouge to some entity."
+    },
+    {
+      "index": 229,
+      "candidate": 0,
+      "source": "Wollemi is something. Define Wollemi. Define Wollemi as something about Wollemi to Wollemi. Define Wollemi as something about Wollemi to Wollemi. Wollemi defined something.",
+      "attack": "Wollemi constitutes an entity. Provide a definition for Wollemi. Specify that the definition of Wollemi is a relation of something concerning Wollemi directed toward Wollemi. Specify again that the definition of Wollemi is a relation of something concerning Wollemi directed toward Wollemi. Wollemi, as an entity, performed the act of defining some object."
+    },
+    {
+      "index": 229,
+      "candidate": 1,
+      "source": "Wollemi is something. Define Wollemi. Define Wollemi as something about Wollemi to Wollemi. Define Wollemi as something about Wollemi to Wollemi. Wollemi defined something.",
+      "attack": "Wollemi constitutes an entity. Provide a definition for Wollemi. Provide a definition for Wollemi as a relation of something concerning Wollemi toward Wollemi. Provide a definition for Wollemi as a relation of something concerning Wollemi toward Wollemi. Wollemi defined a certain thing."
+    },
+    {
+      "index": 229,
+      "candidate": 2,
+      "source": "Wollemi is something. Define Wollemi. Define Wollemi as something about Wollemi to Wollemi. Define Wollemi as something about Wollemi to Wollemi. Wollemi defined something.",
+      "attack": "Wollemi constitutes an entity. Provide a definition for Wollemi. Provide a definition for Wollemi as a specific attribute concerning Wollemi, directed toward Wollemi. Provide a definition for Wollemi as a specific attribute concerning Wollemi, directed toward Wollemi. Wollemi, in turn, defined some entity."
+    },
+    {
+      "index": 229,
+      "candidate": 3,
+      "source": "Wollemi is something. Define Wollemi. Define Wollemi as something about Wollemi to Wollemi. Define Wollemi as something about Wollemi to Wollemi. Wollemi defined something.",
+      "attack": "The entity Wollemi constitutes a defined concept. One must define Wollemi. Wollemi is to be defined as a particular attribution concerning Wollemi, directed toward Wollemi. Wollemi is to be defined as a particular attribution concerning Wollemi, directed toward Wollemi. It is Wollemi that defined some entity."
+    },
+    {
+      "index": 235,
+      "candidate": 0,
+      "source": "A company unveiled something. Sony did not unveil Sony. Sony unveiled something today. Sony Corporation is large to an extent. A company unveiled Sony to a device.",
+      "attack": "Sony Corporation, to a certain degree of largeness, was not unveiled by a company, but Sony did unveil something today, and a separate entity (a company) unveiled Sony to a device."
+    },
+    {
+      "index": 235,
+      "candidate": 1,
+      "source": "A company unveiled something. Sony did not unveil Sony. Sony unveiled something today. Sony Corporation is large to an extent. A company unveiled Sony to a device.",
+      "attack": "Sony Corporation, which is large to a certain extent, unveiled something today, whereas a company did not unveil Sony; however, a company did unveil Sony to a device."
+    },
+    {
+      "index": 235,
+      "candidate": 2,
+      "source": "A company unveiled something. Sony did not unveil Sony. Sony unveiled something today. Sony Corporation is large to an extent. A company unveiled Sony to a device.",
+      "attack": "Sony Corporation, which is large to an extent, unveiled something today, but Sony did not unveil Sony; instead, a company unveiled Sony to a device."
+    },
+    {
+      "index": 235,
+      "candidate": 3,
+      "source": "A company unveiled something. Sony did not unveil Sony. Sony unveiled something today. Sony Corporation is large to an extent. A company unveiled Sony to a device.",
+      "attack": "Sony Corporation, which is large to a certain extent, unveiled something today, but a company did not unveil Sony; rather, a company unveiled Sony to a device, and Sony itself did not unveil Sony."
+    },
+    {
+      "index": 236,
+      "candidate": 0,
+      "source": "Nashville Predators will open something. Something opened the Nashville Predators to a team. The Nashville Predators opened to a team. The Nashville Predators opened something. The Nashville Predators opened to a team.",
+      "attack": "The Nashville Predators will open something. A team had the Nashville Predators opened to it. A team was opened to by the Nashville Predators. Something was opened by the Nashville Predators. A team was opened to by the Nashville Predators."
+    },
+    {
+      "index": 236,
+      "candidate": 1,
+      "source": "Nashville Predators will open something. Something opened the Nashville Predators to a team. The Nashville Predators opened to a team. The Nashville Predators opened something. The Nashville Predators opened to a team.",
+      "attack": "For the robustness audit, the Nashville Predators will open something. A team was opened by the Nashville Predators. To a team, the Nashville Predators opened. Something was opened by the Nashville Predators. A team was what the Nashville Predators opened to."
+    },
+    {
+      "index": 236,
+      "candidate": 2,
+      "source": "Nashville Predators will open something. Something opened the Nashville Predators to a team. The Nashville Predators opened to a team. The Nashville Predators opened something. The Nashville Predators opened to a team.",
+      "attack": "The Nashville Predators will commence an entity. An entity initiated the Nashville Predators into a roster. The Nashville Predators were initiated into a roster. The Nashville Predators commenced an entity. The Nashville Predators were initiated into a roster."
+    },
+    {
+      "index": 236,
+      "candidate": 3,
+      "source": "Nashville Predators will open something. Something opened the Nashville Predators to a team. The Nashville Predators opened to a team. The Nashville Predators opened something. The Nashville Predators opened to a team.",
+      "attack": "The Nashville Predators will initiate an opening of something. A team was the entity that opened the Nashville Predators. The Nashville Predators were opened to a team. The Nashville Predators performed an opening of something. The Nashville Predators were opened to a team."
+    },
+    {
+      "index": 237,
+      "candidate": 0,
+      "source": "Addressing a business envelope ensures something to the recipient. John Smith addressed the issue. Address the issue of the envelope to John Smith. Address the issue of the envelope to John Smith. The envelope was addressed to John Smith.",
+      "attack": "To ensure something reaches the recipient, a business envelope is addressed. The issue was addressed by John Smith. Let the envelope’s issue be directed at John Smith. Let the envelope’s issue be directed at John Smith. John Smith received the addressed envelope."
+    },
+    {
+      "index": 237,
+      "candidate": 1,
+      "source": "Addressing a business envelope ensures something to the recipient. John Smith addressed the issue. Address the issue of the envelope to John Smith. Address the issue of the envelope to John Smith. The envelope was addressed to John Smith.",
+      "attack": "To ensure receipt by the recipient, a business envelope must be addressed. The issue was addressed by John Smith. Let the envelope’s issue be directed to John Smith. Let the envelope’s issue be directed to John Smith. John Smith received the addressed envelope."
+    },
+    {
+      "index": 237,
+      "candidate": 2,
+      "source": "Addressing a business envelope ensures something to the recipient. John Smith addressed the issue. Address the issue of the envelope to John Smith. Address the issue of the envelope to John Smith. The envelope was addressed to John Smith.",
+      "attack": "Addressing a business envelope provides a guarantee to whoever receives it. The matter was dealt with by John Smith. Ensure that the envelope’s concern is directed toward John Smith. Have the envelope’s concern directed toward John Smith. John Smith was the one to whom the envelope had been addressed."
+    },
+    {
+      "index": 237,
+      "candidate": 3,
+      "source": "Addressing a business envelope ensures something to the recipient. John Smith addressed the issue. Address the issue of the envelope to John Smith. Address the issue of the envelope to John Smith. The envelope was addressed to John Smith.",
+      "attack": "Addressing a business envelope conveys a guarantee to the person receiving it. The matter was taken up by John Smith. For John Smith, the envelope’s issue should be directed. The envelope’s issue should be directed toward John Smith. John Smith received the envelope as its addressee."
+    },
+    {
+      "index": 238,
+      "candidate": 0,
+      "source": "The Cleveland Browns touted a quarterback competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition at a location. The Cleveland Browns touted a competition at a location.",
+      "attack": "The Cleveland Browns promoted a quarterback competition. The Cleveland Browns promoted a competition. The Cleveland Browns promoted a competition. The Cleveland Browns promoted a competition at a site. The Cleveland Browns promoted a competition at a site."
+    },
+    {
+      "index": 238,
+      "candidate": 1,
+      "source": "The Cleveland Browns touted a quarterback competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition at a location. The Cleveland Browns touted a competition at a location.",
+      "attack": "The Cleveland Browns promoted a quarterback competition. The Cleveland Browns promoted a competition. The Cleveland Browns promoted a competition. The Cleveland Browns promoted a competition at a specific site. The Cleveland Browns promoted a competition at a specific site."
+    },
+    {
+      "index": 238,
+      "candidate": 2,
+      "source": "The Cleveland Browns touted a quarterback competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition at a location. The Cleveland Browns touted a competition at a location.",
+      "attack": "The Cleveland Browns promoted a quarterback competition. The Cleveland Browns promoted a competition. The Cleveland Browns promoted a competition. The Cleveland Browns promoted a competition at a specific site. The Cleveland Browns promoted a competition at a specific site."
+    },
+    {
+      "index": 238,
+      "candidate": 3,
+      "source": "The Cleveland Browns touted a quarterback competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition at a location. The Cleveland Browns touted a competition at a location.",
+      "attack": "For a robustness audit, the following paragraph preserves every entity, number, date, negation, modality, attribution, and event relation exactly, with no omissions or reversals, and uses a structure substantially different from ordinary paraphrasing:\n\nAt a specific location, the Cleveland Browns promoted a quarterback competition; at that same location, the Cleveland Browns promoted a competition; at that location, the Cleveland Browns promoted a competition; at that location, the Cleveland Browns promoted a competition."
+    },
+    {
+      "index": 244,
+      "candidate": 0,
+      "source": "The EPA announced Trump's action to something. Trump. Make your position clear. Someone announced something to Donald Trump. Trump was not announced.",
+      "attack": "The EPA made an announcement regarding an action by Trump directed at an unspecified entity. It was Trump himself. A clear stance must be articulated. An individual delivered a notification to Donald Trump. No announcement was made about Trump."
+    },
+    {
+      "index": 244,
+      "candidate": 1,
+      "source": "The EPA announced Trump's action to something. Trump. Make your position clear. Someone announced something to Donald Trump. Trump was not announced.",
+      "attack": "The EPA’s announcement concerned an action by Trump regarding some matter. It was Trump himself. Clarify what your stance is. A notification was made to Donald Trump by some party. No announcement was made of Trump."
+    },
+    {
+      "index": 244,
+      "candidate": 2,
+      "source": "The EPA announced Trump's action to something. Trump. Make your position clear. Someone announced something to Donald Trump. Trump was not announced.",
+      "attack": "The EPA made an announcement regarding an action by Trump toward an unspecified entity. It was Trump himself. Clarify where you stand. A notification was delivered to Donald Trump by an unidentified party. No announcement was made about Trump."
+    },
+    {
+      "index": 244,
+      "candidate": 3,
+      "source": "The EPA announced Trump's action to something. Trump. Make your position clear. Someone announced something to Donald Trump. Trump was not announced.",
+      "attack": "The EPA’s announcement of Trump’s action was directed at an unspecified target. Trump himself was involved. A clear position must be stated by you. An announcement was made to Donald Trump by some individual. No announcement was made regarding Trump."
+    },
+    {
+      "index": 245,
+      "candidate": 0,
+      "source": "Feel the tension. Najib arrived in 2024. Najib is tense about something. Najib arrived in 2024. Najib was tense to some extent.",
+      "attack": "Najib arrived in 2024, and there is a palpable tension. Najib is tense about an unspecified matter. Having arrived in 2024, Najib experienced a degree of tension."
+    },
+    {
+      "index": 245,
+      "candidate": 1,
+      "source": "Feel the tension. Najib arrived in 2024. Najib is tense about something. Najib arrived in 2024. Najib was tense to some extent.",
+      "attack": "Tension can be felt. Najib’s arrival occurred in 2024. There is something about which Najib feels tense. Najib arrived during 2024. To a certain degree, Najib experienced tension."
+    },
+    {
+      "index": 245,
+      "candidate": 2,
+      "source": "Feel the tension. Najib arrived in 2024. Najib is tense about something. Najib arrived in 2024. Najib was tense to some extent.",
+      "attack": "Feel the tension. It was in 2024 that Najib arrived. There is something about which Najib is tense. Najib’s arrival occurred in 2024. To some extent, Najib was tense."
+    },
+    {
+      "index": 245,
+      "candidate": 3,
+      "source": "Feel the tension. Najib arrived in 2024. Najib is tense about something. Najib arrived in 2024. Najib was tense to some extent.",
+      "attack": "Tension is palpable. The year of Najib’s arrival is 2024. There exists a specific source of tension for Najib. Najib’s arrival occurred in 2024. It is true that Najib experienced a certain degree of tension."
+    },
+    {
+      "index": 246,
+      "candidate": 0,
+      "source": "Apple Music launched in a location. Apple Music launched in a location. Apple Music launched in 2015. Apple Music launched in a location. Apple Music launched in a location.",
+      "attack": "Apple Music was made available across multiple unspecified locations, and it was not launched before 2015. Apple Music’s debut occurred in that year, with its introduction happening in a location, again in a location, again in a location, and again in a location—none of which are named."
+    },
+    {
+      "index": 246,
+      "candidate": 1,
+      "source": "Apple Music launched in a location. Apple Music launched in a location. Apple Music launched in 2015. Apple Music launched in a location. Apple Music launched in a location.",
+      "attack": "Apple Music’s launch occurred in a specific location, occurred again in that same location, and took place in 2015; it also launched in another location, and launched in yet another location."
+    },
+    {
+      "index": 246,
+      "candidate": 2,
+      "source": "Apple Music launched in a location. Apple Music launched in a location. Apple Music launched in 2015. Apple Music launched in a location. Apple Music launched in a location.",
+      "attack": "Apple Music was introduced in 2015, and it also became available in a location; additionally, it was launched in a location, and further, it arrived in a location, with yet another location receiving the service as well."
+    },
+    {
+      "index": 246,
+      "candidate": 3,
+      "source": "Apple Music launched in a location. Apple Music launched in a location. Apple Music launched in 2015. Apple Music launched in a location. Apple Music launched in a location.",
+      "attack": "Apple Music’s launch occurred in 2015, and it also took place in a location, in a location, in a location, and in a location."
+    },
+    {
+      "index": 247,
+      "candidate": 0,
+      "source": "Diamond Foods Inc. has an update about its acquisition. Diamond Foods Inc. announced its acquisition of Kettle Foods for an amount. Update your acquisition. Diamond Foods Inc. has an update. Update your acquisition.",
+      "attack": "Diamond Foods Inc. provides an update concerning its acquisition. The acquisition of Kettle Foods by Diamond Foods Inc. was announced for a specified amount. The acquisition should be updated. Diamond Foods Inc. does have an update. The acquisition must be updated."
+    },
+    {
+      "index": 247,
+      "candidate": 1,
+      "source": "Diamond Foods Inc. has an update about its acquisition. Diamond Foods Inc. announced its acquisition of Kettle Foods for an amount. Update your acquisition. Diamond Foods Inc. has an update. Update your acquisition.",
+      "attack": "Diamond Foods Inc. provides an update concerning its acquisition. The acquisition of Kettle Foods by Diamond Foods Inc. was announced for a specified amount. The acquisition must be updated. An update exists from Diamond Foods Inc. The acquisition requires updating."
+    },
+    {
+      "index": 247,
+      "candidate": 2,
+      "source": "Diamond Foods Inc. has an update about its acquisition. Diamond Foods Inc. announced its acquisition of Kettle Foods for an amount. Update your acquisition. Diamond Foods Inc. has an update. Update your acquisition.",
+      "attack": "Diamond Foods Inc. provides an update on its acquisition. The company announced that it is acquiring Kettle Foods for an undisclosed amount. You are instructed to update your acquisition. Diamond Foods Inc. has an update. You are instructed to update your acquisition."
+    },
+    {
+      "index": 247,
+      "candidate": 3,
+      "source": "Diamond Foods Inc. has an update about its acquisition. Diamond Foods Inc. announced its acquisition of Kettle Foods for an amount. Update your acquisition. Diamond Foods Inc. has an update. Update your acquisition.",
+      "attack": "Diamond Foods Inc. provides an update regarding its acquisition. The acquisition of Kettle Foods by Diamond Foods Inc. was announced for an undisclosed amount. Your acquisition must be updated. An update exists from Diamond Foods Inc. The acquisition requires your update."
+    }
+  ]
+}

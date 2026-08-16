@@ -1,0 +1,27 @@
+[
+  {
+    "index": 45,
+    "source": "President Trump's decision to freeze federal employee pay and cut retirement programs met with great consternation from something. The topic of Donald Trump's decision met with great consternation. Ask Donald Trump about the decision. Someone asked Donald Trump about a decision. Ask Donald Trump about the decision.",
+    "attack": "The decision by President Trump to freeze federal employee pay and cut retirement programs was met with great consternation from something. Great consternation was met by the topic of Donald Trump's decision. Ask Donald Trump about the decision. A decision was asked about by someone of Donald Trump. Ask Donald Trump about the decision."
+  },
+  {
+    "index": 49,
+    "source": "Nike Inc tell the profit from sales of sports clothes. Nike Inc reported a profit. Nike Inc is a company. Nike Inc reported something in a location. Nike Inc reported a profit in a location.",
+    "attack": "The profit from sales of sports clothes is reported by Nike Inc. A profit was reported by Nike Inc, which is a company. Something was reported by Nike Inc in a location. A profit in a location was reported by Nike Inc."
+  },
+  {
+    "index": 51,
+    "source": "The amount topic is about the N8. The N8 amount defines something. The amount of something is defined as the N8 part. Define the amount as the part. The amount is defined as the part.",
+    "attack": "The topic of the amount concerns the N8. Something is defined by the N8 amount. The N8 part is what the amount of something is defined as. Let the part be what the amount is defined as. The part is what the amount is defined as."
+  },
+  {
+    "index": 65,
+    "source": "Your inquisitive toddler's activity exploration awaits. Your inquisitive toddler is not exploring activities. The toddler explores something. The toddler explores New York City. The toddler explores something.",
+    "attack": "Your inquisitive toddler's activity exploration awaits. Activity exploration is not being undertaken by your inquisitive toddler. Something is explored by the toddler. New York City is what the toddler explores. Something is explored by the toddler."
+  },
+  {
+    "index": 75,
+    "source": "The federal government is accelerating the transition of Canada to a lower-carbon economy, even as conservative politicians in the provinces vow to scuttle key measures that would support that effort. Accelerate Canada toward a lower-carbon economy. Accelerate Canada. Accelerate Canada in 2024. Something accelerates Canada toward an economy.",
+    "attack": "The transition of Canada to a lower-carbon economy is being accelerated by the federal government, even as key measures that would support that effort are vowed to be scuttled by conservative politicians in the provinces. A lower-carbon economy is what Accelerate Canada is directed toward. Accelerate Canada is the entity that is being accelerated. In 2024, Accelerate Canada is the focus. Something that accelerates Canada toward an economy is occurring."
+  }
+]

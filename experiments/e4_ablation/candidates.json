@@ -1,0 +1,405 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "source_index": 0,
+      "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "candidates": {
+        "no_amr": "IBM Corporation introduced a new server. The company IBM Corporation. The main topic of the cluster is IBM Corporation. IBM Corporation is associated with something. IBM Corporation.",
+        "amr_guided": "A server was launched by IBM Corporation. IBM Corporation. The cluster topic concerns IBM Corporation. Something is related to IBM Corporation. IBM Corporation."
+      }
+    },
+    {
+      "source_index": 1,
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "candidates": {
+        "no_amr": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+        "amr_guided": "Make the report transparent. The organization earned something. At some time, Prasar Bharti earned something. The organization earned something. Only something was earned by Prasar Bharti."
+      }
+    },
+    {
+      "source_index": 2,
+      "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+      "candidates": {
+        "no_amr": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+        "amr_guided": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand."
+      }
+    },
+    {
+      "source_index": 3,
+      "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "candidates": {
+        "no_amr": "Middletown Township Public Library appointed Kim Rinaldi to a position. The library appointed Kim Rinaldi as its director. The appointment of Kim Rinaldi by the library was made by the Township of Middletown. The appointment of Kim Rinaldi by the library was made by the Township of Middletown. The library appointed Kim Rinaldi to a role.",
+        "amr_guided": "Middletown Township Public Library made Kim Rinaldi its director. The library made Kim Rinaldi its director. The Township of Middletown made the library appoint Kim Rinaldi. The Township of Middletown made the library appoint Kim Rinaldi. The library made Kim Rinaldi its director."
+      }
+    },
+    {
+      "source_index": 4,
+      "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+      "candidates": {
+        "no_amr": "The report says something. Please make your report detailed. The report mentions the World Health Organization. The report says something. The report mentions the World Health Organization.",
+        "amr_guided": "Something is stated by the report. Make your report detailed. The World Health Organization is stated by the report. Something is stated by the report. The World Health Organization is stated by the report."
+      }
+    },
+    {
+      "source_index": 5,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "candidates": {
+        "no_amr": "Terminate your service. Discontinue Allo. A business ended something. Google discontinued something in a service. Terminate your service.",
+        "amr_guided": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service."
+      }
+    },
+    {
+      "source_index": 7,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "candidates": {
+        "no_amr": "A presentation was given to Washington by someone. Give a presentation to someone. Someone gave a presentation to Washington, D.C. A presentation was given to Washington by someone. Give a presentation about Washington, D.C. to Washington.",
+        "amr_guided": "Someone made a presentation to Washington. Make a presentation to someone. Washington, D.C. received a presentation. Someone made a presentation to Washington. Make a presentation about Washington, D.C. to Washington."
+      }
+    },
+    {
+      "source_index": 8,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "candidates": {
+        "no_amr": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+        "amr_guided": "Maintain a serious conversation. The extent of New England is vast. Something departed New England for something. Something departed New England. Something departed New England for a location."
+      }
+    },
+    {
+      "source_index": 9,
+      "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "candidates": {
+        "no_amr": "A person missed something. You missed the definition of the abbreviation ICYMI. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+        "amr_guided": "A person missed something. You missed the definition of the acronym ICYMI. Please define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now."
+      }
+    },
+    {
+      "source_index": 10,
+      "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "candidates": {
+        "no_amr": "Inform the jury about the acquittal. Inform the jury about the acquittal. Inform the jury about the acquittal. Inform the jury about the acquittal of the widow regarding the nightclub. Inform the jury about the acquittal of the widow regarding the Pulse nightclub.",
+        "amr_guided": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Inform the jury of the widow's acquittal concerning the nightclub. Inform the jury of the widow's acquittal concerning the Pulse nightclub."
+      }
+    },
+    {
+      "source_index": 11,
+      "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "candidates": {
+        "no_amr": "QVC is somewhat aggressive. QVC aggressively plans something for Black Friday. Tell QVC about Black Friday. QVC's aggressive approach. QVC plans something for Black Friday.",
+        "amr_guided": "QVC's aggression is to an extent. QVC has aggressive plans for Black Friday. Inform QVC about Black Friday. QVC's aggressive plan. QVC is planning for Black Friday."
+      }
+    },
+    {
+      "source_index": 12,
+      "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+      "candidates": {
+        "no_amr": "Malala Yousafzai excels in academics. She describes something. Malala Yousafzai is brilliant. She describes something in 2024. Someone describes Malala Yousafzai to a community.",
+        "amr_guided": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community."
+      }
+    },
+    {
+      "source_index": 14,
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "candidates": {
+        "no_amr": "Someone holds WebMD Health Corp. for a reason. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+        "amr_guided": "WebMD Health Corp. is held by someone for a purpose. It is important for something. The holding occurred in 2015. Its importance for something is noted. And it is important for another thing."
+      }
+    },
+    {
+      "source_index": 15,
+      "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "candidates": {
+        "no_amr": "The conference had something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference hosted an event called SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+        "amr_guided": "The conference held something. An attendee was shown a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024."
+      }
+    },
+    {
+      "source_index": 16,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "candidates": {
+        "no_amr": "BlackRock Inc. functions globally. Define what BlackRock Inc. is. Provide a definition for BlackRock Inc. It conducts operations globally. BlackRock Inc. is a company.",
+        "amr_guided": "BlackRock Inc. operates worldwide. Define BlackRock Inc. as an entity. Offer a definition for BlackRock Inc. It runs operations internationally. BlackRock Inc. is something about itself."
+      }
+    },
+    {
+      "source_index": 17,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "candidates": {
+        "no_amr": "In 2023, the home was sold to New York. New York was sold that same year. The home bought New York. New York was sold in 2023. New York purchased the home in 2023.",
+        "amr_guided": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023."
+      }
+    },
+    {
+      "source_index": 18,
+      "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "candidates": {
+        "no_amr": "A 2-to-2 ratio is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+        "amr_guided": "A 2-to-2 ratio is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something."
+      }
+    },
+    {
+      "source_index": 19,
+      "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "candidates": {
+        "no_amr": "Jeff Deardorff has reached a place. Jeff Deardorff got to a location. Picture a day arriving. Jeff Deardorff showed up at a spot. Jeff Deardorff came to a place.",
+        "amr_guided": "Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location."
+      }
+    },
+    {
+      "source_index": 21,
+      "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "candidates": {
+        "no_amr": "The UAE has recently ordered two military helicopters from an entity. It ordered two military helicopters. It ordered two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+        "amr_guided": "Two military helicopters were ordered for the UAE. Two military helicopters were ordered. Two military helicopters were ordered. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity."
+      }
+    },
+    {
+      "source_index": 22,
+      "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "candidates": {
+        "no_amr": "The topic of Barack Obama is something. In Washington, ask a lawmaker about the topic of Barack Obama. Ask a lawmaker about the advice Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+        "amr_guided": "Something is the topic about Barack Obama. Ask a lawmaker in Washington about the topic of Barack Obama. Ask a lawmaker about the advice that Barack Obama gave concerning Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama."
+      }
+    },
+    {
+      "source_index": 24,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "candidates": {
+        "no_amr": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+        "amr_guided": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new."
+      }
+    },
+    {
+      "source_index": 25,
+      "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+      "candidates": {
+        "no_amr": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+        "amr_guided": "A nine-run lead was built by Council Bluffs Marshalltown. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great."
+      }
+    },
+    {
+      "source_index": 27,
+      "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "candidates": {
+        "no_amr": "A company received DERA funding from an entity. Provide DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. A company received DERA funding from an entity. DERA funding was given to a company recently. A company received DERA funding from an entity.",
+        "amr_guided": "An entity gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. An entity gave DERA funding to a company. DERA funding was given to a company recently. An entity gave DERA funding to a company."
+      }
+    },
+    {
+      "source_index": 28,
+      "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "candidates": {
+        "no_amr": "Echo came out in 2008. Someone cast something in Echo. A role was cast in the horror movie. A role was cast in \"Echo\" (2008). A role was cast in the horror movie \"Echo\".",
+        "amr_guided": "The release of Echo occurred in 2008. Someone cast something in Echo. A horror movie had a role cast. \"Echo\" (2008) had a role cast. The horror movie \"Echo\" had a role cast."
+      }
+    },
+    {
+      "source_index": 29,
+      "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "candidates": {
+        "no_amr": "Travis Scott yelled at a place. In 2018, Travis Scott yelled. Travis Scott yelled something. In 2018, Travis Scott yelled something. A person yelled something.",
+        "amr_guided": "Travis Scott shouted at a location. He shouted in 2018. He shouted something. He shouted something in 2018. A person shouted something."
+      }
+    },
+    {
+      "source_index": 30,
+      "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+      "candidates": {
+        "no_amr": "Explain the meaning of graciousness. Describe graciousness as a quality of a nation. A country defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a place.",
+        "amr_guided": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location."
+      }
+    },
+    {
+      "source_index": 31,
+      "source": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+      "candidates": {
+        "no_amr": "Bus Bob Krause passed away. Someone was informed about Bus Bob Krause's death. The death of Bus Bob Krause was recently reported to someone. Bus Bob Krause's death was recently reported to someone. Do something good.",
+        "amr_guided": "The death of Bus Bob Krause was reported to someone recently. Someone reported Bus Bob Krause's death recently. The reporting of Bus Bob Krause's death occurred recently to someone. The recent report of Bus Bob Krause's death was made to someone. Do something good."
+      }
+    },
+    {
+      "source_index": 32,
+      "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+      "candidates": {
+        "no_amr": "Robert E. Gates. Flip passed away. A person passed away. Flip passed away, leaving Cindy Thompson. Cindy Thompson passed away.",
+        "amr_guided": "Robert E. Gates. The passing of Flip occurred. Someone passed away. Flip's death left Cindy Thompson. The passing of Cindy Thompson happened."
+      }
+    },
+    {
+      "source_index": 33,
+      "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+      "candidates": {
+        "no_amr": "Tell a story about something to Alice. Tell a story about a city. Alice, whose age is unknown, is a person. Tell a story about a city. Tell a story about New York City to Alice.",
+        "amr_guided": "Tell Alice a story about something. Tell a person a story about a city. Alice is a person of unknown age. Tell a person a story about a city. Tell Alice a story about New York City."
+      }
+    },
+    {
+      "source_index": 34,
+      "source": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. Throw a pass.",
+      "candidates": {
+        "no_amr": "Josh Rosen is hot. Josh Rosen threw something. In 2015, Josh Rosen threw something. You throw something. Throw a pass.",
+        "amr_guided": "Josh Rosen is hot. Something was thrown by Josh Rosen. Josh Rosen's throw happened in 2015. Something is thrown by you. A pass is thrown."
+      }
+    },
+    {
+      "source_index": 35,
+      "source": "The New England Patriots. The New England Patriots played in 2019. The topic about the New England Patriots. Fans discuss the game outcome. Fans discuss the outcome.",
+      "candidates": {
+        "no_amr": "The New England Patriots. They played in 2019. The topic is the New England Patriots. Fans talk about the game's result. Fans discuss the outcome.",
+        "amr_guided": "The New England Patriots. The New England Patriots played in 2019. The topic about the New England Patriots. Fans discuss the game outcome. Fans discuss the outcome."
+      }
+    },
+    {
+      "source_index": 36,
+      "source": "Lynn teaches two employees. Teach two employees. Lynn Blake did not teach two hospital employees. Lynn Blake taught two hospital employees CPR. Lynn Blake.",
+      "candidates": {
+        "no_amr": "Lynn teaches two employees. She teaches two employees. Lynn Blake did not teach two hospital employees. Lynn Blake taught two hospital employees CPR. That is Lynn Blake.",
+        "amr_guided": "Two employees are taught by Lynn. Teach two employees. Two hospital employees were not taught by Lynn Blake. Two hospital employees were taught CPR by Lynn Blake. Lynn Blake."
+      }
+    },
+    {
+      "source_index": 37,
+      "source": "The Sports Academy's Mamba Mentality. Sports Academy defines the Mamba Mentality. Define the Mamba Mentality. Define the Mamba Mentality. Sports Academy defined the Mamba Mentality as something recently.",
+      "candidates": {
+        "no_amr": "The Sports Academy's Mamba Mentality. Sports Academy defines the Mamba Mentality. Define the Mamba Mentality. Define the Mamba Mentality. Sports Academy defined the Mamba Mentality as something recently.",
+        "amr_guided": "The Sports Academy's Mamba Mentality. The Mamba Mentality is defined by the Sports Academy. You must define the Mamba Mentality. You must define the Mamba Mentality. The Sports Academy recently defined the Mamba Mentality as something."
+      }
+    },
+    {
+      "source_index": 39,
+      "source": "Tell a user something about the mood of paranoia in Westminster to a politician. The mood of paranoia pervades Westminster. Tell a politician about the mood of paranoia in Westminster. The mood of paranoia pervades Westminster. The mood of paranoia pervades Westminster.",
+      "candidates": {
+        "no_amr": "Inform a politician about the pervasive mood of paranoia in Westminster. The atmosphere of suspicion dominates Westminster. Describe to a politician the paranoid climate in Westminster. Paranoia is widespread in Westminster. A sense of distrust fills Westminster.",
+        "amr_guided": "Tell a politician about the mood of paranoia that pervades Westminster. The paranoid atmosphere dominates Westminster. Inform a politician of the widespread paranoia in Westminster. Paranoia is pervasive throughout Westminster. The mood of paranoia engulfs Westminster."
+      }
+    },
+    {
+      "source_index": 40,
+      "source": "Virtuoso Luxe Report surveyed something. Survey your advisor about the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report was surveyed. Virtuoso Luxe Report. An advisor surveyed Virtuoso Luxe Report about a topic.",
+      "candidates": {
+        "no_amr": "The Virtuoso Luxe Report surveyed something. Ask your advisor about the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report was surveyed. Virtuoso Luxe Report. An advisor surveyed the Virtuoso Luxe Report about a topic.",
+        "amr_guided": "Something was surveyed by Virtuoso Luxe Report. Survey your advisor regarding the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report received a survey. Virtuoso Luxe Report. A topic was surveyed by an advisor about the Virtuoso Luxe Report."
+      }
+    },
+    {
+      "source_index": 41,
+      "source": "The General Government Structural Balance as a percentage of potential GDP for Israel in 2015 equaled negative two. Set the balance to negative. Set the structural balance of Israel to negative two. Set the structural balance to negative. Set the structural balance of Israel to negative two.",
+      "candidates": {
+        "no_amr": "In 2015, Israel's general government structural balance as a share of potential GDP was negative two. Set the balance to negative. Set the structural balance of Israel to negative two. Set the structural balance to negative. Set the structural balance of Israel to negative two.",
+        "amr_guided": "The general government structural balance as a percentage of potential GDP for Israel in 2015 equaled negative two. Make the balance negative. Make Israel's structural balance negative two. Make the structural balance negative. Make Israel's structural balance negative two."
+      }
+    },
+    {
+      "source_index": 42,
+      "source": "Ann Iungerich was not defined. Ann Iungerich was not defined. Ann Iungerich shared lessons learned. Someone taught Ann Iungerich a lesson. Ann Iungerich shared a lesson in 2024.",
+      "candidates": {
+        "no_amr": "Ann Iungerich was not defined. Ann Iungerich was not defined. Ann Iungerich shared lessons learned. Someone taught Ann Iungerich a lesson. Ann Iungerich shared a lesson in 2024.",
+        "amr_guided": "No definition existed for Ann Iungerich. No definition existed for Ann Iungerich. Ann Iungerich imparted lessons that were learned. A lesson was taught to Ann Iungerich by someone. In 2024, Ann Iungerich imparted a lesson."
+      }
+    },
+    {
+      "source_index": 43,
+      "source": "Tell a story about a woman dying in childbirth at New York Presbyterian Hospital. The death of a woman at New York Presbyterian Hospital is a tragedy. New York Presbyterian Hospital suffered a tragedy. A tragedy occurred at New York Presbyterian Hospital. A New York Presbyterian tragedy.",
+      "candidates": {
+        "no_amr": "Tell a story about a woman dying during childbirth at New York Presbyterian Hospital. The death of a woman at New York Presbyterian Hospital is a tragedy. New York Presbyterian Hospital suffered a tragedy. A tragedy occurred at New York Presbyterian Hospital. A New York Presbyterian tragedy.",
+        "amr_guided": "Tell a story about a woman's death in childbirth at New York Presbyterian Hospital. The woman's death at New York Presbyterian Hospital is a tragedy. New York Presbyterian Hospital experienced a tragedy. A tragedy happened at New York Presbyterian Hospital. A tragedy at New York Presbyterian."
+      }
+    },
+    {
+      "source_index": 44,
+      "source": "MOVE Systems redesigned something. MOVE Systems redesigned something for a future. MOVE Systems redesigned something. MOVE Systems is a company named MOVE Systems. MOVE Systems is a company.",
+      "candidates": {
+        "no_amr": "MOVE Systems reworked a design. MOVE Systems reworked a design for a future. MOVE Systems reworked a design. MOVE Systems is a firm named MOVE Systems. MOVE Systems is a firm.",
+        "amr_guided": "A redesign was done by MOVE Systems. A redesign for a future was done by MOVE Systems. A redesign was done by MOVE Systems. MOVE Systems is a company called MOVE Systems. MOVE Systems is a company."
+      }
+    },
+    {
+      "source_index": 46,
+      "source": "The defense overcame the Carolina Panthers. The defense overcame something. The defense overcame the Carolina Panthers. The defense overcame the Carolina Panthers. The defense overcame the Carolina Panthers.",
+      "candidates": {
+        "no_amr": "The defense got the better of the Carolina Panthers. The defense managed to overcome a challenge. The defense triumphed over the Carolina Panthers. The defense prevailed against the Carolina Panthers. The defense defeated the Carolina Panthers.",
+        "amr_guided": "The defense overcame the Carolina Panthers. The defense overcame an obstacle. The defense bested the Carolina Panthers. The defense overcame the Carolina Panthers. The defense overcame the Carolina Panthers."
+      }
+    },
+    {
+      "source_index": 47,
+      "source": "Ask a teacher about the history of France. Ask a teacher about the history of France. A teacher's France history. The history of France is important to a teacher. Ask a teacher about the history of France for something.",
+      "candidates": {
+        "no_amr": "Consult a teacher regarding French history. Inquire with a teacher about France's past. A teacher's knowledge of France's history. French history holds importance for a teacher. Ask a teacher about French history for a reason.",
+        "amr_guided": "Ask a teacher about the history of France. Request a teacher for France's history. A teacher's France history. The history of France is important to a teacher. Ask a teacher about the history of France for something."
+      }
+    },
+    {
+      "source_index": 48,
+      "source": "SpaceX Dragon. SpaceX Dragon. SpaceX Dragon. Make the rocket used. SpaceX Dragon launched a used supply ship to something.",
+      "candidates": {
+        "no_amr": "SpaceX Dragon. SpaceX Dragon. SpaceX Dragon. Make the rocket used. SpaceX Dragon launched a used supply ship to something.",
+        "amr_guided": "SpaceX Dragon. SpaceX Dragon. SpaceX Dragon. Have the rocket be used. SpaceX Dragon sent a used supply ship to a destination."
+      }
+    },
+    {
+      "source_index": 49,
+      "source": "Nike Inc tell the profit from sales of sports clothes. Nike Inc reported a profit. Nike Inc is a company. Nike Inc reported something in a location. Nike Inc reported a profit in a location.",
+      "candidates": {
+        "no_amr": "Nike Inc announced the profit from sales of sports apparel. The company reported a profit. Nike Inc is a corporation. Nike Inc made an announcement at a specific location. Nike Inc disclosed a profit at that location.",
+        "amr_guided": "Nike Inc reported the profit from sales of sports clothes. Nike Inc disclosed a profit. Nike Inc is a company. Nike Inc reported something at a location. Nike Inc reported a profit at a location."
+      }
+    },
+    {
+      "source_index": 50,
+      "source": "Check the windows for damage. Check the windows for damage. Check the windows for damage about the Berlin to Saarbrücken train. The train was damaged by something. The ICE was damaged in 2023.",
+      "candidates": {
+        "no_amr": "Inspect the windows for damage. Check the windows for damage. Examine the windows for damage on the Berlin to Saarbrücken train. The train was damaged by something. The ICE was damaged in 2023.",
+        "amr_guided": "Check the windows for damage. Check the windows for damage. Check the windows for damage on the Berlin to Saarbrücken train. Something damaged the train. 2023 saw the ICE damaged."
+      }
+    },
+    {
+      "source_index": 51,
+      "source": "The amount topic is about the N8. The N8 amount defines something. The amount of something is defined as the N8 part. Define the amount as the part. The amount is defined as the part.",
+      "candidates": {
+        "no_amr": "The topic concerns the N8. The N8 amount defines something. The amount of something is defined as the N8 part. Define the amount as the part. The amount is defined as the part.",
+        "amr_guided": "The N8 topic concerns an amount. This amount defines something. The amount is defined as the N8 part. Define the amount as that part. The amount is defined as the part."
+      }
+    },
+    {
+      "source_index": 52,
+      "source": "Follow the water. Follow the liquid water. Follow the water to the liquid Earth's moon. Follow the liquid water to the Earth's moon. Liquid water on Earth's moon is wet to a certain extent.",
+      "candidates": {
+        "no_amr": "Follow the water. Follow the liquid water. Follow the water to the Earth's liquid moon. Follow the liquid water to the Earth's moon. The liquid water on Earth's moon is somewhat wet.",
+        "amr_guided": "Follow the water. Follow the liquid water. Follow the water to the liquid Earth's moon. Follow the liquid water to the Earth's moon. Liquid water on Earth's moon is wet to a certain extent."
+      }
+    },
+    {
+      "source_index": 54,
+      "source": "Patty Jenkins revealed details about the sequel at an event. Patty Jenkins revealed details about something. Details about Patty Jenkins. Patty Jenkins revealed details about something. Patty Jenkins revealed details about something.",
+      "candidates": {
+        "no_amr": "Patty Jenkins disclosed information about the sequel at an event. Patty Jenkins disclosed information about something. Information about Patty Jenkins. Patty Jenkins disclosed information about something. Patty Jenkins disclosed information about something.",
+        "amr_guided": "At an event, Patty Jenkins revealed details about the sequel. Patty Jenkins revealed details about something. Details about Patty Jenkins. Patty Jenkins revealed details about something. Patty Jenkins revealed details about something."
+      }
+    },
+    {
+      "source_index": 55,
+      "source": "The data layer shows Maharashtra. Something defines Maharashtra as a state. Maharashtra defines a state. Maharashtra was defined as a state in 2009. Define the state as something.",
+      "candidates": {
+        "no_amr": "The data layer shows Maharashtra. Maharashtra is defined as a state. Maharashtra defines a state. In 2009, Maharashtra was defined as a state. Define the state as something.",
+        "amr_guided": "The data layer shows Maharashtra. Maharashtra is defined as a state. Maharashtra defines a state. Maharashtra was defined as a state in 2009. Define the state as something."
+      }
+    },
+    {
+      "source_index": 56,
+      "source": "Show Mattel a future for the brand \"Mattel\" to the company. The brand Mattel future. Mattel brand future. The future of the Mattel brand was shown to the company. Show Mattel a future for the brand \"Mattel\" to the company.",
+      "candidates": {
+        "no_amr": "Show the company the future of the Mattel brand. The future of the Mattel brand was presented to the company.",
+        "amr_guided": "Present the Mattel brand's future to the company. The company saw the future of the Mattel brand."
+      }
+    },
+    {
+      "source_index": 57,
+      "source": "A character explores a concept. Harry Connolly is interested in a concept. Explore a concept. Harry Connolly explores a concept. Explore the concept of Harry Connolly with a named entity.",
+      "candidates": {
+        "no_amr": "A character studies an idea. Harry Connolly is fascinated by an idea. Study an idea. Harry Connolly studies an idea. Study the idea of Harry Connolly with a named entity.",
+        "amr_guided": "A character explores a concept. Harry Connolly is interested in a concept. Explore a concept. Harry Connolly explores a concept. Explore the concept of Harry Connolly with a named entity."
+      }
+    }
+  ]
+}

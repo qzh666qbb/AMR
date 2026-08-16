@@ -1,0 +1,734 @@
+[
+  {
+    "index": 3,
+    "candidate": 0,
+    "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "attack": "The appointment of Kim Rinaldi to the position of director was made by the Middletown Township Public Library, which itself had been designated as the appointee for that same appointment by the Township of Middletown; this action resulted in Kim Rinaldi being named to a role by the library.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The ATTACK preserves the core events and entities: Kim Rinaldi appointed as director by the library, with the library appointed by the Township. Minor redundancy and phrasing differences do not change meaning."
+    }
+  },
+  {
+    "index": 6,
+    "candidate": 2,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "That I was given something came as a surprise. My being assigned the arts and culture position was something that surprised me. A surprise, in the form of something, was what the assignment of the arts and culture position gave me. The arts and culture position assignment caused my surprise. An idea was what the arts and culture position assignment surprised me with.",
+    "z_score": -1.2909944487358056,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The core meaning of surprise about the arts and culture position assignment is preserved, but the ATTACK text introduces minor ambiguity with 'something' and rephrases without adding or changing key entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 8,
+    "candidate": 1,
+    "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+    "attack": "Maintaining a serious tone is essential, given the extensive size of New England, from which something departed for a location, something else left New England, and another entity also exited New England toward a destination.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The core meaning of seriousness, New England's vastness, and multiple departures is preserved, but ATTACK adds slight specificity ('from which', 'another entity') not in SOURCE."
+    }
+  },
+  {
+    "index": 10,
+    "candidate": 2,
+    "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "attack": "The jury must be informed of the acquittal concerning the widow and the Pulse nightclub; repeatedly, the acquittal itself is what the jury needs to be told about the widow in relation to that nightclub.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK conveys the same core meaning: informing the jury of the widow's acquittal regarding the Pulse nightclub, with repetition emphasized. No entities, numbers, polarity, events, or relations are changed."
+    }
+  },
+  {
+    "index": 11,
+    "candidate": 0,
+    "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+    "attack": "QVC's aggressiveness is evident in its planning for Black Friday, and it is being told something about the event; the company's aggressive approach underlies its Black Friday plans.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The attack preserves all entities, events, polarity, and relations from the source, only rephrasing without altering meaning."
+    }
+  },
+  {
+    "index": 12,
+    "candidate": 0,
+    "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+    "attack": "It was in 2024 that Malala Yousafzai, an academic standout, provided a description of something, while also being the subject of a description given to a community by an unspecified individual; the brilliance of Malala Yousafzai is affirmed.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, numbers, polarity, events, and relations from SOURCE are preserved in ATTACK without change."
+    }
+  },
+  {
+    "index": 13,
+    "candidate": 0,
+    "source": "Occasional diarrhea affects someone. Someone experiences Occasional Diarrhea as a condition. Occasional diarrhea is a condition. Tell the doctor about your occasional diarrhea condition to the specialist. Tell the specialist about your occasional diarrhea condition.",
+    "attack": "The condition of occasional diarrhea is experienced by an individual, and this person is affected by it as a medical issue. It is necessary for that individual to inform a specialist, specifically the doctor, regarding the presence of this occasional diarrhea condition.",
+    "z_score": -0.8164965809277261,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK text preserves all entities, events, polarity, and relations from SOURCE without introducing errors or omissions."
+    }
+  },
+  {
+    "index": 14,
+    "candidate": 0,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "Held by an unspecified party in 2015, WebMD Health Corp. is considered significant for multiple distinct reasons, though the specific purposes for which it was held and its importance are not identified.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The attack preserves the core facts: WebMD Health Corp. was held in 2015 by an unspecified party, and it is important for multiple reasons. The minor omission is that the source repeats 'important for something' four times, while the attack generalizes to 'multiple distinct reasons' without specifying the count, but no entities, numbers, polarity, events, or relations are changed."
+    }
+  },
+  {
+    "index": 15,
+    "candidate": 0,
+    "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+    "attack": "At the conference, a session about SocialDevCamp Chicago was shown to an attendee; this conference hosted an event called SocialDevCamp Chicago, which itself took place in 2024—a year in which SocialDevCamp Chicago also held an event.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, events, numbers, polarity, and relations are preserved; only stylistic changes made."
+    }
+  },
+  {
+    "index": 18,
+    "candidate": 1,
+    "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+    "attack": "A concept is established whereby a 2-to-2 ratio of something is defined; simultaneously, the notion of NASCAR is specified as something, with that same specification of NASCAR as something occurring at a particular time. A definition of a concept as something is provided, and the concept of NASCAR is further defined as something.",
+    "z_score": -0.8164965809277261,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK rephrases the SOURCE with added stylistic flourishes but preserves all entities, numbers, polarity, events, and relations exactly."
+    }
+  },
+  {
+    "index": 19,
+    "candidate": 0,
+    "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+    "attack": "The arrival of Jeff Deardorff at a specific place has occurred; additionally, Jeff Deardorff reached that same location. One might conceive of a day's beginning. Furthermore, Jeff Deardorff completed his arrival at the location, and Jeff Deardorff also showed up at that place.",
+    "z_score": -1.0,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK text preserves all entities, events, and relations from SOURCE, with no changes to numbers, polarity, or factual content."
+    }
+  },
+  {
+    "index": 20,
+    "candidate": 0,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "The new deputy area commander for Aylesbury has rendered himself accessible. Despite his appointment, accessibility was established by this official. Aylesbury’s deputy area commander, who is newly appointed, achieved personal approachability. One resident of Aylesbury was the recipient of this approachable demeanor from the deputy area commander.",
+    "z_score": -1.1547005383792517,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "Meaning largely preserved; minor stylistic changes and reordering, but no entities, numbers, polarity, events, or relations altered."
+    }
+  },
+  {
+    "index": 21,
+    "candidate": 0,
+    "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+    "attack": "A recent acquisition involves the UAE's procurement of two military helicopters from a specific entity, with that same transaction—ordering two military helicopters—being reiterated across multiple statements.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK accurately reflects the same entities, numbers, events, and relations as the SOURCE, with no changes in meaning."
+    }
+  },
+  {
+    "index": 22,
+    "candidate": 0,
+    "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+    "attack": "Asking a lawmaker in Washington about Barack Obama yields something; the topic itself is something. Inquiring of a lawmaker there about the advice that Obama offered produces a response. A lawmaker can be questioned regarding Obama. The query is about Obama.",
+    "z_score": 0.0,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The attack preserves all entities, numbers, polarity, events, and relations from the source, with only minor stylistic rephrasing."
+    }
+  },
+  {
+    "index": 23,
+    "candidate": 0,
+    "source": "Asus's plan for the laptop's display drivers is something. Asus plans something at a location. Asus updates the laptop's display drivers at a location. Asus plans to update the display drivers. Asus's plan for the laptop's display drivers is something.",
+    "attack": "The existence of a plan by Asus for updating the laptop’s display drivers—which involves a specific location where this update is to occur—constitutes something; furthermore, this planned action is characterized as Asus updating those drivers at that location, and the nature of that plan itself is defined as something.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK text restates all original facts without altering entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 25,
+    "candidate": 0,
+    "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+    "attack": "Council Bluffs Marshalltown constructed a nine-run advantage, which secured a victory for the team versus Council Bluffs; another win was thereby achieved for the squad. This triumph was assembled in opposition to Council Bluffs, and Council Bluffs is considered extremely excellent.",
+    "z_score": -0.8164965809277261,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The meaning is fully preserved with synonymous substitutions (e.g., 'constructed' for 'built', 'advantage' for 'lead', 'triumph' for 'win') and no changes to entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 26,
+    "candidate": 0,
+    "source": "The nice lots define something now. Define the topic of the nice lots to Builder. Builder defines the topic of the nice lots. Define the nice lots. Builder defines the nice lots.",
+    "attack": "The topic of the nice lots is currently being defined by them, and it must be defined for Builder, who also defines that same topic, while the nice lots themselves are defined, and Builder additionally defines these nice lots.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK preserves all entities, numbers, polarity, events, and relations from the SOURCE, only rephrasing with passive voice and additional words without changing meaning."
+    }
+  },
+  {
+    "index": 27,
+    "candidate": 0,
+    "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+    "attack": "A company recently received DERA funding from an unidentified source, which was allocated to support the reauthorization of the program at the U.S. Environmental Protection Agency, and this same entity was also the recipient of DERA funding on multiple occasions.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The ATTACK preserves the core meaning: DERA funding was given to a company recently for program reauthorization at EPA. Minor rephrasing and aggregation of repeated statements do not change entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 28,
+    "candidate": 0,
+    "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+    "attack": "The casting of a role in the 2008 horror film \"Echo\" occurred when someone cast something in it, with that role being placed into the movie upon its release that same year.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All key entities, numbers, polarity, events, and relations are preserved; the attack rephrases without altering meaning."
+    }
+  },
+  {
+    "index": 30,
+    "candidate": 0,
+    "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+    "attack": "Mr Lim Siong Guan, at a specific location, provides a definition of graciousness, which is to be understood as an attribute of a nation; a nation itself also defines what graciousness means.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK preserves all key entities, relations, and meaning from SOURCE, with only minor rephrasing and no changes to events, polarity, or numbers."
+    }
+  },
+  {
+    "index": 33,
+    "candidate": 0,
+    "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+    "attack": "A story about something should be told to Alice by a person, and that same person is also required to tell her a story regarding a city. Alice, being a person of some unspecified age, is the recipient. Additionally, a person must tell Alice a story concerning a city, and furthermore, a story about New York City specifically must be narrated to her by a person.",
+    "z_score": -1.0,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK rephrases the SOURCE without changing entities, numbers, polarity, events, or relations. All instructions and constraints are preserved."
+    }
+  },
+  {
+    "index": 35,
+    "candidate": 0,
+    "source": "The New England Patriots. The New England Patriots played in 2019. The topic about the New England Patriots. Fans discuss the game outcome. Fans discuss the outcome.",
+    "attack": "The 2019 season involved the New England Patriots, and it was the New England Patriots who played that year; discussions among fans regarding the outcome of the game have occurred, specifically concerning that same outcome.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The attack preserves all entities, numbers, polarity, events, and relations from the source without any changes."
+    }
+  },
+  {
+    "index": 37,
+    "candidate": 2,
+    "source": "The Sports Academy's Mamba Mentality. Sports Academy defines the Mamba Mentality. Define the Mamba Mentality. Define the Mamba Mentality. Sports Academy defined the Mamba Mentality as something recently.",
+    "attack": "The Mamba Mentality, as recently defined by Sports Academy, is what Sports Academy calls the Mamba Mentality; this definition, which Sports Academy has provided, constitutes the Mamba Mentality's meaning.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK restates the same information as SOURCE without changing entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 38,
+    "candidate": 1,
+    "source": "The longest edition of Football Weekly has something. The longest edition of Football Weekly gave something to one Football Weekly. Tell the listener something about Football Weekly Max. Tell the listener something about Football Weekly Max. Tell the listener something about Football Weekly Max.",
+    "attack": "A particular quality belongs to the longest Football Weekly installment, and that same installment provided one Football Weekly with a gift. Regarding Football Weekly Max, three separate pieces of information must be conveyed to the listener.",
+    "z_score": -0.8164965809277261,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The core entities, events, and numbers are preserved. The attack rephrases 'edition' as 'installment' and 'gave something' as 'provided a gift', and changes the triple repetition of 'tell the listener something' into 'three separate pieces of information', which is semantically equivalent. No entities, numbers, polarity, events, or relations are altered."
+    }
+  },
+  {
+    "index": 39,
+    "candidate": 0,
+    "source": "Tell a user something about the mood of paranoia in Westminster to a politician. The mood of paranoia pervades Westminster. Tell a politician about the mood of paranoia in Westminster. The mood of paranoia pervades Westminster. The mood of paranoia pervades Westminster.",
+    "attack": "A politician should be informed that a pervasive mood of paranoia currently characterizes Westminster, with this same atmosphere of suspicion being reported to them as an ongoing condition throughout the political establishment.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK fully preserves the meaning, entities, polarity, events, and relations of the SOURCE, only rephrasing without altering any key information."
+    }
+  },
+  {
+    "index": 41,
+    "candidate": 2,
+    "source": "The General Government Structural Balance as a percentage of potential GDP for Israel in 2015 equaled negative two. Set the balance to negative. Set the structural balance of Israel to negative two. Set the structural balance to negative. Set the structural balance of Israel to negative two.",
+    "attack": "For Israel in 2015, the general government structural balance, expressed as a percentage of potential GDP, was negative two. That balance must be set to negative; Israel’s structural balance is to be set at negative two, and the structural balance itself is to be negative, with Israel’s structural balance again set to negative two.",
+    "z_score": -0.8164965809277261,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK repeats the same numerical and logical information as the SOURCE without altering entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 42,
+    "candidate": 0,
+    "source": "Ann Iungerich was not defined. Ann Iungerich was not defined. Ann Iungerich shared lessons learned. Someone taught Ann Iungerich a lesson. Ann Iungerich shared a lesson in 2024.",
+    "attack": "In 2024, a lesson that had been taught to Ann Iungerich was shared by her, yet she was never defined; additionally, the fact that Ann Iungerich was not defined remained true, and a separate instance of her sharing lessons learned also occurred.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, events, and relations from SOURCE are preserved; the ATTACK rephrases without changing meaning or introducing errors."
+    }
+  },
+  {
+    "index": 43,
+    "candidate": 0,
+    "source": "Tell a story about a woman dying in childbirth at New York Presbyterian Hospital. The death of a woman at New York Presbyterian Hospital is a tragedy. New York Presbyterian Hospital suffered a tragedy. A tragedy occurred at New York Presbyterian Hospital. A New York Presbyterian tragedy.",
+    "attack": "A tragedy unfolded at New York Presbyterian Hospital when a woman died during childbirth, marking an event that the institution itself endured—the loss of a life there is described as a tragedy, and that same tragedy, centered on New York Presbyterian, is what this story recounts.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK preserves all key entities, events, and polarity; it only rephrases and elaborates without changing meaning."
+    }
+  },
+  {
+    "index": 44,
+    "candidate": 0,
+    "source": "MOVE Systems redesigned something. MOVE Systems redesigned something for a future. MOVE Systems redesigned something. MOVE Systems is a company named MOVE Systems. MOVE Systems is a company.",
+    "attack": "For a future, a redesign of something was undertaken by the company MOVE Systems, which is named MOVE Systems, and that same company also redesigned something, with the company itself being MOVE Systems.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK preserves all entities, events, and relations from SOURCE without altering meaning, only rephrasing redundancies."
+    }
+  },
+  {
+    "index": 45,
+    "candidate": 2,
+    "source": "President Trump's decision to freeze federal employee pay and cut retirement programs met with great consternation from something. The topic of Donald Trump's decision met with great consternation. Ask Donald Trump about the decision. Someone asked Donald Trump about a decision. Ask Donald Trump about the decision.",
+    "attack": "A query directed at Donald Trump regarding his choice to halt increases in federal worker compensation and reduce pension benefits—a move that elicited significant dismay from certain quarters—was posed to him. That same action by President Trump became the subject of considerable unease. Someone specifically inquired of Donald Trump about that very decision.",
+    "z_score": -1.0,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK preserves all key entities, events, polarity, and relations from SOURCE, with only stylistic rephrasing and no factual changes."
+    }
+  },
+  {
+    "index": 46,
+    "candidate": 0,
+    "source": "The defense overcame the Carolina Panthers. The defense overcame something. The defense overcame the Carolina Panthers. The defense overcame the Carolina Panthers. The defense overcame the Carolina Panthers.",
+    "attack": "A victory over the Carolina Panthers was achieved by the defense, which also managed to prevail against that same opponent repeatedly—specifically, the defense's success over the Carolina Panthers occurred multiple times, as the defense overcame the Carolina Panthers on more than one occasion.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK restates the same event (defense overcoming Panthers) with added emphasis on repetition, but does not change entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 47,
+    "candidate": 2,
+    "source": "Ask a teacher about the history of France. Ask a teacher about the history of France. A teacher's France history. The history of France is important to a teacher. Ask a teacher about the history of France for something.",
+    "attack": "A teacher might be consulted regarding the history of France; that same educator could be asked about France's history once more. The historical narrative of France as known to a teacher holds significance for them. One should inquire of a teacher concerning the history of France for some particular purpose.",
+    "z_score": -1.0,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK rephrases the SOURCE with varied expressions but preserves all entities, numbers, polarity, events, and relations without altering meaning."
+    }
+  },
+  {
+    "index": 49,
+    "candidate": 0,
+    "source": "Nike Inc tell the profit from sales of sports clothes. Nike Inc reported a profit. Nike Inc is a company. Nike Inc reported something in a location. Nike Inc reported a profit in a location.",
+    "attack": "Nike Inc., as a company, disclosed during a financial report delivered at a specific location that it had generated a profit, which was attributed to the revenue from sales of sports apparel; this profit announcement was made by Nike Inc. at that same location.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The attack adds descriptive detail but preserves all entities, numbers, polarity, events, and relations from the source."
+    }
+  },
+  {
+    "index": 50,
+    "candidate": 0,
+    "source": "Check the windows for damage. Check the windows for damage. Check the windows for damage about the Berlin to Saarbrücken train. The train was damaged by something. The ICE was damaged in 2023.",
+    "attack": "The windows of the ICE train traveling from Berlin to Saarbrücken should be examined for damage, as the train was affected by an unspecified cause in 2023, and a repeated assessment of the windows is required.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The meaning is largely preserved, but ATTACK adds 'repeated assessment' and 'should be examined' which slightly expands the original instruction without changing core entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 51,
+    "candidate": 2,
+    "source": "The amount topic is about the N8. The N8 amount defines something. The amount of something is defined as the N8 part. Define the amount as the part. The amount is defined as the part.",
+    "attack": "The N8 serves as the subject of the amount topic, with that amount being defined as the N8 component. By specifying the amount as this part, the definition establishes the amount as the part itself.",
+    "z_score": -0.8164965809277261,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK rephrases the SOURCE without changing entities, numbers, polarity, events, or relations; meaning is fully preserved."
+    }
+  },
+  {
+    "index": 52,
+    "candidate": 0,
+    "source": "Follow the water. Follow the liquid water. Follow the water to the liquid Earth's moon. Follow the liquid water to the Earth's moon. Liquid water on Earth's moon is wet to a certain extent.",
+    "attack": "To a certain extent, the liquid water that is found on Earth's moon is wet; one should follow that water, specifically the liquid form, and trace it to this lunar body.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The meaning is fully preserved; all entities, polarity, events, and relations remain unchanged."
+    }
+  },
+  {
+    "index": 53,
+    "candidate": 0,
+    "source": "A vehicle attack involves a three-word named entity. A vehicle attack targeted the \"Vehicle Attack\" entity. A vehicle attack targeted a three-word named entity with something. A vehicle attack targeted the \"Vehicle Attack\" entity with something. A vehicle attack targeted something with a \"Vehicle Attack\" entity.",
+    "attack": "A \"Vehicle Attack\" entity, which is a three-word named entity, was the target of a vehicle attack, and that same vehicle attack also involved that entity being targeted with something; additionally, a vehicle attack targeted a three-word named entity with something, and yet another vehicle attack targeted something with a \"Vehicle Attack\" entity.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The meaning is fully preserved; all statements are logically equivalent with no changes to entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 55,
+    "candidate": 0,
+    "source": "The data layer shows Maharashtra. Something defines Maharashtra as a state. Maharashtra defines a state. Maharashtra was defined as a state in 2009. Define the state as something.",
+    "attack": "Maharashtra is displayed by the data layer; it is a state as defined by something, and that same something also identifies Maharashtra as a state—which was itself defined as a state in 2009—so the state is to be defined as something.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The core meaning that Maharashtra is a state, defined as such by something, and defined as a state in 2009 is preserved. The attack adds minor redundancy and rephrasing but does not change entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 56,
+    "candidate": 0,
+    "source": "Show Mattel a future for the brand \"Mattel\" to the company. The brand Mattel future. Mattel brand future. The future of the Mattel brand was shown to the company. Show Mattel a future for the brand \"Mattel\" to the company.",
+    "attack": "A future for the brand \"Mattel\" was presented to the company by showing it to Mattel; the brand's future—the future of the Mattel brand—was demonstrated to the company, and Mattel was shown a future for the brand \"Mattel\" to the company.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK rephrases the SOURCE without changing entities, numbers, polarity, events, or relations; all key information is preserved."
+    }
+  },
+  {
+    "index": 59,
+    "candidate": 1,
+    "source": "Someone gave a welcome to Julian Clary. Someone gave a welcome to Julian Clary. Someone gave a welcome. Julian Clary gave a welcome in 2024. Julian Clary gave a welcome in 2024.",
+    "attack": "A welcome was extended to Julian Clary, and the same person also offered a greeting to him; additionally, a separate welcome was given. In 2024, Julian Clary himself delivered a welcome, and he also provided one during that same year.",
+    "z_score": -0.8164965809277261,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The ATTACK preserves the core events and entities, but adds redundant phrasing and slight ambiguity about 'the same person' not present in SOURCE."
+    }
+  },
+  {
+    "index": 60,
+    "candidate": 0,
+    "source": "The bill triggered protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. Tell the bill. The bill triggered protests.",
+    "attack": "Protests that were triggered by the bill in Assam were directed against the Citizenship Amendment Bill, and this same bill repeatedly sparked those protests—each instance being against the Citizenship Amendment Bill in Assam. An instruction to tell the bill was given, as the bill’s triggering of protests occurred.",
+    "z_score": -0.8164965809277261,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, events, polarity, and relations from SOURCE are preserved in ATTACK, with no contradictions or omissions."
+    }
+  },
+  {
+    "index": 61,
+    "candidate": 0,
+    "source": "The Vikings played at a location. The topic is the Vikings team. The Vikings played at a location. The Vikings played at a location. The team played something.",
+    "attack": "The Vikings' team, as the subject being discussed, was engaged in gameplay at a certain venue, with that same team having competed at a location, and additionally, the squad participated in a match at a site, while the group also performed an unspecified activity.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The attack adds redundant and verbose phrasing but preserves all original entities, events, and relations without changing any core meaning."
+    }
+  },
+  {
+    "index": 62,
+    "candidate": 1,
+    "source": "Someone gave a description to New England. A description of New England was given to something. Give a description of New England to someone. A description of New England was given to something. A description of New England was given to something.",
+    "attack": "A description of New England was provided to an unspecified recipient; an entity received that same description. The act of giving a description of New England occurred, directed at some party. That description of New England was conveyed to an unknown target, and again to another target.",
+    "z_score": -1.0,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The attack rephrases the source's repetitive statements about giving a description of New England to unspecified recipients, preserving the core meaning and events without altering entities, numbers, polarity, or relations."
+    }
+  },
+  {
+    "index": 64,
+    "candidate": 0,
+    "source": "A suspect shot a victim with a gun. A shooting of a victim with a gun occurred. A shooting of a teen victim with a weapon occurred. A shooting of a teen by a suspect with a weapon occurred recently. Shoot the victim.",
+    "attack": "A recent event involved a suspect using a firearm to shoot a teen victim; this incident was described as a shooting of a victim with a gun, a shooting of a teen victim with a weapon, and a shooting of a teen by a suspect with a weapon, and the victim was shot.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, events, and relations are preserved; the attack rephrases the source without changing meaning."
+    }
+  },
+  {
+    "index": 68,
+    "candidate": 0,
+    "source": "Drew Griffin made an attempt at something. Drew Griffin made an attempt at something. Drew Griffin attempted something. Make an attempt. Drew Griffin made an attempt.",
+    "attack": "An attempt was made by Drew Griffin, and Drew Griffin attempted something, and an attempt was made, which Drew Griffin also attempted, and yet another attempt was made by Drew Griffin.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All statements in ATTACK are semantically equivalent to SOURCE, preserving the same subject, action, and event without altering entities, numbers, polarity, or relations."
+    }
+  },
+  {
+    "index": 74,
+    "candidate": 0,
+    "source": "Check the ducks for bills. Check the ducks for bills. At Donnelly Park, the ducks' bills were checked for something at a location. At Donnelly Park, the ducks' bills were checked for something recently. Donnelly Park.",
+    "attack": "At Donnelly Park, a recent check of the ducks' bills for something occurred at a specific location, where each duck's bill was examined; this inspection, performed at Donnelly Park, involved verifying the ducks' bills for something.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK restates the same information as SOURCE without changing entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 77,
+    "candidate": 0,
+    "source": "A study was conducted at Emory University in 2023. A smartphone plays a role. Emory University shows a smartphone. A smartphone shows Emory University as something. A smartphone shows Emory University as a tool.",
+    "attack": "In 2023, Emory University hosted a study in which a smartphone functioned as an instrument, with the university itself being depicted by that smartphone as a tool.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK preserves all entities, numbers, polarity, events, and relations from the SOURCE, only rephrasing without changing meaning."
+    }
+  },
+  {
+    "index": 78,
+    "candidate": 3,
+    "source": "Show me a picture of New York City at Christmas. Show me a picture. Show me a picture. A picture about New York City. Show me a picture of New York City at Christmas.",
+    "attack": "A request is made for an image depicting New York City during Christmas, with that same request for an image being repeated multiple times, specifically for a picture that is about New York City, and again for a picture of New York City at the Christmas holiday.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK accurately paraphrases the SOURCE, preserving all entities, numbers, polarity, events, and relations without any changes."
+    }
+  },
+  {
+    "index": 79,
+    "candidate": 0,
+    "source": "Christopher Moynihan inked something. Christopher Moynihan inked something. Make the something exclusive. An exclusive topic about Christopher Moynihan. Make the topic exclusive.",
+    "attack": "A single exclusive subject concerning Christopher Moynihan was inked by him, and that same exclusive subject was inked again by him, with the instruction that the subject be rendered exclusive.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK preserves all entities, events, and relations from SOURCE, including the repeated action of inking, the exclusivity instruction, and the subject Christopher Moynihan."
+    }
+  },
+  {
+    "index": 80,
+    "candidate": 3,
+    "source": "Enjoy the North Pole Christmas celebration. You enjoy the celebration. Enjoy the celebration of the North Pole Christmas event. Enjoy the North Pole Christmas celebration. Enjoy the North Pole Christmas celebration.",
+    "attack": "The North Pole Christmas celebration should be enjoyed by you, as you are the one who enjoys it; this event, which is the North Pole Christmas celebration, is to be enjoyed, and indeed, the North Pole Christmas celebration itself is what you enjoy—so enjoy that North Pole Christmas celebration.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The attack rephrases the source without changing entities, numbers, polarity, events, or relations; all core meanings are preserved."
+    }
+  },
+  {
+    "index": 83,
+    "candidate": 0,
+    "source": "Lift the drought emergency after the winter. Lift the drought emergency. Lift the drought emergency. California lifted the drought emergency in the state. California drought emergency.",
+    "attack": "Following the winter season, the state of California has rescinded its drought emergency declaration; this emergency, which had been in effect, is now lifted, and the drought emergency status for California has been formally terminated.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK fully preserves the meaning of SOURCE, including the same entities (California, drought emergency), timing (after winter), and action (lifted/rescinded/terminated). No entities, numbers, polarity, events, or relations are changed."
+    }
+  },
+  {
+    "index": 86,
+    "candidate": 0,
+    "source": "Chicago is sad about a boy. Tell the police the name of the boy's home fire in Chicago. The fire killed the boy in Chicago. The fire killed the boy Chicago. The fire killed the boy.",
+    "attack": "A boy’s death in a Chicago fire has caused grief in the city; authorities must be informed of the name associated with his residence where the blaze occurred, which claimed his life in Chicago, with the same fire fatally claiming the boy in Chicago, and that fire being the one that killed him.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK preserves all key entities, events, and relations from SOURCE, including the boy's death in a Chicago fire, the grief/sadness, and the instruction to inform authorities of the residence name."
+    }
+  },
+  {
+    "index": 87,
+    "candidate": 0,
+    "source": "Kid the audience. Kid the audience with something about New York City. The New York City audience is being kidded. The topic is something about New York City. The New York City audience.",
+    "attack": "Kidding the audience about New York City is what takes place; that same audience in New York City is being kidded on a topic concerning New York City, and the kidding involves that New York City audience.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK fully preserves the meaning, entities, polarity, events, and relations of the SOURCE, only rephrasing without altering any key information."
+    }
+  },
+  {
+    "index": 89,
+    "candidate": 0,
+    "source": "New England is very large. Immigration reform affects New England something. Immigration reform affects New England. New England affects immigration reform. New England affects immigration reform.",
+    "attack": "A significant size characterizes New England, and immigration reform exerts an influence upon it, as does immigration reform's impact on New England; conversely, New England itself exerts an influence upon immigration reform, and New England also influences immigration reform.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK preserves all entities, numbers, polarity, events, and relations from SOURCE, rephrasing without altering meaning."
+    }
+  },
+  {
+    "index": 91,
+    "candidate": 0,
+    "source": "The National Ski and Snowboarding Championship was not held. Something canceled the Gulmarg Championship. Something canceled the championship. The Gulmarg Championship was canceled. The championship was canceled by something.",
+    "attack": "The cancellation of the Gulmarg Championship, which was also referred to as the National Ski and Snowboarding Championship, occurred due to an unspecified cause; this same unidentified factor prevented the event from taking place, resulting in the championship not being held.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK accurately restates all key information: the event was canceled, the cause is unspecified, and the championship was not held. No entities, numbers, polarity, events, or relations are changed."
+    }
+  },
+  {
+    "index": 92,
+    "candidate": 2,
+    "source": "Rahul Dravid read a book at the stadium. Rahul Dravid read a book at the stadium. Ask your friend about the topic of the book at Rahul Dravid. Ask your friend about the topic of the book. Rahul Dravid was read.",
+    "attack": "The stadium served as the location where Rahul Dravid engaged in reading a book; additionally, the topic of that book should be inquired about from your friend, specifically regarding Rahul Dravid. Furthermore, the fact that Rahul Dravid was read to is also established.",
+    "z_score": -0.8164965809277261,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The meaning is largely preserved, but the ATTACK rephrases 'Rahul Dravid read a book' as 'Rahul Dravid was read to,' which slightly changes the event from active reading to being read to, though the original also contains 'Rahul Dravid was read' as a separate statement."
+    }
+  },
+  {
+    "index": 93,
+    "candidate": 2,
+    "source": "Ask the group about the problem of Hamas image. Hamas faces an image problem. Hamas faces an image problem. Someone faces Hamas with an image problem. Ask the group about the problem.",
+    "attack": "The problem of Hamas's image ought to be raised with the group; an image problem is what Hamas confronts. That same image problem is what Hamas contends with, and it is also with an image problem that someone confronts Hamas. A question about this problem should be posed to the group.",
+    "z_score": -1.0,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK text rephrases the SOURCE content without changing entities, numbers, polarity, events, or relations. All key elements (Hamas, image problem, group, someone confronting Hamas) are preserved."
+    }
+  },
+  {
+    "index": 94,
+    "candidate": 0,
+    "source": "LeBron James delivered a top performance. LeBron James did not deliver a top performance. Someone delivered a top performance to a school from LeBron James. LeBron James delivered a performance at a school. Deliver a top performance to a school from LeBron James.",
+    "attack": "A top performance was delivered by LeBron James, yet a top performance was not delivered by him; a top performance was delivered to a school on behalf of LeBron James by someone, and a performance was delivered by LeBron James at a school—a top performance's delivery to a school from LeBron James is to be carried out.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK text preserves all entities, events, polarity, and relations from SOURCE, including the contradictions and commands, without altering any key information."
+    }
+  },
+  {
+    "index": 96,
+    "candidate": 1,
+    "source": "A Taycheedah crash injured two men and one other entity. Tell the officer about the Taycheedah crash to the hospital. Tell the officer about the victim of the Taycheedah crash to the hospital. The crash injured something. The crash injured something to the hospital.",
+    "attack": "Two men and an additional individual sustained injuries in an incident at Taycheedah. The officer must be informed that the crash victims were transported to the hospital. The same officer should be notified regarding those harmed in the Taycheedah crash, specifically their conveyance to the hospital. The event caused harm to unspecified entities, with those injured being taken to the hospital for care.",
+    "z_score": -1.1547005383792517,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The core meaning is preserved: two men and one other injured, officer notified, victims to hospital. Minor phrasing differences but no change in entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 98,
+    "candidate": 3,
+    "source": "The summit assigns one reporter as its recipient and something as its theme. Assign a reporter a summit theme. The summit assigned a reporter a theme. The summit assigned a reporter a theme. Asean, at 20 years old, assigned a reporter a summit theme.",
+    "attack": "A reporter was assigned a theme by the summit, which also designated something as its subject and selected one journalist as its addressee. At twenty years of age, ASEAN gave a summit theme to a reporter. A reporter had a theme assigned by the summit, and the summit assigned a theme to a reporter.",
+    "z_score": -1.0,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "Minor rephrasing and word order changes, but all key entities, numbers, polarity, events, and relations are preserved."
+    }
+  },
+  {
+    "index": 99,
+    "candidate": 0,
+    "source": "The company announced something. Announce the upgrade. The upgrade was announced. The company announced an upgrade. The upgrade was announced.",
+    "attack": "The company made an announcement regarding an upgrade, with that upgrade having been announced by the company, and the upgrade itself was announced.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All key entities, events, and relations are preserved; the attack rephrases without altering meaning."
+    }
+  }
+]

@@ -1,0 +1,4693 @@
+{
+  "threshold_1pct_fpr": 2.33,
+  "summaries": {
+    "plain_paraphrase": {
+      "n": 50,
+      "quality_pass": 39,
+      "escape_count": 6,
+      "escape_rate": 0.12,
+      "valid_escape_count": 5,
+      "valid_asr": 0.1,
+      "mean_z": 3.2294221019751683,
+      "mean_z_drop": 0.5734158760715365,
+      "rows": [
+        {
+          "source_index": 0,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 1,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 2,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 3,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 4,
+          "z_score": -0.8164965809277261,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 4.689479927135142,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 5,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 7,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 8,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 9,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 10,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 11,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 12,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 14,
+          "z_score": 2.3094010767585034,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.5635822694489132,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 15,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 16,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.464101615137755,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 17,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 18,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 19,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 21,
+          "z_score": -1.2909944487358056,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 5.163977794943222,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 22,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 24,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 25,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 27,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 28,
+          "z_score": 3.0,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.8729833462074166,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 29,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 30,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 31,
+          "z_score": 3.0,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.8729833462074166,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 32,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 33,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 34,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 35,
+          "z_score": 2.4494897427831783,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.4234936034242383,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 36,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 37,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 39,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 40,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 41,
+          "z_score": 1.8073922282301278,
+          "baseline_z": 2.840187787218772,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": true,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 42,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": false,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 43,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 44,
+          "z_score": 3.0,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.8729833462074166,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 46,
+          "z_score": -1.2909944487358056,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 5.163977794943222,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 47,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 48,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 49,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 2.840187787218772,
+          "z_drop": -1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 50,
+          "z_score": 1.8073922282301278,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.065591117977289,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 51,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 52,
+          "z_score": 2.840187787218772,
+          "baseline_z": 2.840187787218772,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 54,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 55,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 56,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 57,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        }
+      ]
+    },
+    "sentence_boundary": {
+      "n": 50,
+      "quality_pass": 42,
+      "escape_count": 20,
+      "escape_rate": 0.4,
+      "valid_escape_count": 17,
+      "valid_asr": 0.34,
+      "mean_z": 2.8143575179523674,
+      "mean_z_drop": 0.9884804600943368,
+      "rows": [
+        {
+          "source_index": 0,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 1,
+          "z_score": 0.3333333333333333,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 3.539650012874083,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 2,
+          "z_score": 2.3094010767585034,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.5635822694489132,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 3,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 4,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 5,
+          "z_score": 1.6666666666666667,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.20631667954075,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 7,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 8,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 9,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 10,
+          "z_score": 3.0,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.8729833462074166,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 11,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 12,
+          "z_score": 1.6666666666666667,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.20631667954075,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 14,
+          "z_score": 0.3333333333333333,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 3.539650012874083,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 15,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 16,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.464101615137755,
+          "z_drop": -0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 17,
+          "z_score": 2.3094010767585034,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.5635822694489132,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 18,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 19,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 21,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 22,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 24,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 25,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 27,
+          "z_score": 2.3094010767585034,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.5635822694489132,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 28,
+          "z_score": 1.6666666666666667,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.20631667954075,
+          "escaped_at_1pct": true,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 29,
+          "z_score": 3.0,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.8729833462074166,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 30,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 31,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 32,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 33,
+          "z_score": 1.6666666666666667,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.20631667954075,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 34,
+          "z_score": 1.6666666666666667,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.20631667954075,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 35,
+          "z_score": 0.3333333333333333,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 3.539650012874083,
+          "escaped_at_1pct": true,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 36,
+          "z_score": 1.8073922282301278,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.065591117977289,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 37,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 39,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 40,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 41,
+          "z_score": 1.8073922282301278,
+          "baseline_z": 2.840187787218772,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 42,
+          "z_score": 1.6666666666666667,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.20631667954075,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 43,
+          "z_score": 3.299831645537222,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.5731517006701945,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 44,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 46,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 47,
+          "z_score": 2.3094010767585034,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.5635822694489132,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 48,
+          "z_score": 1.6666666666666667,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.20631667954075,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 49,
+          "z_score": 1.6666666666666667,
+          "baseline_z": 2.840187787218772,
+          "z_drop": 1.1735211205521054,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 50,
+          "z_score": 4.242640687119286,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": -0.3696573409118691,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 51,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 52,
+          "z_score": 2.3094010767585034,
+          "baseline_z": 2.840187787218772,
+          "z_drop": 0.5307867104602688,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 54,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 55,
+          "z_score": 1.6666666666666667,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.20631667954075,
+          "escaped_at_1pct": true,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 56,
+          "z_score": 2.3094010767585034,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.5635822694489132,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 57,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        }
+      ]
+    },
+    "amr_guided": {
+      "n": 50,
+      "quality_pass": 40,
+      "escape_count": 16,
+      "escape_rate": 0.32,
+      "valid_escape_count": 12,
+      "valid_asr": 0.24,
+      "mean_z": 2.8020865114809124,
+      "mean_z_drop": 1.0007514665657922,
+      "rows": [
+        {
+          "source_index": 0,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 1,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 2,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 3,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 4,
+          "z_score": 0.3333333333333333,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 3.539650012874083,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 5,
+          "z_score": 1.1547005383792517,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.7182828078281647,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 7,
+          "z_score": 1.6329931618554523,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.2399901843519645,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 8,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 9,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 10,
+          "z_score": 1.8073922282301278,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.065591117977289,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 11,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 12,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 14,
+          "z_score": 1.6666666666666667,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.20631667954075,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 15,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 16,
+          "z_score": 3.0,
+          "baseline_z": 3.464101615137755,
+          "z_drop": 0.46410161513775483,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 17,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 18,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 19,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 21,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 22,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 24,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 25,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 27,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 28,
+          "z_score": 3.0,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.8729833462074166,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 29,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 30,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 31,
+          "z_score": 3.0,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.8729833462074166,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": false
+          }
+        },
+        {
+          "source_index": 32,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 33,
+          "z_score": 0.7745966692414834,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 3.098386676965933,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 34,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 35,
+          "z_score": -0.5773502691896258,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 4.450333615397042,
+          "escaped_at_1pct": true,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": false
+          }
+        },
+        {
+          "source_index": 36,
+          "z_score": 2.840187787218772,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.0327955589886444,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 37,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 39,
+          "z_score": 1.8073922282301278,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.065591117977289,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 40,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 41,
+          "z_score": 0.7745966692414834,
+          "baseline_z": 2.840187787218772,
+          "z_drop": 2.065591117977289,
+          "escaped_at_1pct": true,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 42,
+          "z_score": 2.3094010767585034,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.5635822694489132,
+          "escaped_at_1pct": true,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": false,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 43,
+          "z_score": 1.8073922282301278,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.065591117977289,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 44,
+          "z_score": 2.3094010767585034,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 1.5635822694489132,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 46,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 47,
+          "z_score": 3.464101615137755,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.40888173106966175,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 48,
+          "z_score": -1.0,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 4.872983346207416,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 49,
+          "z_score": 2.3094010767585034,
+          "baseline_z": 2.840187787218772,
+          "z_drop": 0.5307867104602688,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 50,
+          "z_score": -0.2581988897471611,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 4.131182235954578,
+          "escaped_at_1pct": true,
+          "quality_pass": true,
+          "valid_escape": true,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 51,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 52,
+          "z_score": 2.840187787218772,
+          "baseline_z": 2.840187787218772,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 54,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 55,
+          "z_score": 1.8073922282301278,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 2.065591117977289,
+          "escaped_at_1pct": true,
+          "quality_pass": false,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": false,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 56,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        },
+        {
+          "source_index": 57,
+          "z_score": 3.8729833462074166,
+          "baseline_z": 3.8729833462074166,
+          "z_drop": 0.0,
+          "escaped_at_1pct": false,
+          "quality_pass": true,
+          "valid_escape": false,
+          "checks": {
+            "numbers_preserved": true,
+            "negation_preserved": true,
+            "entities_preserved": true,
+            "length_ratio_ok": true
+          }
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "family": "plain_paraphrase",
+      "source_index": 0,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 1,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 2,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 3,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 4,
+      "z_score": -0.8164965809277261,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 4.689479927135142,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 5,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 7,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 8,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 9,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 10,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 11,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 12,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 14,
+      "z_score": 2.3094010767585034,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.5635822694489132,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 15,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 16,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.464101615137755,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 17,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 18,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 19,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 21,
+      "z_score": -1.2909944487358056,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 5.163977794943222,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 22,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 24,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 25,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 27,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 28,
+      "z_score": 3.0,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.8729833462074166,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 29,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 30,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 31,
+      "z_score": 3.0,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.8729833462074166,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 32,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 33,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 34,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 35,
+      "z_score": 2.4494897427831783,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.4234936034242383,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 36,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 37,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 39,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 40,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 41,
+      "z_score": 1.8073922282301278,
+      "baseline_z": 2.840187787218772,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": true,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 42,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": false,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 43,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 44,
+      "z_score": 3.0,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.8729833462074166,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 46,
+      "z_score": -1.2909944487358056,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 5.163977794943222,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 47,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 48,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 49,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 2.840187787218772,
+      "z_drop": -1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 50,
+      "z_score": 1.8073922282301278,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.065591117977289,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 51,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 52,
+      "z_score": 2.840187787218772,
+      "baseline_z": 2.840187787218772,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 54,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 55,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 56,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "plain_paraphrase",
+      "source_index": 57,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 0,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 1,
+      "z_score": 0.3333333333333333,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 3.539650012874083,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 2,
+      "z_score": 2.3094010767585034,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.5635822694489132,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 3,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 4,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 5,
+      "z_score": 1.6666666666666667,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.20631667954075,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 7,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 8,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 9,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 10,
+      "z_score": 3.0,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.8729833462074166,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 11,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 12,
+      "z_score": 1.6666666666666667,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.20631667954075,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 14,
+      "z_score": 0.3333333333333333,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 3.539650012874083,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 15,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 16,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.464101615137755,
+      "z_drop": -0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 17,
+      "z_score": 2.3094010767585034,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.5635822694489132,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 18,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 19,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 21,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 22,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 24,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 25,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 27,
+      "z_score": 2.3094010767585034,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.5635822694489132,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 28,
+      "z_score": 1.6666666666666667,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.20631667954075,
+      "escaped_at_1pct": true,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 29,
+      "z_score": 3.0,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.8729833462074166,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 30,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 31,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 32,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 33,
+      "z_score": 1.6666666666666667,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.20631667954075,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 34,
+      "z_score": 1.6666666666666667,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.20631667954075,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 35,
+      "z_score": 0.3333333333333333,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 3.539650012874083,
+      "escaped_at_1pct": true,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 36,
+      "z_score": 1.8073922282301278,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.065591117977289,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 37,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 39,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 40,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 41,
+      "z_score": 1.8073922282301278,
+      "baseline_z": 2.840187787218772,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 42,
+      "z_score": 1.6666666666666667,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.20631667954075,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 43,
+      "z_score": 3.299831645537222,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.5731517006701945,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 44,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 46,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 47,
+      "z_score": 2.3094010767585034,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.5635822694489132,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 48,
+      "z_score": 1.6666666666666667,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.20631667954075,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 49,
+      "z_score": 1.6666666666666667,
+      "baseline_z": 2.840187787218772,
+      "z_drop": 1.1735211205521054,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 50,
+      "z_score": 4.242640687119286,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": -0.3696573409118691,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 51,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 52,
+      "z_score": 2.3094010767585034,
+      "baseline_z": 2.840187787218772,
+      "z_drop": 0.5307867104602688,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 54,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 55,
+      "z_score": 1.6666666666666667,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.20631667954075,
+      "escaped_at_1pct": true,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 56,
+      "z_score": 2.3094010767585034,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.5635822694489132,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "sentence_boundary",
+      "source_index": 57,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 0,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 1,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 2,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 3,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 4,
+      "z_score": 0.3333333333333333,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 3.539650012874083,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 5,
+      "z_score": 1.1547005383792517,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.7182828078281647,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 7,
+      "z_score": 1.6329931618554523,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.2399901843519645,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 8,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 9,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 10,
+      "z_score": 1.8073922282301278,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.065591117977289,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 11,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 12,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 14,
+      "z_score": 1.6666666666666667,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.20631667954075,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 15,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 16,
+      "z_score": 3.0,
+      "baseline_z": 3.464101615137755,
+      "z_drop": 0.46410161513775483,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 17,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 18,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 19,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 21,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 22,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 24,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 25,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 27,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 28,
+      "z_score": 3.0,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.8729833462074166,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 29,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 30,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 31,
+      "z_score": 3.0,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.8729833462074166,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": false
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 32,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 33,
+      "z_score": 0.7745966692414834,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 3.098386676965933,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 34,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 35,
+      "z_score": -0.5773502691896258,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 4.450333615397042,
+      "escaped_at_1pct": true,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": false
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 36,
+      "z_score": 2.840187787218772,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.0327955589886444,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 37,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 39,
+      "z_score": 1.8073922282301278,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.065591117977289,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 40,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 41,
+      "z_score": 0.7745966692414834,
+      "baseline_z": 2.840187787218772,
+      "z_drop": 2.065591117977289,
+      "escaped_at_1pct": true,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 42,
+      "z_score": 2.3094010767585034,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.5635822694489132,
+      "escaped_at_1pct": true,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": false,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 43,
+      "z_score": 1.8073922282301278,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.065591117977289,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 44,
+      "z_score": 2.3094010767585034,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 1.5635822694489132,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 46,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 47,
+      "z_score": 3.464101615137755,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.40888173106966175,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 48,
+      "z_score": -1.0,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 4.872983346207416,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 49,
+      "z_score": 2.3094010767585034,
+      "baseline_z": 2.840187787218772,
+      "z_drop": 0.5307867104602688,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 50,
+      "z_score": -0.2581988897471611,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 4.131182235954578,
+      "escaped_at_1pct": true,
+      "quality_pass": true,
+      "valid_escape": true,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 51,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 52,
+      "z_score": 2.840187787218772,
+      "baseline_z": 2.840187787218772,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 54,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 55,
+      "z_score": 1.8073922282301278,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 2.065591117977289,
+      "escaped_at_1pct": true,
+      "quality_pass": false,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": false,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 56,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    },
+    {
+      "family": "amr_guided",
+      "source_index": 57,
+      "z_score": 3.8729833462074166,
+      "baseline_z": 3.8729833462074166,
+      "z_drop": 0.0,
+      "escaped_at_1pct": false,
+      "quality_pass": true,
+      "valid_escape": false,
+      "checks": {
+        "numbers_preserved": true,
+        "negation_preserved": true,
+        "entities_preserved": true,
+        "length_ratio_ok": true
+      }
+    }
+  ]
+}

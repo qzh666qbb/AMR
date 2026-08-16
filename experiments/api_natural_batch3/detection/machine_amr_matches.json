@@ -1,0 +1,34 @@
+{
+  "matched_amrs": [
+    [
+      {
+        "score": 0.6843445872040477,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.8733946456057037,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.7685872881330192,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year (x4 / X)))"
+      }
+    ],
+    [
+      {
+        "score": 0.5582811106138283,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5082570078202108,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      }
+    ]
+  ]
+}

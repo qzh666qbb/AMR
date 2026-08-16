@@ -1,0 +1,242 @@
+[
+  {
+    "index": 5,
+    "lang": "de",
+    "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+    "intermediate": "Stellen Sie Ihren Dienst ein. Stellen Sie Allo ein. Ein Unternehmen hat etwas eingestellt. Google hat etwas in einem Dienst eingestellt. Stellen Sie Ihren Dienst ein.",
+    "attack": "Stop your service. Stop Allo. A company has stopped something. Google has stopped something in a service. Stop your service.",
+    "ok": true
+  },
+  {
+    "index": 4,
+    "lang": "de",
+    "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+    "intermediate": "Der Bericht besagt etwas. Machen Sie Ihren Bericht detailliert. Der Bericht nennt die Weltgesundheitsorganisation. Der Bericht besagt etwas. Der Bericht nennt die Weltgesundheitsorganisation.",
+    "attack": "The report says something. Make your report detailed. The report names the World Health Organization. The report says something. The report names the World Health Organization.",
+    "ok": true
+  },
+  {
+    "index": 0,
+    "lang": "de",
+    "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+    "intermediate": "IBM Corporation hat einen Server auf den Markt gebracht. IBM Corporation. Das Cluster-Thema handelt von IBM Corporation. IBM Corporation steht mit etwas in Verbindung. IBM Corporation.",
+    "attack": "IBM Corporation has launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is connected to something. IBM Corporation.",
+    "ok": true
+  },
+  {
+    "index": 2,
+    "lang": "de",
+    "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+    "intermediate": "Vermarkter definieren etwas. Vermarkter definieren Apple. Vermarkter definieren die Marke Apple als etwas. Definieren Sie die Marke Apple als einen Vermarkter. Ein Vermarkter definiert Apple als eine Marke.",
+    "attack": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+    "ok": true
+  },
+  {
+    "index": 3,
+    "lang": "de",
+    "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "intermediate": "Die öffentliche Bibliothek der Gemeinde Middletown ernannte Kim Rinaldi zu etwas. Die Bibliothek ernannte Kim Rinaldi zur Direktorin. Ernennen Sie die Bibliothek zur Ernannten der Ernennung von Kim Rinaldi durch die Gemeinde Middletown. Ernennen Sie die Bibliothek zur Ernannten der Ernennung von Kim Rinaldi durch die Gemeinde Middletown. Die Bibliothek ernannte Kim Rinaldi zu etwas.",
+    "attack": "The public library of the town of Middletown appointed Kim Rinaldi to something. The library appointed Kim Rinaldi as director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the town of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the town of Middletown. The library appointed Kim Rinaldi to something.",
+    "ok": true
+  },
+  {
+    "index": 7,
+    "lang": "de",
+    "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+    "intermediate": "Jemand hielt Washington eine Präsentation. Halte jemandem eine Präsentation. Eine Präsentation wurde Washington, D.C. gegeben. Jemand hielt Washington eine Präsentation. Halte eine Präsentation über Washington, D.C. für Washington.",
+    "attack": "Someone gave a presentation to Washington. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave a presentation to Washington. Give a presentation about Washington, D.C. for Washington.",
+    "ok": true
+  },
+  {
+    "index": 8,
+    "lang": "de",
+    "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+    "intermediate": "Bleiben Sie im Gespräch ernst. Neuengland ist von großer Ausdehnung. Etwas verließ Neuengland in Richtung von etwas. Etwas verließ Neuengland. Etwas verließ Neuengland an einen Ort.",
+    "attack": "Stay serious in the conversation. New England is of great extent. Something left New England heading toward something. Something left New England. Something left New England for a place.",
+    "ok": true
+  },
+  {
+    "index": 9,
+    "lang": "de",
+    "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+    "intermediate": "Eine Person hat etwas verpasst. Sie haben die Definition der Abkürzung ICYMI verpasst. Definieren Sie ICYMI. Definieren Sie die Abkürzung ICYMI. Definieren Sie die Abkürzung ICYMI jetzt.",
+    "attack": "A person missed something. They missed the definition of the abbreviation ICYMI. Define ICYMI. Define the abbreviation ICYMI. Define the abbreviation ICYMI now.",
+    "ok": true
+  },
+  {
+    "index": 6,
+    "lang": "de",
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "intermediate": "War es eine Überraschung, etwas geschenkt zu bekommen? Die Zuweisung der Position für Kunst und Kultur war eine Überraschung für mich. Die Zuweisung der Position für Kunst und Kultur überraschte mich mit etwas. Die Zuweisung der Position für Kunst und Kultur überraschte mich. Die Zuweisung der Position für Kunst und Kultur überraschte mich mit einer Idee.",
+    "attack": "Was it a surprise to receive a gift? The assignment of the position for art and culture was a surprise for me. The assignment of the position for art and culture surprised me with something. The assignment of the position for art and culture surprised me. The assignment of the position for art and culture surprised me with an idea.",
+    "ok": true
+  },
+  {
+    "index": 10,
+    "lang": "de",
+    "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "intermediate": "Sagen Sie der Jury den Freispruch. Sagen Sie der Jury den Freispruch. Sagen Sie der Jury den Freispruch. Sagen Sie der Jury den Freispruch der Witwe bezüglich des Nachtclubs. Sagen Sie der Jury den Freispruch der Witwe bezüglich des Pulse-Nachtclubs.",
+    "attack": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow regarding the nightclub. Tell the jury the acquittal of the widow regarding the Pulse nightclub.",
+    "ok": true
+  },
+  {
+    "index": 1,
+    "lang": "de",
+    "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+    "intermediate": "Machen Sie den Bericht transparent. Die Organisation erzielte Einnahmen. Prasar Bharti erzielte zu einem bestimmten Zeitpunkt Einnahmen. Die Organisation erzielte Einnahmen. Prasar Bharti erzielte nur Einnahmen.",
+    "attack": "Make the report transparent. The organization generated revenue. Prasar Bharti generated revenue at a specific point in time. The organization generated revenue. Prasar Bharti generated revenue only.",
+    "ok": true
+  },
+  {
+    "index": 12,
+    "lang": "de",
+    "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+    "intermediate": "Malala Yousafzai ist akademisch brillant. Malala Yousafzai beschreibt etwas. Die brillante Malala Yousafzai. Malala Yousafzai beschreibt im Jahr 2024 etwas. Jemand beschreibt Malala Yousafzai einer Gemeinschaft.",
+    "attack": "Malala Yousafzai is academically brilliant. Malala Yousafzai describes something. The brilliant Malala Yousafzai. Malala Yousafzai describes something in the year 2024. Someone describes Malala Yousafzai to a community.",
+    "ok": true
+  },
+  {
+    "index": 13,
+    "lang": "de",
+    "source": "Occasional diarrhea affects someone. Someone experiences Occasional Diarrhea as a condition. Occasional diarrhea is a condition. Tell the doctor about your occasional diarrhea condition to the specialist. Tell the specialist about your occasional diarrhea condition.",
+    "intermediate": "Gelegentlicher Durchfall betrifft jemanden. Jemand erlebt gelegentlichen Durchfall als eine Erkrankung. Gelegentlicher Durchfall ist eine Erkrankung. Informieren Sie den Arzt über Ihre gelegentliche Durchfallerkrankung, und zwar den Spezialisten. Informieren Sie den Spezialisten über Ihre gelegentliche Durchfallerkrankung.",
+    "attack": "Occasional diarrhea affects someone. Someone experiences occasional diarrhea as an illness. Occasional diarrhea is an illness. Inform the doctor about your occasional diarrhea illness, specifically the specialist. Inform the specialist about your occasional diarrhea illness.",
+    "ok": true
+  },
+  {
+    "index": 16,
+    "lang": "de",
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "intermediate": "BlackRock Inc. agiert global. Definieren Sie BlackRock Inc. als etwas. Definieren Sie BlackRock Inc. BlackRock Inc. betreibt etwas. BlackRock Inc. ist etwas über BlackRock Inc.",
+    "attack": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "ok": true
+  },
+  {
+    "index": 14,
+    "lang": "de",
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "intermediate": "Jemand hält WebMD Health Corp. für etwas. WebMD Health Corp. ist wichtig für etwas. WebMD Health Corp. wurde 2015 gehalten. WebMD Health Corp. ist wichtig für etwas. WebMD Health Corp. ist wichtig für etwas.",
+    "attack": "Someone considers WebMD Health Corp. to be something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "ok": true
+  },
+  {
+    "index": 11,
+    "lang": "de",
+    "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+    "intermediate": "QVC ist bis zu einem gewissen Grad aggressiv. QVC plant etwas für den Black Friday aggressiv. Erzählen Sie QVC etwas über den Black Friday. QVCs aggressives Etwas. QVC plant etwas für den Black Friday.",
+    "attack": "QVC is aggressive to a certain extent. QVC is planning something aggressive for Black Friday. Tell QVC something about Black Friday. QVC's aggressive something. QVC is planning something for Black Friday.",
+    "ok": true
+  },
+  {
+    "index": 21,
+    "lang": "de",
+    "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+    "intermediate": "Bestellen Sie zwei Militärhubschrauber für die VAE. Bestellen Sie zwei Militärhubschrauber. Bestellen Sie zwei Militärhubschrauber. Die VAE haben kürzlich zwei Militärhubschrauber bestellt. Die VAE haben zwei Militärhubschrauber von einer Einrichtung bestellt.",
+    "attack": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE recently ordered two military helicopters. The UAE ordered two military helicopters from a facility.",
+    "ok": true
+  },
+  {
+    "index": 15,
+    "lang": "de",
+    "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+    "intermediate": "Die Konferenz veranstaltete etwas. Zeigen Sie einem Teilnehmer eine Sitzung über SocialDevCamp Chicago auf der Konferenz. Die Konferenz veranstaltete eine Veranstaltung namens SocialDevCamp Chicago. SocialDevCamp Chicago veranstaltete eine Veranstaltung im Jahr 2024. SocialDevCamp Chicago veranstaltete eine Veranstaltung im Jahr 2024.",
+    "attack": "The conference hosted something. Show a participant a session about SocialDevCamp Chicago at the conference. The conference hosted an event called SocialDevCamp Chicago. SocialDevCamp Chicago hosted an event in 2024. SocialDevCamp Chicago hosted an event in 2024.",
+    "ok": true
+  },
+  {
+    "index": 19,
+    "lang": "de",
+    "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+    "intermediate": "Jeff Deardorff ist an einem Ort angekommen. Jeff Deardorff kam an einem Ort an. Stellen Sie sich einen Tag vor, der ankommt. Jeff Deardorff ist an einem Ort angekommen. Jeff Deardorff kam an einem Ort an.",
+    "attack": "Jeff Deardorff has arrived at a place. Jeff Deardorff arrived at a place. Imagine a day that arrives. Jeff Deardorff has arrived at a place. Jeff Deardorff arrived at a place.",
+    "ok": true
+  },
+  {
+    "index": 22,
+    "lang": "de",
+    "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+    "intermediate": "Das Thema über Barack Obama ist etwas. Fragen Sie einen Gesetzgeber in Washington nach dem Thema Barack Obama. Fragen Sie einen Gesetzgeber nach dem Rat, den Barack Obama in Washington gegeben hat. Fragen Sie einen Gesetzgeber nach Barack Obama. Fragen Sie nach Barack Obama.",
+    "attack": "The topic of Barack Obama is something. Ask a legislator in Washington about the topic of Barack Obama. Ask a legislator about the advice that Barack Obama gave in Washington. Ask a legislator about Barack Obama. Ask about Barack Obama.",
+    "ok": true
+  },
+  {
+    "index": 20,
+    "lang": "de",
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "intermediate": "Aylesburys neuer stellvertretender Bereichskommandant macht sich zugänglich. Aylesburys neuer stellvertretender Bereichskommandant machte sich zugänglich. Der stellvertretende Bereichskommandant machte sich zugänglich. Der neue stellvertretende Bereichskommandant machte sich zugänglich. Der stellvertretende Bereichskommandant machte sich einem Aylesbury zugänglich.",
+    "attack": "Aylesbury's new deputy area commander is making himself accessible. Aylesbury's new deputy area commander made himself accessible. The deputy area commander made himself accessible. The new deputy area commander made himself accessible. The deputy area commander made himself accessible to an Aylesbury.",
+    "ok": true
+  },
+  {
+    "index": 17,
+    "lang": "de",
+    "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+    "intermediate": "Das Haus wurde 2023 an New York verkauft. New York wurde 2023 verkauft. New York wurde an das Haus verkauft. New York wurde 2023 verkauft. New York verkaufte das Haus 2023.",
+    "attack": "The house was sold to New York in 2023. New York was sold in 2023. New York was sold to the house. New York was sold in 2023. New York sold the house in 2023.",
+    "ok": true
+  },
+  {
+    "index": 24,
+    "lang": "de",
+    "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+    "intermediate": "Etwas definiert Mario. Mario definierte etwas. Mario definierte etwas an einem Ort. Etwas definiert Mario. Mario definierte etwas Neues.",
+    "attack": "Something defines Mario. Mario defined something. Mario defined something in a place. Something defines Mario. Mario defined something new.",
+    "ok": true
+  },
+  {
+    "index": 25,
+    "lang": "de",
+    "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+    "intermediate": "Council Bluffs Marshalltown baute eine Führung von neun Runs auf. Gib dem Team einen Sieg gegen Council Bluffs. Gib dem Team einen Sieg. Ein Sieg wurde gegen Council Bluffs aufgebaut. Council Bluffs ist sehr großartig.",
+    "attack": "Council Bluffs Marshalltown built a lead of nine runs. Give the team a victory against Council Bluffs. Give the team a victory. A victory was built against Council Bluffs. Council Bluffs is very great.",
+    "ok": true
+  },
+  {
+    "index": 23,
+    "lang": "de",
+    "source": "Asus's plan for the laptop's display drivers is something. Asus plans something at a location. Asus updates the laptop's display drivers at a location. Asus plans to update the display drivers. Asus's plan for the laptop's display drivers is something.",
+    "intermediate": "Asus' Plan für die Treiber des Laptop-Displays ist etwas. Asus plant etwas an einem Ort. Asus aktualisiert die Treiber des Laptop-Displays an einem Ort. Asus plant, die Display-Treiber zu aktualisieren. Asus' Plan für die Treiber des Laptop-Displays ist etwas.",
+    "attack": "Asus' plan for the laptop display drivers is something. Asus is planning something in one place. Asus is updating the laptop display drivers in one place. Asus plans to update the display drivers. Asus' plan for the laptop display drivers is something.",
+    "ok": true
+  },
+  {
+    "index": 18,
+    "lang": "de",
+    "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+    "intermediate": "Ein Verhältnis von 2 zu 2 von etwas wird als ein Konzept definiert. Das Konzept von NASCAR wird als etwas definiert. Das Konzept von NASCAR wird zu einem bestimmten Zeitpunkt als etwas definiert. Definiere ein Konzept als etwas. Das Konzept von NASCAR wird als etwas definiert.",
+    "attack": "A ratio of 2 to 2 of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a specific point in time. Define a concept as something. The concept of NASCAR is defined as something.",
+    "ok": true
+  },
+  {
+    "index": 26,
+    "lang": "de",
+    "source": "The nice lots define something now. Define the topic of the nice lots to Builder. Builder defines the topic of the nice lots. Define the nice lots. Builder defines the nice lots.",
+    "intermediate": "Die schönen Grundstücke definieren jetzt etwas. Definiere das Thema der schönen Grundstücke für Builder. Builder definiert das Thema der schönen Grundstücke. Definiere die schönen Grundstücke. Builder definiert die schönen Grundstücke.",
+    "attack": "The beautiful plots now define something. Define the theme of the beautiful plots for builders. Builder defines the theme of the beautiful plots. Define the beautiful plots. Builder defines the beautiful plots.",
+    "ok": true
+  },
+  {
+    "index": 27,
+    "lang": "de",
+    "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+    "intermediate": "Jemand hat DERA-Finanzierung an ein Unternehmen vergeben. Geben Sie DERA-Finanzierung, um die erneute Genehmigung des Programms bei der US-Umweltschutzbehörde zu unterstützen. Jemand hat DERA-Finanzierung an ein Unternehmen vergeben. DERA-Finanzierung wurde kürzlich an ein Unternehmen vergeben. Jemand hat DERA-Finanzierung an ein Unternehmen vergeben.",
+    "attack": "Someone has awarded DERA funding to a company. Provide DERA funding to support the reauthorization of the program with the U.S. Environmental Protection Agency. Someone has awarded DERA funding to a company. DERA funding was recently awarded to a company. Someone has awarded DERA funding to a company.",
+    "ok": true
+  },
+  {
+    "index": 28,
+    "lang": "de",
+    "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+    "intermediate": "Echo wurde 2008 veröffentlicht. Jemand besetzte etwas in Echo. Besetzte eine Rolle in dem Horrorfilm. Eine Rolle wurde in „Echo“ (2008) besetzt. Besetzte eine Rolle in dem Horrorfilm „Echo“.",
+    "attack": "Echo was released in 2008. Someone was cast in something in Echo. Was cast in a role in the horror film. A role was cast in \"Echo\" (2008). Was cast in a role in the horror film \"Echo\".",
+    "ok": true
+  },
+  {
+    "index": 29,
+    "lang": "de",
+    "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+    "intermediate": "Travis Scott schrie an einem Ort. Im Jahr 2018 schrie Travis Scott. Travis Scott schrie etwas. Im Jahr 2018 schrie Travis Scott etwas. Eine Person schrie etwas.",
+    "attack": "Travis Scott screamed at a place. In 2018, Travis Scott screamed. Travis Scott screamed something. In 2018, Travis Scott screamed something. A person screamed something.",
+    "ok": true
+  }
+]

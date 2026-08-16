@@ -1,0 +1,2232 @@
+[
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": false,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": false,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 2.4494897427831783,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 0.8164965809277261,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": false,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  },
+  {
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true
+    }
+  }
+]

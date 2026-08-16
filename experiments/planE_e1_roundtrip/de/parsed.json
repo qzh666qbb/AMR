@@ -1,0 +1,211 @@
+[
+  [
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG0 x1))",
+    "(x0 / V\n    :ARG1 (x1 / V\n              :mode imperative\n              :ARG0 (x2 / NE\n                        :name (x3 / N\n                                  :op1 \"NE\")))\n    :ARG2 x2)",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / N\n              :location (x4 / N)))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG0 x1))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / V)\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG0 x1))",
+    "(x0 / V\n    :ARG0 (x1 / V)\n    :ARG1 (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\")))",
+    "(x0 / V\n    :ARG0 (x1 / V)\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / V)\n    :ARG1 (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\")))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N))",
+    "(x0 / NE\n    :name (x1 / N\n              :op1 \"NE\"\n              :op2 \"NE\"))",
+    "(x0 / N\n    :mod (x1 / N)\n    :topic (x2 / NE\n               :name (x3 / N\n                         :op1 \"NE\"\n                         :op2 \"NE\")))",
+    "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / N))",
+    "(x0 / NE\n    :name (x1 / N\n              :op1 \"NE\"\n              :op2 \"NE\"))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (m / V))\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (m / V))\n    :ARG1 (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\")))",
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (m / V))\n    :ARG1 (x2 / V\n              :ARG1 (x4 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG1 (x4 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x3 / N\n              :ARG0-of (m / V)))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / V))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG1-of (p / N)\n              :part-of (t / NE\n                          :name (n / N\n                                   :op1 \"NE\")))\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N)\n    :ARG2 (x3 / N\n              :ARG1-of (a2 / V\n                           :ARG0 (t / NE\n                                    :name (n / N\n                                             :op1 \"NE\"))\n                           :ARG2 (p2 / NE\n                                     :name (n2 / N\n                                               :op1 \"NE\"\n                                               :op2 \"NE\")))))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N)\n    :ARG2 (x3 / N\n              :ARG1-of (a2 / V\n                           :ARG0 (t / NE\n                                    :name (n / N\n                                             :op1 \"NE\"))\n                           :ARG2 (p2 / NE\n                                     :name (n2 / N\n                                               :op1 \"NE\"\n                                               :op2 \"NE\")))))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N)\n    :ARG2 (x3 / NE\n              :name (x4 / N\n                        :op1 \"NE\")))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N)\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :ARG1 (x1 / N)\n    :ARG2 (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N)\n    :ARG2 (x3 / NE\n              :name (x4 / N\n                        :op1 \"NE\")))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x3 / NE\n                         :name (x4 / N\n                                   :op1 \"NE\")))\n    :purpose x3)"
+  ],
+  [
+    "(x0 / V\n    :mode imperative\n    :ARG1 (x1 / N)\n    :ARG3 (x2 / ADJ\n              :ARG1 x1\n              :ARG2 (x3 / N\n                        :ARG0 x1)))",
+    "(x0 / N\n    :mod (x1 / ADJ)\n    :extent-of (c / NE\n                  :name (n / N\n                           :op1 \"NE\"\n                           :op2 \"NE\")))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / V\n              :ARG0 x1\n              :ARG1 (x5 / N)))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (d / V\n                          :ARG1 (a / N\n                                   :value \"NE\"))))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / ADJ))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / ADJ)))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x4 / ADJ))\n    :time (x3 / N))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / V\n              :ARG1 (x3 / N))\n    :polarity (x2 / X))",
+    "(x0 / V\n    :ARG0 (x1 / V\n              :ARG1 (x3 / V\n                        :ARG2 (x4 / N\n                                  :op1 (x5 / N)\n                                  :op2 (x6 / N))))\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / V\n              :ARG1 (x4 / V\n                        :ARG2 (x5 / N\n                                  :op1 (x6 / N)\n                                  :op2 (x7 / N))))\n    :ARG1 (x2 / N)\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :ARG0 (x1 / V\n              :ARG1 (x3 / V\n                        :ARG2 (x4 / N\n                                  :op1 (x5 / N)\n                                  :op2 (x6 / N))))\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / V\n              :ARG1 (x4 / V\n                        :ARG2 (x5 / N\n                                  :op1 (x6 / N)\n                                  :op2 (x7 / N))))\n    :ARG1 (x2 / N)\n    :ARG2 (x3 / N))"
+  ],
+  [
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V)\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V)\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V)\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG1 (x4 / N)\n              :ARG2 (x5 / N))\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG1 (x4 / N)\n              :ARG2 (x5 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x3 / N))"
+  ],
+  [
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / ADJ\n              :domain (x3 / V)))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N)\n    :time (x3 / N\n              :ARG1-of (s / ADJ)))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N)\n    :mod (x3 / N))"
+  ],
+  [
+    "(x0 / NE\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :mod (x2 / V))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N))",
+    "(x0 / NE\n    :name (x1 / N\n              :op1 \"NE\"\n              :op2 \"NE\")\n    :ARG1-of (b / NE))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N\n              :time (x4 / NUM\n                        :year 2024)))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :frequency (x3 / ADJ))\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :frequency (x4 / ADJ))\n    :ARG2 (x3 / NE\n              :ARG1 x1))",
+    "(x0 / NE\n    :ARG2 (x1 / NE\n              :frequency (x2 / ADJ)))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG1-of (s / ADJ)\n              :ARG2-of (ii2 / V\n                            :ARG1 (p / N\n                                     :ARG0-of (s2 / V))))\n    :ARG2 (x3 / NE\n              :ARG1 x1\n              :ARG2 (x4 / NE)\n              :frequency (x5 / ADJ)))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG0-of (s / V))\n    :ARG2 (x3 / NE\n              :ARG1 x1\n              :ARG2 (x4 / NE)\n              :frequency (x5 / ADJ)))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / NE))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))",
+    "(x0 / N\n    :snt1 (x1 / V\n              :mode imperative\n              :ARG0 (x3 / N)\n              :ARG1 (x4 / NE\n                        :name (x7 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\")))\n    :snt2 (x2 / V\n              :ARG0 (x5 / NE\n                        :name (x8 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"))\n              :ARG1 (x6 / N)))",
+    "(x0 / N\n    :topic (x1 / NE\n               :name (x2 / N\n                         :op1 \"NE\"\n                         :op2 \"NE\")))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :domain (x3 / NE\n                          :name (x4 / N\n                                    :op1 \"NE\"\n                                    :op2 \"NE\"\n                                    :op3 \"NE\"))))",
+    "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\"))\n    :purpose (x2 / N))",
+    "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\"))\n    :time (x2 / NUM\n              :year 2015))",
+    "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\"))\n    :purpose (x2 / N))",
+    "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\"))\n    :purpose (x2 / N))"
+  ],
+  [
+    "(x0 / ADJ\n    :domain (x2 / NE\n                :name (x4 / N\n                          :op1 \"NE\"))\n    :degree (x1 / N\n                :mod (x3 / ADJ)))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / N\n              :mod (x5 / ADJ))\n    :ARG3 (x3 / NE\n              :name (x6 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x6 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE\n              :name (x5 / N\n                        :op1 \"NE\")))",
+    "(x0 / N\n    :mod (x1 / ADJ)\n    :poss (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\")))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / N)\n    :ARG3 (x3 / NE\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+  ],
+  [
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :quant 2\n              :mod (x4 / N)\n              :beneficiary (x3 / NE\n                               :name (x5 / N\n                                         :op1 \"NE\"))))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :quant 2\n              :mod (x3 / N)))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :quant 2\n              :mod (x3 / N)))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / N\n              :quant 2\n              :mod (x5 / N))\n    :time (x3 / ADJ))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / N\n              :quant 2\n              :mod (x5 / N))\n    :source (x3 / N))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x5 / NE\n                         :name (x6 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\"))\n              :location (x4 / N))\n    :ARG2 (x3 / N\n              :ARG0-of (p2 / V)))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N)\n    :time (x3 / NUM\n              :year 2024))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N)\n    :time (x3 / NUM\n              :year 2024))"
+  ],
+  [
+    "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG4 (x2 / N))",
+    "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG4 (x2 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG1-of (a / V)))",
+    "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG4 (x2 / N))",
+    "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG4 (x2 / N))"
+  ],
+  [
+    "(x0 / N\n    :domain (x1 / N\n                :topic (x2 / NE\n                           :name (x3 / N\n                                     :op1 \"NE\"\n                                     :op2 \"NE\"))))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x6 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / N\n              :ARG0-of (l / V)\n              :location (x5 / NE\n                            :name (x7 / N\n                                      :op1 \"NE\"))))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (a2 / V\n                           :ARG0 (p / NE\n                                    :name (n / N\n                                             :op1 \"NE\"\n                                             :op2 \"NE\"))\n                           :location (c / NE\n                                        :name (n2 / N\n                                                  :op1 \"NE\"))))\n    :ARG2 (x3 / N\n              :ARG0-of (l / V)))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :op1 (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\"\n                                 :op2 \"NE\")))\n    :ARG2 (x3 / N\n              :ARG0-of (l / V)))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (h / V\n                          :ARG1 (c / NE\n                                   :name (n / N\n                                            :op1 \"NE\"))\n                          :ARG2 (c2 / NE\n                                    :mod (d / N)\n                                    :mod (a / N)\n                                    :ARG1-of (n2 / ADJ))))\n    :ARG1 (x2 / ADJ\n              :ARG1 (x3 / V\n                        :ARG1 x1)))",
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (h / V\n                          :ARG1 (a / N\n                                   :part-of (c / NE\n                                               :name (n / N\n                                                        :op1 \"NE\")))\n                          :ARG2 (c2 / NE\n                                    :mod (d / N)\n                                    :ARG1-of (n2 / ADJ))))\n    :ARG1 (x2 / V\n              :ARG1 x1))",
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (h / V\n                          :ARG2 (c / NE\n                                   :mod (d / N)\n                                   :mod (a / N))))\n    :ARG1 (x2 / ADJ\n              :ARG1 (x3 / V\n                        :ARG1 x1)))",
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (h / V\n                          :ARG2 (c / NE\n                                   :mod (d / N)\n                                   :mod (a / N)))\n              :ARG1-of (n / ADJ))\n    :ARG1 (x2 / V\n              :ARG1 x1))",
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (h / V\n                          :ARG2 (c / NE\n                                   :mod (d / N)\n                                   :mod (a / N))))\n    :ARG1 (x2 / ADJ\n              :ARG1 (x3 / V\n                        :ARG0 (x4 / N\n                                  :location (x5 / NE\n                                                :name (x6 / N\n                                                          :op1 \"NE\")))\n                        :ARG1 x1)))"
+  ],
+  [
+    "(x0 / V\n    :ARG1 (x1 / NE)\n    :ARG2 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x3 / NUM\n              :year 2023))",
+    "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year 2023))",
+    "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / NE))",
+    "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year 2023))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / NE)\n    :time (x3 / NUM\n              :year 2023))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\")))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / N)\n    :location (x3 / N))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\")))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / N\n              :ARG1-of (n2 / ADJ)))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\"))\n    :ARG1 (x2 / V\n              :ARG2 (x4 / V\n                        :quant 9)))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE\n              :ARG0 (x3 / N\n                        :ARG4-of x2)\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 x3)",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG0 (x3 / N)))",
+    "(x0 / V\n    :ARG1 (x1 / V)\n    :prep-against (x2 / NE\n                      :name (x3 / N\n                                :op1 \"NE\"\n                                :op2 \"NE\")))",
+    "(x0 / ADJ\n    :degree (x1 / N)\n    :domain (x2 / NE\n                :name (x3 / N\n                          :op1 \"NE\"\n                          :op2 \"NE\")))"
+  ],
+  [
+    "(x0 / N\n    :domain (x1 / V\n                :ARG0 (x2 / NE\n                          :name (x4 / N\n                                    :op1 \"NE\"))\n                :ARG1 (x3 / N\n                          :ARG0-of (d / V\n                                      :ARG1 (d2 / V\n                                                :ARG1 (l / N))))))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / N)\n    :location (x3 / N\n                  :quant 1))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / N\n              :ARG0-of (d / V\n                          :ARG1 (d2 / V\n                                    :ARG1 (l / N))))\n    :location (x3 / N\n                  :quant 1))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG1 (x2 / V\n              :ARG0 x1\n              :ARG1 (x4 / N\n                        :ARG0-of (d / V\n                                    :ARG1 (d2 / V)))))",
+    "(x0 / N\n    :domain (x1 / V\n                :ARG0 (x2 / NE\n                          :name (x4 / N\n                                    :op1 \"NE\"))\n                :ARG1 (x3 / N\n                          :ARG0-of (d / V\n                                      :ARG1 (d2 / V\n                                                :ARG1 (l / N))))))"
+  ],
+  [
+    "(x0 / V\n    :ARG1 (x1 / N\n              :op1 2\n              :op2 2\n              :op3 (x3 / N))\n    :ARG2 (x2 / N))",
+    "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / N))",
+    "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / N\n              :time (x4 / N\n                        :mod (x6 / N)\n                        :ARG1-of (s2 / ADJ))))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N)\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / N))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG1-of (b / ADJ))\n    :ARG1 (x2 / N)\n    :time (x3 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x3 / N\n                         :ARG1-of (b / ADJ)\n                         :beneficiary (x4 / N\n                                          :ARG0-of (b2 / V)))))",
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (b / V))\n    :ARG1 (x2 / N\n              :topic (x3 / N\n                         :ARG1-of (b2 / ADJ))))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG1-of (b / ADJ)))",
+    "(x0 / V\n    :ARG0 (x1 / N\n              :ARG0-of (b / V))\n    :ARG1 (x2 / N\n              :ARG1-of (b2 / ADJ)))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG1 (x4 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG1 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :purpose (x3 / V\n                 :ARG0 x1\n                 :ARG1 (x5 / V\n                           :ARG0 (x7 / NE\n                                     :name (x8 / N\n                                               :op1 \"NE\"\n                                               :op2 \"NE\"\n                                               :op3 \"NE\"\n                                               :op4 \"NE\"))\n                           :ARG1 x4)))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG1 (x4 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x3 / N))",
+    "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x4 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / N)\n    :time (x3 / ADJ))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V\n              :ARG1 (x4 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x3 / N))"
+  ],
+  [
+    "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :time (x2 / NUM\n              :year 2008))",
+    "(x0 / V\n    :ARG1 (x1 / N)\n    :ARG2 (x2 / N)\n    :location (x3 / NE\n                  :name (x4 / N\n                            :op1 \"NE\")))",
+    "(x0 / V\n    :ARG1 (x1 / N)\n    :ARG2 (x2 / N\n              :location (x3 / N\n                            :mod (x4 / N))))",
+    "(x0 / V\n    :ARG1 (x1 / N)\n    :ARG2 (x2 / NE\n              :name (x3 / N\n                        :op1 \"NE\")\n              :time (x4 / NUM\n                        :year 2008)))",
+    "(x0 / V\n    :ARG1 (x1 / N)\n    :ARG2 (x2 / N)\n    :ARG3 (x3 / NE\n              :name (x5 / N\n                        :op1 \"NE\")\n              :mod (x4 / N)))"
+  ],
+  [
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year 2018))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N))",
+    "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N)\n    :time (x3 / NUM\n              :year 2018))",
+    "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N))"
+  ]
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "folder": "api_natural5",
+    "index": 1,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "The library appointed Kim Rinaldi as a director.",
+    "attack": "Kim Rinaldi was appointed as a director by the library."
+  },
+  {
+    "folder": "api_natural5",
+    "index": 2,
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown.",
+    "attack": "The Township of Middletown's appointment of Kim Rinaldi is to have the library appointed as the appointee."
+  },
+  {
+    "folder": "api_natural5",
+    "index": 3,
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown.",
+    "attack": "The Township of Middletown's appointment of Kim Rinaldi is to have the library appointed as the appointee."
+  },
+  {
+    "folder": "api_natural5",
+    "index": 1,
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "The assignment of the arts and culture position was a surprise to me.",
+    "attack": "The assignment of the arts and culture position came as a surprise to me."
+  },
+  {
+    "folder": "api_natural5",
+    "index": 3,
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "The arts and culture position assignment surprised me.",
+    "attack": "The assignment of the arts and culture position was surprising to me."
+  },
+  {
+    "folder": "api_natural_batch2",
+    "index": 4,
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "The arts and culture position assignment surprised me with an idea.",
+    "attack": "The idea that surprised me was the assignment of the arts and culture position."
+  },
+  {
+    "folder": "api_natural_batch2",
+    "index": 3,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Tell the jury the acquittal of the widow about the nightclub.",
+    "attack": "The jury is to be told of the widow's acquittal regarding the nightclub."
+  },
+  {
+    "folder": "api_natural_batch2",
+    "index": 4,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "attack": "The jury is to be informed of the widow's acquittal regarding the Pulse nightclub."
+  },
+  {
+    "folder": "api_natural_batch2",
+    "index": 3,
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Tell the doctor about your occasional diarrhea condition to the specialist.",
+    "attack": "Your occasional diarrhea condition should be reported to the specialist by the doctor."
+  },
+  {
+    "folder": "api_natural_batch2",
+    "index": 4,
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Tell the specialist about your occasional diarrhea condition.",
+    "attack": "Your occasional diarrhea condition should be reported to the specialist."
+  },
+  {
+    "folder": "api_natural_batch3",
+    "index": 1,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Show an attendee a session about SocialDevCamp Chicago at the conference.",
+    "attack": "An attendee should be shown a session about SocialDevCamp Chicago at the conference."
+  },
+  {
+    "folder": "api_natural_batch3",
+    "index": 2,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "The conference held an event named SocialDevCamp Chicago.",
+    "attack": "The event named SocialDevCamp Chicago was held by the conference."
+  },
+  {
+    "folder": "api_natural_batch3",
+    "index": 0,
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false,
+      "nonempty": true
+    },
+    "source": "The home was sold to New York in 2023.",
+    "attack": "The sale of the home to New York occurred in 2023."
+  },
+  {
+    "folder": "api_natural_batch3",
+    "index": 0,
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false,
+      "nonempty": true
+    },
+    "source": "Aylesbury's new deputy area commander is making himself approachable.",
+    "attack": "The approachability of Aylesbury's new deputy area commander is being cultivated by himself."
+  },
+  {
+    "folder": "api_natural_batch3",
+    "index": 3,
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "The new deputy area commander made himself approachable.",
+    "attack": "The new deputy area commander was made approachable by himself."
+  },
+  {
+    "folder": "api_natural_batch4",
+    "index": 4,
+    "z": -0.5773502691896258,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "The deputy area commander was made approachable to one Aylesbury by himself."
+  },
+  {
+    "folder": "api_natural_batch4",
+    "index": 4,
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "The UAE ordered two military helicopters from an entity.",
+    "attack": "Two military helicopters were ordered by the UAE from an entity."
+  },
+  {
+    "folder": "api_natural_batch4",
+    "index": 1,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Ask a lawmaker about the topic of Barack Obama in Washington.",
+    "attack": "A lawmaker should be asked about the topic of Barack Obama in Washington."
+  },
+  {
+    "folder": "api_natural_batch4",
+    "index": 2,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Ask a lawmaker about the advice that Barack Obama gave on Washington.",
+    "attack": "The advice that Barack Obama gave on Washington should be asked about from a lawmaker."
+  },
+  {
+    "folder": "api_natural_batch4",
+    "index": 1,
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false,
+      "nonempty": true
+    },
+    "source": "Give the team a win against Council Bluffs.",
+    "attack": "A win against Council Bluffs should be given to the team."
+  },
+  {
+    "folder": "api_natural_batch5",
+    "index": 1,
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Define the topic of the nice lots to Builder.",
+    "attack": "The topic of the nice lots is defined to Builder."
+  },
+  {
+    "folder": "api_natural_batch5",
+    "index": 2,
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Builder defines the topic of the nice lots.",
+    "attack": "The topic of the nice lots is defined by the builder."
+  },
+  {
+    "folder": "api_natural_batch5",
+    "index": 1,
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false,
+      "nonempty": true
+    },
+    "source": "Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency.",
+    "attack": "The reauthorization of the program at the U.S. Environmental Protection Agency is to be helped by the giving of DERA funding."
+  },
+  {
+    "folder": "api_natural_batch5",
+    "index": 3,
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": false,
+      "nonempty": true
+    },
+    "source": "DERA funding was given to a company recently.",
+    "attack": "The recent provision of DERA funding was made to a company."
+  },
+  {
+    "folder": "api_natural_batch5",
+    "index": 4,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Cast a role in the horror movie \"Echo\".",
+    "attack": "A role was cast in the horror movie \"Echo\"."
+  },
+  {
+    "folder": "api_natural_batch6",
+    "index": 2,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Tell a politician about the mood of paranoia in Westminster.",
+    "attack": "The mood of paranoia in Westminster should be told to a politician."
+  },
+  {
+    "folder": "api_natural_batch6",
+    "index": 1,
+    "z": 1.7320508075688774,
+    "pass": false,
+    "checks": {
+      "numbers": true,
+      "entities": false,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Survey your advisor about the Virtuoso Luxe Report for Virtuoso.",
+    "attack": "The Virtuoso Luxe Report for Virtuoso should be surveyed about by your advisor."
+  },
+  {
+    "folder": "api_natural_batch6",
+    "index": 0,
+    "z": -0.5773502691896258,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "The General Government Structural Balance as a percentage of potential GDP for Israel in 2015 equaled negative two.",
+    "attack": "The General Government Structural Balance as a percentage of potential GDP for Israel in 2015 was equal to negative two."
+  },
+  {
+    "folder": "api_natural_batch6",
+    "index": 2,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Set the structural balance of Israel to negative two.",
+    "attack": "The structural balance of Israel was set to negative two."
+  },
+  {
+    "folder": "api_natural_batch6",
+    "index": 4,
+    "z": 1.7320508075688774,
+    "pass": true,
+    "checks": {
+      "numbers": true,
+      "entities": true,
+      "negation": true,
+      "length": true,
+      "nonempty": true
+    },
+    "source": "Set the structural balance of Israel to negative two.",
+    "attack": "The structural balance of Israel was set to negative two."
+  }
+]

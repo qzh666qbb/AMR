@@ -1,0 +1,194 @@
+[
+  {
+    "index": 0,
+    "candidate": 0,
+    "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+    "attack": "A server was launched by IBM Corporation, which is the subject of the cluster topic; this entity is linked to another, with IBM Corporation referenced repeatedly.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All key entities, events, and relations from SOURCE are preserved in ATTACK; the restatement adds minor stylistic variation without altering meaning."
+    }
+  },
+  {
+    "index": 3,
+    "candidate": 0,
+    "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "attack": "Kim Rinaldi was appointed to the position of director by the Middletown Township Public Library, which itself had been designated as the appointee in the appointment of Kim Rinaldi by the Township of Middletown; thus, the library made Kim Rinaldi its director.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK correctly preserves all entities, relations, and events from SOURCE, including the appointment of Kim Rinaldi as director by the library and the library's role as appointee of the Township of Middletown."
+    }
+  },
+  {
+    "index": 5,
+    "candidate": 0,
+    "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+    "attack": "Your service must be terminated, and Allo must also be terminated; a corporation terminated something, specifically Google terminated something within a service, so the termination of your service is required.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The meaning is fully preserved; 'shut down' is rephrased as 'terminated' and 'company' as 'corporation', but no entities, numbers, polarity, events, or relations are changed."
+    }
+  },
+  {
+    "index": 10,
+    "candidate": 0,
+    "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "attack": "The jury must be informed of the widow's acquittal concerning the Pulse nightclub; indeed, the jury is to be told of that acquittal regarding that nightclub, and the jury shall receive this information about the widow being acquitted in connection with the Pulse nightclub.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK fully preserves the meaning of the SOURCE, repeating the same core information about informing the jury of the widow's acquittal regarding the Pulse nightclub without altering entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 11,
+    "candidate": 0,
+    "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+    "attack": "To some extent, QVC acts aggressively, and for Black Friday, it has aggressive plans. Something about Black Friday should be communicated to QVC, as the company is pursuing something aggressively. Its Black Friday plans involve aggressive action.",
+    "z_score": 0.3333333333333333,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The meaning, entities, numbers, polarity, events, and relations are fully preserved; only phrasing is reorganized."
+    }
+  },
+  {
+    "index": 12,
+    "candidate": 0,
+    "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+    "attack": "Academically brilliant, Malala Yousafzai delivered a description in 2024, and she was also described by someone to a community.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The core meaning is preserved: Malala's academic brilliance, her description in 2024, and someone describing her to a community are all present. Minor rephrasing and combination do not change entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 13,
+    "candidate": 0,
+    "source": "Occasional diarrhea affects someone. Someone experiences Occasional Diarrhea as a condition. Occasional diarrhea is a condition. Tell the doctor about your occasional diarrhea condition to the specialist. Tell the specialist about your occasional diarrhea condition.",
+    "attack": "If you experience occasional diarrhea as a condition, that condition should be reported to a specialist, and you should also inform your doctor about it.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The meaning is fully preserved; the attack rephrases the same instructions without changing entities, numbers, polarity, events, or relations."
+    }
+  },
+  {
+    "index": 18,
+    "candidate": 0,
+    "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+    "attack": "A definition is provided for a 2-to-2 ratio as a concept, just as the notion of NASCAR is itself specified as something, and this specification of NASCAR as something occurs at a particular moment; thus, a concept should be defined as something, which is precisely how the idea of NASCAR is characterized as something.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK rephrases the SOURCE without changing entities, numbers, polarity, events, or relations; all key elements are preserved."
+    }
+  },
+  {
+    "index": 19,
+    "candidate": 1,
+    "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+    "attack": "Jeff Deardorff’s arrival at a location occurred; that same location saw his arrival. One could picture a day’s arrival. The location was arrived at by Jeff Deardorff, and Jeff Deardorff’s arrival there happened.",
+    "z_score": -1.0,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, events, and relations are preserved; only stylistic variation and passive voice are used without altering meaning."
+    }
+  },
+  {
+    "index": 20,
+    "candidate": 0,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "The deputy area commander for Aylesbury, who recently assumed his position, has taken steps to ensure that he is approachable; indeed, he made himself accessible to the community of Aylesbury.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The attack adds minor details (recently assumed position, community of Aylesbury) but preserves the core meaning, entities, polarity, and events. No major errors."
+    }
+  },
+  {
+    "index": 21,
+    "candidate": 0,
+    "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+    "attack": "Two military helicopters have been ordered for the UAE; recently, two such helicopters were procured by the UAE from a supplier, and an order for two military helicopters was placed.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All key entities (UAE, two military helicopters), numbers (two), polarity (positive), events (ordering/procuring), and relations (UAE as buyer, supplier as seller) are preserved. The ATTACK rephrases the SOURCE without altering meaning."
+    }
+  },
+  {
+    "index": 22,
+    "candidate": 3,
+    "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+    "attack": "Washington insiders can be questioned about the subject of Barack Obama; one should ask a legislator regarding the counsel provided by him on the capital city, and they should also query that same lawmaker about the former president directly, as well as inquire about Obama himself.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The meaning is fully preserved; all entities, events, and relations remain unchanged, with only stylistic rephrasing."
+    }
+  },
+  {
+    "index": 23,
+    "candidate": 0,
+    "source": "Asus's plan for the laptop's display drivers is something. Asus plans something at a location. Asus updates the laptop's display drivers at a location. Asus plans to update the display drivers. Asus's plan for the laptop's display drivers is something.",
+    "attack": "Asus has a plan concerning its laptop’s display drivers, and that plan involves performing an update at a specific location; it is at that same location where Asus will carry out the planned update of those drivers for the laptop.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK restates the same information about Asus's plan to update laptop display drivers at a location, preserving all entities, events, and relations without introducing errors."
+    }
+  },
+  {
+    "index": 25,
+    "candidate": 0,
+    "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+    "attack": "Marshalltown, having constructed a nine-run advantage over Council Bluffs, was awarded a victory by that margin; the team secured the win against Council Bluffs, which is considered extremely formidable.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 4,
+      "major_error": false,
+      "reason": "The core meaning of Marshalltown building a nine-run lead and winning against Council Bluffs is preserved, with minor stylistic changes and no factual errors."
+    }
+  },
+  {
+    "index": 27,
+    "candidate": 0,
+    "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+    "attack": "A company has been the recipient of DERA funding, which was provided to facilitate the reauthorization of the program at the U.S. Environmental Protection Agency; this allocation of DERA funding to a company occurred recently, as a company was given DERA funding.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "The ATTACK text accurately restates all key information from SOURCE: DERA funding given to a company, purpose of helping reauthorize the EPA program, and recent occurrence. No entities, numbers, polarity, events, or relations are changed."
+    }
+  },
+  {
+    "index": 29,
+    "candidate": 0,
+    "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+    "attack": "In 2018, a holler was let out by Travis Scott at some place; something was hollered by him that year, and an individual also hollered something.",
+    "z_score": -0.5773502691896258,
+    "review": {
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, numbers, polarity, events, and relations from SOURCE are preserved in ATTACK, with only stylistic changes to voice and phrasing."
+    }
+  }
+]

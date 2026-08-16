@@ -1,0 +1,56 @@
+{
+  "n": 223,
+  "seed": 20260725,
+  "families": {
+    "plain_paraphrase": {
+      "mean_z": 3.18133457551261,
+      "mean_drop": 0.5694444175978144,
+      "ci95": [
+        0.43747222229372423,
+        0.7138613338585993
+      ],
+      "wilcoxon_stat": 3513.0,
+      "wilcoxon_p": 4.846245243734038e-15,
+      "lower_than_baseline": 81
+    },
+    "sentence_boundary": {
+      "mean_z": 2.606969687382778,
+      "mean_drop": 1.1438093057276455,
+      "ci95": [
+        0.9848536408942826,
+        1.306779945763544
+      ],
+      "wilcoxon_stat": 11080.0,
+      "wilcoxon_p": 9.642756760147205e-26,
+      "lower_than_baseline": 145
+    },
+    "amr_guided": {
+      "mean_z": 2.6863901412219144,
+      "mean_drop": 1.0643888518885094,
+      "ci95": [
+        0.9190491507001984,
+        1.2175771958100026
+      ],
+      "wilcoxon_stat": 9999.0,
+      "wilcoxon_p": 3.517601755951482e-25,
+      "lower_than_baseline": 140
+    }
+  },
+  "pairwise": {
+    "sentence_boundary_vs_plain_paraphrase": {
+      "mean_z_advantage": 0.5743648881298313,
+      "wilcoxon_stat": 8767.5,
+      "wilcoxon_p": 7.87650156780754e-08
+    },
+    "amr_guided_vs_plain_paraphrase": {
+      "mean_z_advantage": 0.4949444342906953,
+      "wilcoxon_stat": 6475.0,
+      "wilcoxon_p": 2.9010541276187493e-09
+    },
+    "sentence_boundary_vs_amr_guided": {
+      "mean_z_advantage": 0.07942045383913605,
+      "wilcoxon_stat": 7001.0,
+      "wilcoxon_p": 0.29907437354318195
+    }
+  }
+}

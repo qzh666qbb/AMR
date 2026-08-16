@@ -1,0 +1,152 @@
+[
+  {
+    "index": 0,
+    "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+    "attack": "A server was launched by IBM Corporation. The mention of IBM Corporation, which is a corporation, occurs. The cluster topic concerns IBM Corporation. Something relates to IBM Corporation. IBM Corporation is cited."
+  },
+  {
+    "index": 1,
+    "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+    "attack": "The report should be made transparent. The organization earned something. Something was earned by Prasar Bharti at some time. An earning of something by the organization took place. Prasar Bharti earned only something."
+  },
+  {
+    "index": 2,
+    "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+    "attack": "Something is defined by marketers. Marketers are the ones who define Apple. The Apple brand is defined by marketers as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand."
+  },
+  {
+    "index": 3,
+    "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "attack": "Kim Rinaldi was appointed as something by the Middletown Township Public Library. The library's appointment of Kim Rinaldi was as a director. The Township of Middletown appointed the library as the appointee of Kim Rinaldi's appointment. As the appointee of the appointment of Kim Rinaldi, the library was appointed by the Township of Middletown. What the library did was appoint Kim Rinaldi as something."
+  },
+  {
+    "index": 4,
+    "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+    "attack": "Something is stated in the report. Let your report be made detailed. The World Health Organization is stated by the report. There is something that the report states. The World Health Organization is what the report states."
+  },
+  {
+    "index": 5,
+    "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+    "attack": "Your service must be shut down. Allo is to be shut down. Something was shut down by a company. Google shut down something in a service. The shutdown of your service is required."
+  },
+  {
+    "index": 6,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "Something being given to me—was that a surprise? I was surprised by the assignment of the arts and culture position. I was surprised with something by the assignment of the arts and culture position. Surprising me was the arts and culture position assignment. My surprise, from the arts and culture position assignment, came with an idea."
+  },
+  {
+    "index": 7,
+    "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+    "attack": "A presentation was given to Washington by someone. A presentation must be given to someone. The city of Washington, D.C. was the recipient of a presentation. It was someone who gave a presentation to Washington. Washington is to receive a presentation about Washington, D.C."
+  },
+  {
+    "index": 8,
+    "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+    "attack": "The extent of New England is vast. Something departed from New England to something. New England was left by something. Something left New England to a location."
+  },
+  {
+    "index": 9,
+    "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+    "attack": "Something was missed by a person. The definition of the ICYMI abbreviation was missed by you. Define ICYMI. Let the abbreviation ICYMI be defined. Define the ICYMI abbreviation now."
+  },
+  {
+    "index": 10,
+    "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "attack": "Tell the jury the acquittal. The acquittal must be told to the jury. It is the acquittal that must be told to the jury. The acquittal of the widow about the nightclub must be told to the jury. The communication of the widow's acquittal concerning the Pulse nightclub to the jury is required."
+  },
+  {
+    "index": 11,
+    "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+    "attack": "QVC demonstrates aggressiveness to an extent. Something that is for Black Friday is aggressively planned by QVC. Tell QVC something that is about Black Friday. QVC possesses an aggressive something. The planning of something for Black Friday is done by QVC."
+  },
+  {
+    "index": 12,
+    "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+    "attack": "Academic brilliance is attributed to Malala Yousafzai. It is something that Malala Yousafzai describes. Malala Yousafzai is brilliant. In 2024, a description of something is provided by Malala Yousafzai. Malala Yousafzai is described to a community by someone."
+  },
+  {
+    "index": 13,
+    "source": "Occasional diarrhea affects someone. Someone experiences Occasional Diarrhea as a condition. Occasional diarrhea is a condition. Tell the doctor about your occasional diarrhea condition to the specialist. Tell the specialist about your occasional diarrhea condition.",
+    "attack": "Occasional diarrhea affects someone. The experience of Occasional Diarrhea as a condition occurs for someone. A condition is what occasional diarrhea is. Your occasional diarrhea condition must be reported to the doctor and to the specialist. Inform the specialist about your occasional diarrhea condition."
+  },
+  {
+    "index": 14,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "WebMD Health Corp. is held by someone for something. WebMD Health Corp. has importance for something. Someone held WebMD Health Corp. in 2015. It is for something that WebMD Health Corp. is important. There is something for which WebMD Health Corp. is important."
+  },
+  {
+    "index": 15,
+    "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+    "attack": "Something was held by the conference. The showing of a session about SocialDevCamp Chicago to an attendee took place at the conference. The conference held an event that was named SocialDevCamp Chicago. An event in 2024 was held by SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024."
+  },
+  {
+    "index": 16,
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "attack": "Globally, operations are conducted by BlackRock Inc. Let BlackRock Inc. be defined as something. Let BlackRock Inc. be defined. Something is operated by BlackRock Inc. Something about BlackRock Inc. is what BlackRock Inc. is."
+  },
+  {
+    "index": 17,
+    "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+    "attack": "The sale of the home to New York occurred in 2023. The sale of New York, which occurred in 2023, took place. The home purchased New York. It was in 2023 that New York was sold. The home was sold by New York in 2023."
+  },
+  {
+    "index": 18,
+    "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+    "attack": "One defines a 2-to-2 ratio of something as a concept. Something is what the concept of NASCAR is defined as. At a time, defined as something is the concept of NASCAR. Define a concept as something. The definition of the concept of NASCAR is as something."
+  },
+  {
+    "index": 19,
+    "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+    "attack": "A location has been arrived at by Jeff Deardorff. Jeff Deardorff's arrival at a location occurred. Imagine the arrival of a day. It was Jeff Deardorff who arrived at a location. At a location, Jeff Deardorff arrived."
+  },
+  {
+    "index": 20,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "What Aylesbury's new deputy area commander is doing is making himself approachable. It was Aylesbury's new deputy area commander who made approachable. The deputy area commander was made approachable by himself. Made himself approachable was the new deputy area commander. It was to one Aylesbury that the deputy area commander made himself approachable."
+  },
+  {
+    "index": 21,
+    "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+    "attack": "Two military helicopters for the UAE were ordered. The ordering of two military helicopters took place. An order for two military helicopters was placed. Recently, the UAE ordered two military helicopters. Two military helicopters were ordered by the UAE from an entity."
+  },
+  {
+    "index": 22,
+    "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+    "attack": "That which is the topic about Barack Obama is something. Let a lawmaker be asked about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Make an inquiry of a lawmaker concerning Barack Obama. Ask about Barack Obama."
+  },
+  {
+    "index": 23,
+    "source": "Asus's plan for the laptop's display drivers is something. Asus plans something at a location. Asus updates the laptop's display drivers at a location. Asus plans to update the display drivers. Asus's plan for the laptop's display drivers is something.",
+    "attack": "Something is the plan of Asus for the laptop's display drivers. At a location, something is planned by Asus. The laptop's display drivers are updated by Asus at a location. An update of the display drivers is planned by Asus. The plan that Asus has for the laptop's display drivers is something."
+  },
+  {
+    "index": 24,
+    "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+    "attack": "Mario is defined by something. The definition of something was performed by Mario. At a location, Mario defined something. Something is the definer of Mario. Mario defined something that was new."
+  },
+  {
+    "index": 25,
+    "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+    "attack": "A nine-run lead was built by Council Bluffs Marshalltown. The team received a win against Council Bluffs. A win was given to the team. There was a win built against Council Bluffs. It is Council Bluffs that is very great."
+  },
+  {
+    "index": 26,
+    "source": "The nice lots define something now. Define the topic of the nice lots to Builder. Builder defines the topic of the nice lots. Define the nice lots. Builder defines the nice lots.",
+    "attack": "The definition of something is currently performed by the nice lots. To Builder, define the topic of the nice lots. The topic of the nice lots is defined by Builder. Let the nice lots be defined. Builder defines the nice lots."
+  },
+  {
+    "index": 27,
+    "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+    "attack": "Someone gave DERA funding to a company. DERA funding was given to help reauthorize the program at the U.S. Environmental Protection Agency. A company, to which someone gave DERA funding, was the recipient. There was a recent giving of DERA funding to a company. It was someone who gave DERA funding to a company."
+  },
+  {
+    "index": 28,
+    "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+    "attack": "Echo's release took place in 2008. Something was cast in Echo by someone. What was cast in the horror movie was a role. A role was the thing cast in \"Echo\" (2008). The casting of a role occurred in the horror movie \"Echo\"."
+  },
+  {
+    "index": 29,
+    "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+    "attack": "There was a location where Travis Scott hollered. In 2018, a holler was made by Travis Scott. Something was hollered by Travis Scott. 2018 was the year when Travis Scott hollered something. A person hollered something."
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "n": 10,
+  "valid": 10,
+  "rows": [
+    {
+      "index": 0,
+      "source_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N))",
+      "generated_text": "NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE ",
+      "reparsed_amr": "# ::snt NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE \n(b / be-located-at-91\n      :ARG2 (a / and\n            :op1 (n / northeast)\n            :op2 (n2 / northeast)\n            :op3 (n3 / northeast)\n            :op4 (n4 / northeast)\n            :op5 (n5 / northeast)\n            :op6 (n6 / northeast)\n            :op7 (n7 / northeast)\n            :op8 (n8 / northeast)\n            :op9 (n9 / northeast)\n            :op10 (n10 / northeast)\n            :op11 (n11 / northeast)\n            :op12 (n12 / northeast)\n            :op13 (n13 / northeast)\n            :op14 (n14 / northeast)\n            :op15 (n15 / northeast)\n            :op16 (n16 / northeast)\n            :op17 (n17 / northeast)\n            :op18 (n18 / northeast)\n            :op19 (n19 / northeast)\n            :op20 (n20 / northeast)\n            :op21 (n21 / northeast)\n            :op22 (n22 / northeast)))",
+      "reparse_valid": true,
+      "nonempty_text": true
+    },
+    {
+      "index": 1,
+      "source_amr": "(x0 / NE\n    :name (x1 / N\n              :op1 \"NE\"\n              :op2 \"NE\"))",
+      "generated_text": "NE NE",
+      "reparsed_amr": "# ::snt NE NE\n(a / and\n      :op1 (n / northeast)\n      :op2 (n2 / northeast))",
+      "reparse_valid": true,
+      "nonempty_text": true
+    },
+    {
+      "index": 2,
+      "source_amr": "(x0 / N\n    :mod (x1 / N)\n    :topic (x2 / NE\n               :name (x3 / N\n                         :op1 \"NE\"\n                         :op2 \"NE\")))",
+      "generated_text": "N about NE NE",
+      "reparsed_amr": "# ::snt N about NE NE\n(r / relative-position\n      :direction (n / northeast)\n      :direction (n2 / north))",
+      "reparse_valid": true,
+      "nonempty_text": true
+    },
+    {
+      "index": 3,
+      "source_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / N))",
+      "generated_text": "NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE ",
+      "reparsed_amr": "# ::snt NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE \n(b / be-located-at-91\n      :ARG2 (a / and\n            :op1 (n / northeast)\n            :op2 (n2 / northeast)\n            :op3 (n3 / northeast)\n            :op4 (n4 / northeast)\n            :op5 (n5 / northeast)\n            :op6 (n6 / northeast)\n            :op7 (n7 / northeast)\n            :op8 (n8 / northeast)\n            :op9 (n9 / northeast)\n            :op10 (n10 / northeast)\n            :op11 (n11 / northeast)\n            :op12 (n12 / northeast)\n            :op13 (n13 / northeast)\n            :op14 (n14 / northeast)\n            :op15 (n15 / northeast)\n            :op16 (n16 / northeast)\n            :op17 (n17 / northeast)\n            :op18 (n18 / northeast)\n            :op19 (n19 / northeast)\n            :op20 (n20 / northeast)\n            :op21 (n21 / northeast)\n            :op22 (n22 / northeast)))",
+      "reparse_valid": true,
+      "nonempty_text": true
+    },
+    {
+      "index": 4,
+      "source_amr": "(x0 / NE\n    :name (x1 / N\n              :op1 \"NE\"\n              :op2 \"NE\"))",
+      "generated_text": "NE NE",
+      "reparsed_amr": "# ::snt NE NE\n(a / and\n      :op1 (n / northeast)\n      :op2 (n2 / northeast))",
+      "reparse_valid": true,
+      "nonempty_text": true
+    },
+    {
+      "index": 5,
+      "source_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / ADJ\n              :domain (x3 / V)))",
+      "generated_text": "V - N",
+      "reparsed_amr": "# ::snt V - N\n(e / emoticon\n      :value \"V-N\")",
+      "reparse_valid": true,
+      "nonempty_text": true
+    },
+    {
+      "index": 6,
+      "source_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N))",
+      "generated_text": "N is N.",
+      "reparsed_amr": "# ::snt N is N.\n(p / person\n      :name (n / name\n            :op1 \"N\"))",
+      "reparse_valid": true,
+      "nonempty_text": true
+    },
+    {
+      "index": 7,
+      "source_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N)\n    :time (x3 / N\n              :mod (x5 / N)))",
+      "generated_text": "NE NE Vs N during N",
+      "reparsed_amr": "# ::snt NE NE Vs N during N\n(o / oppose-01\n      :ARG0 (n / northeast)\n      :ARG1 (n2 / north)\n      :time (n3 / north))",
+      "reparse_valid": true,
+      "nonempty_text": true
+    },
+    {
+      "index": 8,
+      "source_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N))",
+      "generated_text": "N is N.",
+      "reparsed_amr": "# ::snt N is N.\n(p / person\n      :name (n / name\n            :op1 \"N\"))",
+      "reparse_valid": true,
+      "nonempty_text": true
+    },
+    {
+      "index": 9,
+      "source_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / N\n              :mod (x4 / N)))",
+      "generated_text": "NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE ",
+      "reparsed_amr": "# ::snt NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE NE \n(b / be-located-at-91\n      :ARG2 (a / and\n            :op1 (n / northeast)\n            :op2 (n2 / northeast)\n            :op3 (n3 / northeast)\n            :op4 (n4 / northeast)\n            :op5 (n5 / northeast)\n            :op6 (n6 / northeast)\n            :op7 (n7 / northeast)\n            :op8 (n8 / northeast)\n            :op9 (n9 / northeast)\n            :op10 (n10 / northeast)\n            :op11 (n11 / northeast)\n            :op12 (n12 / northeast)\n            :op13 (n13 / northeast)\n            :op14 (n14 / northeast)\n            :op15 (n15 / northeast)\n            :op16 (n16 / northeast)\n            :op17 (n17 / northeast)\n            :op18 (n18 / northeast)\n            :op19 (n19 / northeast)\n            :op20 (n20 / northeast)\n            :op21 (n21 / northeast)\n            :op22 (n22 / northeast)))",
+      "reparse_valid": true,
+      "nonempty_text": true
+    }
+  ]
+}

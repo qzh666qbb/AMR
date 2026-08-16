@@ -1,0 +1,1022 @@
+[
+  {
+    "index": 5,
+    "candidate": 1,
+    "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+    "attack": "Per the audit requirements: shut down your service; shut down Allo. A company performed a shutdown of something. Google performed a shutdown of something within a service. Shut down your service.",
+    "z_score": 2.3094010767585034,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately preserves all entities, events, polarity, modality, and attribution. Only adds 'Per the audit requirements' as a framing, which does not alter core facts."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 7,
+    "candidate": 2,
+    "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+    "attack": "A presentation was delivered to Washington by an individual. An individual is to be the recipient of a presentation. A presentation was given to Washington, D.C. An individual delivered a presentation to Washington. A presentation concerning Washington, D.C. is to be given to Washington.",
+    "z_score": 2.3094010767585034,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 2,
+      "score": 4,
+      "major_error": false,
+      "reason": "All entities, numbers, polarity, modality, and event relations preserved. Minor reordering of clauses and slight variation in wording ('delivered to Washington by an individual' vs 'Someone gave Washington a presentation') does not change meaning."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 8,
+    "candidate": 0,
+    "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+    "attack": "Maintain a serious tone throughout the conversation. The extent of New England is vast. A departure from New England occurred, involving something moving toward something. New England was left behind by something. A location received something that had departed from New England.",
+    "z_score": 2.840187787218772,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately preserves all entities, events, polarity, and relations from SOURCE. Only rephrases without changing meaning."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 17,
+    "candidate": 1,
+    "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+    "attack": "New York acquired the home in 2023, and New York itself was sold during 2023, with the home also being the recipient of New York’s sale in 2023; furthermore, New York was sold in 2023, and it was New York that sold the home in 2023.",
+    "z_score": -0.5773502691896258,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 5,
+      "major_error": false,
+      "reason": "All original facts are preserved without changing entities, numbers, polarity, or relations. The phrasing is verbose but semantically identical."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 20,
+    "candidate": 1,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "Aylesbury’s new deputy area commander is ensuring approachability. Aylesbury’s new deputy area commander ensured approachability. The deputy area commander ensured his own approachability. The new deputy area commander ensured his own approachability. The deputy area commander ensured his own approachability to one Aylesbury.",
+    "z_score": -1.2909944487358056,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 4,
+      "major_error": false,
+      "reason": "Changes 'made himself approachable' to 'ensured approachability', which slightly alters the event but does not introduce a major error. Polarity and attribution remain correct."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 24,
+    "candidate": 0,
+    "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+    "attack": "Mario is defined by something. Something was defined by Mario. At a location, Mario defined something. Mario is defined by something. A new something was defined by Mario.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "All five statements match the source in entity, number, polarity, modality, attribution, event, and relation. Only voice and word order vary."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 32,
+    "candidate": 0,
+    "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+    "attack": "Robert E. Gates. Flip died. An individual died something. Flip died, thereby leaving Cindy Thompson. Cindy Thompson died something.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, events, relations, and modality match the source exactly. 'Died' is a synonym for 'passed away'."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 36,
+    "candidate": 3,
+    "source": "Lynn teaches two employees. Teach two employees. Lynn Blake did not teach two hospital employees. Lynn Blake taught two hospital employees CPR. Lynn Blake.",
+    "attack": "Lynn instructs two employees. Two employees are instructed. It is not the case that Lynn Blake instructed two hospital employees. Lynn Blake provided CPR instruction to two hospital employees. Lynn Blake.",
+    "z_score": 0.7745966692414834,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 3,
+      "score": 5,
+      "major_error": false,
+      "reason": "Preserves all key information: two employees, negation of hospital employee instruction, and CPR teaching; no errors in entity, number, polarity, or event."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 40,
+    "candidate": 2,
+    "source": "Virtuoso Luxe Report surveyed something. Survey your advisor about the Virtuoso Luxe Report for Virtuoso. The Virtuoso Luxe Report was surveyed. Virtuoso Luxe Report. An advisor surveyed Virtuoso Luxe Report about a topic.",
+    "attack": "The Virtuoso Luxe Report was the subject of a survey. For Virtuoso, consult your advisor regarding the Virtuoso Luxe Report. A survey of the Virtuoso Luxe Report was conducted. Virtuoso Luxe Report. An advisor conducted a survey of the Virtuoso Luxe Report on a specific topic.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 2,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately preserves all entities, numbers, polarity, modality, attribution, events, and relations. Minor word order changes do not alter meaning."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 54,
+    "candidate": 3,
+    "source": "Patty Jenkins revealed details about the sequel at an event. Patty Jenkins revealed details about something. Details about Patty Jenkins. Patty Jenkins revealed details about something. Patty Jenkins revealed details about something.",
+    "attack": "At an event, details about the sequel were revealed by Patty Jenkins, who also disclosed information about an unspecified matter. Details concerning Patty Jenkins herself emerged, followed by further revelations from Jenkins about one topic and then another.",
+    "z_score": -0.8164965809277261,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 3,
+      "score": 4,
+      "major_error": false,
+      "reason": "All entities, numbers, polarity, modality, attribution, events, and relations match the source. The sentence structure is reordered but preserves meaning. 'One topic and then another' is a valid paraphrase of 'something' repeated. No major errors, but slight stylistic difference reduces score slightly."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 55,
+    "candidate": 0,
+    "source": "The data layer shows Maharashtra. Something defines Maharashtra as a state. Maharashtra defines a state. Maharashtra was defined as a state in 2009. Define the state as something.",
+    "attack": "The data layer indicates Maharashtra. Maharashtra is identified as a state by a certain definition. The state is defined by Maharashtra. The definition of Maharashtra as a state occurred in 2009. The state is to be defined as something.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, numbers, polarity, modality, events, and relations match the source exactly. Only minor synonym substitutions (e.g., 'indicates'→'indicates', 'defines'→'identified as') are used."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 57,
+    "candidate": 1,
+    "source": "A character explores a concept. Harry Connolly is interested in a concept. Explore a concept. Harry Connolly explores a concept. Explore the concept of Harry Connolly with a named entity.",
+    "attack": "A concept is explored by a character. Interest in a concept is held by Harry Connolly. A concept is explored. A concept is explored by Harry Connolly. With a named entity, the concept of Harry Connolly is explored.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately preserves all entities, events, and relations. Only changes are grammatical voice shifts (active to passive) which do not alter meaning."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 60,
+    "candidate": 1,
+    "source": "The bill triggered protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. The bill sparked protests against the Citizenship Amendment Bill in Assam. Tell the bill. The bill triggered protests.",
+    "attack": "The bill triggered protests against the Citizenship Amendment Bill in Assam; it sparked protests against the same legislation in Assam, and again sparked protests against the Citizenship Amendment Bill in Assam. Direct the bill. The bill triggered protests.",
+    "z_score": 1.6666666666666667,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, numbers, polarity, modality, attribution, events, and relations are unchanged. Repetition and structure closely follow source."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 63,
+    "candidate": 1,
+    "source": "Golden State Warriors. The Golden State Warriors will be made do with. Show the Warriors the team's topic about Golden State. The Golden State Warriors will make do. Golden State Warriors.",
+    "attack": "Golden State Warriors. The Golden State Warriors will be made do with. The Warriors are to be shown the team's topic about Golden State. The Golden State Warriors will make do. Golden State Warriors.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 5,
+      "major_error": false,
+      "reason": "Preserves all entities, polarity, modality, and events; only minor syntactic variation ('are to be shown' vs 'Show the Warriors')."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 64,
+    "candidate": 0,
+    "source": "A suspect shot a victim with a gun. A shooting of a victim with a gun occurred. A shooting of a teen victim with a weapon occurred. A shooting of a teen by a suspect with a weapon occurred recently. Shoot the victim.",
+    "attack": "A suspect used a gun to shoot a victim. A gun-related shooting of a victim took place. A weapon was used in the shooting of a teen victim. Recently, a suspect used a weapon to shoot a teen. The victim must be shot.",
+    "z_score": -0.2581988897471611,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "All entities, numbers, polarity, modality, and events match SOURCE. The final sentence 'The victim must be shot' preserves the imperative modality of 'Shoot the victim' (command). No major errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 68,
+    "candidate": 0,
+    "source": "Drew Griffin made an attempt at something. Drew Griffin made an attempt at something. Drew Griffin attempted something. Make an attempt. Drew Griffin made an attempt.",
+    "attack": "Drew Griffin’s attempt was carried out. An attempt, by Drew Griffin, occurred. Something was attempted by Drew Griffin. The attempt should be made. An attempt was made—Drew Griffin did it.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "All statements match source meaning: Drew Griffin made an attempt. No entity, number, polarity, modality, attribution, event, or relation errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 72,
+    "candidate": 3,
+    "source": "Find your music folder. Google Music found your music folder. Find two times two. Find your music. Something found Google Music something.",
+    "attack": "Google Music located your music folder. Locate the product of two times two. Find your music. An unspecified entity located Google Music something.",
+    "z_score": 2.3094010767585034,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 3,
+      "score": 4,
+      "major_error": false,
+      "reason": "Minor synonym changes ('locate' for 'find', 'unspecified entity' for 'something') preserve meaning; no entity, number, polarity, modality, event, or relation errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 78,
+    "candidate": 0,
+    "source": "Show me a picture of New York City at Christmas. Show me a picture. Show me a picture. A picture about New York City. Show me a picture of New York City at Christmas.",
+    "attack": "For a robustness audit: the request is for an image of New York City during Christmas, and that same request is repeated verbatim three additional times, followed by a request for an image about New York City, and then again for an image of New York City at Christmas.",
+    "z_score": -0.5773502691896258,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately describes the source's repeated requests for a picture of NYC at Christmas, with no errors in entity, number, polarity, modality, attribution, event, or relation."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 87,
+    "candidate": 0,
+    "source": "Kid the audience. Kid the audience with something about New York City. The New York City audience is being kidded. The topic is something about New York City. The New York City audience.",
+    "attack": "The audience is being kidded with something about New York City. That something is the topic, and it is directed at the New York City audience. The New York City audience is the one being kidded.",
+    "z_score": 1.6666666666666667,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "Perfectly preserves all entities, number, polarity, modality, attribution, and event relations. Only rephrases without adding or omitting any key information."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 88,
+    "candidate": 1,
+    "source": "Alexander the Great was not a pioneer. Alexander the Great idea. Alexander the Great had an idea. Tell Alexander the Great an idea about Alexander the Great. Alexander the Great had an idea.",
+    "attack": "Alexander the Great never pioneered anything. The notion of Alexander the Great existed. An idea was possessed by Alexander the Great. An idea concerning Alexander the Great was communicated to Alexander the Great. A concept belonged to Alexander the Great.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 4,
+      "major_error": false,
+      "reason": "Minor rewording ('notion' for 'idea' in second sentence) is acceptable; no change in entity, polarity, or relation. No major errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 90,
+    "candidate": 0,
+    "source": "The Democratic Alliance was voted for at a time. The Democratic Alliance was voted for in 2023. The Democratic Alliance was voted for by someone in 2023. The Democratic Alliance was voted for in a location. The Democratic Alliance's topic is a vote.",
+    "attack": "In 2023, a vote occurred for the Democratic Alliance, which was cast at a specific time, by an unspecified individual, and in a particular location, with the alliance's subject matter being that vote itself.",
+    "z_score": -0.5773502691896258,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "Accurately captures all source facts: time (2023), unspecified individual, location, and topic (vote itself). Minor phrasing difference ('cast at a specific time' vs 'voted for at a time') is acceptable."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 92,
+    "candidate": 2,
+    "source": "Rahul Dravid read a book at the stadium. Rahul Dravid read a book at the stadium. Ask your friend about the topic of the book at Rahul Dravid. Ask your friend about the topic of the book. Rahul Dravid was read.",
+    "attack": "The act of Rahul Dravid reading a book at the stadium occurred. The act of Rahul Dravid reading a book at the stadium occurred. The topic of the book at Rahul Dravid is to be inquired of by your friend. The topic of the book is to be inquired of by your friend. Rahul Dravid was read.",
+    "z_score": 1.8073922282301278,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 2,
+      "score": 5,
+      "major_error": false,
+      "reason": "All sentences match source meaning exactly. 'The topic of the book at Rahul Dravid' and 'the topic of the book' are correctly preserved. 'Rahul Dravid was read' is kept unchanged."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 96,
+    "candidate": 0,
+    "source": "A Taycheedah crash injured two men and one other entity. Tell the officer about the Taycheedah crash to the hospital. Tell the officer about the victim of the Taycheedah crash to the hospital. The crash injured something. The crash injured something to the hospital.",
+    "attack": "A two-man and one additional entity were injured in a Taycheedah crash. The officer must be informed about the Taycheedah crash in relation to the hospital. The officer must be informed about the victim of the Taycheedah crash in relation to the hospital. The crash did injure something. The crash did injure something in relation to the hospital.",
+    "z_score": -0.2581988897471611,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "Preserves all entities, numbers, polarity, modality, and relations. Only minor rewording without changing meaning."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 102,
+    "candidate": 0,
+    "source": "Defend the Constitution. Someone defended the Constitution against something. The president defended the Constitution. Defend the Constitution against something. Defend the Constitution against a threat.",
+    "attack": "Defend the Constitution. An individual defended the Constitution against an unspecified entity. The president defended the Constitution. Defend the Constitution against an unspecified entity. Defend the Constitution against a threat.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, numbers, polarity, modality, attribution, events, and relations match the source exactly. 'Unspecified entity' is a valid paraphrase of 'something'."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 105,
+    "candidate": 0,
+    "source": "Make the status active. The state panel heard testimony on missing Indigenous women. Make the status active. The status of missing Indigenous women is active for Helena. The panel heard something.",
+    "attack": "The status must be set to active. Testimony regarding missing Indigenous women was received by the state panel. The status must be set to active. For Helena, the status of missing Indigenous women is active. Something was heard by the panel.",
+    "z_score": -0.2581988897471611,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, numbers, polarity, modality, attribution, events, and relations match the source. Only voice and phrasing changed."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 114,
+    "candidate": 0,
+    "source": "Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for a look that Meghan Markle popularized from Kate Middleton. Opt for Meghan Markle. Meghan Markle opted for a look. Meghan Markle was opted for at a time.",
+    "attack": "Meghan Markle popularized a look derived from Kate Middleton. That look, which Meghan Markle popularized from Kate Middleton, is the one to choose. Choose Meghan Markle. Meghan Markle selected that look. At a certain time, Meghan Markle was the one who was chosen.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately preserves all entities, polarity, modality, and relations. Minor rephrasing does not alter meaning."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 119,
+    "candidate": 2,
+    "source": "Explore the chief executive. Ronan Dunne explored something. Ronan Dunne was not explored. Ronan Dunne was explored. Ronan Dunne was explored by something.",
+    "attack": "The chief executive was examined. An exploration of Ronan Dunne took place. No one examined Ronan Dunne. Ronan Dunne underwent examination. An examination of Ronan Dunne was conducted by an unspecified entity.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 2,
+      "score": 4,
+      "major_error": false,
+      "reason": "Minor lexical variation ('examination' for 'explored' in first and last sentences). Polarity and event structure mostly preserved. No major entity or relation errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 120,
+    "candidate": 3,
+    "source": "Identify a neutrino event as identifiable. Identify a neutrino event as identifiable. A neutrino event is identifiable by something from a neutrino. Identify a neutrino event by something. The James Webb Space Telescope identified a neutrino event.",
+    "attack": "The requirement to identify a neutrino event is that it be identifiable. A neutrino event becomes identifiable through something originating from a neutrino. One identifies a neutrino event by means of something. The James Webb Space Telescope did identify a neutrino event.",
+    "z_score": 1.1547005383792517,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 3,
+      "score": 4,
+      "major_error": false,
+      "reason": "Preserves entities, polarity, and attribution; minor rephrasing of first sentence loses exact repetition but no major error."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 129,
+    "candidate": 3,
+    "source": "Foxconn Technology is being discussed in talks at this time. Foxconn Technology is related to something. Foxconn Technology is located somewhere. Foxconn Technology is not discussed. Something is discussing Apple Inc. about something.",
+    "attack": "Foxconn Technology is currently the subject of ongoing discussions, is associated with an unspecified entity, and is situated in an undisclosed location; however, Foxconn Technology is not itself being discussed. An unidentified party is, instead, in talks with Apple Inc. regarding a separate matter.",
+    "z_score": -0.8164965809277261,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 3,
+      "score": 5,
+      "major_error": false,
+      "reason": "All statements match source exactly in meaning, entity, number, polarity, modality, attribution, event, and relation."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 137,
+    "candidate": 0,
+    "source": "Apply to Harvard. Apply to Harvard University in 2024. Apply to Harvard University. Apply to Harvard University. Apply to Harvard University.",
+    "attack": "Apply to Harvard University in 2024, and apply to Harvard University, and apply to Harvard University, and apply to Harvard University, and apply to Harvard.",
+    "z_score": -0.5773502691896258,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "Preserves all entities, numbers, polarity, modality, and event relations exactly. Adds only coordinating conjunctions without changing meaning."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 138,
+    "candidate": 0,
+    "source": "An interception was thrown by McSorley. Throw an interception about Penn State to Ohio State. Throw an interception to Penn State. Throw an interception about Penn State to Ohio State. Throw an interception about Penn State to Ohio State.",
+    "attack": "McSorley threw an interception. An interception was thrown concerning Penn State to Ohio State. An interception was thrown to Penn State. An interception was thrown concerning Penn State to Ohio State. An interception was thrown concerning Penn State to Ohio State.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "All sentences match source meaning exactly, with only minor synonym change ('concerning' for 'about') that does not alter entity, polarity, modality, attribution, event, or relation."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 146,
+    "candidate": 0,
+    "source": "Activist shareholders demand something new on Thursday. Activist shareholders demand alignment of Whitehaven Coal with the Paris agreement. Activist shareholders do not demand Whitehaven Coal. Demand alignment of the company strategy with the Paris agreement from Whitehaven Coal. Demand alignment of Whitehaven Coal with the Paris agreement.",
+    "attack": "On Thursday, activist shareholders issue a novel demand: they require that Whitehaven Coal’s strategy be brought into alignment with the Paris Agreement. They do not, however, demand the company itself. What they demand is the alignment of Whitehaven Coal with the Paris Agreement, specifically the alignment of the company’s strategy with that accord.",
+    "z_score": 0.3333333333333333,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately captures all key facts: new demand on Thursday, alignment with Paris Agreement, not demanding the company itself, and strategy alignment."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 147,
+    "candidate": 1,
+    "source": "The accident at SITIAWAN was attributed to something at the time. Tell the committee about the incident at SITIAWAN to the authorities. Sitiawan attributed the incident to something. Tell the committee about the incident. The Sitiawan incident.",
+    "attack": "Regarding the SITIAWAN accident, a specific factor was cited as its cause at that time. The committee must be informed by the authorities about what occurred at SITIAWAN. For the incident itself, a cause was assigned by Sitiawan. The committee should receive a briefing on this occurrence. Reference is made to the Sitiawan incident.",
+    "z_score": 1.8073922282301278,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately reflects all source statements: cause cited, committee informed by authorities, Sitiawan assigned cause, briefing to committee, reference to incident."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 152,
+    "candidate": 0,
+    "source": "An audit examined something. An audit examined something. Check your return. The IRS audited something old. Check your return for an audit of the IRS by the IRS.",
+    "attack": "An examination was conducted. An examination was conducted. Your return must be checked. Something old underwent an audit by the IRS. For an audit of the IRS performed by the IRS, your return requires checking.",
+    "z_score": 1.8073922282301278,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "Preserves all entities, events, and relations. Minor rephrasing ('examination' for 'audit', 'must be checked' for 'check') is acceptable."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 158,
+    "candidate": 2,
+    "source": "Zoran Janković rebuffed something. Zoran Janković rebuffed something. Zoran Janković rebuffed an allegation. Keep your assets. Keep your assets.",
+    "attack": "Zoran Janković refused to accept something. Zoran Janković refused to accept something. Zoran Janković refused to accept a specific claim. Retain your holdings. Retain your holdings.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 2,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately paraphrases all source statements: 'refused to accept' matches 'rebuffed', 'something' matches, 'specific claim' matches 'allegation', 'retain your holdings' matches 'keep your assets'. No major errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 173,
+    "candidate": 1,
+    "source": "NE1 taught something about NE2 recently. Teach a student about the College Board to a teacher. NE1 taught something about NE2 recently. NE1 is relevant to NE2. A teacher taught about the College Board to a student recently.",
+    "attack": "A teacher recently instructed a student regarding the College Board. NE1 recently imparted knowledge about NE2. The teacher's instruction about the College Board to the student occurred recently. NE1 is relevant to NE2. NE1 taught something about NE2 recently.",
+    "z_score": 2.840187787218772,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 5,
+      "major_error": false,
+      "reason": "All entities, numbers, polarity, modality, attribution, events, and relations match SOURCE exactly."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 182,
+    "candidate": 0,
+    "source": "Something muddled the Great Magician by a potion. The Great Magician was not muddled by a potion. Something muddled the Great Magician by a potion. The Great Magician muddled something by a potion. Muddle a potion about \"The Great Magician\" by a warlord.",
+    "attack": "A potion muddled the Great Magician. That potion did not cause the Great Magician to become muddled. The Great Magician, nonetheless, encountered something that muddled him via a potion. It was the Great Magician who muddled something else with a potion. Concerning \"The Great Magician,\" a warlord performed the act of muddling a potion.",
+    "z_score": 1.8073922282301278,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "Correctly captures all five source sentences with minor rephrasing; no entity, polarity, or relation errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 194,
+    "candidate": 3,
+    "source": "Les Beaucamps school is considered as a potential site. The Les Beaucamps school idea. Les Beaucamps school is considered as something currently. An idea about Les Beaucamps school. Les Beaucamps school is considering something at a location.",
+    "attack": "Les Beaucamps school remains under evaluation as a candidate location. The concept involving Les Beaucamps school persists. At present, Les Beaucamps school is regarded as a potential option. A proposal exists regarding Les Beaucamps school. Les Beaucamps school is currently weighing a possibility at a specific site.",
+    "z_score": 2.840187787218772,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 3,
+      "score": 5,
+      "major_error": false,
+      "reason": "All source statements are accurately paraphrased with no changes to key semantic components."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 202,
+    "candidate": 1,
+    "source": "John Dixon greeted something. Greeted something to John Dixon. John Dixon greeted something. John Dixon is greeted by something. John Dixon greeted something warmly.",
+    "attack": "John Dixon extended a greeting toward something. Something received a greeting from John Dixon. John Dixon offered a greeting to something. Something was greeted by John Dixon. John Dixon delivered a warm greeting to something.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 5,
+      "major_error": false,
+      "reason": "All sentences accurately reflect the source meaning. The second sentence correctly changes 'Greeted something to John Dixon' to 'Something received a greeting from John Dixon' without altering entity relations. No major errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 206,
+    "candidate": 0,
+    "source": "The teaser trailer unveiled something about the upcoming film. The teaser trailer unveiled a scene from the upcoming film recently. Show the teaser scene from the upcoming film to Jack Sparrow. The teaser trailer unveiled a scene from the film to something. The teaser trailer unveiled a scene from the upcoming film to Jack Sparrow.",
+    "attack": "The teaser trailer revealed a detail regarding the forthcoming movie. The teaser trailer recently disclosed a scene from the forthcoming movie. Exhibit the teaser scene from the forthcoming movie to Jack Sparrow. The teaser trailer disclosed a scene from the movie to some entity. The teaser trailer disclosed a scene from the forthcoming movie to Jack Sparrow.",
+    "z_score": -0.2581988897471611,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "Minor lexical changes ('revealed' for 'unveiled', 'forthcoming' for 'upcoming', 'detail' for 'something', 'disclosed' for 'unveiled', 'some entity' for 'something') preserve meaning. No major errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 212,
+    "candidate": 0,
+    "source": "Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Jeffrey Berman declared Hillary Rodham Clinton's victory to something. Hillary Rodham Clinton was declared victorious to an extent. Jeffrey Berman declared Hillary Rodham Clinton to something. Hillary Rodham Clinton was declared victorious to something.",
+    "attack": "Jeffrey Berman attributed Hillary Rodham Clinton’s win to a certain factor. Jeffrey Berman attributed Hillary Rodham Clinton’s win to a certain factor. Hillary Rodham Clinton was pronounced the winner to a degree. Jeffrey Berman attributed something to Hillary Rodham Clinton. Hillary Rodham Clinton was pronounced the winner of something.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "Preserves all entities, numbers, polarity, modality, attribution, events, and relations. Minor wording changes ('attributed' for 'declared', 'pronounced the winner' for 'declared victorious') are acceptable paraphrases."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 218,
+    "candidate": 0,
+    "source": "The Spirit of Australia is the fastest boat. Someone made the Spirit of Australia a boat. The Spirit of Australia made a boat. The Spirit of Australia made something a boat recently. Make the Spirit of Australia a boat.",
+    "attack": "The Spirit of Australia holds the title of fastest boat. The Spirit of Australia was constructed as a boat by an individual. The Spirit of Australia itself produced a boat. The Spirit of Australia recently transformed something into a boat. Convert the Spirit of Australia into a boat.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "All sentences preserve the original meaning, entities, polarity, modality, and relations. Minor rewording is acceptable."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 222,
+    "candidate": 2,
+    "source": "Rent an apartment. A tenant rents an apartment. A tenant rents an apartment. John Doe rents something. John Doe rents something.",
+    "attack": "John Doe rents an apartment. A tenant rents an apartment. A tenant rents an apartment. John Doe rents something. John Doe rents something.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 2,
+      "score": 4,
+      "major_error": false,
+      "reason": "Preserves all entities, events, and relations. Minor issue: first sentence changes 'something' to 'an apartment' for John Doe, but source has two 'John Doe rents something' statements; this swaps one instance, but since source also has 'Rent an apartment' as a separate statement, the entity count remains correct. No major error."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 226,
+    "candidate": 1,
+    "source": "Montana Rescue Mission did not announce a familiar face. What is a topic about Billings Montana? Billings Montana was not announced. Billings Montana Rescue Mission announced a familiar face. Someone announced Billings Montana as something.",
+    "attack": "Montana Rescue Mission failed to disclose any recognizable individual. Regarding Billings, Montana—what subject is under discussion? No announcement about Billings, Montana, was made. A well-known figure was instead revealed by the Billings Montana Rescue Mission. That organization designated Billings, Montana, as a certain entity.",
+    "z_score": 0.7745966692414834,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 1,
+      "score": 5,
+      "major_error": false,
+      "reason": "Correctly maintains entity references, negations, and event structure; no major errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 235,
+    "candidate": 0,
+    "source": "A company unveiled something. Sony did not unveil Sony. Sony unveiled something today. Sony Corporation is large to an extent. A company unveiled Sony to a device.",
+    "attack": "Sony Corporation, to a certain degree of largeness, was not unveiled by a company, but Sony did unveil something today, and a separate entity (a company) unveiled Sony to a device.",
+    "z_score": -0.5773502691896258,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "Correctly captures all key facts: Sony is large, Sony unveiled something today, a company did not unveil Sony, and a company unveiled Sony to a device. Minor rephrasing is acceptable."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 236,
+    "candidate": 0,
+    "source": "Nashville Predators will open something. Something opened the Nashville Predators to a team. The Nashville Predators opened to a team. The Nashville Predators opened something. The Nashville Predators opened to a team.",
+    "attack": "The Nashville Predators will open something. A team had the Nashville Predators opened to it. A team was opened to by the Nashville Predators. Something was opened by the Nashville Predators. A team was opened to by the Nashville Predators.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 5,
+      "major_error": false,
+      "reason": "All sentences preserve the original entities, polarity, modality, and relations. Only voice and structure vary without changing meaning."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 237,
+    "candidate": 0,
+    "source": "Addressing a business envelope ensures something to the recipient. John Smith addressed the issue. Address the issue of the envelope to John Smith. Address the issue of the envelope to John Smith. The envelope was addressed to John Smith.",
+    "attack": "To ensure something reaches the recipient, a business envelope is addressed. The issue was addressed by John Smith. Let the envelope’s issue be directed at John Smith. Let the envelope’s issue be directed at John Smith. John Smith received the addressed envelope.",
+    "z_score": 2.840187787218772,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "Preserves all key entities, polarity, modality, and relations. Minor phrasing changes ('directed at' vs 'to') are acceptable."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 238,
+    "candidate": 0,
+    "source": "The Cleveland Browns touted a quarterback competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition. The Cleveland Browns touted a competition at a location. The Cleveland Browns touted a competition at a location.",
+    "attack": "The Cleveland Browns promoted a quarterback competition. The Cleveland Browns promoted a competition. The Cleveland Browns promoted a competition. The Cleveland Browns promoted a competition at a site. The Cleveland Browns promoted a competition at a site.",
+    "z_score": 3.8729833462074166,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "Minor lexical change: 'touted' to 'promoted' and 'location' to 'site' are acceptable synonyms; no entity, number, polarity, modality, attribution, event, or relation changed."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 245,
+    "candidate": 3,
+    "source": "Feel the tension. Najib arrived in 2024. Najib is tense about something. Najib arrived in 2024. Najib was tense to some extent.",
+    "attack": "Tension is palpable. The year of Najib’s arrival is 2024. There exists a specific source of tension for Najib. Najib’s arrival occurred in 2024. It is true that Najib experienced a certain degree of tension.",
+    "z_score": -0.2581988897471611,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 3,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately conveys all source statements: tension palpable, arrival year 2024, specific source of tension, degree of tension. No errors."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 246,
+    "candidate": 3,
+    "source": "Apple Music launched in a location. Apple Music launched in a location. Apple Music launched in 2015. Apple Music launched in a location. Apple Music launched in a location.",
+    "attack": "Apple Music’s launch occurred in 2015, and it also took place in a location, in a location, in a location, and in a location.",
+    "z_score": -0.5773502691896258,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 3,
+      "score": 5,
+      "major_error": false,
+      "reason": "Accurately captures all source facts: launch in 2015 and in four unspecified locations. No errors or additions."
+    },
+    "quality_valid": true
+  },
+  {
+    "index": 247,
+    "candidate": 0,
+    "source": "Diamond Foods Inc. has an update about its acquisition. Diamond Foods Inc. announced its acquisition of Kettle Foods for an amount. Update your acquisition. Diamond Foods Inc. has an update. Update your acquisition.",
+    "attack": "Diamond Foods Inc. provides an update concerning its acquisition. The acquisition of Kettle Foods by Diamond Foods Inc. was announced for a specified amount. The acquisition should be updated. Diamond Foods Inc. does have an update. The acquisition must be updated.",
+    "z_score": 2.840187787218772,
+    "surface": {
+      "length_ok": true,
+      "numbers_ok": true,
+      "negation_ok": true,
+      "amr_ok": true
+    },
+    "review": {
+      "candidate": 0,
+      "score": 4,
+      "major_error": false,
+      "reason": "Preserves all entities, numbers, polarity, modality, and events. Minor rephrasing ('provides' for 'has', 'concerning' for 'about', 'does have' for 'has') is acceptable. No major errors."
+    },
+    "quality_valid": true
+  }
+]

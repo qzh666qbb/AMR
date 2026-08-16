@@ -17,7 +17,7 @@
 - primary variant: official 50-template bank, five generated sentences per RealNews prompt
 - source paper: https://arxiv.org/abs/2605.04305
 - source repo: https://github.com/amazon-science/SWAN
-- source revision: to be pinned immediately after source checkout
+- source revision: `2ca0c2071c8d0c6bb3739b2b2bcfb34cfe63eb2a`
 - task: paragraph-level discrimination of SWAN-watermarked and human text
 - data/split: first 250 examples from the C4 RealNews subset, matching the official repository
 - detector contract:
@@ -38,10 +38,11 @@
 ## 3. Resource and environment plan
 
 - OS: Windows 10 build 26200
-- local GPU: NVIDIA GeForce RTX 4060, 8GB GDDR6 (user-reported)
-- current GPU diagnostic: `nvidia-smi` unavailable; driver/CUDA visibility unverified
-- environment manager: `uv 0.11.6`
-- Python: create a workspace-local Python 3.11 environment; do not use installed Python 3.13/3.14
+- local GPU: NVIDIA GeForce RTX 4060 Laptop GPU, 8188 MiB
+- GPU diagnostic: NVIDIA driver 580.88; CUDA driver API 13.0; CUDA toolkit 12.8
+- runtime: PyTorch `2.4.1+cu124`; CUDA tensor smoke passed
+- environment manager: `uv 0.9.26`
+- Python: workspace-local CPython `3.11.14` in `.venv`
 - local workloads:
   - amrlib BART-large parser with FP16 and batch size 1 initially
   - T5 AMR-to-text with one model loaded at a time
@@ -102,3 +103,13 @@ Provisional numerical tolerance for `verified_close`: no-attack AUC within 3 per
 |---|---|---|---|
 | 2026-07-21 | Selected hybrid RTX 4060 + DeepSeek route | User confirmed hardware and API access | Exact Bedrock generation is replaced by a documented current-model variant |
 | 2026-07-21 | Used `analysis_plan.md` compatibility alias | Windows paths are case-insensitive, so `plan.md` and `PLAN.md` cannot coexist | Preserves separate research-map and baseline-contract layers |
+| 2026-07-21 | Pinned SWAN and S2MATCH sources | Official repositories checked out locally | SWAN `2ca0c207`; amr-metric-suite `711a231d` |
+| 2026-07-21 | Verified local GPU parser path | BART-large parsed one sentence on the RTX 4060 | Peak allocated VRAM 1615 MiB at batch size 1 |
+| 2026-07-21 | Added Windows UTF-8 S2MATCH compatibility fix | Upstream used the GBK process locale for GloVe | No algorithm change; vector decoding only |
+| 2026-07-21 | Added lazy parser loading and per-process GloVe cache | Windows spawn otherwise loads BART in CPU detector workers and rereads 347 MB per comparison | Performance-only; scoring and model weights unchanged |
+| 2026-07-22 | Added DeepSeek provider routing, sample limit, and RNG seed | Official code only implemented Bedrock/HF and could not stage API pilots | DeepSeek V4 Flash uses non-thinking ChatCompletions; Bedrock path retained |
+| 2026-07-22 | Strengthened placeholder/structure instructions and recorded acceptance | DeepSeek produced context summaries and the official fallback silently saved rejected candidates | Failed injections remain explicit; detector contract unchanged |
+| 2026-07-22 | Preserved AMR bank JSON order while deduplicating | Returning a set made seeded template selection process-dependent | Template sampling is now reproducible for a fixed Python seed |
+| 2026-07-22 | Predeclared `DeepSeek-shallow` template rule | Full-bank calibration accepted 3/5 with 32.2 attempts per target | Variant uses root V, <=4 nodes, depth <=2 for injection; detection retains all 50 templates |
+| 2026-07-22 | Added parser-in-the-loop rejection feedback | Static retries repeated structurally similar failures | Next candidate receives the parsed template and S2MATCH score; acceptance threshold remains 0.75 |
+| 2026-07-22 | Added per-paragraph checkpoint/resume and bounded API retry | A 30-prompt pilot stalled in an API retry before any results were saved | Default DeepSeek retry is 5 x 60 s; permanent 4xx fails immediately |
