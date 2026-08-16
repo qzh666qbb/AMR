@@ -1,0 +1,202 @@
+[
+  {
+    "normalized_template_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))",
+    "count": 20
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))",
+    "count": 17
+  },
+  {
+    "normalized_template_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))",
+    "count": 16
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / V)\n    :ARG2 (x2 / X))",
+    "count": 16
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))",
+    "count": 14
+  },
+  {
+    "normalized_template_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\")))",
+    "count": 14
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / NE)\n    :ARG2 (x2 / X))",
+    "count": 13
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))",
+    "count": 13
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :time (x2 / X))",
+    "count": 12
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / ADJ))",
+    "count": 12
+  },
+  {
+    "normalized_template_amr": "(x0 / NE\n    :name (x2 / N\n              :op1 \"NE\"\n              :op2 \"NE\")\n    :mod (x1 / X))",
+    "count": 11
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))",
+    "count": 11
+  },
+  {
+    "normalized_template_amr": "(x0 / NE\n    :name (x2 / N\n              :op1 \"NE\")\n    :mod (x1 / X))",
+    "count": 11
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))",
+    "count": 10
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))",
+    "count": 10
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))",
+    "count": 10
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))",
+    "count": 9
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / N))\n    :ARG2 (x2 / X))",
+    "count": 9
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :op1 2\n              :op2 2)\n    :ARG2 (x2 / X))",
+    "count": 8
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))",
+    "count": 8
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))",
+    "count": 8
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))",
+    "count": 6
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))",
+    "count": 6
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :value \"NE\")\n    :ARG2 (x2 / X))",
+    "count": 6
+  },
+  {
+    "normalized_template_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))",
+    "count": 6
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :polarity (x2 / X))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / ADJ))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :extent (x2 / X))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\"))\n    :ARG2 (x2 / X))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / NE\n    :name (x2 / N\n              :op1 \"NE\")\n    :age (x1 / X))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / N\n    :mod (x1 / N)\n    :mod (x2 / X))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / N\n    :topic (x2 / NE\n               :name (x3 / N\n                         :op1 \"NE\"\n                         :op2 \"NE\"))\n    :mod (x1 / X))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year (x4 / X)))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))",
+    "count": 5
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / N\n    :mod (x1 / NE\n             :name (x3 / N\n                       :op1 \"NE\"))\n    :mod (x2 / X))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / NE))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / N))\n    :ARG2 (x3 / NE))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\"\n                                 :op2 \"NE\")))\n    :ARG2 (x2 / X))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / ADJ\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x5 / NE\n                        :name (x7 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / ADJ))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :mod (x3 / N))\n    :ARG2 (x2 / X))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))",
+    "count": 4
+  },
+  {
+    "normalized_template_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))",
+    "count": 4
+  }
+]

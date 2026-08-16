@@ -1,0 +1,37 @@
+# Core AMR processing
+amrlib==0.8.0
+penman==1.3.1
+nltk==3.9.1
+spacy==3.8.2
+unidecode==1.3.8
+word2number==1.1
+
+# ML / NLP
+torch==2.4.1
+transformers==4.45.2
+datasets==3.0.1
+scikit-learn==1.5.2
+
+# S2match dependencies (utils/s2match.py)
+scipy==1.13.1
+
+# AWS Bedrock (for LLM inference)
+boto3==1.35.82
+
+# Visualization & utilities
+matplotlib==3.9.2
+numpy==2.0.2
+pandas==2.2.3
+tqdm==4.66.5
+
+# NOTE: The following require manual installation (see README):
+#
+# 1. SpaCy English model:
+#      python -m spacy download en_core_web_sm
+#
+# 2. amrlib parsing models (download manually per README §3):
+#      model_parse_xfm_bart_large-v0_1_0
+#      model_generate_t5wtense-v0_1_0
+#
+# 3. GloVe vectors for S2match (see README §2):
+#      Download glove.6B.zip and set GLOVE_VECTORS_PATH

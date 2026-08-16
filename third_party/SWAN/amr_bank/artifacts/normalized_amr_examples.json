@@ -1,0 +1,20 @@
+[
+  {
+    "sentence": "definition of velocity",
+    "raw_amr": "(d / define-01\n      :ARG1 (v / velocity)\n      :ARG2 (a / amr-unknown))",
+    "template_amr": "(x0 / V\n    :ARG1 (x1 / N)\n    :ARG2 (x2 / X))",
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / N)\n    :ARG2 (x2 / X))"
+  },
+  {
+    "sentence": "what does potato mean",
+    "raw_amr": "(m / mean-01\n      :ARG1 (p / potato)\n      :ARG2 (a / amr-unknown))",
+    "template_amr": "(x0 / V\n    :ARG1 (x1 / N)\n    :ARG2 (x2 / X))",
+    "normalized_template_amr": "(x0 / V\n    :ARG1 (x1 / N)\n    :ARG2 (x2 / X))"
+  },
+  {
+    "sentence": "what are some updates about the stock market",
+    "raw_amr": "(u / update-02\n      :ARG2 (a / amr-unknown)\n      :topic (m / market-01\n            :ARG1 (s / stock))\n      :mod (s2 / some))",
+    "template_amr": "(x0 / V\n    :ARG2 (x1 / X)\n    :topic (x3 / V\n               :ARG1 (x4 / N))\n    :mod (x2 / N))",
+    "normalized_template_amr": "(x0 / V\n    :ARG2 (x1 / X)\n    :topic (x3 / V\n               :ARG1 (x4 / N))\n    :mod (x2 / N))"
+  }
+]

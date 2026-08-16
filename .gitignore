@@ -40,3 +40,4 @@ third_party/SWAN/data/
 .idea/
 .DS_Store
 Thumbs.db
+.Rhistory
