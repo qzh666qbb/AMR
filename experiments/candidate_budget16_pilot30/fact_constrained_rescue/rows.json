@@ -1,0 +1,258 @@
+[
+  {
+    "index": 6,
+    "candidate_index": 0,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "The assignment of the arts and culture position was a surprise to me, and it surprised me with something. Also, the arts and culture position assignment surprised me, and it surprised me with an idea. There was a surprise to be given something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 6,
+    "candidate_index": 1,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "The arts and culture position assignment surprised me, and it was a surprise to me. It also surprised me with something, and it surprised me with an idea. There was a surprise to be given something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 6,
+    "candidate_index": 2,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "I was surprised by the assignment of the arts and culture position, and that assignment surprised me with something. The arts and culture position assignment also surprised me with an idea, and there was a surprise to be given something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 6,
+    "candidate_index": 3,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "The assignment of the arts and culture position was a surprise to me, and the arts and culture position assignment surprised me. Additionally, it surprised me with something and with an idea, and there was a surprise to be given something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 6,
+    "candidate_index": 4,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "There was a surprise to be given something, and the arts and culture position assignment surprised me. That assignment was a surprise to me, and it surprised me with something and with an idea.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 6,
+    "candidate_index": 5,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "The arts and culture position assignment surprised me with an idea, and it also surprised me with something. The assignment was a surprise to me, and there was a surprise to be given something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 6,
+    "candidate_index": 6,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "The assignment of the arts and culture position surprised me with something, and the arts and culture position assignment surprised me with an idea. It was a surprise to me, and there was a surprise to be given something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 6,
+    "candidate_index": 7,
+    "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+    "attack": "The arts and culture position assignment surprised me, and it was a surprise to me. It surprised me with something and with an idea, and there was a surprise to be given something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 14,
+    "candidate_index": 0,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "WebMD Health Corp. was held in 2015 by someone for something, and it is important for something, and it is important for something, and it is important for something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 14,
+    "candidate_index": 1,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "In 2015, someone held WebMD Health Corp. for something. WebMD Health Corp. is important for something, is important for something, and is important for something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 14,
+    "candidate_index": 2,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "WebMD Health Corp. is important for something, is important for something, and is important for something. Additionally, someone held WebMD Health Corp. for something in 2015.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 14,
+    "candidate_index": 3,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "Someone held WebMD Health Corp. for something in 2015. WebMD Health Corp. is important for something; it is also important for something and important for something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 14,
+    "candidate_index": 4,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "WebMD Health Corp. was held by someone for something in 2015. The company is important for something, important for something, and important for something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 14,
+    "candidate_index": 5,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "In 2015, WebMD Health Corp. was held for something by someone. It is important for something, important for something, and important for something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 14,
+    "candidate_index": 6,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "WebMD Health Corp. is important for something, important for something, and important for something. Also, in 2015, someone held it for something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 14,
+    "candidate_index": 7,
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "attack": "Someone held WebMD Health Corp. for something, and that happened in 2015. WebMD Health Corp. is important for something, is important for something, and is important for something.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 16,
+    "candidate_index": 0,
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "attack": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 16,
+    "candidate_index": 1,
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "attack": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 16,
+    "candidate_index": 2,
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "attack": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 16,
+    "candidate_index": 3,
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "attack": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 16,
+    "candidate_index": 4,
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "attack": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 16,
+    "candidate_index": 5,
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "attack": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 16,
+    "candidate_index": 6,
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "attack": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 16,
+    "candidate_index": 7,
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "attack": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 20,
+    "candidate_index": 0,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "The new deputy area commander of Aylesbury made himself approachable.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 20,
+    "candidate_index": 1,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "Aylesbury's new deputy area commander made himself approachable.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 20,
+    "candidate_index": 2,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "The deputy area commander, who is new, made himself approachable in Aylesbury.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 20,
+    "candidate_index": 3,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "Making himself approachable was done by Aylesbury's new deputy area commander.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 20,
+    "candidate_index": 4,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "The new deputy area commander for Aylesbury made himself approachable.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 20,
+    "candidate_index": 5,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "Aylesbury's deputy area commander, being new, made himself approachable.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 20,
+    "candidate_index": 6,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "The deputy area commander who is new to Aylesbury made himself approachable.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  },
+  {
+    "index": 20,
+    "candidate_index": 7,
+    "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+    "attack": "It was Aylesbury's new deputy area commander who made himself approachable.",
+    "numbers_preserved": true,
+    "negation_preserved": true
+  }
+]

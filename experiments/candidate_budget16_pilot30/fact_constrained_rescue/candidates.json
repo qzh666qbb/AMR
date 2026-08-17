@@ -1,0 +1,144 @@
+{
+  "protocol": {
+    "hard_indices": [
+      6,
+      14,
+      16,
+      20
+    ],
+    "candidates_per_paragraph": 8
+  },
+  "records": [
+    {
+      "index": 6,
+      "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+      "atomic_claims": [
+        "There was a surprise to be given something.",
+        "The assignment of the arts and culture position was a surprise to me.",
+        "The assignment of the arts and culture position surprised me with something.",
+        "The arts and culture position assignment surprised me.",
+        "The arts and culture position assignment surprised me with an idea."
+      ],
+      "candidates": [
+        "The assignment of the arts and culture position was a surprise to me, and it surprised me with something. Also, the arts and culture position assignment surprised me, and it surprised me with an idea. There was a surprise to be given something.",
+        "The arts and culture position assignment surprised me, and it was a surprise to me. It also surprised me with something, and it surprised me with an idea. There was a surprise to be given something.",
+        "I was surprised by the assignment of the arts and culture position, and that assignment surprised me with something. The arts and culture position assignment also surprised me with an idea, and there was a surprise to be given something.",
+        "The assignment of the arts and culture position was a surprise to me, and the arts and culture position assignment surprised me. Additionally, it surprised me with something and with an idea, and there was a surprise to be given something.",
+        "There was a surprise to be given something, and the arts and culture position assignment surprised me. That assignment was a surprise to me, and it surprised me with something and with an idea.",
+        "The arts and culture position assignment surprised me with an idea, and it also surprised me with something. The assignment was a surprise to me, and there was a surprise to be given something.",
+        "The assignment of the arts and culture position surprised me with something, and the arts and culture position assignment surprised me with an idea. It was a surprise to me, and there was a surprise to be given something.",
+        "The arts and culture position assignment surprised me, and it was a surprise to me. It surprised me with something and with an idea, and there was a surprise to be given something."
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 330,
+        "completion_tokens": 438,
+        "total_tokens": 768,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 330
+      }
+    },
+    {
+      "index": 14,
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "atomic_claims": [
+        "Someone holds WebMD Health Corp. for something.",
+        "WebMD Health Corp. is important for something.",
+        "WebMD Health Corp. was held in 2015.",
+        "WebMD Health Corp. is important for something.",
+        "WebMD Health Corp. is important for something."
+      ],
+      "candidates": [
+        "WebMD Health Corp. was held in 2015 by someone for something, and it is important for something, and it is important for something, and it is important for something.",
+        "In 2015, someone held WebMD Health Corp. for something. WebMD Health Corp. is important for something, is important for something, and is important for something.",
+        "WebMD Health Corp. is important for something, is important for something, and is important for something. Additionally, someone held WebMD Health Corp. for something in 2015.",
+        "Someone held WebMD Health Corp. for something in 2015. WebMD Health Corp. is important for something; it is also important for something and important for something.",
+        "WebMD Health Corp. was held by someone for something in 2015. The company is important for something, important for something, and important for something.",
+        "In 2015, WebMD Health Corp. was held for something by someone. It is important for something, important for something, and important for something.",
+        "WebMD Health Corp. is important for something, important for something, and important for something. Also, in 2015, someone held it for something.",
+        "Someone held WebMD Health Corp. for something, and that happened in 2015. WebMD Health Corp. is important for something, is important for something, and is important for something."
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 325,
+        "completion_tokens": 377,
+        "total_tokens": 702,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 325
+      }
+    },
+    {
+      "index": 16,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "atomic_claims": [
+        "BlackRock Inc. operates globally.",
+        "Define BlackRock Inc. as something.",
+        "Define BlackRock Inc.",
+        "BlackRock Inc. operates something.",
+        "BlackRock Inc. is something about BlackRock Inc."
+      ],
+      "candidates": [
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc."
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 311,
+        "completion_tokens": 391,
+        "total_tokens": 702,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 311
+      }
+    },
+    {
+      "index": 20,
+      "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+      "atomic_claims": [
+        "Aylesbury has a deputy area commander.",
+        "The deputy area commander is new.",
+        "The deputy area commander made himself approachable.",
+        "The making approachable happened in the past.",
+        "The deputy area commander is associated with Aylesbury.",
+        "The action of making approachable was directed at himself.",
+        "The deputy area commander is singular.",
+        "The event is reported as a fact."
+      ],
+      "candidates": [
+        "The new deputy area commander of Aylesbury made himself approachable.",
+        "Aylesbury's new deputy area commander made himself approachable.",
+        "The deputy area commander, who is new, made himself approachable in Aylesbury.",
+        "Making himself approachable was done by Aylesbury's new deputy area commander.",
+        "The new deputy area commander for Aylesbury made himself approachable.",
+        "Aylesbury's deputy area commander, being new, made himself approachable.",
+        "The deputy area commander who is new to Aylesbury made himself approachable.",
+        "It was Aylesbury's new deputy area commander who made himself approachable."
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 332,
+        "completion_tokens": 249,
+        "total_tokens": 581,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 332
+      }
+    }
+  ]
+}

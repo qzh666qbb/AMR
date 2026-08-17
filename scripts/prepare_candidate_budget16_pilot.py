@@ -9,12 +9,14 @@ from datasets import Dataset
 from nltk.tokenize import sent_tokenize
 
 
-def numbers(text: str) -> list[str]:
-    return re.findall(r"\b\d+(?:[.,]\d+)*\b", text)
+def numbers(text: str) -> set[str]:
+    """Distinct numeric facts; repeated source sentences need not remain duplicated."""
+    return set(re.findall(r"\b\d+(?:[.,]\d+)*\b", text))
 
 
-def negations(text: str) -> int:
-    return len(re.findall(r"\b(?:no|not|never|neither|nor|without|n't)\b", text, flags=re.I))
+def negations(text: str) -> bool:
+    """Polarity-presence gate, not a repetition-count constraint."""
+    return bool(re.search(r"\b(?:no|not|never|neither|nor|without|n't)\b", text, flags=re.I))
 
 
 root = Path(__file__).resolve().parents[1]

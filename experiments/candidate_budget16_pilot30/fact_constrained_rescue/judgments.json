@@ -1,0 +1,468 @@
+{
+  "protocol": {
+    "temperature": 0.0,
+    "blinded_to_detector_scores": true
+  },
+  "groups": [
+    {
+      "source_index": 6,
+      "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+      "candidates": [
+        "The assignment of the arts and culture position was a surprise to me, and it surprised me with something. Also, the arts and culture position assignment surprised me, and it surprised me with an idea. There was a surprise to be given something.",
+        "The arts and culture position assignment surprised me, and it was a surprise to me. It also surprised me with something, and it surprised me with an idea. There was a surprise to be given something.",
+        "I was surprised by the assignment of the arts and culture position, and that assignment surprised me with something. The arts and culture position assignment also surprised me with an idea, and there was a surprise to be given something.",
+        "The assignment of the arts and culture position was a surprise to me, and the arts and culture position assignment surprised me. Additionally, it surprised me with something and with an idea, and there was a surprise to be given something.",
+        "There was a surprise to be given something, and the arts and culture position assignment surprised me. That assignment was a surprise to me, and it surprised me with something and with an idea.",
+        "The arts and culture position assignment surprised me with an idea, and it also surprised me with something. The assignment was a surprise to me, and there was a surprise to be given something.",
+        "The assignment of the arts and culture position surprised me with something, and the arts and culture position assignment surprised me with an idea. It was a surprise to me, and there was a surprise to be given something.",
+        "The arts and culture position assignment surprised me, and it was a surprise to me. It surprised me with something and with an idea, and there was a surprise to be given something."
+      ],
+      "reviews": [
+        {
+          "candidate": 0,
+          "meaning_preserved": false,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 4,
+          "readability_score": 2,
+          "reason": "Reorders propositions awkwardly and adds 'There was a surprise to be given something' as a separate claim, but all original propositions are present. However, the concatenation is unnatural and the meaning is muddled."
+        },
+        {
+          "candidate": 1,
+          "meaning_preserved": false,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 4,
+          "readability_score": 2,
+          "reason": "All propositions are present but the sentence is a repetitive, awkward list. The phrase 'There was a surprise to be given something' is added as a separate clause, creating a new proposition."
+        },
+        {
+          "candidate": 2,
+          "meaning_preserved": false,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 4,
+          "readability_score": 2,
+          "reason": "Adds 'that assignment surprised me with something' which is a new proposition not in the source. The final clause 'there was a surprise to be given something' is also an addition. The sentence is awkward."
+        },
+        {
+          "candidate": 3,
+          "meaning_preserved": false,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 4,
+          "readability_score": 2,
+          "reason": "All original propositions are present, but the final 'there was a surprise to be given something' is an added proposition. The sentence is a run-on and unnatural."
+        },
+        {
+          "candidate": 4,
+          "meaning_preserved": false,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 4,
+          "readability_score": 2,
+          "reason": "Starts with 'There was a surprise to be given something' which is an added proposition. The rest is a reordering but the sentence is awkward and not coherent."
+        },
+        {
+          "candidate": 5,
+          "meaning_preserved": false,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 4,
+          "readability_score": 2,
+          "reason": "All original propositions are present, but the final 'there was a surprise to be given something' is an added proposition. The sentence is a list-like concatenation."
+        },
+        {
+          "candidate": 6,
+          "meaning_preserved": false,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 4,
+          "readability_score": 2,
+          "reason": "All original propositions are present, but the final 'there was a surprise to be given something' is an added proposition. The sentence is awkward and not natural."
+        },
+        {
+          "candidate": 7,
+          "meaning_preserved": false,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 4,
+          "readability_score": 2,
+          "reason": "All original propositions are present, but the final 'there was a surprise to be given something' is an added proposition. The sentence is a repetitive, unnatural concatenation."
+        }
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 649,
+        "completion_tokens": 896,
+        "total_tokens": 1545,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 649
+      }
+    },
+    {
+      "source_index": 14,
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "candidates": [
+        "WebMD Health Corp. was held in 2015 by someone for something, and it is important for something, and it is important for something, and it is important for something.",
+        "In 2015, someone held WebMD Health Corp. for something. WebMD Health Corp. is important for something, is important for something, and is important for something.",
+        "WebMD Health Corp. is important for something, is important for something, and is important for something. Additionally, someone held WebMD Health Corp. for something in 2015.",
+        "Someone held WebMD Health Corp. for something in 2015. WebMD Health Corp. is important for something; it is also important for something and important for something.",
+        "WebMD Health Corp. was held by someone for something in 2015. The company is important for something, important for something, and important for something.",
+        "In 2015, WebMD Health Corp. was held for something by someone. It is important for something, important for something, and important for something.",
+        "WebMD Health Corp. is important for something, important for something, and important for something. Also, in 2015, someone held it for something.",
+        "Someone held WebMD Health Corp. for something, and that happened in 2015. WebMD Health Corp. is important for something, is important for something, and is important for something."
+      ],
+      "reviews": [
+        {
+          "candidate": 0,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 4,
+          "factual_score": 5,
+          "readability_score": 2,
+          "reason": "All propositions are present, but the repeated 'and it is important' is awkward and unnatural."
+        },
+        {
+          "candidate": 1,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 4,
+          "reason": "Clear and grammatical, though the repeated 'is important' is slightly repetitive but acceptable."
+        },
+        {
+          "candidate": 2,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 4,
+          "reason": "All facts present, reordered logically. The 'Additionally' transition is fine."
+        },
+        {
+          "candidate": 3,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 4,
+          "reason": "Grammatical and coherent, though the semicolon and 'it is also' is slightly formal but natural."
+        },
+        {
+          "candidate": 4,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 4,
+          "reason": "All facts preserved, 'The company' is a clear anaphor. Slightly repetitive but readable."
+        },
+        {
+          "candidate": 5,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 4,
+          "reason": "Clear and grammatical, though the passive 'was held for something by someone' is a bit awkward but acceptable."
+        },
+        {
+          "candidate": 6,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 4,
+          "reason": "All facts present, 'Also, in 2015' is natural. Repetition of 'important' is mild."
+        },
+        {
+          "candidate": 7,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 4,
+          "reason": "All propositions included, 'and that happened in 2015' is a bit wordy but grammatical."
+        }
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 588,
+        "completion_tokens": 769,
+        "total_tokens": 1357,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 588
+      }
+    },
+    {
+      "source_index": 16,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "candidates": [
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc."
+      ],
+      "reviews": [
+        {
+          "candidate": 0,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 1,
+          "reason": "Identical to source, which is not natural English due to placeholder phrases like 'as something' and 'is something about'."
+        },
+        {
+          "candidate": 1,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 1,
+          "reason": "Identical to source, same awkward placeholder structure."
+        },
+        {
+          "candidate": 2,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 1,
+          "reason": "Identical to source, not coherent natural English."
+        },
+        {
+          "candidate": 3,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 1,
+          "reason": "Identical to source, placeholder phrases make it unnatural."
+        },
+        {
+          "candidate": 4,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 1,
+          "reason": "Identical to source, no improvement in readability."
+        },
+        {
+          "candidate": 5,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 1,
+          "reason": "Identical to source, awkward concatenation of placeholder sentences."
+        },
+        {
+          "candidate": 6,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 1,
+          "reason": "Identical to source, not grammatical or coherent as natural English."
+        },
+        {
+          "candidate": 7,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 1,
+          "reason": "Identical to source, fails readability due to placeholder wording."
+        }
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 598,
+        "completion_tokens": 706,
+        "total_tokens": 1304,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 598
+      }
+    },
+    {
+      "source_index": 20,
+      "source": "Aylesbury's new deputy area commander is making himself approachable. Aylesbury's new deputy area commander made approachable. The deputy area commander made himself approachable. The new deputy area commander made himself approachable. The deputy area commander made himself approachable to one Aylesbury.",
+      "candidates": [
+        "The new deputy area commander of Aylesbury made himself approachable.",
+        "Aylesbury's new deputy area commander made himself approachable.",
+        "The deputy area commander, who is new, made himself approachable in Aylesbury.",
+        "Making himself approachable was done by Aylesbury's new deputy area commander.",
+        "The new deputy area commander for Aylesbury made himself approachable.",
+        "Aylesbury's deputy area commander, being new, made himself approachable.",
+        "The deputy area commander who is new to Aylesbury made himself approachable.",
+        "It was Aylesbury's new deputy area commander who made himself approachable."
+      ],
+      "reviews": [
+        {
+          "candidate": 0,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "All source propositions preserved: new deputy area commander, Aylesbury, made himself approachable. No additions or changes."
+        },
+        {
+          "candidate": 1,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Exact match to source's main proposition. All facts and roles intact."
+        },
+        {
+          "candidate": 2,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Adds 'in Aylesbury' which is implied by source's 'Aylesbury's' - no new fact. All roles and events preserved."
+        },
+        {
+          "candidate": 3,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 4,
+          "factual_score": 5,
+          "readability_score": 2,
+          "reason": "Meaning and facts preserved, but passive construction is awkward and unnatural for this content."
+        },
+        {
+          "candidate": 4,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "All propositions and roles intact. 'For Aylesbury' is equivalent to 'of Aylesbury' - no change."
+        },
+        {
+          "candidate": 5,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "All facts preserved. 'Being new' is a natural way to express the same attribute. No new propositions."
+        },
+        {
+          "candidate": 6,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 2,
+          "readability_score": 5,
+          "reason": "Changes meaning: 'new to Aylesbury' implies the commander is new to the area, not that the position is new. Source says 'new deputy area commander' - a new role, not a person new to the location."
+        },
+        {
+          "candidate": 7,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Cleft construction preserves all propositions and roles. No additions or changes."
+        }
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 438,
+        "completion_tokens": 800,
+        "total_tokens": 1238,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 438
+      }
+    }
+  ]
+}
