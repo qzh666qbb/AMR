@@ -1,0 +1,1356 @@
+{
+  "matched_amrs": [
+    [
+      {
+        "score": 0.7390262385894415,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.8006117584718951,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.4897959183673469,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.5936097311491545,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.8007727475434461,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5599999999999999,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.6085872881330192,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5909090909090909,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.5553123291395317,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5527305286506066,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      }
+    ],
+    [
+      {
+        "score": 0.5936097311491545,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5553123291395317,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5217391304347826,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.6046511627906976,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.6148100786901957,
+        "best_matching_amr": "(x0 / N\n    :topic (x2 / NE\n               :name (x3 / N\n                         :op1 \"NE\"\n                         :op2 \"NE\"))\n    :mod (x1 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.6666666666666667,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\"\n                                 :op2 \"NE\")))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.4210526315789474,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.44067796610169496,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.4737690245576628,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      }
+    ],
+    [
+      {
+        "score": 0.4642857142857143,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.530367055083137,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      }
+    ],
+    [
+      {
+        "score": 0.5398763303098948,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      }
+    ],
+    [
+      {
+        "score": 0.5046670044201191,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      }
+    ],
+    [
+      {
+        "score": 0.4528301886792453,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.4814814814814815,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.4727272727272727,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.49268415905962765,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.4482758620689655,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.4714373822961217,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      }
+    ],
+    [
+      {
+        "score": 0.4210526315789474,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.4814814814814815,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.414547896487955,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      }
+    ],
+    [
+      {
+        "score": 0.45,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.631578947368421,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.55,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x5 / NE\n                        :name (x7 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / ADJ))"
+      }
+    ],
+    [
+      {
+        "score": 0.5161290322580645,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.5652173913043478,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.44012811297930865,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6563500882650849,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+      },
+      {
+        "score": 0.6629588188539213,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.75,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6581915859518199,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+      },
+      {
+        "score": 0.5439662103416789,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      },
+      {
+        "score": 0.8733946456057035,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.5228000641927891,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x5 / NE\n                        :name (x7 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / ADJ))"
+      },
+      {
+        "score": 0.6297482527586192,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\"\n                                 :op2 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7500000000000001,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.5553123291395317,
+        "best_matching_amr": "(x0 / ADJ\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7308924163262583,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6666666666666666,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.4705882352941176,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.7308924163262583,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5910546738401236,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.6581915859518199,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+      },
+      {
+        "score": 0.8733946456057035,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.7308924163262583,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.8733946456057035,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.5306122448979592,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.7500000000000001,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.7084667843534465,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.4761904761904762,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      },
+      {
+        "score": 0.8733946456057035,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.6923076923076923,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.8333333333333333,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.5333333333333333,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.7038223268326932,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+      },
+      {
+        "score": 0.7308924163262583,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.8733946456057035,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.631578947368421,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      },
+      {
+        "score": 0.7390262385894416,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.7308924163262583,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.657234366413792,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x5 / NE\n                        :name (x7 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / ADJ))"
+      }
+    ],
+    [
+      {
+        "score": 0.5201281129793087,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7172784251385617,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.7308924163262583,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6563500882650849,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5653566445427268,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7586206896551724,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.6923076923076923,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.8333333333333333,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.5161290322580645,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.7390262385894416,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7308924163262583,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.6666666666666666,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+      },
+      {
+        "score": 0.7172784251385617,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.6177412595436094,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.9546910374764871,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.7161758474559337,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6046511627906976,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.5263157894736842,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      }
+    ],
+    [
+      {
+        "score": 0.6666666666666666,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5909090909090909,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.8733946456057035,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.6842105263157895,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5936097311491545,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.7555555555555555,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.6666666666666666,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.6428571428571429,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.6,
+        "best_matching_amr": "(x0 / N\n    :mod (x1 / N)\n    :mod (x2 / X))"
+      },
+      {
+        "score": 0.8485872881330192,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.6250000000000001,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.6829268292682927,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.761904761904762,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7390262385894414,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6923076923076923,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.7222222222222222,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5738227401108493,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7172784251385615,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.6635442685085652,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5676541303914249,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6666666666666666,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.7559633945368188,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6956521739130435,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6511627906976744,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.923076923076923,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.7824855546966126,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.7245086763488322,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      },
+      {
+        "score": 0.6004588188539212,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.7027027027027027,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7272727272727274,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6046511627906976,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.7894736842105262,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6006673728784309,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6222222222222223,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.6808510638297872,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.5405405405405405,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.8159493155125185,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      }
+    ],
+    [
+      {
+        "score": 0.755963394536819,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5217391304347826,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.7824855546966126,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.755963394536819,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7172784251385615,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.6862386501187671,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\"\n                                 :op2 \"NE\")))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.730367055083137,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6341463414634146,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.6511627906976744,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.45161290322580644,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.6430859160344797,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6521739130434783,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.8333333333333334,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+      },
+      {
+        "score": 0.640489406777516,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.49079620010727343,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5957446808510638,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.56,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      }
+    ],
+    [
+      {
+        "score": 0.6206896551724139,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.4210526315789474,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.7242483732580247,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\"\n                                 :op2 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.4186046511627907,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.5909090909090909,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.5217391304347827,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.593850088265085,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.5,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.5454545454545454,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.5071560734441826,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.6666666666666666,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.4444444444444444,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.629748252758619,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.588235294117647,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5589177301318446,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.4615384615384615,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.6363636363636365,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.4444444444444444,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.6430859160344797,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5777777777777778,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.5635067482713141,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.6148100786901957,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"\n                        :op3 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.43478260869565216,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.6334400941494239,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.5416666666666667,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.6004588188539213,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6239612412742789,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6143121468883653,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.8626678617942676,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+      },
+      {
+        "score": 0.7368421052631579,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5916235261592496,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      },
+      {
+        "score": 0.6666666666666667,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.6198284581717897,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5238095238095238,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.6666666666666666,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+      }
+    ],
+    [
+      {
+        "score": 0.6292705811107372,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7000000000000001,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.4926841590596277,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6143121468883653,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5418001176867798,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.631578947368421,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.5454545454545454,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / N))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.7142857142857143,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7678901836104566,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+      },
+      {
+        "score": 0.606133777237871,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7009176377078424,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.7368421052631577,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      },
+      {
+        "score": 0.8452601224069709,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7272727272727272,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.6,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      }
+    ],
+    [
+      {
+        "score": 0.6666666666666666,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V)\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6363636363636364,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7368421052631577,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.6615079218837164,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.7692307692307692,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+      },
+      {
+        "score": 0.8452601224069709,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5945945945945946,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.73414901129586,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.5882352941176471,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7214682203325481,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+      },
+      {
+        "score": 0.689655172413793,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.7009176377078424,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.6428571428571429,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6511627906976744,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.8750000000000001,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+      }
+    ],
+    [
+      {
+        "score": 0.823529411764706,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      },
+      {
+        "score": 0.8750000000000001,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.8159493155125185,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+      },
+      {
+        "score": 0.5945945945945946,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.5945945945945946,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.689655172413793,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.5384615384615384,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.823529411764706,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      },
+      {
+        "score": 0.8197467715869277,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.7576672215473385,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+      },
+      {
+        "score": 0.6404894067775161,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.631578947368421,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.800611758471895,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\"\n                                 :op2 \"NE\")))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6198284581717897,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.6292705811107372,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7009176377078424,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.7407407407407408,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.5714285714285715,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      }
+    ],
+    [
+      {
+        "score": 0.4,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.4736842105263158,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.5,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.42857142857142855,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.48943267419723996,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.42857142857142855,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.4545454545454545,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.34615384615384615,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.39999999999999997,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.4444444444444444,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      }
+    ],
+    [
+      {
+        "score": 0.5263157894736841,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.5,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.4210526315789474,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.4390243902439025,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.3773584905660377,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.5714285714285714,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+      }
+    ],
+    [
+      {
+        "score": 0.4166666666666667,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      },
+      {
+        "score": 0.4098733857934638,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      }
+    ],
+    [
+      {
+        "score": 0.41535860012316594,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.5082570078202108,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.47058823529411764,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.33075396094185816,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\"))\n              :ARG3 (x5 / NE\n                        :name (x7 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / ADJ))"
+      }
+    ],
+    [
+      {
+        "score": 0.36,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.5555555555555556,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V)\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.4485872881330192,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.3636363636363636,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.50975828196934,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.4,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      }
+    ],
+    [
+      {
+        "score": 0.4390243902439025,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (p / V\n                          :ARG1 (s / N\n                                   :mod (c / NE\n                                           :name (n / N\n                                                    :op1 \"NE\")))))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.37108980983720674,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      }
+    ],
+    [
+      {
+        "score": 0.380952380952381,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.3825484934072329,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / N\n              :mod (x5 / X))\n    :ARG2 (x2 / ADJ\n              :ARG1 x1)\n    :ARG3 (x3 / N)\n    :ARG5 (x4 / N\n              :part-of (c / NE\n                          :name (n2 / N\n                                    :op1 \"NE\"))))"
+      }
+    ],
+    [
+      {
+        "score": 0.38095238095238093,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.8197467715869274,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      },
+      {
+        "score": 0.5714285714285715,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+      },
+      {
+        "score": 0.7116548964194621,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\"\n                                 :op2 \"NE\")))\n    :ARG2 (x2 / X))"
+      }
+    ],
+    [
+      {
+        "score": 0.38095238095238093,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      }
+    ],
+    [
+      {
+        "score": 0.4727272727272727,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.6000000000000001,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.7484644436228469,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+      },
+      {
+        "score": 0.4444444444444444,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.6666666666666666,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.7407407407407408,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))"
+      },
+      {
+        "score": 0.4848484848484849,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+      },
+      {
+        "score": 0.5882352941176471,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.4444444444444444,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+      },
+      {
+        "score": 0.7857142857142857,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+      }
+    ],
+    [
+      {
+        "score": 0.800611758471895,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+      },
+      {
+        "score": 0.5454545454545454,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / N))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.625,
+        "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))"
+      }
+    ]
+  ]
+}

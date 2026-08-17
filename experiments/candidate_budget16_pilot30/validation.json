@@ -1,0 +1,4338 @@
+{
+  "summary": {
+    "paragraphs": 30,
+    "candidates": 480,
+    "numbers_preserved": 418,
+    "negation_preserved": 443,
+    "duplicate_candidates": 0,
+    "sentence_delta_distribution": {
+      "-4": 223,
+      "-2": 123,
+      "-3": 71,
+      "-1": 44,
+      "0": 19
+    }
+  },
+  "rows": [
+    {
+      "index": 0,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 0,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 1,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 2,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 3,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 4,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 5,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 6,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 7,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 8,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 9,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 10,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 11,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 12,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 13,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 14,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 15,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 0,
+      "source_sentences": 4,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 1,
+      "source_sentences": 4,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 2,
+      "source_sentences": 4,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 3,
+      "source_sentences": 4,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 4,
+      "source_sentences": 4,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 5,
+      "source_sentences": 4,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 6,
+      "source_sentences": 4,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 7,
+      "source_sentences": 4,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 8,
+      "source_sentences": 4,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 9,
+      "source_sentences": 4,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 10,
+      "source_sentences": 4,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 11,
+      "source_sentences": 4,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 12,
+      "source_sentences": 4,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 13,
+      "source_sentences": 4,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 14,
+      "source_sentences": 4,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 16,
+      "candidate_index": 15,
+      "source_sentences": 4,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 17,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 18,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 19,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 20,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 21,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 22,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 23,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 24,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 25,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": false,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 26,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 27,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 28,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 0,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 1,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 2,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 3,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 4,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 5,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 6,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 7,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 8,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 9,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 10,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 11,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 12,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 13,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 14,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": false,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    },
+    {
+      "index": 29,
+      "candidate_index": 15,
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "numbers_preserved": true,
+      "negation_preserved": true,
+      "duplicate_within_paragraph": false
+    }
+  ]
+}
