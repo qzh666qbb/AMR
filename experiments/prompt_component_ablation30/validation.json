@@ -1,0 +1,1140 @@
+{
+  "summary": {
+    "weak": {
+      "n": 30,
+      "same_sentence_count": 22,
+      "fewer_sentences": 8,
+      "more_sentences": 0,
+      "numbers_preserved": 30,
+      "negation_preserved": 30,
+      "sentence_delta_distribution": {
+        "0": 22,
+        "-1": 5,
+        "-3": 2,
+        "-2": 1
+      }
+    },
+    "no_boundary": {
+      "n": 30,
+      "same_sentence_count": 23,
+      "fewer_sentences": 7,
+      "more_sentences": 0,
+      "numbers_preserved": 29,
+      "negation_preserved": 30,
+      "sentence_delta_distribution": {
+        "0": 23,
+        "-1": 6,
+        "-2": 1
+      }
+    },
+    "boundary_only": {
+      "n": 30,
+      "same_sentence_count": 0,
+      "fewer_sentences": 30,
+      "more_sentences": 0,
+      "numbers_preserved": 29,
+      "negation_preserved": 30,
+      "sentence_delta_distribution": {
+        "-3": 12,
+        "-2": 17,
+        "-4": 1
+      }
+    },
+    "full_e2": {
+      "n": 30,
+      "same_sentence_count": 9,
+      "fewer_sentences": 21,
+      "more_sentences": 0,
+      "numbers_preserved": 29,
+      "negation_preserved": 28,
+      "sentence_delta_distribution": {
+        "-3": 2,
+        "-1": 14,
+        "-2": 5,
+        "0": 9
+      }
+    }
+  },
+  "rows": [
+    {
+      "index": 0,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 0,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 0,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 0,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 1,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 1,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 1,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 1,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 2,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 2,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 2,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 2,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 3,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 3,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 3,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 3,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 4,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 4,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 4,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 4,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 5,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 5,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 5,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 5,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 6,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 6,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 6,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 6,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 7,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 7,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 7,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 7,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 8,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 8,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 8,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 8,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 9,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 9,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 9,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 9,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": false
+    },
+    {
+      "index": 10,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 10,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 10,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 10,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 11,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 11,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 11,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 11,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 12,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 12,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 12,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 12,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 13,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 13,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 13,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 13,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 14,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 14,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": false,
+      "negation_preserved": true
+    },
+    {
+      "index": 14,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 1,
+      "sentence_delta": -4,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 14,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": false
+    },
+    {
+      "index": 15,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 15,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 15,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": false,
+      "negation_preserved": true
+    },
+    {
+      "index": 15,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 16,
+      "strategy": "weak",
+      "source_sentences": 4,
+      "attack_sentences": 4,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 16,
+      "strategy": "no_boundary",
+      "source_sentences": 4,
+      "attack_sentences": 4,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 16,
+      "strategy": "boundary_only",
+      "source_sentences": 4,
+      "attack_sentences": 2,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 16,
+      "strategy": "full_e2",
+      "source_sentences": 4,
+      "attack_sentences": 4,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 17,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 17,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 17,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 17,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": false,
+      "negation_preserved": true
+    },
+    {
+      "index": 18,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 18,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 18,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 18,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 19,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 19,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 19,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 19,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 20,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 20,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 20,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 20,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 21,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 21,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 21,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 21,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 22,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 22,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 22,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 22,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 23,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 23,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 23,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 23,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 24,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 24,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 24,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 24,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 25,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 25,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 25,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 25,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 26,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 26,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 26,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 3,
+      "sentence_delta": -2,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 26,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 27,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 27,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 27,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 27,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 28,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 28,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 28,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 28,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 4,
+      "sentence_delta": -1,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 29,
+      "strategy": "weak",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 29,
+      "strategy": "no_boundary",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 29,
+      "strategy": "boundary_only",
+      "source_sentences": 5,
+      "attack_sentences": 2,
+      "sentence_delta": -3,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    },
+    {
+      "index": 29,
+      "strategy": "full_e2",
+      "source_sentences": 5,
+      "attack_sentences": 5,
+      "sentence_delta": 0,
+      "numbers_preserved": true,
+      "negation_preserved": true
+    }
+  ]
+}

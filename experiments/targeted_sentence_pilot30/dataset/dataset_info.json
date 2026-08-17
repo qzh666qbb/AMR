@@ -1,0 +1,55 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "index": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "strategy": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "target_positions": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "source_sentence_count": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "attack_sentence_count": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "same_sentence_count": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "non_targets_verbatim": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "target_changed": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "minimum_green_flips_to_escape": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

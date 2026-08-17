@@ -1,0 +1,602 @@
+[
+  {
+    "review_id": 1,
+    "index": 15,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 2,
+    "index": 4,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 3,
+    "index": 4,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 4,
+    "index": 26,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 5,
+    "index": 2,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 6,
+    "index": 9,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 7,
+    "index": 12,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 8,
+    "index": 10,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 9,
+    "index": 29,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 10,
+    "index": 1,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 11,
+    "index": 4,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 12,
+    "index": 27,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 13,
+    "index": 18,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 14,
+    "index": 12,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 15,
+    "index": 2,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 16,
+    "index": 1,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 17,
+    "index": 14,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 18,
+    "index": 22,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 19,
+    "index": 2,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 20,
+    "index": 25,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 21,
+    "index": 17,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 22,
+    "index": 10,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 23,
+    "index": 15,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 24,
+    "index": 2,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 25,
+    "index": 9,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 26,
+    "index": 27,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 27,
+    "index": 5,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 28,
+    "index": 23,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 29,
+    "index": 17,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 30,
+    "index": 11,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 31,
+    "index": 27,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 32,
+    "index": 20,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 33,
+    "index": 24,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 34,
+    "index": 5,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 35,
+    "index": 3,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 36,
+    "index": 8,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 37,
+    "index": 21,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 38,
+    "index": 11,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 39,
+    "index": 6,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 40,
+    "index": 8,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 41,
+    "index": 7,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 42,
+    "index": 21,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 43,
+    "index": 24,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 44,
+    "index": 4,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 45,
+    "index": 11,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 46,
+    "index": 16,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 47,
+    "index": 18,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 48,
+    "index": 23,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 49,
+    "index": 10,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 50,
+    "index": 0,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 51,
+    "index": 16,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 52,
+    "index": 6,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 53,
+    "index": 12,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 54,
+    "index": 12,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 55,
+    "index": 27,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 56,
+    "index": 25,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 57,
+    "index": 23,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 58,
+    "index": 16,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 59,
+    "index": 26,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 60,
+    "index": 13,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 61,
+    "index": 13,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 62,
+    "index": 7,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 63,
+    "index": 1,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 64,
+    "index": 17,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 65,
+    "index": 22,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 66,
+    "index": 1,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 67,
+    "index": 9,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 68,
+    "index": 20,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 69,
+    "index": 18,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 70,
+    "index": 29,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 71,
+    "index": 18,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 72,
+    "index": 23,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 73,
+    "index": 5,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 74,
+    "index": 28,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 75,
+    "index": 0,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 76,
+    "index": 20,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 77,
+    "index": 26,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 78,
+    "index": 0,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 79,
+    "index": 15,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 80,
+    "index": 13,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 81,
+    "index": 26,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 82,
+    "index": 28,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 83,
+    "index": 20,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 84,
+    "index": 14,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 85,
+    "index": 19,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 86,
+    "index": 6,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 87,
+    "index": 13,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 88,
+    "index": 5,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 89,
+    "index": 3,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 90,
+    "index": 3,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 91,
+    "index": 14,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 92,
+    "index": 8,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 93,
+    "index": 22,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 94,
+    "index": 0,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 95,
+    "index": 29,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 96,
+    "index": 25,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 97,
+    "index": 7,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 98,
+    "index": 8,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 99,
+    "index": 17,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 100,
+    "index": 28,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 101,
+    "index": 24,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 102,
+    "index": 19,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 103,
+    "index": 11,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 104,
+    "index": 24,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 105,
+    "index": 22,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 106,
+    "index": 15,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 107,
+    "index": 25,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 108,
+    "index": 29,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 109,
+    "index": 21,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 110,
+    "index": 9,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 111,
+    "index": 21,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 112,
+    "index": 16,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 113,
+    "index": 19,
+    "strategy": "weak"
+  },
+  {
+    "review_id": 114,
+    "index": 6,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 115,
+    "index": 7,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 116,
+    "index": 28,
+    "strategy": "full_e2"
+  },
+  {
+    "review_id": 117,
+    "index": 14,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 118,
+    "index": 19,
+    "strategy": "boundary_only"
+  },
+  {
+    "review_id": 119,
+    "index": 3,
+    "strategy": "no_boundary"
+  },
+  {
+    "review_id": 120,
+    "index": 10,
+    "strategy": "boundary_only"
+  }
+]

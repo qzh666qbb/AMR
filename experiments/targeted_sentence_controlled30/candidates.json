@@ -1,0 +1,2685 @@
+{
+  "protocol": {
+    "model_requested": "deepseek-v4-flash",
+    "temperature": 0.7,
+    "paragraphs": 30,
+    "strategies": [
+      "top_margin",
+      "near_threshold",
+      "random_green"
+    ],
+    "one_api_call_per_paragraph_strategy": true,
+    "paragraph_reconstructed_locally": true
+  },
+  "complete": false,
+  "rows": [
+    {
+      "index": 0,
+      "strategy": "top_margin",
+      "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "target_positions": [
+        2,
+        0
+      ],
+      "original_targets": [
+        "The cluster topic is about IBM Corporation.",
+        "IBM Corporation launched a server."
+      ],
+      "rewrites": [
+        "The subject of the cluster discussion concerns IBM Corporation.",
+        "A server was released by IBM Corporation."
+      ],
+      "attack": "A server was released by IBM Corporation. IBM Corporation. The subject of the cluster discussion concerns IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 25,
+        "total_tokens": 180,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      }
+    },
+    {
+      "index": 0,
+      "strategy": "near_threshold",
+      "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "target_positions": [
+        1,
+        4
+      ],
+      "original_targets": [
+        "IBM Corporation.",
+        "IBM Corporation."
+      ],
+      "rewrites": [
+        "The corporation known as IBM.",
+        "IBM is the corporation in question."
+      ],
+      "attack": "IBM Corporation launched a server. The corporation known as IBM. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM is the corporation in question.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 147,
+        "completion_tokens": 20,
+        "total_tokens": 167,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 147
+      }
+    },
+    {
+      "index": 1,
+      "strategy": "top_margin",
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "target_positions": [
+        1,
+        3
+      ],
+      "original_targets": [
+        "The organization earned something.",
+        "The organization earned something."
+      ],
+      "rewrites": [
+        "Something was earned by the organization.",
+        "There was something that the organization earned."
+      ],
+      "attack": "Make the report transparent. Something was earned by the organization. Prasar Bharti earned something at some time. There was something that the organization earned. Prasar Bharti earned only something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 22,
+        "total_tokens": 173,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 151
+      }
+    },
+    {
+      "index": 1,
+      "strategy": "near_threshold",
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "target_positions": [
+        0,
+        2
+      ],
+      "original_targets": [
+        "Make the report transparent.",
+        "Prasar Bharti earned something at some time."
+      ],
+      "rewrites": [
+        "The report should be made transparent.",
+        "At some point in time, Prasar Bharti earned something."
+      ],
+      "attack": "The report should be made transparent. The organization earned something. At some point in time, Prasar Bharti earned something. The organization earned something. Prasar Bharti earned only something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 157,
+        "completion_tokens": 27,
+        "total_tokens": 184,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 157
+      }
+    },
+    {
+      "index": 1,
+      "strategy": "random_green",
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "target_positions": [
+        1,
+        0
+      ],
+      "original_targets": [
+        "The organization earned something.",
+        "Make the report transparent."
+      ],
+      "rewrites": [
+        "The organization was the one that got something.",
+        "Transparency should be made part of the report."
+      ],
+      "attack": "Transparency should be made part of the report. The organization was the one that got something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 26,
+        "total_tokens": 177,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 151
+      }
+    },
+    {
+      "index": 2,
+      "strategy": "top_margin",
+      "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+      "target_positions": [
+        4,
+        2
+      ],
+      "original_targets": [
+        "A marketer defines Apple as a brand.",
+        "Marketers define the Apple brand as something."
+      ],
+      "rewrites": [
+        "As a brand, Apple is what a marketer defines.",
+        "Something is what marketers define the Apple brand as."
+      ],
+      "attack": "Marketers define something. Marketers define Apple. Something is what marketers define the Apple brand as. Define the Apple brand as a marketer. As a brand, Apple is what a marketer defines.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 29,
+        "total_tokens": 188,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 159
+      }
+    },
+    {
+      "index": 2,
+      "strategy": "near_threshold",
+      "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+      "target_positions": [
+        0,
+        3
+      ],
+      "original_targets": [
+        "Marketers define something.",
+        "Define the Apple brand as a marketer."
+      ],
+      "rewrites": [
+        "A definition is provided by marketers.",
+        "As a marketer, define the Apple brand."
+      ],
+      "attack": "A definition is provided by marketers. Marketers define Apple. Marketers define the Apple brand as something. As a marketer, define the Apple brand. A marketer defines Apple as a brand.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 24,
+        "total_tokens": 179,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      }
+    },
+    {
+      "index": 2,
+      "strategy": "random_green",
+      "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+      "target_positions": [
+        4,
+        2
+      ],
+      "original_targets": [
+        "A marketer defines Apple as a brand.",
+        "Marketers define the Apple brand as something."
+      ],
+      "rewrites": [
+        "Apple is defined by a marketer as a brand.",
+        "The Apple brand is what marketers define as something."
+      ],
+      "attack": "Marketers define something. Marketers define Apple. The Apple brand is what marketers define as something. Define the Apple brand as a marketer. Apple is defined by a marketer as a brand.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 28,
+        "total_tokens": 187,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 159
+      }
+    },
+    {
+      "index": 3,
+      "strategy": "top_margin",
+      "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "target_positions": [
+        1,
+        4
+      ],
+      "original_targets": [
+        "The library appointed Kim Rinaldi as a director.",
+        "The library appointed Kim Rinaldi as something."
+      ],
+      "rewrites": [
+        "Kim Rinaldi was named director by the library.",
+        "Something was what the library named Kim Rinaldi."
+      ],
+      "attack": "Middletown Township Public Library appointed Kim Rinaldi as something. Kim Rinaldi was named director by the library. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Something was what the library named Kim Rinaldi.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 29,
+        "total_tokens": 191,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 162
+      }
+    },
+    {
+      "index": 3,
+      "strategy": "near_threshold",
+      "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "target_positions": [
+        0,
+        2
+      ],
+      "original_targets": [
+        "Middletown Township Public Library appointed Kim Rinaldi as something.",
+        "Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown."
+      ],
+      "rewrites": [
+        "The library in Middletown Township had Kim Rinaldi named to a position by its board.",
+        "Kim Rinaldi was made the appointee of the library through an appointment by Middletown Township."
+      ],
+      "attack": "The library in Middletown Township had Kim Rinaldi named to a position by its board. The library appointed Kim Rinaldi as a director. Kim Rinaldi was made the appointee of the library through an appointment by Middletown Township. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 181,
+        "completion_tokens": 49,
+        "total_tokens": 230,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 181
+      }
+    },
+    {
+      "index": 3,
+      "strategy": "random_green",
+      "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "target_positions": [
+        3,
+        0
+      ],
+      "original_targets": [
+        "Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown.",
+        "Middletown Township Public Library appointed Kim Rinaldi as something."
+      ],
+      "rewrites": [
+        "The appointment of Kim Rinaldi by the Township of Middletown was made with the library as its appointee.",
+        "Kim Rinaldi was appointed by the Middletown Township Public Library to a certain role."
+      ],
+      "attack": "Kim Rinaldi was appointed by the Middletown Township Public Library to a certain role. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The appointment of Kim Rinaldi by the Township of Middletown was made with the library as its appointee. The library appointed Kim Rinaldi as something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 181,
+        "completion_tokens": 51,
+        "total_tokens": 232,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 181
+      }
+    },
+    {
+      "index": 4,
+      "strategy": "top_margin",
+      "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+      "target_positions": [
+        2,
+        4
+      ],
+      "original_targets": [
+        "The report states the World Health Organization.",
+        "The report states the World Health Organization."
+      ],
+      "rewrites": [
+        "The World Health Organization is mentioned in the report.",
+        "The World Health Organization is what the report mentions."
+      ],
+      "attack": "The report states something. Make your report detailed. The World Health Organization is mentioned in the report. The report states something. The World Health Organization is what the report mentions.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 157,
+        "completion_tokens": 27,
+        "total_tokens": 184,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 157
+      }
+    },
+    {
+      "index": 4,
+      "strategy": "near_threshold",
+      "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+      "target_positions": [
+        0,
+        3
+      ],
+      "original_targets": [
+        "The report states something.",
+        "The report states something."
+      ],
+      "rewrites": [
+        "Something is stated by the report.",
+        "The report makes a statement."
+      ],
+      "attack": "Something is stated by the report. Make your report detailed. The report states the World Health Organization. The report makes a statement. The report states the World Health Organization.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 20,
+        "total_tokens": 171,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 151
+      }
+    },
+    {
+      "index": 4,
+      "strategy": "random_green",
+      "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+      "target_positions": [
+        2,
+        0
+      ],
+      "original_targets": [
+        "The report states the World Health Organization.",
+        "The report states something."
+      ],
+      "rewrites": [
+        "According to the report, the World Health Organization is mentioned.",
+        "The report makes a statement."
+      ],
+      "attack": "The report makes a statement. Make your report detailed. According to the report, the World Health Organization is mentioned. The report states something. The report states the World Health Organization.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 154,
+        "completion_tokens": 25,
+        "total_tokens": 179,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 154
+      }
+    },
+    {
+      "index": 5,
+      "strategy": "top_margin",
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "target_positions": [
+        2,
+        0
+      ],
+      "original_targets": [
+        "A company shut down something.",
+        "Shut down your service."
+      ],
+      "rewrites": [
+        "A company caused something to be closed down.",
+        "Your service needs to be shut down."
+      ],
+      "attack": "Your service needs to be shut down. Shut down Allo. A company caused something to be closed down. Google shut down something in a service. Shut down your service.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 24,
+        "total_tokens": 177,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 153
+      }
+    },
+    {
+      "index": 5,
+      "strategy": "near_threshold",
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "target_positions": [
+        3,
+        1
+      ],
+      "original_targets": [
+        "Google shut down something in a service.",
+        "Shut down Allo."
+      ],
+      "rewrites": [
+        "The service experienced a shutdown initiated by Google.",
+        "Allo was discontinued."
+      ],
+      "attack": "Shut down your service. Allo was discontinued. A company shut down something. The service experienced a shutdown initiated by Google. Shut down your service.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 21,
+        "total_tokens": 176,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      }
+    },
+    {
+      "index": 5,
+      "strategy": "random_green",
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "target_positions": [
+        0,
+        2
+      ],
+      "original_targets": [
+        "Shut down your service.",
+        "A company shut down something."
+      ],
+      "rewrites": [
+        "Your service is being shut down.",
+        "Something was shut down by a company."
+      ],
+      "attack": "Your service is being shut down. Shut down Allo. Something was shut down by a company. Google shut down something in a service. Shut down your service.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 22,
+        "total_tokens": 175,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 153
+      }
+    },
+    {
+      "index": 7,
+      "strategy": "top_margin",
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "target_positions": [
+        4,
+        2
+      ],
+      "original_targets": [
+        "Give a presentation about Washington, D.C. to Washington.",
+        "A presentation was given to Washington, D.C."
+      ],
+      "rewrites": [
+        "Washington, D.C. was the topic of a presentation delivered to Washington.",
+        "Washington, D.C. received a presentation."
+      ],
+      "attack": "Someone gave Washington a presentation. Give someone a presentation. Washington, D.C. received a presentation. Someone gave Washington a presentation. Washington, D.C. was the topic of a presentation delivered to Washington.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 31,
+        "total_tokens": 194,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 163
+      }
+    },
+    {
+      "index": 7,
+      "strategy": "near_threshold",
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "target_positions": [
+        1,
+        0
+      ],
+      "original_targets": [
+        "Give someone a presentation.",
+        "Someone gave Washington a presentation."
+      ],
+      "rewrites": [
+        "Deliver a presentation to someone.",
+        "A presentation was given to Washington by someone."
+      ],
+      "attack": "A presentation was given to Washington by someone. Deliver a presentation to someone. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 152,
+        "completion_tokens": 23,
+        "total_tokens": 175,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 152
+      }
+    },
+    {
+      "index": 7,
+      "strategy": "random_green",
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "target_positions": [
+        2,
+        4
+      ],
+      "original_targets": [
+        "A presentation was given to Washington, D.C.",
+        "Give a presentation about Washington, D.C. to Washington."
+      ],
+      "rewrites": [
+        "Washington, D.C. was the recipient of a presentation.",
+        "A presentation concerning Washington, D.C. was delivered to Washington."
+      ],
+      "attack": "Someone gave Washington a presentation. Give someone a presentation. Washington, D.C. was the recipient of a presentation. Someone gave Washington a presentation. A presentation concerning Washington, D.C. was delivered to Washington.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 32,
+        "total_tokens": 195,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 163
+      }
+    },
+    {
+      "index": 8,
+      "strategy": "top_margin",
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "target_positions": [
+        2,
+        4
+      ],
+      "original_targets": [
+        "Something left New England to something.",
+        "Something left New England to a location."
+      ],
+      "rewrites": [
+        "A departure from New England occurred for something.",
+        "A location was the destination of something's departure from New England."
+      ],
+      "attack": "Keep the conversation serious. New England is vast in extent. A departure from New England occurred for something. Something left New England. A location was the destination of something's departure from New England.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 29,
+        "total_tokens": 185,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 156
+      }
+    },
+    {
+      "index": 8,
+      "strategy": "near_threshold",
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "target_positions": [
+        0,
+        1
+      ],
+      "original_targets": [
+        "Keep the conversation serious.",
+        "New England is vast in extent."
+      ],
+      "rewrites": [
+        "The conversation should be kept serious.",
+        "The extent of New England is vast."
+      ],
+      "attack": "The conversation should be kept serious. The extent of New England is vast. Something left New England to something. Something left New England. Something left New England to a location.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 22,
+        "total_tokens": 175,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 153
+      }
+    },
+    {
+      "index": 8,
+      "strategy": "random_green",
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "target_positions": [
+        4,
+        0
+      ],
+      "original_targets": [
+        "Something left New England to a location.",
+        "Keep the conversation serious."
+      ],
+      "rewrites": [
+        "A location was departed from by something in New England.",
+        "The conversation should be kept serious."
+      ],
+      "attack": "The conversation should be kept serious. New England is vast in extent. Something left New England to something. Something left New England. A location was departed from by something in New England.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 154,
+        "completion_tokens": 25,
+        "total_tokens": 179,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 154
+      }
+    },
+    {
+      "index": 9,
+      "strategy": "top_margin",
+      "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "target_positions": [
+        2,
+        0
+      ],
+      "original_targets": [
+        "Define ICYMI.",
+        "A person missed something."
+      ],
+      "rewrites": [
+        "What does ICYMI stand for?",
+        "There was something that an individual failed to catch."
+      ],
+      "attack": "There was something that an individual failed to catch. You missed the ICYMI abbreviation's definition. What does ICYMI stand for? Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 25,
+        "total_tokens": 176,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 151
+      }
+    },
+    {
+      "index": 9,
+      "strategy": "near_threshold",
+      "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "target_positions": [
+        4,
+        3
+      ],
+      "original_targets": [
+        "Define the ICYMI abbreviation now.",
+        "Define the abbreviation ICYMI."
+      ],
+      "rewrites": [
+        "State what ICYMI stands for at this moment.",
+        "Give the meaning that the abbreviation ICYMI has."
+      ],
+      "attack": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Give the meaning that the abbreviation ICYMI has. State what ICYMI stands for at this moment.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 29,
+        "total_tokens": 185,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 156
+      }
+    },
+    {
+      "index": 9,
+      "strategy": "random_green",
+      "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "target_positions": [
+        2,
+        4
+      ],
+      "original_targets": [
+        "Define ICYMI.",
+        "Define the ICYMI abbreviation now."
+      ],
+      "rewrites": [
+        "Could you tell me what ICYMI stands for?",
+        "I need the meaning of the abbreviation ICYMI right away."
+      ],
+      "attack": "A person missed something. You missed the ICYMI abbreviation's definition. Could you tell me what ICYMI stands for? Define the abbreviation ICYMI. I need the meaning of the abbreviation ICYMI right away.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 154,
+        "completion_tokens": 31,
+        "total_tokens": 185,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 154
+      }
+    },
+    {
+      "index": 10,
+      "strategy": "top_margin",
+      "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "target_positions": [
+        0,
+        1
+      ],
+      "original_targets": [
+        "Tell the jury the acquittal.",
+        "Tell the jury the acquittal."
+      ],
+      "rewrites": [
+        "The acquittal should be communicated to the jury.",
+        "Inform the jury of the acquittal."
+      ],
+      "attack": "The acquittal should be communicated to the jury. Inform the jury of the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 25,
+        "total_tokens": 180,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      }
+    },
+    {
+      "index": 10,
+      "strategy": "near_threshold",
+      "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "target_positions": [
+        3,
+        4
+      ],
+      "original_targets": [
+        "Tell the jury the acquittal of the widow about the nightclub.",
+        "Tell the jury the acquittal of the widow about the Pulse nightclub."
+      ],
+      "rewrites": [
+        "The jury should be told that the widow was acquitted regarding the nightclub.",
+        "The jury should be told that the widow was acquitted regarding the Pulse nightclub."
+      ],
+      "attack": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. The jury should be told that the widow was acquitted regarding the nightclub. The jury should be told that the widow was acquitted regarding the Pulse nightclub.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 170,
+        "completion_tokens": 40,
+        "total_tokens": 210,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 170
+      }
+    },
+    {
+      "index": 10,
+      "strategy": "random_green",
+      "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "target_positions": [
+        2,
+        0
+      ],
+      "original_targets": [
+        "Tell the jury the acquittal.",
+        "Tell the jury the acquittal."
+      ],
+      "rewrites": [
+        "The acquittal should be communicated to the jury.",
+        "Inform the jury of the acquittal."
+      ],
+      "attack": "Inform the jury of the acquittal. Tell the jury the acquittal. The acquittal should be communicated to the jury. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 25,
+        "total_tokens": 180,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      }
+    },
+    {
+      "index": 11,
+      "strategy": "top_margin",
+      "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "target_positions": [
+        2,
+        3
+      ],
+      "original_targets": [
+        "Tell QVC something about Black Friday.",
+        "QVC's aggressive something."
+      ],
+      "rewrites": [
+        "Something about Black Friday is what QVC should be told.",
+        "QVC's something is aggressive."
+      ],
+      "attack": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Something about Black Friday is what QVC should be told. QVC's something is aggressive. QVC plans something for Black Friday.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 26,
+        "total_tokens": 181,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      }
+    },
+    {
+      "index": 11,
+      "strategy": "near_threshold",
+      "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "target_positions": [
+        1,
+        0
+      ],
+      "original_targets": [
+        "QVC plans something for Black Friday aggressively.",
+        "QVC is aggressive to an extent."
+      ],
+      "rewrites": [
+        "QVC is planning something aggressively for Black Friday.",
+        "QVC's aggressiveness is limited."
+      ],
+      "attack": "QVC's aggressiveness is limited. QVC is planning something aggressively for Black Friday. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 25,
+        "total_tokens": 183,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 158
+      }
+    },
+    {
+      "index": 11,
+      "strategy": "random_green",
+      "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "target_positions": [
+        3,
+        0
+      ],
+      "original_targets": [
+        "QVC's aggressive something.",
+        "QVC is aggressive to an extent."
+      ],
+      "rewrites": [
+        "QVC engages in aggressive behavior of some kind.",
+        "There is a degree to which QVC is aggressive."
+      ],
+      "attack": "There is a degree to which QVC is aggressive. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC engages in aggressive behavior of some kind. QVC plans something for Black Friday.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 28,
+        "total_tokens": 183,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      }
+    },
+    {
+      "index": 12,
+      "strategy": "top_margin",
+      "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+      "target_positions": [
+        4,
+        1
+      ],
+      "original_targets": [
+        "Someone describes Malala Yousafzai to a community.",
+        "Malala Yousafzai describes something."
+      ],
+      "rewrites": [
+        "A community is given a description of Malala Yousafzai by someone.",
+        "Something is described by Malala Yousafzai."
+      ],
+      "attack": "Malala Yousafzai is brilliant in academics. Something is described by Malala Yousafzai. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. A community is given a description of Malala Yousafzai by someone.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 164,
+        "completion_tokens": 36,
+        "total_tokens": 200,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 164
+      }
+    },
+    {
+      "index": 12,
+      "strategy": "near_threshold",
+      "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+      "target_positions": [
+        0,
+        3
+      ],
+      "original_targets": [
+        "Malala Yousafzai is brilliant in academics.",
+        "Malala Yousafzai describes something in 2024."
+      ],
+      "rewrites": [
+        "Academically, Malala Yousafzai shows brilliance.",
+        "In 2024, there is something described by Malala Yousafzai."
+      ],
+      "attack": "Academically, Malala Yousafzai shows brilliance. Malala Yousafzai describes something. Brilliant Malala Yousafzai. In 2024, there is something described by Malala Yousafzai. Someone describes Malala Yousafzai to a community.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 167,
+        "completion_tokens": 39,
+        "total_tokens": 206,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 167
+      }
+    },
+    {
+      "index": 12,
+      "strategy": "random_green",
+      "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+      "target_positions": [
+        3,
+        4
+      ],
+      "original_targets": [
+        "Malala Yousafzai describes something in 2024.",
+        "Someone describes Malala Yousafzai to a community."
+      ],
+      "rewrites": [
+        "In 2024, something is described by Malala Yousafzai.",
+        "A community receives a description of Malala Yousafzai."
+      ],
+      "attack": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. In 2024, something is described by Malala Yousafzai. A community receives a description of Malala Yousafzai.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 168,
+        "completion_tokens": 38,
+        "total_tokens": 206,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 168
+      }
+    },
+    {
+      "index": 14,
+      "strategy": "top_margin",
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "target_positions": [
+        0,
+        2
+      ],
+      "original_targets": [
+        "Someone holds WebMD Health Corp. for something.",
+        "WebMD Health Corp. was held in 2015."
+      ],
+      "rewrites": [
+        "WebMD Health Corp. is held by someone.",
+        "In 2015, WebMD Health Corp. was held."
+      ],
+      "attack": "WebMD Health Corp. is held by someone. WebMD Health Corp. is important for something. In 2015, WebMD Health Corp. was held. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 30,
+        "total_tokens": 193,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 163
+      }
+    },
+    {
+      "index": 14,
+      "strategy": "near_threshold",
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "target_positions": [
+        1,
+        3
+      ],
+      "original_targets": [
+        "WebMD Health Corp. is important for something.",
+        "WebMD Health Corp. is important for something."
+      ],
+      "rewrites": [
+        "There exists some purpose for which WebMD Health Corp. is significant.",
+        "WebMD Health Corp. serves a certain important role."
+      ],
+      "attack": "Someone holds WebMD Health Corp. for something. There exists some purpose for which WebMD Health Corp. is significant. WebMD Health Corp. was held in 2015. WebMD Health Corp. serves a certain important role. WebMD Health Corp. is important for something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 161,
+        "completion_tokens": 32,
+        "total_tokens": 193,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 161
+      }
+    },
+    {
+      "index": 14,
+      "strategy": "random_green",
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "target_positions": [
+        2,
+        0
+      ],
+      "original_targets": [
+        "WebMD Health Corp. was held in 2015.",
+        "Someone holds WebMD Health Corp. for something."
+      ],
+      "rewrites": [
+        "In 2015, WebMD Health Corp. was held by someone.",
+        "WebMD Health Corp. is held by someone for some reason."
+      ],
+      "attack": "WebMD Health Corp. is held by someone for some reason. WebMD Health Corp. is important for something. In 2015, WebMD Health Corp. was held by someone. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 35,
+        "total_tokens": 198,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 163
+      }
+    },
+    {
+      "index": 15,
+      "strategy": "top_margin",
+      "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "target_positions": [
+        0,
+        2
+      ],
+      "original_targets": [
+        "The conference held something.",
+        "The conference held an event named SocialDevCamp Chicago."
+      ],
+      "rewrites": [
+        "Something was held by the conference.",
+        "SocialDevCamp Chicago was an event that the conference held."
+      ],
+      "attack": "Something was held by the conference. Show an attendee a session about SocialDevCamp Chicago at the conference. SocialDevCamp Chicago was an event that the conference held. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 157,
+        "completion_tokens": 26,
+        "total_tokens": 183,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 157
+      }
+    },
+    {
+      "index": 15,
+      "strategy": "near_threshold",
+      "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "target_positions": [
+        1,
+        3
+      ],
+      "original_targets": [
+        "Show an attendee a session about SocialDevCamp Chicago at the conference.",
+        "SocialDevCamp Chicago held an event in 2024."
+      ],
+      "rewrites": [
+        "An attendee was shown a session about SocialDevCamp Chicago at the conference.",
+        "In 2024, an event was held by SocialDevCamp Chicago."
+      ],
+      "attack": "The conference held something. An attendee was shown a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. In 2024, an event was held by SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 168,
+        "completion_tokens": 38,
+        "total_tokens": 206,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 168
+      }
+    },
+    {
+      "index": 15,
+      "strategy": "random_green",
+      "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "target_positions": [
+        2,
+        0
+      ],
+      "original_targets": [
+        "The conference held an event named SocialDevCamp Chicago.",
+        "The conference held something."
+      ],
+      "rewrites": [
+        "SocialDevCamp Chicago was the name of an event that the conference organized.",
+        "There was something organized by the conference."
+      ],
+      "attack": "There was something organized by the conference. Show an attendee a session about SocialDevCamp Chicago at the conference. SocialDevCamp Chicago was the name of an event that the conference organized. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 157,
+        "completion_tokens": 30,
+        "total_tokens": 187,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 157
+      }
+    },
+    {
+      "index": 16,
+      "strategy": "top_margin",
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "target_positions": [
+        1
+      ],
+      "original_targets": [
+        "Define BlackRock Inc. as something."
+      ],
+      "rewrites": [
+        "Let BlackRock Inc. be defined as something."
+      ],
+      "attack": "BlackRock Inc. operates globally. Let BlackRock Inc. be defined as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "minimum_green_flips_to_escape": 1,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 16,
+        "total_tokens": 164,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 148
+      }
+    },
+    {
+      "index": 16,
+      "strategy": "near_threshold",
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "target_positions": [
+        2
+      ],
+      "original_targets": [
+        "Define BlackRock Inc. BlackRock Inc. operates something."
+      ],
+      "rewrites": [
+        "BlackRock Inc. is defined as an entity that is engaged in operations."
+      ],
+      "attack": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. BlackRock Inc. is defined as an entity that is engaged in operations. BlackRock Inc. is something about BlackRock Inc.",
+      "minimum_green_flips_to_escape": 1,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 152,
+        "completion_tokens": 21,
+        "total_tokens": 173,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 152
+      }
+    },
+    {
+      "index": 16,
+      "strategy": "random_green",
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "target_positions": [
+        1
+      ],
+      "original_targets": [
+        "Define BlackRock Inc. as something."
+      ],
+      "rewrites": [
+        "Provide a definition for BlackRock Inc."
+      ],
+      "attack": "BlackRock Inc. operates globally. Provide a definition for BlackRock Inc. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "minimum_green_flips_to_escape": 1,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 148,
+        "completion_tokens": 14,
+        "total_tokens": 162,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 148
+      }
+    },
+    {
+      "index": 17,
+      "strategy": "top_margin",
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "target_positions": [
+        2,
+        1
+      ],
+      "original_targets": [
+        "New York was sold to the home.",
+        "New York was sold in 2023."
+      ],
+      "rewrites": [
+        "The home was bought by New York.",
+        "In 2023, New York was sold."
+      ],
+      "attack": "The home was sold to New York in 2023. In 2023, New York was sold. The home was bought by New York. New York was sold in 2023. New York sold the home in 2023.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 25,
+        "total_tokens": 183,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 158
+      }
+    },
+    {
+      "index": 17,
+      "strategy": "near_threshold",
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "target_positions": [
+        0,
+        4
+      ],
+      "original_targets": [
+        "The home was sold to New York in 2023.",
+        "New York sold the home in 2023."
+      ],
+      "rewrites": [
+        "The sale of the home to New York occurred in 2023.",
+        "The home's sale by New York took place in 2023."
+      ],
+      "attack": "The sale of the home to New York occurred in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. The home's sale by New York took place in 2023.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 35,
+        "total_tokens": 198,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 163
+      }
+    },
+    {
+      "index": 17,
+      "strategy": "random_green",
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "target_positions": [
+        2,
+        4
+      ],
+      "original_targets": [
+        "New York was sold to the home.",
+        "New York sold the home in 2023."
+      ],
+      "rewrites": [
+        "The home was purchased by New York.",
+        "The home's sale was completed by New York in 2023."
+      ],
+      "attack": "The home was sold to New York in 2023. New York was sold in 2023. The home was purchased by New York. New York was sold in 2023. The home's sale was completed by New York in 2023.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 29,
+        "total_tokens": 188,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 159
+      }
+    },
+    {
+      "index": 18,
+      "strategy": "top_margin",
+      "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "target_positions": [
+        0,
+        1
+      ],
+      "original_targets": [
+        "A 2-to-2 ratio of something is defined as a concept.",
+        "The concept of NASCAR is defined as something."
+      ],
+      "rewrites": [
+        "A concept is what a 2-to-2 ratio of something is defined as.",
+        "NASCAR is defined as a concept, being something."
+      ],
+      "attack": "A concept is what a 2-to-2 ratio of something is defined as. NASCAR is defined as a concept, being something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 165,
+        "completion_tokens": 35,
+        "total_tokens": 200,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 165
+      }
+    },
+    {
+      "index": 18,
+      "strategy": "near_threshold",
+      "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "target_positions": [
+        3,
+        2
+      ],
+      "original_targets": [
+        "Define a concept as something.",
+        "The concept of NASCAR is defined as something at a time."
+      ],
+      "rewrites": [
+        "Something is defined as a concept.",
+        "At a time, NASCAR is defined as something."
+      ],
+      "attack": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. At a time, NASCAR is defined as something. Something is defined as a concept. The concept of NASCAR is defined as something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 24,
+        "total_tokens": 183,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 159
+      }
+    },
+    {
+      "index": 18,
+      "strategy": "random_green",
+      "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "target_positions": [
+        1,
+        3
+      ],
+      "original_targets": [
+        "The concept of NASCAR is defined as something.",
+        "Define a concept as something."
+      ],
+      "rewrites": [
+        "A concept is what the term NASCAR denotes.",
+        "Something is to be defined as a concept."
+      ],
+      "attack": "A 2-to-2 ratio of something is defined as a concept. A concept is what the term NASCAR denotes. The concept of NASCAR is defined as something at a time. Something is to be defined as a concept. The concept of NASCAR is defined as something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 25,
+        "total_tokens": 181,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 156
+      }
+    },
+    {
+      "index": 19,
+      "strategy": "top_margin",
+      "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "target_positions": [
+        0,
+        1
+      ],
+      "original_targets": [
+        "Jeff Deardorff has arrived at a location.",
+        "Jeff Deardorff arrived at a location."
+      ],
+      "rewrites": [
+        "A location was reached by Jeff Deardorff.",
+        "Jeff Deardorff made it to a location."
+      ],
+      "attack": "A location was reached by Jeff Deardorff. Jeff Deardorff made it to a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 29,
+        "total_tokens": 191,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 162
+      }
+    },
+    {
+      "index": 19,
+      "strategy": "near_threshold",
+      "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "target_positions": [
+        2,
+        0
+      ],
+      "original_targets": [
+        "Imagine a day arriving.",
+        "Jeff Deardorff has arrived at a location."
+      ],
+      "rewrites": [
+        "A day is being imagined as it comes.",
+        "Jeff Deardorff reached a certain place."
+      ],
+      "attack": "Jeff Deardorff reached a certain place. Jeff Deardorff arrived at a location. A day is being imagined as it comes. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 157,
+        "completion_tokens": 26,
+        "total_tokens": 183,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 157
+      }
+    },
+    {
+      "index": 19,
+      "strategy": "random_green",
+      "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "target_positions": [
+        4,
+        2
+      ],
+      "original_targets": [
+        "Jeff Deardorff arrived at a location.",
+        "Imagine a day arriving."
+      ],
+      "rewrites": [
+        "Jeff Deardorff reached a place.",
+        "A day was imagined arriving."
+      ],
+      "attack": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. A day was imagined arriving. Jeff Deardorff arrived at a location. Jeff Deardorff reached a place.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 22,
+        "total_tokens": 178,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 156
+      }
+    },
+    {
+      "index": 21,
+      "strategy": "top_margin",
+      "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "target_positions": [
+        1,
+        2
+      ],
+      "original_targets": [
+        "Order two military helicopters.",
+        "Order two military helicopters."
+      ],
+      "rewrites": [
+        "Procure a pair of military helicopters.",
+        "Acquire two military helicopters."
+      ],
+      "attack": "Order two military helicopters for the UAE. Procure a pair of military helicopters. Acquire two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 21,
+        "total_tokens": 172,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 151
+      }
+    },
+    {
+      "index": 21,
+      "strategy": "near_threshold",
+      "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "target_positions": [
+        4,
+        0
+      ],
+      "original_targets": [
+        "The UAE ordered two military helicopters from an entity.",
+        "Order two military helicopters for the UAE."
+      ],
+      "rewrites": [
+        "An entity was ordered to supply two military helicopters to the UAE.",
+        "The UAE is to receive two military helicopters, which were ordered."
+      ],
+      "attack": "The UAE is to receive two military helicopters, which were ordered. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. An entity was ordered to supply two military helicopters to the UAE.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 33,
+        "total_tokens": 192,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 159
+      }
+    },
+    {
+      "index": 21,
+      "strategy": "random_green",
+      "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "target_positions": [
+        4,
+        1
+      ],
+      "original_targets": [
+        "The UAE ordered two military helicopters from an entity.",
+        "Order two military helicopters."
+      ],
+      "rewrites": [
+        "An entity was the recipient of an order for two military helicopters placed by the UAE.",
+        "A procurement action for two military helicopters should be executed."
+      ],
+      "attack": "Order two military helicopters for the UAE. A procurement action for two military helicopters should be executed. Order two military helicopters. The UAE ordered two military helicopters recently. An entity was the recipient of an order for two military helicopters placed by the UAE.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 35,
+        "total_tokens": 191,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 156
+      }
+    },
+    {
+      "index": 22,
+      "strategy": "top_margin",
+      "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "target_positions": [
+        4,
+        3
+      ],
+      "original_targets": [
+        "Ask about Barack Obama.",
+        "Ask a lawmaker about Barack Obama."
+      ],
+      "rewrites": [
+        "Can you provide information on Barack Obama?",
+        "Could a member of Congress be questioned regarding Barack Obama?"
+      ],
+      "attack": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Could a member of Congress be questioned regarding Barack Obama? Can you provide information on Barack Obama?",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 154,
+        "completion_tokens": 26,
+        "total_tokens": 180,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 154
+      }
+    },
+    {
+      "index": 22,
+      "strategy": "near_threshold",
+      "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "target_positions": [
+        0,
+        1
+      ],
+      "original_targets": [
+        "The topic about Barack Obama is something.",
+        "Ask a lawmaker about the topic of Barack Obama in Washington."
+      ],
+      "rewrites": [
+        "Barack Obama is a subject that is discussed.",
+        "In Washington, a lawmaker can be questioned about Barack Obama."
+      ],
+      "attack": "Barack Obama is a subject that is discussed. In Washington, a lawmaker can be questioned about Barack Obama. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 30,
+        "total_tokens": 192,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 162
+      }
+    },
+    {
+      "index": 22,
+      "strategy": "random_green",
+      "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "target_positions": [
+        0,
+        3
+      ],
+      "original_targets": [
+        "The topic about Barack Obama is something.",
+        "Ask a lawmaker about Barack Obama."
+      ],
+      "rewrites": [
+        "Barack Obama is the subject of something.",
+        "A lawmaker should be asked about Barack Obama."
+      ],
+      "attack": "Barack Obama is the subject of something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. A lawmaker should be asked about Barack Obama. Ask about Barack Obama.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 157,
+        "completion_tokens": 26,
+        "total_tokens": 183,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 157
+      }
+    },
+    {
+      "index": 24,
+      "strategy": "top_margin",
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "target_positions": [
+        1,
+        0
+      ],
+      "original_targets": [
+        "Mario defined something.",
+        "Something defines Mario."
+      ],
+      "rewrites": [
+        "Mario was the one who defined something.",
+        "Something is what Mario is defined by."
+      ],
+      "attack": "Something is what Mario is defined by. Mario was the one who defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 24,
+        "total_tokens": 174,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 150
+      }
+    },
+    {
+      "index": 24,
+      "strategy": "near_threshold",
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "target_positions": [
+        4,
+        2
+      ],
+      "original_targets": [
+        "Mario defined something new.",
+        "Mario defined something at a location."
+      ],
+      "rewrites": [
+        "Mario came up with a novel concept.",
+        "Mario made an identification of something in a particular spot."
+      ],
+      "attack": "Something defines Mario. Mario defined something. Mario made an identification of something in a particular spot. Something defines Mario. Mario came up with a novel concept.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 28,
+        "total_tokens": 183,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      }
+    },
+    {
+      "index": 24,
+      "strategy": "random_green",
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "target_positions": [
+        4,
+        3
+      ],
+      "original_targets": [
+        "Mario defined something new.",
+        "Something defines Mario."
+      ],
+      "rewrites": [
+        "A novel concept was introduced by Mario.",
+        "Mario is defined by something."
+      ],
+      "attack": "Something defines Mario. Mario defined something. Mario defined something at a location. Mario is defined by something. A novel concept was introduced by Mario.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 22,
+        "total_tokens": 173,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 151
+      }
+    },
+    {
+      "index": 25,
+      "strategy": "top_margin",
+      "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+      "target_positions": [
+        2,
+        3
+      ],
+      "original_targets": [
+        "Give the team a win.",
+        "A win was built against Council Bluffs."
+      ],
+      "rewrites": [
+        "Secure a victory for the team.",
+        "Council Bluffs was the opponent against whom a win was secured."
+      ],
+      "attack": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Secure a victory for the team. Council Bluffs was the opponent against whom a win was secured. Council Bluffs is very great.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 27,
+        "total_tokens": 183,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 156
+      }
+    },
+    {
+      "index": 25,
+      "strategy": "near_threshold",
+      "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+      "target_positions": [
+        0,
+        4
+      ],
+      "original_targets": [
+        "Council Bluffs Marshalltown built a nine-run lead.",
+        "Council Bluffs is very great."
+      ],
+      "rewrites": [
+        "A nine-run lead was built by Council Bluffs Marshalltown.",
+        "Very great is Council Bluffs."
+      ],
+      "attack": "A nine-run lead was built by Council Bluffs Marshalltown. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Very great is Council Bluffs.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 27,
+        "total_tokens": 186,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 159
+      }
+    },
+    {
+      "index": 25,
+      "strategy": "random_green",
+      "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+      "target_positions": [
+        3,
+        2
+      ],
+      "original_targets": [
+        "A win was built against Council Bluffs.",
+        "Give the team a win."
+      ],
+      "rewrites": [
+        "Council Bluffs was defeated, resulting in a win.",
+        "The team should be given a victory."
+      ],
+      "attack": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. The team should be given a victory. Council Bluffs was defeated, resulting in a win. Council Bluffs is very great.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 156,
+        "completion_tokens": 26,
+        "total_tokens": 182,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 156
+      }
+    },
+    {
+      "index": 27,
+      "strategy": "top_margin",
+      "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "target_positions": [
+        0,
+        2
+      ],
+      "original_targets": [
+        "Someone gave DERA funding to a company.",
+        "Someone gave DERA funding to a company."
+      ],
+      "rewrites": [
+        "A company received funding from DERA, given by someone.",
+        "Funding for a company was provided by DERA, courtesy of someone."
+      ],
+      "attack": "A company received funding from DERA, given by someone. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Funding for a company was provided by DERA, courtesy of someone. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 33,
+        "total_tokens": 192,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 159
+      }
+    },
+    {
+      "index": 27,
+      "strategy": "near_threshold",
+      "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "target_positions": [
+        1,
+        3
+      ],
+      "original_targets": [
+        "Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency.",
+        "DERA funding was given to a company recently."
+      ],
+      "rewrites": [
+        "The program at the U.S. Environmental Protection Agency should be reauthorized with funding provided by DERA.",
+        "Recently, a company received funding from DERA."
+      ],
+      "attack": "Someone gave DERA funding to a company. The program at the U.S. Environmental Protection Agency should be reauthorized with funding provided by DERA. Someone gave DERA funding to a company. Recently, a company received funding from DERA. Someone gave DERA funding to a company.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 171,
+        "completion_tokens": 39,
+        "total_tokens": 210,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 171
+      }
+    },
+    {
+      "index": 27,
+      "strategy": "random_green",
+      "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "target_positions": [
+        4,
+        2
+      ],
+      "original_targets": [
+        "Someone gave DERA funding to a company.",
+        "Someone gave DERA funding to a company."
+      ],
+      "rewrites": [
+        "A company received funding from DERA, given by someone.",
+        "It was DERA that provided funding to a company, as someone did."
+      ],
+      "attack": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. It was DERA that provided funding to a company, as someone did. DERA funding was given to a company recently. A company received funding from DERA, given by someone.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 34,
+        "total_tokens": 193,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 159
+      }
+    },
+    {
+      "index": 28,
+      "strategy": "top_margin",
+      "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "target_positions": [
+        0,
+        2
+      ],
+      "original_targets": [
+        "Echo was released in 2008.",
+        "Cast a role in the horror movie."
+      ],
+      "rewrites": [
+        "It was in 2008 that Echo came out.",
+        "A role in the horror movie was cast."
+      ],
+      "attack": "It was in 2008 that Echo came out. Someone cast something in Echo. A role in the horror movie was cast. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 27,
+        "total_tokens": 185,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 158
+      }
+    },
+    {
+      "index": 28,
+      "strategy": "near_threshold",
+      "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "target_positions": [
+        3,
+        4
+      ],
+      "original_targets": [
+        "A role was cast in \"Echo\" (2008).",
+        "Cast a role in the horror movie \"Echo\"."
+      ],
+      "rewrites": [
+        "In \"Echo\" (2008), a role was given to someone.",
+        "A role was assigned in the horror movie \"Echo\"."
+      ],
+      "attack": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. In \"Echo\" (2008), a role was given to someone. A role was assigned in the horror movie \"Echo\".",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 167,
+        "completion_tokens": 36,
+        "total_tokens": 203,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 167
+      }
+    },
+    {
+      "index": 28,
+      "strategy": "random_green",
+      "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "target_positions": [
+        1,
+        2
+      ],
+      "original_targets": [
+        "Someone cast something in Echo.",
+        "Cast a role in the horror movie."
+      ],
+      "rewrites": [
+        "In Echo, a thing was thrown by someone.",
+        "A role in the horror movie got cast."
+      ],
+      "attack": "Echo was released in 2008. In Echo, a thing was thrown by someone. A role in the horror movie got cast. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 26,
+        "total_tokens": 181,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      }
+    },
+    {
+      "index": 29,
+      "strategy": "top_margin",
+      "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "target_positions": [
+        0,
+        2
+      ],
+      "original_targets": [
+        "Travis Scott hollered in a location.",
+        "Travis Scott hollered something."
+      ],
+      "rewrites": [
+        "A yell was emitted by Travis Scott in a location.",
+        "Something was hollered by Travis Scott."
+      ],
+      "attack": "A yell was emitted by Travis Scott in a location. In 2018, Travis Scott hollered. Something was hollered by Travis Scott. In 2018, Travis Scott hollered something. A person hollered something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 159,
+        "completion_tokens": 27,
+        "total_tokens": 186,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 159
+      }
+    },
+    {
+      "index": 29,
+      "strategy": "near_threshold",
+      "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "target_positions": [
+        1,
+        3
+      ],
+      "original_targets": [
+        "In 2018, Travis Scott hollered.",
+        "In 2018, Travis Scott hollered something."
+      ],
+      "rewrites": [
+        "A shout was let out by Travis Scott in 2018.",
+        "Something was hollered by Travis Scott in 2018."
+      ],
+      "attack": "Travis Scott hollered in a location. A shout was let out by Travis Scott in 2018. Travis Scott hollered something. Something was hollered by Travis Scott in 2018. A person hollered something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 164,
+        "completion_tokens": 33,
+        "total_tokens": 197,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 164
+      }
+    },
+    {
+      "index": 29,
+      "strategy": "random_green",
+      "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "target_positions": [
+        0,
+        1
+      ],
+      "original_targets": [
+        "Travis Scott hollered in a location.",
+        "In 2018, Travis Scott hollered."
+      ],
+      "rewrites": [
+        "A holler was emitted by Travis Scott at some place.",
+        "The year 2018 saw Travis Scott let out a holler."
+      ],
+      "attack": "A holler was emitted by Travis Scott at some place. The year 2018 saw Travis Scott let out a holler. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 162,
+        "completion_tokens": 33,
+        "total_tokens": 195,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 162
+      }
+    },
+    {
+      "index": 30,
+      "strategy": "top_margin",
+      "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+      "target_positions": [
+        2,
+        0
+      ],
+      "original_targets": [
+        "A nation defines graciousness.",
+        "Define the concept of graciousness."
+      ],
+      "rewrites": [
+        "Graciousness is what a nation defines.",
+        "The meaning of graciousness should be defined."
+      ],
+      "attack": "The meaning of graciousness should be defined. Define graciousness as a national attribute. Graciousness is what a nation defines. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 154,
+        "completion_tokens": 25,
+        "total_tokens": 179,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 154
+      }
+    },
+    {
+      "index": 30,
+      "strategy": "near_threshold",
+      "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+      "target_positions": [
+        1,
+        4
+      ],
+      "original_targets": [
+        "Define graciousness as a national attribute.",
+        "Mr Lim Siong Guan defines something at a location."
+      ],
+      "rewrites": [
+        "A national attribute is what graciousness is defined as.",
+        "At a location, Mr Lim Siong Guan defines something."
+      ],
+      "attack": "Define the concept of graciousness. A national attribute is what graciousness is defined as. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. At a location, Mr Lim Siong Guan defines something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 160,
+        "completion_tokens": 30,
+        "total_tokens": 190,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 160
+      }
+    },
+    {
+      "index": 30,
+      "strategy": "random_green",
+      "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+      "target_positions": [
+        3,
+        1
+      ],
+      "original_targets": [
+        "Mr Lim Siong Guan defines graciousness.",
+        "Define graciousness as a national attribute."
+      ],
+      "rewrites": [
+        "Graciousness is defined by Mr Lim Siong Guan.",
+        "A national attribute is what graciousness should be defined as."
+      ],
+      "attack": "Define the concept of graciousness. A national attribute is what graciousness should be defined as. A nation defines graciousness. Graciousness is defined by Mr Lim Siong Guan. Mr Lim Siong Guan defines something at a location.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 31,
+        "total_tokens": 189,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 158
+      }
+    },
+    {
+      "index": 31,
+      "strategy": "top_margin",
+      "source": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+      "target_positions": [
+        0,
+        1
+      ],
+      "original_targets": [
+        "Bus Bob Krause died.",
+        "Bus Bob Krause's death was reported to someone."
+      ],
+      "rewrites": [
+        "Bob Krause passed away on a bus.",
+        "Someone was informed of the death of Bob Krause, which occurred on a bus."
+      ],
+      "attack": "Bob Krause passed away on a bus. Someone was informed of the death of Bob Krause, which occurred on a bus. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 158,
+        "completion_tokens": 33,
+        "total_tokens": 191,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 158
+      }
+    },
+    {
+      "index": 31,
+      "strategy": "near_threshold",
+      "source": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+      "target_positions": [
+        2,
+        3
+      ],
+      "original_targets": [
+        "The death of Bus Bob Krause was reported to someone recently.",
+        "Bus Bob Krause's death was reported recently to someone."
+      ],
+      "rewrites": [
+        "Someone was recently told about the death of Bus Bob Krause.",
+        "Recently, someone received a report that Bus Bob Krause had died."
+      ],
+      "attack": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. Someone was recently told about the death of Bus Bob Krause. Recently, someone received a report that Bus Bob Krause had died. Make something good.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 166,
+        "completion_tokens": 34,
+        "total_tokens": 200,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 166
+      }
+    },
+    {
+      "index": 31,
+      "strategy": "random_green",
+      "source": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+      "target_positions": [
+        4,
+        0
+      ],
+      "original_targets": [
+        "Make something good.",
+        "Bus Bob Krause died."
+      ],
+      "rewrites": [
+        "Create something good.",
+        "The death of Bus Bob Krause occurred."
+      ],
+      "attack": "The death of Bus Bob Krause occurred. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Create something good.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 151,
+        "completion_tokens": 20,
+        "total_tokens": 171,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 151
+      }
+    },
+    {
+      "index": 32,
+      "strategy": "top_margin",
+      "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+      "target_positions": [
+        4,
+        2
+      ],
+      "original_targets": [
+        "Cindy Thompson passed away something.",
+        "A person passed away something."
+      ],
+      "rewrites": [
+        "The passing of Cindy Thompson occurred at some point.",
+        "There was a passing of a person at some point."
+      ],
+      "attack": "Robert E. Gates. Flip passed away. There was a passing of a person at some point. Flip passed away leaving Cindy Thompson. The passing of Cindy Thompson occurred at some point.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 154,
+        "completion_tokens": 28,
+        "total_tokens": 182,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 154
+      }
+    },
+    {
+      "index": 32,
+      "strategy": "near_threshold",
+      "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+      "target_positions": [
+        0,
+        3
+      ],
+      "original_targets": [
+        "Robert E. Gates.",
+        "Flip passed away leaving Cindy Thompson."
+      ],
+      "rewrites": [
+        "The person named Robert E. Gates.",
+        "The death of Flip occurred, which left Cindy Thompson behind."
+      ],
+      "attack": "The person named Robert E. Gates. Flip passed away. A person passed away something. The death of Flip occurred, which left Cindy Thompson behind. Cindy Thompson passed away something.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 153,
+        "completion_tokens": 27,
+        "total_tokens": 180,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 153
+      }
+    },
+    {
+      "index": 32,
+      "strategy": "random_green",
+      "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+      "target_positions": [
+        4,
+        1
+      ],
+      "original_targets": [
+        "Cindy Thompson passed away something.",
+        "Flip passed away."
+      ],
+      "rewrites": [
+        "Cindy Thompson met her end at some point.",
+        "Flip has passed on."
+      ],
+      "attack": "Robert E. Gates. Flip has passed on. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson met her end at some point.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 152,
+        "completion_tokens": 22,
+        "total_tokens": 174,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 152
+      }
+    },
+    {
+      "index": 33,
+      "strategy": "top_margin",
+      "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+      "target_positions": [
+        2,
+        1
+      ],
+      "original_targets": [
+        "Alice, whose age is something, is a person.",
+        "Tell a person a story about a city."
+      ],
+      "rewrites": [
+        "A person is someone whose age is unspecified.",
+        "A story about a city should be told to a person."
+      ],
+      "attack": "Tell a person a story about something to Alice. A story about a city should be told to a person. A person is someone whose age is unspecified. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 161,
+        "completion_tokens": 28,
+        "total_tokens": 189,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 161
+      }
+    },
+    {
+      "index": 33,
+      "strategy": "near_threshold",
+      "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+      "target_positions": [
+        4,
+        0
+      ],
+      "original_targets": [
+        "Tell a person a story about New York City to Alice.",
+        "Tell a person a story about something to Alice."
+      ],
+      "rewrites": [
+        "Alice should be told a story by a person about New York City.",
+        "Alice should be told a story by a person about something."
+      ],
+      "attack": "Alice should be told a story by a person about something. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Alice should be told a story by a person about New York City.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 163,
+        "completion_tokens": 33,
+        "total_tokens": 196,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 163
+      }
+    },
+    {
+      "index": 33,
+      "strategy": "random_green",
+      "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+      "target_positions": [
+        2,
+        4
+      ],
+      "original_targets": [
+        "Alice, whose age is something, is a person.",
+        "Tell a person a story about New York City to Alice."
+      ],
+      "rewrites": [
+        "There is a person whose age is unspecified, and that person is Alice.",
+        "A story about New York City should be told to Alice by someone."
+      ],
+      "attack": "Tell a person a story about something to Alice. Tell a person a story about a city. There is a person whose age is unspecified, and that person is Alice. Tell a person a story about a city. A story about New York City should be told to Alice by someone.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 164,
+        "completion_tokens": 36,
+        "total_tokens": 200,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 164
+      }
+    },
+    {
+      "index": 34,
+      "strategy": "top_margin",
+      "source": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. Throw a pass.",
+      "target_positions": [
+        4,
+        1
+      ],
+      "original_targets": [
+        "Throw a pass.",
+        "Josh Rosen threw something."
+      ],
+      "rewrites": [
+        "Make a pass throw.",
+        "Something was thrown by Josh Rosen."
+      ],
+      "attack": "Josh Rosen is hot. Something was thrown by Josh Rosen. Josh Rosen threw something in 2015. You throw something. Make a pass throw.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 19,
+        "total_tokens": 169,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 150
+      }
+    },
+    {
+      "index": 34,
+      "strategy": "near_threshold",
+      "source": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. Throw a pass.",
+      "target_positions": [
+        2,
+        0
+      ],
+      "original_targets": [
+        "Josh Rosen threw something in 2015.",
+        "Josh Rosen is hot."
+      ],
+      "rewrites": [
+        "In 2015, a throw was made by Josh Rosen.",
+        "Josh Rosen possesses attractiveness."
+      ],
+      "attack": "Josh Rosen possesses attractiveness. Josh Rosen threw something. In 2015, a throw was made by Josh Rosen. You throw something. Throw a pass.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 155,
+        "completion_tokens": 25,
+        "total_tokens": 180,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 155
+      }
+    },
+    {
+      "index": 34,
+      "strategy": "random_green",
+      "source": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. Throw a pass.",
+      "target_positions": [
+        1,
+        4
+      ],
+      "original_targets": [
+        "Josh Rosen threw something.",
+        "Throw a pass."
+      ],
+      "rewrites": [
+        "Josh Rosen made a throw of some object.",
+        "Execute a pass."
+      ],
+      "attack": "Josh Rosen is hot. Josh Rosen made a throw of some object. Josh Rosen threw something in 2015. You throw something. Execute a pass.",
+      "minimum_green_flips_to_escape": 2,
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 150,
+        "completion_tokens": 20,
+        "total_tokens": 170,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 150
+      }
+    }
+  ],
+  "failures": [
+    {
+      "index": 0,
+      "strategy": "random_green",
+      "error": "ValueError: At least one target sentence was returned unchanged"
+    }
+  ]
+}

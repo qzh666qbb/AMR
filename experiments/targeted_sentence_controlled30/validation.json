@@ -1,0 +1,633 @@
+{
+  "summary": {
+    "rows": 89,
+    "same_sentence_count": 89,
+    "non_targets_verbatim": 89,
+    "targets_changed": 89
+  },
+  "rows": [
+    {
+      "index": 0,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 0,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 1,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 1,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 1,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 2,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 2,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 2,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 3,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 3,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 3,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 4,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 4,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 4,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 5,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 5,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 5,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 7,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 7,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 7,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 8,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 8,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 8,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 9,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 9,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 9,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 10,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 10,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 10,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 11,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 11,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 11,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 12,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 12,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 12,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 14,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 14,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 14,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 15,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 15,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 15,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 16,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 16,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 16,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 17,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 17,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 17,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 18,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 18,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 18,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 19,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 19,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 19,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 21,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 21,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 21,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 22,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 22,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 22,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 24,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 24,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 24,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 25,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 25,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 25,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 27,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 27,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 27,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 28,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 28,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 28,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 29,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 29,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 29,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 30,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 30,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 30,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 31,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 31,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 31,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 32,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 32,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 32,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 33,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 33,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 33,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 34,
+      "strategy": "top_margin",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 34,
+      "strategy": "near_threshold",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    },
+    {
+      "index": 34,
+      "strategy": "random_green",
+      "same_sentence_count": true,
+      "non_targets_verbatim": true,
+      "targets_changed": true
+    }
+  ]
+}

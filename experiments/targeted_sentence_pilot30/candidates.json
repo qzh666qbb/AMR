@@ -1,0 +1,2304 @@
+{
+  "protocol": {
+    "model_requested": "deepseek-v4-flash",
+    "temperature": 0.7,
+    "limit": 30,
+    "strategies": [
+      "top_margin",
+      "near_threshold",
+      "random_green"
+    ],
+    "same_sentence_count_required": true,
+    "non_target_sentences_verbatim_required": true
+  },
+  "complete": true,
+  "records": [
+    {
+      "index": 0,
+      "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 2,
+            "sentence": "The cluster topic is about IBM Corporation.",
+            "match_score": 0.9607341101662741,
+            "green": true,
+            "margin": 0.31073411016627406,
+            "best_matching_amr": "(x0 / N\n    :topic (x2 / NE\n               :name (x3 / N\n                         :op1 \"NE\"\n                         :op2 \"NE\"))\n    :mod (x1 / X))"
+          },
+          {
+            "position": 0,
+            "sentence": "IBM Corporation launched a server.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 1,
+            "sentence": "IBM Corporation.",
+            "match_score": 0.8571428571428571,
+            "green": true,
+            "margin": 0.20714285714285707,
+            "best_matching_amr": "(x0 / NE\n    :name (x2 / N\n              :op1 \"NE\"\n              :op2 \"NE\")\n    :mod (x1 / X))"
+          },
+          {
+            "position": 4,
+            "sentence": "IBM Corporation.",
+            "match_score": 0.8571428571428571,
+            "green": true,
+            "margin": 0.20714285714285707,
+            "best_matching_amr": "(x0 / NE\n    :name (x2 / N\n              :op1 \"NE\"\n              :op2 \"NE\")\n    :mod (x1 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 2,
+            "sentence": "The cluster topic is about IBM Corporation.",
+            "match_score": 0.9607341101662741,
+            "green": true,
+            "margin": 0.31073411016627406,
+            "best_matching_amr": "(x0 / N\n    :topic (x2 / NE\n               :name (x3 / N\n                         :op1 \"NE\"\n                         :op2 \"NE\"))\n    :mod (x1 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "IBM Corporation.",
+            "match_score": 0.8571428571428571,
+            "green": true,
+            "margin": 0.20714285714285707,
+            "best_matching_amr": "(x0 / NE\n    :name (x2 / N\n              :op1 \"NE\"\n              :op2 \"NE\")\n    :mod (x1 / X))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "IBM Corporation launched a server. IBM Corporation. The subject of the cluster is IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+        "near_threshold": "IBM Corporation launched a server. It is IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. It is IBM Corporation.",
+        "random_green": "IBM Corporation launched a server. IBM Corporation. The cluster's topic centers on IBM Corporation. It is IBM Corporation. IBM Corporation."
+      },
+      "usage": {
+        "prompt_tokens": 293,
+        "completion_tokens": 101,
+        "total_tokens": 394,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 293
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 1,
+      "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 1,
+            "sentence": "The organization earned something.",
+            "match_score": 0.9345568502771232,
+            "green": true,
+            "margin": 0.2845568502771232,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 3,
+            "sentence": "The organization earned something.",
+            "match_score": 0.9345568502771232,
+            "green": true,
+            "margin": 0.2845568502771232,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 0,
+            "sentence": "Make the report transparent.",
+            "match_score": 0.75,
+            "green": true,
+            "margin": 0.09999999999999998,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          },
+          {
+            "position": 2,
+            "sentence": "Prasar Bharti earned something at some time.",
+            "match_score": 0.8006117584718948,
+            "green": true,
+            "margin": 0.15061175847189479,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 1,
+            "sentence": "The organization earned something.",
+            "match_score": 0.9345568502771232,
+            "green": true,
+            "margin": 0.2845568502771232,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 0,
+            "sentence": "Make the report transparent.",
+            "match_score": 0.75,
+            "green": true,
+            "margin": 0.09999999999999998,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Make the report transparent. Something was earned by the organization. Prasar Bharti earned something at some time. Something was earned by the organization. Prasar Bharti earned only something.",
+        "near_threshold": "Transparency should be ensured in the report. The organization earned something. At some time, something was earned by Prasar Bharti. The organization earned something. Prasar Bharti earned only something.",
+        "random_green": "The report should be made transparent. Something was earned by the organization. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something."
+      },
+      "usage": {
+        "prompt_tokens": 303,
+        "completion_tokens": 130,
+        "total_tokens": 433,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 303
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 2,
+      "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 4,
+            "sentence": "A marketer defines Apple as a brand.",
+            "match_score": 0.8733946456057035,
+            "green": true,
+            "margin": 0.22339464560570343,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 2,
+            "sentence": "Marketers define the Apple brand as something.",
+            "match_score": 0.7576672215473385,
+            "green": true,
+            "margin": 0.10766722154733843,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 0,
+            "sentence": "Marketers define something.",
+            "match_score": 0.6581915859518199,
+            "green": true,
+            "margin": 0.008191585951819902,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 3,
+            "sentence": "Define the Apple brand as a marketer.",
+            "match_score": 0.7333333333333334,
+            "green": true,
+            "margin": 0.08333333333333337,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 4,
+            "sentence": "A marketer defines Apple as a brand.",
+            "match_score": 0.8733946456057035,
+            "green": true,
+            "margin": 0.22339464560570343,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 2,
+            "sentence": "Marketers define the Apple brand as something.",
+            "match_score": 0.7576672215473385,
+            "green": true,
+            "margin": 0.10766722154733843,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / N\n                        :mod (x4 / NE\n                                 :name (x5 / N\n                                           :op1 \"NE\"))))\n    :ARG2 (x2 / X))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. The Apple brand is defined by a marketer as a brand.",
+        "near_threshold": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. The Apple brand is defined by a marketer. A marketer defines Apple as a brand.",
+        "random_green": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. The Apple brand is defined by a marketer as a brand."
+      },
+      "usage": {
+        "prompt_tokens": 322,
+        "completion_tokens": 136,
+        "total_tokens": 458,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 322
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 3,
+      "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 1,
+            "sentence": "The library appointed Kim Rinaldi as a director.",
+            "match_score": 0.9672784251385615,
+            "green": true,
+            "margin": 0.3172784251385615,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 4,
+            "sentence": "The library appointed Kim Rinaldi as something.",
+            "match_score": 0.9672784251385615,
+            "green": true,
+            "margin": 0.3172784251385615,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 0,
+            "sentence": "Middletown Township Public Library appointed Kim Rinaldi as something.",
+            "match_score": 0.7559633945368188,
+            "green": true,
+            "margin": 0.1059633945368188,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 2,
+            "sentence": "Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown.",
+            "match_score": 0.7659574468085107,
+            "green": true,
+            "margin": 0.11595744680851072,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 3,
+            "sentence": "Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown.",
+            "match_score": 0.7659574468085107,
+            "green": true,
+            "margin": 0.11595744680851072,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+          },
+          {
+            "position": 0,
+            "sentence": "Middletown Township Public Library appointed Kim Rinaldi as something.",
+            "match_score": 0.7559633945368188,
+            "green": true,
+            "margin": 0.1059633945368188,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Middletown Township Public Library appointed Kim Rinaldi as something. The directorship at the library was given to Kim Rinaldi. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Kim Rinaldi was appointed to some position at the library.",
+        "near_threshold": "Kim Rinaldi was appointed to some position by Middletown Township Public Library. The library appointed Kim Rinaldi as a director. The appointment of Kim Rinaldi by the Township of Middletown was made with the library as its appointee. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+        "random_green": "Kim Rinaldi was appointed to some position by Middletown Township Public Library. The library appointed Kim Rinaldi as a director. The library was named as the appointee in the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something."
+      },
+      "usage": {
+        "prompt_tokens": 420,
+        "completion_tokens": 284,
+        "total_tokens": 704,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 420
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 4,
+      "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 2,
+            "sentence": "The report states the World Health Organization.",
+            "match_score": 0.8262262097601182,
+            "green": true,
+            "margin": 0.17622620976011816,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 4,
+            "sentence": "The report states the World Health Organization.",
+            "match_score": 0.8262262097601182,
+            "green": true,
+            "margin": 0.17622620976011816,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 0,
+            "sentence": "The report states something.",
+            "match_score": 0.7678901836104566,
+            "green": true,
+            "margin": 0.11789018361045656,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 3,
+            "sentence": "The report states something.",
+            "match_score": 0.7678901836104566,
+            "green": true,
+            "margin": 0.11789018361045656,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 2,
+            "sentence": "The report states the World Health Organization.",
+            "match_score": 0.8262262097601182,
+            "green": true,
+            "margin": 0.17622620976011816,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 0,
+            "sentence": "The report states something.",
+            "match_score": 0.7678901836104566,
+            "green": true,
+            "margin": 0.11789018361045656,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "The report states something. Make your report detailed. An announcement regarding the World Health Organization is made by the report. The report states something. An announcement regarding the World Health Organization is made by the report.",
+        "near_threshold": "The report makes a statement. Make your report detailed. The report states the World Health Organization. The report makes a statement. The report states the World Health Organization.",
+        "random_green": "The report states something. Make your report detailed. An announcement regarding the World Health Organization is made by the report. The report states something. The report states the World Health Organization."
+      },
+      "usage": {
+        "prompt_tokens": 305,
+        "completion_tokens": 126,
+        "total_tokens": 431,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 305
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 5,
+      "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 2,
+            "sentence": "A company shut down something.",
+            "match_score": 0.9345568502771232,
+            "green": true,
+            "margin": 0.2845568502771232,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 0,
+            "sentence": "Shut down your service.",
+            "match_score": 0.823529411764706,
+            "green": true,
+            "margin": 0.17352941176470593,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 3,
+            "sentence": "Google shut down something in a service.",
+            "match_score": 0.761904761904762,
+            "green": true,
+            "margin": 0.11190476190476195,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "Shut down Allo.",
+            "match_score": 0.8197467715869277,
+            "green": true,
+            "margin": 0.16974677158692764,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 0,
+            "sentence": "Shut down your service.",
+            "match_score": 0.823529411764706,
+            "green": true,
+            "margin": 0.17352941176470593,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          },
+          {
+            "position": 2,
+            "sentence": "A company shut down something.",
+            "match_score": 0.9345568502771232,
+            "green": true,
+            "margin": 0.2845568502771232,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Shut down your service. Shut down Allo. The shutdown of something was carried out by a company. Google shut down something in a service. Shut down your service.",
+        "near_threshold": "Shut down your service. Shut down Allo. A company shut down something. The shutdown of something in a service was performed by Google. Shut down your service.",
+        "random_green": "Your service should be shut down. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service."
+      },
+      "usage": {
+        "prompt_tokens": 305,
+        "completion_tokens": 122,
+        "total_tokens": 427,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 305
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 7,
+      "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 4,
+            "sentence": "Give a presentation about Washington, D.C. to Washington.",
+            "match_score": 0.888888888888889,
+            "green": true,
+            "margin": 0.23888888888888893,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+          },
+          {
+            "position": 2,
+            "sentence": "A presentation was given to Washington, D.C.",
+            "match_score": 0.8607341101662741,
+            "green": true,
+            "margin": 0.21073411016627408,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 1,
+            "sentence": "Give someone a presentation.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          },
+          {
+            "position": 0,
+            "sentence": "Someone gave Washington a presentation.",
+            "match_score": 0.7824855546966127,
+            "green": true,
+            "margin": 0.13248555469661272,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 2,
+            "sentence": "A presentation was given to Washington, D.C.",
+            "match_score": 0.8607341101662741,
+            "green": true,
+            "margin": 0.21073411016627408,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 4,
+            "sentence": "Give a presentation about Washington, D.C. to Washington.",
+            "match_score": 0.888888888888889,
+            "green": true,
+            "margin": 0.23888888888888893,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Someone gave Washington a presentation. Give someone a presentation. Washington, D.C. received a presentation. Someone gave Washington a presentation. Washington was the recipient of a presentation about Washington, D.C.",
+        "near_threshold": "A presentation was given to Washington by someone. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+        "random_green": "Someone gave Washington a presentation. Give someone a presentation. Washington, D.C. was the recipient of a presentation. Someone gave Washington a presentation. A presentation about Washington, D.C. was delivered to Washington."
+      },
+      "usage": {
+        "prompt_tokens": 329,
+        "completion_tokens": 139,
+        "total_tokens": 468,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 329
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 8,
+      "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 2,
+            "sentence": "Something left New England to something.",
+            "match_score": 0.9672784251385615,
+            "green": true,
+            "margin": 0.3172784251385615,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 4,
+            "sentence": "Something left New England to a location.",
+            "match_score": 0.9672784251385615,
+            "green": true,
+            "margin": 0.3172784251385615,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 0,
+            "sentence": "Keep the conversation serious.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          },
+          {
+            "position": 1,
+            "sentence": "New England is vast in extent.",
+            "match_score": 0.8607341101662739,
+            "green": true,
+            "margin": 0.21073411016627386,
+            "best_matching_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :extent (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 4,
+            "sentence": "Something left New England to a location.",
+            "match_score": 0.9672784251385615,
+            "green": true,
+            "margin": 0.3172784251385615,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 0,
+            "sentence": "Keep the conversation serious.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Keep the conversation serious. New England is vast in extent. A departure from New England was made by something. Something left New England. A location was the destination of something's departure from New England.",
+        "near_threshold": "The conversation should be kept serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+        "random_green": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. The act of leaving New England was performed by something, with a location as its destination."
+      },
+      "usage": {
+        "prompt_tokens": 307,
+        "completion_tokens": 132,
+        "total_tokens": 439,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 307
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 9,
+      "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 2,
+            "sentence": "Define ICYMI.",
+            "match_score": 1.0,
+            "green": true,
+            "margin": 0.35,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / ADJ))"
+          },
+          {
+            "position": 0,
+            "sentence": "A person missed something.",
+            "match_score": 0.9345568502771232,
+            "green": true,
+            "margin": 0.2845568502771232,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 4,
+            "sentence": "Define the ICYMI abbreviation now.",
+            "match_score": 0.8598030445676101,
+            "green": true,
+            "margin": 0.20980304456761012,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+          },
+          {
+            "position": 3,
+            "sentence": "Define the abbreviation ICYMI.",
+            "match_score": 0.8888888888888888,
+            "green": true,
+            "margin": 0.23888888888888882,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 2,
+            "sentence": "Define ICYMI.",
+            "match_score": 1.0,
+            "green": true,
+            "margin": 0.35,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / ADJ))"
+          },
+          {
+            "position": 4,
+            "sentence": "Define the ICYMI abbreviation now.",
+            "match_score": 0.8598030445676101,
+            "green": true,
+            "margin": 0.20980304456761012,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "A person missed something. The ICYMI abbreviation's definition is what you missed. What does ICYMI stand for? Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+        "near_threshold": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. The ICYMI abbreviation's definition should be provided at this moment.",
+        "random_green": "A person missed something. You missed the ICYMI abbreviation's definition. What is the meaning of ICYMI? Define the abbreviation ICYMI. Provide the definition of the ICYMI abbreviation immediately."
+      },
+      "usage": {
+        "prompt_tokens": 308,
+        "completion_tokens": 142,
+        "total_tokens": 450,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 308
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 10,
+      "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 0,
+            "sentence": "Tell the jury the acquittal.",
+            "match_score": 0.8750000000000001,
+            "green": true,
+            "margin": 0.2250000000000001,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          },
+          {
+            "position": 1,
+            "sentence": "Tell the jury the acquittal.",
+            "match_score": 0.8750000000000001,
+            "green": true,
+            "margin": 0.2250000000000001,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 3,
+            "sentence": "Tell the jury the acquittal of the widow about the nightclub.",
+            "match_score": 0.7500000000000001,
+            "green": true,
+            "margin": 0.10000000000000009,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / N))\n    :ARG2 (x3 / NE))"
+          },
+          {
+            "position": 4,
+            "sentence": "Tell the jury the acquittal of the widow about the Pulse nightclub.",
+            "match_score": 0.7999999999999999,
+            "green": true,
+            "margin": 0.1499999999999999,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 2,
+            "sentence": "Tell the jury the acquittal.",
+            "match_score": 0.8750000000000001,
+            "green": true,
+            "margin": 0.2250000000000001,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          },
+          {
+            "position": 0,
+            "sentence": "Tell the jury the acquittal.",
+            "match_score": 0.8750000000000001,
+            "green": true,
+            "margin": 0.2250000000000001,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Tell the jury the acquittal. The acquittal should be told to the jury. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+        "near_threshold": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. The jury should be told about the widow's acquittal concerning the nightclub. The jury should be told about the widow's acquittal regarding the Pulse nightclub.",
+        "random_green": "Tell the jury the acquittal. The acquittal is what the jury needs to be told. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub."
+      },
+      "usage": {
+        "prompt_tokens": 342,
+        "completion_tokens": 178,
+        "total_tokens": 520,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 342
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 11,
+      "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 2,
+            "sentence": "Tell QVC something about Black Friday.",
+            "match_score": 0.8484848484848485,
+            "green": true,
+            "margin": 0.1984848484848485,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))"
+          },
+          {
+            "position": 3,
+            "sentence": "QVC's aggressive something.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / N\n    :mod (x1 / NE\n             :name (x3 / N\n                       :op1 \"NE\"))\n    :mod (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 1,
+            "sentence": "QVC plans something for Black Friday aggressively.",
+            "match_score": 0.7058823529411765,
+            "green": true,
+            "margin": 0.055882352941176494,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 0,
+            "sentence": "QVC is aggressive to an extent.",
+            "match_score": 0.73414901129586,
+            "green": true,
+            "margin": 0.08414901129585994,
+            "best_matching_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 3,
+            "sentence": "QVC's aggressive something.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / N\n    :mod (x1 / NE\n             :name (x3 / N\n                       :op1 \"NE\"))\n    :mod (x2 / X))"
+          },
+          {
+            "position": 0,
+            "sentence": "QVC is aggressive to an extent.",
+            "match_score": 0.73414901129586,
+            "green": true,
+            "margin": 0.08414901129585994,
+            "best_matching_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Something about Black Friday should be told to QVC. QVC's aggressive something. QVC plans something for Black Friday.",
+        "near_threshold": "QVC is aggressive to an extent. Aggressively, QVC plans something for Black Friday. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+        "random_green": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. Aggressiveness is something that belongs to QVC. QVC plans something for Black Friday."
+      },
+      "usage": {
+        "prompt_tokens": 319,
+        "completion_tokens": 144,
+        "total_tokens": 463,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 319
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 12,
+      "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 4,
+            "sentence": "Someone describes Malala Yousafzai to a community.",
+            "match_score": 0.9672784251385615,
+            "green": true,
+            "margin": 0.3172784251385615,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 1,
+            "sentence": "Malala Yousafzai describes something.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 0,
+            "sentence": "Malala Yousafzai is brilliant in academics.",
+            "match_score": 0.7501601412241358,
+            "green": true,
+            "margin": 0.10016014122413575,
+            "best_matching_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 3,
+            "sentence": "Malala Yousafzai describes something in 2024.",
+            "match_score": 0.8354209653619772,
+            "green": true,
+            "margin": 0.18542096536197716,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 3,
+            "sentence": "Malala Yousafzai describes something in 2024.",
+            "match_score": 0.8354209653619772,
+            "green": true,
+            "margin": 0.18542096536197716,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 4,
+            "sentence": "Someone describes Malala Yousafzai to a community.",
+            "match_score": 0.9672784251385615,
+            "green": true,
+            "margin": 0.3172784251385615,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Malala Yousafzai is brilliant in academics. Something is described by Malala Yousafzai. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. A community receives a description of Malala Yousafzai from someone.",
+        "near_threshold": "Malala Yousafzai's academic brilliance is well noted. Malala Yousafzai describes something. Brilliant Malala Yousafzai. In 2024, a description is given by Malala Yousafzai. Someone describes Malala Yousafzai to a community.",
+        "random_green": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. A description of something is offered by Malala Yousafzai in 2024. The community is told about Malala Yousafzai by someone."
+      },
+      "usage": {
+        "prompt_tokens": 370,
+        "completion_tokens": 211,
+        "total_tokens": 581,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 370
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 14,
+      "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 0,
+            "sentence": "Someone holds WebMD Health Corp. for something.",
+            "match_score": 0.8485872881330191,
+            "green": true,
+            "margin": 0.19858728813301907,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 2,
+            "sentence": "WebMD Health Corp. was held in 2015.",
+            "match_score": 0.8333333333333334,
+            "green": true,
+            "margin": 0.18333333333333335,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year (x4 / X)))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 1,
+            "sentence": "WebMD Health Corp. is important for something.",
+            "match_score": 0.8197467715869274,
+            "green": true,
+            "margin": 0.16974677158692741,
+            "best_matching_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 3,
+            "sentence": "WebMD Health Corp. is important for something.",
+            "match_score": 0.8197467715869274,
+            "green": true,
+            "margin": 0.16974677158692741,
+            "best_matching_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 2,
+            "sentence": "WebMD Health Corp. was held in 2015.",
+            "match_score": 0.8333333333333334,
+            "green": true,
+            "margin": 0.18333333333333335,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year (x4 / X)))"
+          },
+          {
+            "position": 0,
+            "sentence": "Someone holds WebMD Health Corp. for something.",
+            "match_score": 0.8485872881330191,
+            "green": true,
+            "margin": 0.19858728813301907,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "WebMD Health Corp. is held by someone for a reason. WebMD Health Corp. is important for something. The year 2015 saw WebMD Health Corp. being held. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+        "near_threshold": "Someone holds WebMD Health Corp. for something. The importance of WebMD Health Corp. lies in something. WebMD Health Corp. was held in 2015. There is something for which WebMD Health Corp. is important. WebMD Health Corp. is important for something.",
+        "random_green": "The holding of WebMD Health Corp. by someone occurred for a purpose. WebMD Health Corp. is important for something. In 2015, WebMD Health Corp. was held. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something."
+      },
+      "usage": {
+        "prompt_tokens": 351,
+        "completion_tokens": 188,
+        "total_tokens": 539,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 351
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 15,
+      "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 0,
+            "sentence": "The conference held something.",
+            "match_score": 0.9345568502771232,
+            "green": true,
+            "margin": 0.2845568502771232,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 2,
+            "sentence": "The conference held an event named SocialDevCamp Chicago.",
+            "match_score": 0.8733946456057037,
+            "green": true,
+            "margin": 0.22339464560570366,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 1,
+            "sentence": "Show an attendee a session about SocialDevCamp Chicago at the conference.",
+            "match_score": 0.8235294117647058,
+            "green": true,
+            "margin": 0.17352941176470582,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))"
+          },
+          {
+            "position": 3,
+            "sentence": "SocialDevCamp Chicago held an event in 2024.",
+            "match_score": 0.8354209653619772,
+            "green": true,
+            "margin": 0.18542096536197716,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 2,
+            "sentence": "The conference held an event named SocialDevCamp Chicago.",
+            "match_score": 0.8733946456057037,
+            "green": true,
+            "margin": 0.22339464560570366,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 0,
+            "sentence": "The conference held something.",
+            "match_score": 0.9345568502771232,
+            "green": true,
+            "margin": 0.2845568502771232,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "The conference held something. The conference held something that was called SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+        "near_threshold": "The conference held something. An attendee was shown a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024.",
+        "random_green": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. An event named SocialDevCamp Chicago was held by the conference. SocialDevCamp Chicago held an event in 2024."
+      },
+      "usage": {
+        "prompt_tokens": 349,
+        "completion_tokens": 146,
+        "total_tokens": 495,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 349
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 16,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "minimum_green_flips_to_escape": 1,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 1,
+            "sentence": "Define BlackRock Inc. as something.",
+            "match_score": 0.928587288133019,
+            "green": true,
+            "margin": 0.27858728813301903,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 2,
+            "sentence": "Define BlackRock Inc. BlackRock Inc. operates something.",
+            "match_score": 0.6956521739130435,
+            "green": true,
+            "margin": 0.04565217391304344,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 1,
+            "sentence": "Define BlackRock Inc. as something.",
+            "match_score": 0.928587288133019,
+            "green": true,
+            "margin": 0.27858728813301903,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "BlackRock Inc. operates globally. BlackRock Inc. is defined as something. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "near_threshold": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Something is operated by BlackRock Inc., and BlackRock Inc. is defined. BlackRock Inc. is something about BlackRock Inc.",
+        "random_green": "BlackRock Inc. operates globally. The definition of BlackRock Inc. is something. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc."
+      },
+      "usage": {
+        "prompt_tokens": 289,
+        "completion_tokens": 134,
+        "total_tokens": 423,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 289
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 17,
+      "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 2,
+            "sentence": "New York was sold to the home.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "New York was sold in 2023.",
+            "match_score": 0.8695652173913043,
+            "green": true,
+            "margin": 0.2195652173913043,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year (x4 / X)))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 0,
+            "sentence": "The home was sold to New York in 2023.",
+            "match_score": 0.7685872881330192,
+            "green": true,
+            "margin": 0.11858728813301922,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year (x4 / X)))"
+          },
+          {
+            "position": 4,
+            "sentence": "New York sold the home in 2023.",
+            "match_score": 0.8354209653619772,
+            "green": true,
+            "margin": 0.18542096536197716,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 2,
+            "sentence": "New York was sold to the home.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 4,
+            "sentence": "New York sold the home in 2023.",
+            "match_score": 0.8354209653619772,
+            "green": true,
+            "margin": 0.18542096536197716,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "The home was sold to New York in 2023. New York was sold in 2023. It was to the home that New York was sold. New York was sold in 2023. New York sold the home in 2023.",
+        "near_threshold": "It was to New York that the home was sold in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. The home was sold by New York in 2023.",
+        "random_green": "The home was sold to New York in 2023. New York was sold in 2023. It was to the home that New York was sold. New York was sold in 2023. The home was sold by New York in 2023."
+      },
+      "usage": {
+        "prompt_tokens": 340,
+        "completion_tokens": 177,
+        "total_tokens": 517,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 340
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 18,
+      "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 0,
+            "sentence": "A 2-to-2 ratio of something is defined as a concept.",
+            "match_score": 0.9509176377078424,
+            "green": true,
+            "margin": 0.3009176377078424,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :op1 2\n              :op2 2)\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "The concept of NASCAR is defined as something.",
+            "match_score": 0.9223774871011076,
+            "green": true,
+            "margin": 0.27237748710110754,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\"\n                                 :op2 \"NE\")))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 3,
+            "sentence": "Define a concept as something.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          },
+          {
+            "position": 2,
+            "sentence": "The concept of NASCAR is defined as something at a time.",
+            "match_score": 0.8461538461538461,
+            "green": true,
+            "margin": 0.19615384615384612,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 1,
+            "sentence": "The concept of NASCAR is defined as something.",
+            "match_score": 0.9223774871011076,
+            "green": true,
+            "margin": 0.27237748710110754,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x3 / NE\n                       :name (x4 / N\n                                 :op1 \"NE\"\n                                 :op2 \"NE\")))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 3,
+            "sentence": "Define a concept as something.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "A 2-to-2 ratio of something is defined as a concept. Something is what the concept of NASCAR is defined as. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+        "near_threshold": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. A concept is what you define as something. The concept of NASCAR is defined as something.",
+        "random_green": "A 2-to-2 ratio of something is defined as a concept. Something is what the concept of NASCAR is defined as. The concept of NASCAR is defined as something at a time. A concept is what you define as something. The concept of NASCAR is defined as something."
+      },
+      "usage": {
+        "prompt_tokens": 343,
+        "completion_tokens": 179,
+        "total_tokens": 522,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 343
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 19,
+      "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 0,
+            "sentence": "Jeff Deardorff has arrived at a location.",
+            "match_score": 0.8607341101662739,
+            "green": true,
+            "margin": 0.21073411016627386,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "Jeff Deardorff arrived at a location.",
+            "match_score": 0.8607341101662739,
+            "green": true,
+            "margin": 0.21073411016627386,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 2,
+            "sentence": "Imagine a day arriving.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          },
+          {
+            "position": 0,
+            "sentence": "Jeff Deardorff has arrived at a location.",
+            "match_score": 0.8607341101662739,
+            "green": true,
+            "margin": 0.21073411016627386,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 4,
+            "sentence": "Jeff Deardorff arrived at a location.",
+            "match_score": 0.8607341101662739,
+            "green": true,
+            "margin": 0.21073411016627386,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 2,
+            "sentence": "Imagine a day arriving.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Jeff Deardorff has arrived at a location. A location was reached by Jeff Deardorff. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+        "near_threshold": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Arriving on a day is something to imagine. Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location.",
+        "random_green": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. A location was reached by Jeff Deardorff."
+      },
+      "usage": {
+        "prompt_tokens": 333,
+        "completion_tokens": 162,
+        "total_tokens": 495,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 333
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 21,
+      "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 1,
+            "sentence": "Order two military helicopters.",
+            "match_score": 0.9473684210526316,
+            "green": true,
+            "margin": 0.2973684210526316,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          },
+          {
+            "position": 2,
+            "sentence": "Order two military helicopters.",
+            "match_score": 0.9473684210526316,
+            "green": true,
+            "margin": 0.2973684210526316,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 4,
+            "sentence": "The UAE ordered two military helicopters from an entity.",
+            "match_score": 0.7116548964194624,
+            "green": true,
+            "margin": 0.061654896419462424,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+          },
+          {
+            "position": 0,
+            "sentence": "Order two military helicopters for the UAE.",
+            "match_score": 0.7586206896551724,
+            "green": true,
+            "margin": 0.10862068965517235,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\")))\n    :ARG2 (x3 / NE))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 4,
+            "sentence": "The UAE ordered two military helicopters from an entity.",
+            "match_score": 0.7116548964194624,
+            "green": true,
+            "margin": 0.061654896419462424,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / N\n              :mod (x4 / NE\n                       :name (x5 / N\n                                 :op1 \"NE\")))\n    :ARG2 (x2 / X)\n    :time (x3 / N))"
+          },
+          {
+            "position": 1,
+            "sentence": "Order two military helicopters.",
+            "match_score": 0.9473684210526316,
+            "green": true,
+            "margin": 0.2973684210526316,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Order two military helicopters for the UAE. The purchase of two military helicopters was made. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+        "near_threshold": "Two military helicopters were ordered by the UAE from an entity. Order two military helicopters for the UAE. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+        "random_green": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. Two military helicopters were ordered by the UAE from an entity."
+      },
+      "usage": {
+        "prompt_tokens": 314,
+        "completion_tokens": 137,
+        "total_tokens": 451,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 314
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 22,
+      "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 4,
+            "sentence": "Ask about Barack Obama.",
+            "match_score": 0.8354209653619773,
+            "green": true,
+            "margin": 0.18542096536197727,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 3,
+            "sentence": "Ask a lawmaker about Barack Obama.",
+            "match_score": 0.8125,
+            "green": true,
+            "margin": 0.16249999999999998,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 0,
+            "sentence": "The topic about Barack Obama is something.",
+            "match_score": 0.7,
+            "green": true,
+            "margin": 0.04999999999999993,
+            "best_matching_amr": "(x0 / N\n    :topic (x2 / NE\n               :name (x3 / N\n                         :op1 \"NE\"\n                         :op2 \"NE\"))\n    :mod (x1 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "Ask a lawmaker about the topic of Barack Obama in Washington.",
+            "match_score": 0.7567567567567568,
+            "green": true,
+            "margin": 0.10675675675675678,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 0,
+            "sentence": "The topic about Barack Obama is something.",
+            "match_score": 0.7,
+            "green": true,
+            "margin": 0.04999999999999993,
+            "best_matching_amr": "(x0 / N\n    :topic (x2 / NE\n               :name (x3 / N\n                         :op1 \"NE\"\n                         :op2 \"NE\"))\n    :mod (x1 / X))"
+          },
+          {
+            "position": 3,
+            "sentence": "Ask a lawmaker about Barack Obama.",
+            "match_score": 0.8125,
+            "green": true,
+            "margin": 0.16249999999999998,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "The topic about Barack Obama is something. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask a lawmaker about the subject of Barack Obama. Make inquiries regarding Barack Obama.",
+        "near_threshold": "Barack Obama is a topic of discussion. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+        "random_green": "Barack Obama is a topic of discussion. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about the subject of Barack Obama. Ask about Barack Obama."
+      },
+      "usage": {
+        "prompt_tokens": 333,
+        "completion_tokens": 164,
+        "total_tokens": 497,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 333
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 24,
+      "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 1,
+            "sentence": "Mario defined something.",
+            "match_score": 0.9060359054381831,
+            "green": true,
+            "margin": 0.2560359054381831,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 0,
+            "sentence": "Something defines Mario.",
+            "match_score": 0.8607341101662741,
+            "green": true,
+            "margin": 0.21073411016627408,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 4,
+            "sentence": "Mario defined something new.",
+            "match_score": 0.761904761904762,
+            "green": true,
+            "margin": 0.11190476190476195,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 2,
+            "sentence": "Mario defined something at a location.",
+            "match_score": 0.8197467715869277,
+            "green": true,
+            "margin": 0.16974677158692764,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 4,
+            "sentence": "Mario defined something new.",
+            "match_score": 0.761904761904762,
+            "green": true,
+            "margin": 0.11190476190476195,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 3,
+            "sentence": "Something defines Mario.",
+            "match_score": 0.8607341101662741,
+            "green": true,
+            "margin": 0.21073411016627408,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Something defines Mario. A definition of something was provided by Mario. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+        "near_threshold": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. A new thing was defined by Mario.",
+        "random_green": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario provided a definition for something new."
+      },
+      "usage": {
+        "prompt_tokens": 288,
+        "completion_tokens": 99,
+        "total_tokens": 387,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 288
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 25,
+      "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 2,
+            "sentence": "Give the team a win.",
+            "match_score": 0.8750000000000001,
+            "green": true,
+            "margin": 0.2250000000000001,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          },
+          {
+            "position": 3,
+            "sentence": "A win was built against Council Bluffs.",
+            "match_score": 0.8501601412241359,
+            "green": true,
+            "margin": 0.20016014122413583,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 0,
+            "sentence": "Council Bluffs Marshalltown built a nine-run lead.",
+            "match_score": 0.75,
+            "green": true,
+            "margin": 0.09999999999999998,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 4,
+            "sentence": "Council Bluffs is very great.",
+            "match_score": 0.7607341101662738,
+            "green": true,
+            "margin": 0.11073411016627377,
+            "best_matching_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 3,
+            "sentence": "A win was built against Council Bluffs.",
+            "match_score": 0.8501601412241359,
+            "green": true,
+            "margin": 0.20016014122413583,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 2,
+            "sentence": "Give the team a win.",
+            "match_score": 0.8750000000000001,
+            "green": true,
+            "margin": 0.2250000000000001,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. The team was given a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+        "near_threshold": "A nine-run lead was built by Council Bluffs Marshalltown. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is exceptionally good.",
+        "random_green": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win against Council Bluffs was built. Council Bluffs is very great."
+      },
+      "usage": {
+        "prompt_tokens": 326,
+        "completion_tokens": 148,
+        "total_tokens": 474,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 326
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 27,
+      "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 0,
+            "sentence": "Someone gave DERA funding to a company.",
+            "match_score": 0.8733946456057035,
+            "green": true,
+            "margin": 0.22339464560570343,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 2,
+            "sentence": "Someone gave DERA funding to a company.",
+            "match_score": 0.8733946456057035,
+            "green": true,
+            "margin": 0.22339464560570343,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 1,
+            "sentence": "Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency.",
+            "match_score": 0.7755102040816326,
+            "green": true,
+            "margin": 0.1255102040816326,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :ARG2-of (r / V\n                          :ARG1 (e / V\n                                   :ARG1 (c / NE\n                                            :name (n / N\n                                                     :op1 \"NE\"\n                                                     :op2 \"NE\"\n                                                     :op3 \"NE\"))\n                                   :ARG3 (c2 / NE\n                                             :name (n2 / N\n                                                       :op1 \"NE\"))))))"
+          },
+          {
+            "position": 3,
+            "sentence": "DERA funding was given to a company recently.",
+            "match_score": 0.8607341101662739,
+            "green": true,
+            "margin": 0.21073411016627386,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 4,
+            "sentence": "Someone gave DERA funding to a company.",
+            "match_score": 0.8733946456057035,
+            "green": true,
+            "margin": 0.22339464560570343,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 2,
+            "sentence": "Someone gave DERA funding to a company.",
+            "match_score": 0.8733946456057035,
+            "green": true,
+            "margin": 0.22339464560570343,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "A company received DERA funding. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. A company was the recipient of DERA funding. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+        "near_threshold": "Someone gave DERA funding to a company. Funding from DERA should be provided to assist in reauthorizing the EPA program. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+        "random_green": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. A company received DERA funding. DERA funding was given to a company recently. A company was given DERA funding by someone."
+      },
+      "usage": {
+        "prompt_tokens": 358,
+        "completion_tokens": 182,
+        "total_tokens": 540,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 358
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 28,
+      "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 0,
+            "sentence": "Echo was released in 2008.",
+            "match_score": 0.8421052631578948,
+            "green": true,
+            "margin": 0.19210526315789478,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :time (x2 / X))"
+          },
+          {
+            "position": 2,
+            "sentence": "Cast a role in the horror movie.",
+            "match_score": 0.7999999999999999,
+            "green": true,
+            "margin": 0.1499999999999999,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 3,
+            "sentence": "A role was cast in \"Echo\" (2008).",
+            "match_score": 0.6915764637875218,
+            "green": true,
+            "margin": 0.04157646378752178,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 4,
+            "sentence": "Cast a role in the horror movie \"Echo\".",
+            "match_score": 0.7245086763488322,
+            "green": true,
+            "margin": 0.07450867634883218,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 1,
+            "sentence": "Someone cast something in Echo.",
+            "match_score": 0.7824855546966127,
+            "green": true,
+            "margin": 0.13248555469661272,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / X)\n    :ARG1 (x2 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x3 / N))"
+          },
+          {
+            "position": 2,
+            "sentence": "Cast a role in the horror movie.",
+            "match_score": 0.7999999999999999,
+            "green": true,
+            "margin": 0.1499999999999999,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Echo was released in 2008. Someone cast something in Echo. The horror movie saw a role being cast. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+        "near_threshold": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. The 2008 film \"Echo\" had a role assigned. Cast a role in the horror movie \"Echo\".",
+        "random_green": "Echo was released in 2008. In Echo, a casting assignment was made. The horror movie had a role cast in it. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\"."
+      },
+      "usage": {
+        "prompt_tokens": 337,
+        "completion_tokens": 174,
+        "total_tokens": 511,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 337
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 29,
+      "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 0,
+            "sentence": "Travis Scott hollered in a location.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+          },
+          {
+            "position": 2,
+            "sentence": "Travis Scott hollered something.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 1,
+            "sentence": "In 2018, Travis Scott hollered.",
+            "match_score": 0.7826086956521738,
+            "green": true,
+            "margin": 0.1326086956521738,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year (x4 / X)))"
+          },
+          {
+            "position": 3,
+            "sentence": "In 2018, Travis Scott hollered something.",
+            "match_score": 0.8354209653619772,
+            "green": true,
+            "margin": 0.18542096536197716,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 0,
+            "sentence": "Travis Scott hollered in a location.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "In 2018, Travis Scott hollered.",
+            "match_score": 0.7826086956521738,
+            "green": true,
+            "margin": 0.1326086956521738,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :time (x2 / NUM\n              :year (x4 / X)))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "A location was the place where Travis Scott yelled. In 2018, Travis Scott hollered. Something was hollered by Travis Scott. In 2018, Travis Scott hollered something. A person hollered something.",
+        "near_threshold": "Travis Scott hollered in a location. The year 2018 saw Travis Scott holler. Travis Scott hollered something. It was in 2018 that Travis Scott hollered something. A person hollered something.",
+        "random_green": "A location was where Travis Scott shouted. The year 2018 witnessed Travis Scott holler. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something."
+      },
+      "usage": {
+        "prompt_tokens": 341,
+        "completion_tokens": 159,
+        "total_tokens": 500,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 341
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 30,
+      "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 2,
+            "sentence": "A nation defines graciousness.",
+            "match_score": 0.923076923076923,
+            "green": true,
+            "margin": 0.273076923076923,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          },
+          {
+            "position": 0,
+            "sentence": "Define the concept of graciousness.",
+            "match_score": 0.8888888888888888,
+            "green": true,
+            "margin": 0.23888888888888882,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 1,
+            "sentence": "Define graciousness as a national attribute.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          },
+          {
+            "position": 4,
+            "sentence": "Mr Lim Siong Guan defines something at a location.",
+            "match_score": 0.8006117584718948,
+            "green": true,
+            "margin": 0.15061175847189479,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 3,
+            "sentence": "Mr Lim Siong Guan defines graciousness.",
+            "match_score": 0.8181818181818182,
+            "green": true,
+            "margin": 0.1681818181818182,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "Define graciousness as a national attribute.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "What it means for a nation to define graciousness is what defines the concept. Define the concept of graciousness. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+        "near_threshold": "Define the concept of graciousness. The definition of graciousness as a national attribute is provided. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. At a location, something is defined by Mr Lim Siong Guan.",
+        "random_green": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. It is Mr Lim Siong Guan who defines graciousness. The definition of something at a location is given by Mr Lim Siong Guan."
+      },
+      "usage": {
+        "prompt_tokens": 325,
+        "completion_tokens": 162,
+        "total_tokens": 487,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 325
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 31,
+      "source": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 0,
+            "sentence": "Bus Bob Krause died.",
+            "match_score": 0.8421052631578948,
+            "green": true,
+            "margin": 0.19210526315789478,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "Bus Bob Krause's death was reported to someone.",
+            "match_score": 0.8133768452685638,
+            "green": true,
+            "margin": 0.16337684526856378,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 2,
+            "sentence": "The death of Bus Bob Krause was reported to someone recently.",
+            "match_score": 0.764081278888651,
+            "green": true,
+            "margin": 0.11408127888865094,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 3,
+            "sentence": "Bus Bob Krause's death was reported recently to someone.",
+            "match_score": 0.764081278888651,
+            "green": true,
+            "margin": 0.11408127888865094,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"\n                                  :op3 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 4,
+            "sentence": "Make something good.",
+            "match_score": 0.7777777777777778,
+            "green": true,
+            "margin": 0.12777777777777777,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :mod (x3 / N)))"
+          },
+          {
+            "position": 0,
+            "sentence": "Bus Bob Krause died.",
+            "match_score": 0.8421052631578948,
+            "green": true,
+            "margin": 0.19210526315789478,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Bus Bob Krause passed away. Bus Bob Krause's death was reported to someone.",
+        "near_threshold": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. Someone recently received a report about the death of Bus Bob Krause. Someone was recently informed of Bus Bob Krause's passing. Make something good.",
+        "random_green": "Bus Bob Krause passed away. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Do something beneficial."
+      },
+      "usage": {
+        "prompt_tokens": 333,
+        "completion_tokens": 128,
+        "total_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 333
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 32,
+      "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 4,
+            "sentence": "Cindy Thompson passed away something.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 2,
+            "sentence": "A person passed away something.",
+            "match_score": 0.9345568502771232,
+            "green": true,
+            "margin": 0.2845568502771232,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 0,
+            "sentence": "Robert E. Gates.",
+            "match_score": 0.7999999999999999,
+            "green": true,
+            "margin": 0.1499999999999999,
+            "best_matching_amr": "(x0 / NE\n    :name (x2 / N\n              :op1 \"NE\"\n              :op2 \"NE\")\n    :mod (x1 / X))"
+          },
+          {
+            "position": 3,
+            "sentence": "Flip passed away leaving Cindy Thompson.",
+            "match_score": 0.8125,
+            "green": true,
+            "margin": 0.16249999999999998,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / V\n              :ARG1 (x3 / NE\n                        :name (x5 / N\n                                  :op1 \"NE\"\n                                  :op2 \"NE\"))\n              :ARG3 (x4 / NE\n                        :name (x6 / N\n                                  :op1 \"NE\")))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 4,
+            "sentence": "Cindy Thompson passed away something.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "Flip passed away.",
+            "match_score": 0.8750000000000001,
+            "green": true,
+            "margin": 0.2250000000000001,
+            "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. The passing of Cindy Thompson was reported.",
+        "near_threshold": "Robert E. Gates passed away. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+        "random_green": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. The death of Cindy Thompson occurred."
+      },
+      "usage": {
+        "prompt_tokens": 297,
+        "completion_tokens": 112,
+        "total_tokens": 409,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 297
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 33,
+      "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 2,
+            "sentence": "Alice, whose age is something, is a person.",
+            "match_score": 0.8809788135550319,
+            "green": true,
+            "margin": 0.23097881355503191,
+            "best_matching_amr": "(x0 / NE\n    :name (x2 / N\n              :op1 \"NE\")\n    :age (x1 / X))"
+          },
+          {
+            "position": 1,
+            "sentence": "Tell a person a story about a city.",
+            "match_score": 0.8181818181818182,
+            "green": true,
+            "margin": 0.1681818181818182,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / N))\n    :ARG2 (x3 / NE))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 4,
+            "sentence": "Tell a person a story about New York City to Alice.",
+            "match_score": 0.7878787878787877,
+            "green": true,
+            "margin": 0.1378787878787877,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))"
+          },
+          {
+            "position": 0,
+            "sentence": "Tell a person a story about something to Alice.",
+            "match_score": 0.8,
+            "green": true,
+            "margin": 0.15000000000000002,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / N))\n    :ARG2 (x3 / NE))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 2,
+            "sentence": "Alice, whose age is something, is a person.",
+            "match_score": 0.8809788135550319,
+            "green": true,
+            "margin": 0.23097881355503191,
+            "best_matching_amr": "(x0 / NE\n    :name (x2 / N\n              :op1 \"NE\")\n    :age (x1 / X))"
+          },
+          {
+            "position": 4,
+            "sentence": "Tell a person a story about New York City to Alice.",
+            "match_score": 0.7878787878787877,
+            "green": true,
+            "margin": 0.1378787878787877,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / N\n              :topic (x4 / NE\n                         :name (x5 / N\n                                   :op1 \"NE\"\n                                   :op2 \"NE\")))\n    :ARG2 (x3 / NE))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Tell a person a story about something to Alice. A story about a city is what a person should be told. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+        "near_threshold": "A story about something is what a person should tell Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. New York City is the subject of a story that a person should tell Alice.",
+        "random_green": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. A story about New York City is what a person should tell to Alice."
+      },
+      "usage": {
+        "prompt_tokens": 351,
+        "completion_tokens": 182,
+        "total_tokens": 533,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 351
+      },
+      "model_returned": "deepseek-v4-flash"
+    },
+    {
+      "index": 34,
+      "source": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. Throw a pass.",
+      "minimum_green_flips_to_escape": 2,
+      "targets": {
+        "top_margin": [
+          {
+            "position": 4,
+            "sentence": "Throw a pass.",
+            "match_score": 1.0,
+            "green": true,
+            "margin": 0.35,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          },
+          {
+            "position": 1,
+            "sentence": "Josh Rosen threw something.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          }
+        ],
+        "near_threshold": [
+          {
+            "position": 2,
+            "sentence": "Josh Rosen threw something in 2015.",
+            "match_score": 0.8354209653619772,
+            "green": true,
+            "margin": 0.18542096536197716,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 0,
+            "sentence": "Josh Rosen is hot.",
+            "match_score": 0.888888888888889,
+            "green": true,
+            "margin": 0.23888888888888893,
+            "best_matching_amr": "(x0 / ADJ\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+          }
+        ],
+        "random_green": [
+          {
+            "position": 1,
+            "sentence": "Josh Rosen threw something.",
+            "match_score": 0.9607341101662739,
+            "green": true,
+            "margin": 0.31073411016627384,
+            "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG1 (x2 / X))"
+          },
+          {
+            "position": 4,
+            "sentence": "Throw a pass.",
+            "match_score": 1.0,
+            "green": true,
+            "margin": 0.35,
+            "best_matching_amr": "(x0 / V\n    :mode imperative\n    :ARG0 (x1 / N)\n    :ARG1 (x2 / V))"
+          }
+        ]
+      },
+      "candidates": {
+        "top_margin": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. A pass is thrown.",
+        "near_threshold": "Josh Rosen is hot. Josh Rosen threw something. It was in 2015 that Josh Rosen threw something. You throw something. Throw a pass.",
+        "random_green": "Josh Rosen is hot. A throw of something was made by Josh Rosen. Josh Rosen threw something in 2015. You throw something. A pass is thrown."
+      },
+      "usage": {
+        "prompt_tokens": 294,
+        "completion_tokens": 107,
+        "total_tokens": 401,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 294
+      },
+      "model_returned": "deepseek-v4-flash"
+    }
+  ],
+  "failures": []
+}

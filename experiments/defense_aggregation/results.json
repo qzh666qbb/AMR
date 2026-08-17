@@ -1,0 +1,146 @@
+{
+  "binary_z": {
+    "baseline_auroc": 0.985112,
+    "attack_auroc": 0.685832,
+    "baseline_at_1pct": {
+      "threshold": 1.8073922282301278,
+      "actual_fpr": 0.004,
+      "tpr": 0.9
+    },
+    "attack_at_1pct": {
+      "threshold": 1.8073922282301278,
+      "actual_fpr": 0.004,
+      "tpr": 0.052
+    },
+    "baseline_at_5pct": {
+      "threshold": 0.7745966692414834,
+      "actual_fpr": 0.016,
+      "tpr": 0.944
+    },
+    "attack_at_5pct": {
+      "threshold": 0.7745966692414834,
+      "actual_fpr": 0.016,
+      "tpr": 0.072
+    }
+  },
+  "mean": {
+    "baseline_auroc": 0.996448,
+    "attack_auroc": 0.5158400000000001,
+    "baseline_at_1pct": {
+      "threshold": 0.649573077781918,
+      "actual_fpr": 0.008,
+      "tpr": 0.956
+    },
+    "attack_at_1pct": {
+      "threshold": 0.649573077781918,
+      "actual_fpr": 0.008,
+      "tpr": 0.064
+    },
+    "baseline_at_5pct": {
+      "threshold": 0.5865283061604599,
+      "actual_fpr": 0.048,
+      "tpr": 0.972
+    },
+    "attack_at_5pct": {
+      "threshold": 0.5865283061604599,
+      "actual_fpr": 0.048,
+      "tpr": 0.14
+    }
+  },
+  "median": {
+    "baseline_auroc": 0.991792,
+    "attack_auroc": 0.547896,
+    "baseline_at_1pct": {
+      "threshold": 0.6530612244897959,
+      "actual_fpr": 0.008,
+      "tpr": 0.94
+    },
+    "attack_at_1pct": {
+      "threshold": 0.6530612244897959,
+      "actual_fpr": 0.008,
+      "tpr": 0.064
+    },
+    "baseline_at_5pct": {
+      "threshold": 0.5957446808510638,
+      "actual_fpr": 0.048,
+      "tpr": 0.952
+    },
+    "attack_at_5pct": {
+      "threshold": 0.5957446808510638,
+      "actual_fpr": 0.048,
+      "tpr": 0.132
+    }
+  },
+  "max": {
+    "baseline_auroc": 0.975776,
+    "attack_auroc": 0.258272,
+    "baseline_at_1pct": {
+      "threshold": 0.8571428571428571,
+      "actual_fpr": 0.008,
+      "tpr": 0.704
+    },
+    "attack_at_1pct": {
+      "threshold": 0.8571428571428571,
+      "actual_fpr": 0.008,
+      "tpr": 0.028
+    },
+    "baseline_at_5pct": {
+      "threshold": 0.8010487288089628,
+      "actual_fpr": 0.048,
+      "tpr": 0.884
+    },
+    "attack_at_5pct": {
+      "threshold": 0.8010487288089628,
+      "actual_fpr": 0.048,
+      "tpr": 0.052
+    }
+  },
+  "top2_mean": {
+    "baseline_auroc": 0.989328,
+    "attack_auroc": 0.29150400000000004,
+    "baseline_at_1pct": {
+      "threshold": 0.7827723783043756,
+      "actual_fpr": 0.008,
+      "tpr": 0.896
+    },
+    "attack_at_1pct": {
+      "threshold": 0.7827723783043756,
+      "actual_fpr": 0.008,
+      "tpr": 0.036
+    },
+    "baseline_at_5pct": {
+      "threshold": 0.7212761459922279,
+      "actual_fpr": 0.048,
+      "tpr": 0.96
+    },
+    "attack_at_5pct": {
+      "threshold": 0.7212761459922279,
+      "actual_fpr": 0.048,
+      "tpr": 0.064
+    }
+  },
+  "soft_green": {
+    "baseline_auroc": 0.992864,
+    "attack_auroc": 0.37184,
+    "baseline_at_1pct": {
+      "threshold": 0.47926122251928865,
+      "actual_fpr": 0.008,
+      "tpr": 0.948
+    },
+    "attack_at_1pct": {
+      "threshold": 0.47926122251928865,
+      "actual_fpr": 0.008,
+      "tpr": 0.068
+    },
+    "baseline_at_5pct": {
+      "threshold": 0.3637817042750422,
+      "actual_fpr": 0.048,
+      "tpr": 0.968
+    },
+    "attack_at_5pct": {
+      "threshold": 0.3637817042750422,
+      "actual_fpr": 0.048,
+      "tpr": 0.096
+    }
+  }
+}

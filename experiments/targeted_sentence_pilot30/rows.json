@@ -1,0 +1,1439 @@
+[
+  {
+    "index": 0,
+    "strategy": "top_margin",
+    "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+    "text": "IBM Corporation launched a server. IBM Corporation. The subject of the cluster is IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 0,
+    "strategy": "near_threshold",
+    "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+    "text": "IBM Corporation launched a server. It is IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. It is IBM Corporation.",
+    "target_positions": [
+      1,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 0,
+    "strategy": "random_green",
+    "source": "IBM Corporation launched a server. IBM Corporation. The cluster topic is about IBM Corporation. IBM Corporation is related to something. IBM Corporation.",
+    "text": "IBM Corporation launched a server. IBM Corporation. The cluster's topic centers on IBM Corporation. It is IBM Corporation. IBM Corporation.",
+    "target_positions": [
+      1,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 1,
+    "strategy": "top_margin",
+    "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+    "text": "Make the report transparent. Something was earned by the organization. Prasar Bharti earned something at some time. Something was earned by the organization. Prasar Bharti earned only something.",
+    "target_positions": [
+      1,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 1,
+    "strategy": "near_threshold",
+    "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+    "text": "Transparency should be ensured in the report. The organization earned something. At some time, something was earned by Prasar Bharti. The organization earned something. Prasar Bharti earned only something.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 1,
+    "strategy": "random_green",
+    "source": "Make the report transparent. The organization earned something. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+    "text": "The report should be made transparent. Something was earned by the organization. Prasar Bharti earned something at some time. The organization earned something. Prasar Bharti earned only something.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 2,
+    "strategy": "top_margin",
+    "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+    "text": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. The Apple brand is defined by a marketer as a brand.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 2,
+    "strategy": "near_threshold",
+    "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+    "text": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. The Apple brand is defined by a marketer. A marketer defines Apple as a brand.",
+    "target_positions": [
+      0,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 2,
+    "strategy": "random_green",
+    "source": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. A marketer defines Apple as a brand.",
+    "text": "Marketers define something. Marketers define Apple. Marketers define the Apple brand as something. Define the Apple brand as a marketer. The Apple brand is defined by a marketer as a brand.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 3,
+    "strategy": "top_margin",
+    "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "text": "Middletown Township Public Library appointed Kim Rinaldi as something. The directorship at the library was given to Kim Rinaldi. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Kim Rinaldi was appointed to some position at the library.",
+    "target_positions": [
+      1,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 3,
+    "strategy": "near_threshold",
+    "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "text": "Kim Rinaldi was appointed to some position by Middletown Township Public Library. The library appointed Kim Rinaldi as a director. The appointment of Kim Rinaldi by the Township of Middletown was made with the library as its appointee. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 3,
+    "strategy": "random_green",
+    "source": "Middletown Township Public Library appointed Kim Rinaldi as something. The library appointed Kim Rinaldi as a director. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "text": "Kim Rinaldi was appointed to some position by Middletown Township Public Library. The library appointed Kim Rinaldi as a director. The library was named as the appointee in the appointment of Kim Rinaldi by the Township of Middletown. Appoint the library as the appointee of the appointment of Kim Rinaldi by the Township of Middletown. The library appointed Kim Rinaldi as something.",
+    "target_positions": [
+      0,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 4,
+    "strategy": "top_margin",
+    "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+    "text": "The report states something. Make your report detailed. An announcement regarding the World Health Organization is made by the report. The report states something. An announcement regarding the World Health Organization is made by the report.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 4,
+    "strategy": "near_threshold",
+    "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+    "text": "The report makes a statement. Make your report detailed. The report states the World Health Organization. The report makes a statement. The report states the World Health Organization.",
+    "target_positions": [
+      0,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 4,
+    "strategy": "random_green",
+    "source": "The report states something. Make your report detailed. The report states the World Health Organization. The report states something. The report states the World Health Organization.",
+    "text": "The report states something. Make your report detailed. An announcement regarding the World Health Organization is made by the report. The report states something. The report states the World Health Organization.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 5,
+    "strategy": "top_margin",
+    "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+    "text": "Shut down your service. Shut down Allo. The shutdown of something was carried out by a company. Google shut down something in a service. Shut down your service.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 5,
+    "strategy": "near_threshold",
+    "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+    "text": "Shut down your service. Shut down Allo. A company shut down something. The shutdown of something in a service was performed by Google. Shut down your service.",
+    "target_positions": [
+      1,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 5,
+    "strategy": "random_green",
+    "source": "Shut down your service. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+    "text": "Your service should be shut down. Shut down Allo. A company shut down something. Google shut down something in a service. Shut down your service.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 7,
+    "strategy": "top_margin",
+    "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+    "text": "Someone gave Washington a presentation. Give someone a presentation. Washington, D.C. received a presentation. Someone gave Washington a presentation. Washington was the recipient of a presentation about Washington, D.C.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 7,
+    "strategy": "near_threshold",
+    "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+    "text": "A presentation was given to Washington by someone. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 7,
+    "strategy": "random_green",
+    "source": "Someone gave Washington a presentation. Give someone a presentation. A presentation was given to Washington, D.C. Someone gave Washington a presentation. Give a presentation about Washington, D.C. to Washington.",
+    "text": "Someone gave Washington a presentation. Give someone a presentation. Washington, D.C. was the recipient of a presentation. Someone gave Washington a presentation. A presentation about Washington, D.C. was delivered to Washington.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 8,
+    "strategy": "top_margin",
+    "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+    "text": "Keep the conversation serious. New England is vast in extent. A departure from New England was made by something. Something left New England. A location was the destination of something's departure from New England.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 8,
+    "strategy": "near_threshold",
+    "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+    "text": "The conversation should be kept serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 8,
+    "strategy": "random_green",
+    "source": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. Something left New England to a location.",
+    "text": "Keep the conversation serious. New England is vast in extent. Something left New England to something. Something left New England. The act of leaving New England was performed by something, with a location as its destination.",
+    "target_positions": [
+      0,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 9,
+    "strategy": "top_margin",
+    "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+    "text": "A person missed something. The ICYMI abbreviation's definition is what you missed. What does ICYMI stand for? Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 9,
+    "strategy": "near_threshold",
+    "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+    "text": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. The ICYMI abbreviation's definition should be provided at this moment.",
+    "target_positions": [
+      3,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 9,
+    "strategy": "random_green",
+    "source": "A person missed something. You missed the ICYMI abbreviation's definition. Define ICYMI. Define the abbreviation ICYMI. Define the ICYMI abbreviation now.",
+    "text": "A person missed something. You missed the ICYMI abbreviation's definition. What is the meaning of ICYMI? Define the abbreviation ICYMI. Provide the definition of the ICYMI abbreviation immediately.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 10,
+    "strategy": "top_margin",
+    "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "text": "Tell the jury the acquittal. The acquittal should be told to the jury. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 10,
+    "strategy": "near_threshold",
+    "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "text": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. The jury should be told about the widow's acquittal concerning the nightclub. The jury should be told about the widow's acquittal regarding the Pulse nightclub.",
+    "target_positions": [
+      3,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 10,
+    "strategy": "random_green",
+    "source": "Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "text": "Tell the jury the acquittal. The acquittal is what the jury needs to be told. Tell the jury the acquittal. Tell the jury the acquittal of the widow about the nightclub. Tell the jury the acquittal of the widow about the Pulse nightclub.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 11,
+    "strategy": "top_margin",
+    "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+    "text": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Something about Black Friday should be told to QVC. QVC's aggressive something. QVC plans something for Black Friday.",
+    "target_positions": [
+      2,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 11,
+    "strategy": "near_threshold",
+    "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+    "text": "QVC is aggressive to an extent. Aggressively, QVC plans something for Black Friday. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 11,
+    "strategy": "random_green",
+    "source": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. QVC's aggressive something. QVC plans something for Black Friday.",
+    "text": "QVC is aggressive to an extent. QVC plans something for Black Friday aggressively. Tell QVC something about Black Friday. Aggressiveness is something that belongs to QVC. QVC plans something for Black Friday.",
+    "target_positions": [
+      0,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 12,
+    "strategy": "top_margin",
+    "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+    "text": "Malala Yousafzai is brilliant in academics. Something is described by Malala Yousafzai. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. A community receives a description of Malala Yousafzai from someone.",
+    "target_positions": [
+      1,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 12,
+    "strategy": "near_threshold",
+    "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+    "text": "Malala Yousafzai's academic brilliance is well noted. Malala Yousafzai describes something. Brilliant Malala Yousafzai. In 2024, a description is given by Malala Yousafzai. Someone describes Malala Yousafzai to a community.",
+    "target_positions": [
+      0,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 12,
+    "strategy": "random_green",
+    "source": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. Malala Yousafzai describes something in 2024. Someone describes Malala Yousafzai to a community.",
+    "text": "Malala Yousafzai is brilliant in academics. Malala Yousafzai describes something. Brilliant Malala Yousafzai. A description of something is offered by Malala Yousafzai in 2024. The community is told about Malala Yousafzai by someone.",
+    "target_positions": [
+      3,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 14,
+    "strategy": "top_margin",
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "text": "WebMD Health Corp. is held by someone for a reason. WebMD Health Corp. is important for something. The year 2015 saw WebMD Health Corp. being held. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 14,
+    "strategy": "near_threshold",
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "text": "Someone holds WebMD Health Corp. for something. The importance of WebMD Health Corp. lies in something. WebMD Health Corp. was held in 2015. There is something for which WebMD Health Corp. is important. WebMD Health Corp. is important for something.",
+    "target_positions": [
+      1,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 14,
+    "strategy": "random_green",
+    "source": "Someone holds WebMD Health Corp. for something. WebMD Health Corp. is important for something. WebMD Health Corp. was held in 2015. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "text": "The holding of WebMD Health Corp. by someone occurred for a purpose. WebMD Health Corp. is important for something. In 2015, WebMD Health Corp. was held. WebMD Health Corp. is important for something. WebMD Health Corp. is important for something.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 15,
+    "strategy": "top_margin",
+    "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+    "text": "The conference held something. The conference held something that was called SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 4,
+    "same_sentence_count": false,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 15,
+    "strategy": "near_threshold",
+    "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+    "text": "The conference held something. An attendee was shown a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024.",
+    "target_positions": [
+      1,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 4,
+    "same_sentence_count": false,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 15,
+    "strategy": "random_green",
+    "source": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. The conference held an event named SocialDevCamp Chicago. SocialDevCamp Chicago held an event in 2024. SocialDevCamp Chicago held an event in 2024.",
+    "text": "The conference held something. Show an attendee a session about SocialDevCamp Chicago at the conference. An event named SocialDevCamp Chicago was held by the conference. SocialDevCamp Chicago held an event in 2024.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 4,
+    "same_sentence_count": false,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 16,
+    "strategy": "top_margin",
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "text": "BlackRock Inc. operates globally. BlackRock Inc. is defined as something. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "target_positions": [
+      1
+    ],
+    "source_sentence_count": 4,
+    "attack_sentence_count": 4,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 1
+  },
+  {
+    "index": 16,
+    "strategy": "near_threshold",
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "text": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Something is operated by BlackRock Inc., and BlackRock Inc. is defined. BlackRock Inc. is something about BlackRock Inc.",
+    "target_positions": [
+      2
+    ],
+    "source_sentence_count": 4,
+    "attack_sentence_count": 4,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 1
+  },
+  {
+    "index": 16,
+    "strategy": "random_green",
+    "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "text": "BlackRock Inc. operates globally. The definition of BlackRock Inc. is something. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+    "target_positions": [
+      1
+    ],
+    "source_sentence_count": 4,
+    "attack_sentence_count": 4,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 1
+  },
+  {
+    "index": 17,
+    "strategy": "top_margin",
+    "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+    "text": "The home was sold to New York in 2023. New York was sold in 2023. It was to the home that New York was sold. New York was sold in 2023. New York sold the home in 2023.",
+    "target_positions": [
+      1,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 17,
+    "strategy": "near_threshold",
+    "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+    "text": "It was to New York that the home was sold in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. The home was sold by New York in 2023.",
+    "target_positions": [
+      0,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 17,
+    "strategy": "random_green",
+    "source": "The home was sold to New York in 2023. New York was sold in 2023. New York was sold to the home. New York was sold in 2023. New York sold the home in 2023.",
+    "text": "The home was sold to New York in 2023. New York was sold in 2023. It was to the home that New York was sold. New York was sold in 2023. The home was sold by New York in 2023.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 18,
+    "strategy": "top_margin",
+    "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+    "text": "A 2-to-2 ratio of something is defined as a concept. Something is what the concept of NASCAR is defined as. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 18,
+    "strategy": "near_threshold",
+    "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+    "text": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. A concept is what you define as something. The concept of NASCAR is defined as something.",
+    "target_positions": [
+      2,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 18,
+    "strategy": "random_green",
+    "source": "A 2-to-2 ratio of something is defined as a concept. The concept of NASCAR is defined as something. The concept of NASCAR is defined as something at a time. Define a concept as something. The concept of NASCAR is defined as something.",
+    "text": "A 2-to-2 ratio of something is defined as a concept. Something is what the concept of NASCAR is defined as. The concept of NASCAR is defined as something at a time. A concept is what you define as something. The concept of NASCAR is defined as something.",
+    "target_positions": [
+      1,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 19,
+    "strategy": "top_margin",
+    "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+    "text": "Jeff Deardorff has arrived at a location. A location was reached by Jeff Deardorff. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 19,
+    "strategy": "near_threshold",
+    "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+    "text": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Arriving on a day is something to imagine. Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 19,
+    "strategy": "random_green",
+    "source": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. Jeff Deardorff arrived at a location.",
+    "text": "Jeff Deardorff has arrived at a location. Jeff Deardorff arrived at a location. Imagine a day arriving. Jeff Deardorff arrived at a location. A location was reached by Jeff Deardorff.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 21,
+    "strategy": "top_margin",
+    "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+    "text": "Order two military helicopters for the UAE. The purchase of two military helicopters was made. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+    "target_positions": [
+      1,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 21,
+    "strategy": "near_threshold",
+    "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+    "text": "Two military helicopters were ordered by the UAE from an entity. Order two military helicopters for the UAE. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+    "target_positions": [
+      0,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 21,
+    "strategy": "random_green",
+    "source": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. The UAE ordered two military helicopters from an entity.",
+    "text": "Order two military helicopters for the UAE. Order two military helicopters. Order two military helicopters. The UAE ordered two military helicopters recently. Two military helicopters were ordered by the UAE from an entity.",
+    "target_positions": [
+      1,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 22,
+    "strategy": "top_margin",
+    "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+    "text": "The topic about Barack Obama is something. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask a lawmaker about the subject of Barack Obama. Make inquiries regarding Barack Obama.",
+    "target_positions": [
+      3,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 22,
+    "strategy": "near_threshold",
+    "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+    "text": "Barack Obama is a topic of discussion. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 22,
+    "strategy": "random_green",
+    "source": "The topic about Barack Obama is something. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about Barack Obama. Ask about Barack Obama.",
+    "text": "Barack Obama is a topic of discussion. Ask a lawmaker about the topic of Barack Obama in Washington. Ask a lawmaker about the advice that Barack Obama gave on Washington. Ask a lawmaker about the subject of Barack Obama. Ask about Barack Obama.",
+    "target_positions": [
+      0,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 24,
+    "strategy": "top_margin",
+    "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+    "text": "Something defines Mario. A definition of something was provided by Mario. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 24,
+    "strategy": "near_threshold",
+    "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+    "text": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. A new thing was defined by Mario.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 24,
+    "strategy": "random_green",
+    "source": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario defined something new.",
+    "text": "Something defines Mario. Mario defined something. Mario defined something at a location. Something defines Mario. Mario provided a definition for something new.",
+    "target_positions": [
+      3,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 25,
+    "strategy": "top_margin",
+    "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+    "text": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. The team was given a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+    "target_positions": [
+      2,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 25,
+    "strategy": "near_threshold",
+    "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+    "text": "A nine-run lead was built by Council Bluffs Marshalltown. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is exceptionally good.",
+    "target_positions": [
+      0,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 25,
+    "strategy": "random_green",
+    "source": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win was built against Council Bluffs. Council Bluffs is very great.",
+    "text": "Council Bluffs Marshalltown built a nine-run lead. Give the team a win against Council Bluffs. Give the team a win. A win against Council Bluffs was built. Council Bluffs is very great.",
+    "target_positions": [
+      2,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 27,
+    "strategy": "top_margin",
+    "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+    "text": "A company received DERA funding. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. A company was the recipient of DERA funding. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 27,
+    "strategy": "near_threshold",
+    "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+    "text": "Someone gave DERA funding to a company. Funding from DERA should be provided to assist in reauthorizing the EPA program. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+    "target_positions": [
+      1,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 27,
+    "strategy": "random_green",
+    "source": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. Someone gave DERA funding to a company. DERA funding was given to a company recently. Someone gave DERA funding to a company.",
+    "text": "Someone gave DERA funding to a company. Give DERA funding to help reauthorize the program at the U.S. Environmental Protection Agency. A company received DERA funding. DERA funding was given to a company recently. A company was given DERA funding by someone.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 28,
+    "strategy": "top_margin",
+    "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+    "text": "Echo was released in 2008. Someone cast something in Echo. The horror movie saw a role being cast. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 28,
+    "strategy": "near_threshold",
+    "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+    "text": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. The 2008 film \"Echo\" had a role assigned. Cast a role in the horror movie \"Echo\".",
+    "target_positions": [
+      3,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 28,
+    "strategy": "random_green",
+    "source": "Echo was released in 2008. Someone cast something in Echo. Cast a role in the horror movie. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+    "text": "Echo was released in 2008. In Echo, a casting assignment was made. The horror movie had a role cast in it. A role was cast in \"Echo\" (2008). Cast a role in the horror movie \"Echo\".",
+    "target_positions": [
+      1,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 29,
+    "strategy": "top_margin",
+    "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+    "text": "A location was the place where Travis Scott yelled. In 2018, Travis Scott hollered. Something was hollered by Travis Scott. In 2018, Travis Scott hollered something. A person hollered something.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 29,
+    "strategy": "near_threshold",
+    "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+    "text": "Travis Scott hollered in a location. The year 2018 saw Travis Scott holler. Travis Scott hollered something. It was in 2018 that Travis Scott hollered something. A person hollered something.",
+    "target_positions": [
+      1,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 29,
+    "strategy": "random_green",
+    "source": "Travis Scott hollered in a location. In 2018, Travis Scott hollered. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+    "text": "A location was where Travis Scott shouted. The year 2018 witnessed Travis Scott holler. Travis Scott hollered something. In 2018, Travis Scott hollered something. A person hollered something.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 30,
+    "strategy": "top_margin",
+    "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+    "text": "What it means for a nation to define graciousness is what defines the concept. Define the concept of graciousness. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 30,
+    "strategy": "near_threshold",
+    "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+    "text": "Define the concept of graciousness. The definition of graciousness as a national attribute is provided. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. At a location, something is defined by Mr Lim Siong Guan.",
+    "target_positions": [
+      1,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 30,
+    "strategy": "random_green",
+    "source": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. Mr Lim Siong Guan defines graciousness. Mr Lim Siong Guan defines something at a location.",
+    "text": "Define the concept of graciousness. Define graciousness as a national attribute. A nation defines graciousness. It is Mr Lim Siong Guan who defines graciousness. The definition of something at a location is given by Mr Lim Siong Guan.",
+    "target_positions": [
+      1,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 31,
+    "strategy": "top_margin",
+    "source": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+    "text": "Bus Bob Krause passed away. Bus Bob Krause's death was reported to someone.",
+    "target_positions": [
+      0,
+      1
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 2,
+    "same_sentence_count": false,
+    "non_targets_verbatim": false,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 31,
+    "strategy": "near_threshold",
+    "source": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+    "text": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. Someone recently received a report about the death of Bus Bob Krause. Someone was recently informed of Bus Bob Krause's passing. Make something good.",
+    "target_positions": [
+      2,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 31,
+    "strategy": "random_green",
+    "source": "Bus Bob Krause died. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Make something good.",
+    "text": "Bus Bob Krause passed away. Bus Bob Krause's death was reported to someone. The death of Bus Bob Krause was reported to someone recently. Bus Bob Krause's death was reported recently to someone. Do something beneficial.",
+    "target_positions": [
+      0,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 32,
+    "strategy": "top_margin",
+    "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+    "text": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. The passing of Cindy Thompson was reported.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 32,
+    "strategy": "near_threshold",
+    "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+    "text": "Robert E. Gates passed away. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+    "target_positions": [
+      0,
+      3
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 32,
+    "strategy": "random_green",
+    "source": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. Cindy Thompson passed away something.",
+    "text": "Robert E. Gates. Flip passed away. A person passed away something. Flip passed away leaving Cindy Thompson. The death of Cindy Thompson occurred.",
+    "target_positions": [
+      1,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 33,
+    "strategy": "top_margin",
+    "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+    "text": "Tell a person a story about something to Alice. A story about a city is what a person should be told. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+    "target_positions": [
+      1,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 33,
+    "strategy": "near_threshold",
+    "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+    "text": "A story about something is what a person should tell Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. New York City is the subject of a story that a person should tell Alice.",
+    "target_positions": [
+      0,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 33,
+    "strategy": "random_green",
+    "source": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. Tell a person a story about New York City to Alice.",
+    "text": "Tell a person a story about something to Alice. Tell a person a story about a city. Alice, whose age is something, is a person. Tell a person a story about a city. A story about New York City is what a person should tell to Alice.",
+    "target_positions": [
+      2,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 34,
+    "strategy": "top_margin",
+    "source": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. Throw a pass.",
+    "text": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. A pass is thrown.",
+    "target_positions": [
+      1,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 34,
+    "strategy": "near_threshold",
+    "source": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. Throw a pass.",
+    "text": "Josh Rosen is hot. Josh Rosen threw something. It was in 2015 that Josh Rosen threw something. You throw something. Throw a pass.",
+    "target_positions": [
+      0,
+      2
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": false,
+    "minimum_green_flips_to_escape": 2
+  },
+  {
+    "index": 34,
+    "strategy": "random_green",
+    "source": "Josh Rosen is hot. Josh Rosen threw something. Josh Rosen threw something in 2015. You throw something. Throw a pass.",
+    "text": "Josh Rosen is hot. A throw of something was made by Josh Rosen. Josh Rosen threw something in 2015. You throw something. A pass is thrown.",
+    "target_positions": [
+      1,
+      4
+    ],
+    "source_sentence_count": 5,
+    "attack_sentence_count": 5,
+    "same_sentence_count": true,
+    "non_targets_verbatim": true,
+    "target_changed": true,
+    "minimum_green_flips_to_escape": 2
+  }
+]
