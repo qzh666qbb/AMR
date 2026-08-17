@@ -1,0 +1,724 @@
+{
+  "matched_amrs": [
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ],
+    [
+      {
+        "score": 0.9,
+        "best_matching_amr": "(x0 / V\n    :ARG0 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :location (x2 / X))"
+      },
+      {
+        "score": 0.9607341101662739,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.888888888888889,
+        "best_matching_amr": "(x0 / V\n    :ARG1 (x1 / NE\n              :name (x3 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\"))\n    :ARG2 (x2 / X))"
+      },
+      {
+        "score": 0.6448522834257078,
+        "best_matching_amr": "(x0 / N\n    :ARG1 (x1 / NE\n              :name (x4 / N\n                        :op1 \"NE\"))\n    :ARG2 (x2 / X)\n    :ARG4 (x3 / NE\n              :quant 1\n              :name (x5 / N\n                        :op1 \"NE\"\n                        :op2 \"NE\")))"
+      }
+    ]
+  ]
+}

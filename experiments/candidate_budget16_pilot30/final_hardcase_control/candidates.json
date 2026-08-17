@@ -1,0 +1,81 @@
+{
+  "protocol": {
+    "indices": [
+      6,
+      16
+    ],
+    "candidates_per_strategy": 8
+  },
+  "records": [
+    {
+      "index": 6,
+      "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+      "literal_boundary_only": [
+        "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me.",
+        "Was it a surprise to be given something? The assignment of the arts and culture position surprised me with something.",
+        "Was it a surprise to be given something? The arts and culture position assignment surprised me.",
+        "Was it a surprise to be given something? The arts and culture position assignment surprised me with an idea.",
+        "The assignment of the arts and culture position was a surprise to me. Was it a surprise to be given something?",
+        "The assignment of the arts and culture position surprised me with something. Was it a surprise to be given something?",
+        "The arts and culture position assignment surprised me. Was it a surprise to be given something?",
+        "The arts and culture position assignment surprised me with an idea. Was it a surprise to be given something?"
+      ],
+      "constrained_structural": [
+        "Was being given something a surprise? The arts and culture position assignment was surprising to me.",
+        "Was being given something a surprise? The arts and culture position assignment gave me a surprise with something.",
+        "Was being given something a surprise? The assignment of the arts and culture position surprised me.",
+        "Was being given something a surprise? The assignment of the arts and culture position surprised me with an idea.",
+        "The arts and culture position assignment was a surprise to me. Was being given something a surprise?",
+        "The arts and culture position assignment gave me a surprise with something. Was being given something a surprise?",
+        "The assignment of the arts and culture position surprised me. Was being given something a surprise?",
+        "The assignment of the arts and culture position surprised me with an idea. Was being given something a surprise?"
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 288,
+        "completion_tokens": 352,
+        "total_tokens": 640,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 288
+      }
+    },
+    {
+      "index": 16,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "literal_boundary_only": [
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally; define BlackRock Inc. as something; define BlackRock Inc.; BlackRock Inc. operates something; BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something, and BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. It is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. It operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. It operates something. It is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about itself.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about the company."
+      ],
+      "constrained_structural": [
+        "BlackRock Inc. operates globally. BlackRock Inc. is to be defined as something. BlackRock Inc. is defined. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "Globally, BlackRock Inc. operates. Define BlackRock Inc. as something. Define BlackRock Inc. Something is operated by BlackRock Inc. Something about BlackRock Inc. is what BlackRock Inc. is.",
+        "BlackRock Inc. operates globally. The definition of BlackRock Inc. is as something. BlackRock Inc. is defined. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. BlackRock Inc. is to be defined as something. BlackRock Inc. is defined. Something is operated by BlackRock Inc. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about itself.",
+        "BlackRock Inc. operates globally. BlackRock Inc. is defined as something. BlackRock Inc. is defined. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. BlackRock Inc. is to be defined as something. BlackRock Inc. is defined. BlackRock Inc. operates something. Something about BlackRock Inc. is what BlackRock Inc. is.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about the company."
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 269,
+        "completion_tokens": 656,
+        "total_tokens": 925,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 269
+      }
+    }
+  ]
+}

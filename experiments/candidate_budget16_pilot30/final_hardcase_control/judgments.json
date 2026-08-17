@@ -1,0 +1,430 @@
+{
+  "protocol": {
+    "blinded_to_strategy_and_detector": true,
+    "temperature": 0.0
+  },
+  "groups": [
+    {
+      "source_index": 6,
+      "source": "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me. The assignment of the arts and culture position surprised me with something. The arts and culture position assignment surprised me. The arts and culture position assignment surprised me with an idea.",
+      "candidates": [
+        "Was it a surprise to be given something? The assignment of the arts and culture position was a surprise to me.",
+        "Was it a surprise to be given something? The assignment of the arts and culture position surprised me with something.",
+        "Was it a surprise to be given something? The arts and culture position assignment surprised me.",
+        "Was it a surprise to be given something? The arts and culture position assignment surprised me with an idea.",
+        "The assignment of the arts and culture position was a surprise to me. Was it a surprise to be given something?",
+        "The assignment of the arts and culture position surprised me with something. Was it a surprise to be given something?",
+        "The arts and culture position assignment surprised me. Was it a surprise to be given something?",
+        "The arts and culture position assignment surprised me with an idea. Was it a surprise to be given something?",
+        "Was being given something a surprise? The arts and culture position assignment was surprising to me.",
+        "Was being given something a surprise? The arts and culture position assignment gave me a surprise with something.",
+        "Was being given something a surprise? The assignment of the arts and culture position surprised me.",
+        "Was being given something a surprise? The assignment of the arts and culture position surprised me with an idea.",
+        "The arts and culture position assignment was a surprise to me. Was being given something a surprise?",
+        "The arts and culture position assignment gave me a surprise with something. Was being given something a surprise?",
+        "The assignment of the arts and culture position surprised me. Was being given something a surprise?",
+        "The assignment of the arts and culture position surprised me with an idea. Was being given something a surprise?"
+      ],
+      "reviews": [
+        {
+          "candidate": 0,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Exact copy of the first two sentences of the source, preserving all meaning and facts."
+        },
+        {
+          "candidate": 1,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Exact copy of the first and third sentences, preserving all meaning and facts."
+        },
+        {
+          "candidate": 2,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Exact copy of the first and fourth sentences, preserving all meaning and facts."
+        },
+        {
+          "candidate": 3,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Exact copy of the first and fifth sentences, preserving all meaning and facts."
+        },
+        {
+          "candidate": 4,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Reordered the first two sentences, but all propositions and facts are unchanged."
+        },
+        {
+          "candidate": 5,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Reordered the first and third sentences, preserving all meaning and facts."
+        },
+        {
+          "candidate": 6,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Reordered the first and fourth sentences, preserving all meaning and facts."
+        },
+        {
+          "candidate": 7,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Reordered the first and fifth sentences, preserving all meaning and facts."
+        },
+        {
+          "candidate": 8,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 2,
+          "readability_score": 4,
+          "reason": "Changes 'was a surprise' to 'was surprising' and drops the 'with something' / 'with an idea' variants, omitting the proposition that the surprise came with something specific."
+        },
+        {
+          "candidate": 9,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": false,
+          "major_error": true,
+          "meaning_score": 1,
+          "factual_score": 1,
+          "readability_score": 2,
+          "reason": "Adds 'gave me a surprise with something' which is not in the source and is awkward; also omits the 'was a surprise' proposition."
+        },
+        {
+          "candidate": 10,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 2,
+          "readability_score": 4,
+          "reason": "Drops the 'with something' / 'with an idea' detail, omitting a proposition present in the source."
+        },
+        {
+          "candidate": 11,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 2,
+          "readability_score": 4,
+          "reason": "Adds 'with an idea' which is not in the source's first two sentences; also omits the 'was a surprise' proposition."
+        },
+        {
+          "candidate": 12,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 2,
+          "readability_score": 4,
+          "reason": "Drops the 'with something' / 'with an idea' detail, omitting a proposition; also changes the question wording."
+        },
+        {
+          "candidate": 13,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": false,
+          "major_error": true,
+          "meaning_score": 1,
+          "factual_score": 1,
+          "readability_score": 2,
+          "reason": "Adds 'gave me a surprise with something' which is not in the source; also omits the 'was a surprise' proposition."
+        },
+        {
+          "candidate": 14,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 2,
+          "readability_score": 4,
+          "reason": "Drops the 'with something' / 'with an idea' detail, omitting a proposition; also changes the question wording."
+        },
+        {
+          "candidate": 15,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 2,
+          "factual_score": 2,
+          "readability_score": 4,
+          "reason": "Adds 'with an idea' which is not in the source's first two sentences; also omits the 'was a surprise' proposition."
+        }
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 692,
+        "completion_tokens": 1560,
+        "total_tokens": 2252,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 692
+      }
+    },
+    {
+      "source_index": 16,
+      "source": "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+      "candidates": [
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally; define BlackRock Inc. as something; define BlackRock Inc.; BlackRock Inc. operates something; BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something, and BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. It is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. It operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. It operates something. It is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about itself.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about the company.",
+        "BlackRock Inc. operates globally. BlackRock Inc. is to be defined as something. BlackRock Inc. is defined. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "Globally, BlackRock Inc. operates. Define BlackRock Inc. as something. Define BlackRock Inc. Something is operated by BlackRock Inc. Something about BlackRock Inc. is what BlackRock Inc. is.",
+        "BlackRock Inc. operates globally. The definition of BlackRock Inc. is as something. BlackRock Inc. is defined. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. BlackRock Inc. is to be defined as something. BlackRock Inc. is defined. Something is operated by BlackRock Inc. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about itself.",
+        "BlackRock Inc. operates globally. BlackRock Inc. is defined as something. BlackRock Inc. is defined. BlackRock Inc. operates something. BlackRock Inc. is something about BlackRock Inc.",
+        "BlackRock Inc. operates globally. BlackRock Inc. is to be defined as something. BlackRock Inc. is defined. BlackRock Inc. operates something. Something about BlackRock Inc. is what BlackRock Inc. is.",
+        "BlackRock Inc. operates globally. Define BlackRock Inc. as something. Define BlackRock Inc. BlackRock Inc. operates something. BlackRock Inc. is something about the company."
+      ],
+      "reviews": [
+        {
+          "candidate": 0,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Exact copy of source, all propositions and roles preserved."
+        },
+        {
+          "candidate": 1,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": false,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 2,
+          "reason": "All meaning and facts preserved, but semicolon concatenation is awkward and not natural prose."
+        },
+        {
+          "candidate": 2,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Combines last two sentences with 'and', preserving all propositions and roles."
+        },
+        {
+          "candidate": 3,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Replaces second 'BlackRock Inc.' with 'It' in final sentence, no meaning change."
+        },
+        {
+          "candidate": 4,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Replaces 'BlackRock Inc. operates' with 'It operates', preserving all roles."
+        },
+        {
+          "candidate": 5,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Uses 'It' for both later mentions, all propositions intact."
+        },
+        {
+          "candidate": 6,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 3,
+          "factual_score": 3,
+          "readability_score": 5,
+          "reason": "Changes 'about BlackRock Inc.' to 'about itself' - adds a reflexive relation not in source."
+        },
+        {
+          "candidate": 7,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 3,
+          "factual_score": 3,
+          "readability_score": 5,
+          "reason": "Changes 'about BlackRock Inc.' to 'about the company' - introduces a new descriptor not in source."
+        },
+        {
+          "candidate": 8,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Rephrases 'Define' as 'is to be defined' and 'Define' as 'is defined', same propositions."
+        },
+        {
+          "candidate": 9,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 3,
+          "factual_score": 3,
+          "readability_score": 4,
+          "reason": "Changes word order and voice ('Something is operated by'), but also reverses final clause to 'Something about BlackRock Inc. is what BlackRock Inc. is' - changes meaning."
+        },
+        {
+          "candidate": 10,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Rephrases 'Define' as 'The definition of' and 'Define' as 'is defined', all propositions intact."
+        },
+        {
+          "candidate": 11,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Changes 'operates something' to passive 'Something is operated by', but same proposition and roles."
+        },
+        {
+          "candidate": 12,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 3,
+          "factual_score": 3,
+          "readability_score": 5,
+          "reason": "Same as candidate 6 - 'about itself' adds reflexive relation not in source."
+        },
+        {
+          "candidate": 13,
+          "meaning_preserved": true,
+          "facts_preserved": true,
+          "readable": true,
+          "major_error": false,
+          "meaning_score": 5,
+          "factual_score": 5,
+          "readability_score": 5,
+          "reason": "Changes 'Define' to 'is defined as' and 'Define' to 'is defined', all propositions preserved."
+        },
+        {
+          "candidate": 14,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 3,
+          "factual_score": 3,
+          "readability_score": 4,
+          "reason": "Final clause reversed to 'Something about BlackRock Inc. is what BlackRock Inc. is' - changes meaning."
+        },
+        {
+          "candidate": 15,
+          "meaning_preserved": false,
+          "facts_preserved": false,
+          "readable": true,
+          "major_error": true,
+          "meaning_score": 3,
+          "factual_score": 3,
+          "readability_score": 5,
+          "reason": "Same as candidate 7 - 'about the company' adds new descriptor not in source."
+        }
+      ],
+      "model_returned": "deepseek-v4-flash",
+      "usage": {
+        "prompt_tokens": 975,
+        "completion_tokens": 1534,
+        "total_tokens": 2509,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 975
+      }
+    }
+  ]
+}
