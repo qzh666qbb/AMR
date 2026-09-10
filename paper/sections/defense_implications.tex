@@ -1,0 +1,13 @@
+The practical lesson from this paper is not that AMR-based watermarking is useless. It is a system stressed along several axes at once: score thresholding, parser sensitivity, repeated-run variance, and quality preservation.
+
+Three defensive implications follow directly.
+
+First, detector reporting includes a stability check. A method that looks strong under one run but becomes unstable under repeated recomputation is not a dependable watermarking defense. The 120/120 stability result in this paper makes that point concrete: if the binary decision never changes, then the reported attack region is not a sampling artifact.
+
+Second, raw escape rate is not reported alone. In this project, the boundary-only primitive reaches a very high escape rate, but its qualitative cost is also the highest. A defender who only watches raw escape would misread the severity of the attack; a defender who only watches quality would miss the detector vulnerability. The correct interpretation requires both numbers together.
+
+Third, threshold choice is documented as part of the method, not hidden as a tuning detail. The 0.65--0.80 plateau shows that threshold selection materially shapes the apparent success rate. For deployment, the detector is calibrated on held-out data and monitored for plateau-like regions where a small threshold shift causes a large change in security claims.
+
+More broadly, the paper shows that AMR-based watermarking benefits from defense-in-depth. A semantic detector is paired with orthogonal checks such as lexical consistency, paraphrase diagnostics, or human review for borderline cases. The goal is not to eliminate adversarial rewriting---which is unrealistic---but to make it harder for a single structural perturbation to drive the system below threshold while preserving apparent fluency.
+
+These recommendations turn the attack results into an evaluation protocol: a stronger defender documents threshold calibration, tests structural perturbations, audits repeated-run stability, and reports quality-conditioned rather than purely raw escape rates.

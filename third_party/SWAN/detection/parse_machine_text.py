@@ -123,8 +123,9 @@ def parallel_parse_docs(paragraphs, devices, batch_size):
                                         shard_docs,
                                         device=device,
                                         batch_size=batch_size))
-        for i, f in enumerate(as_completed(futs)):
-            results_list[i] = f.result()
+        future_to_index = {future: idx for idx, future in enumerate(futs)}
+        for future in as_completed(futs):
+            results_list[future_to_index[future]] = future.result()
 
     # Merge results in shard order
     merged = []

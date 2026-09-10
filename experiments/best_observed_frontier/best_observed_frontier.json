@@ -1,0 +1,56 @@
+{
+  "best_strict_valid_asr_observed": {
+    "source": "candidate_budget16_pilot30/judged_analysis",
+    "k": 1,
+    "valid_asr": 0.3333333333333333,
+    "escape_rate": 1.0,
+    "surface_valid_rate": 0.9666666666666667,
+    "semantic_valid_rate": 0.3333333333333333
+  },
+  "best_stability_backed_strict_result": {
+    "source": "feedback_driven_strict30/paper_final_bundle",
+    "strict_valid_asr": 0.3,
+    "strict_valid_asr_ci95": [
+      0.147345184754701,
+      0.4939590414625537
+    ],
+    "threshold_plateau": {
+      "start": 0.65,
+      "end": 0.8,
+      "strict_valid_asr": 0.3
+    },
+    "repeatability_50": {
+      "repeats": 50,
+      "selected_paragraphs": 9,
+      "mean_paragraph_asr": 1.0
+    },
+    "full_repeatability_50": {
+      "total_candidates": 120,
+      "candidate_with_mixed_escape": 0,
+      "stable_candidates": 120
+    }
+  },
+  "best_raw_escape_prompt_component": {
+    "source": "prompt_component_ablation30/analysis",
+    "strategy": "boundary_only",
+    "escape_rate": 0.9333333333333333,
+    "mean_attack_z": 0.1657719996009065,
+    "mean_z_drop": 3.0050515829117574,
+    "auroc": 0.8284
+  },
+  "best_quality_escape_prompt_component": {
+    "source": "prompt_component_ablation30/analysis",
+    "strategy": "boundary_only",
+    "escape_rate": 0.9333333333333333,
+    "mean_attack_z": 0.1657719996009065,
+    "mean_z_drop": 3.0050515829117574,
+    "auroc": 0.8284
+  },
+  "best_external_baseline_escape": {
+    "source": "baseline_comparison",
+    "label": "Baseline pilot 30x5",
+    "escape_rate": 0.13333333333333333,
+    "mean_z": 3.4725352515832184,
+    "auroc": 0.9983333333333333
+  }
+}

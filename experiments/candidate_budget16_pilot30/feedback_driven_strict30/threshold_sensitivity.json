@@ -1,0 +1,219 @@
+[
+  {
+    "threshold": 0.5,
+    "candidate_escape_rate": 0.016666666666666666,
+    "paragraph_asr": 0.06666666666666667,
+    "strict_valid_asr": 0.03333333333333333,
+    "strict_candidate_escape_rate": 0.0625
+  },
+  {
+    "threshold": 0.51,
+    "candidate_escape_rate": 0.05,
+    "paragraph_asr": 0.1,
+    "strict_valid_asr": 0.06666666666666667,
+    "strict_candidate_escape_rate": 0.1875
+  },
+  {
+    "threshold": 0.52,
+    "candidate_escape_rate": 0.075,
+    "paragraph_asr": 0.1,
+    "strict_valid_asr": 0.1,
+    "strict_candidate_escape_rate": 0.25
+  },
+  {
+    "threshold": 0.53,
+    "candidate_escape_rate": 0.08333333333333333,
+    "paragraph_asr": 0.13333333333333333,
+    "strict_valid_asr": 0.13333333333333333,
+    "strict_candidate_escape_rate": 0.3125
+  },
+  {
+    "threshold": 0.54,
+    "candidate_escape_rate": 0.09166666666666666,
+    "paragraph_asr": 0.16666666666666666,
+    "strict_valid_asr": 0.13333333333333333,
+    "strict_candidate_escape_rate": 0.3125
+  },
+  {
+    "threshold": 0.55,
+    "candidate_escape_rate": 0.09166666666666666,
+    "paragraph_asr": 0.16666666666666666,
+    "strict_valid_asr": 0.13333333333333333,
+    "strict_candidate_escape_rate": 0.3125
+  },
+  {
+    "threshold": 0.56,
+    "candidate_escape_rate": 0.1,
+    "paragraph_asr": 0.2,
+    "strict_valid_asr": 0.16666666666666666,
+    "strict_candidate_escape_rate": 0.375
+  },
+  {
+    "threshold": 0.57,
+    "candidate_escape_rate": 0.13333333333333333,
+    "paragraph_asr": 0.23333333333333334,
+    "strict_valid_asr": 0.23333333333333334,
+    "strict_candidate_escape_rate": 0.5625
+  },
+  {
+    "threshold": 0.58,
+    "candidate_escape_rate": 0.13333333333333333,
+    "paragraph_asr": 0.23333333333333334,
+    "strict_valid_asr": 0.23333333333333334,
+    "strict_candidate_escape_rate": 0.5625
+  },
+  {
+    "threshold": 0.59,
+    "candidate_escape_rate": 0.16666666666666666,
+    "paragraph_asr": 0.26666666666666666,
+    "strict_valid_asr": 0.26666666666666666,
+    "strict_candidate_escape_rate": 0.75
+  },
+  {
+    "threshold": 0.6,
+    "candidate_escape_rate": 0.16666666666666666,
+    "paragraph_asr": 0.26666666666666666,
+    "strict_valid_asr": 0.26666666666666666,
+    "strict_candidate_escape_rate": 0.75
+  },
+  {
+    "threshold": 0.61,
+    "candidate_escape_rate": 0.16666666666666666,
+    "paragraph_asr": 0.26666666666666666,
+    "strict_valid_asr": 0.26666666666666666,
+    "strict_candidate_escape_rate": 0.75
+  },
+  {
+    "threshold": 0.62,
+    "candidate_escape_rate": 0.19166666666666668,
+    "paragraph_asr": 0.26666666666666666,
+    "strict_valid_asr": 0.26666666666666666,
+    "strict_candidate_escape_rate": 0.9375
+  },
+  {
+    "threshold": 0.63,
+    "candidate_escape_rate": 0.20833333333333334,
+    "paragraph_asr": 0.3333333333333333,
+    "strict_valid_asr": 0.26666666666666666,
+    "strict_candidate_escape_rate": 0.9375
+  },
+  {
+    "threshold": 0.64,
+    "candidate_escape_rate": 0.20833333333333334,
+    "paragraph_asr": 0.3333333333333333,
+    "strict_valid_asr": 0.26666666666666666,
+    "strict_candidate_escape_rate": 0.9375
+  },
+  {
+    "threshold": 0.65,
+    "candidate_escape_rate": 0.21666666666666667,
+    "paragraph_asr": 0.36666666666666664,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.66,
+    "candidate_escape_rate": 0.225,
+    "paragraph_asr": 0.36666666666666664,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.67,
+    "candidate_escape_rate": 0.25,
+    "paragraph_asr": 0.4666666666666667,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.68,
+    "candidate_escape_rate": 0.25,
+    "paragraph_asr": 0.4666666666666667,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.69,
+    "candidate_escape_rate": 0.26666666666666666,
+    "paragraph_asr": 0.5,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.7,
+    "candidate_escape_rate": 0.2916666666666667,
+    "paragraph_asr": 0.5666666666666667,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.71,
+    "candidate_escape_rate": 0.3333333333333333,
+    "paragraph_asr": 0.6333333333333333,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.72,
+    "candidate_escape_rate": 0.36666666666666664,
+    "paragraph_asr": 0.7,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.73,
+    "candidate_escape_rate": 0.4,
+    "paragraph_asr": 0.7333333333333333,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.74,
+    "candidate_escape_rate": 0.475,
+    "paragraph_asr": 0.8333333333333334,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.75,
+    "candidate_escape_rate": 0.475,
+    "paragraph_asr": 0.8333333333333334,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.76,
+    "candidate_escape_rate": 0.49166666666666664,
+    "paragraph_asr": 0.8333333333333334,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.77,
+    "candidate_escape_rate": 0.6,
+    "paragraph_asr": 0.8666666666666667,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.78,
+    "candidate_escape_rate": 0.625,
+    "paragraph_asr": 0.8666666666666667,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.79,
+    "candidate_escape_rate": 0.65,
+    "paragraph_asr": 0.8666666666666667,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  },
+  {
+    "threshold": 0.8,
+    "candidate_escape_rate": 0.65,
+    "paragraph_asr": 0.8666666666666667,
+    "strict_valid_asr": 0.3,
+    "strict_candidate_escape_rate": 1.0
+  }
+]

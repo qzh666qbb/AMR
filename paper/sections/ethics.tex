@@ -1,0 +1,9 @@
+This work studies attack behavior against a semantic watermark detector. The ethical direction is to use the results to improve robustness, not to facilitate misuse.
+
+The experiment is bounded to a fixed benchmark subset and a fixed detector configuration. It does not reveal private data, user content, or deployment-specific secrets. The main contribution is an empirical robustness analysis showing that structure-aware rewrites can alter detector behavior. That helps defenders because it identifies where the system is fragile and what a stronger evaluation protocol should measure.
+
+The paper deliberately separates raw escape from strict validity so that the reported numbers do not encourage meaningless attacks. If a candidate only succeeds by becoming unreadable or semantically incorrect, it should not be presented as a genuine win.
+
+The broader ethical takeaway is that semantic watermarking should be evaluated under attack before it is treated as deployment-ready. Security claims based on a single threshold or a single run are not sufficient. A robust system needs plateau analysis, repeatability analysis, and qualitative failure review.
+
+We accordingly release aggregate measurements and reproducibility artifacts for defensive evaluation while avoiding claims about deployment-specific systems that were not tested. The intended use is to improve robustness standards for semantic watermarking and to make the limits of current detector evidence explicit.

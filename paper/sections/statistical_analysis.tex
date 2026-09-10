@@ -1,0 +1,13 @@
+The paper reports exact confidence intervals because the main sample sizes are small and the strict-valid result is binary by paragraph. For a success count of $k$ out of $n$, we use the exact binomial interval
+\[
+[\mathrm{Beta}^{-1}(\alpha/2; k, n-k+1),\ \mathrm{Beta}^{-1}(1-\alpha/2; k+1, n-k)]
+\]
+with $\alpha=0.05$, which is the standard Clopper--Pearson construction.
+
+This choice is conservative, but that is appropriate here. The strict-valid result is intended as a defensible lower-bound style claim rather than a maximal point estimate. When the success count is modest, approximate intervals can understate uncertainty and make the headline number look more precise than it really is.
+
+The same conservative logic applies to the threshold sweep. The plateau from 0.65 to 0.80 is not treated as a formal equivalence statement; it is simply the interval over which the measured strict-valid ASR does not change. That matters because the detector threshold is a hyperparameter, and any single fixed threshold can exaggerate or understate attack strength if reported in isolation.
+
+For the baseline comparison, the paper reports mean detector score, escape rate, and AUROC together rather than a single scalar. This avoids the common mistake of letting one metric dominate the interpretation. A low detector score is useful only if it corresponds to usable outputs, and a high AUROC is useful only if it is derived from a properly matched background distribution. Reporting all three quantities gives a more complete picture of where the candidate search is strong and where it is merely exploiting a narrow evaluation slice.
+
+Finally, the repeated-recomputation audit is a stability check rather than a hypothesis test. The goal is not to prove statistical significance in the conventional sense, but to show that the binary decisions are invariant under repeated runs. In adversarial evaluation, that invariance is often the more relevant property: a result that disappears under recomputation is not a robust finding, even if its one-shot score looks impressive.

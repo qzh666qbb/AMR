@@ -1,0 +1,32 @@
+Let a source paragraph be denoted by $x_i$, and let $\mathcal{C}_i = \{c_{i1}, \dots, c_{iK}\}$ be the set of $K$ candidate rewrites generated for that paragraph. Each candidate receives a detector score $z_{ij}$, where lower scores indicate better detector escape. We fix the detector threshold at
+\[
+\tau = 2.33.
+\]
+
+We define a binary escape indicator:
+\[
+e_{ij} = \mathbb{1}[z_{ij} \leq \tau].
+\]
+
+To avoid counting degenerate attacks, we also define a quality indicator $q_{ij} \in \{0,1\}$, where $q_{ij}=1$ if the rewrite satisfies the project's surface and semantic validity checks.
+
+For each paragraph, we select the best candidate under the current budget and validity constraints. The quality-aware selection rule is
+\[
+j_i^\star =
+\begin{cases}
+\arg\min_{j \in \mathcal{V}_i} z_{ij}, & \text{if } \mathcal{V}_i \neq \emptyset, \\
+\arg\min_{1 \le j \le K} z_{ij}, & \text{otherwise},
+\end{cases}
+\]
+where $\mathcal{V}_i = \{j : q_{ij}=1\}$ is the set of valid candidates for paragraph $i$.
+
+The strict paragraph success indicator is then
+\[
+s_i = \mathbb{1}[q_{i j_i^\star}=1 \wedge z_{i j_i^\star} \leq \tau].
+\]
+
+The strict valid ASR reported in the paper is
+\[
+\mathrm{StrictValidASR} = \frac{1}{N}\sum_{i=1}^{N} s_i.
+\]
+

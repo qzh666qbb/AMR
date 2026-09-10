@@ -1,0 +1,11 @@
+The empirical picture is direct. AMR-structured rewriting can reduce detector scores substantially, but the strongest raw escape settings are not the most reliable ones. The defensible claim is therefore the stability-backed strict result, not the single best escape rate.
+
+This is the reason the paper separates three quantities that are often conflated in adversarial evaluation: raw escape rate, strict valid ASR, and repeated-run stability. Raw escape rate captures detector weakness. Strict valid ASR asks whether the attack remains usable after quality constraints. Stability asks whether the claim survives recomputation rather than depending on a single favorable draw.
+
+\begin{quote}
+Structure-aware rewrites can weaken semantic watermark detection while preserving enough content to remain valid, and the effect is stable under repeated detector recomputation.
+\end{quote}
+
+The strict-valid plateau from 0.65 to 0.80 is useful for interpretation. It suggests that the method is not tuned to a knife-edge threshold artifact, but instead exploits a broader region of the detector's score landscape. That does not prove general robustness across all settings, but it does rule out the narrow objection that the result is only threshold-chasing.
+
+The strongest raw primitive, boundary-only rewriting, is also informative. It shows that sentence-boundary manipulation is a particularly effective way to disrupt the detector, but the same primitive can push outputs out of the quality regime the paper wants to preserve. The result is useful even when raw escape is not the headline number because it isolates the mechanism that does the most damage and makes the quality tradeoff explicit.

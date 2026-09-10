@@ -1,0 +1,80 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[numbers]{natbib}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{float}
+
+\title{AMR-Structured Evasion of Semantic Watermarking with Feedback-Driven Candidate Search}
+\author{Anonymous}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Abstract meaning representation (AMR) is a convenient intermediate layer for meaning-preserving rewriting and detector-based evaluation. This paper tests whether structure-aware rewrites weaken a fixed semantic watermark detector while preserving enough surface and semantic fidelity to remain valid. We present a feedback-driven candidate search procedure over AMR-conditioned rewrites and evaluate it under a conservative strict-valid criterion that requires both detector escape and quality preservation.
+
+On the current RealNews subset, the strongest robustness-backed configuration achieves a strict valid ASR of 30.0\% with an exact 95\% confidence interval of [14.7\%, 49.4\%]. This result is stable across a plateau of detector thresholds from 0.65 to 0.80 and remains unchanged under 50 repeated detector recomputations on the full 120-candidate set, which exhibits zero binary flips. The best observed strict-valid configuration reaches 33.3\% at $K=1$, while the strongest raw detector-escape primitive reaches 93.3\% escape rate. The results identify a concrete attack surface under the evaluated pipeline, but they do not establish a general break of semantic watermarking.
+\end{abstract}
+
+\section{Introduction}
+\input{sections/introduction.tex}
+
+\section{Related Work}
+\input{sections/related_work.tex}
+
+\section{Method}
+\input{sections/method.tex}
+
+\section{Experimental Setup}
+\input{sections/experimental_setup.tex}
+
+\section{Threat Model}
+\input{sections/threat_model.tex}
+
+\section{Statistical Analysis}
+\input{sections/statistical_analysis.tex}
+
+\section{Results}
+\input{sections/results.tex}
+
+\section{Mechanism Analysis}
+\input{sections/mechanism.tex}
+
+\section{Qualitative Examples}
+\input{sections/examples.tex}
+
+\section{Discussion}
+\input{sections/discussion.tex}
+
+\section{Defensive Implications}
+\input{sections/defense_implications.tex}
+
+\section{Representative Failure Cases}
+\input{sections/case_studies.tex}
+
+\section{Ethics Statement}
+\input{sections/ethics.tex}
+
+\section{Limitations}
+\input{sections/limitations.tex}
+
+\section{Reproducibility}
+\input{sections/reproducibility.tex}
+
+\section{Conclusion}
+\input{sections/conclusion.tex}
+
+\appendix
+\section{Consolidated Tables}
+\input{sections/appendix.tex}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

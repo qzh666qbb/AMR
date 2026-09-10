@@ -1,0 +1,51 @@
+{
+  "threshold": 2.33,
+  "rows": [
+    {
+      "method": "pilot_30x5",
+      "label": "Baseline pilot 30x5",
+      "notes": "Existing 30-prompt pilot under the same detector",
+      "n": 30,
+      "mean_z": 3.4725352515832184,
+      "escape_rate": 0.13333333333333333,
+      "escape_count": 4,
+      "escape_ci_low": 0.03755349633833715,
+      "escape_ci_high": 0.30721835027612665,
+      "auroc": 0.9983333333333333,
+      "min_z": 0.7745966692414834,
+      "max_z": 3.8729833462074166
+    },
+    {
+      "method": "formal_250x5",
+      "label": "Baseline formal 250x5",
+      "notes": "Larger formal baseline, different sample size",
+      "n": 250,
+      "mean_z": 3.4393965466279925,
+      "escape_rate": 0.108,
+      "escape_count": 27,
+      "escape_ci_low": 0.07238925204829043,
+      "escape_ci_high": 0.15323545662066468,
+      "auroc": 0.9852639999999999,
+      "min_z": -1.2909944487358056,
+      "max_z": 4.58257569495584
+    },
+    {
+      "method": "proposed",
+      "label": "Proposed method",
+      "notes": "Quality-checked strict ASR + repeatability",
+      "n": 30,
+      "mean_z": NaN,
+      "escape_rate": 0.36666666666666664,
+      "escape_count": 11,
+      "escape_ci_low": 0.147345184754701,
+      "escape_ci_high": 0.4939590414625537,
+      "auroc": NaN,
+      "min_z": NaN,
+      "max_z": NaN,
+      "strict_valid_asr": 0.3,
+      "strict_candidate_rate": 0.13333333333333333,
+      "threshold_plateau_low": 0.65,
+      "threshold_plateau_high": 0.8
+    }
+  ]
+}

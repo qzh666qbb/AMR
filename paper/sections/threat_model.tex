@@ -1,0 +1,9 @@
+The threat model is narrow and therefore easy to audit.
+
+The attacker has access to the source paragraphs and to the feedback-driven candidate generation pipeline used in this project. The attacker does not assume access to the detector's internal parameters, parser internals, or training data. Instead, candidate quality is judged through the same detector score and validity checks used in the experiments. This makes the setting closer to a black-box or gray-box practical attack than to an oracle-based optimization problem.
+
+The defender is the fixed AMR-based semantic watermark detector. Its decision rule depends on a thresholded score derived from AMR structure, so the detector is sensitive both to semantic preservation and to parser behavior. The key implication is that a rewrite can fail for two different reasons: it can either remain above threshold, or it can cross threshold while becoming too degraded to count as valid. The paper therefore treats ``attack success'' as a conjunction of detector escape and quality preservation.
+
+The attacker objective is to maximize strict valid ASR under a fixed generation budget. This objective is stronger than pure escape because it explicitly rules out the degenerate strategy of sacrificing fluency or meaning for score reduction. It is also weaker than a fully human-blind attack because the current quality filter still relies on the project's existing review protocol rather than a fresh independent annotation campaign.
+
+In practical terms, this threat model is sufficient for the paper's central claim: structure-aware rewriting is not harmless to AMR-based watermarking. It creates a real optimization surface that a search procedure can exploit, and the resulting attack remains meaningful even after conservative validity filtering.

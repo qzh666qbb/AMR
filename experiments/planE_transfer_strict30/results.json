@@ -1,0 +1,119 @@
+{
+  "scope": "Frozen Plan E strict candidates rescored with two 25-template subsets of the original public 50-template SWAN bank",
+  "threshold": 2.33,
+  "source_bank_size": 50,
+  "source_candidate_escape": 26,
+  "source_candidates": 120,
+  "source_strict_success_paragraphs": [
+    4,
+    6,
+    11,
+    13,
+    14,
+    16,
+    20,
+    23,
+    26
+  ],
+  "quality_label": "Existing AI-assistant strict audit; not human-subject annotation",
+  "results": {
+    "first25": {
+      "bank_size": 25,
+      "all_candidate_escape": 34,
+      "all_candidates": 120,
+      "known_strict_valid_candidate_escape": 16,
+      "known_strict_valid_candidates": 16,
+      "target_known_strict_success_paragraphs": [
+        4,
+        6,
+        11,
+        13,
+        14,
+        16,
+        20,
+        23,
+        26
+      ],
+      "target_known_strict_valid_asr_lower_bound": 0.3,
+      "source_strict_success_paragraphs": [
+        4,
+        6,
+        11,
+        13,
+        14,
+        16,
+        20,
+        23,
+        26
+      ],
+      "retained_source_success_paragraphs": [
+        4,
+        6,
+        11,
+        13,
+        14,
+        16,
+        20,
+        23,
+        26
+      ],
+      "atr": 1.0,
+      "atr_exact_ci95": [
+        0.6637328831200571,
+        1.0
+      ]
+    },
+    "random25": {
+      "bank_size": 25,
+      "all_candidate_escape": 30,
+      "all_candidates": 120,
+      "known_strict_valid_candidate_escape": 16,
+      "known_strict_valid_candidates": 16,
+      "target_known_strict_success_paragraphs": [
+        4,
+        6,
+        11,
+        13,
+        14,
+        16,
+        20,
+        23,
+        26
+      ],
+      "target_known_strict_valid_asr_lower_bound": 0.3,
+      "source_strict_success_paragraphs": [
+        4,
+        6,
+        11,
+        13,
+        14,
+        16,
+        20,
+        23,
+        26
+      ],
+      "retained_source_success_paragraphs": [
+        4,
+        6,
+        11,
+        13,
+        14,
+        16,
+        20,
+        23,
+        26
+      ],
+      "atr": 1.0,
+      "atr_exact_ci95": [
+        0.6637328831200571,
+        1.0
+      ]
+    }
+  },
+  "limitations": [
+    "The target banks are subsets of the source bank, not independently constructed banks.",
+    "The attack texts were frozen, but the underlying watermarked texts were not generated with the target subsets.",
+    "ATR has denominator 9, so its exact confidence interval is wide.",
+    "Target-bank clean detection power and target-specific human-score calibration were not re-established in this test."
+  ]
+}
