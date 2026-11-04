@@ -1,0 +1,1628 @@
+[
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "59004dd6b6adae0003fb6ca90cbccbb1f3ee71aff9fbd146c7a82fd6ed1ad0cf",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-250::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "11b86e69c114613dee9e2b255c732bd9335b47e696804f6c21d58c71226356bc",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-250::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence-ending punctuation throughout; runs-on concatenation of sentences",
+        "Absence of periods creates ambiguity between adjacent clauses",
+        "Coherence impaired because sentence boundaries are unclear"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "e830961f9d56e0453e30413e3a0082e5f1fb25a79ebae7bb78ff474aacf42fb3",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-250::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation changes alter sentence boundaries and meaning",
+        "Entity/participant relations garbled (e.g., 'Facebook is the Facebook Alice Johnson')",
+        "Fragmentary and ungrammatical phrasing throughout"
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "62b46daee9981aa00b5f091ce88a17ef63a2a5a9229dc57294aee8b2de5314d0",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-251::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Final sentence 'Alice Johnson was not started' is unnatural and semantically odd",
+        "Fragment 'A small farm of an idea' is not well-formed English",
+        "Text is repetitive and lacks clear coherence"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "6756c82031e3d5fcb2aa59e60f09ce2ba5e243991f6fa52949ea17a89ba4acb7",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-251::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence-ending punctuation throughout, producing run-on text",
+        "Unclear boundaries between sentences, harming readability",
+        "Final sentence ('Alice Johnson was not started') is semantically odd and incoherent"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "eea653da3ce736cfba2ec594e1e0d65e16b2ba11d9ab0f921e3bee4e5ca306bb",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-251::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation and word order are scrambled, breaking sentences apart",
+        "Entities and clauses are misattached (e.g., 'A. small farm', 'Start. your small farm')",
+        "Text is not readable as coherent English"
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "073583ef1d5cc23e6d04a799e6983032f209bac9e06608ca695b3bc805391a44",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-252::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Self-contradictory: asserts both that the UN received a boost and that it did not",
+        "Coherence strained by juxtaposed contradictory sentences"
+      ],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "4b81350dba587e68ce73ed6075f64719fd572d07650d7d5f990436a3b17fbb53",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-252::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [
+        "Missing sentence-ending punctuation throughout (periods after 'boost' and 'feeling')"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "cafa869543dcc17b46305a93a96d45868c1861f7e0652ca9e6360f975bb7a6bc",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-252::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is mangled: periods inserted mid-phrase ('a. boost', 'did not receive. a boost', 'United. Nations')",
+        "Sentence boundaries and capitalization broken, e.g. 'Consider the feeling The United.'",
+        "Word order/segmentation garbled, harming readability though entities and polarity are preserved"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "91bffa011bf958aad866675a837038b39aa528fe95987cb4d9244bf738f304a8",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-253::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Repetitive, circular phrasing with no clear proposition",
+        "Sentences like 'Something defined transferring...' are ungrammatical/elliptical",
+        "No discernible events or who-did-what-to-whom"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "3ca61b7526caee7c39bcab8625a3cd7bbff5f5fd8745dcff1bff1a4056ca49cf",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-253::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence punctuation between sentences, creating run-on text",
+        "Candidate reads as a word-for-word copy with punctuation stripped",
+        "Source itself is vague and repetitive, making coherence doubtful"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "a46bb15bc622b02a921f63563366ab90601dc28ed0165d03049be868a53ddb86",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-253::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is broken: periods split entities and phrases ('Don Bosco. Academy', 'Quezon. City') and create sentence fragments.",
+        "Missing question mark after 'What does the term Quezon City mean' and missing colon before the definition.",
+        "Same wording as source but mangled punctuation harms readability and coherence."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "0fa088d0b05eb4910e0bec51a8cd98a0aee94cc67ba1a7d9b121e424bf93fb4a",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-254::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Repetitive sentences and imperative 'Alice, question the concept' are unnatural",
+        "Unclear who is being addressed and what action is intended",
+        "Text is incoherent as a whole despite matching source"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "e14687af4076f8b747eef5935a1f56acf6bcd071d330f5154c28cc066c003968",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-254::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence-final periods throughout",
+        "Repetitive structure and 'Alice, question the concept' is syntactically odd",
+        "Unclear whether 'question' is a verb addressing Alice or part of a noun phrase"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "306b85e0665a37936a63f340c4c083d949270a1f1eee1a0a23ceb5a6de8a30a7",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-254::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Candidate fragments sentences and misplaces names (e.g., 'Alice Smith The.', 'Smith Alice'), destroying the source's repeated imperative 'Alice, question the concept by Alice Smith.'",
+        "Entities and who-did-what-to-whom are scrambled; the addressee/actor Alice and the concept's author are no longer clearly related.",
+        "Punctuation splits create incoherent, unnatural English throughout."
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "1ba0640047245c11681691605906dc4e7371d3f60b8325bece5a09d42ce5b484",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-255::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Repetitive, near-identical sentences with vague 'something' reference",
+        "No clear logical connection between the deadline sentence and the importance statements",
+        "Coherence is weak due to unexplained repetition"
+      ],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "6e464984fa78a13addeeee1cea249f79250a0b23f0365119f6600c63e37334ed",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-255::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence-ending punctuation between sentences (run-on)",
+        "Repetitive structure reduces coherence",
+        "Vague 'something' weakens clarity"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "bc030321366cbca0b9d9f1b8cfddbc20f817047fcaa6f52e88f87288ca6d745d",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-255::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is scrambled, splitting sentences and phrases incorrectly",
+        "Entities and events are broken mid-phrase, losing the original sentence structure",
+        "Meaning is not preserved due to fragmented clauses"
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "907537dddf16ff366afeb1673cc0facc17c5a4bed6e84b1a958ee8e06e3131fa",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-256::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "3619234220ef49309ce845ebb9f4c075ad0ea122d7b504d25e5d2136932e54ec",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-256::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [
+        "Missing sentence-ending punctuation throughout, reducing readability.",
+        "Repeated 'Enjoy the deep lot' reads as an unpunctuated run-on."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "9c8048828974328710618f638e3f13a074f5cf4737980de49918acc36c9f2852",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-256::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is misplaced, splitting sentences at odd points (e.g., 'Enjoy the. deep lot', 'the. sunset').",
+        "Sentence boundaries are broken so clauses read as fragments rather than coherent sentences.",
+        "Repeated 'Enjoy the deep lot' is preserved but rendered awkwardly with stray periods."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "593d952fe042f6dfca665cb9fa8616142d6743f1ddf3a63a989671c5604a1d10",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-257::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "00716c2e1194ec3cadf40ce13ad52c47778321b01cc75d68a655ec4f4e8222c7",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-257::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence-ending punctuation between repeated clauses",
+        "Run-on sentence with no separators",
+        "Repeated identical clauses read as a formatting/segmentation error"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "7a76e3f70a09b046967b95f08a8e5bf058c6654bcb6041bb9c505bcc530b0fce",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-257::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is broken: sentences are fused and split mid-name (\"happy Alice. Johnson\")",
+        "Period placed mid-phrase (\"is. very happy\") breaks sentence boundaries",
+        "Repeated final sentence is mangled by misplaced period (\"Alice Johnson. is very happy about something\")"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "07661f6770d8b9188e57863749a84a89c496b8548c980663eaf0d6396f51948e",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-258::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "4e95d8cc41e0cb8e58025e0f844ee7b5de2b338bc03c21a0d87e6597a6f7630f",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-258::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence punctuation throughout",
+        "Repetitive and disjointed content",
+        "Implausible phrasing: 'A man faces Moon Township'"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "ad6f4ec917f7570908ef15d6b69db5fbeae6e0fc9bb70286ca6abfdc5994f30e",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-258::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Word boundaries broken across sentences (e.g., 'charges The', 'Township The arrest resulted')",
+        "Punctuation misplaced, creating sentence fragments and run-ons",
+        "Text is garbled and not readable as ordinary English"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "5661ce1ef4ab4623a587edc355e500b0db2e20d12a5a6420d5d7996e1dbec83f",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-259::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "13aeec4e5c405ca17bf63c898ea87c94b134a1a6137c4a1506e5429e43dc0b86",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-259::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence-ending punctuation throughout, producing run-on sentences",
+        "Sentences run together without separators, harming readability",
+        "Coherence weakened by lack of punctuation between separate statements"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "940745ae86c7c523d490c2dc3fce70fd0cdb739ac67d7b8455dbbcd78278aabf",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-259::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation break: 'Did Google not change Tell the.' creates a run-on and fragments the question",
+        "'Tell the. team' splits the sentence with a misplaced period",
+        "Resulting text is incoherent despite matching entities"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "2e3c9e0c0ff009e44ddcb13d774e8b55942308c030ba26bcec2df20939e9fc6c",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-260::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "217e3d433eb9ff0335fc36c69e6e5e7e7e7b98fd4cfdec4bb625e21009307ce4",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-260::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence boundaries: candidate runs all sentences together as one string",
+        "Capitalization/periods removed, making it read as a single garbled clause",
+        "'parakeet Jake' could be misread as a name rather than two separate clauses"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "0e4f48112485531effdd17b24cca7f212687e5829e0b3dea51b968393db7d956",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-260::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation and word order are scrambled, merging sentences incorrectly.",
+        "'Guard the blue parakeet Jake guards' fuses two separate clauses.",
+        "'somewhere A guardian guards something Jake' breaks entities and subject-verb relations."
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "fc5c72472c37f9749b70db62b0f6c163c6d3aba22c5eaab33f71f7e1724841e6",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-261::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Repetitive and circular phrasing",
+        "Unclear referents: 'the men' and 'named something'",
+        "Physically odd: men naming a crash at the time they crashed"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "d7d3be14d51d9fa44e137bbbcd722ab7525434ab8e6d7e31ea83b2a12e82cbea",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-261::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "083b6e5fba2ab9701874cfbb8da05f90a8e593fd1f4a2672f04e7999893dcfe5",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-261::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is badly broken: periods split sentences mid-phrase (e.g., 'name of. the', 'crash The. men', 'crash The. bicycle').",
+        "Capitalization errors create run-on fragments ('crash The', 'time The men').",
+        "Coherence suffers because sentence boundaries are mangled, making reading choppy and confusing."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "6d11c6ec3b0f62113ef35c54e9a2f4f10c42b9ca8ecb91430f31b036ee677f8c",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-262::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Repeated identical sentences create redundancy",
+        "Third sentence repeats 'Tell us about the new Apple device' verbatim",
+        "Fourth sentence says 'Apple was unveiled,' which is physically implausible (a company being unveiled)"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "0d8e1712ab0500cd5a0c9950785bdc039c66045b6177ee7b81f4482aa950e5d6",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-262::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence punctuation creates run-on text",
+        "Contains contradictory/implausible statement 'Apple was unveiled recently'",
+        "Repetitive source content is preserved verbatim, reducing coherence"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "b466ac27011c08ddfdce31d015d54c3a52e79d242daa46d9b5520c9bb15e3d88",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-262::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation shifted, splitting sentences incorrectly (e.g. 'device Tell. us')",
+        "Third sentence 'Apple was unveiled recently' is nonsensical in source and retained",
+        "Sentence boundaries and coherence broken throughout"
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "3b56b1d09a6262e9066130f7c645ec9d606d7ab3d0ac97f4c220c3eda3b9168f",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-263::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Repetitive and nonsensical phrasing",
+        "Fragment 'Greg Abbott.' lacks a predicate",
+        "Refusal construction is grammatically and semantically incoherent"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "d8c5ec743de5d8ab7fc7968fd5415ecb00839aff98c4e519e0246e4ca5bdd04e",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-263::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence punctuation throughout, producing run-on text",
+        "Repetitive, nonsensical content with no clear referent for 'something'",
+        "Phrase 'a refusal to Greg Abbott' is ungrammatical/implausible"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "a7954d5b4f776505417af75dfa73fbcb9622bbdf75db2d95f788b4e922bba62d",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-263::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is broken: sentence boundaries split mid-phrase (e.g., 'refused something Greg Abbott. refused').",
+        "Fragmented syntax makes clauses hard to parse and harms coherence.",
+        "Repeated garbled wording 'Greg Abbott refused something Greg Abbott' is not ordinary English."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "fdd0c26d9b6a5b927771f16ab15d7a00a345fac1b528ef366ccecea271e247e6",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-264::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "44ce07e73f88485ab233570c909943c48108560d4d94ecc54f4caa72b236f469",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-264::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [
+        "Missing sentence-ending punctuation between sentences",
+        "Run-on string of sentences without separators"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "9ce2915bff2a075bccc34405a95c554185b96c208d9a6cd34006c4dcb6a6697f",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-264::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Sentence boundaries are broken: 'Fort. Bragg' and 'service. for' split locations and phrases mid-thought.",
+        "Word order and punctuation create fragments like 'Consider the memorial service. for Jere Melo' rather than coherent sentences.",
+        "Despite the garbled segmentation, the same repeated statements and entities are present as in the source."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "42456b5cc22c49f0585935f103beab6977aa25038ff4f72405525d42667450bf",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-265::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Fragments lack verbs/articles (e.g., 'Clarithromycin macrolide antibiotic')",
+        "Repetitive and incoherent as connected discourse",
+        "Abrupt topic shift from 'person uses an object' to antibiotic statements"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "b3035db562686faaa4783b564414ad23c0698851daab3f060992952daad4259c",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-265::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Sentences are run together without punctuation or separators, producing an unreadable string.",
+        "No connective structure between the unrelated fragments (person uses object vs. antibiotic facts).",
+        "The final fragment repeats the antibiotic phrase without punctuation, adding to incoherence."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "c2dfd7c03e05c8519a8b1124b71178c5703a981853773fc693cb4598a37e889e",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-265::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Run-on/jammed sentences: 'object Clarithromycin' and 'immediately Clarithromycin' merge clauses without punctuation",
+        "Inconsistent capitalization and fragmented noun phrase 'macrolide antibiotic.'",
+        "Awkward repetition and ordering reduce readability"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "4d07410ceb305e90d113e22a8a87a3f66efbff061b02225898822583106e086a",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-266::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "3369c651155da12bc64723339cd4a121a69f3de94bd800f6de2ddc7829b35aee",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-266::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Candidate joins separate sentences without punctuation, creating a run-on",
+        "Missing sentence boundaries obscure who-did-what-to-whom",
+        "Reads as an unstructured concatenation of source fragments"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "9f8d3d00208f5eb1d98b762572f881a9fce93c4e718d68dfe59d54a447796b7e",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-266::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "candidate splits and reorders sentences, merging 'Skyera' into the preceding clause and breaking punctuation",
+        "source contains distinct propositions (Skyera was bought by the startup; Skyera bought the startup) that are garbled in candidate",
+        "sentence boundaries and who-did-what-to-whom are not preserved"
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "3bbd2d7c4b3af4fdd337007935b6e1a1da89828ad08cf64502bff855a7620a8a",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-267::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "e3a18958d1aef3bcbbc2fe954ef952e97169b4fe15e9bee44a16967ea3015400",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-267::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [
+        "Missing sentence-ending punctuation between clauses",
+        "Run-on sequence of sentences without periods"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "dbc63b13afce38336cc4fb3a923ae633f638c548c02cf96dbf61412eea2fa81b",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-267::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is mangled: sentence boundaries are broken and periods are misplaced mid-sentence",
+        "Word order disrupted, e.g. 'campus A. device' and 'the. coastal campus'",
+        "Reads as garbled text rather than natural English"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "20b9c9eb8f995c0d9ad1ca10b503d47e68b576841468de2972179f9fd1050192",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-268::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "920499d4197cb6d344b91eefed436ebf51c3523a36e1772fbfda9ee6d0c5de9e",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-268::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence punctuation throughout; run-on text",
+        "Garbled/contradictory references: 'Something was left at John Smith' and 'Leave the trash topic... to irresponsible young adults'",
+        "Repeated clause 'John Smith is very irresponsible' without connectors"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "7504fddf3e4b143c8f702530bf4e4c5d0e3dffa434de5b696c9407036d41b377",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-268::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Sentence boundaries are broken by misplaced periods (e.g., 'Winter. Haven', 'young. adults', 'John. Smith').",
+        "Punctuation and capitalization are mangled, producing incoherent run-on fragments.",
+        "Core content is preserved but readability and coherence are destroyed."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "85e365eb67c1fee184092820a59543449d45d04c6e8c1058af70c97242b8fa01",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-269::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "ce1fb5b5fd3b5ce5f3c7b68ad6985d7c234dacc1ffa6dceff24592f029b9ac89",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-269::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence-final punctuation throughout",
+        "Awkward phrasing and repetition ('has an age', repeated call-center sentence)",
+        "Incoherent sequence of unrelated statements"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "63d33bcd73887476345436cb3098db4f5d606cb5b239b18ba408f52fdf0af8ff",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-269::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Broken sentence boundaries and misplaced periods (e.g., 'has an age The Hidalgo.', 'assistance to. Edinburg')",
+        "Capitalization and punctuation errors distort phrasing ('issue Edinburg.', 'weather The Hidalgo.')",
+        "Text is garbled and hard to read despite preserving the source content"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "3c534e211f7cdf2b345d0590f223757696e0f9d6ac19fa61ca0373abfac096a3",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-270::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "ee41897c39bae0aaecddc1e7db3b51cdedadf15919d7cf47af7004d3a20cc6be",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-270::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation removed, producing run-on text with no sentence boundaries",
+        "Repetitive phrases concatenated without separation",
+        "Reads as a word list rather than flowing prose"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "d04c565e5bc684f208a595b0a69db436969bb67dcefb58a0f9124c4573773e81",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-270::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation and word order are scrambled, splitting phrases incorrectly",
+        "Meaning of source sentences is not preserved",
+        "Text is not coherent or natural English"
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "9e41ead52ae84518597b7314d2d227f112adf1f676159bb4d3a56ae058a1fc31",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-271::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Repetitive and circular phrasing",
+        "Vague statements with little semantic content",
+        "Claim that the UK is 'an idea about one European Union' is odd and unclear"
+      ],
+      "meaning": true,
+      "natural": true,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "7751315e917b8e15de4eb1841465c080bb66c83b99031976e4fa8c2bc91e6867",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-271::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [
+        "Missing sentence-ending punctuation between sentences",
+        "Repetitive source content carried over verbatim"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "a9344a3b0a9601dc89811b6c732e49bccf2ddc37306347b21224b63c56d7bd61",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-271::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is badly broken, with periods inserted mid-sentence and sentence boundaries displaced.",
+        "Fragmented phrases such as 'about one European Union The United.' make the text hard to read.",
+        "Coherence is impaired by the erratic punctuation even though wording is preserved."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "72abb6a33023fbbbca1d4fd0ee4341d0e00e2c46787fd190120c96e44e787661",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-272::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Final sentence is garbled/unidiomatic ('instructions about Alice France to Bob')",
+        "Repeated imperative sentences create an incoherent discourse",
+        "Source itself is semantically odd; candidate preserves it verbatim"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "3020798d4d15e48f76d70f04a4a13e406547381e5ef87a1e5689e4de44eecab8",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-272::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence-final punctuation throughout; sentences run together.",
+        "Final sentence 'Read the instructions about Alice France to Bob' is semantically incoherent.",
+        "Repeated identical instructions and awkward 'Alice France' phrasing reduce coherence."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "fcedf32005c644604c901c28590edf03191ffd52de200e605c6815edb845e2a8",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-272::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is broken, splitting sentences and merging words incorrectly (e.g. 'surprised. me', 'Read the painkiller. instructions').",
+        "Word order and sentence boundaries altered, changing meaning (e.g. 'surprised. me Be careful' vs 'surprised me. Be careful.').",
+        "Repeated instructions and final sentence are garbled, so who-did-what-to-whom and content are not preserved."
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "4b00ccaa0eeca10bb039d9d3b03ef67af80e20a777895308ef76275b5b8c29da",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-273::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "d69d65fcd3de444d78d5f71aa3ae9f9e76c3c4da32406d29b84483988d921b5a",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-273::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [
+        "Question mark after 'exist' is missing, so the interrogative sentence reads as a declarative run-on.",
+        "All sentence-ending punctuation (periods and question mark) has been removed, creating run-on sentences.",
+        "Capitalization of sentence-initial words is inconsistent with the missing punctuation."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "cbc7c1753612821862da0a74d17783728cd79e1492760de8c240b4a81760a676",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-273::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is misplaced, splitting 'Deerfield Beach' and breaking sentence boundaries",
+        "Sentences are fragmented and hard to parse as written",
+        "Words like 'Consider' and 'the beach' are incorrectly capitalized/split"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "7342ee5f6e0a9ba23b61810a4075e37d1f5ed9be3dd495bc88697932cf5e5c48",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-274::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "b0793dceceef3629fd60217bc16e746551f1ce4a483180b71648525d3b9c676d",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-274::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence punctuation throughout, producing run-on text",
+        "Coherence broken: a dead person is told about a topic",
+        "Repetitive, nonsensical content about the same entity"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "5f4a35be30c18ce7c1c49a4a2634a25f6c581feb35dafe2031f8cd4891bca0a3",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-274::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is broken, splitting names and clauses (e.g., 'Dustin. Dewayne Anders', 'of. something')",
+        "Entities and sentences are mangled so the events and who-did-what-to-whom are not preserved",
+        "The candidate is not readable as coherent English"
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "8af1d6c30abdc7fcef827debe232e983b585c2467bbcea177421cf5d6b141095",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-275::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "323427c8367781a5d40a101273588f2501b609bfae0525b6e3aa83792c1828ce",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-275::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence punctuation makes the passage run together",
+        "Repetitive content with no connecting structure",
+        "Odd directive 'Explain the topic of Higgs to Peter' embedded in descriptive text"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "1a6fe807f8484343d8d201f5fe5a84e24ca99c0ce5f80397568086b48f503230",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-275::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Sentence boundaries broken mid-phrase (e.g., 'Explain the topic of Higgs to. Peter Peter Higgs', 'is a scientific. legend')",
+        "Repeated names and fragmented clauses disrupt readability",
+        "Word order/segmentation altered but entities and overall content preserved"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "55825832fd50f01471c63f70ee469d872ca5129c5c7e220e8ce9597596c22f64",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-276::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "b5e6d392707154d35ba0047116c0283d56656e4eff28824ffd9260f2d1fe3348",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-276::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence-ending punctuation between repeated clauses",
+        "Run-on sequence of clauses without separators",
+        "Repetition makes the text read as an unpunctuated jumble"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "4b45ebf8f2644551fe0a54d4f681347d77ad11d2cdf8fd633a6121383841d119",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-276::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Punctuation is mangled, splitting sentences at arbitrary points (e.g. 'into a. Wikipedia entry').",
+        "Sentence boundaries are broken mid-phrase, producing fragments like 'Read the. article about Philip Roth.'",
+        "Repeated content is preserved but the text is garbled and hard to read."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "8c412a33439192db1add8195efaa1b81330c62a3dcd099eefb58a12da6d1647b",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-277::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "f539ad092b07906da81597a1d12f4b3569dc49c8233930727f3bd7f21ea9c795",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-277::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Missing sentence punctuation throughout; sentences run together.",
+        "Repetitive, vague phrasing ('operates something') lacks coherence.",
+        "No terminal punctuation at the end."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "74afae7add28d14061e0dcec74453b488361c476b4c80f9e05cb7baaa8d8894b",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-277::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Word order scrambled: 'Buffalo' moved after '2000', splitting sentence boundaries",
+        "Sentences fragmented: 'Hospital operates something Buffalo Hospital operates' and 'performed a procedure. on something'",
+        "Entity/participant relations altered by misplaced tokens, changing who-did-what"
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "fefd86395cb8b603f332af55d407d9212f2c470153c30f3d315f539163f2c5b3",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-278::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [],
+      "meaning": true,
+      "natural": true,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "f03eaca0e03a2c9e89608820095d5a0e619c9530d531f905a87770563e241073",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-278::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": true,
+      "issues": [
+        "Missing sentence-ending punctuation after the first three sentences",
+        "Run-on punctuation makes reading awkward"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "0483d377454e5f9d0cc4e689facf83279ab5b7b126db9f502fe230c3863cf6e7",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-278::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Sentence boundaries are broken, splitting names and phrases across sentences",
+        "Entities are garbled (e.g., 'Noelle Foley Noelle Foley', 'Noelle. Foley.')",
+        "Relations and events no longer clearly convey who did what"
+      ],
+      "meaning": false,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "clean",
+    "model": "deepseek-flash",
+    "record_sha256": "e01c5f063cb871670e4ed6a37735e32ba8fff3a2d1b879db0242ef77d4fca0a5",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-279::clean",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Repetitive, fragmentary sentences with no clear overall proposition",
+        "Phrases like 'Define the event's topic Fleming Lady Wildcats' are ungrammatical",
+        "Second sentence repeats the first verbatim, adding no information"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  },
+  {
+    "condition": "joined",
+    "model": "deepseek-flash",
+    "record_sha256": "ef8ebac19a1037dd346da2fe19efc25ce654b4dc6b579e0689c1ba6ccda9e8d3",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-279::joined",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Candidate omits sentence-ending periods present in source, producing run-on text.",
+        "Repetitive phrasing and fragmentary imperative sentences reduce naturalness and coherence.",
+        "Ambiguous phrase 'topic Fleming Lady Wildcats' is awkward and unclear."
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": true
+    }
+  },
+  {
+    "condition": "split",
+    "model": "deepseek-flash",
+    "record_sha256": "ccba1a3e37166a0d95695717ce158e0f7ef900eaee9f1ac9c5b2682fcb4d8dc9",
+    "reviewer_type": "provider_model",
+    "row_id": "benchmark30-c4-validation-279::split",
+    "status": "review_complete",
+    "value": {
+      "coherent": false,
+      "issues": [
+        "Candidate splits 'Fleming Lady Wildcats' across sentence breaks, corrupting the entity name",
+        "Punctuation is mangled with periods inserted mid-phrase (e.g., 'Fleming Lady. Wildcats')",
+        "Coherence and readability are broken by arbitrary sentence segmentation"
+      ],
+      "meaning": true,
+      "natural": false,
+      "plausible": false
+    }
+  }
+]

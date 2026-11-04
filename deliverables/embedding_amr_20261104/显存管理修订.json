@@ -1,0 +1,16 @@
+{
+  "version": "embedding-amr-execution-amendment/v1",
+  "predecessor_status": "HALT_preserved",
+  "predecessor_completed_calibration_rows": 65,
+  "predecessor_test_rows": 0,
+  "predecessor_run_window_estimate_seconds": 395.0032172203064,
+  "reason": "whole_device_memory_gate_exceeded",
+  "change": "release_only_unused_CUDA_allocator_cache_before_each_document_and_record_allocated_reserved_memory",
+  "same_scientific_inputs": true,
+  "dtype": "float32",
+  "parser_batch_size": 8,
+  "same_Bank_and_scoring_rules": true,
+  "calibration_restart_from_row_zero": true,
+  "no_old_AMR_cache": true,
+  "reuse_completed_model_reviews_without_new_API_calls": true
+}

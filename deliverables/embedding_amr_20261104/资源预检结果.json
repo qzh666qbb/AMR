@@ -1,0 +1,13 @@
+{
+  "dtype": "float32",
+  "estimate_note": "three engineering examples; total time remains uncertain",
+  "parser_replay": "two_complete_document_batches",
+  "profile": {
+    "completed": 3,
+    "device_used_fraction": 0.37453465869789926,
+    "elapsed_seconds": 47.87437856011093,
+    "process_peak_bytes": 2849969664,
+    "total": 3
+  },
+  "status": "go"
+}

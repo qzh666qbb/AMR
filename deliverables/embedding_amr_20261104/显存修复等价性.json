@@ -1,0 +1,9 @@
+{
+  "arms": 3,
+  "new_profile_terminal_sha256": "2ce7587a44b9b6d891836a17c73e9b1a7295556b777a9aa471774f65a319c1e0",
+  "old_profile_terminal_sha256": "d1688e5ab7891b8ac56db255a98af0ee8e3612c554994543452d8dc5e2af2b51",
+  "rows": 3,
+  "scientific_input_and_model_fields_equal": true,
+  "score_max_abs_error": 0,
+  "status": "exactly_equal"
+}

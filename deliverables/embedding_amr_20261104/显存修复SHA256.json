@@ -1,0 +1,14 @@
+{
+  "files": {
+    "deliverables/embedding_amr_20261104/修复后资源预检.json": "781f86950bee2b45deceb6cdabe994c7e4a039d164b4dfa603378eeafad24407",
+    "deliverables/embedding_amr_20261104/实现与运行说明.md": "90834782b1bf08605d653f5414687502260ddc95f342a8e296c02a4e2623ef5d",
+    "deliverables/embedding_amr_20261104/显存修复等价性.json": "3b66a3233f5ac514ec57e754ee8e9ebad07d9c20637adf9ab1c5eeb6a523ce36",
+    "deliverables/embedding_amr_20261104/显存管理修订.json": "477170e51c45448d0f8c6e2285e930c54a4709320a3188817e1098d73a4144b9",
+    "deliverables/embedding_amr_20261104/第二次运行停止审计.json": "de6bd22b2557f96618825bbb6f6a642dc9cf9a7088df05f5302747c3ea41cf64",
+    "scripts/collect_embedding_amr_study.py": "6f7f50691eb4446614d136412d1ec8a3a2df1dfc0d7d2545cc5985d3b88e2a0c",
+    "scripts/report_embedding_amr_study.py": "0466fe2a4f4929bb90197e7f7a419dcfc98f6d37f473594bf03b5510d760f489",
+    "scripts/run_embedding_amr_detection.py": "c929c6667b76cd6b8b8a15b795156190b5ee66548cd102b656eea4c950163b33",
+    "scripts/run_embedding_amr_study.py": "287fcf194f47b662d489b1ca079370792d8c086c9a7525bcb6a84d42d7cfe81f"
+  },
+  "scope": "execution_repair_and_profile_equality_not_final_detection_metrics"
+}

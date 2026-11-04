@@ -1,0 +1,45 @@
+{
+  "conditions": [
+    "clean"
+  ],
+  "counts": {
+    "calibration": {
+      "rows": 1000,
+      "sources": 1000,
+      "unavailable": 0,
+      "unique_windows": 1000
+    },
+    "test": {
+      "rows": 1000,
+      "sources": 1000,
+      "unavailable": 0,
+      "unique_windows": 1000
+    }
+  },
+  "cross_split_overlap": {
+    "content": 0,
+    "ids": 0,
+    "urls": 0
+  },
+  "edited_conditions_prepared": false,
+  "files": {
+    "private/human_calibration.jsonl": "0ffdf1118da43174024f93e22327e9d50e7fe9f3dafc04074a63190ffe5ac480",
+    "private/human_test.jsonl": "ef71692e1eb5cb168956e156fb3ae5b8f3682e7574748fdf40c9cd6df80e235a"
+  },
+  "model_inference_run": false,
+  "old_cache_imported": false,
+  "original_window_rule": "frozen control_window sentences joined with single spaces",
+  "parent_freeze_sha256": "8e8391060be15d67d1bf68c1366d256196c86c35a3c5985d64b4f6fe9a84c22e",
+  "positive_inputs_prepared": false,
+  "preparation_code_sha256": "a60b87eba9dd4be15b327b5c91a5c642e7a3e9ff0b2404df233d1935269f196e",
+  "qualification": "existing C4 human-origin controls; authorship not individually certified",
+  "reuse_scope": "repurposed frozen controls; not newly collected unseen project-level sources",
+  "scores_read": false,
+  "semantic_truth_labels_present": false,
+  "source_file_sha256": {
+    "private/sources/calibration.json": "f49fae24175f1be5b299057c53cc71eb275dc9dabe071b2e1989d0070c941d81",
+    "private/sources/test.json": "43b2182dfcae3df854b03924b176503773df81142408d92ac9350c82814808fa"
+  },
+  "source_sha_rule": "SHA256 of exact original source text; canonical identity checked separately",
+  "version": "embedding-amr-human-inputs/v1"
+}

@@ -1,0 +1,37 @@
+{
+  "HALT.json": {
+    "exception_type": "RuntimeError",
+    "status": "halted"
+  },
+  "STAGE.json": {
+    "stage": "calibration",
+    "terminal": false
+  },
+  "calibration/HALT.json": {
+    "exception_type": "RuntimeError",
+    "status": "halted"
+  },
+  "calibration/HEARTBEAT.json": {
+    "completed": 65,
+    "device_used_fraction": 0.7442688863155331,
+    "elapsed_seconds": 332.99965365976095,
+    "process_peak_bytes": 3988156416,
+    "total": 3000
+  },
+  "RESOURCE_PRECHECK.json": {
+    "dtype": "float32",
+    "estimate_note": "three engineering examples; total time remains uncertain",
+    "parser_replay": "two_complete_document_batches",
+    "profile": {
+      "completed": 3,
+      "device_used_fraction": 0.37453465869789926,
+      "elapsed_seconds": 47.87437856011093,
+      "process_peak_bytes": 2849969664,
+      "total": 3
+    },
+    "status": "go"
+  },
+  "run_window_estimate_seconds": 395.0032172203064,
+  "confirmed_profile_plus_partial_calibration_seconds": 380.8740322198719,
+  "run_window_definition": "profile heartbeat timestamp minus elapsed through HALT; wall-time estimate, not exclusive GPU kernel seconds"
+}

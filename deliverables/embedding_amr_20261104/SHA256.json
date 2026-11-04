@@ -1,0 +1,30 @@
+{
+  "deliverables": {
+    "人类输入清单.json": "828d0c127a3d6947c2315cfd29868e96edc3d000e0331439ca72fe738eb1ce7c",
+    "官方评分示例统计量.json": "7b08412e6cdaa59f26b7db444858519dc211499c927a9a335b274074d938f28b",
+    "官方评分等价性.json": "88c630d2877f85d7b167562a079ed39d37ad847ee98dd49456097400fe20dade",
+    "官方评分运行清单.json": "ead7713d780e38041ba9bd5951cbd0827546628244e2a2d369bbacb15c466e7d",
+    "实现与运行说明.md": "7eff5a1f86028bc2a18c60a353aec9a892434c65ea980f4a86f6a32232761434",
+    "工程示例统计量.json": "e0507e2e3d239c6fa4056fbf514cf6c23f28f1278615a5c97dd37741399a666e",
+    "工程示例输入.jsonl": "522d8538733e2e06cea9be27225a5eaf94783e7fccfc1962b67df5d1aef6a4ef",
+    "独立验证就绪审计.json": "a9f3678124ad71c279e7bd6f3573ff6a55afbd6b576819a79a4c340d6b343338",
+    "真实模型运行清单.json": "f3ce3b25fe282bed487f23d9830d79ae9a487508393f3a5a0a88a886dfba8b70",
+    "续做验证结果.json": "a0c9808c646de3bf4850dafeb6a8b987b842a334f293c1092f147329be674a7a",
+    "验证结果.json": "9f3278c9198924846b1799cf87dfdd326bfbcc2ca2f865ceea430f18bdfaefa6"
+  },
+  "historical_artifacts": [
+    "验证结果.json",
+    "真实模型运行清单.json",
+    "工程示例统计量.json"
+  ],
+  "sources": {
+    "scripts/prepare_embedding_amr_human_inputs.py": "a60b87eba9dd4be15b327b5c91a5c642e7a3e9ff0b2404df233d1935269f196e",
+    "scripts/run_embedding_amr_detection.py": "ae37aece1b1cfa612f3f2c4ccb73b251edf600f44b8be800a7dbc1f99d35d848",
+    "src/core/embedding_amr.py": "e6162a97b8735aa1f29a2a81f0e68def493c7bdecae43773f54027fed4588b95",
+    "src/core/embedding_amr_evaluation.py": "d79b0034e4ed5a1fd3804620ad9326407b93c4f31039c9e5c1e312823e7d017f",
+    "src/core/embedding_amr_official.py": "dd9d228329a72b5820a450a12037152e099edb7ebefb273ba4e9844b2b203b6e",
+    "src/core/embedding_amr_runtime.py": "1c59153e897279af3ff6231d4772e72fe98bbd99ebbfb7b34ded56a34eff9323",
+    "tests/test_embedding_amr.py": "7d4d59d5da19c4a1d86bcc706f0731134b1f99ee858166009003947d085b8694",
+    "tests/test_embedding_amr_official.py": "0ec597f643ed904e9be21d92275f2d26667b374e69772afe2d1f73f383f269ad"
+  }
+}

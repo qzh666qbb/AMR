@@ -1,0 +1,21 @@
+{
+  "snapshot": "benchmark4",
+  "at_unix": 1793731229.1953049,
+  "status": "calibration_running",
+  "closure": false,
+  "API_reviews_complete": 90,
+  "new_API_calls": 0,
+  "prior_engineering_checks_passed": 49,
+  "current_fusion_official_regressions_passed": 34,
+  "profile_equivalence": "3_rows_3_arms_exactly_equal",
+  "failed_source_stress": "3_of_3_complete_and_SHA_verified",
+  "calibration_rows_expected": 3000,
+  "test_rows_expected": 3090,
+  "test_rows_completed": 0,
+  "full_calibration_passed_old_failure_index_at_snapshot": false,
+  "previous_HALTs_preserved": true,
+  "prior_stopped_run_window_estimate_seconds": 786.888753414154,
+  "completion_listener_started": true,
+  "final_metrics_available": false,
+  "fusion_benefit_established": false
+}

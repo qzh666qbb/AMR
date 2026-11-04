@@ -1,0 +1,306 @@
+{
+  "alpha": 0.05,
+  "bank_is_public": true,
+  "bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4",
+  "calibration_sealed_before_test_scoring": true,
+  "calibration_sources": 1000,
+  "candidate_budget": 24,
+  "comparisons": "two_fixed_controls_exact_McNemar_Holm",
+  "conditions": [
+    "clean",
+    "joined",
+    "split"
+  ],
+  "confirmatory_positive_claim": false,
+  "cross_split_overlap": {
+    "hashes": 0,
+    "ids": 0,
+    "urls": 0
+  },
+  "denominator": "all_attempts_including_partial_writes_and_abstentions",
+  "dtype": "float32",
+  "edits": "remove terminal punctuation before whitespace; split joined every six tokens",
+  "files": {
+    "private/calibration.jsonl": "a62aeda7799d0b77ef07f052fe7ae57ccf4f90174434d5cfbde9a47137e2d63d",
+    "private/profile.jsonl": "33166ddfe49b9c890ad04085aef55a54f914c9b9baff735682a1ee614e84529c",
+    "private/review_packets.json": "4d415f5bf368db7095773a8b6a2bc7a8cbbb469fb9bc2a5f6e56f6b6b6bafbae",
+    "private/test.jsonl": "c49d6844af1d787b2a01c01e9e9b73f49d9c71b7df701301f6f337e6d646f740"
+  },
+  "fully_written_subgroup": 21,
+  "min_similarity": 0.35,
+  "no_old_cache": true,
+  "no_score_filtering": true,
+  "parser_batch_size": 8,
+  "positive_attempts": 30,
+  "positive_metadata": [
+    {
+      "accepted_slots": 4,
+      "all_injection_accepted": false,
+      "baseline_sha256": "dd6cd04c3e1bbfda71a63b32b1b58c39a92219ae3739f17b017cc963cd5f6214",
+      "source_id": "benchmark30-c4-validation-250",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "05390e3f26dbc2e9167420e4b6b97e6e048c0bcde5628a6e5d912174ff36487f",
+      "source_id": "benchmark30-c4-validation-251",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "55f2bc0c979e06d54a76a03ee3a802749059adbf67517a9536d490eeb7193542",
+      "source_id": "benchmark30-c4-validation-252",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "31895e6e7c32f0d00fe1facdcb54bd3f8b04279d32210038c47b9a8ee5359ddd",
+      "source_id": "benchmark30-c4-validation-253",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "c3ad67aef910e5299e11a565508b8055baff84af3d53aaa8382198851e7432d2",
+      "source_id": "benchmark30-c4-validation-254",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "187facfed377e0b0ee1a88e4a4111e129531f197fbe7ccee569bb855f915498a",
+      "source_id": "benchmark30-c4-validation-255",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 4,
+      "all_injection_accepted": false,
+      "baseline_sha256": "6f41a06d3abe42e7286a6fa97b21c5240cb697a537ea6568f3b28e3f667bb68b",
+      "source_id": "benchmark30-c4-validation-256",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "b814828cd07c8945c91217522014c020556cfd082363a69c8acbf683f484962e",
+      "source_id": "benchmark30-c4-validation-257",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "cde47d76517fb0f682fd57b4154d5ce90f13caba47a52307616b9502cc872027",
+      "source_id": "benchmark30-c4-validation-258",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "14767fa12490f68adc88b566b840b6e714e273d06caaa31c8316e0b18f0847b6",
+      "source_id": "benchmark30-c4-validation-259",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "7ae05448564b7a5ef56b2979e7d429cbd075d40f412fa1103472bdac95aadf88",
+      "source_id": "benchmark30-c4-validation-260",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 4,
+      "all_injection_accepted": false,
+      "baseline_sha256": "8e7539d53aa90e437ea8da662fbe932cfddee4ef34a911e1407aeeba25005307",
+      "source_id": "benchmark30-c4-validation-261",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "30801410531f4b9399728458ff4f2a4658315b772859483fadbf2cd5ebca9b9e",
+      "source_id": "benchmark30-c4-validation-262",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 3,
+      "all_injection_accepted": false,
+      "baseline_sha256": "89a844549465557a8c38935090d313f15d790a1e16b654491827ca91b35723c8",
+      "source_id": "benchmark30-c4-validation-263",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "cd37d0d88cbc2f3c6bcb108ac20d2ef31b09164f7e484368475a6413ed177315",
+      "source_id": "benchmark30-c4-validation-264",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "70916409de24bbdd6c066e039ae475b6041524f6fc93a73a55d13cc2e7266e7d",
+      "source_id": "benchmark30-c4-validation-265",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "09aa253616e7ebdc44114e6f64a40a0437125e6d6a2d1c868d585fc29c89ed54",
+      "source_id": "benchmark30-c4-validation-266",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "a7a5a7104e884f855539156e7480338f0d2977331ad37a60ed2ccbd93d868e5a",
+      "source_id": "benchmark30-c4-validation-267",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 4,
+      "all_injection_accepted": false,
+      "baseline_sha256": "ce9d2f724e3cc649688053e8f4469df558c57aefb4ecc213c7a11a5b62ffc03f",
+      "source_id": "benchmark30-c4-validation-268",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 2,
+      "all_injection_accepted": false,
+      "baseline_sha256": "16182a0582359197cd41bcf23d227e2736f959c05cbee7c5b8aa136eb6968f9b",
+      "source_id": "benchmark30-c4-validation-269",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "71ae041ed18b5de023568dc1b1ef055609e09880ae4e0b9c794489820ba86ee2",
+      "source_id": "benchmark30-c4-validation-270",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "879adde8d450bce148b9a67671b8224adfeeeb2b04b2f1705a49a1889111ec23",
+      "source_id": "benchmark30-c4-validation-271",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 4,
+      "all_injection_accepted": false,
+      "baseline_sha256": "56086f2106dae04990cfb9b4dfde20bac6be1c6ad30c89cd7e3d6570655043a0",
+      "source_id": "benchmark30-c4-validation-272",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "c4f2b9ff731ab39690ea9e60faae448e21fed4b119863a4f32f9298756cc5ef6",
+      "source_id": "benchmark30-c4-validation-273",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 4,
+      "all_injection_accepted": false,
+      "baseline_sha256": "f3c686aa877b61e490bc8c5bd932e5725dfc4067bae604b73af3a8f04ef4b2af",
+      "source_id": "benchmark30-c4-validation-274",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "3b7478cf9c6955547ad122405e056510c66026328fb20073e58c166610734dd7",
+      "source_id": "benchmark30-c4-validation-275",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 3,
+      "all_injection_accepted": false,
+      "baseline_sha256": "fab27548db97b8f9bae457155c8e49fd00061bc9b5772f4351bd12b6daabc2d8",
+      "source_id": "benchmark30-c4-validation-276",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "c00ecd0e14a8b20a21a617e19cb3a39a8f71dc6b7281c7aaef1b4356c1d77fd4",
+      "source_id": "benchmark30-c4-validation-277",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "42bbc98d8d8e7b6103c4836b5384ba74816e3bca692a3b30ff192a8148924d50",
+      "source_id": "benchmark30-c4-validation-278",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    },
+    {
+      "accepted_slots": 5,
+      "all_injection_accepted": true,
+      "baseline_sha256": "529daa5061ba3c8b654a3803d43e5e78b5ba82c4d5091aadef5000ee887093d8",
+      "source_id": "benchmark30-c4-validation-279",
+      "writer_bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4"
+    }
+  ],
+  "preparation_code_sha256": "6099d5e57491c0604c7fbd834aa7e1b8234aad4c53fec6c14165b982f32e057a",
+  "reviews": {
+    "blind_to": [
+      "Bank",
+      "scores",
+      "decisions",
+      "writing_acceptance"
+    ],
+    "checks": [
+      "meaning",
+      "natural",
+      "coherent",
+      "plausible"
+    ],
+    "filtering": false,
+    "interpretation": "model_judgment_not_external_fact_verification",
+    "rows": 90,
+    "type": "provider_model"
+  },
+  "scope": "exploratory_re_evaluation_of_historical_30_short_writing_attempts",
+  "source_seals": {
+    "experiments/confirmation_three_arm30/baselines/c4-validation-250.json": "dd6cd04c3e1bbfda71a63b32b1b58c39a92219ae3739f17b017cc963cd5f6214",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-251.json": "05390e3f26dbc2e9167420e4b6b97e6e048c0bcde5628a6e5d912174ff36487f",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-252.json": "55f2bc0c979e06d54a76a03ee3a802749059adbf67517a9536d490eeb7193542",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-253.json": "31895e6e7c32f0d00fe1facdcb54bd3f8b04279d32210038c47b9a8ee5359ddd",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-254.json": "c3ad67aef910e5299e11a565508b8055baff84af3d53aaa8382198851e7432d2",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-255.json": "187facfed377e0b0ee1a88e4a4111e129531f197fbe7ccee569bb855f915498a",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-256.json": "6f41a06d3abe42e7286a6fa97b21c5240cb697a537ea6568f3b28e3f667bb68b",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-257.json": "b814828cd07c8945c91217522014c020556cfd082363a69c8acbf683f484962e",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-258.json": "cde47d76517fb0f682fd57b4154d5ce90f13caba47a52307616b9502cc872027",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-259.json": "14767fa12490f68adc88b566b840b6e714e273d06caaa31c8316e0b18f0847b6",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-260.json": "7ae05448564b7a5ef56b2979e7d429cbd075d40f412fa1103472bdac95aadf88",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-261.json": "8e7539d53aa90e437ea8da662fbe932cfddee4ef34a911e1407aeeba25005307",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-262.json": "30801410531f4b9399728458ff4f2a4658315b772859483fadbf2cd5ebca9b9e",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-263.json": "89a844549465557a8c38935090d313f15d790a1e16b654491827ca91b35723c8",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-264.json": "cd37d0d88cbc2f3c6bcb108ac20d2ef31b09164f7e484368475a6413ed177315",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-265.json": "70916409de24bbdd6c066e039ae475b6041524f6fc93a73a55d13cc2e7266e7d",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-266.json": "09aa253616e7ebdc44114e6f64a40a0437125e6d6a2d1c868d585fc29c89ed54",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-267.json": "a7a5a7104e884f855539156e7480338f0d2977331ad37a60ed2ccbd93d868e5a",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-268.json": "ce9d2f724e3cc649688053e8f4469df558c57aefb4ecc213c7a11a5b62ffc03f",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-269.json": "16182a0582359197cd41bcf23d227e2736f959c05cbee7c5b8aa136eb6968f9b",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-270.json": "71ae041ed18b5de023568dc1b1ef055609e09880ae4e0b9c794489820ba86ee2",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-271.json": "879adde8d450bce148b9a67671b8224adfeeeb2b04b2f1705a49a1889111ec23",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-272.json": "56086f2106dae04990cfb9b4dfde20bac6be1c6ad30c89cd7e3d6570655043a0",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-273.json": "c4f2b9ff731ab39690ea9e60faae448e21fed4b119863a4f32f9298756cc5ef6",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-274.json": "f3c686aa877b61e490bc8c5bd932e5725dfc4067bae604b73af3a8f04ef4b2af",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-275.json": "3b7478cf9c6955547ad122405e056510c66026328fb20073e58c166610734dd7",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-276.json": "fab27548db97b8f9bae457155c8e49fd00061bc9b5772f4351bd12b6daabc2d8",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-277.json": "c00ecd0e14a8b20a21a617e19cb3a39a8f71dc6b7281c7aaef1b4356c1d77fd4",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-278.json": "42bbc98d8d8e7b6103c4836b5384ba74816e3bca692a3b30ff192a8148924d50",
+    "experiments/confirmation_three_arm30/baselines/c4-validation-279.json": "529daa5061ba3c8b654a3803d43e5e78b5ba82c4d5091aadef5000ee887093d8",
+    "experiments/confirmation_three_arm30/preparation.json": "59acd096f1d839b43a96d8433756793bd8a5db9d86b7ba9460c889b833c26f27",
+    "experiments/confirmation_three_arm30/runtime.json": "6994770274aa6f17d9d161f50dde46129b3cac0404c5c79d12ac790bd86098f4",
+    "experiments/swan_v4_independent_confirmation1/sealed/calibration.jsonl": "279276a5be3f8fa513f1d24059d0640280d452f80f63b6669d2914a1c899b099",
+    "experiments/swan_v4_independent_confirmation1/sealed/null.jsonl": "a051d86ee8061ac1a0d5a69a44dec14d9a8ad89240e5865cfe60680c90bb47f0"
+  },
+  "test_null_sources": 1000,
+  "top_k": 4,
+  "version": "embedding-amr-short-benchmark/v1"
+}

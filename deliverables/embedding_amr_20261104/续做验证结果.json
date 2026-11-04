@@ -1,0 +1,94 @@
+{
+  "claim_boundary": {
+    "fusion_benefit_established": false,
+    "human_semantic_truth_verified": false,
+    "independent_fpr_tpr_measured": false,
+    "official_document_z_detector": false,
+    "official_graph_scorer_integrated": true,
+    "paper_contribution_updated": false,
+    "remote_jobs_checked": false
+  },
+  "date": "2026-11-04",
+  "human_input_preparation": {
+    "calibration": 1000,
+    "conditions": [
+      "clean"
+    ],
+    "new_calibration_or_test_inference_run": false,
+    "preparation_terminal_sha256": "b310de4de3180176ff4bc50b387aed5791d3490dfdc6e425118b1403d3863ed7",
+    "prior_frozen_sources_reused": true,
+    "source_content_url_overlap": 0,
+    "sources": 2000,
+    "test": 1000
+  },
+  "official_equivalence": {
+    "adapter_code_sha256": "dd9d228329a72b5820a450a12037152e099edb7ebefb273ba4e9844b2b203b6e",
+    "adapter_fingerprint": "0e645d7679ac4954832caaab88a8ee7c4c88f12bc3aac63bba2472e10ecf067d",
+    "bank50_bank100_instance_isolation": true,
+    "checks": [
+      {
+        "all_scores_exact": true,
+        "graph_sha256": "4ba24f7ea6f49588931f66bacfe9d8452ff2c6cdced66f6390478bb64868f1fe",
+        "max_abs_error": 0.0,
+        "template_scores": 100
+      },
+      {
+        "all_scores_exact": true,
+        "graph_sha256": "b241426d5a8249c797d55218ef5592285b4596295f1259cfab5774c8a8d05870",
+        "max_abs_error": 0.0,
+        "template_scores": 100
+      },
+      {
+        "all_scores_exact": true,
+        "graph_sha256": "794a8e36dfbf6fb61088edfd8f80a54627ecb4eae542b2e631cf95c381342f02",
+        "max_abs_error": 0.0,
+        "template_scores": 100
+      }
+    ],
+    "exact_pair_seed_serialization": true,
+    "scope": "constructed_graph_official_score_equivalence_not_detection_performance",
+    "status": "passed",
+    "total_official_pair_comparisons": 300
+  },
+  "real_models_smoke": {
+    "all_arms_equal": true,
+    "audit": {
+      "bank_scores_used_in_selection": false,
+      "detector_exact_replay": true,
+      "encoder_replay_max_abs": 0.0,
+      "independent_FPR_TPR_measured": false,
+      "official_bank_graphs_exact_replayed": 1,
+      "original_boundaries_used": false,
+      "parser_exact_replay": true,
+      "raw_text_in_public_scores": false,
+      "rows_expected": 1,
+      "rows_scored": 1
+    },
+    "bank_audit_sha256": "250113cc7c0382d46c4461213cf01edf0ae3a3a8da9a57820442244485f8f093",
+    "bank_sha256": "7e51393dacc5473ac9b3d96a12ba2a2591503432277ede174a125864e755a777",
+    "candidate_count": 5,
+    "detail_sha256": "b9c9cd8bee70332da20f8d49547e41973f4739d3e45af8a18f6fb5bd9b6df11a",
+    "documents": 1,
+    "events": 8,
+    "input_kind": "synthetic",
+    "proposals": 32,
+    "rejected_relation_pairs": 6,
+    "replay_terminal_sha256": "04dfdb9fb4154174465a7adc82484c9ea72a0fbd99f4fe243b1239f99ef3023f",
+    "scores_details_and_full_bank_audit_replay_exact": true,
+    "scoring_mode": "official_normalization_s2match_new_document_statistic",
+    "terminal_sha256": "4813b37f3c7889366b86ecb8c7fca47bdf2d51c977f362fc30dc34006536be72",
+    "usable_candidates": 5
+  },
+  "status": "OFFICIAL_SCORER_AND_EVALUATION_ENGINEERING_COMPLETE_EFFECTIVENESS_UNVALIDATED",
+  "tests": {
+    "all_passed": true,
+    "commands": [
+      "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -W error::RuntimeWarning -m unittest discover -s tests -p 'test_embedding_amr*.py' -v",
+      "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -W error::RuntimeWarning -m unittest discover -s tests -p test_swan_bank_detector.py -v"
+    ],
+    "existing_bank_regression": 7,
+    "fusion_calibration_seals": 29,
+    "official_adapter": 5,
+    "total": 41
+  }
+}

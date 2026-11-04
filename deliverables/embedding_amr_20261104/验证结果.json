@@ -1,0 +1,57 @@
+{
+  "claim_boundary": {
+    "fusion_benefit_established": false,
+    "human_semantic_truth_verified": false,
+    "independent_fpr_tpr_measured": false,
+    "official_s2match_detector": false,
+    "paper_contribution_updated": false
+  },
+  "date": "2026-11-04",
+  "real_models_smoke": {
+    "all_arms_equal_on_this_example": true,
+    "audit": {
+      "bank_scores_used_in_selection": false,
+      "detector_exact_replay": true,
+      "encoder_replay_max_abs": 0.0,
+      "independent_FPR_TPR_measured": false,
+      "original_boundaries_used": false,
+      "parser_exact_replay": true,
+      "raw_text_in_public_scores": false,
+      "rows_expected": 1,
+      "rows_scored": 1
+    },
+    "bank": "public Bank100 engineering example",
+    "bank_sha256": "7e51393dacc5473ac9b3d96a12ba2a2591503432277ede174a125864e755a777",
+    "candidate_count": 5,
+    "cohort": "one_constructed_English_document_not_watermarked_positive_or_human_null",
+    "device": "cpu",
+    "dtype": "float32",
+    "encoder": "all-MiniLM-L6-v2",
+    "event_observations": 8,
+    "evidence_counts": {
+      "amr_only": 1,
+      "embedding_amr": 1,
+      "embedding_without_relation": 1
+    },
+    "parser": "amrlib BART-large v0_1_0",
+    "proposed_pairs": 32,
+    "rejected_relation_pairs": 6,
+    "replay_terminal_sha256": "fed4db91aa0c93630373bfd771fc68359aa8a3a7a326c3a694b12bc5d6ae2f9d",
+    "sealed_replay_details_exact": true,
+    "sealed_replay_scores_exact": true,
+    "terminal_sha256": "096cc416decfca7905afcdbed6a112d05e2c0d0d2d777d96807d68d6ab8126d0",
+    "usable_candidates": 5
+  },
+  "resolved_engineering_issues": [
+    "First smoke emitted BLAS RuntimeWarnings; replaced contraction with explicit einsum and strict finite checks; fresh final smoke completed without warnings.",
+    "AMR multi-sentence/sntN scaffolding must not create distinct fact identities; regression and fresh smoke confirmed one selected evidence graph."
+  ],
+  "status": "IMPLEMENTED_ENGINEERING_VALIDATION_PASSED_NOT_EFFECTIVENESS_VALIDATED",
+  "tests": {
+    "all_passed": true,
+    "existing_bank_regression_tests": 7,
+    "new_unit_tests": 25,
+    "runtime_warnings_as_errors_in_unit_suite": true,
+    "synthetic_calibrate_evaluate_cli": "PASS"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "conditions": {
+    "clean": {
+      "all_pass": 18,
+      "coherent": 18,
+      "denominator": 30,
+      "meaning": 30,
+      "natural": 21,
+      "plausible": 22
+    },
+    "joined": {
+      "all_pass": 1,
+      "coherent": 8,
+      "denominator": 30,
+      "meaning": 30,
+      "natural": 1,
+      "plausible": 21
+    },
+    "split": {
+      "all_pass": 0,
+      "coherent": 0,
+      "denominator": 30,
+      "meaning": 18,
+      "natural": 0,
+      "plausible": 8
+    }
+  },
+  "cost_at_frozen_prices_usd": 0.013041,
+  "denominator": 90,
+  "model": "deepseek-flash",
+  "no_filtering": true,
+  "reservation_upper_bound_usd": 0.128055,
+  "reviewer_type": "provider_model",
+  "status": "review_attempts_complete",
+  "status_counts": {
+    "review_complete": 90
+  }
+}

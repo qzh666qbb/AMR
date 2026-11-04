@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>A2 独立对应评审</title>
+<style>
+:root{--ink:#223731;--muted:#62736c;--paper:#f5f3ec;--line:#cbd3c9;--green:#176b50;--white:#fffef9}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 "PingFang SC","Microsoft YaHei",sans-serif}
+header{background:var(--ink);color:var(--paper);padding:26px 4vw;display:flex;align-items:center;justify-content:space-between;gap:24px}
+h1{font:32px/1.3 "Songti SC",Georgia,serif;margin:4px 0}h2{font-size:18px;margin:0 0 12px}p{margin:8px 0}.eyebrow{letter-spacing:.12em;font-size:12px}.muted{color:var(--muted);font-size:14px}
+main{max-width:1280px;margin:auto;padding:28px 28px 60px}.nav,.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:18px 0}
+button,select,input,textarea{font:inherit;border:1px solid var(--line);border-radius:5px;background:var(--white);color:var(--ink)}
+button{padding:8px 16px;cursor:pointer}button:hover{border-color:var(--green)}button:disabled{opacity:.4;cursor:not-allowed}.primary{background:var(--green);color:white;border-color:var(--green)}
+select,input{padding:7px 10px}input[type=number]{width:90px}input[type=checkbox],input[type=radio]{accent-color:var(--green)}
+input[type=file]{width:100%;max-width:100%}.toolbar>label{min-width:0;max-width:100%}
+.card{background:var(--white);border:1px solid var(--line);padding:22px;margin:14px 0;border-radius:7px}
+.columns{display:grid;grid-template-columns:1fr 1fr;gap:20px}.columns .card{margin:0}.text{white-space:pre-wrap;overflow-wrap:anywhere}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.6 Menlo,monospace;padding:14px;background:var(--paper);max-height:320px;overflow:auto}
+.choices{display:flex;gap:22px;flex-wrap:wrap;margin:16px 0}.choices label{padding:10px 14px;border:1px solid var(--line);border-radius:5px}
+textarea{width:100%;min-height:110px;padding:12px;resize:vertical}.attest label{display:block;margin:8px 0}
+#message{min-height:26px;color:var(--green)}#storageWarning{color:#a44823}progress{width:200px;accent-color:#75bea1}
+details summary{cursor:pointer}footer{font-size:13px;color:var(--muted);margin-top:24px}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #d2a23d;outline-offset:2px}
+@media(max-width:760px){header{display:block}main{padding:18px}.columns{grid-template-columns:1fr}h1{font-size:27px}.card{padding:17px}}
+</style>
+<header><div><div class="eyebrow">SEMANTIC CORRESPONDENCE · INDEPENDENT REVIEW</div><h1>A2 对应评审 · <span id="role"></span></h1></div><div><div id="progressText"></div><progress id="progress" max="1" value="0"></progress></div></header>
+<main>
+<details class="card" open><summary><strong>评审说明与独立性要求</strong></summary>
+<p>判断左侧片段是否支持右侧事件所指的<strong>同一具体事实</strong>。核对参与者、谓词、角色方向、否定、数字及指代；主题相近或谓词相同不自动等于同一事实。</p>
+<p>先看本行原文与两侧片段，再检查解析器抽取的事件及其原图。解析描述可能出错，应按原文判断。支持选“是”，明确不支持选“否”；不确定或尚未判断请保留“待判断”，并记录疑问。</p>
+<p>每项都要填写自己的证据或理由。需要完整评审全部对应，不能只标看起来容易的项。两位评审独立完成，不查看对方答卷，不使用模型代填或水印目标答案。分歧由第三位真人裁决。</p>
+<p class="muted">这是短文本开发集的对应支持评审。它不等同于完整事实清单，也不能直接生成正式 FPR/TPR。数据只在本页与本机处理，请定期导出草稿备份。</p>
+</details>
+<div class="nav"><label>文本行 <select id="row"></select></label><label>对应 <input id="pair" type="number" min="1" value="1"></label><span id="pairTotal"></span><button id="previous">上一项</button><button id="next">下一项</button><button id="pending">下一个待完成</button></div>
+<section class="card"><h2>本行原文</h2><div id="documentText" class="text"></div></section>
+<div class="columns">
+<section class="card"><div class="eyebrow">CANDIDATE</div><h2>需要判断的片段</h2><div id="candidateText" class="text"></div></section>
+<section class="card"><div class="eyebrow">EVENT OBSERVATION</div><h2>事件的原始片段</h2><div id="originText" class="text"></div><p class="muted">解析器抽取的事件（需核对原文）</p><div id="description" class="text"></div><details><summary>查看事件节点、角色与原图</summary><pre id="eventDetails"></pre><pre id="amr"></pre></details></section>
+</div>
+<section class="card"><h2>该片段是否支持同一事实？</h2><div class="choices">
+<label><input type="radio" name="answer" value="yes"> 是，支持</label><label><input type="radio" name="answer" value="no"> 否，不支持</label><label><input type="radio" name="answer" value="unknown" checked> 待判断</label>
+</div><label for="rationale">证据与理由（每项必填）</label><textarea id="rationale" placeholder="引用原文中的参与者、动作或否定等信息，解释为什么支持或不支持。"></textarea></section>
+<section class="card attest"><h2>保存与交付</h2><label>个人评审代号 <input id="reviewerCode" autocomplete="off" placeholder="两位评审使用不同代号"></label>
+<label><input id="human" type="checkbox"> 我确认这些判断由我本人实际完成。</label>
+<label><input id="independent" type="checkbox"> 我独立评审，未参考另一位评审的答案。</label>
+<label><input id="noModel" type="checkbox"> 我未使用模型代填或水印目标答案。</label>
+<div class="toolbar"><button id="draft">导出草稿</button><button id="final" class="primary" disabled>导出完整答卷</button><label>恢复本人草稿 <input id="import" type="file" accept=".json,application/json"></label></div>
+<div id="message" role="status" aria-live="polite"></div><div id="storageWarning" role="alert"></div></section>
+<footer>完整答卷需所有项均有是／否判断及理由。浏览器缓存可能被清理或耗尽；导出的 JSON 文件是可靠的恢复与提交材料。请仅提交本人的答卷。</footer>
+</main>
+<script id="dataset" type="application/json">__DATA__</script>
+<script>
+"use strict";
+const DATA=JSON.parse(document.getElementById("dataset").textContent), ROLE="__ROLE__";
+const $=id=>document.getElementById(id), key=`atomic-review-v1:${DATA.freeze_sha256}:${DATA.prediction_seal_sha256}:${ROLE}`;
+let state={answers:{},reviewerCode:"",row:0,pair:0};
+const flat=DATA.rows.flatMap((r,ri)=>r.pairs.map((p,pi)=>({ri,pi,key:`${ri}:${pi}`})));
+const valid=a=>a && typeof a.value==="boolean" && typeof a.rationale==="string" && a.rationale.trim().length>0;
+function message(text){$("message").textContent=text}
+function persist(){try{localStorage.setItem(key,JSON.stringify(state));$("storageWarning").textContent=""}catch(e){$("storageWarning").textContent="浏览器缓存不可用或已满。请立即导出草稿，离开页面前再次备份。"}}
+function stats(){const n=flat.reduce((sum,p)=>sum+(valid(state.answers[p.key])?1:0),0);$("progressText").textContent=`已完成 ${n.toLocaleString()} / ${flat.length.toLocaleString()} 项`;$("progress").max=flat.length||1;$("progress").value=n;$("final").disabled=n!==flat.length||!$("reviewerCode").value.trim()||!["human","independent","noModel"].every(id=>$(id).checked)}
+function render(){
+ const row=DATA.rows[state.row];state.pair=Math.max(0,Math.min(state.pair,row.pairs.length-1));const pair=row.pairs[state.pair];
+ $("row").value=String(state.row);$("pair").value=state.pair+1;$("pair").max=Math.max(1,row.pairs.length);$("pairTotal").textContent=`/ ${row.pairs.length} 项`;
+ $("documentText").textContent=row.text;
+ if(pair){const event=row.events.find(e=>e.event_id===pair.event_id);$("candidateText").textContent=row.candidate_texts[pair.candidate_index];$("originText").textContent=row.candidate_texts[pair.event_candidate_index];$("description").textContent=event.description;$("eventDetails").textContent=JSON.stringify({node:event.node,predicate:event.predicate,roles:event.roles,negated:event.negated,entities:event.entities,numbers:event.numbers},null,2);$("amr").textContent=row.candidate_amrs[pair.event_candidate_index]||"无原图"}
+ else{for(const id of ["candidateText","originText","description","eventDetails","amr"])$(id).textContent="本行没有可评审对应，仍保留本行。"}
+ const a=state.answers[`${state.row}:${state.pair}`]||{value:null,rationale:""};
+ for(const node of document.querySelectorAll('[name="answer"]')){node.checked=node.value===(a.value===true?"yes":a.value===false?"no":"unknown");node.disabled=!pair}
+ $("rationale").value=a.rationale;$("rationale").disabled=!pair;stats()
+}
+function change(){if(!DATA.rows[state.row].pairs.length)return;const selected=document.querySelector('[name="answer"]:checked').value;state.answers[`${state.row}:${state.pair}`]={value:selected==="yes"?true:selected==="no"?false:null,rationale:$("rationale").value};persist();stats()}
+function jump(ri,pi){state.row=ri;state.pair=pi;persist();render()}
+function move(delta){const index=flat.findIndex(p=>p.ri===state.row&&p.pi===state.pair), target=Math.max(0,Math.min(flat.length-1,index+delta));if(flat[target])jump(flat[target].ri,flat[target].pi)}
+function packet(final){
+ return {reviewer_code:$("reviewerCode").value.trim(),human_attestation:final,independent_attestation:final,no_model_or_target_answers_used:final,completed_at:final?new Date().toISOString():"",freeze_sha256:DATA.freeze_sha256,prediction_seal_sha256:DATA.prediction_seal_sha256,review_slot:ROLE,
+ rows:DATA.rows.map((r,ri)=>({row_id:r.row_id,pairs:r.pairs.map((p,pi)=>({...p,same_fact_supported:state.answers[`${ri}:${pi}`]?.value??null,rationale:state.answers[`${ri}:${pi}`]?.rationale??""}))}))}
+}
+function download(final){
+ stats();if(final&&$("final").disabled){message("还有未完成项、评审代号或独立性确认未填写。");return}
+ const payload=JSON.stringify(packet(final),null,2), url=URL.createObjectURL(new Blob([payload],{type:"application/json"})),a=document.createElement("a");
+ a.href=url;a.download=`${ROLE}_${final?"COMPLETED":"DRAFT"}_${Date.now()}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);message(final?"已导出完整答卷。请提交此 JSON 文件；实际人评身份还需组织者核验。":"已导出草稿，未完成标签继续保留为空。")
+}
+function restorePacket(p){
+ if(p.freeze_sha256!==DATA.freeze_sha256||p.prediction_seal_sha256!==DATA.prediction_seal_sha256||p.review_slot!==ROLE)throw Error("该答卷不属于当前冻结或当前评审席位。");
+ if(!Array.isArray(p.rows)||p.rows.length!==DATA.rows.length)throw Error("答卷文本行不完整。");
+ const rows=new Map(p.rows.map(r=>[r.row_id,r]));if(rows.size!==DATA.rows.length)throw Error("答卷含重复文本行。");
+ const answers={};
+ DATA.rows.forEach((r,ri)=>{
+  const incoming=rows.get(r.row_id);if(!incoming||!Array.isArray(incoming.pairs)||incoming.pairs.length!==r.pairs.length)throw Error("对应全集不完整。");
+  const pairs=new Map(incoming.pairs.map(v=>[`${v.candidate_index}|${v.event_id}`,v]));if(pairs.size!==r.pairs.length)throw Error("对应项重复。");
+  r.pairs.forEach((expected,pi)=>{const q=pairs.get(`${expected.candidate_index}|${expected.event_id}`);if(!q||q.event_candidate_index!==expected.event_candidate_index||![null,true,false].includes(q.same_fact_supported)||typeof q.rationale!=="string")throw Error("对应身份或标签格式不匹配。");answers[`${ri}:${pi}`]={value:q.same_fact_supported,rationale:q.rationale}});
+ });
+ state.answers=answers;state.reviewerCode=typeof p.reviewer_code==="string"?p.reviewer_code:"";$("reviewerCode").value=state.reviewerCode;
+ for(const id of ["human","independent","noModel"])$(id).checked=false;persist();render();message("本人草稿已恢复。完整导出前请重新核对独立性声明。")
+}
+try{const saved=JSON.parse(localStorage.getItem(key));if(saved&&typeof saved.answers==="object"&&Number.isInteger(saved.row)&&saved.row>=0&&saved.row<DATA.rows.length&&Number.isInteger(saved.pair)&&saved.pair>=0)state=saved}catch(e){$("storageWarning").textContent="未读取到有效缓存，请从导出的 JSON 草稿恢复。"}
+$("role").textContent=ROLE;$("reviewerCode").value=state.reviewerCode||"";
+DATA.rows.forEach((r,i)=>{const o=document.createElement("option");o.value=i;o.textContent=`第 ${i+1} 行 · ${r.pairs.length} 对`;$("row").append(o)});
+$("row").onchange=()=>jump(Number($("row").value),0);$("pair").onchange=()=>jump(state.row,Math.max(0,Number($("pair").value)-1||0));
+$("previous").onclick=()=>move(-1);$("next").onclick=()=>move(1);
+$("pending").onclick=()=>{const index=flat.findIndex(p=>p.ri===state.row&&p.pi===state.pair),ordered=flat.slice(index+1).concat(flat.slice(0,index+1)),p=ordered.find(p=>!valid(state.answers[p.key]));if(p)jump(p.ri,p.pi);else message("所有对应项已完成，请核对独立性声明并导出。")};
+for(const node of document.querySelectorAll('[name="answer"]'))node.onchange=change;$("rationale").oninput=change;
+$("reviewerCode").oninput=()=>{state.reviewerCode=$("reviewerCode").value;persist();stats()};
+for(const id of ["human","independent","noModel"])$(id).onchange=stats;
+$("draft").onclick=()=>download(false);$("final").onclick=()=>download(true);
+$("import").onchange=async()=>{try{const file=$("import").files[0];if(file)restorePacket(JSON.parse(await file.text()))}catch(e){message(`导入失败：${e.message}`)}finally{$("import").value=""}};
+render();
+</script>
+</html>

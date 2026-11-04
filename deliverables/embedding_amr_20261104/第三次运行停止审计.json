@@ -1,0 +1,60 @@
+{
+  "HALT.json": {
+    "exception_type": "RuntimeError",
+    "status": "halted"
+  },
+  "STAGE.json": {
+    "stage": "calibration",
+    "terminal": false
+  },
+  "calibration/HALT.json": {
+    "elapsed_seconds": 341.33153173327446,
+    "exception_type": "RuntimeError",
+    "status": "halted"
+  },
+  "calibration/HEARTBEAT.json": {
+    "completed": 65,
+    "device_used_fraction": 0.3011681135316199,
+    "elapsed_seconds": 332.22346588782966,
+    "process_allocated_bytes": 1749782528,
+    "process_peak_bytes": 3988156416,
+    "process_peak_reserved_bytes": 13256097792,
+    "process_reserved_bytes": 1772093440,
+    "total": 3000
+  },
+  "calibration/MEMORY_GATE_FAILURE.json": {
+    "device_used_fraction": 0.8148168297466108,
+    "elapsed_seconds": 341.32994800806046,
+    "process_allocated_bytes": 1749782528,
+    "process_peak_bytes": 4001007104,
+    "process_peak_reserved_bytes": 14766047232,
+    "process_reserved_bytes": 14766047232,
+    "row_index": 65
+  },
+  "RESOURCE_PRECHECK.json": {
+    "dtype": "float32",
+    "estimate_note": "three engineering examples; total time remains uncertain",
+    "parser_replay": "two_complete_document_batches",
+    "profile": {
+      "completed": 3,
+      "device_used_fraction": 0.33739543583406517,
+      "elapsed_seconds": 46.33976182714105,
+      "process_allocated_bytes": 1749782528,
+      "process_peak_bytes": 2849969664,
+      "process_peak_reserved_bytes": 3615490048,
+      "process_reserved_bytes": 2688548864,
+      "total": 3
+    },
+    "status": "go"
+  },
+  "PROFILE_EQUIVALENCE.json": {
+    "arms": 3,
+    "new_profile_terminal_sha256": "2ce7587a44b9b6d891836a17c73e9b1a7295556b777a9aa471774f65a319c1e0",
+    "old_profile_terminal_sha256": "d1688e5ab7891b8ac56db255a98af0ee8e3612c554994543452d8dc5e2af2b51",
+    "rows": 3,
+    "scientific_input_and_model_fields_equal": true,
+    "score_max_abs_error": 0,
+    "status": "exactly_equal"
+  },
+  "run_window_estimate_seconds": 391.88553619384766
+}

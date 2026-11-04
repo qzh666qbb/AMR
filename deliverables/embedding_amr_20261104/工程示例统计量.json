@@ -1,0 +1,31 @@
+[
+  {
+    "arms": {
+      "amr_only": {
+        "evidence_count": 1,
+        "statistic": 0.04047619047619044,
+        "status": "uncalibrated"
+      },
+      "embedding_amr": {
+        "evidence_count": 1,
+        "statistic": 0.04047619047619044,
+        "status": "uncalibrated"
+      },
+      "embedding_without_relation": {
+        "evidence_count": 1,
+        "statistic": 0.04047619047619044,
+        "status": "uncalibrated"
+      }
+    },
+    "candidate_count": 5,
+    "condition": "clean",
+    "detector_fingerprint": "9b55c88e425a273eadb2d254caf8f594ae0a2a2b110315c5b8be777706a6ea72",
+    "kind": "synthetic",
+    "row_id": "synthetic-passive",
+    "source_id": "synthetic-passive",
+    "source_sha256": "11b5a3d2ed6d18ac81419c0ba15cbb6b08f38d53188753cb96cf563e04c76ac5",
+    "split": "development",
+    "text_sha256": "11b5a3d2ed6d18ac81419c0ba15cbb6b08f38d53188753cb96cf563e04c76ac5",
+    "usable_candidates": 5
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "version": "embedding-amr-execution-amendment/v3",
+  "predecessor_status": "HALT_preserved",
+  "predecessor_halt": {
+    "run": "embedding_amr_benchmark4_runtime/evaluation1",
+    "stage": "calibration",
+    "completed_rows": 2385,
+    "total_rows": 3000,
+    "exception": "Official normalization diagnostic or replay mismatch",
+    "root_cause": "content-dependent penman.layout warning 'ignoring epigraph data for duplicate triple (:time/:timezone)' on timestamp text; reproduced deterministically on four candidates of calibration row index 2385",
+    "test_exposure": false
+  },
+  "reason": "content_dependent_official_normalization_warning_aborted_frozen_run",
+  "change": "an official normalization failure now excludes the affected candidate from Bank evidence in all three arms instead of aborting the run; its row stays in the complete denominator and becomes abstain when no evidence remains",
+  "environment_drift": {
+    "observed": {
+      "spacy": {"old": "3.8.2", "new": "3.8.16"},
+      "nltk": {"old": "3.9.1", "new": "3.9.2"}
+    },
+    "cause": "unrelated upgrade of the shared venv after the fourth run",
+    "profile_check": "three profile rows and three arms are bit-identical in score, evidence count, candidate count and text SHA; only the bank_scorer_fingerprint metadata differs",
+    "handling": "profile equivalence keeps exact row-level score equality as a hard condition and records the fingerprint drift in PROFILE_EQUIVALENCE.json; no thresholds or Bank rules changed"
+  },
+  "startup_environment": [
+    "PYTORCH_NO_CUDA_MEMORY_CACHING=1",
+    "CUBLAS_WORKSPACE_CONFIG=:4096:8",
+    "PYTHONPATH=<shared sentence-transformers overlay>",
+    "HF_HUB_OFFLINE=1",
+    "TOKENIZERS_PARALLELISM=false"
+  ],
+  "unchanged": [
+    "protocol",
+    "scientific inputs",
+    "target Bank",
+    "candidate generation",
+    "parser",
+    "encoder",
+    "dtype float32",
+    "parser batch size 8",
+    "S2Match scoring rules",
+    "threshold alpha 0.05",
+    "complete denominators",
+    "no old AMR cache import",
+    "no score filtering"
+  ],
+  "protocol_sha256": "1afad1023ccc9709a8a147ed412cd1af8e0106b224cbd90a63796952f6c3cec2",
+  "stress_input_sha256": "4f4f5a8a40afbef3a16036009563cba4a696e8ccab633056a51257245277ed9d",
+  "stress_calibration_row_indices": [
+    63,
+    64,
+    65
+  ],
+  "stress_exposure": "three_calibration_conditions_for_resource_debugging_only_no_test_exposure",
+  "stress_results_used_for_threshold_or_algorithm_selection": false,
+  "prior_stopped_run_window_estimate_seconds": 47074.343549421,
+  "prior_run_window_estimates_seconds": [
+    395.0032172203064,
+    391.88553619384766,
+    786.888753414154,
+    46287.4547960069
+  ],
+  "first_run_cost_note": "stopped before inference; duration_unmeasured",
+  "cost_definition": "wall-time windows, not exclusive GPU kernel seconds",
+  "calibration_restart_from_row_zero": true,
+  "no_old_AMR_cache": true,
+  "reuse_completed_model_reviews_without_new_API_calls": true,
+  "run_without_wall_clock_limit": true,
+  "user_direction": "2026-11-04: keep the server run going, no working-hours limit, require complete results"
+}

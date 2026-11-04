@@ -1,0 +1,10 @@
+{
+  "deliverables/embedding_amr_20261104/显存分配器修订.json": "760ce8cc51712daf9364a2868f474faa1a184942941359655130c47bd9801231",
+  "deliverables/embedding_amr_20261104/第四次运行资源审计.json": "07cc2bd5ae42f26916db804806d18810a09f16135c5d962921677dbe1afe7113",
+  "deliverables/embedding_amr_20261104/第四次运行启动审计.json": "93d7e38e3d930a362f6956e3a71bd1481e9aef6320b0a96681e0a9dc53d901e9",
+  "deliverables/embedding_amr_20261104/实现与运行说明.md": "97476f0f6e40a6ca05f4fb09eb666269d0b0d7cb22e4c4a5b99fe5a616738c99",
+  "scripts/run_embedding_amr_detection.py": "b231f0a6e8bfaa8f4c70cdc556b8552ce8963bf96becb8ac153715ba3c76b60b",
+  "scripts/run_embedding_amr_study.py": "b78e872848156185402ef3a1fc91f5b36679a9fcfd32240f2ec9283af58eb5bd",
+  "scripts/collect_embedding_amr_study.py": "6f7f50691eb4446614d136412d1ec8a3a2df1dfc0d7d2545cc5985d3b88e2a0c",
+  "experiments/embedding_amr_benchmark_20261104/PROTOCOL.json": "1afad1023ccc9709a8a147ed412cd1af8e0106b224cbd90a63796952f6c3cec2"
+}

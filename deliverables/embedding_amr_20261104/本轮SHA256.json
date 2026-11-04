@@ -1,0 +1,22 @@
+{
+  "files": {
+    "README.md": "7bd7d1a58bea5868657585b15b27e73949a10b0547da3b387f812e4c89d7303d",
+    "deliverables/embedding_amr_20261104/实现与运行说明.md": "a38fa48b5c0305f4f724794179c5e88c37ff5c87fe76b4dc752472b7b1956e82",
+    "deliverables/embedding_amr_20261104/本轮执行审计.json": "f42ca85719c6121f42f1713d0a625f4c3b9c744cadc9e5f770ffee8c0d86c9ab",
+    "deliverables/embedding_amr_20261104/模型评审终态.json": "bd9fda5cf73a36f3239d9eae82c68d5f21aa75477fdb32d0ae3ea63606c6098e",
+    "deliverables/embedding_amr_20261104/模型评审结果.json": "3fadc7c21ebddf3bf8d51154970c22338e1fa302aabf86b4ae8d799541e47d04",
+    "deliverables/embedding_amr_20261104/资源预检结果.json": "2837a199888394e5dda490b827b03e0e905d60e65fc5dc338f086bec28f366e5",
+    "experiments/embedding_amr_benchmark_20261104/INPUT_TERMINAL.json": "02946a90774903270e3c32a89399bc478ee928541c43710c3ac2fcdf06a3a7e3",
+    "experiments/embedding_amr_benchmark_20261104/PROTOCOL.json": "1afad1023ccc9709a8a147ed412cd1af8e0106b224cbd90a63796952f6c3cec2",
+    "scripts/collect_embedding_amr_study.py": "ba2abf6e2b83d6a0e9089f49e698f1da600510fd71b5e231909e9ac0d04667dd",
+    "scripts/prepare_embedding_amr_benchmark.py": "6099d5e57491c0604c7fbd834aa7e1b8234aad4c53fec6c14165b982f32e057a",
+    "scripts/report_embedding_amr_study.py": "80273e622c1d5f4b4eb41ae31c458d0ca2f0978713534993f5e9bcd50e96a83a",
+    "scripts/review_embedding_amr_benchmark.py": "c3cdbf7cfb60cb578f5fc37f3de9f1084b9b150a7eef2842e838d34b885952e1",
+    "scripts/run_embedding_amr_detection.py": "f0b2110f7909b4619c5b9a3e4b74c63b05f11e91ae655956980efa91de4eef55",
+    "scripts/run_embedding_amr_study.py": "f06d227396e1240971b36391682bb69bf64b732d32d2babe1fa7163bf7e0552d",
+    "src/core/embedding_amr_batch.py": "1dd93f5fa224db3cfa3173ad3d30dab1ba2cf74a0d9bd8f8f08fa553b31421a7",
+    "src/core/parser_recovery_audit.py": "668883ec559c24a0b0fbd8d3f2438e431cef496c94a3ad4b3ff6dd349a2c862d",
+    "tests/test_swan_parser_recovery_audit.py": "6883ac5a04240b3470c7a9dcdac03d620a5e96a49c9804e0383304646179df38"
+  },
+  "scope": "ongoing_evaluation_snapshot_not_final_metrics"
+}

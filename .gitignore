@@ -8,6 +8,9 @@
 !.env.example
 *.key
 *.pem
+api.txt
+ssh.txt
+.secrets/
 
 # Python environments and caches
 .venv/
@@ -27,6 +30,11 @@ models/
 vectors/
 data/raw/
 data/processed/
+experiments/swan_multiview_development1/newline_negative_expansion1/private/
+experiments/semantic_fact_carrier_pilot1/private_review/
+experiments/semantic_fact_carrier_pilot2/private_review/
+experiments/semantic_fact_layers_v2_execution1/private_review/
+experiments/semantic_multiscale_supervision2/private_review/
 output/
 results/raw/
 baselines/local/*/runs/
@@ -36,6 +44,7 @@ third_party/SWAN/data/
 
 # Local logs and editor files
 *.log
+.dbg/
 .vscode/
 .idea/
 .DS_Store

@@ -1,0 +1,29 @@
+{
+  "version": "embedding-amr-execution-amendment/v2",
+  "predecessor_status": "HALT_preserved",
+  "reason": "unused_CUDA_allocator_growth_within_failed_document",
+  "change": "PYTORCH_NO_CUDA_MEMORY_CACHING=1",
+  "protocol_sha256": "1afad1023ccc9709a8a147ed412cd1af8e0106b224cbd90a63796952f6c3cec2",
+  "stress_input_sha256": "4f4f5a8a40afbef3a16036009563cba4a696e8ccab633056a51257245277ed9d",
+  "stress_calibration_row_indices": [
+    63,
+    64,
+    65
+  ],
+  "stress_exposure": "three_calibration_conditions_for_resource_debugging_only_no_test_exposure",
+  "stress_results_used_for_threshold_or_algorithm_selection": false,
+  "prior_stopped_run_window_estimate_seconds": 786.888753414154,
+  "prior_run_window_estimates_seconds": [
+    395.0032172203064,
+    391.88553619384766
+  ],
+  "cost_definition": "wall-time windows, not exclusive GPU kernel seconds",
+  "snapshot1_cost_note": "stopped_before_inference; duration_unmeasured",
+  "same_scientific_inputs": true,
+  "dtype": "float32",
+  "parser_batch_size": 8,
+  "same_Bank_and_scoring_rules": true,
+  "calibration_restart_from_row_zero": true,
+  "no_old_AMR_cache": true,
+  "reuse_completed_model_reviews_without_new_API_calls": true
+}

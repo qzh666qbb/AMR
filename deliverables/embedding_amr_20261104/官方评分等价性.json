@@ -1,0 +1,29 @@
+{
+  "adapter_code_sha256": "dd9d228329a72b5820a450a12037152e099edb7ebefb273ba4e9844b2b203b6e",
+  "adapter_fingerprint": "0e645d7679ac4954832caaab88a8ee7c4c88f12bc3aac63bba2472e10ecf067d",
+  "bank50_bank100_instance_isolation": true,
+  "checks": [
+    {
+      "all_scores_exact": true,
+      "graph_sha256": "4ba24f7ea6f49588931f66bacfe9d8452ff2c6cdced66f6390478bb64868f1fe",
+      "max_abs_error": 0.0,
+      "template_scores": 100
+    },
+    {
+      "all_scores_exact": true,
+      "graph_sha256": "b241426d5a8249c797d55218ef5592285b4596295f1259cfab5774c8a8d05870",
+      "max_abs_error": 0.0,
+      "template_scores": 100
+    },
+    {
+      "all_scores_exact": true,
+      "graph_sha256": "794a8e36dfbf6fb61088edfd8f80a54627ecb4eae542b2e631cf95c381342f02",
+      "max_abs_error": 0.0,
+      "template_scores": 100
+    }
+  ],
+  "exact_pair_seed_serialization": true,
+  "scope": "constructed_graph_official_score_equivalence_not_detection_performance",
+  "status": "passed",
+  "total_official_pair_comparisons": 300
+}

@@ -1,0 +1,44 @@
+{
+  "blockers": [
+    "No sealed eligible positive input cohort bound to the new detector.",
+    "Normal-length writer uses Bank50; older alignment uses Bank100. Bind the actual writing Bank.",
+    "No supplied target private Bank with writing provenance for this new run.",
+    "No independent human fact/correspondence labels for method-mechanism validation.",
+    "Only clean controls exported; edited positive/null conditions require their own frozen preparation.",
+    "No fresh full-flow calibration, independent FPR/TPR, or throughput/resource gate yet."
+  ],
+  "checks": {
+    "frozen_source_sha_verified": true,
+    "full_original_denominators_retained": true,
+    "same_clean_rendering_across_splits": true,
+    "source_and_window_canonical_hashes_verified": true
+  },
+  "counts": {
+    "calibration": {
+      "rows": 1000,
+      "sources": 1000,
+      "unavailable": 0,
+      "unique_windows": 1000
+    },
+    "test": {
+      "rows": 1000,
+      "sources": 1000,
+      "unavailable": 0,
+      "unique_windows": 1000
+    }
+  },
+  "cross_split_overlap": {
+    "content": 0,
+    "ids": 0,
+    "urls": 0
+  },
+  "fusion_benefit_established": false,
+  "input_manifest_sha256": "828d0c127a3d6947c2315cfd29868e96edc3d000e0331439ca72fe738eb1ce7c",
+  "missing_local_positive_evidence": {
+    "INPUT_SEAL.json": true,
+    "MAIN_GENERATION_SEAL.json": true,
+    "TERMINAL.json": true
+  },
+  "remote_state": "not_queried; missing local artifacts do not establish remote failure",
+  "status": "HUMAN_CLEAN_INPUTS_PREPARED_FULL_METHOD_EVALUATION_NOT_READY"
+}

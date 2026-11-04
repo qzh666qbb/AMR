@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-04",
+  "status": "full_evaluation_running",
+  "closure": false,
+  "evaluation_terminal_available_at_snapshot": false,
+  "model_review_complete": true,
+  "model_review_rows": 90,
+  "reviewer_type": "provider_model",
+  "review_used_for_filtering": false,
+  "inputs": {
+    "calibration_rows": 3000,
+    "test_rows": 3090,
+    "conditions": ["clean", "joined", "split"],
+    "positive_attempts": 30,
+    "fully_written_subgroup": 21,
+    "test_natural_sources": 1000,
+    "calibration_natural_sources": 1000,
+    "protocol": "experiments/embedding_amr_benchmark_20261104/PROTOCOL.json",
+    "bank_sha256": "f0a88c1af73d12078586d10ef68804c12ed5b79cabc07c9f6c2a34bb084ef5a4",
+    "bank_is_public": true
+  },
+  "checks": {
+    "fusion_tests": 34,
+    "parser_audit_tests": 8,
+    "bank_regression_tests": 7,
+    "gpu_profile_rows": 3,
+    "gpu_profile_complete": true,
+    "parser_batch_replay": "two_complete_document_batches",
+    "dtype": "float32",
+    "model_review_terminal_sha_checked": true,
+    "source_disjoint": true,
+    "no_score_filtering": true,
+    "no_old_cache_import": true
+  },
+  "execution_history": [
+    {
+      "snapshot": "benchmark1",
+      "status": "stopped_before_scoring",
+      "reason": "missing_remote_Bank_file_and_API_transport_import",
+      "calibration_rows_scored": 0,
+      "test_rows_scored": 0,
+      "API_calls": 0,
+      "historical_failure_preserved": true
+    },
+    {
+      "snapshot": "benchmark2",
+      "status": "profile_passed_calibration_running",
+      "same_frozen_scientific_inputs": true
+    }
+  ],
+  "interpretation": {
+    "fusion_benefit_established": false,
+    "high_quality_rewrite_claim_supported": false,
+    "edited_conditions_scope": "punctuation_structure_stress_test",
+    "scope": "exploratory_re_evaluation_of_historical_short_texts"
+  },
+  "automatic_followup": [
+    "seal_calibration",
+    "score_full_test",
+    "evaluate_full30_and_fully_written21",
+    "recompute_evaluation_and_verify_SHA",
+    "generate_and_download_report",
+    "update_live_status_page"
+  ]
+}

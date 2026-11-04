@@ -1,0 +1,84 @@
+{
+  "version": "embedding-amr-execution-amendment/v4",
+  "predecessor_status": "HALT_preserved",
+  "predecessor_halt": {
+    "run": "embedding_amr_benchmark4_runtime/evaluation1",
+    "stage": "calibration",
+    "completed_rows": 2385,
+    "total_rows": 3000,
+    "exception": "Official normalization diagnostic or replay mismatch",
+    "root_cause": "content-dependent penman.layout warning 'ignoring epigraph data for duplicate triple (:time/:timezone)' on timestamp text; reproduced deterministically on four candidates of calibration row index 2385",
+    "test_exposure": false
+  },
+  "reason": "content_dependent_official_normalization_warning_aborted_frozen_run",
+  "change": "an official normalization failure now excludes the affected candidate from Bank evidence in all three arms instead of aborting the run; its row stays in the complete denominator and becomes abstain when no evidence remains",
+  "resume": {
+    "source_run": "embedding_amr_benchmark4_runtime/evaluation1/calibration",
+    "source_heartbeat_sha256": "21775d8dee17c5ff90018f9ed345e5d7b4a1410a3bbb0fe48eabd3a43a82e4e4",
+    "source_manifest_sha256": "a47f341ebba6c3be7765b9de622862d7d609c126029296819476139c61ca9fcb",
+    "rows_carried_forward": 2385,
+    "rechecked_rows": [2382, 2383, 2384],
+    "recheck_rule": "the three trailing resumed rows are re-parsed and re-scored; arms, candidate_count, usable_candidates, exclusions, event_count, fact_identity_count and budget must equal the carried result; pair structure must match exactly and pair similarity drift must stay within 1e-4, with the observed maximum recorded",
+    "recheck_similarity_tolerance": 0.0001,
+    "carried_observations": "hard-linked into the new run and sealed by SHA256",
+    "row_file_hashes_recorded": true,
+    "test_stage": "fresh from row zero",
+    "threshold_calibration": "recomputed on the complete 3000-row carried plus fresh calibration set"
+  },
+  "environment_drift": {
+    "observed": {
+      "spacy": {"old": "3.8.2", "new": "3.8.16"},
+      "nltk": {"old": "3.9.1", "new": "3.9.2"}
+    },
+    "cause": "unrelated upgrade of the shared venv after the fourth run",
+    "profile_check": "three profile rows and three arms are bit-identical in score, evidence count, candidate count and text SHA; only the bank_scorer_fingerprint metadata differs",
+    "handling": "profile equivalence keeps exact row-level score equality as a hard condition and records the fingerprint drift in PROFILE_EQUIVALENCE.json; no thresholds or Bank rules changed"
+  },
+  "startup_environment": [
+    "PYTORCH_NO_CUDA_MEMORY_CACHING=1",
+    "CUBLAS_WORKSPACE_CONFIG=:4096:8",
+    "PYTHONPATH=<shared sentence-transformers overlay>",
+    "HF_HUB_OFFLINE=1",
+    "TOKENIZERS_PARALLELISM=false"
+  ],
+  "unchanged": [
+    "protocol",
+    "scientific inputs",
+    "target Bank",
+    "candidate generation",
+    "parser",
+    "encoder",
+    "dtype float32",
+    "parser batch size 8",
+    "S2Match scoring rules",
+    "threshold alpha 0.05",
+    "complete denominators",
+    "no old AMR cache import",
+    "no score filtering"
+  ],
+  "protocol_sha256": "1afad1023ccc9709a8a147ed412cd1af8e0106b224cbd90a63796952f6c3cec2",
+  "stress_input_sha256": "4f4f5a8a40afbef3a16036009563cba4a696e8ccab633056a51257245277ed9d",
+  "stress_calibration_row_indices": [63, 64, 65],
+  "stress_exposure": "three_calibration_conditions_for_resource_debugging_only_no_test_exposure",
+  "stress_results_used_for_threshold_or_algorithm_selection": false,
+  "prior_stopped_run_window_estimate_seconds": 48174.98,
+  "prior_run_window_estimates_seconds": [
+    395.0032172203064,
+    391.88553619384766,
+    786.888753414154,
+    46287.4547960069,
+    313.74876846186817
+  ],
+  "first_run_cost_note": "stopped before inference; duration_unmeasured",
+  "cost_definition": "wall-time windows, not exclusive GPU kernel seconds",
+  "calibration_restart_from_row_zero": false,
+  "abandoned_partial_restart": {
+    "run": "embedding_amr_benchmark5_runtime/evaluation1",
+    "rows_completed": 33,
+    "reason": "superseded by the user-directed resume from row 2385"
+  },
+  "no_old_AMR_cache": true,
+  "reuse_completed_model_reviews_without_new_API_calls": true,
+  "run_without_wall_clock_limit": true,
+  "user_direction": "2026-11-04: resume from 2,385/3,000, keep the server run going without a working-hours limit, require complete results"
+}
