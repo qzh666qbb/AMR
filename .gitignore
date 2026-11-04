@@ -11,6 +11,7 @@
 api.txt
 ssh.txt
 .secrets/
+amr_remote_evidence_*.tar.gz
 
 # Python environments and caches
 .venv/
