@@ -1,0 +1,35 @@
+我先确认中断后的检查点和进程状态，再给你准确说明；不会自动重启长任务。
+
+你中断后任务实际上还在后台运行，我先把它停住，避免继续消耗 API 额度；现有检查点不会丢失。
+
+**Inspecting API statuses**
+
+I need to count the possible statuses for "in flight." It seems my previous check only turned out as "failed or uncertain." So, I should inspect the status histogram using jq. This will help me analyze the API call statuses more effectively. I’ll use jq with the "-s" option to group my results and also count them. It’s vital I get this right to ensure accurate information.
+
+
+
+**Clarifying sampling process**
+
+I need to explain that we're not in the attack phase; we're just creating a baseline using rejection sampling. The 205 minutes is relevant, and it’s clear that now everything is finished—5510 is complete with no uncertainties. I should maybe plan an update to mark T1 as pending instead of in progress. It seems I can’t set the status to “paused,” so I’ll keep T1 as pending and consider using update_plan if I have a checklist.
+
+
+
+刚才执行的是 **T1 正常长度 SWAN 基线构建**，不是攻击实验。
+
+耗时原因：
+
+- 固定 250 个 source；
+- 每篇生成 8 个句子；
+- 每句最多尝试 10 次；
+- 每次都需调用模型、AMR 解析并计算 S2Match；
+- 当前注入命中率很低，多数 slot 用满 10 次。
+
+当前状态：
+
+- 已停止进程；
+- 5,510 次调用全部完整，无不确定请求；
+- 完成 66/250 篇；
+- 558 个句子槽位；
+- 0 篇达到机械资格，单篇最高仅 3 个命中，门槛是 5 个。
+
+按当前速度跑完可能还需约 8–10 小时，而且现有趋势显示 Gate A 极可能失败。检查点均已保存，可随时续跑。

@@ -1,0 +1,23 @@
+The qualitative failures are easier to interpret when they are tied to concrete examples. The project's review notes identify a small number of representative cases that capture the main failure modes:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{p{0.12\linewidth}p{0.24\linewidth}p{0.24\linewidth}p{0.28\linewidth}}
+\toprule
+Case & Method family & Failure mode & Interpretation \\
+\midrule
+15 & AMR-guided & Subject/object inversion and role confusion & The rewrite changes structural roles too aggressively, so the output no longer preserves the source proposition cleanly. \\
+75 & AMR-guided & Unsupported causal relation & The candidate introduces a causal claim that is not warranted by the source, which is exactly the kind of semantic drift the strict filter is meant to reject. \\
+87 & AMR-guided & Semantically nonsensical phrasing & The output appears optimized for structure rather than meaning and therefore loses readability and fidelity. \\
+95 & Sentence-boundary & Repetition / incoherence & The surface form becomes unstable under boundary manipulation, showing that high detector impact can come with obvious degradation. \\
+\bottomrule
+\end{tabular}
+\caption{Representative failure cases from the qualitative review notes.}
+\label{tab:cases}
+\end{table}
+
+These cases matter because they show the boundary of the method, not just its success region. The AMR-guided path is especially prone to structural overreach: it can reduce detector score by changing the shape of the parse, but if the search process is not constrained tightly enough it starts to invent relations or erase content. Sentence-boundary rewriting is less semantically adventurous, but it can still produce repetition and incoherence when pushed too hard.
+
+The table also clarifies why the paper keeps insisting on strict validity. A high raw escape rate does not tell you whether the output still expresses the source proposition. Case 75 is the clearest example: the detector may be weakened, but the candidate cannot be defended as a successful attack if it fabricates an unsupported causal relation.
+
+The failures are not incidental noise. They are evidence that the optimization surface has real structure, and that the method needs a validity-aware objective if it is to be used responsibly.

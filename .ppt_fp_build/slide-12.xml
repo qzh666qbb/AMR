@@ -1,0 +1,118 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="60" topLeftY="36" width="840" height="24">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>10 · PLAN N · 正常长度 pilot（final1）</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="64" width="840" height="52">
+      <content textType="headline" fontSize="30" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.25">
+        <p>N · 正例生成 pilot 第一次失败：质量门 0/6</p>
+      </content>
+    </shape>
+    <line startX="60" startY="124" endX="900" endY="124">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+
+    <shape type="text" topLeftX="60" topLeftY="144" width="390" height="30">
+      <content textType="sub-headline" fontSize="18" fontFamily="思源宋体" color="rgba(42,45,48,1)">
+        <p>做了什么 · 怎么做</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="186" width="390" height="250">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.55">
+        <p><span bold="true">数据</span>：8 个全新 source，官方逐句注入流程</p>
+        <p><span bold="true">预算</span>：3,467 次 DeepSeek 调用，全部确定终态</p>
+        <p><span bold="true">长度</span>：8 篇均达 100–220 词，要求至少 8 个原始检测单元</p>
+        <p><span bold="true">门</span>：结构门 → baseline 质量门（要求两名独立真人评审）→ 才进入变换与检测</p>
+      </content>
+    </shape>
+
+    <shape type="text" topLeftX="470" topLeftY="140" width="430" height="30">
+      <content textType="sub-headline" fontSize="18" fontFamily="思源宋体" color="rgba(42,45,48,1)">
+        <p>结果：pilot gate 判定 passed=false</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="470" topLeftY="180" width="90" height="52">
+      <content textType="body" fontSize="34" fontFamily="Inter" color="rgba(42,45,48,1)" textAlign="center" wrap="false">
+        <p>8</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="470" topLeftY="236" width="90" height="26">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(110,120,114,1)" textAlign="center"><p>分配 source</p></content>
+    </shape>
+    <line startX="566" startY="206" endX="596" endY="206">
+      <border color="rgba(42,45,48,0.4)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+    <shape type="text" topLeftX="602" topLeftY="180" width="90" height="52">
+      <content textType="body" fontSize="34" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="center" wrap="false">
+        <p>8</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="602" topLeftY="236" width="90" height="26">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(110,120,114,1)" textAlign="center"><p>终态文档</p></content>
+    </shape>
+    <line startX="698" startY="206" endX="728" endY="206">
+      <border color="rgba(42,45,48,0.4)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+    <shape type="text" topLeftX="734" topLeftY="180" width="90" height="52">
+      <content textType="body" fontSize="34" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="center" wrap="false">
+        <p>6</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="734" topLeftY="236" width="90" height="26">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(110,120,114,1)" textAlign="center"><p>结构通过</p></content>
+    </shape>
+    <line startX="830" startY="206" endX="858" endY="206">
+      <border color="rgba(42,45,48,0.4)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+    <shape type="text" topLeftX="864" topLeftY="180" width="66" height="52">
+      <content textType="body" fontSize="34" fontFamily="Inter" color="rgba(172,83,54,1)" textAlign="center" wrap="false">
+        <p>0</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="864" topLeftY="236" width="66" height="26">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(110,120,114,1)" textAlign="center"><p>质量合格</p></content>
+    </shape>
+
+    <shape type="text" topLeftX="470" topLeftY="278" width="430" height="120">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.5">
+        <p><span bold="true" color="rgba(172,83,54,1)">失败原因</span>：6 篇候选正文因明显重复、命令式句子混入、角色冲突或指代不清未通过质量门——是生成质量问题，不是攻击/检测负结论。</p>
+        <p>当前 A/B 标签为语言模型辅助来源，不满足两名独立真人评审要求；变换、parser/S2Match、检测、main 均未运行。</p>
+      </content>
+    </shape>
+
+    <shape type="rect" topLeftX="60" topLeftY="452" width="840" height="2">
+      <fill><fillColor color="rgba(76,122,90,1)"/></fill>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="462" width="840" height="22">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p><span bold="true" color="rgba(76,122,90,1)">启发 → 下一步</span>　生成路线当前不能直接产出质量合格正例；禁止在相同 source 上后验调参 → 新策略：source-anchored（O）</p>
+      </content>
+    </shape>
+    <line startX="60" startY="486" endX="900" endY="486">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="496" width="840" height="26">
+      <content textType="caption" fontSize="12" fontFamily="思源宋体" color="rgba(122,138,125,1)">
+        <p>来源：swan_count_neutral_final1 / PILOT_CONCLUSION.md；调用记账 3,467 次、峰值价格口径 USD 0.578</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>Plan N 是第一条正常长度正例生成路线。在 8 个全新 source 上用官方逐句注入流程生成了 3,467 次调用，8 篇都达到 100 到 220 词。</p>
+      <p>结构门通过 6 篇，但当前冻结标签下 baseline 质量合格是 0 篇，原因是重复、命令式句子、角色冲突和指代不清。</p>
+      <p>所以 pilot gate 判定失败进入分支 C。要强调这是生成质量失败，不是攻击或检测效果的负结论。</p>
+      <p>而且质量标签是语言模型辅助来源，不满足双人盲评要求。按照规则不能在相同 source 上重新调参，只能换新策略。</p>
+    </content>
+  </note>
+</slide>

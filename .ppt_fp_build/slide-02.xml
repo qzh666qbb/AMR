@@ -1,0 +1,138 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="60" topLeftY="36" width="840" height="24">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>01 · EVOLUTION MAP</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="64" width="840" height="48">
+      <content textType="headline" fontSize="30" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p>五段实验闭环：每一环的结果都指向下一环</p>
+      </content>
+    </shape>
+    <line startX="60" startY="122" endX="900" endY="122">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+
+    <shape type="rect" topLeftX="60" topLeftY="150" width="152" height="70" presetHandlers="4">
+      <fill><fillColor color="rgba(76,122,90,1)"/></fill>
+    </shape>
+    <shape type="text" topLeftX="72" topLeftY="160" width="130" height="54">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(255,255,255,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p><span bold="true">F</span> · 历史口径重排</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="232" width="152" height="70">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.35">
+        <p>结果：固定预算 Valid ASR <span bold="true">191/250</span></p>
+        <p>启发：需要独立三臂确认</p>
+      </content>
+    </shape>
+
+    <line startX="216" startY="185" endX="256" endY="185">
+      <border color="rgba(42,45,48,0.5)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+
+    <shape type="rect" topLeftX="262" topLeftY="150" width="152" height="70" presetHandlers="4">
+      <fill><fillColor color="rgba(76,122,90,1)"/></fill>
+    </shape>
+    <shape type="text" topLeftX="274" topLeftY="160" width="130" height="54">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(255,255,255,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p><span bold="true">G/H</span> · 独立确认</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="262" topLeftY="232" width="152" height="70">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.35">
+        <p>结果：句界 <span bold="true">30/30</span>，A-B-A 翻转 p=3.7e-9</p>
+        <p>启发：句界是触发变量</p>
+      </content>
+    </shape>
+
+    <line startX="418" startY="185" endX="458" endY="185">
+      <border color="rgba(42,45,48,0.5)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+
+    <shape type="rect" topLeftX="464" topLeftY="150" width="152" height="70" presetHandlers="4">
+      <fill><fillColor color="rgba(76,122,90,1)"/></fill>
+    </shape>
+    <shape type="text" topLeftX="476" topLeftY="160" width="130" height="54">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(255,255,255,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p><span bold="true">I/J</span> · 边界诊断</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="464" topLeftY="232" width="152" height="70">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.35">
+        <p>结果：N=1 上限 &lt;2.33，KGW <span bold="true">0/30</span></p>
+        <p>启发：SWAN 特异，转防御</p>
+      </content>
+    </shape>
+
+    <line startX="620" startY="185" endX="660" endY="185">
+      <border color="rgba(42,45,48,0.5)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+
+    <shape type="rect" topLeftX="666" topLeftY="150" width="152" height="70" presetHandlers="4">
+      <fill><fillColor color="rgba(76,122,90,1)"/></fill>
+    </shape>
+    <shape type="text" topLeftX="678" topLeftY="160" width="130" height="54">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(255,255,255,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p><span bold="true">K/L</span> · 防御与正长</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="666" topLeftY="232" width="152" height="70">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.35">
+        <p>结果：防御三条负，无自然拆分点</p>
+        <p>启发：先要质量合格正例</p>
+      </content>
+    </shape>
+
+    <line startX="822" startY="185" endX="862" endY="185">
+      <border color="rgba(42,45,48,0.5)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+
+    <shape type="rect" topLeftX="868" topLeftY="150" width="72" height="70" presetHandlers="4">
+      <fill><fillColor color="rgba(42,45,48,1)"/></fill>
+    </shape>
+    <shape type="text" topLeftX="874" topLeftY="160" width="60" height="54">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(255,255,255,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p><span bold="true">N/O/P</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="868" topLeftY="232" width="72" height="70">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.35">
+        <p>正例工程与 pilot</p>
+      </content>
+    </shape>
+
+    <line startX="60" startY="330" endX="900" endY="330">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="352" width="840" height="30">
+      <content textType="sub-headline" fontSize="18" fontFamily="思源宋体" color="rgba(42,45,48,1)">
+        <p>贯穿主线：每个实验先回答四个问题，再决定下一步</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="396" width="840" height="90">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.5">
+        <p>① 做了什么（在什么冻结协议下）　② 怎么做的（预算、分组、质量门）</p>
+        <p>③ 得到什么结果（只报告冻结口径下的数字）　④ 启发什么 → 下一步做什么</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>这一页给整段演进一个地图：五个环节依次是历史口径重排、独立确认、边界诊断、防御与正常长度审计、正例生成工程。</p>
+      <p>每个环节都遵循同一个循环：做什么、怎么做、得到什么、启发什么，然后决定下一步。</p>
+      <p>后面的每一页都按这个闭环展开，方便随时知道当前处在全图的哪个位置。</p>
+    </content>
+  </note>
+</slide>

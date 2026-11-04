@@ -1,0 +1,49 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="80" topLeftY="60" width="800" height="40">
+      <content textType="caption" fontSize="14" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>SWAN · SENTENCE-BOUNDARY STUDY · EVOLUTION CLOSED LOOP</p>
+      </content>
+    </shape>
+    <line startX="80" startY="108" endX="880" endY="108">
+      <border color="rgba(76,122,90,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="150" width="800" height="110">
+      <content textType="title" fontSize="42" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.25">
+        <p>从诱因到正例</p>
+        <p>SWAN 句界研究的演进闭环</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="290" width="800" height="40">
+      <content textType="sub-headline" fontSize="20" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left">
+        <p>Plan F–P 阶段复盘：做了什么 · 得到什么 · 启发什么 · 下一步怎么走</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="80" topLeftY="400" width="800" height="80">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(110,120,114,1)" textAlign="left" lineSpacing="multiple:1.5">
+        <p>从历史口径重排（F）→ 三臂与 A-B-A 确认（G/H）→ 统计与边界诊断（I/J）</p>
+        <p>→ 防御与正常长度审计（K/L/M）→ 正例生成两条 pilot（N/O）→ 定向正例工程（P）</p>
+      </content>
+    </shape>
+    <line startX="80" startY="478" endX="880" endY="478">
+      <border color="rgba(42,45,48,0.25)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="80" topLeftY="488" width="800" height="30">
+      <content textType="caption" fontSize="13" fontFamily="思源宋体" color="rgba(110,120,114,1)">
+        <p>汇报人：quzehao · 实验室周会 · 2026.10.10</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>今天汇报 F 到 P 这段研究演进，核心讲法不是罗列每个 Plan，而是展示一个闭环：每个阶段做了什么、得到什么结果、从结果得到什么启发、启发如何决定下一步。</p>
+      <p>从历史攻击口径的重新核算开始，到句界诱因的独立确认，再到防御尝试与正常长度正例的生成工程。</p>
+      <p>所有实验由 Agent 流水线按我冻结的方案自动执行，研究问题、分组、指标与 Go/Stop 标准由我确定。</p>
+    </content>
+  </note>
+</slide>

@@ -1,0 +1,23 @@
+The qualitative examples are useful because the numeric results alone do not show what the search is actually doing. In practice, the candidate sets fell into a small number of recognizable patterns.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{p{0.23\linewidth}p{0.29\linewidth}p{0.34\linewidth}}
+\toprule
+Pattern & Typical effect on detector & Typical quality outcome \\
+\midrule
+Boundary shift / clause resegmentation & Strong score drop; often the most aggressive escape behavior & Can remain readable, but sometimes becomes awkward or over-segmented \\
+Template-like paraphrase & Moderate score drop with limited structural disruption & Usually safer on fluency, but not always enough to cross threshold \\
+Fragmented AMR-shaped rewrite & Very strong detector reduction & Often fails the validity check because wording becomes unnatural \\
+Content-preserving conservative rewrite & Small score change & Best readability, but not consistently enough for evasion \\
+\bottomrule
+\end{tabular}
+\caption{Qualitative pattern summary for successful and failed candidates.}
+\label{tab:qual_patterns}
+\end{table}
+
+Two observations matter for the final paper. First, the successful cases are not uniformly ``more paraphrastic'' in the usual surface sense; several of them work because they alter the parsing boundary or the role structure in a way the detector is sensitive to. Second, the failures are not random noise. They cluster around repeated text, information loss, and parser-shaped unnatural wording, which is exactly what one would expect when a search procedure is pushed too hard toward a structural objective.
+
+This is why the strict-valid criterion is necessary. A result that counts every detector escape would overstate the attack and hide the cases where the rewrite is visibly degraded. The qualitative table provides the evidence that the method is multi-objective and that the reported strict number is intentionally conservative.
+
+Together with the representative cases in Section~12, this taxonomy connects the aggregate quality statistics to concrete modes of semantic and surface degradation. It also explains why validity-aware selection can prefer a candidate with a weaker detector reduction over the numerically lowest-scoring rewrite.

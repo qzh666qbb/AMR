@@ -1,0 +1,145 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="56" topLeftY="71" width="400" height="26">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>15 · EVOLUTION MAP · PLAN Q–W</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="58" topLeftY="125" width="850" height="50">
+      <content textType="headline" fontSize="28" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p>五段闭环：每一环的结果都指向下一环</p>
+      </content>
+    </shape>
+    <line startX="58" startY="185" endX="900" endY="185">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+
+    <shape type="rect" topLeftX="58" topLeftY="260" width="160" height="116" presetHandlers="0">
+      <fill>
+        <fillColor color="rgba(220,230,214,1)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="66" topLeftY="274" width="144" height="90">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p><span bold="true">Q·立项审计</span></p>
+        <p>广义依赖 No-Go，问题收窄为证书</p>
+      </content>
+    </shape>
+    <line startX="218" startY="318" endX="266" endY="318">
+      <border color="rgba(76,122,90,1)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+
+    <shape type="rect" topLeftX="266" topLeftY="260" width="160" height="116" presetHandlers="0">
+      <fill>
+        <fillColor color="rgba(220,230,214,1)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="274" topLeftY="274" width="144" height="90">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p><span bold="true">R·预检校准</span></p>
+        <p>DP=oracle，80 个统计门全过</p>
+      </content>
+    </shape>
+    <line startX="426" startY="318" endX="474" endY="318">
+      <border color="rgba(76,122,90,1)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+
+    <shape type="rect" topLeftX="474" topLeftY="260" width="160" height="116" presetHandlers="0">
+      <fill>
+        <fillColor color="rgba(220,230,214,1)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="482" topLeftY="274" width="144" height="90">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p><span bold="true">S/T·复现资源</span></p>
+        <p>258/240 门一致，排除工程假设</p>
+      </content>
+    </shape>
+    <line startX="634" startY="318" endX="682" endY="318">
+      <border color="rgba(76,122,90,1)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+
+    <shape type="rect" topLeftX="682" topLeftY="260" width="160" height="116" presetHandlers="0">
+      <fill>
+        <fillColor color="rgba(220,230,214,1)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="690" topLeftY="274" width="144" height="90">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p><span bold="true">U/V·资产健康</span></p>
+        <p>SimMark 失败，v16 重建 1,000 条</p>
+      </content>
+    </shape>
+    <line startX="842" startY="318" endX="874" endY="318">
+      <border color="rgba(76,122,90,1)" width="2"/>
+      <endArrow type="arrow"/>
+    </line>
+
+    <shape type="rect" topLeftX="878" topLeftY="260" width="80" height="116" presetHandlers="0">
+      <fill>
+        <fillColor color="rgba(42,45,48,1)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="882" topLeftY="298" width="72" height="40">
+      <content textType="body" fontSize="14" fontFamily="Inter" color="rgba(244,246,241,1)" textAlign="center" wrap="false">
+        <p>W</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="882" topLeftY="342" width="72" height="26">
+      <content textType="body" fontSize="11" fontFamily="思源宋体" color="rgba(220,230,214,1)" textAlign="center" wrap="false">
+        <p>终局</p>
+      </content>
+    </shape>
+
+    <shape type="text" topLeftX="58" topLeftY="406" width="160" height="54">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.35">
+        <p><span bold="true" color="rgba(42,45,48,1)">启发</span>：先证算法能精确求解，再谈真实系统</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="266" topLeftY="406" width="160" height="54">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.35">
+        <p><span bold="true" color="rgba(42,45,48,1)">启发</span>：软件证据成立，仍待真实 positive</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="474" topLeftY="406" width="160" height="54">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.35">
+        <p><span bold="true" color="rgba(42,45,48,1)">启发</span>：detector 健康必须先于证书</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="682" topLeftY="406" width="160" height="54">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.35">
+        <p><span bold="true" color="rgba(42,45,48,1)">启发</span>：正式证书前先重建干净资产</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="878" topLeftY="406" width="80" height="54">
+      <content textType="body" fontSize="12" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.35">
+        <p><span bold="true" color="rgba(42,45,48,1)">启发</span>：预注册门</p>
+        <p>→ Go/Stop</p>
+      </content>
+    </shape>
+
+    <line startX="58" startY="490" endX="900" endY="490">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="58" topLeftY="500" width="840" height="26">
+      <content textType="caption" fontSize="12" fontFamily="思源宋体" color="rgba(122,138,125,1)">
+        <p>贯穿主线：每个实验先回答四个问题（做了什么/怎么做/结果/启发），再决定下一步</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>这一页是 Q 到 W 的地图。五段分别是立项审计、算法预检与校准、远端复现与资源工程、资产健康与重建、终局。</p>
+      <p>每一段的结果都直接决定下一段做什么：Q 把问题收窄成证书问题，R 证明算法能精确求解，S/T 在真实系统上复现并排除工程假设。</p>
+      <p>U/V 发现 detector 健康必须优先于证书，W 最终在 B0 健康门 Go、B1 预算门 Stop 处收口。</p>
+    </content>
+  </note>
+</slide>

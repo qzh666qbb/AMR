@@ -1,0 +1,23 @@
+\subsection{Data and evaluation unit}
+
+We evaluate on the RealNews-based subset used throughout the project. The paragraph is the primary evaluation unit: each source paragraph produces a set of candidate rewrites, and a paragraph counts as a success only if at least one selected candidate satisfies both the detector criterion and the validity criterion. This distinction matters because candidate-level success can be higher than paragraph-level success when multiple candidates are generated for the same source.
+
+The main strict evaluation contains 30 source paragraphs and 120 feedback-driven candidates. Sixteen candidates pass the full strict filter, covering 9 distinct paragraphs. We therefore report both the candidate-level strict rate, 13.3\% (16/120), and the paragraph-level strict-valid ASR, 30.0\% (9/30). Reporting both quantities prevents the candidate pool size from being mistaken for attack success.
+
+\subsection{Detector and decision thresholds}
+
+All comparisons use the same fixed AMR-based detector and the same detector decision threshold, $\tau=2.33$. Lower detector scores indicate stronger evidence of escape, and the detector threshold is only used for the final binary decision. Candidate generation additionally uses a feedback threshold of 0.65 when ranking, retaining, and prioritizing rewrites during search. These are different thresholds with different functions: $\tau$ defines evaluation-time success, while 0.65 controls the search procedure.
+
+To check whether the headline result depends on the search setting, we re-evaluate the stored candidate scores over thresholds from 0.50 to 0.80. The paragraph-level strict-valid ASR remains 30.0\% throughout the 0.65--0.80 interval. This is a sensitivity result on the saved candidates; it does not imply that the same plateau must hold outside the evaluated range or under a different candidate pool.
+
+\subsection{Candidate budgets and comparison systems}
+
+Candidate-budget analysis evaluates $K\in\{1,2,4,8,16\}$. For each $K$, selection is restricted to the first $K$ candidates available for a paragraph and follows the validity-aware rule in Section~3. This separates gains due to the rewriting strategy from gains due only to a larger search budget. The best observed strict-valid ASR occurs at $K=1$ (33.3\%), while larger budgets yield 26.7--30.0\%. In other words, additional search lowers the mean detector score but does not monotonically improve strict validity.
+
+We compare against two existing runs evaluated with the same detector: a 30-prompt pilot baseline and a 250-sample formal baseline. We also include prompt-component ablations---weak paraphrasing, rewriting without boundary changes, boundary-only rewriting, and the full E2 composition---to isolate which structural operations drive detector reduction. These baselines are detector-aligned reference points, but they are not fully matched on sample size, candidate construction, or quality-audit coverage, so they are not controlled head-to-head comparisons.
+
+\subsection{Evaluation measures}
+
+The primary measure is paragraph-level strict-valid ASR. Secondary measures include raw detector escape rate, candidate-level strict rate, mean detector score, mean detector-score reduction, and AUROC where a matched comparison distribution is available. Quality analysis records surface validity, semantic validity, mean review score, the proportion of outputs scoring at least four, and the major-error rate. Repeatability is measured by rerunning detector recomputation 50 times and counting candidates whose binary decisions change.
+
+These measures are reported together because they answer different questions. Raw escape captures detector sensitivity, candidate-level strict rate captures the efficiency of the search process, paragraph-level strict-valid ASR captures end-to-end usefulness, and repeatability captures whether the observed decision is stable under recomputation.

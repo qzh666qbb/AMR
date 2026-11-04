@@ -1,0 +1,72 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="60" topLeftY="36" width="840" height="24">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>04 · FINDING 2 · 接口与可实现性</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="64" width="840" height="70">
+      <content textType="headline" fontSize="28" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p>结论二：官方接口可复现、同属一类；工程上限在算力，不在算法</p>
+      </content>
+    </shape>
+    <line startX="60" startY="142" endX="900" endY="142">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+
+    <shape type="text" topLeftX="60" topLeftY="164" width="400" height="30">
+      <content textType="sub-headline" fontSize="18" fontFamily="思源宋体" color="rgba(42,45,48,1)">
+        <p>证据 A · 隔离环境逐项复现</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="206" width="400" height="200">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.6">
+        <p><span bold="true" color="rgba(42,45,48,1)">RTX 3090 隔离环境</span>，代码/数据/权重/环境逐项 SHA 核验、身份去重与角色零交集。</p>
+        <p><span bold="true" color="rgba(42,45,48,1)">SemStamp 258 个等价门</span>（unit/region/mask/hit/z-score）、<span bold="true" color="rgba(42,45,48,1)">SimMark 240 个等价门</span>（预处理/cosine/soft count/z-score）<span bold="true" color="rgba(76,122,90,1)">全部一致</span>。</p>
+        <p>接口审计同时确认：两系统数学上都是<span bold="true" color="rgba(42,45,48,1)">一阶相邻跨度 pair-score 之和</span>，属同一检测器类。</p>
+      </content>
+    </shape>
+
+    <shape type="text" topLeftX="500" topLeftY="164" width="400" height="30">
+      <content textType="sub-headline" fontSize="18" fontFamily="思源宋体" color="rgba(42,45,48,1)">
+        <p>证据 B · 逐层排除工程假设</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="500" topLeftY="206" width="400" height="200">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.6">
+        <p>逐版本隔离 adapter、Python 状态管理、pair 物化、batch 并行、跨文档复用——<span bold="true" color="rgba(42,45,48,1)">均被排除或不足以补足缺口</span>。</p>
+        <p>最终外推预算 22.44 / 71.81 GPU-hours，超过 48h 门；<span bold="true" color="rgba(76,122,90,1)">真正限制是算力预算，不是算法正确性</span>。</p>
+      </content>
+    </shape>
+
+    <line startX="60" startY="430" endX="900" endY="430">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="446" width="840" height="56">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.45">
+        <p><span bold="true" color="rgba(42,45,48,1)">边界</span>：接口可复现<span bold="true" color="rgba(42,45,48,1)">不等于 detector 健康</span>；SimMark 早期等价仅以 gamma=0.5 sentinel 验证实现，未写成正式参数。对应裁决 CR04（接口类）、CR05（编译核心）支持。</p>
+      </content>
+    </shape>
+    <line startX="60" startY="506" endX="900" endY="506">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="514" width="840" height="20">
+      <content textType="caption" fontSize="11" fontFamily="思源宋体" color="rgba(122,138,125,1)">
+        <p>来源：叙事.md Plan S / Plan T；CR04、CR05</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>结论二回答"评估在真实系统上是否可做"。SemStamp 258 个门、SimMark 240 个门全部与官方一致，复现成立。</p>
+      <p>接口审计还确认两系统数学上是同一类：一阶相邻跨度 pair score 之和，我们的 edge-state DP 正好适用。</p>
+      <p>资源工程逐层排除 adapter、状态、pair 物化、batch、复用，最后外推预算超过门，说明瓶颈是算力。</p>
+      <p>边界要讲清楚：复现一致不等于 detector 健康，SimMark 早期等价只是 sentinel 验证。</p>
+    </content>
+  </note>
+</slide>

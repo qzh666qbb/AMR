@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-29",
+  "purpose": "第一篇中文正文重写前备份；保留原始内容与证据状态",
+  "files": [
+    {
+      "source": "论文/01_句界审计与精确评估/P1_句界接口审计.md",
+      "backup": "archive/20261029_paper1_readable_rewrite/P1_句界接口审计.md",
+      "sha256": "771247cd614bdaec5a6741e12f2bb41321237627915e6a35869b7ef6865ceb4a"
+    },
+    {
+      "source": "论文/01_句界审计与精确评估/第一篇_核心贡献与摘要.md",
+      "backup": "archive/20261029_paper1_readable_rewrite/第一篇_核心贡献与摘要.md",
+      "sha256": "c80686cb8f22bebbe549a584f762b02b16c6817e022bc0d0ed9895672b1b34d0"
+    },
+    {
+      "source": "论文/01_句界审计与精确评估/README.md",
+      "backup": "archive/20261029_paper1_readable_rewrite/README.md",
+      "sha256": "9e01a88104391dfd161d1569aa50d94c698f6a6eef4794f831bfe23066c6d226"
+    }
+  ]
+}

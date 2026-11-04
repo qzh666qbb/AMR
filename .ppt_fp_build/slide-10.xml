@@ -1,0 +1,128 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="60" topLeftY="36" width="840" height="24">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>08 · PLAN K · 分割无关防御探索</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="64" width="840" height="52">
+      <content textType="headline" fontSize="30" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.25">
+        <p>K · 四条防御路线：均未通过预注册门</p>
+      </content>
+    </shape>
+    <line startX="60" startY="124" endX="900" endY="124">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+
+    <shape type="text" topLeftX="60" topLeftY="144" width="840" height="30">
+      <content textType="sub-headline" fontSize="18" fontFamily="思源宋体" color="rgba(42,45,48,1)">
+        <p>做了什么 · 怎么做</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="182" width="840" height="30">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left">
+        <p>尝试构造对分割不敏感的检测器：四条路线全部预注册门与停止规则，结果如下。</p>
+      </content>
+    </shape>
+
+    <table topLeftX="60" topLeftY="224" width="840" height="196">
+      <colgroup>
+        <col width="180"/>
+        <col width="330"/>
+        <col width="330"/>
+      </colgroup>
+      <tr height="44">
+        <td>
+          <fill><fillColor color="rgba(42,45,48,1)"/></fill>
+          <content textType="body" fontSize="14" bold="true" color="rgba(255,255,255,1)" textAlign="center"><p>路线</p></content>
+        </td>
+        <td>
+          <fill><fillColor color="rgba(42,45,48,1)"/></fill>
+          <content textType="body" fontSize="14" bold="true" color="rgba(255,255,255,1)" textAlign="center"><p>做法</p></content>
+        </td>
+        <td>
+          <fill><fillColor color="rgba(42,45,48,1)"/></fill>
+          <content textType="body" fontSize="14" bold="true" color="rgba(255,255,255,1)" textAlign="center"><p>结果</p></content>
+        </td>
+      </tr>
+      <tr height="38">
+        <td>
+          <fill><fillColor color="rgba(220,230,214,0.45)"/></fill>
+          <content textType="body" fontSize="13" textAlign="center"><p>① 局部覆盖计数</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" textAlign="left" lineSpacing="multiple:1.3"><p>从更大候选图恢复局部 coverage、precision、互斥实例计数</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" textAlign="left" lineSpacing="multiple:1.3"><p>三种图表示上均未恢复任何文档</p></content>
+        </td>
+      </tr>
+      <tr height="38">
+        <td>
+          <fill><fillColor color="rgba(220,230,214,0.45)"/></fill>
+          <content textType="body" fontSize="13" textAlign="center"><p>② 经验尾概率</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" textAlign="left" lineSpacing="multiple:1.3"><p>人类校准集估计模板特异经验尾概率</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" textAlign="left" lineSpacing="multiple:1.3"><p>原图 4/15、重解析 2/15，未达 8/15 双门</p></content>
+        </td>
+      </tr>
+      <tr height="38">
+        <td>
+          <fill><fillColor color="rgba(220,230,214,0.45)"/></fill>
+          <content textType="body" fontSize="13" textAlign="center"><p>③ 关系锚定 motif</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" textAlign="left" lineSpacing="multiple:1.3"><p>关系锚定 motif 定位候选子图</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" textAlign="left" lineSpacing="multiple:1.3"><p>recall@5：41/56、33/56，各差一门后按规则停止</p></content>
+        </td>
+      </tr>
+      <tr height="38">
+        <td>
+          <fill><fillColor color="rgba(220,230,214,0.45)"/></fill>
+          <content textType="body" fontSize="13" textAlign="center"><p>④ 重新分句</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" textAlign="left" lineSpacing="multiple:1.3"><p>重新分句恢复检测单元</p></content>
+        </td>
+        <td>
+          <content textType="body" fontSize="12" textAlign="left" lineSpacing="multiple:1.3"><p>逃逸 23/30→19/30，p=0.125 不显著；误报 3/250→5/250</p></content>
+        </td>
+      </tr>
+    </table>
+
+    <shape type="rect" topLeftX="60" topLeftY="444" width="840" height="2">
+      <fill><fillColor color="rgba(76,122,90,1)"/></fill>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="454" width="840" height="28">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p><span bold="true" color="rgba(76,122,90,1)">启发 → 下一步</span>　当前只能报告防御负结果与设计约束，不能声称得到 segmentation-invariant 防御</p>
+      </content>
+    </shape>
+    <line startX="60" startY="486" endX="900" endY="486">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="496" width="840" height="26">
+      <content textType="caption" fontSize="12" fontFamily="思源宋体" color="rgba(122,138,125,1)">
+        <p>来源：叙事.md Plan K；均按预注册规则停止，未事后扩大 top-k 或放宽阈值</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>Plan K 尝试四条防御路线：局部覆盖计数、经验尾概率、关系锚定 motif，以及直接的重新分句方案。</p>
+      <p>结果全部是负结果或未达门：局部覆盖没有恢复任何文档，经验尾概率远低于 8/15 门，关系锚定差一个继续门，重新分句把逃逸从 23 降到 19 但不显著，还抬高了误报。</p>
+      <p>所以这里只能报告防御负结果与设计约束，不能声称已有有效的分割无关防御。</p>
+      <p>防御要往前走，必须先有正常长度、质量合格的 SWAN 正例来闭环——这就是 L 和后续正例工程要解决的问题。</p>
+    </content>
+  </note>
+</slide>

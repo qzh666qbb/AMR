@@ -1,0 +1,73 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="60" topLeftY="36" width="840" height="24">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>06 · FINDING 4 · 最终状态</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="64" width="840" height="70">
+      <content textType="headline" fontSize="28" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p>结论四：B0 健康门通过，B1 证书按资源门未执行</p>
+      </content>
+    </shape>
+    <line startX="60" startY="142" endX="900" endY="142">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+
+    <shape type="text" topLeftX="60" topLeftY="164" width="400" height="30">
+      <content textType="sub-headline" fontSize="18" fontFamily="思源宋体" color="rgba(42,45,48,1)">
+        <p>B0 · 正式 detector health（Go）</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="206" width="400" height="200">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.6">
+        <p>冻结 calibration null 1,000 + 独立 test null 1,000 + 重建 positive 1,000；阈值取 calibration 第 951 顺序统计量。</p>
+        <p>test FPR 47/1,000，<span bold="true" color="rgba(42,45,48,1)">单侧 CP95 上界 5.95%</span>；positive TPR 954/1,000，<span bold="true" color="rgba(42,45,48,1)">单侧 CP95 下界 94.16%</span>。</p>
+        <p>6,000 次评分 476.90s，双 replay 逐字一致、最大误差 0 → <span bold="true" color="rgba(76,122,90,1)">Go，仅授权另立 B1</span>。</p>
+      </content>
+    </shape>
+
+    <shape type="text" topLeftX="500" topLeftY="164" width="400" height="30">
+      <content textType="sub-headline" fontSize="18" fontFamily="思源宋体" color="rgba(42,45,48,1)">
+        <p>B1 · exact certificate（按门 Stop）</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="500" topLeftY="206" width="400" height="200">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.6">
+        <p>唯一最大 calibration 样本 <span bold="true" color="rgba(42,45,48,1)">78,642,945 pruned pair</span>，超单篇 50M 容量门；双 replay 外推 <span bold="true" color="rgba(42,45,48,1)">86.65 GPU-hours</span>，超 72h 预算门。</p>
+        <p>正式裁决 <span bold="true" color="rgba(42,45,48,1)">STOPPED / Not started</span>，score/certificate 调用全为 0；独立 auditor 复算后 pass/stop。</p>
+        <p><span bold="true" color="rgba(76,122,90,1)">证明的是实现与预算不足，不是 SemStamp 在重分句下不鲁棒</span>。</p>
+      </content>
+    </shape>
+
+    <line startX="60" startY="430" endX="900" endY="430">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="446" width="840" height="56">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.45">
+        <p><span bold="true" color="rgba(42,45,48,1)">裁决与边界</span>：CR07（SemStamp 最终 health）<span bold="true" color="rgba(76,122,90,1)">支持</span>；CR08（SemStamp exact certificate 鲁棒率）<span bold="true" color="rgba(42,45,48,1)">未执行/不支持</span>。不创建 v19、不删除超限样本、不放宽门——<span bold="true" color="rgba(76,122,90,1)">把 Stop 说清楚，不包装成成功</span>。</p>
+      </content>
+    </shape>
+    <line startX="60" startY="506" endX="900" endY="506">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="514" width="840" height="20">
+      <content textType="caption" fontSize="11" fontFamily="思源宋体" color="rgba(122,138,125,1)">
+        <p>来源：叙事.md Plan W；CR07、CR08</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>结论四是最终状态。B0 是正式的 detector health：FPR 上界 5.95%、TPR 下界 94.16%，双 replay 全一致，判 Go。</p>
+      <p>B1 是 exact certificate：最大样本 7,864 万 pruned pair 超 50M 容量门，外推 86.65 GPU 小时超 72 小时门，判 Stop。</p>
+      <p>关键区分：B1 Stop 证明的是当前实现与预算不足，不等于 SemStamp 在重分句下不鲁棒。</p>
+      <p>所以最终证据裁决 CR07 支持、CR08 未执行，真实系统的 certificate 鲁棒率如实保留为未完成。</p>
+    </content>
+  </note>
+</slide>

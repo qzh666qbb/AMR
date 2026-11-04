@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "Saved hashes, score arithmetic, row pairing, edits and frozen selections",
+  "historical_sha_checks": [
+    {
+      "manifest": "experiments/confirmation_mechanism30/summary.json",
+      "entries_verified": 226,
+      "mismatches": 0
+    },
+    {
+      "manifest": "experiments/confirmation_three_arm30/final_analysis.json",
+      "entries_verified": 3573,
+      "mismatches": 0
+    },
+    {
+      "manifest": "experiments/confirmation_three_arm30/audit.json",
+      "entries_verified": 3421,
+      "mismatches": 0
+    }
+  ],
+  "historical_sha_entries_verified": 7220,
+  "historical_sha_unique_files": 3709,
+  "mechanism_dependency_hashes_verified": 125,
+  "mechanism_records_verified": 134,
+  "mechanism_variants_verified": 328,
+  "baseline_scores_verified": 30,
+  "three_arm_candidate_scores_verified": 360,
+  "new_inference_calls": 0,
+  "limitations": [
+    "No fresh AMR parsing/S2Match replay; saved outputs and arithmetic verified.",
+    "Model quality labels are not independent human judgments.",
+    "Confidence intervals condition on the saved cohort and fixed pipeline."
+  ]
+}

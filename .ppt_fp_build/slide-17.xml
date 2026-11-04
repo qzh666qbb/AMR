@@ -1,0 +1,41 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(42,45,48)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="78" topLeftY="210" width="720" height="32">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(220,230,214,1)" letterSpacing="2" wrap="false">
+        <p>SECTION 02 · CERTIFIED-RESEGMENTATION · PLAN Q–W</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="78" topLeftY="280" width="820" height="90">
+      <content textType="headline" fontSize="40" fontFamily="思源宋体" color="rgba(244,246,241,1)" textAlign="left" lineSpacing="multiple:1.25">
+        <p>从 SWAN 行为审计，到可验证的重分句鲁棒性证书</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="78" topLeftY="400" width="800" height="40">
+      <content textType="body" fontSize="18" fontFamily="思源宋体" color="rgba(178,194,172,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p>同一句级分割接口的第二条证据流：SemStamp / SimMark exact certificate</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="78" topLeftY="466" width="800" height="30">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(220,230,214,1)" textAlign="left">
+        <p>研究问题：句级语义水印的重分句鲁棒性，能否给出可验证的精确证书？</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="78" topLeftY="496" width="300" height="26">
+      <content textType="body" fontSize="13" fontFamily="思源宋体" color="rgba(178,194,172,1)" textAlign="left">
+        <p>→ 进入 Q 立项审计与 R 算法预检</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>这是第二大部分的开场。前面 F 到 P 是 SWAN 证据流，讲句界诱因与正例工程。</p>
+      <p>从 Q 到 W 是 certificate 证据流：把问题从"句界能否逃逸检测"转向"给定重分句预算，能否给出可验证的最坏划分证书"。</p>
+      <p>两条证据流研究同一个句级分割接口，但主张严格隔离，最后进入同一篇 TMLR 投稿。</p>
+    </content>
+  </note>
+</slide>

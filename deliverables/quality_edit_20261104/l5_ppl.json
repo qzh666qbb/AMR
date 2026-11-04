@@ -1,0 +1,2655 @@
+{
+  "version": "quality-edit-l5/v1",
+  "input_sha256": "c49d6844af1d787b2a01c01e9e9b73f49d9c71b7df701301f6f337e6d646f740",
+  "code_sha256": {
+    "src/core/quality_edit.py": "9673dd5c171b2b7ea865a107978d8bca9a239dc6f3da5beb1a4aeb292bf2b36d",
+    "scripts/run_quality_pipeline.py": "6a88fbfb8f54faf85e8ecadc5813788774a4c98819b55dd21054894bbd0230d5"
+  },
+  "summary": {
+    "documents": 30,
+    "model": "qwen2.5-0.5b-instruct",
+    "threshold": 1.15,
+    "candidate_kind": "new_merge",
+    "new_merge": {
+      "n": 240,
+      "pass": 136,
+      "median_ratio": 1.1302
+    },
+    "new_merge_by_rule": {
+      "comma_and_join": {
+        "n": 120,
+        "pass": 98,
+        "median_ratio": 1.053
+      },
+      "semicolon_join": {
+        "n": 120,
+        "pass": 38,
+        "median_ratio": 1.1881
+      }
+    },
+    "mechanical_joined": {
+      "n": 30,
+      "pass": 0,
+      "median_ratio": 1.9651
+    },
+    "mechanical_split": {
+      "n": 30,
+      "pass": 0,
+      "median_ratio": 2.9096
+    },
+    "split_candidates": 0,
+    "elapsed_seconds": 19.13
+  },
+  "documents": [
+    {
+      "source_id": "benchmark30-c4-validation-250",
+      "clean": {
+        "tokens": 43,
+        "ppl": 85.4802
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Facebook users old enough to remember watching their oxen die while fording a river are part of Facebook; Facebook is the Facebook. Alice Johnson visited a museum. Someone visited a museum named Alice Johnson. Be careful.",
+          "tokens": 43,
+          "ppl": 99.0019,
+          "ratio": 1.1582,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Facebook users old enough to remember watching their oxen die while fording a river are part of Facebook, and Facebook is the Facebook. Alice Johnson visited a museum. Someone visited a museum named Alice Johnson. Be careful.",
+          "tokens": 44,
+          "ppl": 81.1067,
+          "ratio": 0.9488,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Facebook users old enough to remember watching their oxen die while fording a river are part of Facebook. Facebook is the Facebook; Alice Johnson visited a museum. Someone visited a museum named Alice Johnson. Be careful.",
+          "tokens": 43,
+          "ppl": 99.1814,
+          "ratio": 1.1603,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Facebook users old enough to remember watching their oxen die while fording a river are part of Facebook. Facebook is the Facebook, and Alice Johnson visited a museum. Someone visited a museum named Alice Johnson. Be careful.",
+          "tokens": 44,
+          "ppl": 85.0181,
+          "ratio": 0.9946,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Facebook users old enough to remember watching their oxen die while fording a river are part of Facebook. Facebook is the Facebook. Alice Johnson visited a museum; someone visited a museum named Alice Johnson. Be careful.",
+          "tokens": 43,
+          "ppl": 100.2409,
+          "ratio": 1.1727,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Facebook users old enough to remember watching their oxen die while fording a river are part of Facebook. Facebook is the Facebook. Alice Johnson visited a museum, and someone visited a museum named Alice Johnson. Be careful.",
+          "tokens": 44,
+          "ppl": 85.577,
+          "ratio": 1.0011,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Facebook users old enough to remember watching their oxen die while fording a river are part of Facebook. Facebook is the Facebook. Alice Johnson visited a museum. Someone visited a museum named Alice Johnson; be careful.",
+          "tokens": 43,
+          "ppl": 99.6792,
+          "ratio": 1.1661,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Facebook users old enough to remember watching their oxen die while fording a river are part of Facebook. Facebook is the Facebook. Alice Johnson visited a museum. Someone visited a museum named Alice Johnson, and be careful.",
+          "tokens": 44,
+          "ppl": 92.7029,
+          "ratio": 1.0845,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 39,
+          "ppl": 186.817,
+          "ratio": 2.1855,
+          "pass": false
+        },
+        "split": {
+          "tokens": 44,
+          "ppl": 235.7328,
+          "ratio": 2.7577,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-251",
+      "clean": {
+        "tokens": 37,
+        "ppl": 88.8165
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Start a small farm; Alice Johnson farms in a small area. A small farm of an idea. Start your small farm on the idea of Alice Johnson. Alice Johnson was not started.",
+          "tokens": 37,
+          "ppl": 103.1125,
+          "ratio": 1.161,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Start a small farm, and Alice Johnson farms in a small area. A small farm of an idea. Start your small farm on the idea of Alice Johnson. Alice Johnson was not started.",
+          "tokens": 38,
+          "ppl": 97.7415,
+          "ratio": 1.1005,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Start a small farm! Alice Johnson farms in a small area; a small farm of an idea. Start your small farm on the idea of Alice Johnson. Alice Johnson was not started.",
+          "tokens": 37,
+          "ppl": 95.5082,
+          "ratio": 1.0753,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Start a small farm! Alice Johnson farms in a small area, and a small farm of an idea. Start your small farm on the idea of Alice Johnson. Alice Johnson was not started.",
+          "tokens": 38,
+          "ppl": 87.3699,
+          "ratio": 0.9837,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Start a small farm! Alice Johnson farms in a small area. A small farm of an idea; start your small farm on the idea of Alice Johnson. Alice Johnson was not started.",
+          "tokens": 37,
+          "ppl": 98.9848,
+          "ratio": 1.1145,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Start a small farm! Alice Johnson farms in a small area. A small farm of an idea, and start your small farm on the idea of Alice Johnson. Alice Johnson was not started.",
+          "tokens": 38,
+          "ppl": 89.4307,
+          "ratio": 1.0069,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Start a small farm! Alice Johnson farms in a small area. A small farm of an idea. Start your small farm on the idea of Alice Johnson; Alice Johnson was not started.",
+          "tokens": 37,
+          "ppl": 112.897,
+          "ratio": 1.2711,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Start a small farm! Alice Johnson farms in a small area. A small farm of an idea. Start your small farm on the idea of Alice Johnson, and Alice Johnson was not started.",
+          "tokens": 38,
+          "ppl": 92.454,
+          "ratio": 1.041,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 33,
+          "ppl": 190.0123,
+          "ratio": 2.1394,
+          "pass": false
+        },
+        "split": {
+          "tokens": 38,
+          "ppl": 282.8978,
+          "ratio": 3.1852,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-252",
+      "clean": {
+        "tokens": 42,
+        "ppl": 13.1284
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Something gave the United Nations a boost; consider the feeling. The United Nations received a boost in 1945. The United Nations did not receive a boost. Something gave the United Nations a boost.",
+          "tokens": 42,
+          "ppl": 14.4602,
+          "ratio": 1.1014,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Something gave the United Nations a boost, and consider the feeling. The United Nations received a boost in 1945. The United Nations did not receive a boost. Something gave the United Nations a boost.",
+          "tokens": 43,
+          "ppl": 13.0127,
+          "ratio": 0.9912,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Something gave the United Nations a boost. Consider the feeling; the United Nations received a boost in 1945. The United Nations did not receive a boost. Something gave the United Nations a boost.",
+          "tokens": 42,
+          "ppl": 14.9104,
+          "ratio": 1.1357,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Something gave the United Nations a boost. Consider the feeling, and the United Nations received a boost in 1945. The United Nations did not receive a boost. Something gave the United Nations a boost.",
+          "tokens": 43,
+          "ppl": 16.0146,
+          "ratio": 1.2198,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Something gave the United Nations a boost. Consider the feeling. The United Nations received a boost in 1945; the United Nations did not receive a boost. Something gave the United Nations a boost.",
+          "tokens": 42,
+          "ppl": 15.0272,
+          "ratio": 1.1446,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Something gave the United Nations a boost. Consider the feeling. The United Nations received a boost in 1945, and the United Nations did not receive a boost. Something gave the United Nations a boost.",
+          "tokens": 43,
+          "ppl": 14.3519,
+          "ratio": 1.0932,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Something gave the United Nations a boost. Consider the feeling. The United Nations received a boost in 1945. The United Nations did not receive a boost; something gave the United Nations a boost.",
+          "tokens": 42,
+          "ppl": 13.8048,
+          "ratio": 1.0515,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Something gave the United Nations a boost. Consider the feeling. The United Nations received a boost in 1945. The United Nations did not receive a boost, and something gave the United Nations a boost.",
+          "tokens": 43,
+          "ppl": 13.4449,
+          "ratio": 1.0241,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 38,
+          "ppl": 23.0111,
+          "ratio": 1.7528,
+          "pass": false
+        },
+        "split": {
+          "tokens": 43,
+          "ppl": 29.4774,
+          "ratio": 2.2453,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-253",
+      "clean": {
+        "tokens": 59,
+        "ppl": 20.9022
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Something defined transferring from Don Bosco Academy to Quezon City; define the term for transferring from Don Bosco Academy to Quezon City. What does the term Quezon City mean? Quezon City is defined as something. Something recently defined transferring from Don Bosco Academy to Quezon City.",
+          "tokens": 59,
+          "ppl": 23.1551,
+          "ratio": 1.1078,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Something defined transferring from Don Bosco Academy to Quezon City, and define the term for transferring from Don Bosco Academy to Quezon City. What does the term Quezon City mean? Quezon City is defined as something. Something recently defined transferring from Don Bosco Academy to Quezon City.",
+          "tokens": 60,
+          "ppl": 21.411,
+          "ratio": 1.0243,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Something defined transferring from Don Bosco Academy to Quezon City. Define the term for transferring from Don Bosco Academy to Quezon City; what does the term Quezon City mean? Quezon City is defined as something. Something recently defined transferring from Don Bosco Academy to Quezon City.",
+          "tokens": 59,
+          "ppl": 25.1812,
+          "ratio": 1.2047,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Something defined transferring from Don Bosco Academy to Quezon City. Define the term for transferring from Don Bosco Academy to Quezon City, and what does the term Quezon City mean? Quezon City is defined as something. Something recently defined transferring from Don Bosco Academy to Quezon City.",
+          "tokens": 60,
+          "ppl": 25.627,
+          "ratio": 1.226,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Something defined transferring from Don Bosco Academy to Quezon City. Define the term for transferring from Don Bosco Academy to Quezon City. What does the term Quezon City mean; Quezon City is defined as something. Something recently defined transferring from Don Bosco Academy to Quezon City.",
+          "tokens": 59,
+          "ppl": 23.1111,
+          "ratio": 1.1057,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Something defined transferring from Don Bosco Academy to Quezon City. Define the term for transferring from Don Bosco Academy to Quezon City. What does the term Quezon City mean, and Quezon City is defined as something. Something recently defined transferring from Don Bosco Academy to Quezon City.",
+          "tokens": 60,
+          "ppl": 23.6884,
+          "ratio": 1.1333,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Something defined transferring from Don Bosco Academy to Quezon City. Define the term for transferring from Don Bosco Academy to Quezon City. What does the term Quezon City mean? Quezon City is defined as something; something recently defined transferring from Don Bosco Academy to Quezon City.",
+          "tokens": 59,
+          "ppl": 23.2682,
+          "ratio": 1.1132,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Something defined transferring from Don Bosco Academy to Quezon City. Define the term for transferring from Don Bosco Academy to Quezon City. What does the term Quezon City mean? Quezon City is defined as something, and something recently defined transferring from Don Bosco Academy to Quezon City.",
+          "tokens": 60,
+          "ppl": 22.134,
+          "ratio": 1.0589,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 55,
+          "ppl": 30.0202,
+          "ratio": 1.4362,
+          "pass": false
+        },
+        "split": {
+          "tokens": 62,
+          "ppl": 38.0852,
+          "ratio": 1.8221,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-254",
+      "clean": {
+        "tokens": 42,
+        "ppl": 17.5258
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "The question concerns Alice Smith; the question concerns a concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith.",
+          "tokens": 42,
+          "ppl": 21.7567,
+          "ratio": 1.2414,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The question concerns Alice Smith, and the question concerns a concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith.",
+          "tokens": 43,
+          "ppl": 18.0369,
+          "ratio": 1.0292,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The question concerns Alice Smith. The question concerns a concept by Alice Smith; Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith.",
+          "tokens": 42,
+          "ppl": 20.7758,
+          "ratio": 1.1854,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The question concerns Alice Smith. The question concerns a concept by Alice Smith, and Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith.",
+          "tokens": 43,
+          "ppl": 19.2717,
+          "ratio": 1.0996,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The question concerns Alice Smith. The question concerns a concept by Alice Smith. Alice, question the concept by Alice Smith; Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith.",
+          "tokens": 42,
+          "ppl": 20.4628,
+          "ratio": 1.1676,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The question concerns Alice Smith. The question concerns a concept by Alice Smith. Alice, question the concept by Alice Smith, and Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith.",
+          "tokens": 43,
+          "ppl": 19.5829,
+          "ratio": 1.1174,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The question concerns Alice Smith. The question concerns a concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith; Alice, question the concept by Alice Smith.",
+          "tokens": 42,
+          "ppl": 20.8439,
+          "ratio": 1.1893,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The question concerns Alice Smith. The question concerns a concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith, and Alice, question the concept by Alice Smith.",
+          "tokens": 43,
+          "ppl": 19.1516,
+          "ratio": 1.0928,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 38,
+          "ppl": 28.7417,
+          "ratio": 1.64,
+          "pass": false
+        },
+        "split": {
+          "tokens": 43,
+          "ppl": 55.0676,
+          "ratio": 3.1421,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-255",
+      "clean": {
+        "tokens": 40,
+        "ppl": 12.4889
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "The committee gave New York a deadline; New York is important to something. New York is important to something. The New York committee is important to something. The New York committee is important to something.",
+          "tokens": 40,
+          "ppl": 14.9661,
+          "ratio": 1.1984,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The committee gave New York a deadline, and New York is important to something. New York is important to something. The New York committee is important to something. The New York committee is important to something.",
+          "tokens": 41,
+          "ppl": 13.4017,
+          "ratio": 1.0731,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The committee gave New York a deadline. New York is important to something; New York is important to something. The New York committee is important to something. The New York committee is important to something.",
+          "tokens": 40,
+          "ppl": 15.2854,
+          "ratio": 1.2239,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The committee gave New York a deadline. New York is important to something, and New York is important to something. The New York committee is important to something. The New York committee is important to something.",
+          "tokens": 41,
+          "ppl": 13.5505,
+          "ratio": 1.085,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The committee gave New York a deadline. New York is important to something. New York is important to something; the New York committee is important to something. The New York committee is important to something.",
+          "tokens": 40,
+          "ppl": 15.1946,
+          "ratio": 1.2166,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The committee gave New York a deadline. New York is important to something. New York is important to something, and the New York committee is important to something. The New York committee is important to something.",
+          "tokens": 41,
+          "ppl": 12.9707,
+          "ratio": 1.0386,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The committee gave New York a deadline. New York is important to something. New York is important to something. The New York committee is important to something; the New York committee is important to something.",
+          "tokens": 40,
+          "ppl": 15.2202,
+          "ratio": 1.2187,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The committee gave New York a deadline. New York is important to something. New York is important to something. The New York committee is important to something, and the New York committee is important to something.",
+          "tokens": 41,
+          "ppl": 13.4033,
+          "ratio": 1.0732,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 36,
+          "ppl": 23.4552,
+          "ratio": 1.8781,
+          "pass": false
+        },
+        "split": {
+          "tokens": 41,
+          "ppl": 30.4924,
+          "ratio": 2.4416,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-256",
+      "clean": {
+        "tokens": 30,
+        "ppl": 61.3939
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Enjoy the deep lot; enjoy the deep lot. Enjoy the view. Alice Johnson enjoyed the sunset from the deep lot. Alice Johnson explained the sunset.",
+          "tokens": 30,
+          "ppl": 76.2037,
+          "ratio": 1.2412,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Enjoy the deep lot, and enjoy the deep lot. Enjoy the view. Alice Johnson enjoyed the sunset from the deep lot. Alice Johnson explained the sunset.",
+          "tokens": 31,
+          "ppl": 65.5829,
+          "ratio": 1.0682,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Enjoy the deep lot. Enjoy the deep lot; enjoy the view. Alice Johnson enjoyed the sunset from the deep lot. Alice Johnson explained the sunset.",
+          "tokens": 30,
+          "ppl": 77.1285,
+          "ratio": 1.2563,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Enjoy the deep lot. Enjoy the deep lot, and enjoy the view. Alice Johnson enjoyed the sunset from the deep lot. Alice Johnson explained the sunset.",
+          "tokens": 31,
+          "ppl": 57.5114,
+          "ratio": 0.9368,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Enjoy the deep lot. Enjoy the deep lot. Enjoy the view; Alice Johnson enjoyed the sunset from the deep lot. Alice Johnson explained the sunset.",
+          "tokens": 30,
+          "ppl": 78.9278,
+          "ratio": 1.2856,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Enjoy the deep lot. Enjoy the deep lot. Enjoy the view, and Alice Johnson enjoyed the sunset from the deep lot. Alice Johnson explained the sunset.",
+          "tokens": 31,
+          "ppl": 75.7759,
+          "ratio": 1.2343,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Enjoy the deep lot. Enjoy the deep lot. Enjoy the view. Alice Johnson enjoyed the sunset from the deep lot; Alice Johnson explained the sunset.",
+          "tokens": 30,
+          "ppl": 77.1309,
+          "ratio": 1.2563,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Enjoy the deep lot. Enjoy the deep lot. Enjoy the view. Alice Johnson enjoyed the sunset from the deep lot, and Alice Johnson explained the sunset.",
+          "tokens": 31,
+          "ppl": 59.6188,
+          "ratio": 0.9711,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 26,
+          "ppl": 241.6026,
+          "ratio": 3.9353,
+          "pass": false
+        },
+        "split": {
+          "tokens": 30,
+          "ppl": 183.1989,
+          "ratio": 2.984,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-257",
+      "clean": {
+        "tokens": 34,
+        "ppl": 21.5418
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Alice Johnson traveled to a city; Alice Johnson is very happy. Alice Johnson discovered something. Alice Johnson is very happy about something. Alice Johnson is very happy about something.",
+          "tokens": 34,
+          "ppl": 25.8148,
+          "ratio": 1.1984,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Alice Johnson traveled to a city, and Alice Johnson is very happy. Alice Johnson discovered something. Alice Johnson is very happy about something. Alice Johnson is very happy about something.",
+          "tokens": 35,
+          "ppl": 21.0543,
+          "ratio": 0.9774,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Alice Johnson traveled to a city. Alice Johnson is very happy; Alice Johnson discovered something. Alice Johnson is very happy about something. Alice Johnson is very happy about something.",
+          "tokens": 34,
+          "ppl": 26.4618,
+          "ratio": 1.2284,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Alice Johnson traveled to a city. Alice Johnson is very happy, and Alice Johnson discovered something. Alice Johnson is very happy about something. Alice Johnson is very happy about something.",
+          "tokens": 35,
+          "ppl": 23.2311,
+          "ratio": 1.0784,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Alice Johnson traveled to a city. Alice Johnson is very happy. Alice Johnson discovered something; Alice Johnson is very happy about something. Alice Johnson is very happy about something.",
+          "tokens": 34,
+          "ppl": 29.9127,
+          "ratio": 1.3886,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Alice Johnson traveled to a city. Alice Johnson is very happy. Alice Johnson discovered something, and Alice Johnson is very happy about something. Alice Johnson is very happy about something.",
+          "tokens": 35,
+          "ppl": 23.1209,
+          "ratio": 1.0733,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Alice Johnson traveled to a city. Alice Johnson is very happy. Alice Johnson discovered something. Alice Johnson is very happy about something; Alice Johnson is very happy about something.",
+          "tokens": 34,
+          "ppl": 28.2895,
+          "ratio": 1.3132,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Alice Johnson traveled to a city. Alice Johnson is very happy. Alice Johnson discovered something. Alice Johnson is very happy about something, and Alice Johnson is very happy about something.",
+          "tokens": 35,
+          "ppl": 25.2473,
+          "ratio": 1.172,
+          "pass": false
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 30,
+          "ppl": 40.1927,
+          "ratio": 1.8658,
+          "pass": false
+        },
+        "split": {
+          "tokens": 34,
+          "ppl": 59.2703,
+          "ratio": 2.7514,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-258",
+      "clean": {
+        "tokens": 33,
+        "ppl": 54.5883
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "The arrest resulted in charges; the arrest resulted in charges. A man faces Moon Township. The arrest resulted in charges. The topic of Moon Township is an idea.",
+          "tokens": 33,
+          "ppl": 88.9544,
+          "ratio": 1.6296,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The arrest resulted in charges, and the arrest resulted in charges. A man faces Moon Township. The arrest resulted in charges. The topic of Moon Township is an idea.",
+          "tokens": 34,
+          "ppl": 70.4439,
+          "ratio": 1.2905,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The arrest resulted in charges. The arrest resulted in charges; a man faces Moon Township. The arrest resulted in charges. The topic of Moon Township is an idea.",
+          "tokens": 33,
+          "ppl": 70.9713,
+          "ratio": 1.3001,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The arrest resulted in charges. The arrest resulted in charges, and a man faces Moon Township. The arrest resulted in charges. The topic of Moon Township is an idea.",
+          "tokens": 34,
+          "ppl": 62.0825,
+          "ratio": 1.1373,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The arrest resulted in charges. The arrest resulted in charges. A man faces Moon Township; the arrest resulted in charges. The topic of Moon Township is an idea.",
+          "tokens": 33,
+          "ppl": 64.2164,
+          "ratio": 1.1764,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The arrest resulted in charges. The arrest resulted in charges. A man faces Moon Township, and the arrest resulted in charges. The topic of Moon Township is an idea.",
+          "tokens": 34,
+          "ppl": 57.4635,
+          "ratio": 1.0527,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The arrest resulted in charges. The arrest resulted in charges. A man faces Moon Township. The arrest resulted in charges; the topic of Moon Township is an idea.",
+          "tokens": 33,
+          "ppl": 58.0492,
+          "ratio": 1.0634,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The arrest resulted in charges. The arrest resulted in charges. A man faces Moon Township. The arrest resulted in charges, and the topic of Moon Township is an idea.",
+          "tokens": 34,
+          "ppl": 45.6526,
+          "ratio": 0.8363,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 29,
+          "ppl": 106.5502,
+          "ratio": 1.9519,
+          "pass": false
+        },
+        "split": {
+          "tokens": 33,
+          "ppl": 176.0055,
+          "ratio": 3.2242,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-259",
+      "clean": {
+        "tokens": 34,
+        "ppl": 96.6202
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "The latest news covers Google now; did Google not change? Tell the team the latest news about Google. Google launched something in a location. Google recently launched something new.",
+          "tokens": 34,
+          "ppl": 111.8664,
+          "ratio": 1.1578,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The latest news covers Google now, and did Google not change? Tell the team the latest news about Google. Google launched something in a location. Google recently launched something new.",
+          "tokens": 35,
+          "ppl": 94.9438,
+          "ratio": 0.9826,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The latest news covers Google now. Did Google not change; tell the team the latest news about Google. Google launched something in a location. Google recently launched something new.",
+          "tokens": 34,
+          "ppl": 112.2747,
+          "ratio": 1.162,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The latest news covers Google now. Did Google not change, and tell the team the latest news about Google. Google launched something in a location. Google recently launched something new.",
+          "tokens": 35,
+          "ppl": 96.7695,
+          "ratio": 1.0015,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The latest news covers Google now. Did Google not change? Tell the team the latest news about Google; Google launched something in a location. Google recently launched something new.",
+          "tokens": 34,
+          "ppl": 105.8434,
+          "ratio": 1.0955,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The latest news covers Google now. Did Google not change? Tell the team the latest news about Google, and Google launched something in a location. Google recently launched something new.",
+          "tokens": 35,
+          "ppl": 101.7669,
+          "ratio": 1.0533,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The latest news covers Google now. Did Google not change? Tell the team the latest news about Google. Google launched something in a location; Google recently launched something new.",
+          "tokens": 34,
+          "ppl": 119.468,
+          "ratio": 1.2365,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The latest news covers Google now. Did Google not change? Tell the team the latest news about Google. Google launched something in a location, and Google recently launched something new.",
+          "tokens": 35,
+          "ppl": 99.5006,
+          "ratio": 1.0298,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 30,
+          "ppl": 300.3496,
+          "ratio": 3.1086,
+          "pass": false
+        },
+        "split": {
+          "tokens": 34,
+          "ppl": 161.6019,
+          "ratio": 1.6725,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-260",
+      "clean": {
+        "tokens": 24,
+        "ppl": 105.5798
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Guard the blue parakeet; jake guards somewhere. A guardian guards something. Jake guards somewhere. Jake guards something.",
+          "tokens": 25,
+          "ppl": 134.7079,
+          "ratio": 1.2759,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Guard the blue parakeet, and jake guards somewhere. A guardian guards something. Jake guards somewhere. Jake guards something.",
+          "tokens": 26,
+          "ppl": 103.9525,
+          "ratio": 0.9846,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Guard the blue parakeet. Jake guards somewhere; a guardian guards something. Jake guards somewhere. Jake guards something.",
+          "tokens": 24,
+          "ppl": 129.0079,
+          "ratio": 1.2219,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Guard the blue parakeet. Jake guards somewhere, and a guardian guards something. Jake guards somewhere. Jake guards something.",
+          "tokens": 25,
+          "ppl": 114.0601,
+          "ratio": 1.0803,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Guard the blue parakeet. Jake guards somewhere. A guardian guards something; jake guards somewhere. Jake guards something.",
+          "tokens": 25,
+          "ppl": 133.6893,
+          "ratio": 1.2662,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Guard the blue parakeet. Jake guards somewhere. A guardian guards something, and jake guards somewhere. Jake guards something.",
+          "tokens": 26,
+          "ppl": 105.6403,
+          "ratio": 1.0006,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Guard the blue parakeet. Jake guards somewhere. A guardian guards something. Jake guards somewhere; jake guards something.",
+          "tokens": 25,
+          "ppl": 128.3437,
+          "ratio": 1.2156,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Guard the blue parakeet. Jake guards somewhere. A guardian guards something. Jake guards somewhere, and jake guards something.",
+          "tokens": 26,
+          "ppl": 101.178,
+          "ratio": 0.9583,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 20,
+          "ppl": 474.098,
+          "ratio": 4.4904,
+          "pass": false
+        },
+        "split": {
+          "tokens": 22,
+          "ppl": 610.1102,
+          "ratio": 5.7787,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-261",
+      "clean": {
+        "tokens": 47,
+        "ppl": 22.2668
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Tell the men the name of the Marlborough bicycle crash; the two men crashed at the Marlborough location. The men named the crash. The bicycle crash in Marlborough was named something at the time. The men named the crash.",
+          "tokens": 47,
+          "ppl": 26.8165,
+          "ratio": 1.2043,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Tell the men the name of the Marlborough bicycle crash, and the two men crashed at the Marlborough location. The men named the crash. The bicycle crash in Marlborough was named something at the time. The men named the crash.",
+          "tokens": 48,
+          "ppl": 25.3997,
+          "ratio": 1.1407,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Tell the men the name of the Marlborough bicycle crash. The two men crashed at the Marlborough location; the men named the crash. The bicycle crash in Marlborough was named something at the time. The men named the crash.",
+          "tokens": 47,
+          "ppl": 23.1766,
+          "ratio": 1.0409,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Tell the men the name of the Marlborough bicycle crash. The two men crashed at the Marlborough location, and the men named the crash. The bicycle crash in Marlborough was named something at the time. The men named the crash.",
+          "tokens": 48,
+          "ppl": 22.707,
+          "ratio": 1.0198,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Tell the men the name of the Marlborough bicycle crash. The two men crashed at the Marlborough location. The men named the crash; the bicycle crash in Marlborough was named something at the time. The men named the crash.",
+          "tokens": 47,
+          "ppl": 27.1644,
+          "ratio": 1.22,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Tell the men the name of the Marlborough bicycle crash. The two men crashed at the Marlborough location. The men named the crash, and the bicycle crash in Marlborough was named something at the time. The men named the crash.",
+          "tokens": 48,
+          "ppl": 26.0278,
+          "ratio": 1.1689,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Tell the men the name of the Marlborough bicycle crash. The two men crashed at the Marlborough location. The men named the crash. The bicycle crash in Marlborough was named something at the time; the men named the crash.",
+          "tokens": 47,
+          "ppl": 26.7339,
+          "ratio": 1.2006,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Tell the men the name of the Marlborough bicycle crash. The two men crashed at the Marlborough location. The men named the crash. The bicycle crash in Marlborough was named something at the time, and the men named the crash.",
+          "tokens": 48,
+          "ppl": 23.585,
+          "ratio": 1.0592,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 43,
+          "ppl": 40.2295,
+          "ratio": 1.8067,
+          "pass": false
+        },
+        "split": {
+          "tokens": 49,
+          "ppl": 64.9462,
+          "ratio": 2.9167,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-262",
+      "clean": {
+        "tokens": 34,
+        "ppl": 16.2171
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Apple unveiled a new device recently; Apple unveiled a new device. Tell us about the new Apple device. Apple was unveiled recently. Tell us about the new Apple device.",
+          "tokens": 34,
+          "ppl": 16.4811,
+          "ratio": 1.0163,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Apple unveiled a new device recently, and Apple unveiled a new device. Tell us about the new Apple device. Apple was unveiled recently. Tell us about the new Apple device.",
+          "tokens": 35,
+          "ppl": 14.6977,
+          "ratio": 0.9063,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Apple unveiled a new device recently. Apple unveiled a new device; tell us about the new Apple device. Apple was unveiled recently. Tell us about the new Apple device.",
+          "tokens": 34,
+          "ppl": 20.0115,
+          "ratio": 1.234,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Apple unveiled a new device recently. Apple unveiled a new device, and tell us about the new Apple device. Apple was unveiled recently. Tell us about the new Apple device.",
+          "tokens": 35,
+          "ppl": 18.3908,
+          "ratio": 1.134,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Apple unveiled a new device recently. Apple unveiled a new device. Tell us about the new Apple device; Apple was unveiled recently. Tell us about the new Apple device.",
+          "tokens": 34,
+          "ppl": 18.0154,
+          "ratio": 1.1109,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Apple unveiled a new device recently. Apple unveiled a new device. Tell us about the new Apple device, and Apple was unveiled recently. Tell us about the new Apple device.",
+          "tokens": 35,
+          "ppl": 21.2797,
+          "ratio": 1.3122,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Apple unveiled a new device recently. Apple unveiled a new device. Tell us about the new Apple device. Apple was unveiled recently; tell us about the new Apple device.",
+          "tokens": 34,
+          "ppl": 19.1611,
+          "ratio": 1.1815,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Apple unveiled a new device recently. Apple unveiled a new device. Tell us about the new Apple device. Apple was unveiled recently, and tell us about the new Apple device.",
+          "tokens": 35,
+          "ppl": 17.988,
+          "ratio": 1.1092,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 30,
+          "ppl": 27.8311,
+          "ratio": 1.7162,
+          "pass": false
+        },
+        "split": {
+          "tokens": 34,
+          "ppl": 56.5724,
+          "ratio": 3.4884,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-263",
+      "clean": {
+        "tokens": 30,
+        "ppl": 43.0619
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Greg Abbott refused something; Greg Abbott refused something. Greg Abbott. The refusal of Greg Abbott was a refusal to Greg Abbott. Greg Abbott refused something.",
+          "tokens": 30,
+          "ppl": 51.1038,
+          "ratio": 1.1868,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Greg Abbott refused something, and Greg Abbott refused something. Greg Abbott. The refusal of Greg Abbott was a refusal to Greg Abbott. Greg Abbott refused something.",
+          "tokens": 31,
+          "ppl": 40.6316,
+          "ratio": 0.9436,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Greg Abbott refused something. Greg Abbott refused something; Greg Abbott. The refusal of Greg Abbott was a refusal to Greg Abbott. Greg Abbott refused something.",
+          "tokens": 30,
+          "ppl": 49.4135,
+          "ratio": 1.1475,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Greg Abbott refused something. Greg Abbott refused something, and Greg Abbott. The refusal of Greg Abbott was a refusal to Greg Abbott. Greg Abbott refused something.",
+          "tokens": 31,
+          "ppl": 39.7714,
+          "ratio": 0.9236,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Greg Abbott refused something. Greg Abbott refused something. Greg Abbott; the refusal of Greg Abbott was a refusal to Greg Abbott. Greg Abbott refused something.",
+          "tokens": 30,
+          "ppl": 50.7618,
+          "ratio": 1.1788,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Greg Abbott refused something. Greg Abbott refused something. Greg Abbott, and the refusal of Greg Abbott was a refusal to Greg Abbott. Greg Abbott refused something.",
+          "tokens": 31,
+          "ppl": 37.8142,
+          "ratio": 0.8781,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Greg Abbott refused something. Greg Abbott refused something. Greg Abbott. The refusal of Greg Abbott was a refusal to Greg Abbott; Greg Abbott refused something.",
+          "tokens": 30,
+          "ppl": 51.4604,
+          "ratio": 1.195,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Greg Abbott refused something. Greg Abbott refused something. Greg Abbott. The refusal of Greg Abbott was a refusal to Greg Abbott, and Greg Abbott refused something.",
+          "tokens": 31,
+          "ppl": 42.67,
+          "ratio": 0.9909,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 26,
+          "ppl": 104.3623,
+          "ratio": 2.4235,
+          "pass": false
+        },
+        "split": {
+          "tokens": 30,
+          "ppl": 83.395,
+          "ratio": 1.9366,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-264",
+      "clean": {
+        "tokens": 55,
+        "ppl": 12.2143
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Jere Melo is remembered in Fort Bragg; Jere Melo is remembered in Fort Bragg. Consider the memorial service for Jere Melo. Jere Melo is remembered in 2007. Remember the memorial service for Jere Melo.",
+          "tokens": 55,
+          "ppl": 14.4383,
+          "ratio": 1.1821,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Jere Melo is remembered in Fort Bragg, and Jere Melo is remembered in Fort Bragg. Consider the memorial service for Jere Melo. Jere Melo is remembered in 2007. Remember the memorial service for Jere Melo.",
+          "tokens": 56,
+          "ppl": 14.0862,
+          "ratio": 1.1533,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Jere Melo is remembered in Fort Bragg. Jere Melo is remembered in Fort Bragg; consider the memorial service for Jere Melo. Jere Melo is remembered in 2007. Remember the memorial service for Jere Melo.",
+          "tokens": 55,
+          "ppl": 13.9655,
+          "ratio": 1.1434,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Jere Melo is remembered in Fort Bragg. Jere Melo is remembered in Fort Bragg, and consider the memorial service for Jere Melo. Jere Melo is remembered in 2007. Remember the memorial service for Jere Melo.",
+          "tokens": 56,
+          "ppl": 14.0271,
+          "ratio": 1.1484,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Jere Melo is remembered in Fort Bragg. Jere Melo is remembered in Fort Bragg. Consider the memorial service for Jere Melo; Jere Melo is remembered in 2007. Remember the memorial service for Jere Melo.",
+          "tokens": 55,
+          "ppl": 14.2929,
+          "ratio": 1.1702,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Jere Melo is remembered in Fort Bragg. Jere Melo is remembered in Fort Bragg. Consider the memorial service for Jere Melo, and Jere Melo is remembered in 2007. Remember the memorial service for Jere Melo.",
+          "tokens": 56,
+          "ppl": 14.2422,
+          "ratio": 1.166,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Jere Melo is remembered in Fort Bragg. Jere Melo is remembered in Fort Bragg. Consider the memorial service for Jere Melo. Jere Melo is remembered in 2007; remember the memorial service for Jere Melo.",
+          "tokens": 55,
+          "ppl": 13.218,
+          "ratio": 1.0822,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Jere Melo is remembered in Fort Bragg. Jere Melo is remembered in Fort Bragg. Consider the memorial service for Jere Melo. Jere Melo is remembered in 2007, and remember the memorial service for Jere Melo.",
+          "tokens": 56,
+          "ppl": 13.4849,
+          "ratio": 1.104,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 51,
+          "ppl": 17.614,
+          "ratio": 1.4421,
+          "pass": false
+        },
+        "split": {
+          "tokens": 56,
+          "ppl": 31.2767,
+          "ratio": 2.5607,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-265",
+      "clean": {
+        "tokens": 41,
+        "ppl": 18.5514
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "A person uses an object; Clarithromycin macrolide antibiotic. Clarithromycin treats an infection. Clarithromycin treats an infection immediately. Clarithromycin macrolide antibiotic.",
+          "tokens": 41,
+          "ppl": 21.624,
+          "ratio": 1.1656,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "A person uses an object, and Clarithromycin macrolide antibiotic. Clarithromycin treats an infection. Clarithromycin treats an infection immediately. Clarithromycin macrolide antibiotic.",
+          "tokens": 42,
+          "ppl": 23.7372,
+          "ratio": 1.2795,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "A person uses an object. Clarithromycin macrolide antibiotic; Clarithromycin treats an infection. Clarithromycin treats an infection immediately. Clarithromycin macrolide antibiotic.",
+          "tokens": 41,
+          "ppl": 21.536,
+          "ratio": 1.1609,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "A person uses an object. Clarithromycin macrolide antibiotic, and Clarithromycin treats an infection. Clarithromycin treats an infection immediately. Clarithromycin macrolide antibiotic.",
+          "tokens": 42,
+          "ppl": 20.2009,
+          "ratio": 1.0889,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "A person uses an object. Clarithromycin macrolide antibiotic. Clarithromycin treats an infection; Clarithromycin treats an infection immediately. Clarithromycin macrolide antibiotic.",
+          "tokens": 41,
+          "ppl": 23.9239,
+          "ratio": 1.2896,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "A person uses an object. Clarithromycin macrolide antibiotic. Clarithromycin treats an infection, and Clarithromycin treats an infection immediately. Clarithromycin macrolide antibiotic.",
+          "tokens": 42,
+          "ppl": 20.4495,
+          "ratio": 1.1023,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "A person uses an object. Clarithromycin macrolide antibiotic. Clarithromycin treats an infection. Clarithromycin treats an infection immediately; Clarithromycin macrolide antibiotic.",
+          "tokens": 41,
+          "ppl": 21.018,
+          "ratio": 1.133,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "A person uses an object. Clarithromycin macrolide antibiotic. Clarithromycin treats an infection. Clarithromycin treats an infection immediately, and Clarithromycin macrolide antibiotic.",
+          "tokens": 42,
+          "ppl": 19.2657,
+          "ratio": 1.0385,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 37,
+          "ppl": 37.1667,
+          "ratio": 2.0034,
+          "pass": false
+        },
+        "split": {
+          "tokens": 40,
+          "ppl": 29.4282,
+          "ratio": 1.5863,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-266",
+      "clean": {
+        "tokens": 31,
+        "ppl": 83.6519
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Buy the startup; Skyera was bought by the startup. Skyera bought the startup. Skyera is significant to an extent. The company bought something.",
+          "tokens": 31,
+          "ppl": 106.0432,
+          "ratio": 1.2677,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Buy the startup, and Skyera was bought by the startup. Skyera bought the startup. Skyera is significant to an extent. The company bought something.",
+          "tokens": 32,
+          "ppl": 93.4203,
+          "ratio": 1.1168,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Buy the startup. Skyera was bought by the startup; Skyera bought the startup. Skyera is significant to an extent. The company bought something.",
+          "tokens": 31,
+          "ppl": 100.3898,
+          "ratio": 1.2001,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Buy the startup. Skyera was bought by the startup, and Skyera bought the startup. Skyera is significant to an extent. The company bought something.",
+          "tokens": 32,
+          "ppl": 90.0992,
+          "ratio": 1.0771,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Buy the startup. Skyera was bought by the startup. Skyera bought the startup; Skyera is significant to an extent. The company bought something.",
+          "tokens": 31,
+          "ppl": 104.9155,
+          "ratio": 1.2542,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Buy the startup. Skyera was bought by the startup. Skyera bought the startup, and Skyera is significant to an extent. The company bought something.",
+          "tokens": 32,
+          "ppl": 86.6619,
+          "ratio": 1.036,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Buy the startup. Skyera was bought by the startup. Skyera bought the startup. Skyera is significant to an extent; the company bought something.",
+          "tokens": 31,
+          "ppl": 95.3127,
+          "ratio": 1.1394,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Buy the startup. Skyera was bought by the startup. Skyera bought the startup. Skyera is significant to an extent, and the company bought something.",
+          "tokens": 32,
+          "ppl": 83.9627,
+          "ratio": 1.0037,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 27,
+          "ppl": 334.1184,
+          "ratio": 3.9942,
+          "pass": false
+        },
+        "split": {
+          "tokens": 30,
+          "ppl": 382.1285,
+          "ratio": 4.5681,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-267",
+      "clean": {
+        "tokens": 33,
+        "ppl": 39.5042
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Look at the coastal campus; a device observes something. Look at the coastal campus. The coastal campus is about the University of Delaware. Look at the coastal campus.",
+          "tokens": 33,
+          "ppl": 44.8075,
+          "ratio": 1.1342,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Look at the coastal campus, and a device observes something. Look at the coastal campus. The coastal campus is about the University of Delaware. Look at the coastal campus.",
+          "tokens": 34,
+          "ppl": 39.5945,
+          "ratio": 1.0023,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Look at the coastal campus. A device observes something; look at the coastal campus. The coastal campus is about the University of Delaware. Look at the coastal campus.",
+          "tokens": 33,
+          "ppl": 55.8843,
+          "ratio": 1.4146,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Look at the coastal campus. A device observes something, and look at the coastal campus. The coastal campus is about the University of Delaware. Look at the coastal campus.",
+          "tokens": 34,
+          "ppl": 48.7855,
+          "ratio": 1.2349,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Look at the coastal campus. A device observes something. Look at the coastal campus; the coastal campus is about the University of Delaware. Look at the coastal campus.",
+          "tokens": 33,
+          "ppl": 50.3328,
+          "ratio": 1.2741,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Look at the coastal campus. A device observes something. Look at the coastal campus, and the coastal campus is about the University of Delaware. Look at the coastal campus.",
+          "tokens": 34,
+          "ppl": 50.2171,
+          "ratio": 1.2712,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Look at the coastal campus. A device observes something. Look at the coastal campus. The coastal campus is about the University of Delaware; look at the coastal campus.",
+          "tokens": 33,
+          "ppl": 48.7801,
+          "ratio": 1.2348,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Look at the coastal campus. A device observes something. Look at the coastal campus. The coastal campus is about the University of Delaware, and look at the coastal campus.",
+          "tokens": 34,
+          "ppl": 47.6908,
+          "ratio": 1.2072,
+          "pass": false
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 29,
+          "ppl": 87.7406,
+          "ratio": 2.221,
+          "pass": false
+        },
+        "split": {
+          "tokens": 33,
+          "ppl": 125.7683,
+          "ratio": 3.1837,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-268",
+      "clean": {
+        "tokens": 38,
+        "ppl": 98.0225
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Leave the trash topic at Winter Haven Christian Church to irresponsible young adults; John Smith left something. John Smith is very irresponsible. Something was left at John Smith. John Smith is very irresponsible.",
+          "tokens": 38,
+          "ppl": 119.8852,
+          "ratio": 1.223,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Leave the trash topic at Winter Haven Christian Church to irresponsible young adults, and John Smith left something. John Smith is very irresponsible. Something was left at John Smith. John Smith is very irresponsible.",
+          "tokens": 39,
+          "ppl": 105.387,
+          "ratio": 1.0751,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Leave the trash topic at Winter Haven Christian Church to irresponsible young adults. John Smith left something; John Smith is very irresponsible. Something was left at John Smith. John Smith is very irresponsible.",
+          "tokens": 38,
+          "ppl": 112.5334,
+          "ratio": 1.148,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Leave the trash topic at Winter Haven Christian Church to irresponsible young adults. John Smith left something, and John Smith is very irresponsible. Something was left at John Smith. John Smith is very irresponsible.",
+          "tokens": 39,
+          "ppl": 98.2681,
+          "ratio": 1.0025,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Leave the trash topic at Winter Haven Christian Church to irresponsible young adults. John Smith left something. John Smith is very irresponsible; something was left at John Smith. John Smith is very irresponsible.",
+          "tokens": 38,
+          "ppl": 123.2488,
+          "ratio": 1.2574,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Leave the trash topic at Winter Haven Christian Church to irresponsible young adults. John Smith left something. John Smith is very irresponsible, and something was left at John Smith. John Smith is very irresponsible.",
+          "tokens": 39,
+          "ppl": 108.0911,
+          "ratio": 1.1027,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Leave the trash topic at Winter Haven Christian Church to irresponsible young adults. John Smith left something. John Smith is very irresponsible. Something was left at John Smith; John Smith is very irresponsible.",
+          "tokens": 38,
+          "ppl": 114.4388,
+          "ratio": 1.1675,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Leave the trash topic at Winter Haven Christian Church to irresponsible young adults. John Smith left something. John Smith is very irresponsible. Something was left at John Smith, and John Smith is very irresponsible.",
+          "tokens": 39,
+          "ppl": 92.5981,
+          "ratio": 0.9447,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 34,
+          "ppl": 298.5793,
+          "ratio": 3.046,
+          "pass": false
+        },
+        "split": {
+          "tokens": 39,
+          "ppl": 565.3545,
+          "ratio": 5.7676,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-269",
+      "clean": {
+        "tokens": 57,
+        "ppl": 29.6823
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Edinburg has an age; the Hidalgo County call center provides assistance to Edinburg regarding one weather issue. Edinburg is relevant to weather. The Hidalgo County call center provides assistance to Edinburg regarding a weather issue today. Answer the call center.",
+          "tokens": 57,
+          "ppl": 33.5038,
+          "ratio": 1.1287,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Edinburg has an age, and the Hidalgo County call center provides assistance to Edinburg regarding one weather issue. Edinburg is relevant to weather. The Hidalgo County call center provides assistance to Edinburg regarding a weather issue today. Answer the call center.",
+          "tokens": 58,
+          "ppl": 27.8122,
+          "ratio": 0.937,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Edinburg has an age. The Hidalgo County call center provides assistance to Edinburg regarding one weather issue; Edinburg is relevant to weather. The Hidalgo County call center provides assistance to Edinburg regarding a weather issue today. Answer the call center.",
+          "tokens": 57,
+          "ppl": 32.5739,
+          "ratio": 1.0974,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Edinburg has an age. The Hidalgo County call center provides assistance to Edinburg regarding one weather issue, and Edinburg is relevant to weather. The Hidalgo County call center provides assistance to Edinburg regarding a weather issue today. Answer the call center.",
+          "tokens": 58,
+          "ppl": 27.8774,
+          "ratio": 0.9392,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Edinburg has an age. The Hidalgo County call center provides assistance to Edinburg regarding one weather issue. Edinburg is relevant to weather; the Hidalgo County call center provides assistance to Edinburg regarding a weather issue today. Answer the call center.",
+          "tokens": 57,
+          "ppl": 33.904,
+          "ratio": 1.1422,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Edinburg has an age. The Hidalgo County call center provides assistance to Edinburg regarding one weather issue. Edinburg is relevant to weather, and the Hidalgo County call center provides assistance to Edinburg regarding a weather issue today. Answer the call center.",
+          "tokens": 58,
+          "ppl": 28.757,
+          "ratio": 0.9688,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Edinburg has an age. The Hidalgo County call center provides assistance to Edinburg regarding one weather issue. Edinburg is relevant to weather. The Hidalgo County call center provides assistance to Edinburg regarding a weather issue today; answer the call center.",
+          "tokens": 57,
+          "ppl": 36.7631,
+          "ratio": 1.2386,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Edinburg has an age. The Hidalgo County call center provides assistance to Edinburg regarding one weather issue. Edinburg is relevant to weather. The Hidalgo County call center provides assistance to Edinburg regarding a weather issue today, and answer the call center.",
+          "tokens": 58,
+          "ppl": 26.2583,
+          "ratio": 0.8846,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 53,
+          "ppl": 51.3349,
+          "ratio": 1.7295,
+          "pass": false
+        },
+        "split": {
+          "tokens": 59,
+          "ppl": 50.4827,
+          "ratio": 1.7008,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-270",
+      "clean": {
+        "tokens": 40,
+        "ppl": 36.1252
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Seymour VFW Post; Seymour VFW Post means something. Seymour VFW Post means something. Hold a special event. Hold a special event about Seymour VFW Post for the VFW.",
+          "tokens": 40,
+          "ppl": 37.2496,
+          "ratio": 1.0311,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Seymour VFW Post, and Seymour VFW Post means something. Seymour VFW Post means something. Hold a special event. Hold a special event about Seymour VFW Post for the VFW.",
+          "tokens": 41,
+          "ppl": 37.5935,
+          "ratio": 1.0406,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Seymour VFW Post. Seymour VFW Post means something; Seymour VFW Post means something. Hold a special event. Hold a special event about Seymour VFW Post for the VFW.",
+          "tokens": 40,
+          "ppl": 85.4405,
+          "ratio": 2.3651,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Seymour VFW Post. Seymour VFW Post means something, and Seymour VFW Post means something. Hold a special event. Hold a special event about Seymour VFW Post for the VFW.",
+          "tokens": 41,
+          "ppl": 37.8243,
+          "ratio": 1.047,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Seymour VFW Post. Seymour VFW Post means something. Seymour VFW Post means something; hold a special event. Hold a special event about Seymour VFW Post for the VFW.",
+          "tokens": 40,
+          "ppl": 48.0472,
+          "ratio": 1.33,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Seymour VFW Post. Seymour VFW Post means something. Seymour VFW Post means something, and hold a special event. Hold a special event about Seymour VFW Post for the VFW.",
+          "tokens": 41,
+          "ppl": 39.2103,
+          "ratio": 1.0854,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Seymour VFW Post. Seymour VFW Post means something. Seymour VFW Post means something. Hold a special event; hold a special event about Seymour VFW Post for the VFW.",
+          "tokens": 40,
+          "ppl": 40.5146,
+          "ratio": 1.1215,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Seymour VFW Post. Seymour VFW Post means something. Seymour VFW Post means something. Hold a special event, and hold a special event about Seymour VFW Post for the VFW.",
+          "tokens": 41,
+          "ppl": 38.5419,
+          "ratio": 1.0669,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 36,
+          "ppl": 71.4677,
+          "ratio": 1.9783,
+          "pass": false
+        },
+        "split": {
+          "tokens": 40,
+          "ppl": 151.6073,
+          "ratio": 4.1967,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-271",
+      "clean": {
+        "tokens": 45,
+        "ppl": 16.643
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "The United Kingdom is an idea about one European Union; the United Kingdom leaving the European Union means something. The United Kingdom proposes an idea. The United Kingdom leaving the European Union means something. An idea about the European Union.",
+          "tokens": 45,
+          "ppl": 18.2554,
+          "ratio": 1.0969,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The United Kingdom is an idea about one European Union, and the United Kingdom leaving the European Union means something. The United Kingdom proposes an idea. The United Kingdom leaving the European Union means something. An idea about the European Union.",
+          "tokens": 46,
+          "ppl": 16.0581,
+          "ratio": 0.9649,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The United Kingdom is an idea about one European Union. The United Kingdom leaving the European Union means something; the United Kingdom proposes an idea. The United Kingdom leaving the European Union means something. An idea about the European Union.",
+          "tokens": 45,
+          "ppl": 18.2014,
+          "ratio": 1.0936,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The United Kingdom is an idea about one European Union. The United Kingdom leaving the European Union means something, and the United Kingdom proposes an idea. The United Kingdom leaving the European Union means something. An idea about the European Union.",
+          "tokens": 46,
+          "ppl": 16.9904,
+          "ratio": 1.0209,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The United Kingdom is an idea about one European Union. The United Kingdom leaving the European Union means something. The United Kingdom proposes an idea; the United Kingdom leaving the European Union means something. An idea about the European Union.",
+          "tokens": 45,
+          "ppl": 18.422,
+          "ratio": 1.1069,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The United Kingdom is an idea about one European Union. The United Kingdom leaving the European Union means something. The United Kingdom proposes an idea, and the United Kingdom leaving the European Union means something. An idea about the European Union.",
+          "tokens": 46,
+          "ppl": 15.6947,
+          "ratio": 0.943,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The United Kingdom is an idea about one European Union. The United Kingdom leaving the European Union means something. The United Kingdom proposes an idea. The United Kingdom leaving the European Union means something; an idea about the European Union.",
+          "tokens": 45,
+          "ppl": 16.5941,
+          "ratio": 0.9971,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The United Kingdom is an idea about one European Union. The United Kingdom leaving the European Union means something. The United Kingdom proposes an idea. The United Kingdom leaving the European Union means something, and an idea about the European Union.",
+          "tokens": 46,
+          "ppl": 16.2427,
+          "ratio": 0.9759,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 41,
+          "ppl": 20.8497,
+          "ratio": 1.2528,
+          "pass": false
+        },
+        "split": {
+          "tokens": 47,
+          "ppl": 35.2207,
+          "ratio": 2.1162,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-272",
+      "clean": {
+        "tokens": 32,
+        "ppl": 137.0252
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Reading that Alice visited France surprised me; be careful. Read the painkiller instructions. Read the painkiller instructions. Read the instructions about Alice France to Bob.",
+          "tokens": 32,
+          "ppl": 176.4271,
+          "ratio": 1.2876,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Reading that Alice visited France surprised me, and be careful. Read the painkiller instructions. Read the painkiller instructions. Read the instructions about Alice France to Bob.",
+          "tokens": 33,
+          "ppl": 150.6904,
+          "ratio": 1.0997,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Reading that Alice visited France surprised me. Be careful; read the painkiller instructions. Read the painkiller instructions. Read the instructions about Alice France to Bob.",
+          "tokens": 32,
+          "ppl": 163.4979,
+          "ratio": 1.1932,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Reading that Alice visited France surprised me. Be careful, and read the painkiller instructions. Read the painkiller instructions. Read the instructions about Alice France to Bob.",
+          "tokens": 33,
+          "ppl": 113.9743,
+          "ratio": 0.8318,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Reading that Alice visited France surprised me. Be careful. Read the painkiller instructions; read the painkiller instructions. Read the instructions about Alice France to Bob.",
+          "tokens": 32,
+          "ppl": 177.1822,
+          "ratio": 1.2931,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Reading that Alice visited France surprised me. Be careful. Read the painkiller instructions, and read the painkiller instructions. Read the instructions about Alice France to Bob.",
+          "tokens": 33,
+          "ppl": 153.9177,
+          "ratio": 1.1233,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Reading that Alice visited France surprised me. Be careful. Read the painkiller instructions. Read the painkiller instructions; read the instructions about Alice France to Bob.",
+          "tokens": 32,
+          "ppl": 163.5782,
+          "ratio": 1.1938,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Reading that Alice visited France surprised me. Be careful. Read the painkiller instructions. Read the painkiller instructions, and read the instructions about Alice France to Bob.",
+          "tokens": 33,
+          "ppl": 139.4754,
+          "ratio": 1.0179,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 28,
+          "ppl": 325.9258,
+          "ratio": 2.3786,
+          "pass": false
+        },
+        "split": {
+          "tokens": 32,
+          "ppl": 407.4933,
+          "ratio": 2.9739,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-273",
+      "clean": {
+        "tokens": 31,
+        "ppl": 69.5659
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Does Deerfield Beach not exist; Deerfield Beach means something to someone. Consider the beach. Consider the beach. Someone named the beach Deerfield Beach.",
+          "tokens": 31,
+          "ppl": 65.9523,
+          "ratio": 0.9481,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Does Deerfield Beach not exist, and Deerfield Beach means something to someone. Consider the beach. Consider the beach. Someone named the beach Deerfield Beach.",
+          "tokens": 32,
+          "ppl": 57.6311,
+          "ratio": 0.8284,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Does Deerfield Beach not exist? Deerfield Beach means something to someone; consider the beach. Consider the beach. Someone named the beach Deerfield Beach.",
+          "tokens": 31,
+          "ppl": 116.3496,
+          "ratio": 1.6725,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Does Deerfield Beach not exist? Deerfield Beach means something to someone, and consider the beach. Consider the beach. Someone named the beach Deerfield Beach.",
+          "tokens": 32,
+          "ppl": 139.1314,
+          "ratio": 2.0,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Does Deerfield Beach not exist? Deerfield Beach means something to someone. Consider the beach; consider the beach. Someone named the beach Deerfield Beach.",
+          "tokens": 31,
+          "ppl": 87.377,
+          "ratio": 1.256,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Does Deerfield Beach not exist? Deerfield Beach means something to someone. Consider the beach, and consider the beach. Someone named the beach Deerfield Beach.",
+          "tokens": 32,
+          "ppl": 102.8984,
+          "ratio": 1.4791,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Does Deerfield Beach not exist? Deerfield Beach means something to someone. Consider the beach. Consider the beach; someone named the beach Deerfield Beach.",
+          "tokens": 31,
+          "ppl": 90.1266,
+          "ratio": 1.2956,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Does Deerfield Beach not exist? Deerfield Beach means something to someone. Consider the beach. Consider the beach, and someone named the beach Deerfield Beach.",
+          "tokens": 32,
+          "ppl": 75.2285,
+          "ratio": 1.0814,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 27,
+          "ppl": 294.572,
+          "ratio": 4.2344,
+          "pass": false
+        },
+        "split": {
+          "tokens": 30,
+          "ppl": 402.4284,
+          "ratio": 5.7849,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-274",
+      "clean": {
+        "tokens": 45,
+        "ppl": 26.5651
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Dustin Dewayne Anders died; tell Dustin Dewayne Anders about the topic. Dustin Dewayne Anders is the name of something. Dustin Dewayne Anders discussed something. Dustin Dewayne Anders discussed something.",
+          "tokens": 45,
+          "ppl": 32.0665,
+          "ratio": 1.2071,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Dustin Dewayne Anders died, and tell Dustin Dewayne Anders about the topic. Dustin Dewayne Anders is the name of something. Dustin Dewayne Anders discussed something. Dustin Dewayne Anders discussed something.",
+          "tokens": 46,
+          "ppl": 31.6011,
+          "ratio": 1.1896,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Dustin Dewayne Anders died. Tell Dustin Dewayne Anders about the topic; Dustin Dewayne Anders is the name of something. Dustin Dewayne Anders discussed something. Dustin Dewayne Anders discussed something.",
+          "tokens": 45,
+          "ppl": 33.9489,
+          "ratio": 1.278,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Dustin Dewayne Anders died. Tell Dustin Dewayne Anders about the topic, and Dustin Dewayne Anders is the name of something. Dustin Dewayne Anders discussed something. Dustin Dewayne Anders discussed something.",
+          "tokens": 46,
+          "ppl": 34.1001,
+          "ratio": 1.2836,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Dustin Dewayne Anders died. Tell Dustin Dewayne Anders about the topic. Dustin Dewayne Anders is the name of something; Dustin Dewayne Anders discussed something. Dustin Dewayne Anders discussed something.",
+          "tokens": 45,
+          "ppl": 32.6333,
+          "ratio": 1.2284,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Dustin Dewayne Anders died. Tell Dustin Dewayne Anders about the topic. Dustin Dewayne Anders is the name of something, and Dustin Dewayne Anders discussed something. Dustin Dewayne Anders discussed something.",
+          "tokens": 46,
+          "ppl": 28.4287,
+          "ratio": 1.0702,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Dustin Dewayne Anders died. Tell Dustin Dewayne Anders about the topic. Dustin Dewayne Anders is the name of something. Dustin Dewayne Anders discussed something; Dustin Dewayne Anders discussed something.",
+          "tokens": 45,
+          "ppl": 33.1362,
+          "ratio": 1.2474,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Dustin Dewayne Anders died. Tell Dustin Dewayne Anders about the topic. Dustin Dewayne Anders is the name of something. Dustin Dewayne Anders discussed something, and Dustin Dewayne Anders discussed something.",
+          "tokens": 46,
+          "ppl": 28.2383,
+          "ratio": 1.063,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 41,
+          "ppl": 43.1747,
+          "ratio": 1.6252,
+          "pass": false
+        },
+        "split": {
+          "tokens": 45,
+          "ppl": 57.9254,
+          "ratio": 2.1805,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-275",
+      "clean": {
+        "tokens": 44,
+        "ppl": 26.3945
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Peter Higgs is a scientific legend; explain the topic of Higgs to Peter. Peter Higgs is a scientific legend. Peter Higgs is a renowned scientist to that extent. Peter Higgs is a scientific legend.",
+          "tokens": 44,
+          "ppl": 30.7167,
+          "ratio": 1.1638,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Peter Higgs is a scientific legend, and explain the topic of Higgs to Peter. Peter Higgs is a scientific legend. Peter Higgs is a renowned scientist to that extent. Peter Higgs is a scientific legend.",
+          "tokens": 45,
+          "ppl": 27.4695,
+          "ratio": 1.0407,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Peter Higgs is a scientific legend. Explain the topic of Higgs to Peter; Peter Higgs is a scientific legend. Peter Higgs is a renowned scientist to that extent. Peter Higgs is a scientific legend.",
+          "tokens": 44,
+          "ppl": 28.4036,
+          "ratio": 1.0761,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Peter Higgs is a scientific legend. Explain the topic of Higgs to Peter, and Peter Higgs is a scientific legend. Peter Higgs is a renowned scientist to that extent. Peter Higgs is a scientific legend.",
+          "tokens": 45,
+          "ppl": 27.5337,
+          "ratio": 1.0432,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Peter Higgs is a scientific legend. Explain the topic of Higgs to Peter. Peter Higgs is a scientific legend; Peter Higgs is a renowned scientist to that extent. Peter Higgs is a scientific legend.",
+          "tokens": 44,
+          "ppl": 30.8977,
+          "ratio": 1.1706,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Peter Higgs is a scientific legend. Explain the topic of Higgs to Peter. Peter Higgs is a scientific legend, and Peter Higgs is a renowned scientist to that extent. Peter Higgs is a scientific legend.",
+          "tokens": 45,
+          "ppl": 27.1917,
+          "ratio": 1.0302,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Peter Higgs is a scientific legend. Explain the topic of Higgs to Peter. Peter Higgs is a scientific legend. Peter Higgs is a renowned scientist to that extent; Peter Higgs is a scientific legend.",
+          "tokens": 44,
+          "ppl": 29.6578,
+          "ratio": 1.1236,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Peter Higgs is a scientific legend. Explain the topic of Higgs to Peter. Peter Higgs is a scientific legend. Peter Higgs is a renowned scientist to that extent, and Peter Higgs is a scientific legend.",
+          "tokens": 45,
+          "ppl": 27.0862,
+          "ratio": 1.0262,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 40,
+          "ppl": 48.1975,
+          "ratio": 1.826,
+          "pass": false
+        },
+        "split": {
+          "tokens": 45,
+          "ppl": 43.2371,
+          "ratio": 1.6381,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-276",
+      "clean": {
+        "tokens": 39,
+        "ppl": 12.0163
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Read the article about Philip Roth; Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth.",
+          "tokens": 39,
+          "ppl": 16.3889,
+          "ratio": 1.3639,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Read the article about Philip Roth, and Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth.",
+          "tokens": 40,
+          "ppl": 19.6804,
+          "ratio": 1.6378,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry; read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth.",
+          "tokens": 39,
+          "ppl": 14.1769,
+          "ratio": 1.1798,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry, and read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth.",
+          "tokens": 40,
+          "ppl": 16.0329,
+          "ratio": 1.3343,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth; Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth.",
+          "tokens": 39,
+          "ppl": 16.1627,
+          "ratio": 1.3451,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth, and Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth.",
+          "tokens": 40,
+          "ppl": 17.414,
+          "ratio": 1.4492,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry; read the article about Philip Roth.",
+          "tokens": 39,
+          "ppl": 16.0244,
+          "ratio": 1.3336,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry, and read the article about Philip Roth.",
+          "tokens": 40,
+          "ppl": 15.2441,
+          "ratio": 1.2686,
+          "pass": false
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 35,
+          "ppl": 18.4417,
+          "ratio": 1.5347,
+          "pass": false
+        },
+        "split": {
+          "tokens": 40,
+          "ppl": 37.6924,
+          "ratio": 3.1368,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-277",
+      "clean": {
+        "tokens": 41,
+        "ppl": 19.4547
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "Buffalo Hospital operated in 2000; Buffalo Hospital operates something. Buffalo Hospital operates something. Buffalo Hospital operated in 2000. Recently, Buffalo Hospital performed a procedure on something.",
+          "tokens": 41,
+          "ppl": 23.3481,
+          "ratio": 1.2001,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Buffalo Hospital operated in 2000, and Buffalo Hospital operates something. Buffalo Hospital operates something. Buffalo Hospital operated in 2000. Recently, Buffalo Hospital performed a procedure on something.",
+          "tokens": 42,
+          "ppl": 19.7927,
+          "ratio": 1.0174,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Buffalo Hospital operated in 2000. Buffalo Hospital operates something; Buffalo Hospital operates something. Buffalo Hospital operated in 2000. Recently, Buffalo Hospital performed a procedure on something.",
+          "tokens": 41,
+          "ppl": 23.7727,
+          "ratio": 1.222,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Buffalo Hospital operated in 2000. Buffalo Hospital operates something, and Buffalo Hospital operates something. Buffalo Hospital operated in 2000. Recently, Buffalo Hospital performed a procedure on something.",
+          "tokens": 42,
+          "ppl": 20.1164,
+          "ratio": 1.034,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Buffalo Hospital operated in 2000. Buffalo Hospital operates something. Buffalo Hospital operates something; Buffalo Hospital operated in 2000. Recently, Buffalo Hospital performed a procedure on something.",
+          "tokens": 41,
+          "ppl": 22.6215,
+          "ratio": 1.1628,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Buffalo Hospital operated in 2000. Buffalo Hospital operates something. Buffalo Hospital operates something, and Buffalo Hospital operated in 2000. Recently, Buffalo Hospital performed a procedure on something.",
+          "tokens": 42,
+          "ppl": 20.2012,
+          "ratio": 1.0384,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "Buffalo Hospital operated in 2000. Buffalo Hospital operates something. Buffalo Hospital operates something. Buffalo Hospital operated in 2000; recently, Buffalo Hospital performed a procedure on something.",
+          "tokens": 41,
+          "ppl": 23.7743,
+          "ratio": 1.222,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "Buffalo Hospital operated in 2000. Buffalo Hospital operates something. Buffalo Hospital operates something. Buffalo Hospital operated in 2000, and recently, Buffalo Hospital performed a procedure on something.",
+          "tokens": 42,
+          "ppl": 20.1085,
+          "ratio": 1.0336,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 37,
+          "ppl": 42.4392,
+          "ratio": 2.1814,
+          "pass": false
+        },
+        "split": {
+          "tokens": 41,
+          "ppl": 61.3897,
+          "ratio": 3.1555,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-278",
+      "clean": {
+        "tokens": 40,
+        "ppl": 36.5853
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "A daughter of Mick Foley is Noelle Foley; Noelle Foley is important to Mick Foley. Noelle Foley talks today. Mick Foley discusses something. One daughter of Mick Foley is Noelle Foley.",
+          "tokens": 40,
+          "ppl": 41.7805,
+          "ratio": 1.142,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "A daughter of Mick Foley is Noelle Foley, and Noelle Foley is important to Mick Foley. Noelle Foley talks today. Mick Foley discusses something. One daughter of Mick Foley is Noelle Foley.",
+          "tokens": 41,
+          "ppl": 37.3396,
+          "ratio": 1.0206,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "A daughter of Mick Foley is Noelle Foley. Noelle Foley is important to Mick Foley; Noelle Foley talks today. Mick Foley discusses something. One daughter of Mick Foley is Noelle Foley.",
+          "tokens": 40,
+          "ppl": 45.8142,
+          "ratio": 1.2523,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "A daughter of Mick Foley is Noelle Foley. Noelle Foley is important to Mick Foley, and Noelle Foley talks today. Mick Foley discusses something. One daughter of Mick Foley is Noelle Foley.",
+          "tokens": 41,
+          "ppl": 42.4985,
+          "ratio": 1.1616,
+          "pass": false
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "A daughter of Mick Foley is Noelle Foley. Noelle Foley is important to Mick Foley. Noelle Foley talks today; Mick Foley discusses something. One daughter of Mick Foley is Noelle Foley.",
+          "tokens": 40,
+          "ppl": 41.4046,
+          "ratio": 1.1317,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "A daughter of Mick Foley is Noelle Foley. Noelle Foley is important to Mick Foley. Noelle Foley talks today, and Mick Foley discusses something. One daughter of Mick Foley is Noelle Foley.",
+          "tokens": 41,
+          "ppl": 36.9099,
+          "ratio": 1.0089,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "A daughter of Mick Foley is Noelle Foley. Noelle Foley is important to Mick Foley. Noelle Foley talks today. Mick Foley discusses something; one daughter of Mick Foley is Noelle Foley.",
+          "tokens": 40,
+          "ppl": 45.714,
+          "ratio": 1.2495,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "A daughter of Mick Foley is Noelle Foley. Noelle Foley is important to Mick Foley. Noelle Foley talks today. Mick Foley discusses something, and one daughter of Mick Foley is Noelle Foley.",
+          "tokens": 41,
+          "ppl": 37.3632,
+          "ratio": 1.0213,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 36,
+          "ppl": 97.0122,
+          "ratio": 2.6517,
+          "pass": false
+        },
+        "split": {
+          "tokens": 41,
+          "ppl": 106.1867,
+          "ratio": 2.9024,
+          "pass": false
+        }
+      }
+    },
+    {
+      "source_id": "benchmark30-c4-validation-279",
+      "clean": {
+        "tokens": 48,
+        "ppl": 33.4717
+      },
+      "merge_candidates": [
+        {
+          "rule": "semicolon_join",
+          "text": "The event defined the Fleming Lady Wildcats; the event defined the Fleming Lady Wildcats. Define the meaning of the event for the Fleming Lady Wildcats. Define the event's topic Fleming Lady Wildcats for the Fleming Lady Wildcats. The Fleming Lady Wildcats event.",
+          "tokens": 48,
+          "ppl": 43.8831,
+          "ratio": 1.3111,
+          "pass": false
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The event defined the Fleming Lady Wildcats, and the event defined the Fleming Lady Wildcats. Define the meaning of the event for the Fleming Lady Wildcats. Define the event's topic Fleming Lady Wildcats for the Fleming Lady Wildcats. The Fleming Lady Wildcats event.",
+          "tokens": 49,
+          "ppl": 36.8806,
+          "ratio": 1.1018,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The event defined the Fleming Lady Wildcats. The event defined the Fleming Lady Wildcats; define the meaning of the event for the Fleming Lady Wildcats. Define the event's topic Fleming Lady Wildcats for the Fleming Lady Wildcats. The Fleming Lady Wildcats event.",
+          "tokens": 48,
+          "ppl": 36.7866,
+          "ratio": 1.099,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The event defined the Fleming Lady Wildcats. The event defined the Fleming Lady Wildcats, and define the meaning of the event for the Fleming Lady Wildcats. Define the event's topic Fleming Lady Wildcats for the Fleming Lady Wildcats. The Fleming Lady Wildcats event.",
+          "tokens": 49,
+          "ppl": 36.8461,
+          "ratio": 1.1008,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The event defined the Fleming Lady Wildcats. The event defined the Fleming Lady Wildcats. Define the meaning of the event for the Fleming Lady Wildcats; define the event's topic Fleming Lady Wildcats for the Fleming Lady Wildcats. The Fleming Lady Wildcats event.",
+          "tokens": 48,
+          "ppl": 37.6167,
+          "ratio": 1.1238,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The event defined the Fleming Lady Wildcats. The event defined the Fleming Lady Wildcats. Define the meaning of the event for the Fleming Lady Wildcats, and define the event's topic Fleming Lady Wildcats for the Fleming Lady Wildcats. The Fleming Lady Wildcats event.",
+          "tokens": 49,
+          "ppl": 34.2064,
+          "ratio": 1.0219,
+          "pass": true
+        },
+        {
+          "rule": "semicolon_join",
+          "text": "The event defined the Fleming Lady Wildcats. The event defined the Fleming Lady Wildcats. Define the meaning of the event for the Fleming Lady Wildcats. Define the event's topic Fleming Lady Wildcats for the Fleming Lady Wildcats; the Fleming Lady Wildcats event.",
+          "tokens": 48,
+          "ppl": 37.1502,
+          "ratio": 1.1099,
+          "pass": true
+        },
+        {
+          "rule": "comma_and_join",
+          "text": "The event defined the Fleming Lady Wildcats. The event defined the Fleming Lady Wildcats. Define the meaning of the event for the Fleming Lady Wildcats. Define the event's topic Fleming Lady Wildcats for the Fleming Lady Wildcats, and the Fleming Lady Wildcats event.",
+          "tokens": 49,
+          "ppl": 33.452,
+          "ratio": 0.9994,
+          "pass": true
+        }
+      ],
+      "mechanical": {
+        "joined": {
+          "tokens": 44,
+          "ppl": 44.2413,
+          "ratio": 1.3218,
+          "pass": false
+        },
+        "split": {
+          "tokens": 50,
+          "ppl": 55.3078,
+          "ratio": 1.6524,
+          "pass": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1185 @@
+{
+  "arms": {
+    "control": {
+      "alpha_curve": {
+        "0.001": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "comma_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "newline_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "space_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            }
+          }
+        },
+        "0.002": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "comma_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "newline_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "space_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            }
+          }
+        },
+        "0.005": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "comma_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "newline_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "space_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            }
+          }
+        },
+        "0.01": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "comma_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "newline_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "space_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            }
+          }
+        },
+        "0.02": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.011087455672254774,
+              0.064150626705027
+            ],
+            "rate": 0.03,
+            "successes": 6,
+            "trials": 200,
+            "upper95_one_sided": 0.05834976037591087
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            },
+            "comma_all": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            },
+            "newline_all": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            },
+            "space_all": {
+              "ci95": [
+                0.011087455672254774,
+                0.064150626705027
+              ],
+              "rate": 0.03,
+              "successes": 6,
+              "trials": 200,
+              "upper95_one_sided": 0.05834976037591087
+            }
+          }
+        },
+        "0.05": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.03879557042956281,
+              0.11465973353711054
+            ],
+            "rate": 0.07,
+            "successes": 14,
+            "trials": 200,
+            "upper95_one_sided": 0.10726797922603987
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.0174248089944806,
+                0.07729196822601608
+              ],
+              "rate": 0.04,
+              "successes": 8,
+              "trials": 200,
+              "upper95_one_sided": 0.07101416861601978
+            },
+            "comma_all": {
+              "ci95": [
+                0.024234165472108552,
+                0.09002753770135138
+              ],
+              "rate": 0.05,
+              "successes": 10,
+              "trials": 200,
+              "upper95_one_sided": 0.08333515106637196
+            },
+            "newline_all": {
+              "ci95": [
+                0.024234165472108552,
+                0.09002753770135138
+              ],
+              "rate": 0.05,
+              "successes": 10,
+              "trials": 200,
+              "upper95_one_sided": 0.08333515106637196
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.020780422227004353,
+                0.08370268807585404
+              ],
+              "rate": 0.045,
+              "successes": 9,
+              "trials": 200,
+              "upper95_one_sided": 0.0772109750173381
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.020780422227004353,
+                0.08370268807585404
+              ],
+              "rate": 0.045,
+              "successes": 9,
+              "trials": 200,
+              "upper95_one_sided": 0.0772109750173381
+            },
+            "space_all": {
+              "ci95": [
+                0.031383953893483446,
+                0.1024618313083245
+              ],
+              "rate": 0.06,
+              "successes": 12,
+              "trials": 200,
+              "upper95_one_sided": 0.09540141772987733
+            }
+          }
+        }
+      },
+      "primary": {
+        "abstain": {
+          "baseline": 0,
+          "comma_all": 0,
+          "newline_all": 0,
+          "semicolon_all": 0,
+          "semicolon_pairs": 0,
+          "space_all": 0
+        },
+        "any_stress_false_positive": {
+          "ci95": [
+            0.0,
+            0.01827534035513624
+          ],
+          "rate": 0.0,
+          "successes": 0,
+          "trials": 200,
+          "upper95_one_sided": 0.014867039231272054
+        },
+        "conditions": {
+          "baseline": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "comma_all": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "newline_all": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "semicolon_all": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "semicolon_pairs": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "space_all": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          }
+        }
+      }
+    },
+    "path0": {
+      "alpha_curve": {
+        "0.001": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "comma_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "newline_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "space_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            }
+          }
+        },
+        "0.002": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.0,
+              0.01827534035513624
+            ],
+            "rate": 0.0,
+            "successes": 0,
+            "trials": 200,
+            "upper95_one_sided": 0.014867039231272054
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "comma_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "newline_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            },
+            "space_all": {
+              "ci95": [
+                0.0,
+                0.01827534035513624
+              ],
+              "rate": 0.0,
+              "successes": 0,
+              "trials": 200,
+              "upper95_one_sided": 0.014867039231272054
+            }
+          }
+        },
+        "0.005": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.00012658102786701825,
+              0.02754189845720562
+            ],
+            "rate": 0.005,
+            "successes": 1,
+            "trials": 200,
+            "upper95_one_sided": 0.023498470434950704
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.00012658102786701825,
+                0.02754189845720562
+              ],
+              "rate": 0.005,
+              "successes": 1,
+              "trials": 200,
+              "upper95_one_sided": 0.023498470434950704
+            },
+            "comma_all": {
+              "ci95": [
+                0.00012658102786701825,
+                0.02754189845720562
+              ],
+              "rate": 0.005,
+              "successes": 1,
+              "trials": 200,
+              "upper95_one_sided": 0.023498470434950704
+            },
+            "newline_all": {
+              "ci95": [
+                0.00012658102786701825,
+                0.02754189845720562
+              ],
+              "rate": 0.005,
+              "successes": 1,
+              "trials": 200,
+              "upper95_one_sided": 0.023498470434950704
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.00012658102786701825,
+                0.02754189845720562
+              ],
+              "rate": 0.005,
+              "successes": 1,
+              "trials": 200,
+              "upper95_one_sided": 0.023498470434950704
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.00012658102786701825,
+                0.02754189845720562
+              ],
+              "rate": 0.005,
+              "successes": 1,
+              "trials": 200,
+              "upper95_one_sided": 0.023498470434950704
+            },
+            "space_all": {
+              "ci95": [
+                0.00012658102786701825,
+                0.02754189845720562
+              ],
+              "rate": 0.005,
+              "successes": 1,
+              "trials": 200,
+              "upper95_one_sided": 0.023498470434950704
+            }
+          }
+        },
+        "0.01": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.00547556587955645,
+              0.0504136090898963
+            ],
+            "rate": 0.02,
+            "successes": 4,
+            "trials": 200,
+            "upper95_one_sided": 0.045180414994718726
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.0031041076215535097,
+                0.0432082819177126
+              ],
+              "rate": 0.015,
+              "successes": 3,
+              "trials": 200,
+              "upper95_one_sided": 0.03830970849856934
+            },
+            "comma_all": {
+              "ci95": [
+                0.0031041076215535097,
+                0.0432082819177126
+              ],
+              "rate": 0.015,
+              "successes": 3,
+              "trials": 200,
+              "upper95_one_sided": 0.03830970849856934
+            },
+            "newline_all": {
+              "ci95": [
+                0.0031041076215535097,
+                0.0432082819177126
+              ],
+              "rate": 0.015,
+              "successes": 3,
+              "trials": 200,
+              "upper95_one_sided": 0.03830970849856934
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.0031041076215535097,
+                0.0432082819177126
+              ],
+              "rate": 0.015,
+              "successes": 3,
+              "trials": 200,
+              "upper95_one_sided": 0.03830970849856934
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.0031041076215535097,
+                0.0432082819177126
+              ],
+              "rate": 0.015,
+              "successes": 3,
+              "trials": 200,
+              "upper95_one_sided": 0.03830970849856934
+            },
+            "space_all": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            }
+          }
+        },
+        "0.02": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.011087455672254774,
+              0.064150626705027
+            ],
+            "rate": 0.03,
+            "successes": 6,
+            "trials": 200,
+            "upper95_one_sided": 0.05834976037591087
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            },
+            "comma_all": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            },
+            "newline_all": {
+              "ci95": [
+                0.008166166190842511,
+                0.05737435112684586
+              ],
+              "rate": 0.025,
+              "successes": 5,
+              "trials": 200,
+              "upper95_one_sided": 0.05184333912029052
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            },
+            "space_all": {
+              "ci95": [
+                0.00547556587955645,
+                0.0504136090898963
+              ],
+              "rate": 0.02,
+              "successes": 4,
+              "trials": 200,
+              "upper95_one_sided": 0.045180414994718726
+            }
+          }
+        },
+        "0.05": {
+          "abstain": {
+            "baseline": 0,
+            "comma_all": 0,
+            "newline_all": 0,
+            "semicolon_all": 0,
+            "semicolon_pairs": 0,
+            "space_all": 0
+          },
+          "any_stress_false_positive": {
+            "ci95": [
+              0.024234165472108552,
+              0.09002753770135138
+            ],
+            "rate": 0.05,
+            "successes": 10,
+            "trials": 200,
+            "upper95_one_sided": 0.08333515106637196
+          },
+          "conditions": {
+            "baseline": {
+              "ci95": [
+                0.0174248089944806,
+                0.07729196822601608
+              ],
+              "rate": 0.04,
+              "successes": 8,
+              "trials": 200,
+              "upper95_one_sided": 0.07101416861601978
+            },
+            "comma_all": {
+              "ci95": [
+                0.014185525898419243,
+                0.0707809983509772
+              ],
+              "rate": 0.035,
+              "successes": 7,
+              "trials": 200,
+              "upper95_one_sided": 0.06473252213684852
+            },
+            "newline_all": {
+              "ci95": [
+                0.0174248089944806,
+                0.07729196822601608
+              ],
+              "rate": 0.04,
+              "successes": 8,
+              "trials": 200,
+              "upper95_one_sided": 0.07101416861601978
+            },
+            "semicolon_all": {
+              "ci95": [
+                0.0174248089944806,
+                0.07729196822601608
+              ],
+              "rate": 0.04,
+              "successes": 8,
+              "trials": 200,
+              "upper95_one_sided": 0.07101416861601978
+            },
+            "semicolon_pairs": {
+              "ci95": [
+                0.0174248089944806,
+                0.07729196822601608
+              ],
+              "rate": 0.04,
+              "successes": 8,
+              "trials": 200,
+              "upper95_one_sided": 0.07101416861601978
+            },
+            "space_all": {
+              "ci95": [
+                0.0174248089944806,
+                0.07729196822601608
+              ],
+              "rate": 0.04,
+              "successes": 8,
+              "trials": 200,
+              "upper95_one_sided": 0.07101416861601978
+            }
+          }
+        }
+      },
+      "primary": {
+        "abstain": {
+          "baseline": 0,
+          "comma_all": 0,
+          "newline_all": 0,
+          "semicolon_all": 0,
+          "semicolon_pairs": 0,
+          "space_all": 0
+        },
+        "any_stress_false_positive": {
+          "ci95": [
+            0.00547556587955645,
+            0.0504136090898963
+          ],
+          "rate": 0.02,
+          "successes": 4,
+          "trials": 200,
+          "upper95_one_sided": 0.045180414994718726
+        },
+        "conditions": {
+          "baseline": {
+            "ci95": [
+              0.0031041076215535097,
+              0.0432082819177126
+            ],
+            "rate": 0.015,
+            "successes": 3,
+            "trials": 200,
+            "upper95_one_sided": 0.03830970849856934
+          },
+          "comma_all": {
+            "ci95": [
+              0.0031041076215535097,
+              0.0432082819177126
+            ],
+            "rate": 0.015,
+            "successes": 3,
+            "trials": 200,
+            "upper95_one_sided": 0.03830970849856934
+          },
+          "newline_all": {
+            "ci95": [
+              0.0031041076215535097,
+              0.0432082819177126
+            ],
+            "rate": 0.015,
+            "successes": 3,
+            "trials": 200,
+            "upper95_one_sided": 0.03830970849856934
+          },
+          "semicolon_all": {
+            "ci95": [
+              0.0031041076215535097,
+              0.0432082819177126
+            ],
+            "rate": 0.015,
+            "successes": 3,
+            "trials": 200,
+            "upper95_one_sided": 0.03830970849856934
+          },
+          "semicolon_pairs": {
+            "ci95": [
+              0.0031041076215535097,
+              0.0432082819177126
+            ],
+            "rate": 0.015,
+            "successes": 3,
+            "trials": 200,
+            "upper95_one_sided": 0.03830970849856934
+          },
+          "space_all": {
+            "ci95": [
+              0.00547556587955645,
+              0.0504136090898963
+            ],
+            "rate": 0.02,
+            "successes": 4,
+            "trials": 200,
+            "upper95_one_sided": 0.045180414994718726
+          }
+        }
+      }
+    }
+  },
+  "binding_runtime_sha256": "5c70ff0a20a7fe42bcb5b433ea503179305c789e09aea54e92febcc68264e511",
+  "decision": "incomplete_positive_comparison",
+  "limitations": [
+    "development_only",
+    "positive_TPR_and_survival_pending",
+    "normal_length_unconfirmed"
+  ],
+  "null_condition_rows": 1200,
+  "null_source_count": 200,
+  "parser_recovery_summary": {
+    "error_events": 4,
+    "fallback_beam_spans": 0,
+    "spans_with_error_events": 4,
+    "spans_with_events": 655,
+    "spans_with_selected_beam_errors": 4,
+    "unique_spans": 23231,
+    "version": "amrlib-recovery-audit:v1",
+    "warning_events": 738
+  },
+  "path_changed_rows": 637,
+  "positive_generated": 0,
+  "positive_slots_frozen": 50,
+  "selected_invalid_edges": 0,
+  "status": "null_complete_pending_generation",
+  "template_changed_spans": 5596
+}

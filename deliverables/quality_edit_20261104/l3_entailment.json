@@ -1,0 +1,708 @@
+{
+  "version": "quality-edit-l3/v1",
+  "summary": {
+    "documents": 30,
+    "model": "deepseek-flash",
+    "selected_rule": "comma_and_join (lowest PPL among those passing L1/L2/L4)",
+    "both_directions_pass": 30,
+    "status_counts": {
+      "response_received": 60,
+      "uncertain": 0,
+      "invalid_response": 0
+    },
+    "cost_at_frozen_prices_usd": 0.00548,
+    "elapsed_seconds": 55.42
+  },
+  "documents": [
+    {
+      "source_id": "benchmark30-c4-validation-250",
+      "source": "Facebook users old enough to remember watching their oxen die while fording a river are part of Facebook. Facebook is the Facebook. Alice Johnson visited a museum. Someone visited a museum named Alice Johnson. Be careful.",
+      "edited": "Facebook users old enough to remember watching their oxen die while fording a river are part of Facebook, and Facebook is the Facebook. Alice Johnson visited a museum. Someone visited a museum named Alice Johnson. Be careful.",
+      "ppl_ratio": 0.9488,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's sentences with identical content, only adding a comma."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Both passages contain identical statements; B states everything A does."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-251",
+      "source": "Start a small farm! Alice Johnson farms in a small area. A small farm of an idea. Start your small farm on the idea of Alice Johnson. Alice Johnson was not started.",
+      "edited": "Start a small farm! Alice Johnson farms in a small area. A small farm of an idea. Start your small farm on the idea of Alice Johnson, and Alice Johnson was not started.",
+      "ppl_ratio": 1.041,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B states all A's information, only joining the final clause with 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Same sentences and information, only punctuation differs."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-252",
+      "source": "Something gave the United Nations a boost. Consider the feeling. The United Nations received a boost in 1945. The United Nations did not receive a boost. Something gave the United Nations a boost.",
+      "edited": "Something gave the United Nations a boost, and consider the feeling. The United Nations received a boost in 1945. The United Nations did not receive a boost. Something gave the United Nations a boost.",
+      "ppl_ratio": 0.9912,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B contains all statements of A, only reordering the first two clauses."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Both passages contain identical statements in different order."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-253",
+      "source": "Something defined transferring from Don Bosco Academy to Quezon City. Define the term for transferring from Don Bosco Academy to Quezon City. What does the term Quezon City mean? Quezon City is defined as something. Something recently defined transferring from Don Bosco Academy to Quezon City.",
+      "edited": "Something defined transferring from Don Bosco Academy to Quezon City. Define the term for transferring from Don Bosco Academy to Quezon City. What does the term Quezon City mean? Quezon City is defined as something, and something recently defined transferring from Don Bosco Academy to Quezon City.",
+      "ppl_ratio": 1.0589,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's information, only merging the final two sentences with 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B states all information in A, only reordering the final sentence."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-254",
+      "source": "The question concerns Alice Smith. The question concerns a concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith.",
+      "edited": "The question concerns Alice Smith, and the question concerns a concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith. Alice, question the concept by Alice Smith.",
+      "ppl_ratio": 1.0292,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's sentences, only merging the first two with 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Same statements, only sentence boundaries differ."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-255",
+      "source": "The committee gave New York a deadline. New York is important to something. New York is important to something. The New York committee is important to something. The New York committee is important to something.",
+      "edited": "The committee gave New York a deadline. New York is important to something. New York is important to something, and the New York committee is important to something. The New York committee is important to something.",
+      "ppl_ratio": 1.0386,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's repeated statements, only joining two with 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B repeats the same statements as A, only differing in repetition count."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-256",
+      "source": "Enjoy the deep lot. Enjoy the deep lot. Enjoy the view. Alice Johnson enjoyed the sunset from the deep lot. Alice Johnson explained the sunset.",
+      "edited": "Enjoy the deep lot. Enjoy the deep lot, and enjoy the view. Alice Johnson enjoyed the sunset from the deep lot. Alice Johnson explained the sunset.",
+      "ppl_ratio": 0.9368,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all A information, only differing by punctuation and conjunction."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all A facts, only duplicating one sentence."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-257",
+      "source": "Alice Johnson traveled to a city. Alice Johnson is very happy. Alice Johnson discovered something. Alice Johnson is very happy about something. Alice Johnson is very happy about something.",
+      "edited": "Alice Johnson traveled to a city, and Alice Johnson is very happy. Alice Johnson discovered something. Alice Johnson is very happy about something. Alice Johnson is very happy about something.",
+      "ppl_ratio": 0.9774,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B states all facts from A, including travel, happiness, discovery, and repeated happiness."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Both passages state identical facts about Alice Johnson."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-258",
+      "source": "The arrest resulted in charges. The arrest resulted in charges. A man faces Moon Township. The arrest resulted in charges. The topic of Moon Township is an idea.",
+      "edited": "The arrest resulted in charges. The arrest resulted in charges. A man faces Moon Township, and the arrest resulted in charges. The topic of Moon Township is an idea.",
+      "ppl_ratio": 1.0527,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all A information, only combining repeated sentences."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B repeats the same statements as A, including all key facts."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-259",
+      "source": "The latest news covers Google now. Did Google not change? Tell the team the latest news about Google. Google launched something in a location. Google recently launched something new.",
+      "edited": "The latest news covers Google now, and did Google not change? Tell the team the latest news about Google. Google launched something in a location. Google recently launched something new.",
+      "ppl_ratio": 0.9826,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's sentences, only differing by adding 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Passages are identical in content; only punctuation differs."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-260",
+      "source": "Guard the blue parakeet. Jake guards somewhere. A guardian guards something. Jake guards somewhere. Jake guards something.",
+      "edited": "Guard the blue parakeet. Jake guards somewhere. A guardian guards something. Jake guards somewhere, and jake guards something.",
+      "ppl_ratio": 0.9583,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all A statements, only combining the final two with 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B states the same facts as A, only splitting the final compound sentence."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-261",
+      "source": "Tell the men the name of the Marlborough bicycle crash. The two men crashed at the Marlborough location. The men named the crash. The bicycle crash in Marlborough was named something at the time. The men named the crash.",
+      "edited": "Tell the men the name of the Marlborough bicycle crash. The two men crashed at the Marlborough location, and the men named the crash. The bicycle crash in Marlborough was named something at the time. The men named the crash.",
+      "ppl_ratio": 1.0198,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B contains all statements from A, only differing by punctuation and conjunction."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B contains all statements from A, only reordered."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-262",
+      "source": "Apple unveiled a new device recently. Apple unveiled a new device. Tell us about the new Apple device. Apple was unveiled recently. Tell us about the new Apple device.",
+      "edited": "Apple unveiled a new device recently, and Apple unveiled a new device. Tell us about the new Apple device. Apple was unveiled recently. Tell us about the new Apple device.",
+      "ppl_ratio": 0.9063,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B contains all statements from A, including the repeated sentences, with no added or missing information."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Passages are identical in content."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-263",
+      "source": "Greg Abbott refused something. Greg Abbott refused something. Greg Abbott. The refusal of Greg Abbott was a refusal to Greg Abbott. Greg Abbott refused something.",
+      "edited": "Greg Abbott refused something. Greg Abbott refused something, and Greg Abbott. The refusal of Greg Abbott was a refusal to Greg Abbott. Greg Abbott refused something.",
+      "ppl_ratio": 0.9236,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B contains all statements from A, only adding a conjunction between existing clauses."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B contains all statements from A, only omitting a duplicate sentence."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-264",
+      "source": "Jere Melo is remembered in Fort Bragg. Jere Melo is remembered in Fort Bragg. Consider the memorial service for Jere Melo. Jere Melo is remembered in 2007. Remember the memorial service for Jere Melo.",
+      "edited": "Jere Melo is remembered in Fort Bragg. Jere Melo is remembered in Fort Bragg. Consider the memorial service for Jere Melo. Jere Melo is remembered in 2007, and remember the memorial service for Jere Melo.",
+      "ppl_ratio": 1.104,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's information, only merging two sentences with 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all information from A, only splitting one sentence."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-265",
+      "source": "A person uses an object. Clarithromycin macrolide antibiotic. Clarithromycin treats an infection. Clarithromycin treats an infection immediately. Clarithromycin macrolide antibiotic.",
+      "edited": "A person uses an object. Clarithromycin macrolide antibiotic. Clarithromycin treats an infection. Clarithromycin treats an infection immediately, and Clarithromycin macrolide antibiotic.",
+      "ppl_ratio": 1.0385,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B contains all statements from A, only differing by punctuation/conjunction."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all facts from A in same order, only sentence boundaries differ."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-266",
+      "source": "Buy the startup. Skyera was bought by the startup. Skyera bought the startup. Skyera is significant to an extent. The company bought something.",
+      "edited": "Buy the startup. Skyera was bought by the startup. Skyera bought the startup, and Skyera is significant to an extent. The company bought something.",
+      "ppl_ratio": 1.036,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's statements, only merging two sentences with 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B states all information from A, only omitting the redundant 'and'."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-267",
+      "source": "Look at the coastal campus. A device observes something. Look at the coastal campus. The coastal campus is about the University of Delaware. Look at the coastal campus.",
+      "edited": "Look at the coastal campus, and a device observes something. Look at the coastal campus. The coastal campus is about the University of Delaware. Look at the coastal campus.",
+      "ppl_ratio": 1.0023,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B states all information from A, including device observation and University of Delaware."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Same statements, only order of two sentences differs."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-268",
+      "source": "Leave the trash topic at Winter Haven Christian Church to irresponsible young adults. John Smith left something. John Smith is very irresponsible. Something was left at John Smith. John Smith is very irresponsible.",
+      "edited": "Leave the trash topic at Winter Haven Christian Church to irresponsible young adults. John Smith left something. John Smith is very irresponsible. Something was left at John Smith, and John Smith is very irresponsible.",
+      "ppl_ratio": 0.9447,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's information, including the repeated irresponsible claims."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Both passages contain identical statements about the trash topic, John Smith, and irresponsibility."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-269",
+      "source": "Edinburg has an age. The Hidalgo County call center provides assistance to Edinburg regarding one weather issue. Edinburg is relevant to weather. The Hidalgo County call center provides assistance to Edinburg regarding a weather issue today. Answer the call center.",
+      "edited": "Edinburg has an age. The Hidalgo County call center provides assistance to Edinburg regarding one weather issue. Edinburg is relevant to weather. The Hidalgo County call center provides assistance to Edinburg regarding a weather issue today, and answer the call center.",
+      "ppl_ratio": 0.8846,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all A information, only merging the final sentence with 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all A information, only rephrasing the final clause as an imperative."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-270",
+      "source": "Seymour VFW Post. Seymour VFW Post means something. Seymour VFW Post means something. Hold a special event. Hold a special event about Seymour VFW Post for the VFW.",
+      "edited": "Seymour VFW Post, and Seymour VFW Post means something. Seymour VFW Post means something. Hold a special event. Hold a special event about Seymour VFW Post for the VFW.",
+      "ppl_ratio": 1.0406,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B repeats all A content, only adding a comma and conjunction."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B contains all statements of A, only omitting the initial 'and'."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-271",
+      "source": "The United Kingdom is an idea about one European Union. The United Kingdom leaving the European Union means something. The United Kingdom proposes an idea. The United Kingdom leaving the European Union means something. An idea about the European Union.",
+      "edited": "The United Kingdom is an idea about one European Union. The United Kingdom leaving the European Union means something. The United Kingdom proposes an idea, and the United Kingdom leaving the European Union means something. An idea about the European Union.",
+      "ppl_ratio": 0.943,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's statements, only combining two sentences with 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's propositions, only splitting one sentence into two."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-272",
+      "source": "Reading that Alice visited France surprised me. Be careful. Read the painkiller instructions. Read the painkiller instructions. Read the instructions about Alice France to Bob.",
+      "edited": "Reading that Alice visited France surprised me. Be careful, and read the painkiller instructions. Read the painkiller instructions. Read the instructions about Alice France to Bob.",
+      "ppl_ratio": 0.8318,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Same information; only punctuation and conjunction wording differ."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B states all information from A, only splitting 'Be careful, and read...' into two sentences."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-273",
+      "source": "Does Deerfield Beach not exist? Deerfield Beach means something to someone. Consider the beach. Consider the beach. Someone named the beach Deerfield Beach.",
+      "edited": "Does Deerfield Beach not exist, and Deerfield Beach means something to someone. Consider the beach. Consider the beach. Someone named the beach Deerfield Beach.",
+      "ppl_ratio": 0.8284,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's claims, only merging the first two sentences with 'and'."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all of A's content, only splitting the first sentence."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-274",
+      "source": "Dustin Dewayne Anders died. Tell Dustin Dewayne Anders about the topic. Dustin Dewayne Anders is the name of something. Dustin Dewayne Anders discussed something. Dustin Dewayne Anders discussed something.",
+      "edited": "Dustin Dewayne Anders died. Tell Dustin Dewayne Anders about the topic. Dustin Dewayne Anders is the name of something. Dustin Dewayne Anders discussed something, and Dustin Dewayne Anders discussed something.",
+      "ppl_ratio": 1.063,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B repeats all statements from A, including the duplicated discussion sentence."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Same statements, only punctuation differs; B repeats the discussion clause identically."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-275",
+      "source": "Peter Higgs is a scientific legend. Explain the topic of Higgs to Peter. Peter Higgs is a scientific legend. Peter Higgs is a renowned scientist to that extent. Peter Higgs is a scientific legend.",
+      "edited": "Peter Higgs is a scientific legend. Explain the topic of Higgs to Peter. Peter Higgs is a scientific legend. Peter Higgs is a renowned scientist to that extent, and Peter Higgs is a scientific legend.",
+      "ppl_ratio": 1.0262,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B repeats A's statements and adds only a conjunction, no new information."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Both passages contain identical statements about Peter Higgs."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-276",
+      "source": "Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth.",
+      "edited": "Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry. Read the article about Philip Roth. Philip Roth changed something into a Wikipedia entry, and read the article about Philip Roth.",
+      "ppl_ratio": 1.2686,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B repeats A's statements and adds only a restatement of reading the article, no new info."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B repeats A's statements; no information omitted, added, or contradicted."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-277",
+      "source": "Buffalo Hospital operated in 2000. Buffalo Hospital operates something. Buffalo Hospital operates something. Buffalo Hospital operated in 2000. Recently, Buffalo Hospital performed a procedure on something.",
+      "edited": "Buffalo Hospital operated in 2000, and Buffalo Hospital operates something. Buffalo Hospital operates something. Buffalo Hospital operated in 2000. Recently, Buffalo Hospital performed a procedure on something.",
+      "ppl_ratio": 1.0174,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B contains all statements from A, including the repeated ones, with no added or missing information."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Both passages contain identical statements in the same order."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-278",
+      "source": "A daughter of Mick Foley is Noelle Foley. Noelle Foley is important to Mick Foley. Noelle Foley talks today. Mick Foley discusses something. One daughter of Mick Foley is Noelle Foley.",
+      "edited": "A daughter of Mick Foley is Noelle Foley, and Noelle Foley is important to Mick Foley. Noelle Foley talks today. Mick Foley discusses something. One daughter of Mick Foley is Noelle Foley.",
+      "ppl_ratio": 1.0206,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B restates all facts from A, only merging first two sentences."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "Both passages contain identical statements; A adds nothing beyond B."
+          }
+        }
+      },
+      "passed": true
+    },
+    {
+      "source_id": "benchmark30-c4-validation-279",
+      "source": "The event defined the Fleming Lady Wildcats. The event defined the Fleming Lady Wildcats. Define the meaning of the event for the Fleming Lady Wildcats. Define the event's topic Fleming Lady Wildcats for the Fleming Lady Wildcats. The Fleming Lady Wildcats event.",
+      "edited": "The event defined the Fleming Lady Wildcats. The event defined the Fleming Lady Wildcats. Define the meaning of the event for the Fleming Lady Wildcats. Define the event's topic Fleming Lady Wildcats for the Fleming Lady Wildcats, and the Fleming Lady Wildcats event.",
+      "ppl_ratio": 0.9994,
+      "directions": {
+        "forward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B repeats all A statements, only differing by 'and' before final phrase."
+          }
+        },
+        "backward": {
+          "status": "response_received",
+          "value": {
+            "entail": true,
+            "reason": "B contains all statements from A, only omitting the final repeated 'and the Fleming Lady Wildcats'."
+          }
+        }
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": "quality-edit-l6/v1",
+  "reused_labels": "deliverables/quality_edit_20261104/reviews_reused/LABELS.json",
+  "reused_labels_sha256": "57f2c77cdcf714ee60596b72675d289c28366d61635420abea74b0bbc31f89a0",
+  "reused_summary_sha256": "3fadc7c21ebddf3bf8d51154970c22338e1fa302aabf86b4ae8d799541e47d04",
+  "reviewer_type": "provider_model",
+  "model": "deepseek-flash",
+  "conditions": {
+    "clean": {
+      "n": 30,
+      "complete": 30,
+      "meaning": 30,
+      "natural": 21,
+      "coherent": 18,
+      "plausible": 22,
+      "all_pass": 18
+    },
+    "joined": {
+      "n": 30,
+      "complete": 30,
+      "meaning": 30,
+      "natural": 1,
+      "coherent": 8,
+      "plausible": 21,
+      "all_pass": 1
+    },
+    "split": {
+      "n": 30,
+      "complete": 30,
+      "meaning": 18,
+      "natural": 0,
+      "coherent": 0,
+      "plausible": 8,
+      "all_pass": 0
+    }
+  },
+  "note": "机械 joined/split 的评审只覆盖旧编辑；新编辑未在本阶段重新送审。"
+}

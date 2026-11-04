@@ -1,0 +1,17 @@
+{
+  "all_bank_component_comparisons": 10400,
+  "calibration_cross_arm_rejection": true,
+  "checkpoint_identity_rejection": true,
+  "code_sha256": {
+    "elastic_v4_path0.py": "6d5fee02c41b7c6b6b7e883810d0ff84a9692609dd31ca1fd0fd9dcf83459dab",
+    "elastic_v4_path0_development.py": "5c2c6a41fc0ce18a2a174885b102be15eac00e1bd9b3e81d7dc96d0f0f9b4e31",
+    "elastic_v4_path0_inputs.py": "55559d4d6d81c48c269d7881a7bd3d95987b7bd3c4bae3b4c1e9acfb8e9bea90",
+    "elastic_v4_path0_preflight.py": "5af50656d4c7880c9df5b40f8609ddf84d3695ac9df672675df69992f6b489ff"
+  },
+  "control_original_identity": true,
+  "different_candidate_identity": true,
+  "dp_oracle_cases": 240,
+  "invalid_edge_and_abstain_contract": true,
+  "nonfinite_rejection": true,
+  "status": "pass"
+}

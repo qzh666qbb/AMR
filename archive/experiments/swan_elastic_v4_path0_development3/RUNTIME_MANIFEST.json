@@ -1,0 +1,110 @@
+{
+  "arms": {
+    "control": {
+      "bank_sha256": "7e51393dacc5473ac9b3d96a12ba2a2591503432277ede174a125864e755a777",
+      "detector": "swan-bank-detector:4ce8e21a29f1c6b4fd55d1af6460e28b79a972bd9a069999fb55aeee21368efd",
+      "parser": "amrlib:a6bb135d6884fca45d0c7ea9f22fc6aa7f9349d3c4672bba115b402a5d707c08",
+      "scorer": "swan-bank-scorer-v3:58a0549cf46c3402ded8dc7b4a63c7fad247095942667796670bf28e444ac54b"
+    },
+    "path0": {
+      "bank_sha256": "7e51393dacc5473ac9b3d96a12ba2a2591503432277ede174a125864e755a777",
+      "detector": "swan-bank-detector:94b7331a409d8dc0cc55cccc9ff0159112d702e6fc220efdfa926e0db2dd6abd",
+      "parser": "amrlib:a6bb135d6884fca45d0c7ea9f22fc6aa7f9349d3c4672bba115b402a5d707c08",
+      "scorer": "swan-bank-scorer-path0:cc2efaef1a7373ad2b06e0893ab94a94b1747b74ec6b8583e798b2dacd8a79b0"
+    }
+  },
+  "calibration": {
+    "abstain_p": 1,
+    "abstain_statistic": -1000000000000.0,
+    "alpha": 0.01,
+    "curve_alphas": [
+      0.001,
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.05
+    ],
+    "full_denominator": true,
+    "word_bins": "original_default_0_80_bucket"
+  },
+  "code_sha256": {
+    "src/core/._elastic_v2.py": "b64072fd635b2ea1c0e64b5686d583ecf4b96448b4bac7dd764d6fd5d36ad4ef",
+    "src/core/._elastic_v2_development.py": "b64072fd635b2ea1c0e64b5686d583ecf4b96448b4bac7dd764d6fd5d36ad4ef",
+    "src/core/._elastic_v3.py": "b64072fd635b2ea1c0e64b5686d583ecf4b96448b4bac7dd764d6fd5d36ad4ef",
+    "src/core/._elastic_v3_development.py": "b64072fd635b2ea1c0e64b5686d583ecf4b96448b4bac7dd764d6fd5d36ad4ef",
+    "src/core/__init__.py": "da3cbec4b92a7f604865ade5d260c8a2245a779a66afe1313adc2174a222921a",
+    "src/core/amr_extractor.py": "5be9ff0d7a3648b63079e7049408001aa92a31873218dde1baa97143d2a1db37",
+    "src/core/bank_detector.py": "7d8f408e1ca2bda8531f5625bcb2eaa555050911a4bea3a9a3afa28cc5b8aad1",
+    "src/core/bank_scorer.py": "80803d83ac9ace75fa8b51c9e4f8d3f0043d0ecb0eb77d7a2f2081ae9bd17988",
+    "src/core/elastic_v2.py": "78add0bc0d7282e43681ae557ec51620c440304810832bd3819094a91f748c12",
+    "src/core/elastic_v2_development.py": "2b3e9ce46df0f9b1680ec0f22def76a5fb647d85b698778e5b41f8ca253b9fc7",
+    "src/core/elastic_v3.py": "e1a4060fc65c49fcbf2e369f732d5e22fa45d5d93217ea175e83f02775ea73fb",
+    "src/core/elastic_v3_development.py": "9afa5f25140762886434a082a94945a61fd3e83847e657154883277be9f3dbac",
+    "src/core/elastic_v4.py": "3d42a292eb5962ba946876627f0eb24a2b926368301223617363f818ea979356",
+    "src/core/elastic_v4_development.py": "fab6fba52e1f764ee1365332b65b7e2261f236d5783c7eefe614bc94fad16254",
+    "src/core/elastic_v4_p2_formal.py": "cda57f1959d47077b2d71cd5e00e0f85c132a8b7517869df7754fa3f8cab4ead",
+    "src/core/elastic_v4_path0.py": "6d5fee02c41b7c6b6b7e883810d0ff84a9692609dd31ca1fd0fd9dcf83459dab",
+    "src/core/elastic_v4_path0_development.py": "8fdee897b5e1931b1088a5006ff9eb04f34a24ccb6312d72b2cdf2e6aaeadcef",
+    "src/core/elastic_v4_path0_inputs.py": "b345c5922b75c3fabe88f004151996f4e73b8f0d02e4a172cfb62930154cbe37",
+    "src/core/elastic_v4_path0_preflight.py": "5af50656d4c7880c9df5b40f8609ddf84d3695ac9df672675df69992f6b489ff",
+    "src/core/formal_null_evaluation.py": "b2c16419eaaaa7f539ca75a640b13f4e05fb7e39a0a7410a4401374a8c84f13b",
+    "src/core/lattice_builder.py": "698c5c7e8bc26a966857587836447556077e4d1be392f092522c7800f3c1ee6d",
+    "src/core/length_boundary_validation.py": "3fa88251d1db4fa6c696d892ff1bfdf7160d43c3efe488fb83756683290e97df",
+    "src/core/mock_scorer.py": "b3a52b6312edc70ba72533d36cfff79bf620bbb4a157c89647a2f6dd65355429",
+    "src/core/models.py": "cb305524742799eccd0434ac5960620cd6190a1f68741d4d9234eacd02e15cdc",
+    "src/core/null_calibration.py": "0fd1185003ad4c881b40fc730649ea8fd7e2e0547570eb5d5cf68df240e994a6",
+    "src/core/parser_recovery_audit.py": "d88bbf887a2be3a32e04805085b876408e4881d034f141abe26a82cb4b38c9cc",
+    "src/core/positive_attack_evaluation.py": "5c4fdfd132c0bd66bad5560009c7b5a8bc3a2ed6efd223dce7812606bacb3db9",
+    "src/core/precompute_amr_cache.py": "ab5c45ccbda6aa434570fd40a36f5431f3159e20df0cd8d9fa30bd543997f71c",
+    "src/core/preflight.py": "b3c8c7f001823fad8dc979a07f48c4847ca5a5a273999c4534abab1d242908ab",
+    "src/core/real_scorer.py": "9283d4dac2a23563c6becd5ed439ba297ac2c2e541112951eeb06786d828484b",
+    "src/core/sqlite_cache.py": "c2e7106be127bf55c7fddc43bb07fc497fed472f43e1c7fdd9957de8913ce914",
+    "src/core/test_integration.py": "de5efdb21f92909eb3c7c3254529a5f94c1b24dd7d02ffa68f7973bcf9fabddd",
+    "src/core/test_phase1.py": "7918f607c2813f425538be03443f105295ad61064b5dda01b639ce7d22cb7d03",
+    "src/core/viterbi_aligner.py": "64c0ad32944ffe7840923b8b154a3a653564a6f19cea65ba78f7ad51ead07b6c"
+  },
+  "configuration": {
+    "backend": "amrlib",
+    "bank": "/workspace/swan-elastic-reconstruct/third_party/SWAN_official_2ca0c207_clean/amr_bank/banks/amr_bank_100.json",
+    "cache_db": "build/swan_elastic_v4_path0_development3.db",
+    "capitalization_gap_words": 12,
+    "command": "run",
+    "device": "cuda",
+    "green_threshold": 0.75,
+    "history_root": "/workspace/swan-elastic-reconstruct",
+    "long_gap_stride_words": 40,
+    "max_boundary_hops": 3,
+    "max_span_words": 80,
+    "model_batch_size": 16,
+    "model_dir": "/workspace/swan-elastic-reconstruct/models/model_parse_xfm_bart_large-v0_1_0",
+    "output_root": "/workspace/swan-elastic-reconstruct/experiments/swan_elastic_v4_path0_development3",
+    "request_batch_size": 128,
+    "score_center": 0.65,
+    "tokenizer_dir": "/workspace/swan-elastic-reconstruct/models/bart-large-tokenizer"
+  },
+  "execution_amendment_sha256": "281516fe3178d22e822af0907227c0e59260b2d124b2cb3be7c3958dcb350e1c",
+  "input_manifest_sha256": "b5c4e1841ee117be548583676e23665dcb3dbc72e0872217b878a503435f8b9a",
+  "model_asset_sha256": {
+    "/workspace/swan-elastic-reconstruct/models/bart-large-tokenizer/config.json": "1ef73a85a141b1c46315c3c0f72c4dc678842c5d198f939510e6543ac847b17b",
+    "/workspace/swan-elastic-reconstruct/models/bart-large-tokenizer/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "/workspace/swan-elastic-reconstruct/models/bart-large-tokenizer/tokenizer.json": "847bbeab6174d66a88898f729d52fa8d355fafe1bea101cf960dd404581df70e",
+    "/workspace/swan-elastic-reconstruct/models/bart-large-tokenizer/tokenizer_config.json": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f",
+    "/workspace/swan-elastic-reconstruct/models/bart-large-tokenizer/vocab.json": "06b4d46c8e752d410213d9548eb27a54db70fda0319b6271fb8d59dead5e1cab",
+    "/workspace/swan-elastic-reconstruct/models/model_parse_xfm_bart_large-v0_1_0/amrlib_meta.json": "b00300d24324b34e12c07b5b2cf6c74799334d59a6feecb4e5c0d38dfb0a914b",
+    "/workspace/swan-elastic-reconstruct/models/model_parse_xfm_bart_large-v0_1_0/config.json": "9fb73729a55302b4ca6e03c1ef2a93610c397f6d87f3ecb919881be700264508",
+    "/workspace/swan-elastic-reconstruct/models/model_parse_xfm_bart_large-v0_1_0/model_parse_xfm_bart_large.json": "697dbf01fe82e2498443a49eb3c9956ffaaff317d8ce6c07098e66658d739334",
+    "/workspace/swan-elastic-reconstruct/models/model_parse_xfm_bart_large-v0_1_0/pytorch_model.bin": "d9bdcde696e63224ba56853469689d2e22e64c324eedee6e48348e806eedd45b"
+  },
+  "protocol_sha256": "486cfda2c82fe08f0a27b1045b580523961457696508a2b0dad3371111d2e56f",
+  "version": "path0-development-v1",
+  "versions": {
+    "amrlib": "0.8.0",
+    "numpy": "2.2.6",
+    "penman": "1.3.1",
+    "python": "3.10.12",
+    "scipy": "1.14.1",
+    "torch": "2.4.1+cu121",
+    "transformers": "4.45.2"
+  }
+}

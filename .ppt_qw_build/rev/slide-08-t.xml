@@ -1,0 +1,103 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="60" topLeftY="36" width="840" height="24">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>06 · STAGE T · 资源工程</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="64" width="840" height="52">
+      <content textType="headline" fontSize="28" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.3">
+        <p>瓶颈在算力预算，不在算法：不放宽门</p>
+      </content>
+    </shape>
+    <line startX="60" startY="124" endX="900" endY="124">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+
+    <shape type="text" topLeftX="60" topLeftY="140" width="44" height="26">
+      <content textType="body" fontSize="16" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>01</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="112" topLeftY="140" width="788" height="26">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p><span bold="true">回答的问题</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="112" topLeftY="170" width="788" height="40">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p>精确计算在大规模样本上缺的到底是什么——算法、实现，还是算力？</p>
+      </content>
+    </shape>
+
+    <shape type="text" topLeftX="60" topLeftY="222" width="44" height="26">
+      <content textType="body" fontSize="16" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>02</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="112" topLeftY="222" width="788" height="26">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p><span bold="true">做了什么 · 怎么做</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="112" topLeftY="252" width="788" height="40">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p>逐层隔离工程假设并分别验证：adapter 差异、Python 状态管理、pair 物化、batch 并行、跨文档复用；每次只动一个变量，预算门不放宽。</p>
+      </content>
+    </shape>
+
+    <shape type="text" topLeftX="60" topLeftY="304" width="44" height="26">
+      <content textType="body" fontSize="16" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>03</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="112" topLeftY="304" width="788" height="26">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p><span bold="true">结果</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="112" topLeftY="334" width="788" height="40">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p>各工程假设均被排除或不足以补足缺口；<span bold="true" color="rgba(42,45,48,1)">外推预算 22.44 / 71.81 GPU-hours，超过 48h 门</span>——真正限制是算力预算，不是算法正确性。</p>
+      </content>
+    </shape>
+
+    <shape type="text" topLeftX="60" topLeftY="386" width="44" height="26">
+      <content textType="body" fontSize="16" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>04</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="112" topLeftY="386" width="788" height="26">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p><span bold="true">启发 · 下一步</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="112" topLeftY="416" width="788" height="40">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p>工程的价值是排除假设、锁定边界，不是凑结果。→ <span bold="true" color="rgba(76,122,90,1)">下一步：真实长跑看 detector 是否健康（进入 U）</span>。</p>
+      </content>
+    </shape>
+
+    <line startX="60" startY="470" endX="900" endY="470">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="482" width="840" height="20">
+      <content textType="caption" fontSize="11" fontFamily="思源宋体" color="rgba(122,138,125,1)">
+        <p>来源：叙事.md Plan T</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>T 阶段回答"缺什么"。逐层隔离工程假设，每次都只动一个变量。</p>
+      <p>adapter、状态管理、pair 物化、batch、跨文档复用都被排除或不足以补足缺口。</p>
+      <p>外推预算超 48 小时门，说明瓶颈在算力，不在算法正确性。</p>
+      <p>启发是工程价值在于排除假设；下一步长跑看 detector 是否健康。</p>
+    </content>
+  </note>
+</slide>

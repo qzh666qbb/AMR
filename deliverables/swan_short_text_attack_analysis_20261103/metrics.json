@@ -1,0 +1,1183 @@
+{
+  "analysis_type": "posthoc_read_only_reanalysis_of_frozen_runs",
+  "new_api_parser_detector_calls": 0,
+  "baseline": {
+    "documents": 30,
+    "sentences_per_document": 5,
+    "words_whitespace": {
+      "min": 17,
+      "median": 30.0,
+      "mean": 30.9,
+      "max": 46
+    },
+    "total_words_whitespace": 927,
+    "mean_words_per_original_sentence": 6.18,
+    "injection_max_tokens_per_sentence": 50,
+    "all_five_injection_accepted": 21,
+    "failed_injection_slots": 13,
+    "model_requested": "deepseek-v4-flash",
+    "model_returned": "deepseek-flash"
+  },
+  "primary_punctuation_only": {
+    "lexical_invariance_verified": 30,
+    "finite_scores_verified": true,
+    "original_equals_restored_n_green_z": 30,
+    "fixed_2_33": {
+      "threshold": 2.33,
+      "escape_by_stage": {
+        "original": {
+          "count": 1,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "clopper_pearson_95": [
+            0.0008435709266493072,
+            0.17216945563341293
+          ]
+        },
+        "merged_sentence": {
+          "count": 30,
+          "n": 30,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.8842966917779725,
+            1.0
+          ]
+        },
+        "merged_rule_clause": {
+          "count": 8,
+          "n": 30,
+          "rate": 0.26666666666666666,
+          "clopper_pearson_95": [
+            0.12279480987236485,
+            0.4588936513947741
+          ]
+        },
+        "merged_exact_clause": {
+          "count": 1,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "clopper_pearson_95": [
+            0.0008435709266493072,
+            0.17216945563341293
+          ]
+        }
+      },
+      "conditional_new_evasion": {
+        "count": 29,
+        "n": 29,
+        "rate": 1.0,
+        "clopper_pearson_95": [
+          0.8805551309302788,
+          1.0
+        ]
+      },
+      "new_evasion_over_full_cohort": {
+        "count": 29,
+        "n": 30,
+        "rate": 0.9666666666666667,
+        "clopper_pearson_95": [
+          0.827830544366587,
+          0.9991564290733507
+        ]
+      },
+      "detection_restored_among_new_evasions": 29,
+      "discordant_pairs": {
+        "detection_lost": 29,
+        "detection_gained": 0
+      },
+      "mcnemar_exact_two_sided_p": 3.725290298461914e-09
+    },
+    "existing_calibrated_threshold": {
+      "threshold": 1.8073922282301278,
+      "escape_by_stage": {
+        "original": {
+          "count": 1,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "clopper_pearson_95": [
+            0.0008435709266493072,
+            0.17216945563341293
+          ]
+        },
+        "merged_sentence": {
+          "count": 30,
+          "n": 30,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.8842966917779725,
+            1.0
+          ]
+        },
+        "merged_rule_clause": {
+          "count": 2,
+          "n": 30,
+          "rate": 0.06666666666666667,
+          "clopper_pearson_95": [
+            0.008178134460656279,
+            0.22073540152296212
+          ]
+        },
+        "merged_exact_clause": {
+          "count": 1,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "clopper_pearson_95": [
+            0.0008435709266493072,
+            0.17216945563341293
+          ]
+        }
+      },
+      "conditional_new_evasion": {
+        "count": 29,
+        "n": 29,
+        "rate": 1.0,
+        "clopper_pearson_95": [
+          0.8805551309302788,
+          1.0
+        ]
+      },
+      "new_evasion_over_full_cohort": {
+        "count": 29,
+        "n": 30,
+        "rate": 0.9666666666666667,
+        "clopper_pearson_95": [
+          0.827830544366587,
+          0.9991564290733507
+        ]
+      },
+      "detection_restored_among_new_evasions": 29,
+      "discordant_pairs": {
+        "detection_lost": 29,
+        "detection_gained": 0
+      },
+      "mcnemar_exact_two_sided_p": 3.725290298461914e-09
+    },
+    "all_five_accepted_sensitivity": {
+      "threshold": 2.33,
+      "escape_by_stage": {
+        "original": {
+          "count": 0,
+          "n": 21,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.1610976152190796
+          ]
+        },
+        "merged_sentence": {
+          "count": 21,
+          "n": 21,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.8389023847809204,
+            1.0
+          ]
+        },
+        "merged_rule_clause": {
+          "count": 3,
+          "n": 21,
+          "rate": 0.14285714285714285,
+          "clopper_pearson_95": [
+            0.030488967621516514,
+            0.3634239870169809
+          ]
+        },
+        "merged_exact_clause": {
+          "count": 0,
+          "n": 21,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.1610976152190796
+          ]
+        }
+      },
+      "conditional_new_evasion": {
+        "count": 21,
+        "n": 21,
+        "rate": 1.0,
+        "clopper_pearson_95": [
+          0.8389023847809204,
+          1.0
+        ]
+      },
+      "new_evasion_over_full_cohort": {
+        "count": 21,
+        "n": 21,
+        "rate": 1.0,
+        "clopper_pearson_95": [
+          0.8389023847809204,
+          1.0
+        ]
+      },
+      "detection_restored_among_new_evasions": 21,
+      "discordant_pairs": {
+        "detection_lost": 21,
+        "detection_gained": 0
+      },
+      "mcnemar_exact_two_sided_p": 9.5367431640625e-07
+    },
+    "score_distributions": {
+      "original": {
+        "2.840187787218772": 1,
+        "3.8729833462074166": 28,
+        "1.8073922282301278": 1
+      },
+      "merged_sentence": {
+        "-0.5773502691896258": 30
+      },
+      "merged_rule_clause": {
+        "2.3094010767585034": 6,
+        "3.8729833462074166": 19,
+        "3.464101615137755": 2,
+        "0.3333333333333333": 1,
+        "3.0": 1,
+        "1.8073922282301278": 1
+      },
+      "merged_exact_clause": {
+        "2.840187787218772": 1,
+        "3.8729833462074166": 28,
+        "1.8073922282301278": 1
+      }
+    },
+    "rows_numeric_only": [
+      {
+        "case": "case_01",
+        "baseline_words_whitespace": 36,
+        "all_five_injection_accepted": false,
+        "original": {
+          "n": 5,
+          "green": 4,
+          "z": 2.840187787218772
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 4,
+          "green": 3,
+          "z": 2.3094010767585034
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 4,
+          "z": 2.840187787218772
+        }
+      },
+      {
+        "case": "case_02",
+        "baseline_words_whitespace": 32,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_03",
+        "baseline_words_whitespace": 33,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 4,
+          "green": 4,
+          "z": 3.464101615137755
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_04",
+        "baseline_words_whitespace": 46,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_05",
+        "baseline_words_whitespace": 34,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_06",
+        "baseline_words_whitespace": 35,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_07",
+        "baseline_words_whitespace": 25,
+        "all_five_injection_accepted": false,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 4,
+          "green": 3,
+          "z": 2.3094010767585034
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_08",
+        "baseline_words_whitespace": 29,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_09",
+        "baseline_words_whitespace": 28,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_10",
+        "baseline_words_whitespace": 29,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_11",
+        "baseline_words_whitespace": 17,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 3,
+          "green": 1,
+          "z": 0.3333333333333333
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_12",
+        "baseline_words_whitespace": 39,
+        "all_five_injection_accepted": false,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_13",
+        "baseline_words_whitespace": 29,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_14",
+        "baseline_words_whitespace": 25,
+        "all_five_injection_accepted": false,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 4,
+          "green": 3,
+          "z": 2.3094010767585034
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_15",
+        "baseline_words_whitespace": 34,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_16",
+        "baseline_words_whitespace": 20,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 3,
+          "green": 3,
+          "z": 3.0
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_17",
+        "baseline_words_whitespace": 23,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 4,
+          "green": 3,
+          "z": 2.3094010767585034
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_18",
+        "baseline_words_whitespace": 28,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_19",
+        "baseline_words_whitespace": 33,
+        "all_five_injection_accepted": false,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_20",
+        "baseline_words_whitespace": 40,
+        "all_five_injection_accepted": false,
+        "original": {
+          "n": 5,
+          "green": 3,
+          "z": 1.8073922282301278
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 3,
+          "z": 1.8073922282301278
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 3,
+          "z": 1.8073922282301278
+        }
+      },
+      {
+        "case": "case_21",
+        "baseline_words_whitespace": 28,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 4,
+          "green": 4,
+          "z": 3.464101615137755
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_22",
+        "baseline_words_whitespace": 40,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_23",
+        "baseline_words_whitespace": 25,
+        "all_five_injection_accepted": false,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 4,
+          "green": 3,
+          "z": 2.3094010767585034
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_24",
+        "baseline_words_whitespace": 23,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 4,
+          "green": 3,
+          "z": 2.3094010767585034
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_25",
+        "baseline_words_whitespace": 29,
+        "all_five_injection_accepted": false,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_26",
+        "baseline_words_whitespace": 34,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_27",
+        "baseline_words_whitespace": 34,
+        "all_five_injection_accepted": false,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_28",
+        "baseline_words_whitespace": 26,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_29",
+        "baseline_words_whitespace": 31,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      },
+      {
+        "case": "case_30",
+        "baseline_words_whitespace": 42,
+        "all_five_injection_accepted": true,
+        "original": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_sentence": {
+          "n": 1,
+          "green": 0,
+          "z": -0.5773502691896258
+        },
+        "merged_rule_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        },
+        "merged_exact_clause": {
+          "n": 5,
+          "green": 5,
+          "z": 3.8729833462074166
+        }
+      }
+    ]
+  },
+  "three_arms_same_30_sources": {
+    "plain_paraphrase": {
+      "quality_pass_candidates": 94,
+      "candidate_count": 120,
+      "selected_lexically_identical_to_source": {
+        "feedback": 0,
+        "no_feedback": 1
+      },
+      "feedback": {
+        "historical_all_sources": {
+          "count": 2,
+          "n": 30,
+          "rate": 0.06666666666666667,
+          "clopper_pearson_95": [
+            0.008178134460656279,
+            0.22073540152296212
+          ]
+        },
+        "conditional_new_evasion": {
+          "count": 1,
+          "n": 29,
+          "rate": 0.034482758620689655,
+          "clopper_pearson_95": [
+            0.0008726468835971072,
+            0.17764429548841465
+          ]
+        }
+      },
+      "no_feedback": {
+        "historical_all_sources": {
+          "count": 2,
+          "n": 30,
+          "rate": 0.06666666666666667,
+          "clopper_pearson_95": [
+            0.008178134460656279,
+            0.22073540152296212
+          ]
+        },
+        "conditional_new_evasion": {
+          "count": 1,
+          "n": 29,
+          "rate": 0.034482758620689655,
+          "clopper_pearson_95": [
+            0.0008726468835971072,
+            0.17764429548841465
+          ]
+        }
+      }
+    },
+    "boundary_only": {
+      "quality_pass_candidates": 115,
+      "candidate_count": 120,
+      "selected_lexically_identical_to_source": {
+        "feedback": 0,
+        "no_feedback": 0
+      },
+      "feedback": {
+        "historical_all_sources": {
+          "count": 30,
+          "n": 30,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.8842966917779725,
+            1.0
+          ]
+        },
+        "conditional_new_evasion": {
+          "count": 29,
+          "n": 29,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.8805551309302788,
+            1.0
+          ]
+        }
+      },
+      "no_feedback": {
+        "historical_all_sources": {
+          "count": 29,
+          "n": 30,
+          "rate": 0.9666666666666667,
+          "clopper_pearson_95": [
+            0.827830544366587,
+            0.9991564290733507
+          ]
+        },
+        "conditional_new_evasion": {
+          "count": 28,
+          "n": 29,
+          "rate": 0.9655172413793104,
+          "clopper_pearson_95": [
+            0.8223557045115856,
+            0.9991273531164029
+          ]
+        }
+      }
+    },
+    "full_e2": {
+      "quality_pass_candidates": 85,
+      "candidate_count": 120,
+      "selected_lexically_identical_to_source": {
+        "feedback": 0,
+        "no_feedback": 0
+      },
+      "feedback": {
+        "historical_all_sources": {
+          "count": 16,
+          "n": 30,
+          "rate": 0.5333333333333333,
+          "clopper_pearson_95": [
+            0.3432552381608776,
+            0.7165819208164624
+          ]
+        },
+        "conditional_new_evasion": {
+          "count": 15,
+          "n": 29,
+          "rate": 0.5172413793103449,
+          "clopper_pearson_95": [
+            0.3253149963610564,
+            0.7055144170482216
+          ]
+        }
+      },
+      "no_feedback": {
+        "historical_all_sources": {
+          "count": 10,
+          "n": 30,
+          "rate": 0.3333333333333333,
+          "clopper_pearson_95": [
+            0.1728742215260393,
+            0.5281200447898805
+          ]
+        },
+        "conditional_new_evasion": {
+          "count": 9,
+          "n": 29,
+          "rate": 0.3103448275862069,
+          "clopper_pearson_95": [
+            0.15284593960863158,
+            0.5083233538099897
+          ]
+        }
+      }
+    }
+  },
+  "existing_human_test_reference": {
+    "sentence": {
+      "threshold": 1.8073922282301278,
+      "empirical_calibration_fpr": 0.008,
+      "test_false_positives": {
+        "count": 3,
+        "n": 250,
+        "rate": 0.012,
+        "clopper_pearson_95": [
+          0.0024815582547029315,
+          0.03466661457474446
+        ]
+      }
+    },
+    "clause": {
+      "threshold": 1.8073922282301278,
+      "empirical_calibration_fpr": 0.008,
+      "test_false_positives": {
+        "count": 5,
+        "n": 250,
+        "rate": 0.02,
+        "clopper_pearson_95": [
+          0.006525070002029254,
+          0.04605357715381812
+        ]
+      }
+    }
+  },
+  "historical_k4_supplement": {
+    "model_quality_valid_escape": {
+      "count": 191,
+      "n": 250,
+      "rate": 0.764,
+      "clopper_pearson_95": [
+        0.7064007550707685,
+        0.815222701268489
+      ]
+    },
+    "original_sentence_count_4_to_6": 239,
+    "not_pooled_with_primary_cohort": true
+  }
+}

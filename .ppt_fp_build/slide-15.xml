@@ -1,0 +1,110 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="60" topLeftY="36" width="840" height="24">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>13 · CLOSED LOOP · PLAN F–P</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="64" width="840" height="48">
+      <content textType="headline" fontSize="30" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p>一条连续的启发链：每一环都通向下一环</p>
+      </content>
+    </shape>
+    <line startX="60" startY="120" endX="900" endY="120">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+
+    <shape type="text" topLeftX="60" topLeftY="138" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>F</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="138" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">口径重排</span>：历史 99.6% 其实是质量混杂的覆盖率 → <span bold="true">统一口径后 76.4%</span>，一切机制结论都需要独立实验</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="188" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>G/H</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="188" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">独立确认</span>：三臂排序 30/30 &gt; 16/30 &gt; 2/30；A-B-A 双向翻转 p=3.73e-9 → <span bold="true">句界是触发变量</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="238" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>I/J</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="238" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">边界诊断</span>：统计路径（N 上限）与表示路径（图稀释）分开；KGW 0/30、SynthID 1/30 → <span bold="true">SWAN 系统特异，转向防御</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="288" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>K</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="288" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">防御探索</span>：四条路线均未达预注册门 → <span bold="true">当前无有效分割无关防御</span>，须先有正常长度合格正例</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="338" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>L/M</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="338" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">正常长度审计</span>：无自然拆分点、oracle 批次不合格；文献已覆盖同类工作 → <span bold="true">定位收敛为 SWAN 系统审计</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="388" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>N/O</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="388" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">正例 pilot</span>：final1 质量 0/6、source-anchored 结构 5/8，均分支 C → <span bold="true">两条生成路线都不合格，需换工程策略</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="438" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>P</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="438" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">定向工程</span>：53 词 z=5.48、126 词 z=7.75 → <span bold="true">可行性成立，但缺锚定/真人评审/经验 FPR，不解锁正式实验</span></p>
+      </content>
+    </shape>
+
+    <line startX="60" startY="490" endX="900" endY="490">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="500" width="840" height="26">
+      <content textType="caption" fontSize="12" fontFamily="思源宋体" color="rgba(122,138,125,1)">
+        <p>全部阶段均按预注册协议与 Stop 门执行；来源：叙事.md Plan F–P、各实验 CONCLUSION/PILOT_CONCLUSION</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>最后把 F 到 P 连成一条启发链：F 统一口径，G/H 确认句界是触发变量，I/J 拆分机制并界定 SWAN 特异性。</p>
+      <p>K 的防御尝试全部负结果，L/M 表明短文本不能外推、文献已覆盖同类工作，因此定位收敛为 SWAN 系统审计。</p>
+      <p>N/O 两条正例生成 pilot 都因质量或结构门进入分支 C，P 用定向工程证明可检出正例可行但缺正式证据。</p>
+      <p>整条链的每一环都直接决定下一环做什么，没有一个阶段是孤立的。</p>
+    </content>
+  </note>
+</slide>

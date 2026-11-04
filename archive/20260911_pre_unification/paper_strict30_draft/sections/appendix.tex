@@ -1,0 +1,72 @@
+Table~\ref{tab:app_main} restates the main robustness result in compact form.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lr}
+\toprule
+Quantity & Value \\
+\midrule
+Stable strict valid ASR & 30.0\% \\
+95\% CI & [14.7\%, 49.4\%] \\
+Threshold plateau & 0.65--0.80 \\
+Full-repeatability mixed flips & 0 \\
+Full-repeatability stable candidates & 120/120 \\
+\bottomrule
+\end{tabular}
+\caption{Main results and robustness summary.}
+\label{tab:app_main}
+\end{table}
+
+Table~\ref{tab:app_baseline} gives the baseline comparison in expanded form.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lrrrrr}
+\toprule
+Method & n & Mean z & Escape rate & 95\% CI & AUROC \\
+\midrule
+Baseline pilot 30x5 & 30 & 3.473 & 13.3\% & [3.8\%, 30.7\%] & 0.998 \\
+Baseline formal 250x5 & 250 & 3.439 & 10.8\% & [7.2\%, 15.3\%] & 0.985 \\
+Proposed stable strict & 30 & -- & 30.0\% & [14.7\%, 49.4\%] & -- \\
+\bottomrule
+\end{tabular}
+\caption{Baseline comparison with uncertainty reporting.}
+\label{tab:app_baseline}
+\end{table}
+
+Table~\ref{tab:app_ablation} repeats the prompt-component ablation.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Method & Mean attack z & Mean z drop & Escape rate & AUROC \\
+\midrule
+Weak paraphrase & 2.526 & 0.645 & 33.3\% & 0.934 \\
+No boundary change & 2.268 & 0.903 & 40.0\% & 0.906 \\
+Boundary only & 0.166 & 3.005 & 93.3\% & 0.828 \\
+Full E2 & 1.208 & 1.963 & 73.3\% & 0.903 \\
+\bottomrule
+\end{tabular}
+\caption{Prompt-component ablation.}
+\label{tab:app_ablation}
+\end{table}
+
+Table~\ref{tab:app_failure} summarizes the qualitative failure/quality analysis.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lccc}
+\toprule
+Method & Mean quality & Quality $\geq 4$ & Major-error rate \\
+\midrule
+Plain paraphrase & 4.43 & 79.4\% & 0.0\% \\
+Sentence boundary & 4.24 & 72.7\% & 3.0\% \\
+AMR guided & 3.63 & 57.6\% & 9.1\% \\
+\bottomrule
+\end{tabular}
+\caption{Failure and quality summary across rewriting strategies.}
+\label{tab:app_failure}
+\end{table}
+
+Taken together, these tables show the central tradeoff repeatedly: the strongest raw detector reduction is not the same as the strongest defensible attack. That distinction is the main reason the paper reports both raw escape and strict-valid success.

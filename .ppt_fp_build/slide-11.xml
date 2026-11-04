@@ -1,0 +1,82 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="60" topLeftY="36" width="840" height="24">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>09 · PLAN L / M · 正常长度审计与定位收敛</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="64" width="840" height="52">
+      <content textType="headline" fontSize="30" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left" lineSpacing="multiple:1.25">
+        <p>L/M · 短文本效应不能外推到正常长度</p>
+      </content>
+    </shape>
+    <line startX="60" startY="124" endX="900" endY="124">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+
+    <shape type="text" topLeftX="60" topLeftY="144" width="400" height="30">
+      <content textType="sub-headline" fontSize="18" fontFamily="思源宋体" color="rgba(42,45,48,1)">
+        <p>L · 句数守恒审计</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="186" width="400" height="260">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.55">
+        <p><span bold="true">做了什么</span>：构造"一处合并 + 一处自然拆分"的句数守恒变换，保持总检测单元数 N 不变，隔离超出 sqrt(N) 统计上限的效应</p>
+        <p><span bold="true">对象</span>：30 段确认基线，平均 30.9 词、固定五句</p>
+        <p><span bold="true">结果</span>：找到 23/30 个相邻合并位置，但<span bold="true" color="rgba(42,45,48,1)">没有找到任何满足自然性标准的拆分位置</span>，实验在调用 parser/检测器之前停止</p>
+        <p><span bold="true">后续</span>：跨文档 oracle 组合可形成 144–181 词批次并观察到部分阈值下降，但跨主题、质量不合格，只作机制压力测试</p>
+      </content>
+    </shape>
+
+    <line startX="480" startY="124" endX="480" endY="480" dashArray="dash">
+      <border color="rgba(42,45,48,0.25)" width="1"/>
+    </line>
+
+    <shape type="text" topLeftX="500" topLeftY="144" width="400" height="30">
+      <content textType="sub-headline" fontSize="18" fontFamily="思源宋体" color="rgba(42,45,48,1)">
+        <p>M · 文献核验与定位收敛</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="500" topLeftY="186" width="400" height="200">
+      <content textType="body" fontSize="15" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.55">
+        <p><span bold="true">核验发现</span>：AliMark 已讨论句子拆分/合并/重构对齐；SwordStamp/EDA 已研究零词汇重分句、检测单元数对 z 统计量的影响、确定性子句检测</p>
+        <p><span bold="true">放弃的声称</span>：首次提出句界攻击、首次发现 sqrt(N) 效应、首次提出重分句防御</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="500" topLeftY="396" width="400" height="66">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(110,120,114,1)" textAlign="left" lineSpacing="multiple:1.5">
+        <p><span bold="true" color="rgba(42,45,48,1)">保留的增量</span>：针对 SWAN 这一具体 AMR 水印系统的受控审计——固定模板库、词汇与词序不变且结果可逆的句界反例</p>
+      </content>
+    </shape>
+
+    <shape type="rect" topLeftX="60" topLeftY="452" width="840" height="2">
+      <fill><fillColor color="rgba(76,122,90,1)"/></fill>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="462" width="840" height="22">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p><span bold="true" color="rgba(76,122,90,1)">启发 → 下一步</span>　验证"正常长度效应"必须先有正常长度、质量合格的 SWAN 正例 → 进入 N/O 正例生成 pilot</p>
+      </content>
+    </shape>
+    <line startX="60" startY="486" endX="900" endY="486">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="496" width="840" height="26">
+      <content textType="caption" fontSize="12" fontFamily="思源宋体" color="rgba(122,138,125,1)">
+        <p>来源：叙事.md Plan L / Plan M；oracle 批次不作正常长度自然文档确认结果</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>Plan L 想构造句数守恒的变换来隔离 N 效应，但 30 段里虽然找得到合并位置，却找不到任何自然的拆分位置，实验在调用解析器之前就停止了。</p>
+      <p>跨文档组合批次虽然能看到阈值下降，但跨主题、质量不合格，只能作为压力测试。</p>
+      <p>Plan M 做文献核验：AliMark、SwordStamp 已经覆盖了句子拆分合并、重分句和检测单元数效应，所以我们放弃首次性的声称。</p>
+      <p>保留的增量是对 SWAN 这个具体系统的受控审计。要继续验证正常长度，必须先有质量合格的 SWAN 正例。</p>
+    </content>
+  </note>
+</slide>

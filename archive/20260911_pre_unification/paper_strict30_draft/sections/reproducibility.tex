@@ -1,0 +1,14 @@
+The repository preserves the intermediate scores and analysis outputs needed to reconstruct the paper's central claims. In particular, the released bundle records the 9/30 paragraph-level strict successes, the 16/120 candidate-level strict successes, the exact confidence intervals, the threshold sweep, and all 50-repeat stability decisions. The distinction between source paragraphs, generated candidates, and selected candidates is retained in these artifacts so that each reported denominator can be audited directly.
+
+The fixed experimental constants are a detector threshold of 2.33, a feedback-search threshold of 0.65, a sensitivity range of 0.50--0.80, and 50 recomputations for both the strict subset and the full 120-candidate audit. The stored candidate texts are used when checking detector stability; otherwise generation variance and detector variance are mixed in the same measurement.
+
+The analysis pipeline is organized around four primary scripts:
+\begin{itemize}[leftmargin=*]
+  \item \texttt{scripts/analyze\_baseline\_comparison.py} constructs the detector-aligned baseline table;
+  \item \texttt{scripts/analyze\_best\_observed\_frontier.py} computes the candidate-budget frontier;
+  \item \texttt{scripts/build\_final\_paper\_bundle.py} consolidates the strict, sensitivity, and repeatability outputs;
+  \item \texttt{scripts/build\_paper\_assets.py} renders the tables and figures used in the manuscript.
+\end{itemize}
+Separate repeatability scripts preserve the strict-subset and full-candidate audits. Machine-readable JSON files are stored alongside human-readable Markdown summaries and plots, allowing reported values to be checked without extracting them from figures.
+
+For an independent reproduction, use the following order: verify the fixed candidate inventory and paragraph identifiers; recompute detector scores; apply the detector and quality predicates without retuning; aggregate candidates to paragraph-level success; compute exact binomial intervals; and only then run threshold and repeatability analyses. This ordering prevents information from the sensitivity study from leaking into the choice of the headline configuration.

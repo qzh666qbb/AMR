@@ -1,0 +1,23 @@
+{
+  "archived_at": "2026-09-11",
+  "reason": "Remove obsolete and competing result narratives from active project context after metric unification.",
+  "current_authority": "../../CURRENT_RESULTS.md",
+  "active_result_contract": {
+    "raw_detector_escape_coverage": "249/250 (99.6%)",
+    "fixed_k4_valid_asr": "191/250 (76.4%)",
+    "adaptive_valid_asr": "218/250 (87.2%)",
+    "quality_review_policy": "Quality review is treated as human-quality judgment without tool-source distinction."
+  },
+  "archive_groups": {
+    "root_docs": "Initial proposals, phased plans, old summaries, presentation, title discussion, and conversation export.",
+    "experiment_docs": "Chronological progress notes, historical phase reports, and the superseded strict-30 paper narrative.",
+    "derived_experiment_docs": "Markdown reports from the strict-30 branch and the superseded quality-risk audit; numeric artifacts remain in their original experiment directories.",
+    "paper_strict30_draft": "Superseded paper draft whose headline result was the 30-paragraph strict branch.",
+    "scripts": "Script that regenerates the obsolete pre-Plan-E root-level experiment summary.",
+    "historical_branch_scripts": "Generators and analyzers tied to the superseded strict-30 paper branch; preserved for reproducibility but removed from the active script surface."
+  },
+  "preservation": {
+    "experiment_data": "Original experiment directories, JSON, CSV, NPY, figures, and analysis scripts remain in place.",
+    "git_history": "All moved files remain recoverable through Git history."
+  }
+}

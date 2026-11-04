@@ -1,0 +1,10 @@
+{
+  "ok": false,
+  "identity": "user",
+  "error": {
+    "type": "validation",
+    "subtype": "invalid_argument",
+    "message": "output file already exists: exports/可验证的重分句鲁棒性评估_SemStamp与SimMark研究结论_Q-W.pptx (use --overwrite to replace)",
+    "hint": "the export artifact is already ready (ticket=7694550350435258424, file_token=E2Rfb1UYsoicdsxI0KrmcKD0yrb)\nretry download with: lark-cli drive +export-download --file-token \"E2Rfb1UYsoicdsxI0KrmcKD0yrb\" --file-name \"可验证的重分句鲁棒性评估_SemStamp与SimMark研究结论_Q-W.pptx\" --output-dir \"exports\""
+  }
+}

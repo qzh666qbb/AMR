@@ -1,0 +1,111 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgb(244,246,241)"/>
+    </fill>
+  </style>
+  <data>
+    <shape type="text" topLeftX="60" topLeftY="36" width="840" height="24">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(122,138,125,1)" letterSpacing="2" wrap="false">
+        <p>24 · CLOSED LOOP · PLAN Q–W</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="64" width="840" height="48">
+      <content textType="headline" fontSize="30" fontFamily="思源宋体" color="rgba(42,45,48,1)" textAlign="left">
+        <p>certificate 证据流：一条收敛的启发链</p>
+      </content>
+    </shape>
+    <line startX="60" startY="120" endX="900" endY="120">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+
+    <shape type="text" topLeftX="60" topLeftY="138" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>Q</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="138" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">立项审计</span>：广义 unitization 依赖被邻近工作覆盖 → <span bold="true">No-Go，问题收窄为最坏划分证书</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="188" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>R</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="188" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">算法与统计预检</span>：DP=oracle 全一致、99,980 null 上 80 门全过（最大上界 7.465%）→ <span bold="true">软件证据成立，待真实系统</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="238" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>S</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="238" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">远端复现</span>：RTX 3090 上 SemStamp 258 / SimMark 240 等价门全一致，但旧资产资格流失 → <span bold="true">接口可信，资产需重建</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="288" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>T</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="288" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">资源工程</span>：v2–v8 逐层排除 adapter/状态/pair 物化/batch/复用 → <span bold="true">瓶颈是算力预算，不是算法</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="338" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>U</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="338" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">长跑健康</span>：SimMark 四项主门失败、SemStamp P0 上界 10.88% 早停 → <span bold="true">正式证书前必须先确认 detector 健康</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="388" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>V</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="388" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">资产重建</span>：v11 定位根因、v13–v15 三次 Stop、v16 补足 → <span bold="true">1,000 条 positive 身份闭合，H0 通过</span></p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="438" width="60" height="44">
+      <content textType="body" fontSize="20" fontFamily="Inter" color="rgba(76,122,90,1)" textAlign="left" wrap="false">
+        <p>W</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="110" topLeftY="438" width="790" height="44">
+      <content textType="body" fontSize="14" fontFamily="思源宋体" color="rgba(77,90,83,1)" textAlign="left" lineSpacing="multiple:1.4">
+        <p><span bold="true" color="rgba(42,45,48,1)">终局</span>：B0 Go（FPR 上界 5.95%、TPR 下界 94.16%）；B1 Stop（78.6M pair、86.65 GPU-h）→ <span bold="true">实现与预算不足，非鲁棒性结论</span></p>
+      </content>
+    </shape>
+
+    <line startX="60" startY="490" endX="900" endY="490">
+      <border color="rgba(42,45,48,0.2)" width="1"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="500" width="840" height="26">
+      <content textType="caption" fontSize="12" fontFamily="思源宋体" color="rgba(122,138,125,1)">
+        <p>终态：CR01–CR05 支持、CR06 不支持、CR07 支持、CR08 未执行；与 SWAN 证据流统一进入同一篇 TMLR 稿，证据隔离、不互证；实验全部停止，远端无活动进程</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body">
+      <p>最后一页把 Q 到 W 连成一条链。Q 把问题收窄成证书问题，R 证明算法与统计软件可靠。</p>
+      <p>S 证明官方接口复现一致但旧资产流失，T 排除所有工程假设、定位到算力预算。</p>
+      <p>U 确立 detector 健康优先，V 重建出 1,000 条身份闭合的 positive，W 在 B0 Go、B1 Stop 处收口。</p>
+      <p>证据裁决上，DP 正确性、校准、接口类和 B0 健康获得支持，SimMark 健康失败不支持，B1 未执行。</p>
+      <p>这条证据流与 SWAN 审计统一进入同一篇 TMLR 稿件，证据隔离、不互相补证，实验全部停止。</p>
+    </content>
+  </note>
+</slide>

@@ -1,0 +1,25 @@
+{
+  "all_bank_component_comparisons": 10400,
+  "calibration_cross_arm_rejection": true,
+  "checkpoint_identity_rejection": true,
+  "code_sha256": {
+    "elastic_v4_path0.py": "6d5fee02c41b7c6b6b7e883810d0ff84a9692609dd31ca1fd0fd9dcf83459dab",
+    "elastic_v4_path0_development.py": "8fdee897b5e1931b1088a5006ff9eb04f34a24ccb6312d72b2cdf2e6aaeadcef",
+    "elastic_v4_path0_inputs.py": "b345c5922b75c3fabe88f004151996f4e73b8f0d02e4a172cfb62930154cbe37",
+    "elastic_v4_path0_preflight.py": "5af50656d4c7880c9df5b40f8609ddf84d3695ac9df672675df69992f6b489ff"
+  },
+  "control_original_identity": true,
+  "dependency_versions": {
+    "amrlib": "0.8.0",
+    "numpy": "2.2.6",
+    "penman": "1.3.1",
+    "scipy": "1.14.1",
+    "torch": "2.4.1+cu121",
+    "transformers": "4.45.2"
+  },
+  "different_candidate_identity": true,
+  "dp_oracle_cases": 240,
+  "invalid_edge_and_abstain_contract": true,
+  "nonfinite_rejection": true,
+  "status": "pass"
+}

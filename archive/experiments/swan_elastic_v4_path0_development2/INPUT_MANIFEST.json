@@ -1,0 +1,54 @@
+{
+  "counts": {
+    "calibration": {
+      "0": 250,
+      "1": 250,
+      "2": 250,
+      "3": 250
+    },
+    "null": {
+      "0": 50,
+      "1": 50,
+      "2": 50,
+      "3": 50
+    },
+    "positive_source": {
+      "0": 13,
+      "1": 13,
+      "2": 12,
+      "3": 12
+    }
+  },
+  "cross_set_identity_overlap": 0,
+  "history_sha256": {
+    "LOCAL_HISTORY.json": "2e92196b31d23a4c84c7a2a3ff596f69d9e16b122568cc0dc10b19c5586fdfdc",
+    "REMOTE_HISTORY.json": "948bc7ef3ce2b142dfece9808b5fcdbedc3c7f45875a7b613b70c0669e2d98cd"
+  },
+  "outputs": {
+    "calibration": {
+      "count": 1000,
+      "path": "sealed/calibration.jsonl",
+      "sha256": "8fef3fa016146a0cdba7324d46f1641fca6491cd9172451cd5728cbbe715013d"
+    },
+    "null": {
+      "count": 200,
+      "path": "sealed/null.jsonl",
+      "sha256": "98651abd3526f936e7cde7ec06dbb6cb1419325d154b5928abdd07a3f02e1c87"
+    },
+    "positive_source": {
+      "count": 50,
+      "path": "sealed/positive_source.jsonl",
+      "sha256": "132da3b63fc3940c327d8a66075f745b106bedfc372d89944945ad914b8fb828"
+    }
+  },
+  "protocol_sha256": "486cfda2c82fe08f0a27b1045b580523961457696508a2b0dad3371111d2e56f",
+  "scans": [
+    {
+      "attempt": 1,
+      "last_row": 1257,
+      "shard": 20
+    }
+  ],
+  "schema_version": 1,
+  "version": "path0-development-v1"
+}

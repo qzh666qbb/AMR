@@ -1,0 +1,226 @@
+最终目标不是“不断找最强攻击”，而是形成一条**可发表、可验证、边界清晰的科学结论**：
+
+> SWAN 存在由句级检测设计引起的结构性句界依赖。质量保持的句界重组能够稳定利用该弱点；其根因是检测单元数量下降与 whole-graph S2Match precision 稀释，而不是一般性的文本水印失效。
+
+**论文主线**
+
+1. **攻击有效性**  
+   句界重组在独立同预算实验中达到 30/30 有反馈、29/30 无反馈 Valid ASR，显著优于普通复述、完整 Plan E 和 SIRA-adapted。
+
+2. **因果机制**  
+   只替换标点、保持词汇和词序不变，就能让原本检出的 29 个样本全部逃逸；恢复句界后恢复 29/30。进一步证明合句扩大 AMR 图后，S2Match precision 被稀释。
+
+3. **适用边界**  
+   对 KGW、SynthID-Text 的迁移只有 0% 和 3.3%，说明攻击针对的是 SWAN 架构，而不是所有文本水印。
+
+4. **防御启示**  
+   重新分句可以明显降低攻击成功率，但当前局部匹配、模板校准和 relation motif 修复都没有通过完整门槛，说明真正的修复需要重新设计分割无关的检测统计。
+
+**不能声称**
+
+- 找到了全局最优攻击；
+- 首次发现句子拆分或合并攻击；
+- 能通用绕过所有水印；
+- 已经得到成熟的防御方案。
+
+**距离论文完成还差什么**
+
+核心实验已经足够回答“是否有效”和“为什么有效”。现在真正缺的不是继续枚举攻击，而是：
+
+1. 精确对齐 AliMark、SwordStamp/EDA、SIRA、DIPPER 等文献，明确我们的增量；
+2. 决定论文采用“攻击与机制”为主，还是继续投入一个成功的分割无关防御；
+3. 按上述四个研究问题重写论文、图表和贡献声明。
+
+我的建议是把**攻击与机制论文作为最低可发表闭环**，防御作为增强项。当前最关键的工作已经从“找攻击”转为“确定创新边界并组织论文证据”。
+
+
+**Planning experiment phases**
+
+I need to focus on answering the user's question about the later experiment plan. It might be good to look at the reflection file, especially around line 57, since it likely contains relevant prior notes. It seems unnecessary to edit anything since we just need to provide a plan. I'll outline a phased plan with clear stop criteria. The first phase might involve "paper contribution lock," followed by robust experiments and a controlled baseline matrix.
+
+**Establishing data budget**
+
+I need to focus on a careful data budget here. It looks like I need to consider the DIPPER official baseline and the implementations of AliMark and SwordStamp. The literature suggests I’ll have to make comparisons, and I have SIRA adapted, ordinary, and Plan E ready for that. However, I’ll want to ensure I have high-quality, natural texts for my benchmarks and scaling tests since the current baselines are short and low quality. Running 100 fresh SWAN watermarked passages could help, but I need to think about costs.
+
+**Exploring SWAN injection quality**
+
+I’m pondering whether SWAN injection can actually produce high-quality, natural long baselines since previous attempts with grounded injection struggled. There was an original batch of 250 that might have come from C4 sources, but I'm unsure about the quality of their watermarked outputs. I want to be cautious and not overpromise. Additionally, I’m considering examining the mechanisms by comparing sentence count with graph size and how they work together. I could add intermediate boundaries while keeping costs low.
+
+**Considering publication strategy**
+
+I’m thinking about a two-tier proposal for publication. The first tier could focus on literature novelty audits without experiments. The second tier might involve new external validation, with 100 fresh paragraphs using the same fixed method. It’s essential to include strong baseline comparisons and consider a length/generalization curve. Additionally, I wonder if we really need 100 new pieces of evidence, given there's already 30 independent and 250 main sources. A larger sample could help establish generality for our findings.
+
+**Considering test calibration**
+
+I’m thinking that if we focus on defense, it might conflict with not having new tests. The existing human test has already been influenced by earlier baselines. Maybe we need fresh calibration or tests specifically for defense to prevent reusing old information. I'm pondering the idea of creating 500 new human documents. There are also considerations around C4, and it feels important to navigate this carefully.
+
+**Explaining publication requirements**
+
+I need to clarify the publishing guidelines. The minimum requirements include related work and at least one fresh confirmatory piece. For enhancements, I should focus on defense to give the user a clear roadmap. Overall, I’m aiming for a concise response, ideally around 40 lines max. This keeps everything straightforward and manageable for the user while ensuring they understand the key points! Let's make sure we cover this efficiently.
+
+
+后续实验不再继续“枚举攻击提示”，而是围绕论文闭环推进。
+
+**阶段 1：锁定创新点**
+先系统核对 AliMark、SwordStamp/EDA、SIRA、DIPPER：
+
+- 是否已经针对 SWAN 做过句界攻击；
+- 是否解释过句数统计上限和 S2Match precision 稀释；
+- 是否有词汇不变的因果干预；
+- 使用了哪些基线、质量指标和攻击预算。
+
+如果已有工作完全覆盖“攻击+机制”，论文就转向“系统诊断+防御”；否则保留攻击机制主线。
+
+**阶段 2：全新的确认实验**
+不能再用当前 30 条开发数据调参。冻结方法后，在新的、不重叠的 SWAN 水印文本上比较：
+
+1. 普通复述；
+2. SIRA 或其他可复现强基线；
+3. 完整 Plan E；
+4. 句界重组。
+
+主指标使用**无反馈 Valid ASR**，统一生成模型、候选预算、质量门和检测阈值。目标不是再选方法，而是确认句界攻击能否在新数据上复现优势。
+
+**阶段 3：机制剂量实验**
+对同一文本只改变句界，构造：
+
+```text
+5句 → 4句 → 3句 → 2句 → 1句
+```
+
+保持词汇和词序不变，观察：
+
+- 检测单元数；
+- green 数与 green-rate；
+- z-score；
+- S2Match precision、recall；
+- 攻击成功率。
+
+这会把当前“全合并有效”提升为完整的剂量响应证据。
+
+**阶段 4：长度与场景边界**
+按原始句数和文本长度分层，确认漏洞是否只在五句短文本上明显。至少覆盖短、中、长三档，并测试不同分句器。跨水印实验已经说明它不适用于 KGW/SynthID，无需继续强行追求通用攻击。
+
+**阶段 5：最小防御实验**
+优先测试直接针对漏洞的多分割检测：
+
+- 原始分句；
+- 标点恢复；
+- clause 分割；
+- 多种分割结果取最大证据。
+
+使用新的 human calibration/test 校准 FPR，再测试新攻击集。目标是在 `FPR <= 2%` 下显著恢复 SWAN 检出。刚失败的 relation motif 路线停止，不在原 15 条开发集上继续调参。
+
+**执行优先级**
+
+1. 文献创新性核验；
+2. 新数据上的句界攻击确认；
+3. 句界数量剂量实验；
+4. 强基线公平比较；
+5. 多分割防御；
+6. 写论文。
+
+最低可发表闭环是“攻击效果 + 严格机制验证 + 文献基线 + 适用边界”。防御成功会显著增强论文，但不是开始写作的前置条件。
+
+
+**Planning research steps**
+
+I’m brainstorming proactive approaches to the user’s question. First, I'll clarify the exact deliverables needed. Next, we should outline our hypotheses and claims, and prepare a one-page preregistration. A fresh confirmatory experiment might require 100 participants, but I need to conduct a power analysis first. I’m considering whether we should aim for 60 or 100 subjects to ensure robustness. Finally, I’ll weigh two paper options: one focused on vulnerability and mechanisms and another on robust defense.
+
+**Refining research questions**
+
+I’m developing precise research questions for the project. For RQ1, I want to explore whether boundary-only perturbations reliably disrupt semantic watermarks while maintaining quality constraints and a fixed budget. RQ2 should examine which component of the detector is responsible, comparing sentence count with matching dilution. In RQ3, I'll investigate if this is architecture-specific, looking at token methods. Lastly, RQ4 will assess if a segmentation ensemble can restore detection under matched false positive rates. The project focuses on semantic text watermarking, highlighting the attack surface in the detector pipeline.
+
+**Evaluating research focus**
+
+I need to remember that specificity is crucial here. I want to avoid the vague target of "global strongest attack," which can be impossible to pin down. I think I'm noticing that the user's main mistake is treating every negative result as a branch of a new path. I could suggest focusing on specific sections in their paper and moving other details to the appendix. It might be worth emphasizing that, while the work isn’t finished, it has valuable evidence to build on. Let's move forward carefully with the literature matrix.
+
+**Planning research progression**
+
+The user asked, "我该怎么进行研究," which indicates they're looking for guidance. I think I should suggest pausing experiments and doing a contribution audit next. It's important to communicate with empathy, especially in Chinese, and reassure them that their efforts aren't wasted. I can explain that accumulating data points 7.1-7.29 may feel aimless, and while many failed branches offer diagnostics, only the core subset should go into the paper. I also need to outline a clear 3-month plan for their next steps.
+
+**Structuring research focus**
+
+I want to create a clear structure for the user’s research. First, I'd start with a brief response. I think I should clarify what their real research question is and what they already have. Then, I can outline three key actions to take next. It's important to consider when to pivot. I'll include "three stop/go gates": 
+
+Gate 0 assesses if there’s a unique gap in literature. 
+
+Gate 1 requires fresh confirmation that boundary-only mechanisms outperform paraphrasing in quality.
+
+Gate 2 focuses on defense metrics like false positive rates and true positives.
+
+
+不是无用功。你现在困惑的原因是：**实验做得很多，但论文问题没有一直保持在中心位置**。真正需要做的是收缩研究问题，而不是继续扩展实验树。
+
+**你的核心研究问题**
+建议固定为：
+
+> 句子边界是否构成语义文本水印检测器的结构性攻击面？这种脆弱性由什么机制产生，能否通过分割无关检测缓解？
+
+这仍然属于大模型文本水印安全研究，而且比“寻找全局最强攻击”更科学、更容易形成论文。
+
+**已经获得的有效成果**
+你已经完成了论文最困难的一部分：
+
+- 250 条样本上的攻击有效性和质量评估；
+- 独立 30 段公平对照，句界攻击显著优于普通复述、Plan E 和 SIRA-adapted；
+- 词汇、词序不变的标点干预，提供直接因果证据；
+- 将机制分解为句数统计上限和 S2Match precision 稀释；
+- KGW/SynthID 负迁移，明确漏洞适用边界；
+- 多种防御失败，排除了简单阈值和局部匹配方案。
+
+这些不是无用功。它们让我们知道哪些解释成立、哪些不成立。真正不应该做的是把所有失败支线都塞进论文主线。
+
+**现在停止做的事情**
+- 不再继续搜索更多提示攻击。
+- 不再宣称寻找“全局最优攻击”。
+- 不在现有 15 条开发集上继续调整 motif、top-k 或阈值。
+- 暂停 microfact、自然窗口和复杂局部匹配支线。
+- 不把所有历史实验都写进正文。
+
+**接下来只做三件事**
+
+1. **文献创新性审计**
+
+   对 AliMark、SwordStamp/EDA、SIRA、DIPPER 做逐项矩阵，判断别人是否已经覆盖：
+
+   - SWAN；
+   - 句界攻击；
+   - 词汇不变干预；
+   - 句数统计上限；
+   - S2Match precision 稀释；
+   - 分割防御。
+
+   这是当前最高优先级。没有完成它，就不知道论文真正的新意在哪里。
+
+2. **一次新的确认实验**
+
+   使用完全未参与开发的新 SWAN 数据，冻结现有句界攻击，不再调参。统一比较普通复述、句界重组、Plan E 和可复现文献基线。
+
+   主指标固定为无反馈 Valid ASR，同时报告质量、成本和置信区间。目的不是再选方法，而是确认现有结论能否复现。
+
+3. **一个简单、直接的防御**
+
+   不再做复杂 motif 搜索，优先验证多分割检测：
+
+   ```text
+   原始分句 + 标点分句 + clause 分句
+   → 分别检测
+   → 聚合最大证据
+   ```
+
+   在新 calibration/test 上控制 FPR，再测试攻击恢复。如果成功，成为论文防御贡献；失败则作为局限，不阻塞攻击机制论文。
+
+**论文最终结构**
+1. SWAN 存在句界依赖。
+2. 句界重组在公平对照中显著有效。
+3. 严格干预证明这是因果攻击面。
+4. 根因是句数统计与全图匹配稀释。
+5. 该攻击不迁移到 token-level 水印。
+6. 多分割检测能够缓解，或者说明现有简单防御不足。
+
+你现在不是缺实验，而是缺一次**贡献收敛**。下一步应该先完成文献矩阵，依据是否存在创新冲突，在“攻击机制论文”和“分割无关防御论文”之间做最终选择。
+
+使用新 SWAN 数据运行一次确认实验，验证句界攻击结论
+
+开始对 AliMark、SwordStamp、SIRA 等文献进行创新性矩阵审计

@@ -1,0 +1,17 @@
+The mechanism behind the observed gains follows directly from the detector objective. The detector only sees an AMR-derived score and a threshold. Any rewrite that perturbs the parsed graph enough to reduce the detector score, while leaving the text acceptable to the validity filter, contributes to success.
+
+The empirical frontier in Figure~\ref{fig:frontier} suggests three regimes. In the high-quality regime, the candidate pool is constrained and only modest score reductions are available. In the intermediate regime, a small number of structure-aware edits can cross the threshold without collapsing fluency. In the over-optimized regime, the search procedure starts to exploit parser quirks and produces repetition, fragmentation, or unnatural phrasing. The attack is best understood as a constrained search on a rugged score surface, not as a single deterministic transformation.
+
+One useful way to formalize this is to decompose the detector score into a latent semantic component and a parser sensitivity term:
+\[
+z(c) = z_{\mathrm{sem}}(c) + z_{\mathrm{parse}}(c) + \epsilon.
+\]
+Here $z_{\mathrm{sem}}$ reflects changes that genuinely alter the semantic graph, $z_{\mathrm{parse}}$ reflects sensitivity to how the parser realizes the graph, and $\epsilon$ captures residual randomness and recomputation noise. The plateau between 0.65 and 0.80 indicates that the success set is not confined to a knife-edge of $\tau$; instead, the method succeeds over a region where $z(c)$ is consistently below the detector boundary.
+
+This also explains why the raw-escape primitive and the strict-valid result differ so sharply. Boundary-only rewriting is highly effective because it can force the detector to re-segment or re-analyze the input, pushing $z_{\mathrm{parse}}$ downward. But the same manipulation often damages readability or coherence, which raises the quality cost. Full E2 rewriting is weaker in pure raw escape terms, but it is closer to the point where detector reduction and validity coexist.
+
+The repeatability audit adds evidence that the result is not a single lucky draw. If a candidate is stable over 50 repeated detector recomputations, then the rewrite is not merely hitting a stochastic corner case. Instead, it appears to occupy a region of the score landscape where the detector itself is consistently vulnerable. The 30.0\% strict-valid claim is therefore better read as a stable region-level result than as a one-off outlier.
+
+This mechanism also determines which result should carry the main empirical claim. The largest raw escape rate measures the most aggressive detector perturbation, whereas the stable strict-valid plateau captures the region in which detector reduction and quality preservation coexist. The latter is the more defensible quantity for independent reimplementation.
+
+Figure~\ref{fig:robustness} and Figure~\ref{fig:ablation} support this reading directly. The frontier shows that score reduction saturates quickly once the search finds a parser-sensitive edit pattern. The ablation shows that the strongest parser-sensitive pattern is not the most balanced one. Together, they argue that the attack is not just ``better paraphrasing,'' but a specific interaction between structural rewriting and detector sensitivity.
