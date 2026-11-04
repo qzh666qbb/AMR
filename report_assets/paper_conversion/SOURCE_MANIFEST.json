@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "artifact": {
+    "path": "论文转化方案.md",
+    "sha256": "996c3dca202b840f1e357f66341b5966154270e73dd88e4e29c18b42c2aca143"
+  },
+  "scope": "Paper-conversion advice based on frozen local evidence; no new research run.",
+  "checks": {
+    "local_links_valid": true,
+    "unified_claim_evidence_hashes_valid": true,
+    "key_numeric_transcriptions_valid": true,
+    "human_review_still_incomplete": true,
+    "narratives_claims_and_historical_decisions_unchanged": true,
+    "manuscript_edited_under_explicit_user_request": true
+  },
+  "checked_aggregates": {
+    "aba_escape_counts": [
+      1,
+      30,
+      1
+    ],
+    "aba_denominator": 30,
+    "pairwise_oracle_instances": 7669,
+    "semstamp_test_fpr": 0.047,
+    "semstamp_positive_tpr": 0.954,
+    "v18_two_replay_budget_gpu_hours": 86.65007070459825,
+    "new_v3_two_replay_budget_gpu_hours": 77.61515964124246,
+    "W_clean_BA": 0.3958333333333333,
+    "W_paraphrase_BA": 0.3229166666666667,
+    "W_paraphrase_soft_win_rate": 0.7748279740637819,
+    "W_paraphrase_soft_average_rank": 568.2083333333334,
+    "W_paraphrase_unique_first": 0,
+    "order_prompt_denominator": 12,
+    "order_candidate_count": 2520
+  },
+  "sources": [
+    {
+      "path": "CLAIM_EVIDENCE_MATRIX.md",
+      "sha256": "5dd7e4d5234a947c2bfa5569468e53870650284e7fc56cfdf2e4d3c1fad4dda4"
+    },
+    {
+      "path": "V2.md",
+      "sha256": "b6caa524dbf782e5226bae367d8b12646f802ea44512bae25cbee948630a515e"
+    },
+    {
+      "path": "experiments/certified_resegmentation_calibration_preflight1/audit_results.json",
+      "sha256": "1cbf7a1646966cd5050c6a385c5619ad0da1d9efd86738bde84ff083ea83f143"
+    },
+    {
+      "path": "experiments/certified_resegmentation_pairwise_preflight1/audit_results.json",
+      "sha256": "a584f089f32b8032ef28ddd6b9a38ae0cb474ce52e1657961d0e39083d056862"
+    },
+    {
+      "path": "experiments/certified_resegmentation_preflight1/audit_results.json",
+      "sha256": "9d7ced86619d91df93789b221ebeb2945419e66f5b77ed02beee13bb4e004f64"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v17_b0_detector_health1/B0_RESULT.json",
+      "sha256": "c17a382d6946fe93e09df34f420b2ff07a9ccc9daad184b55c71d23118cf9e9e"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v18_b1_exact_certificate1/P0_STOP_AUDIT.json",
+      "sha256": "bbda07954068b6d4b870cd042c79690c9350fd353895957f47c828a64922ea72"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v4_sparse1/scale_replay1.json",
+      "sha256": "ff1a12ca6f42c44eb80de3f8dd624d99fdf57eac0903506ea1b0a001baed786e"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v9_simmark_long1/final_summary.json",
+      "sha256": "c8e74d75d2a5bdc7526399ea949c7764188699962a70a864c8549671c474e4b4"
+    },
+    {
+      "path": "experiments/confirmation_mechanism30/summary.json",
+      "sha256": "ce4772da0f0d4225d485a76105995676b423d944a99e5bb4c7f3a03e90e5b3bf"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/FINAL_REPORT.md",
+      "sha256": "575c62e020b0245d1be4b283e8872c15dd269b17fd479cc0672b3c8460dd5dfd"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/HUMAN_REVIEW.md",
+      "sha256": "70ecc04bc5c574eedd594f22357f20aac2e38971a6f9c7cd45a3dc139534c948"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/ORDER_RESULT.json",
+      "sha256": "d717dc59983b02e556f1cd4f3c8dcba8a7e3ef155da56ace36bcc650759248da"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RESULT.json",
+      "sha256": "c8beb360f4e4cf95f69eac5230f3642ffa49c44f33fe2812715d13ea67e80d52"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RETROSPECTIVE.md",
+      "sha256": "40eaeb6398141d9cf604517f09b3c0e4161a16bcee8f1296741fb0c84a760607"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RETROSPECTIVE_METRICS.json",
+      "sha256": "37775a1ea916815b82705fef58d47ac41f2fb1889cd0e4cb26e678b07d4c7cfd"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROFILE_RESULT.json",
+      "sha256": "2bb7641d59e0e6838150be3783bad0dafc0680074d03ee45e3d1246e47378074"
+    },
+    {
+      "path": "experiments/swan_branch_c_final_literature_refresh_20261002/UNIFIED_CLAIMS.json",
+      "sha256": "f34499422b189602e32cf0b1dbdfbb8a0af6f55fd3670cc728236b070b751af9"
+    },
+    {
+      "path": "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/EDITORIAL_REVISION.md",
+      "sha256": "afe8a47eed5050c20d73749ba074736980351c39426d08a4e2a40082ab409c79"
+    },
+    {
+      "path": "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/main.pdf",
+      "sha256": "3c047ff938db63b42bf17046cb1718b237e7745a80409146ad1ff359124b4f7f"
+    },
+    {
+      "path": "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/main.tex",
+      "sha256": "f21a7cd4f6d1c126d5fc313b09a2dc126308c945704171c6742f1cd044affb8d"
+    },
+    {
+      "path": "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/references.bib",
+      "sha256": "bdee30ecfee6489382f4db3896c88f5de7adcfa923190055cdc231fc878ca7ec"
+    },
+    {
+      "path": "experiments/swan_branch_c_submission_readiness_20261002/SUBMISSION_DECISION.md",
+      "sha256": "3222cfef29c678e3b53bf439cf44e6da0a99e323896bc8e24dcf7379c968180c"
+    },
+    {
+      "path": "report_assets/manuscript_revision_20261025/AUDIT.json",
+      "sha256": "b304a4afbc5413f178cb23a37c6c837c9fbe8d2c85ac5a277a66a65a084980f1"
+    },
+    {
+      "path": "叙事.md",
+      "sha256": "dc31a9ad31ce9bcf845455f6a5eccc0dfd45d926bdb75417f47ce90bb64d2431"
+    },
+    {
+      "path": "report_assets/manuscript_scope_revision_20261025/AUDIT.json",
+      "sha256": "3d59293e8c945d4e0e629891bbd6e4bf8cf356e2a2a14e7d31e84617028dd52a"
+    }
+  ],
+  "baseline_unchanged": {
+    "叙事.md": "dc31a9ad31ce9bcf845455f6a5eccc0dfd45d926bdb75417f47ce90bb64d2431",
+    "V2.md": "b6caa524dbf782e5226bae367d8b12646f802ea44512bae25cbee948630a515e",
+    "CLAIM_EVIDENCE_MATRIX.md": "5dd7e4d5234a947c2bfa5569468e53870650284e7fc56cfdf2e4d3c1fad4dda4",
+    "experiments/swan_branch_c_submission_readiness_20261002/SUBMISSION_DECISION.md": "3222cfef29c678e3b53bf439cf44e6da0a99e323896bc8e24dcf7379c968180c"
+  },
+  "new_model_or_generation_calls": 0,
+  "external_submission_performed": false,
+  "baseline_original_verification": {
+    "date": "2026-10-25",
+    "scope": "Targeted provenance check of five known baseline papers; not a global novelty search.",
+    "originals": [
+      {
+        "paper": "SWAN",
+        "version": "2605.04305v1",
+        "url": "https://arxiv.org/html/2605.04305v1",
+        "html_sha256": "2322a51f1ef21d02b5b72020754afcaafb3d5ee5fc73ed018a344cfe3f239265",
+        "extracted_text_sha256": "9bee41857dd27e8f1de6a8be97b3d8ee96304db888933e16c10550a1deaa8281"
+      },
+      {
+        "paper": "SemStamp",
+        "version": "2310.03991v2",
+        "url": "https://arxiv.org/html/2310.03991v2",
+        "html_sha256": "323c43e512056719eee1da78fd2c16251aa76a5012727020edd9fe3629dfef1a",
+        "extracted_text_sha256": "6cbb4f6ec31e7a69e8e907e6965e3234634cd37b91dde9cc94640f22f51ae5d8"
+      },
+      {
+        "paper": "SimMark",
+        "version": "2502.02787v2",
+        "url": "https://arxiv.org/html/2502.02787v2",
+        "html_sha256": "cee52132d29c44789cac05a18bfe279e6418f79779319f025b01306c2b6b472d",
+        "extracted_text_sha256": "0ef6d76453172a8025ad7627a8ed7f2b151763dec867ec9aca52b90f23ed135b"
+      },
+      {
+        "paper": "AliMark",
+        "version": "2605.29434v1",
+        "url": "https://arxiv.org/html/2605.29434v1",
+        "html_sha256": "9b291bdc420745dbb9a2d823d2144a74896644e7562f5040749fd98553d39fde",
+        "extracted_text_sha256": "708bca3f674a19541eddf5b20cd87fa04ce28ed6861b0f6d6e888c8bdfd0c00a"
+      },
+      {
+        "paper": "SwordStamp",
+        "version": "2608.27666v1",
+        "url": "https://arxiv.org/html/2608.27666v1",
+        "html_sha256": "2ba9705f674e6540fc8aee07f782037f757eeed8a8a0ef12eb04ff0088d9e292",
+        "extracted_text_sha256": "2c9b4c50d78ae871eda819370f4cc9d309952aee7136c5cbaa51b1b0bc6b07fa"
+      }
+    ],
+    "findings": {
+      "unit_count_ceiling": "Direct corollary of the existing z-statistic; square-root unit-count scaling explicitly discussed by SwordStamp.",
+      "split_merge_risk": "Explicitly anticipated by SWAN and studied in related baselines.",
+      "min_score_equivalence": "Definition of a finite-set minimum, not an original theorem.",
+      "exact_dp": "The same fixed-N worst-case resegmentation DP was not found in these five checked originals; this does not establish global novelty."
+    },
+    "third_party_originals_redistributed": false
+  },
+  "authorized_manuscript_revision": {
+    "date": "2026-10-25",
+    "kind": "segmentation_factor_and_guarantee_scope_revision",
+    "old_source_sha256": "ac4f04dd97a50f2ed6b49bf69f30daedaf880c981b7986aea0901fd1cd82af23",
+    "old_source_snapshot": "report_assets/manuscript_scope_revision_20261025/before/main.tex",
+    "current_source_sha256": "f21a7cd4f6d1c126d5fc313b09a2dc126308c945704171c6742f1cd044affb8d",
+    "audit": "report_assets/manuscript_scope_revision_20261025/AUDIT.json",
+    "experimental_endpoints_changed": false
+  },
+  "authorized_manuscript_revision_history": [
+    {
+      "date": "2026-10-25",
+      "old_source_sha256": "9c07094c39c8efac791a9a02e520d0af08f2fd511de88ba3d757b2dfd634c5be",
+      "old_source_snapshot": "report_assets/manuscript_revision_20261025/before/main.tex",
+      "current_source_sha256": "ac4f04dd97a50f2ed6b49bf69f30daedaf880c981b7986aea0901fd1cd82af23",
+      "audit": "report_assets/manuscript_revision_20261025/AUDIT.json",
+      "experimental_endpoints_changed": false
+    }
+  ]
+}

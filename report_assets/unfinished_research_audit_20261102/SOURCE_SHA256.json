@@ -1,0 +1,118 @@
+{
+  "archive/20260911_pre_unification/derived_experiment_docs/experiments/planE_transfer_strict30/report.md": {
+    "sha256": "554567327b25c173cdb0e76e8cc4b4129546724184559f6c0790b8cce778f5ed",
+    "bytes": 982
+  },
+  "archive/README.md": {
+    "sha256": "d6ad91f644ea950d908ee40a4c629ca2e69648cae2f1d451a208cb6b58f32c26",
+    "bytes": 2507
+  },
+  "archive/experiments/swan_elastic_v4_path0_development1/PROTOCOL.md": {
+    "sha256": "534fe4c68efa5084bf2417ef39bee53f59153f51afae7859ed589428ca74d31b",
+    "bytes": 5007
+  },
+  "archive/experiments/swan_elastic_v4_path0_development3/REPORT.md": {
+    "sha256": "7cdaf246aae8695a166b954fa98ca7f627286c6750231787ed546d817e7b260b",
+    "bytes": 585
+  },
+  "experiments/certified_resegmentation_wp2_v18_b1_exact_certificate1/CONCLUSION.md": {
+    "sha256": "269b47ec2055e13b70510fbec381afbe7eed639b9de99624679b832178461735",
+    "bytes": 3532
+  },
+  "experiments/defense_aggregation/report.md": {
+    "sha256": "10f3717c1ff664c31a7e9bceb72e9fedb85705cb8d8f79e12962a94e14479585",
+    "bytes": 1360
+  },
+  "experiments/e5_transfer/report.md": {
+    "sha256": "311cdc33d16abd030ed1f19057cb7d0447795d9765bde0ae0c996d3eac4a6695",
+    "bytes": 3307
+  },
+  "experiments/semstamp_certified_defense_v4_full_radius_profile1/CONCLUSION.md": {
+    "sha256": "c2849f4d3c4b94c8db487f6a8cf1c15ce2d56cbebf9361e97c73ef597e1c4ec9",
+    "bytes": 5350
+  },
+  "experiments/swan_bank_scale_pilot1/report.md": {
+    "sha256": "2a6b9334f58042f325cbf73fd116c9c819eb7748a0cfde64927e06577540ae84",
+    "bytes": 1035
+  },
+  "experiments/swan_count_neutral_supplement3/REPORT.md": {
+    "sha256": "7da3a7c892bcfb1cdc7558961026f4a2959a04851d894c5fd2bde947c6d0082a",
+    "bytes": 4804
+  },
+  "experiments/swan_elastic_v3_development1/CLOSEOUT.md": {
+    "sha256": "78d03b573a3b89d8c1fda47cb62e646bbbb5f5421da9e21cde2d4ce1ef5abd8e",
+    "bytes": 1969
+  },
+  "experiments/swan_elastic_v4_p2_audit1/REPORT.md": {
+    "sha256": "15ebd7011f6af8eddbc880378ee3e63652d1f4aa49bfd751da1dcde5559415d8",
+    "bytes": 9039
+  },
+  "experiments/swan_fusion_audit1/REPORT.md": {
+    "sha256": "b785845f58e2f6cca1b8f6b849e0e9f9d1b39ccbd7b613bb134bcfb776f5af5b",
+    "bytes": 7887
+  },
+  "experiments/swan_multiscale_attention_development1/ablation1/REPORT.md": {
+    "sha256": "0e282aa43c42fd53febdd39d14ef864bc3de8ab5cde244880ea512d10db739cf",
+    "bytes": 11549
+  },
+  "experiments/swan_multiscale_attention_development1/family_hard1/REPORT.md": {
+    "sha256": "c0e7f7dbf49f66c156f2d560b3df1d8c010d219f4160272d2754e088442f9d39",
+    "bytes": 17418
+  },
+  "experiments/swan_multiscale_attention_development1/operating_points1/REPORT.md": {
+    "sha256": "1226c54b1e22b72e04e8fd45000843c31d502b454b6a0cfae1cf016fd81c2ec9",
+    "bytes": 10077
+  },
+  "experiments/swan_multiview_development1/final_completion4/REPORT.md": {
+    "sha256": "a12fb42248f3323b6fc5316a4eac410fddd0e6503f6e4242ca5cc616bf7a3cdd",
+    "bytes": 2409
+  },
+  "第二篇_语义消息写入与读回/02_实验/semantic_channel_audit1/REPORT.md": {
+    "sha256": "d8cc64d4970de3c70d8d18bbf76e2616226f950cb12ad5b547dbd3e42951c86d",
+    "bytes": 11200
+  },
+  "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v4_readout1/REPORT.md": {
+    "sha256": "f8a416a10a0b654ddb314653c5b18a8d481ea3cbe4dadb38eec6683e9947f8a0",
+    "bytes": 4977
+  },
+  "第二篇_语义消息写入与读回/02_实验/semantic_multiscale_readback1/REPORT.md": {
+    "sha256": "4e9b7e78d2c0f052a3117e9f2e7357e541a44563f4aed1bd19188661910908a0",
+    "bytes": 7260
+  },
+  "第二篇_语义消息写入与读回/02_实验/semantic_multiscale_supervision2/REPORT.md": {
+    "sha256": "ebd79bd450cde34c861059809c0125e3b5d1980fd3bbcf57cffe6fe47f0a3593",
+    "bytes": 3965
+  },
+  "第二篇_语义消息写入与读回/02_实验/semantic_sequence_cycle2/execution5/FINAL_REPORT.md": {
+    "sha256": "a325a0fb6006f7f53583df29be0155530ec5b4c644b8f2cf80d0ffc1d22a5aaa",
+    "bytes": 4605
+  },
+  "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_prompt_repair1/PROMPT_REPAIR.md": {
+    "sha256": "3b8ac280308521e32c7410f8918e1f579290990cd30c4209202dc626685fdb50",
+    "bytes": 4924
+  },
+  "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer3/OVERVIEW.md": {
+    "sha256": "e328a382d1992927ec91a91a2d79ff3671afa32f24f9c5ee15c832bbd21a6aab",
+    "bytes": 6035
+  },
+  "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer4_recovery1/START.md": {
+    "sha256": "0fb4ef46a03294ab1fa4909185d307fcdf3a247549431fc5de9a6878264fb6fc",
+    "bytes": 2365
+  },
+  "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/symbol_order_diagnostic1/REPORT.md": {
+    "sha256": "db76097ad62af83a1d0369f52255009273a98289e8022669eb37583cc5c25d3d",
+    "bytes": 9040
+  },
+  "论文/01_句界审计与精确评估/P4_数据融合实验_完整技术报告.md": {
+    "sha256": "2e0116d9f7d6810f6e42cd7b24765ae3d0b6cf0080119049745a7f04ff6055c3",
+    "bytes": 33043
+  },
+  "论文/01_句界审计与精确评估/P4_证据身份对齐_三臂验证方案.md": {
+    "sha256": "98a5066eca10eb9d4158e02e97e0687a6f3865bedacbe0880481926b27a40055",
+    "bytes": 11485
+  },
+  "论文/CLAIM_EVIDENCE_MATRIX.md": {
+    "sha256": "6130053c72f57dbd6fe7099e3d7aa49ee127cdb9fe6ccfd56ac39827e97f5ad3",
+    "bytes": 16088
+  }
+}

@@ -12,6 +12,8 @@ api.txt
 ssh.txt
 .secrets/
 amr_remote_evidence_*.tar.gz
+_snapshots/*.tar.gz
+.venv-swan-positive/
 
 # Python environments and caches
 .venv/

@@ -1,0 +1,17 @@
+{
+  "algorithm": "sha256",
+  "self_excluded": true,
+  "files": {
+    "论文转化/P4_数据融合实验_完整技术报告.md": "39ad665b1cb3798ca48f37650e51a1081295a87f04d4d910e1efa8e614a9e9e8",
+    "第四篇_低质量多视图融合_文章转换.md": "904f2ac6675449df1d1f4cf1c160d46b47f8e11670f2a486692b48d31dd96ea0",
+    "论文转化/README.md": "ab550da4c33b3b30641fb14708ab6b78ffb07796c807f6dcd71afa71cbc7d695",
+    "SWAN_弹性重构防御_总体规划.md": "a922f05bbbca7b02a0b3ec91812dae8eb07d06911e85ddab59b4025e7b1814a0",
+    "任务清单.md": "2445e57c7e36842aaa02db0b7ed9a1860b7aa6e379c677d00211c24665527f1c",
+    "论文转化方案.md": "7ca0d25092d89d70960a3915d35c2a448bc51b9d17c31cc100c2baa1432a45d0",
+    "scripts/audit_experiment_article_inventory.py": "159b465dff15a4c0c846442d085e24d28b60c900bb41e2b787014b2542a26a42",
+    "全部实验_文章归属与转换总表.md": "abb7520e3e8948f06da1b856a68d24ea0483f35353204db5ca046b28f129aba8",
+    "report_assets/fusion_closeout_20261026/P4_SOURCE_INDEX.json": "cf42e494cab238ad8fc977b6103ee0dc9759f8aad3de9b338e4863445df883fd",
+    "report_assets/fusion_closeout_20261026/PRE_EDIT_SHA256.json": "e09c0a4025d8329f6f5bdfffba3a6c5b4bc5f087ec1ec7faabf3bc150cfaa0d6",
+    "report_assets/fusion_closeout_20261026/VALIDATION.json": "b6fda75b8f06ff8f60cc0e7cefc162ef383baf49963648f189568f3e525f1d9a"
+  }
+}

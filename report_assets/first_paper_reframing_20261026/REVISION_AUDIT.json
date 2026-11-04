@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-26",
+  "status": "pass",
+  "scope": "Editorial re-evaluation of first-paper contributions and abstract; unchanged frozen evidence",
+  "checks": {
+    "english_abstract_matches_writing_package": true,
+    "english_abstract_words": 219,
+    "three_contributions_present": true,
+    "claim_lint_pass": true,
+    "missing_citations": 0,
+    "missing_cross_references": 0,
+    "local_document_links_valid": true,
+    "frozen_evidence_sha256_unchanged": true,
+    "pdf_compilation_complete": true,
+    "pdf_pages": 18,
+    "overfull_boxes": 0,
+    "unresolved_citations": 0,
+    "focused_pdf_pages_inspected": [1, 2, 3, 13, 14],
+    "visual_overlap_or_clipping_found": false,
+    "build_source_and_pdf_sha256_match": true,
+    "real_certified_rate_remains_unestimated": true
+  },
+  "previous_authored_file_sha256": {
+    "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/main.tex": "f21a7cd4f6d1c126d5fc313b09a2dc126308c945704171c6742f1cd044affb8d",
+    "论文转化方案.md": "e7f478c575188ea28185242288d9cf5a800310fcdfacac3ce47b42032a9f8120",
+    "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/main.pdf": "3c047ff938db63b42bf17046cb1718b237e7745a80409146ad1ff359124b4f7f",
+    "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/BUILD.json": "557bb22c598b36f8ed763a615f9ee4a2511626da70a7a3929e5d41288d8ac007"
+  },
+  "current_authored_file_sha256": {
+    "第一篇_核心贡献与摘要.md": "976b245c662860eb55b489cc3f5c68ff3d43cd03e7347de7a094a9f6b123d64a",
+    "论文转化方案.md": "906afb7ee141e201ff2647dde796446e3a89043df9733d667f0787a72ebf7942",
+    "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/main.tex": "bc8afb519f411d72e595e2837a1c3e67aba3cf9f22528cead4cc990073db075e",
+    "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/main.pdf": "b14b3b008c9abc44cd9e03b88b0d6aa73b74d241c3e50aebfd111f4246332377",
+    "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/README.md": "4d006a3085d27021c944be5e8a5d1bde0630aeb67c8f82b4fdd99a96089a97f9",
+    "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/EDITORIAL_REVISION.md": "4101a1ee1e38bd7890f1f5d3122f4c7f8456efa7650ac4d9f44e79fddc10867b",
+    "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/BUILD.json": "01c8894644fd410caf89f4fdde743a7503a6c80a0b6001044e63f6be1f86179f"
+  },
+  "unchanged_evidence_sha256": {
+    "CLAIM_EVIDENCE_MATRIX.md": "5dd7e4d5234a947c2bfa5569468e53870650284e7fc56cfdf2e4d3c1fad4dda4",
+    "experiments/swan_reframing1/claims_v2.json": "a58aee8e4f753b8c6ebf9bd1b8245c9b314dba81b403cffe369b6cad35430c17",
+    "experiments/swan_branch_c_final_literature_refresh_20261002/UNIFIED_CLAIMS.json": "f34499422b189602e32cf0b1dbdfbb8a0af6f55fd3670cc728236b070b751af9",
+    "experiments/swan_branch_c_final_literature_refresh_20261002/MANIFEST.sha256": "116dbefab2a1027d45fa1fbf2478e72160ecfe0cb65fda7aff1f638694278fa4",
+    "experiments/confirmation_mechanism30/summary.json": "ce4772da0f0d4225d485a76105995676b423d944a99e5bb4c7f3a03e90e5b3bf",
+    "experiments/certified_resegmentation_preflight1/audit_results.json": "9d7ced86619d91df93789b221ebeb2945419e66f5b77ed02beee13bb4e004f64",
+    "experiments/certified_resegmentation_pairwise_preflight1/audit_results.json": "a584f089f32b8032ef28ddd6b9a38ae0cb474ce52e1657961d0e39083d056862",
+    "experiments/certified_resegmentation_calibration_preflight1/audit_results.json": "1cbf7a1646966cd5050c6a385c5619ad0da1d9efd86738bde84ff083ea83f143",
+    "experiments/certified_resegmentation_wp2_v17_b0_detector_health1/B0_RESULT.json": "c17a382d6946fe93e09df34f420b2ff07a9ccc9daad184b55c71d23118cf9e9e",
+    "experiments/certified_resegmentation_wp2_v18_b1_exact_certificate1/P0_STOP_AUDIT.json": "bbda07954068b6d4b870cd042c79690c9350fd353895957f47c828a64922ea72",
+    "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/references.bib": "bdee30ecfee6489382f4db3896c88f5de7adcfa923190055cdc231fc878ca7ec"
+  },
+  "execution_attestation": {
+    "new_experiments": 0,
+    "watermark_detector_calls": 0,
+    "watermark_generation_calls": 0,
+    "paid_provider_calls": 0,
+    "external_submission_performed": false,
+    "experimental_claim_status_upgraded": false
+  },
+  "abstract_result_scope": {
+    "swan": "30 short texts; 17–46 words; five-to-one-to-five intervention; historical detector runner scope",
+    "semstamp_baseline": "Independent-test FPR 47/1000 and positive TPR 954/1000; not post-certificate rates",
+    "exact_evaluator": "Fixed tokens, order, unit count, legal spans, and boundary-relocation budget",
+    "final_certificate": "Pre-scoring resource stop; real certified rates unestimated"
+  },
+  "intermediate_files_location": "Outside the AMR workspace",
+  "previous_revision_audit": "report_assets/manuscript_scope_revision_20261025/AUDIT.json"
+}

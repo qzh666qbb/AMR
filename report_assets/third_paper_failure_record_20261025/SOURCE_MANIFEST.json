@@ -1,0 +1,59 @@
+{
+  "independence": "Same-experiment evidence layers, not independent replications",
+  "schema": "third-paper-failure-source-manifest/v1",
+  "scientific_artifacts_modified": false,
+  "sources": [
+    {
+      "path": "experiments/semantic_sequence_readout1/RETROSPECTIVE.md",
+      "sha256": "40eaeb6398141d9cf604517f09b3c0e4161a16bcee8f1296741fb0c84a760607"
+    },
+    {
+      "path": "experiments/semantic_watermark_defense_plan_20261007/ALGORITHM_CONTRACT.md",
+      "sha256": "663dfa187d6fef9ad788b656097ef65dc6fc7a0434c48b5c488611a760acac7e"
+    },
+    {
+      "path": "experiments/semantic_watermark_defense_plan_20261007/THREAT_MODEL.md",
+      "sha256": "5e8c10b3b2e915e3dffda07029bf8cd7de5607e78a2b585d6b363b86d90f8f50"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROFILE_ROWS.jsonl",
+      "sha256": "c3a941ce4d8b205090452fc31c290c0b186cf56e8b89ff10f49162dc60c08fb5"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/CLOSEOUT.json",
+      "sha256": "20de77f1b19cf710f4b361d31807c3d6a80d2b2caeae6f2c9d63e0006800b5e6"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/CONCLUSION.md",
+      "sha256": "c2849f4d3c4b94c8db487f6a8cf1c15ce2d56cbebf9361e97c73ef597e1c4ec9"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/CONTRACT.json",
+      "sha256": "2cf71c76f0a768b52ab34a33b67a7293d723aaa19b0752fc1ec5080f93cf76da"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/DELIVERY_VALIDATION.json",
+      "sha256": "ddfcaae957959cc1cbc30a37ddd87fa4f08ef5a1fc4c94d1e4e08067836f5a67"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/LINUX_CORRECTNESS.json",
+      "sha256": "ed849bec528d62330c5807691f82b243bbd0405673698f9568b4b80404602f49"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/LOCAL_CORRECTNESS.json",
+      "sha256": "7095251ed8449a8e6fd40807def38e3936779ab0b5cdad7bdf92b84b6567286f"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/PROTOCOL.md",
+      "sha256": "56531c7284dd2616206ed0b68ccb97c13825c53516788cde5c2553461f99a1a8"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/RESOURCE_AUDIT.json",
+      "sha256": "84271ebeb34828d7700daffe8358bb0dd4ba1d4640dde5a7c4284ef67bf48318"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/SHA256SUMS",
+      "sha256": "ab1e7c2cdecfbf4aaa80a03163ce9bb4f6ed26d94f8b83c5d800c588bdcf9e1f"
+    }
+  ]
+}

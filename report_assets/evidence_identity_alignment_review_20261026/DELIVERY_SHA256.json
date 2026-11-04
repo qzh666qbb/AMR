@@ -1,0 +1,15 @@
+{
+  "algorithm": "sha256",
+  "self_excluded": true,
+  "files": {
+    "SWAN_弹性重构防御_总体规划.md": "f0d7da3ab18da5de45f59f341e7fd3a73c7b5169d1ed1a9857ff9140f4c6affe",
+    "report_assets/evidence_identity_alignment_review_20261026/CODE_AUDIT.md": "82ffc724af980afdfeb14f93cdf51a99291e2d455a277977fb50d9ff31a35614",
+    "report_assets/evidence_identity_alignment_review_20261026/PRE_EDIT_SHA256.json": "2ce2039f4f0a8bd5c315099ee1bd8953bdca4dc5753a9ea136bd21b5f7980d65",
+    "report_assets/evidence_identity_alignment_review_20261026/SOURCE_SHA256.json": "8b897a2ebdd3538e1bdb406cf0c4a916611f883662b0e8d51c85c31eacc631a5",
+    "report_assets/evidence_identity_alignment_review_20261026/VALIDATION.json": "efc4828a6f1d7f2e57d0caf6783371215e6bf71e9014a58eb3bc0699a1e7bf45",
+    "任务清单.md": "2cd4968c94c82770156f329d77b3eff1778a2101929eedcec8beb5e601fb56aa",
+    "第四篇_低质量多视图融合_文章转换.md": "6d1afcea4d0d546ab331d1df5dad9d5e1ce7928b4011a7f215bcbbca69eefe19",
+    "论文转化/P4_证据身份对齐_三臂验证方案.md": "00895a1292366f5f255a386202fba04110cc50b97b4bb85e68e7a91f7666cd5a",
+    "论文转化/README.md": "11bd464ffeafefb9a1887d186611af5fb4f8b96a2e8f9d4de4fe45fe98d82693"
+  }
+}

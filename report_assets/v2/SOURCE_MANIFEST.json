@@ -1,0 +1,2902 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-24T17:37:08.168050+00:00",
+  "scope": "V2 narrative continuation; local sources and aggregate verification only",
+  "deliverable": {
+    "path": "V2.md",
+    "sha256": "b6caa524dbf782e5226bae367d8b12646f802ea44512bae25cbee948630a515e",
+    "characters": 41643,
+    "lines": 970
+  },
+  "original_narrative": {
+    "path": "叙事.md",
+    "sha256": "dc31a9ad31ce9bcf845455f6a5eccc0dfd45d926bdb75417f47ce90bb64d2431",
+    "unchanged": true
+  },
+  "inventory": {
+    "top_level_directory_count": 196,
+    "new_scope_directory_count": 28,
+    "not_repeated_directory_count": 168,
+    "classification_note": "New scope is the later research families covered by this continuation. Other directories are not claimed to each have a standalone section in the original narrative.",
+    "directories": [
+      {
+        "name": "api_full_paragraphs",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_joint_paragraph5",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_joint_paragraph5b",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_joint_strict5",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_natural223",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_natural5",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_natural_batch2",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_natural_batch3",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_natural_batch4",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_natural_batch5",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_natural_batch6",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_natural_paragraph30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_syntax30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "api_syntax5",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "archive_20260725",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "baseline_comparison",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "best_observed_frontier",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "candidate_budget16_pilot30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_calibration_preflight1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_interface_audit1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_pairwise_preflight1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_preflight1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_adapter_preflight1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_adapter_scale1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_eligibility1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_execution1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_readiness1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v10_semstamp1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v11_detector_reproduction1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v12_fresh_assets1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v13_offline_preparation1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v13_semstamp_generation1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v14_bounded_generation1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v15_causal_prefix1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v16_prompt_only_rescue1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v17_b0_detector_health1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v18_b1_exact_certificate1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v2_design1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v3_readiness1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v4_sparse1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v5_scorer1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v6_feature1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v7_throughput1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v8_global_reuse1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "certified_resegmentation_wp2_v9_simmark_long1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "confirmation_mechanism30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "confirmation_three_arm30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "cross_watermark_transfer30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "defense_aggregation",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "e1_invariance",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "e2_attack_pilot",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "e3_main",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "e4_ablation",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "e5_transfer",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "feedback2_diagnostics",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "grounded_generation3",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "grounded_injection5",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "literature_novelty_audit1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "mechanism_e2_amr",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "mechanism_sentence_boundary",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "milestone_a",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "parser_repeatability30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planB_b0",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planB_b1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planB_b1_edge",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planB_b1_subgraph",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planB_b2_node50",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planB_b2_reattach50",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planB_b3_combo50",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planB_b6_combo100",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planB_b7_combo250",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planC_argument_swap30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planC_mod_arg_combo100",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planC_mod_arg_combo30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planC_modifier_family30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planC_modifier_swap30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planD_reent_arg30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planD_reentrancy30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planE_e1_roundtrip",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planE_e2_joint100",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planE_e2_joint250",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planE_e2_joint30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planE_e3_combo30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "planE_transfer_strict30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "prompt_component_ablation30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "report_assets",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "research_direction_reconciliation_20261002",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "segmentation_intervention",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semantic_sequence_cycle1",
+        "scope": "new_continuation",
+        "section": "AO1"
+      },
+      {
+        "name": "semantic_sequence_cycle2",
+        "scope": "new_continuation",
+        "section": "AO2-AO3"
+      },
+      {
+        "name": "semantic_sequence_readout1",
+        "scope": "new_continuation",
+        "section": "AP"
+      },
+      {
+        "name": "semantic_sequence_stage1_design1",
+        "scope": "new_continuation",
+        "section": "AN1"
+      },
+      {
+        "name": "semantic_sequence_stage1_run2",
+        "scope": "new_continuation",
+        "section": "AN2-AN5"
+      },
+      {
+        "name": "semantic_watermark_defense_plan_20261007",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v1_wp2_algorithm1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v1_wp3_detector_health1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v2_wp1_threat_model1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v2_wp2_algorithm1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v2_wp3_detector_full_replay_design1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v2_wp3_detector_health1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v2_wp3_detector_smoke_attempt0",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v2_wp3_detector_smoke_design1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v2_wp4_resource_preflight_correction1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v2_wp4_resource_preflight_design1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v3_wp2_compiled_core1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v3_wp2_compiled_core_scale2",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v3_wp2_throughput1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "semstamp_certified_defense_v3_wp3_variable_n_profile1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "sira_adapted30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_accepted_baseline_preflight1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_accepted_boundary_preflight1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_amr_composition_decomposition1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_amr_precision_recall1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_anchor_stability1",
+        "scope": "new_continuation",
+        "section": "AJ1"
+      },
+      {
+        "name": "swan_atomic_fact_preflight1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_b1_family_units1",
+        "scope": "new_continuation",
+        "section": "AI3"
+      },
+      {
+        "name": "swan_b1b_statistic_power1",
+        "scope": "new_continuation",
+        "section": "AI4"
+      },
+      {
+        "name": "swan_bank100_microfact_null1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_bank100_null_calibration1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_bank_scale_pilot1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_branch_c_final_literature_refresh_20261002",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_branch_c_submission_readiness_20261002",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_c4_train_narrative_windows3",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_coherent_baseline1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_coherent_baseline_cached1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_coherent_injection_pilot1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_coherent_injection_pilot2",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_coherent_injection_pilot3",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_coherent_injection_pilot4",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_constrained_microfact1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_count_neutral_boundary1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_count_neutral_confirmation1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_count_neutral_final1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_deepseek_span_compiler1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_dependency_pruner1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_elastic_bank_null_smoke1",
+        "scope": "new_continuation",
+        "section": "AF1"
+      },
+      {
+        "name": "swan_elastic_formal_null1",
+        "scope": "new_continuation",
+        "section": "AF3"
+      },
+      {
+        "name": "swan_elastic_formal_smoke1",
+        "scope": "new_continuation",
+        "section": "AF2"
+      },
+      {
+        "name": "swan_elastic_length_boundary1",
+        "scope": "new_continuation",
+        "section": "AF5"
+      },
+      {
+        "name": "swan_elastic_length_boundary_audited2",
+        "scope": "new_continuation",
+        "section": "AF6"
+      },
+      {
+        "name": "swan_elastic_positive_attack1",
+        "scope": "new_continuation",
+        "section": "AF4"
+      },
+      {
+        "name": "swan_elastic_v2_development1",
+        "scope": "new_continuation",
+        "section": "AG2"
+      },
+      {
+        "name": "swan_elastic_v2_preflight1",
+        "scope": "new_continuation",
+        "section": "AG1"
+      },
+      {
+        "name": "swan_elastic_v3_development1",
+        "scope": "new_continuation",
+        "section": "AG3"
+      },
+      {
+        "name": "swan_elastic_v3_preflight1",
+        "scope": "new_continuation",
+        "section": "AG3"
+      },
+      {
+        "name": "swan_elastic_v4_development1",
+        "scope": "new_continuation",
+        "section": "AG4"
+      },
+      {
+        "name": "swan_elastic_v4_mechanism1",
+        "scope": "new_continuation",
+        "section": "AH3"
+      },
+      {
+        "name": "swan_elastic_v4_p2_audit1",
+        "scope": "new_continuation",
+        "section": "AH2"
+      },
+      {
+        "name": "swan_elastic_v4_p2_formal",
+        "scope": "new_continuation",
+        "section": "AH1"
+      },
+      {
+        "name": "swan_final_confirmation1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_fusion_audit1",
+        "scope": "new_continuation",
+        "section": "AJ2"
+      },
+      {
+        "name": "swan_generator_comparison1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_injection_only_baseline1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_injection_only_pilot1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_known_positive1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_length_gate_tradeoff1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_length_probe",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_length_probe_v2",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_local_multi_instance1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_local_multi_instance2",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_microfact_generation1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_microfact_sequential2",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_multiscale_attention_development1",
+        "scope": "new_continuation",
+        "section": "AM"
+      },
+      {
+        "name": "swan_multiview_development1",
+        "scope": "new_continuation",
+        "section": "AK-AL"
+      },
+      {
+        "name": "swan_natural_mixed_windows1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_natural_narrative_windows2",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_normal_length_boundary_location1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_normal_length_coherent_baseline1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_normal_length_coherent_pilot1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_normal_length_feasibility2",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_onepass_control1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_oracle_composition1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_partial_coverage_power1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_positive_asset_audit1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_positive_collection1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_positive_deepseek_confirmation1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_positive_deepseek_length_confirmation2",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_positive_deepseek_length_confirmation3",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_positive_deepseek_preflight1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_positive_local_qwen_preflight1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_quality_first_windows4",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_reframing1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_relation_motif1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_sentence_growth1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_source_anchored1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_source_anchored_single_preflight2",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_source_anchored_splittable1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_splittable_positive_pilot1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_statistic_design1",
+        "scope": "new_continuation",
+        "section": "AI2"
+      },
+      {
+        "name": "swan_statistic_feasibility1",
+        "scope": "new_continuation",
+        "section": "AI2"
+      },
+      {
+        "name": "swan_template_specificity1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "swan_verdict_audit1",
+        "scope": "new_continuation",
+        "section": "AI1"
+      },
+      {
+        "name": "targeted_sentence_attack",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "targeted_sentence_controlled30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "targeted_sentence_pilot30",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      },
+      {
+        "name": "unitization_go_no_go1",
+        "scope": "earlier_or_auxiliary_not_repeated",
+        "section": null
+      }
+    ]
+  },
+  "source_files": [
+    {
+      "path": "experiments/semantic_sequence_cycle1/FINAL_REPORT.md",
+      "sha256": "343b4cfb1f1367d740f840e8fce8d3c9530d9242f8678543bc1d429ebdd618fa",
+      "bytes": 11059,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle1/FOLLOWUP.md",
+      "sha256": "184ff87b3d6cc70aba5cb8a17eb9188609ee7a4102e2b39e74d477964a548a00",
+      "bytes": 4495,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle1/PROTOCOL.md",
+      "sha256": "23410bd90b4e3ebcc70c5eb4adbf5144f7910c2628f24ea0029f1c02f979ed40",
+      "bytes": 6570,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle1/REPRODUCTION.md",
+      "sha256": "4c84072968feba1c0bacce4e1fbf5e0d11362cc4d4f0e9e7a74f57fec9fa374d",
+      "bytes": 4735,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle2/PROTOCOL.md",
+      "sha256": "ee89f82849e4e4f00fe3fe10e0f9f56f52493cc1afc51f0b19a5c3a820b5cc70",
+      "bytes": 8757,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle2/REPORT.md",
+      "sha256": "91375e45c1029a390160479f1ab3d793869deb057aa2340b4d164547c9c2b2d3",
+      "bytes": 10158,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle2/execution2/PROTOCOL.md",
+      "sha256": "16cdbeb13f89ba68f25d12dd4155db1a9eeae52a5ef1b90f198ed476a2011b45",
+      "bytes": 9402,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle2/execution3/PROTOCOL.md",
+      "sha256": "e364a466619594bec54b6f2f9607f819ab83a2303bb90cae732450438ba88425",
+      "bytes": 9884,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle2/execution4/PROTOCOL.md",
+      "sha256": "916a1927748b1c14808f2ccf7061ec05a4cbe5c55c4313ccc2ac9b2135c92fb6",
+      "bytes": 10351,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle2/execution5/FINAL_REPORT.md",
+      "sha256": "a325a0fb6006f7f53583df29be0155530ec5b4c644b8f2cf80d0ffc1d22a5aaa",
+      "bytes": 4605,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle2/execution5/PROTOCOL.md",
+      "sha256": "da02420764e298b4a33d61ad5924d7f003ceb9b851eca47de08bf73e0bdc96e0",
+      "bytes": 11724,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle2/execution5/REPAIR.md",
+      "sha256": "960fa8cb083a041b7c603fd163c44d6042c74f35e5c2d6a3827283e93077bb3f",
+      "bytes": 2474,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/FINAL_REPORT.md",
+      "sha256": "575c62e020b0245d1be4b283e8872c15dd269b17fd479cc0672b3c8460dd5dfd",
+      "bytes": 7844,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/HUMAN_REVIEW.md",
+      "sha256": "70ecc04bc5c574eedd594f22357f20aac2e38971a6f9c7cd45a3dc139534c948",
+      "bytes": 2466,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/LOCKED_SELECTION.json",
+      "sha256": "740f21b5cf2048e255f1e15a89c83b3ba3feed133a0493a8526c55e3efca024b",
+      "bytes": 287,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/ORDER_RESULT.json",
+      "sha256": "d717dc59983b02e556f1cd4f3c8dcba8a7e3ef155da56ace36bcc650759248da",
+      "bytes": 218548,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/PROTOCOL.md",
+      "sha256": "0f9814a2a1e55122af84ba1d05f3869b1358b20731a2e87d5adc940ab2302c3f",
+      "bytes": 5664,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RESULT.json",
+      "sha256": "c8beb360f4e4cf95f69eac5230f3642ffa49c44f33fe2812715d13ea67e80d52",
+      "bytes": 274382,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RESULT_AUDIT.json",
+      "sha256": "54b0773a6790641351145f85325d6011ecafcdd0efe3a4d789944667327d4c81",
+      "bytes": 782,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RETROSPECTIVE.md",
+      "sha256": "40eaeb6398141d9cf604517f09b3c0e4161a16bcee8f1296741fb0c84a760607",
+      "bytes": 10921,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RETROSPECTIVE_FIGURE.png",
+      "sha256": "bfd5e3a368298477b14fb092935500ed110ee1db0f3129c6a4c4042d9cd3b817",
+      "bytes": 95334,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RETROSPECTIVE_METRICS.json",
+      "sha256": "37775a1ea916815b82705fef58d47ac41f2fb1889cd0e4cb26e678b07d4c7cfd",
+      "bytes": 137039,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/WRITE_CONTRACT_DIAGNOSTIC.json",
+      "sha256": "b10a77433bcdf10ccf49354b14bb86eb27c8d14c4e2f2d432187d016cb8160b5",
+      "bytes": 46478,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_design1/PROTOCOL.md",
+      "sha256": "906231877fe40d2a11f99aeeed1cbb60ed74a047ecdbb83acf8c37e20db75f6d",
+      "bytes": 32431,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/CURRENT_DIAGNOSTIC_STATUS.md",
+      "sha256": "f4ea0cc5e83b007baa7b2e35b83788555ca89273b8b87c0ee08281beedede7a2",
+      "bytes": 6758,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/EXECUTION_NOTES.md",
+      "sha256": "a7c557d77ca49580f30fd0731e57c53c909f1b8f36c3bd7a0bc79306f4d7d4cb",
+      "bytes": 3616,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/EXECUTION_NOTES_AMR_REVIEW.md",
+      "sha256": "8d05c314ef4a711d4cf281e788fa8e5d5d15e5e1c80ac1744e3306d7a9587a9e",
+      "bytes": 6062,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/SEQUENCE_DIAGNOSTIC_REPORT.md",
+      "sha256": "f400fcc81893140a388386593b6bdd615030e4c78cb92eba3414f5efee5227c7",
+      "bytes": 6527,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/STAGE1A_REPORT.md",
+      "sha256": "2802d63822d6e14c808f9615f9f8316d50f91d73e367c54e19e9ff320ba4aded",
+      "bytes": 877,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/STAGE1B_STATUS.md",
+      "sha256": "113a240b47d751d1407f0eb792d05ea0f0e4d0592758a38394cce34d88be171e",
+      "bytes": 6544,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/STAGE1B_STATUS_AMR_REVIEW.md",
+      "sha256": "ead059982e5b7d5a2eb015d15271c3dc8a5b00081a3462e17adea3b4a7d3b716",
+      "bytes": 7499,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/STAGE1B_STATUS_MULTISCALE.md",
+      "sha256": "e36684e6abe1c8babaa9fb96de9da2817da7be05c29cb7b1f88bbc8d5b613f55",
+      "bytes": 3608,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/ai_review1/AI_REVIEW_REPORT.md",
+      "sha256": "64fcd4df2f8b3a4e07411ec500af60b9871eb6727be9fb9053d2913e5db04cfc",
+      "bytes": 6732,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/ai_review1/REVIEW_PROTOCOL.md",
+      "sha256": "942e33b5bc9f99cc556ae18bfa0dbe0d3c9751dc62e2e33cda2527d97d4e4b71",
+      "bytes": 3532,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/ai_review1/STRUCTURE_REVIEW_NOTES.md",
+      "sha256": "6e1336e4374807b29d2c30ba6490009f1876d1a520fe3ad77f5c174a935a8ab3",
+      "bytes": 2743,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/alignment_review1/REVIEW_REPORT.md",
+      "sha256": "7aca56478d8b06b4c88fdc0dd442b17b7a443270b594a3e9290bb39f592d9fa9",
+      "bytes": 7904,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer1/PROTOCOL.md",
+      "sha256": "5e90d75f089d423d109c3a0a81876ea8c644fb7f2303b035cd5cef56e69aab18",
+      "bytes": 2335,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer1/SUPERSEDED.json",
+      "sha256": "2a11d78f66976a9cf5a24a182bda54388e1d5aa71b7764443248d85af2a0cce1",
+      "bytes": 261,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer1_run2/PROTOCOL.md",
+      "sha256": "5e90d75f089d423d109c3a0a81876ea8c644fb7f2303b035cd5cef56e69aab18",
+      "bytes": 2335,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer1_run2/SUPERSEDED_BY_STAGE_ORDER.json",
+      "sha256": "c0876a889664c26310d4ad6414760947088a38281300e280b1fa2d1092a12452",
+      "bytes": 392,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer1_run2/SYMBOL_DIAGNOSTIC.md",
+      "sha256": "cd08d8f6f12c2447444c7d1031bed9f9888ef14cbfec5999ffe80f6e0fb250ce",
+      "bytes": 1493,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer2/PROTOCOL.md",
+      "sha256": "02d940a63d603ee89c6abaea498afef817a16c4a1155f1fbef9aa7bb236c8b07",
+      "bytes": 2558,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer2/REPORT.md",
+      "sha256": "3165ed0743da0b860366455ce6de03536d76fd679252a86d1f5d0b84077401a1",
+      "bytes": 2196,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer2/STOP_OVERVIEW.md",
+      "sha256": "79ee8d9269c87dbeb9e7fcf718c1a005fab1ea6a3c93046da1432f8c523e8e70",
+      "bytes": 887,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer2/SYMBOL_DIAGNOSTIC.md",
+      "sha256": "9e502d950af7d3c781167ae37a3eb09cf16f26a672641e3cc2c9d4a06cdeb2fc",
+      "bytes": 3326,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer3/OVERVIEW.md",
+      "sha256": "e328a382d1992927ec91a91a2d79ff3671afa32f24f9c5ee15c832bbd21a6aab",
+      "bytes": 6035,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/multiscale_transfer3/PROTOCOL.md",
+      "sha256": "6f82e23fa5f5249c59033b40528f14c13bab61bb4ae11cee7da7a254d6309d13",
+      "bytes": 2648,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_anchor_stability1/REPORT.md",
+      "sha256": "0340e7b4515ba1f52274d3d5f260fe7130d435a33cba4acec1696406baea12d6",
+      "bytes": 4522,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_b1_family_units1/REPORT.md",
+      "sha256": "d4508ad3cbf6ef0159d84face7fbcd33cdc575b0484d566cd1ff291f3a84a860",
+      "bytes": 3225,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_b1b_statistic_power1/REPORT.md",
+      "sha256": "e681e5ee505c1f5203b52f0a7c0279ff808182c7a0a085d3319dcd2ab2e691b4",
+      "bytes": 4982,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_bank_null_smoke1/REPORT.md",
+      "sha256": "83b0a0472068e8b14d20ea841bc79a4e9ed61ca61476a60833ce9598da3d1064",
+      "bytes": 2424,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_formal_null1/PROTOCOL.md",
+      "sha256": "0bf2fc1d5764867d1158d31c50aaa6310b6fae2223416dcdd3dec9c56b15dd8d",
+      "bytes": 5077,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_formal_null1/results/REPORT.md",
+      "sha256": "3c9d69be154643566c59a82c56bd1a54831b5e90c0dce321e2db16a7beb3df00",
+      "bytes": 1212,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_formal_null1/results/RESULT.json",
+      "sha256": "341344a27cf49ea493c9b7087f2710655db601d4a742316ae767603db507b60b",
+      "bytes": 64472,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_formal_smoke1/INPUT_MANIFEST.json",
+      "sha256": "65107d0b2e801ccd72e48279a385f02d1c149a8cbdfb04fd3ea855afe52ddafa",
+      "bytes": 2287,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_length_boundary1/AMENDMENT_PARSER_AUDIT.md",
+      "sha256": "86f54ea2b2312e7756bee15ff1598972f9f5fc49dcfec305a51ca7d79163df7e",
+      "bytes": 1470,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_length_boundary1/PLAN.md",
+      "sha256": "99d6e5f46af16278bb8a6b110fa036a87fb2cd857e3fdbbe9eae8117f810e68f",
+      "bytes": 6280,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_length_boundary_audited2/CLOSEOUT.md",
+      "sha256": "87515d790a3de4017c055bd3bfe50ed993f5bf333c6725af171ed36db408252a",
+      "bytes": 4212,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_length_boundary_audited2/DECISION.md",
+      "sha256": "f84896886f51934259ce62d09917ea1bd7349d3a2dc13150fb55e8a5937418d3",
+      "bytes": 1935,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_length_boundary_audited2/FOLLOWUP.md",
+      "sha256": "ddf52138f14ebb1fc461943d3970e62a4c0ad6ffbb1ea39dc4f41dbaab2f99a4",
+      "bytes": 3094,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_length_boundary_audited2/PLAN.md",
+      "sha256": "558749a42cb08524be2923f8ffac15ac41ff08842b5837bdb62bf96536093e7f",
+      "bytes": 2397,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_length_boundary_audited2/results/REPORT.md",
+      "sha256": "7e4ca01d8f8278d99a946315bed73ecb0cb45daf5552c9ec155753da7d52efa7",
+      "bytes": 3349,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_positive_attack1/PROTOCOL.md",
+      "sha256": "0dec6cdf10d75fb21d81f4f8afb874625f9305656622f544c37a42511f574687",
+      "bytes": 4146,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_positive_attack1/results/REPORT.md",
+      "sha256": "b8b4928a9a1e0e974a99e9370d4e01c2a3efdd8a5ebaa28fa4b05f40e9cbcebd",
+      "bytes": 1918,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v2_development1/PARTIAL_STOP.json",
+      "sha256": "3b374a9f91bbdad5969e0ed961073ad03a45a2a58e412840fb409b0ac8d125af",
+      "bytes": 1971,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v2_development1/PROTOCOL.md",
+      "sha256": "767d7feb121979db547918d4940de9e3048720a11cb7fc983d08a110edffc6ab",
+      "bytes": 2393,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_v2_development1/START.md",
+      "sha256": "99cd452968f6c8cd23454e71525fe4fe57863c839d8244a259f5afec8b93a8fb",
+      "bytes": 3939,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_v2_preflight1/DECISION.md",
+      "sha256": "c7b87ca9faec9c5101aedb99d4159d4b6cb2848871d8208e0a7e3e56ee1a8325",
+      "bytes": 1561,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v2_preflight1/PLAN.md",
+      "sha256": "5ae7f1e64d0a8cae4df488afbc607e9123025e54ae9deb8beff37007c17a316e",
+      "bytes": 2565,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_v2_preflight1/PROTOCOL.md",
+      "sha256": "ee5fd49d67209c31ec305389f098e8add4850284cc56ecff19b0979734d833fe",
+      "bytes": 2693,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v3_development1/CLOSEOUT.md",
+      "sha256": "78d03b573a3b89d8c1fda47cb62e646bbbb5f5421da9e21cde2d4ce1ef5abd8e",
+      "bytes": 1969,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_v3_development1/DECISION.md",
+      "sha256": "1c4aa5c69f2d550736f0eeaa0c90a192c0f1bce13eabe235a26dc42a3f864e75",
+      "bytes": 313,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v3_development1/PROTOCOL.md",
+      "sha256": "2953e18a09fbf94821716b94d053a302a8fce6e8aeb41636e53687526f873059",
+      "bytes": 2152,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_v3_development1/REPORT.md",
+      "sha256": "abce1b1acec9a09f27613c62d16cc876126e3415217c40b3d3780647ed776819",
+      "bytes": 585,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v3_development1/START.md",
+      "sha256": "b88be1dccfa7a7c503a99fd2f9232c53aa8bff0e35c0b2d3d1f843f2e7e05bd8",
+      "bytes": 1713,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_v3_preflight1/DECISION.md",
+      "sha256": "ddd956079432b08669b35d270453afc4be0412da01545f87fe1bb9aecaba7c4c",
+      "bytes": 1297,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v3_preflight1/PROTOCOL.md",
+      "sha256": "e915191985b2995fb16d21a24faa063e0aae2c20d3b2a94f044b20d8ca48cf97",
+      "bytes": 1713,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_development1/DECISION.md",
+      "sha256": "6ef1fe03282045e0bebef6b0439798690318a6dd395f35d4db5e5fc488ac99e9",
+      "bytes": 270,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_development1/PROTOCOL.md",
+      "sha256": "1901a501a84c4a6dbac6982e6ea9f1e859da5bff474f8651637f9f7cafb8df75",
+      "bytes": 496,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_development1/REPORT.md",
+      "sha256": "d6baf2eff8d7b6f5235074b6f66fb10e4ad74bbc4c0f4156f96c1d8a456ee867",
+      "bytes": 641,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_mechanism1/DEVELOPMENT_PROTOCOL.md",
+      "sha256": "44b83bcc178c655aa487ad2f7731b53eb9bced0b5e9f3285f6cdf99f145e3ae9",
+      "bytes": 6057,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_mechanism1/REPORT.md",
+      "sha256": "162ed6191e741a3a5cfaa71da51c23b30362f52c5a2e76b6a51c7458f8e52f25",
+      "bytes": 8272,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_p2_audit1/FOLLOWUP.md",
+      "sha256": "b508ffa9799b83f4f9a3ede17af5ae2ecf48df5d12e6c47885dc5ea23f3ba715",
+      "bytes": 3676,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_p2_audit1/REPORT.md",
+      "sha256": "15ebd7011f6af8eddbc880378ee3e63652d1f4aa49bfd751da1dcde5559415d8",
+      "bytes": 9039,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_p2_formal/FAILURE.json",
+      "sha256": "080bbd6d0ff23d7384148d662ac7f584f503257540cffa63dd9b50f8bf45bc27",
+      "bytes": 158,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_p2_formal/RESULT.json",
+      "sha256": "14a3d2784f6cbf67d2327c4bf088eb57b06d9a18aa68e64446e2f937b288e539",
+      "bytes": 4431,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_fusion_audit1/REPORT.md",
+      "sha256": "b785845f58e2f6cca1b8f6b849e0e9f9d1b39ccbd7b613bb134bcfb776f5af5b",
+      "bytes": 7887,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/README.md",
+      "sha256": "feeda47c9b1c05b3330415d49fd8246867e4b1a2e1789a2670c30ca2077ccc66",
+      "bytes": 17835,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/ablation1/INITIAL_README.md",
+      "sha256": "269bd92cc327d3415b13e67949ef4a4c28824761afb4fe05c97b1f1bba0c23c3",
+      "bytes": 9601,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/ablation1/PROTOCOL.md",
+      "sha256": "2d787178f4a11df6d226c2168b128415540fd330e3194fefc617e8c0bc2e6e01",
+      "bytes": 5423,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/ablation1/REPORT.md",
+      "sha256": "0e282aa43c42fd53febdd39d14ef864bc3de8ab5cde244880ea512d10db739cf",
+      "bytes": 11549,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/family_hard1/PROTOCOL.md",
+      "sha256": "f43fa19a1133d4598c782f7032b9eca9cab414803bd34df444997cabedf110bb",
+      "bytes": 7034,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/family_hard1/README_BEFORE.md",
+      "sha256": "666d5da50528965012485e639dbd4a03067fcd7606cf681babdb118ece9cbbc1",
+      "bytes": 13614,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/family_hard1/REPORT.md",
+      "sha256": "c0e7f7dbf49f66c156f2d560b3df1d8c010d219f4160272d2754e088442f9d39",
+      "bytes": 17418,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/operating_points1/INITIAL_README.md",
+      "sha256": "399d68d74b3aa5d98864d744cc82fde6abd9468a2492406e830fb59bfaf38cbf",
+      "bytes": 11839,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/operating_points1/PROTOCOL.md",
+      "sha256": "fa6283f3499380c1b9a0e4ce0a571c5813da3aeb06aca7ad43013f6a78ab0bf3",
+      "bytes": 3757,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/operating_points1/REPORT.md",
+      "sha256": "1226c54b1e22b72e04e8fd45000843c31d502b454b6a0cfae1cf016fd81c2ec9",
+      "bytes": 10077,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/validation1/REPORT.md",
+      "sha256": "bca7ad7cbdf888c24fa6d319c586064bd3695e46e7a431e03edcd64c74f73f0c",
+      "bytes": 10372,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/FINAL_ROUND_PLAN.md",
+      "sha256": "84c96aa5037e714106ace2efbdefa5941969136ea16dd437516ba3680f0c947b",
+      "bytes": 9795,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/FIX_PLAN_V2.md",
+      "sha256": "ecfb7d2ce37718fd39436b0f4898b9426e0b71f8281dc5943a7cd5452b767ac8",
+      "bytes": 9541,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/GENERATION_PREFLIGHT.md",
+      "sha256": "d344ee8734306fa0abf5bb3e2578eeb0287b38a27613a6e00b996422347db6cb",
+      "bytes": 2407,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/IMPLEMENTATION_REPORT.md",
+      "sha256": "e5cfe1ff5bdf0423b79610a39c3e59e044375e7c182fb15024a5aa4eaeb3ab6c",
+      "bytes": 6737,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/PAPER_DRAFT.md",
+      "sha256": "6134282d1fb00e0d57d801cf1188af98399905a0068b634f6653fc166d93dd19",
+      "bytes": 12336,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/PROTOCOL.md",
+      "sha256": "0b4be5d82bac011ed61e8b2329048925d1b8d07ecaf631eacb6f6508eaf52813",
+      "bytes": 36087,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/README.md",
+      "sha256": "33e813e56bc086b6e405d12e2c41b468f40609e52563089837a4c971168abe7e",
+      "bytes": 718,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/abstention_audit1/REPORT.md",
+      "sha256": "702df6a5f5beddee84cd7043df74bf195173861adeb6c38eb84466c6e7bb519d",
+      "bytes": 3545,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/blind_eval1/run2/REPORT.md",
+      "sha256": "451559cd7f93b5142888d1b914602bb89c586beb128af04df8d0354c4e140f29",
+      "bytes": 14018,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/dataset4_attack1/REPORT.md",
+      "sha256": "fd9d1e679eb5c241f516f989c872aa11b3bba97dee41c2431adb8ad5889f226f",
+      "bytes": 4481,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/dataset4_fusion1/REPORT.md",
+      "sha256": "6d20cdd572f9e0c153014e7c8323b2ac782045d0561f9d73772e846c3fad832e",
+      "bytes": 6250,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/dataset5_eval/DOC_LEVEL_TPR_REPORT.md",
+      "sha256": "1ba91d3fba0310697503069d9fc427d32204b3530c351ac4094f096dfb3301dc",
+      "bytes": 6012,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/dataset5_eval/P2_REPORT.md",
+      "sha256": "f92fe77a41feb31774be004675402826945096395ca5d261266983f68247bdfc",
+      "bytes": 5457,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/figures/EVIDENCE_SCOPE.md",
+      "sha256": "6a0121a3be4ac9d2032f92e47a7045148ced29ea7289ae59e8bd4b6851d07285",
+      "bytes": 503,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion1/CLAIM_REGISTRY.md",
+      "sha256": "cd28fe0495ff42b7845a966328d3427e17770c61b612abc47aabcd02df4a51c7",
+      "bytes": 2674,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion1/FINAL_REPORT.md",
+      "sha256": "6e6d161df067840ee0e6c0cf8cdc0a8c7b81fbad853b0d3fe578f567fc5b0522",
+      "bytes": 5030,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion2/CLAIM_REGISTRY.md",
+      "sha256": "5b9e30fc59ad516b89f63e04a904f77751c1ad9cb860fca5119745346545aa01",
+      "bytes": 3133,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion2/FINAL_REPORT.md",
+      "sha256": "c84cd61c37479646d92638206a21f3da14afcdcbeff722237a6abc12bf914359",
+      "bytes": 2283,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion2/INPUT_REPORT.md",
+      "sha256": "6d75ef44b0b019ac9a327481712d1812909909347def6631c205254c15ff09e0",
+      "bytes": 445,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion2/REPAIR_PROTOCOL.md",
+      "sha256": "f9e359638880cc9625c64736b0249c772980c18796549d0432d4624d9ef4c98a",
+      "bytes": 2995,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion3/CLAIM_REGISTRY.md",
+      "sha256": "d7e0d1c3d75033b8c18b48dca9338ce144a0dea3a3ee607caa391676b63eaa1e",
+      "bytes": 266,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion3/EXECUTION_PROTOCOL.md",
+      "sha256": "d08a2ddf219548854a847f46e5dc06d5f9aa73560a4ffe85cb8cbe16d34888d6",
+      "bytes": 4197,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion3/FINAL_REPORT.md",
+      "sha256": "875a8056042de0d498e19f107c09b8a61512432aeffe553ece60269f07b606c8",
+      "bytes": 825,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion3/INPUT_REPORT.md",
+      "sha256": "6d75ef44b0b019ac9a327481712d1812909909347def6631c205254c15ff09e0",
+      "bytes": 445,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion4/CLAIM_REGISTRY.md",
+      "sha256": "c0bef7a2259436fb7207c43a73071e4cce80863fecb9821f0f9972ed0a56e614",
+      "bytes": 272,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion4/EXECUTION_PROTOCOL.md",
+      "sha256": "83f0365fb3a88060676465b798f582207b3a5c3dfd50d9ac89320a1c6b8e3fd7",
+      "bytes": 3047,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion4/FINAL_REPORT.md",
+      "sha256": "1d9aadc0d6bf4263991f46fd81ed1aaca361aa5fe7ff64d07a2b5749e14ba6c3",
+      "bytes": 1789,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion4/INPUT_REPORT.md",
+      "sha256": "6d75ef44b0b019ac9a327481712d1812909909347def6631c205254c15ff09e0",
+      "bytes": 445,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion4/PAPER_DRAFT_POSTARCHIVE_SNAPSHOT.md",
+      "sha256": "888494725914f8ecdff57025a0e77aa38941260b9cfca98f8f9fa69941c2bbbb",
+      "bytes": 11990,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion4/PROTOCOL_POSTARCHIVE_SNAPSHOT.md",
+      "sha256": "8c6c9322de82bac545e0072f3d5935a52ca9cc5e7fab3ca0fcfe086502ed63ce",
+      "bytes": 35753,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion4/REPORT.md",
+      "sha256": "a12fb42248f3323b6fc5316a4eac410fddd0e6503f6e4242ca5cc616bf7a3cdd",
+      "bytes": 2409,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion4/RESULTS.json",
+      "sha256": "2eb1b86bee09094b4f5e651a5c3aa39db696f85a981cac908e061ca8297a713a",
+      "bytes": 37185,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion4/RUNTIME_PROTOCOL_SNAPSHOT.md",
+      "sha256": "8dd1adac84336534dd7942ed2fa0ecfa835c78e25c9d85e414366b9c80a75426",
+      "bytes": 35286,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/final_completion4/TIME_POLICY_AMENDMENT.md",
+      "sha256": "48b3ffc863586fefe4708121ae9bbd1926b93aabc05870a6de831c04a072eace",
+      "bytes": 1853,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/generation_probe1/FINDINGS.md",
+      "sha256": "05bf8e3db95d83ade973af389398a641e9b139df3752882cf7990180f8f3b87e",
+      "bytes": 8650,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/newline_negative_expansion1/PROTOCOL.md",
+      "sha256": "7d872a80d99ae5f9c2484815fcc0a74daeabb921a44afa06f2c3f8568e506ffe",
+      "bytes": 3040,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/newline_negative_expansion1/REPORT.md",
+      "sha256": "46fbd0191b83ce3c2212f6aeb98c23ebbe669499757eede7ad5941785aa0377a",
+      "bytes": 3826,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/EXPERIMENT_PLAN.md",
+      "sha256": "d1ead0dd3258b321d8689ef17e5718bd9864a7ca6c22ce22cba05f062e3518aa",
+      "bytes": 6074,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/P0_AUDIT_REPORT.md",
+      "sha256": "00ff780c4272d09a49a4370b0715f209c9cefa7631a2639ae3115565134a279d",
+      "bytes": 7310,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/P1_PUNCT_REPORT.md",
+      "sha256": "2b76d08a0545c2b73705f4f7a378e43a1ce273217e1554854a3947da580abccf",
+      "bytes": 4932,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/POSITIVE_EXPANSION_PLAN.md",
+      "sha256": "081397da0010dc410da7b2dce7ceddb80d62cf664deac0201cec1524d402c3b0",
+      "bytes": 6606,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/QUANTILE_FISHER_REPORT.md",
+      "sha256": "4cdb389cff3454746e745fffbe6c7021b6564cee5ab9484b37a611fa0656ffea",
+      "bytes": 6077,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/REPORT.md",
+      "sha256": "416f0dc02622046f232790dde457abfbe1a141c59f1f000e9b0f79fbb787f8b3",
+      "bytes": 6233,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/SCALED_200_VERDICT.md",
+      "sha256": "06907ed1245710aa54e574916c7dbb2da5c0004222980ee40cfab4b00524d921",
+      "bytes": 6417,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/SCALED_FINAL_VERDICT.md",
+      "sha256": "ad074408dc8bbec763d015e2e7b218680d9b79928b7dcc35f44d2b4fc4419cf4",
+      "bytes": 7087,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/SCOPE_ZFUSION_REPORT.md",
+      "sha256": "60d5bd9537256cd17e65e6391515deda55f75c0cc8be016f6c6f8e5daeb3a7d8",
+      "bytes": 5398,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/SYMMETRIC_CORRECTION_REPORT.md",
+      "sha256": "28dcd3aa7f3b2eeac482d5a8bf944c9ca84dc73c7efb28ec1cd54b3424f29822",
+      "bytes": 5585,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/null_fp_audit1/TAIL_DECORRELATION_REPORT.md",
+      "sha256": "491ecdaf0cf61181537415cc402ae24cb239ebfe86a293cf302c86402c3bd22e",
+      "bytes": 7469,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/review_pairs1/README.md",
+      "sha256": "88e3db5af8f821c239ae4d23414c1679be25f46cf6d47a1f54df818920707d2f",
+      "bytes": 1548,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/threshold5_reassessment1/P0_S6/REPORT.md",
+      "sha256": "be53232cf1f19818965a6fff2fdedfb7f75f361faf6de3d295bdf06930745143",
+      "bytes": 7182,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/threshold5_reassessment1/P0_S6_S8/REPORT.md",
+      "sha256": "8e729b0eef27b4791a4e1530111332306a81611b282a82de8f3fcf796cbbcb3c",
+      "bytes": 8426,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/threshold5_reassessment1/P0_S6_S8_S10/REPORT.md",
+      "sha256": "e4578fc909020977e4705152de3d253dd288fdb3cee2475e14b668989d0e68d1",
+      "bytes": 9651,
+      "role": "inventoried_supporting_report"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/threshold5_reassessment1/P0_S6_S8_S10_S12/REPORT.md",
+      "sha256": "ffaa74265669466f7fc0b29ae60c3b994462aca79a0af30046405d0d8cb747a0",
+      "bytes": 10873,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_statistic_design1/DESIGN.md",
+      "sha256": "93331aa329890edf5d8cff727630b331fd02a3e059c1ed9295a084525a0dac70",
+      "bytes": 7750,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_statistic_feasibility1/REPORT.md",
+      "sha256": "6afe03dac66c8b14183e23d11bca522528a3bbec6812af54e41bf7d29fb38020",
+      "bytes": 4758,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "experiments/swan_verdict_audit1/REPORT.md",
+      "sha256": "0df590ef9583941aa0e758ee04279a21f83e7849f064c4ea4f41650f76194537",
+      "bytes": 5635,
+      "role": "direct_document_reference_or_numeric_check"
+    },
+    {
+      "path": "叙事.md",
+      "sha256": "dc31a9ad31ce9bcf845455f6a5eccc0dfd45d926bdb75417f47ce90bb64d2431",
+      "bytes": 40762,
+      "role": "original_narrative"
+    }
+  ],
+  "verification": {
+    "all_checks_passed": true,
+    "document_link_count": 93,
+    "source_file_count": 155,
+    "checks": [
+      {
+        "name": "top_level_directory_count",
+        "actual": 196,
+        "expected": 196,
+        "passed": true
+      },
+      {
+        "name": "inventory_matches_current_top_level",
+        "actual": [
+          "api_full_paragraphs",
+          "api_joint_paragraph5",
+          "api_joint_paragraph5b",
+          "api_joint_strict5",
+          "api_natural223",
+          "api_natural5",
+          "api_natural_batch2",
+          "api_natural_batch3",
+          "api_natural_batch4",
+          "api_natural_batch5",
+          "api_natural_batch6",
+          "api_natural_paragraph30",
+          "api_syntax30",
+          "api_syntax5",
+          "archive_20260725",
+          "baseline_comparison",
+          "best_observed_frontier",
+          "candidate_budget16_pilot30",
+          "certified_resegmentation_calibration_preflight1",
+          "certified_resegmentation_interface_audit1",
+          "certified_resegmentation_pairwise_preflight1",
+          "certified_resegmentation_preflight1",
+          "certified_resegmentation_wp2_adapter_preflight1",
+          "certified_resegmentation_wp2_adapter_scale1",
+          "certified_resegmentation_wp2_eligibility1",
+          "certified_resegmentation_wp2_execution1",
+          "certified_resegmentation_wp2_readiness1",
+          "certified_resegmentation_wp2_v10_semstamp1",
+          "certified_resegmentation_wp2_v11_detector_reproduction1",
+          "certified_resegmentation_wp2_v12_fresh_assets1",
+          "certified_resegmentation_wp2_v13_offline_preparation1",
+          "certified_resegmentation_wp2_v13_semstamp_generation1",
+          "certified_resegmentation_wp2_v14_bounded_generation1",
+          "certified_resegmentation_wp2_v15_causal_prefix1",
+          "certified_resegmentation_wp2_v16_prompt_only_rescue1",
+          "certified_resegmentation_wp2_v17_b0_detector_health1",
+          "certified_resegmentation_wp2_v18_b1_exact_certificate1",
+          "certified_resegmentation_wp2_v2_design1",
+          "certified_resegmentation_wp2_v3_readiness1",
+          "certified_resegmentation_wp2_v4_sparse1",
+          "certified_resegmentation_wp2_v5_scorer1",
+          "certified_resegmentation_wp2_v6_feature1",
+          "certified_resegmentation_wp2_v7_throughput1",
+          "certified_resegmentation_wp2_v8_global_reuse1",
+          "certified_resegmentation_wp2_v9_simmark_long1",
+          "confirmation_mechanism30",
+          "confirmation_three_arm30",
+          "cross_watermark_transfer30",
+          "defense_aggregation",
+          "e1_invariance",
+          "e2_attack_pilot",
+          "e3_main",
+          "e4_ablation",
+          "e5_transfer",
+          "feedback2_diagnostics",
+          "grounded_generation3",
+          "grounded_injection5",
+          "literature_novelty_audit1",
+          "mechanism_e2_amr",
+          "mechanism_sentence_boundary",
+          "milestone_a",
+          "parser_repeatability30",
+          "planB_b0",
+          "planB_b1",
+          "planB_b1_edge",
+          "planB_b1_subgraph",
+          "planB_b2_node50",
+          "planB_b2_reattach50",
+          "planB_b3_combo50",
+          "planB_b6_combo100",
+          "planB_b7_combo250",
+          "planC_argument_swap30",
+          "planC_mod_arg_combo100",
+          "planC_mod_arg_combo30",
+          "planC_modifier_family30",
+          "planC_modifier_swap30",
+          "planD_reent_arg30",
+          "planD_reentrancy30",
+          "planE_e1_roundtrip",
+          "planE_e2_joint100",
+          "planE_e2_joint250",
+          "planE_e2_joint30",
+          "planE_e3_combo30",
+          "planE_transfer_strict30",
+          "prompt_component_ablation30",
+          "report_assets",
+          "research_direction_reconciliation_20261002",
+          "segmentation_intervention",
+          "semantic_sequence_cycle1",
+          "semantic_sequence_cycle2",
+          "semantic_sequence_readout1",
+          "semantic_sequence_stage1_design1",
+          "semantic_sequence_stage1_run2",
+          "semantic_watermark_defense_plan_20261007",
+          "semstamp_certified_defense_v1_wp2_algorithm1",
+          "semstamp_certified_defense_v1_wp3_detector_health1",
+          "semstamp_certified_defense_v2_wp1_threat_model1",
+          "semstamp_certified_defense_v2_wp2_algorithm1",
+          "semstamp_certified_defense_v2_wp3_detector_full_replay_design1",
+          "semstamp_certified_defense_v2_wp3_detector_health1",
+          "semstamp_certified_defense_v2_wp3_detector_smoke_attempt0",
+          "semstamp_certified_defense_v2_wp3_detector_smoke_design1",
+          "semstamp_certified_defense_v2_wp4_resource_preflight_correction1",
+          "semstamp_certified_defense_v2_wp4_resource_preflight_design1",
+          "semstamp_certified_defense_v3_wp2_compiled_core1",
+          "semstamp_certified_defense_v3_wp2_compiled_core_scale2",
+          "semstamp_certified_defense_v3_wp2_throughput1",
+          "semstamp_certified_defense_v3_wp3_variable_n_profile1",
+          "sira_adapted30",
+          "swan_accepted_baseline_preflight1",
+          "swan_accepted_boundary_preflight1",
+          "swan_amr_composition_decomposition1",
+          "swan_amr_precision_recall1",
+          "swan_anchor_stability1",
+          "swan_atomic_fact_preflight1",
+          "swan_b1_family_units1",
+          "swan_b1b_statistic_power1",
+          "swan_bank100_microfact_null1",
+          "swan_bank100_null_calibration1",
+          "swan_bank_scale_pilot1",
+          "swan_branch_c_final_literature_refresh_20261002",
+          "swan_branch_c_submission_readiness_20261002",
+          "swan_c4_train_narrative_windows3",
+          "swan_coherent_baseline1",
+          "swan_coherent_baseline_cached1",
+          "swan_coherent_injection_pilot1",
+          "swan_coherent_injection_pilot2",
+          "swan_coherent_injection_pilot3",
+          "swan_coherent_injection_pilot4",
+          "swan_constrained_microfact1",
+          "swan_count_neutral_boundary1",
+          "swan_count_neutral_confirmation1",
+          "swan_count_neutral_final1",
+          "swan_deepseek_span_compiler1",
+          "swan_dependency_pruner1",
+          "swan_elastic_bank_null_smoke1",
+          "swan_elastic_formal_null1",
+          "swan_elastic_formal_smoke1",
+          "swan_elastic_length_boundary1",
+          "swan_elastic_length_boundary_audited2",
+          "swan_elastic_positive_attack1",
+          "swan_elastic_v2_development1",
+          "swan_elastic_v2_preflight1",
+          "swan_elastic_v3_development1",
+          "swan_elastic_v3_preflight1",
+          "swan_elastic_v4_development1",
+          "swan_elastic_v4_mechanism1",
+          "swan_elastic_v4_p2_audit1",
+          "swan_elastic_v4_p2_formal",
+          "swan_final_confirmation1",
+          "swan_fusion_audit1",
+          "swan_generator_comparison1",
+          "swan_injection_only_baseline1",
+          "swan_injection_only_pilot1",
+          "swan_known_positive1",
+          "swan_length_gate_tradeoff1",
+          "swan_length_probe",
+          "swan_length_probe_v2",
+          "swan_local_multi_instance1",
+          "swan_local_multi_instance2",
+          "swan_microfact_generation1",
+          "swan_microfact_sequential2",
+          "swan_multiscale_attention_development1",
+          "swan_multiview_development1",
+          "swan_natural_mixed_windows1",
+          "swan_natural_narrative_windows2",
+          "swan_normal_length_boundary_location1",
+          "swan_normal_length_coherent_baseline1",
+          "swan_normal_length_coherent_pilot1",
+          "swan_normal_length_feasibility2",
+          "swan_onepass_control1",
+          "swan_oracle_composition1",
+          "swan_partial_coverage_power1",
+          "swan_positive_asset_audit1",
+          "swan_positive_collection1",
+          "swan_positive_deepseek_confirmation1",
+          "swan_positive_deepseek_length_confirmation2",
+          "swan_positive_deepseek_length_confirmation3",
+          "swan_positive_deepseek_preflight1",
+          "swan_positive_local_qwen_preflight1",
+          "swan_quality_first_windows4",
+          "swan_reframing1",
+          "swan_relation_motif1",
+          "swan_sentence_growth1",
+          "swan_source_anchored1",
+          "swan_source_anchored_single_preflight2",
+          "swan_source_anchored_splittable1",
+          "swan_splittable_positive_pilot1",
+          "swan_statistic_design1",
+          "swan_statistic_feasibility1",
+          "swan_template_specificity1",
+          "swan_verdict_audit1",
+          "targeted_sentence_attack",
+          "targeted_sentence_controlled30",
+          "targeted_sentence_pilot30",
+          "unitization_go_no_go1"
+        ],
+        "expected": [
+          "api_full_paragraphs",
+          "api_joint_paragraph5",
+          "api_joint_paragraph5b",
+          "api_joint_strict5",
+          "api_natural223",
+          "api_natural5",
+          "api_natural_batch2",
+          "api_natural_batch3",
+          "api_natural_batch4",
+          "api_natural_batch5",
+          "api_natural_batch6",
+          "api_natural_paragraph30",
+          "api_syntax30",
+          "api_syntax5",
+          "archive_20260725",
+          "baseline_comparison",
+          "best_observed_frontier",
+          "candidate_budget16_pilot30",
+          "certified_resegmentation_calibration_preflight1",
+          "certified_resegmentation_interface_audit1",
+          "certified_resegmentation_pairwise_preflight1",
+          "certified_resegmentation_preflight1",
+          "certified_resegmentation_wp2_adapter_preflight1",
+          "certified_resegmentation_wp2_adapter_scale1",
+          "certified_resegmentation_wp2_eligibility1",
+          "certified_resegmentation_wp2_execution1",
+          "certified_resegmentation_wp2_readiness1",
+          "certified_resegmentation_wp2_v10_semstamp1",
+          "certified_resegmentation_wp2_v11_detector_reproduction1",
+          "certified_resegmentation_wp2_v12_fresh_assets1",
+          "certified_resegmentation_wp2_v13_offline_preparation1",
+          "certified_resegmentation_wp2_v13_semstamp_generation1",
+          "certified_resegmentation_wp2_v14_bounded_generation1",
+          "certified_resegmentation_wp2_v15_causal_prefix1",
+          "certified_resegmentation_wp2_v16_prompt_only_rescue1",
+          "certified_resegmentation_wp2_v17_b0_detector_health1",
+          "certified_resegmentation_wp2_v18_b1_exact_certificate1",
+          "certified_resegmentation_wp2_v2_design1",
+          "certified_resegmentation_wp2_v3_readiness1",
+          "certified_resegmentation_wp2_v4_sparse1",
+          "certified_resegmentation_wp2_v5_scorer1",
+          "certified_resegmentation_wp2_v6_feature1",
+          "certified_resegmentation_wp2_v7_throughput1",
+          "certified_resegmentation_wp2_v8_global_reuse1",
+          "certified_resegmentation_wp2_v9_simmark_long1",
+          "confirmation_mechanism30",
+          "confirmation_three_arm30",
+          "cross_watermark_transfer30",
+          "defense_aggregation",
+          "e1_invariance",
+          "e2_attack_pilot",
+          "e3_main",
+          "e4_ablation",
+          "e5_transfer",
+          "feedback2_diagnostics",
+          "grounded_generation3",
+          "grounded_injection5",
+          "literature_novelty_audit1",
+          "mechanism_e2_amr",
+          "mechanism_sentence_boundary",
+          "milestone_a",
+          "parser_repeatability30",
+          "planB_b0",
+          "planB_b1",
+          "planB_b1_edge",
+          "planB_b1_subgraph",
+          "planB_b2_node50",
+          "planB_b2_reattach50",
+          "planB_b3_combo50",
+          "planB_b6_combo100",
+          "planB_b7_combo250",
+          "planC_argument_swap30",
+          "planC_mod_arg_combo100",
+          "planC_mod_arg_combo30",
+          "planC_modifier_family30",
+          "planC_modifier_swap30",
+          "planD_reent_arg30",
+          "planD_reentrancy30",
+          "planE_e1_roundtrip",
+          "planE_e2_joint100",
+          "planE_e2_joint250",
+          "planE_e2_joint30",
+          "planE_e3_combo30",
+          "planE_transfer_strict30",
+          "prompt_component_ablation30",
+          "report_assets",
+          "research_direction_reconciliation_20261002",
+          "segmentation_intervention",
+          "semantic_sequence_cycle1",
+          "semantic_sequence_cycle2",
+          "semantic_sequence_readout1",
+          "semantic_sequence_stage1_design1",
+          "semantic_sequence_stage1_run2",
+          "semantic_watermark_defense_plan_20261007",
+          "semstamp_certified_defense_v1_wp2_algorithm1",
+          "semstamp_certified_defense_v1_wp3_detector_health1",
+          "semstamp_certified_defense_v2_wp1_threat_model1",
+          "semstamp_certified_defense_v2_wp2_algorithm1",
+          "semstamp_certified_defense_v2_wp3_detector_full_replay_design1",
+          "semstamp_certified_defense_v2_wp3_detector_health1",
+          "semstamp_certified_defense_v2_wp3_detector_smoke_attempt0",
+          "semstamp_certified_defense_v2_wp3_detector_smoke_design1",
+          "semstamp_certified_defense_v2_wp4_resource_preflight_correction1",
+          "semstamp_certified_defense_v2_wp4_resource_preflight_design1",
+          "semstamp_certified_defense_v3_wp2_compiled_core1",
+          "semstamp_certified_defense_v3_wp2_compiled_core_scale2",
+          "semstamp_certified_defense_v3_wp2_throughput1",
+          "semstamp_certified_defense_v3_wp3_variable_n_profile1",
+          "sira_adapted30",
+          "swan_accepted_baseline_preflight1",
+          "swan_accepted_boundary_preflight1",
+          "swan_amr_composition_decomposition1",
+          "swan_amr_precision_recall1",
+          "swan_anchor_stability1",
+          "swan_atomic_fact_preflight1",
+          "swan_b1_family_units1",
+          "swan_b1b_statistic_power1",
+          "swan_bank100_microfact_null1",
+          "swan_bank100_null_calibration1",
+          "swan_bank_scale_pilot1",
+          "swan_branch_c_final_literature_refresh_20261002",
+          "swan_branch_c_submission_readiness_20261002",
+          "swan_c4_train_narrative_windows3",
+          "swan_coherent_baseline1",
+          "swan_coherent_baseline_cached1",
+          "swan_coherent_injection_pilot1",
+          "swan_coherent_injection_pilot2",
+          "swan_coherent_injection_pilot3",
+          "swan_coherent_injection_pilot4",
+          "swan_constrained_microfact1",
+          "swan_count_neutral_boundary1",
+          "swan_count_neutral_confirmation1",
+          "swan_count_neutral_final1",
+          "swan_deepseek_span_compiler1",
+          "swan_dependency_pruner1",
+          "swan_elastic_bank_null_smoke1",
+          "swan_elastic_formal_null1",
+          "swan_elastic_formal_smoke1",
+          "swan_elastic_length_boundary1",
+          "swan_elastic_length_boundary_audited2",
+          "swan_elastic_positive_attack1",
+          "swan_elastic_v2_development1",
+          "swan_elastic_v2_preflight1",
+          "swan_elastic_v3_development1",
+          "swan_elastic_v3_preflight1",
+          "swan_elastic_v4_development1",
+          "swan_elastic_v4_mechanism1",
+          "swan_elastic_v4_p2_audit1",
+          "swan_elastic_v4_p2_formal",
+          "swan_final_confirmation1",
+          "swan_fusion_audit1",
+          "swan_generator_comparison1",
+          "swan_injection_only_baseline1",
+          "swan_injection_only_pilot1",
+          "swan_known_positive1",
+          "swan_length_gate_tradeoff1",
+          "swan_length_probe",
+          "swan_length_probe_v2",
+          "swan_local_multi_instance1",
+          "swan_local_multi_instance2",
+          "swan_microfact_generation1",
+          "swan_microfact_sequential2",
+          "swan_multiscale_attention_development1",
+          "swan_multiview_development1",
+          "swan_natural_mixed_windows1",
+          "swan_natural_narrative_windows2",
+          "swan_normal_length_boundary_location1",
+          "swan_normal_length_coherent_baseline1",
+          "swan_normal_length_coherent_pilot1",
+          "swan_normal_length_feasibility2",
+          "swan_onepass_control1",
+          "swan_oracle_composition1",
+          "swan_partial_coverage_power1",
+          "swan_positive_asset_audit1",
+          "swan_positive_collection1",
+          "swan_positive_deepseek_confirmation1",
+          "swan_positive_deepseek_length_confirmation2",
+          "swan_positive_deepseek_length_confirmation3",
+          "swan_positive_deepseek_preflight1",
+          "swan_positive_local_qwen_preflight1",
+          "swan_quality_first_windows4",
+          "swan_reframing1",
+          "swan_relation_motif1",
+          "swan_sentence_growth1",
+          "swan_source_anchored1",
+          "swan_source_anchored_single_preflight2",
+          "swan_source_anchored_splittable1",
+          "swan_splittable_positive_pilot1",
+          "swan_statistic_design1",
+          "swan_statistic_feasibility1",
+          "swan_template_specificity1",
+          "swan_verdict_audit1",
+          "targeted_sentence_attack",
+          "targeted_sentence_controlled30",
+          "targeted_sentence_pilot30",
+          "unitization_go_no_go1"
+        ],
+        "passed": true
+      },
+      {
+        "name": "new_scope_directory_count",
+        "actual": 28,
+        "expected": 28,
+        "passed": true
+      },
+      {
+        "name": "all_new_directories_have_sections",
+        "actual": [
+          "semantic_sequence_cycle1",
+          "semantic_sequence_cycle2",
+          "semantic_sequence_readout1",
+          "semantic_sequence_stage1_design1",
+          "semantic_sequence_stage1_run2",
+          "swan_anchor_stability1",
+          "swan_b1_family_units1",
+          "swan_b1b_statistic_power1",
+          "swan_elastic_bank_null_smoke1",
+          "swan_elastic_formal_null1",
+          "swan_elastic_formal_smoke1",
+          "swan_elastic_length_boundary1",
+          "swan_elastic_length_boundary_audited2",
+          "swan_elastic_positive_attack1",
+          "swan_elastic_v2_development1",
+          "swan_elastic_v2_preflight1",
+          "swan_elastic_v3_development1",
+          "swan_elastic_v3_preflight1",
+          "swan_elastic_v4_development1",
+          "swan_elastic_v4_mechanism1",
+          "swan_elastic_v4_p2_audit1",
+          "swan_elastic_v4_p2_formal",
+          "swan_fusion_audit1",
+          "swan_multiscale_attention_development1",
+          "swan_multiview_development1",
+          "swan_statistic_design1",
+          "swan_statistic_feasibility1",
+          "swan_verdict_audit1"
+        ],
+        "expected": [
+          "semantic_sequence_cycle1",
+          "semantic_sequence_cycle2",
+          "semantic_sequence_readout1",
+          "semantic_sequence_stage1_design1",
+          "semantic_sequence_stage1_run2",
+          "swan_anchor_stability1",
+          "swan_b1_family_units1",
+          "swan_b1b_statistic_power1",
+          "swan_elastic_bank_null_smoke1",
+          "swan_elastic_formal_null1",
+          "swan_elastic_formal_smoke1",
+          "swan_elastic_length_boundary1",
+          "swan_elastic_length_boundary_audited2",
+          "swan_elastic_positive_attack1",
+          "swan_elastic_v2_development1",
+          "swan_elastic_v2_preflight1",
+          "swan_elastic_v3_development1",
+          "swan_elastic_v3_preflight1",
+          "swan_elastic_v4_development1",
+          "swan_elastic_v4_mechanism1",
+          "swan_elastic_v4_p2_audit1",
+          "swan_elastic_v4_p2_formal",
+          "swan_fusion_audit1",
+          "swan_multiscale_attention_development1",
+          "swan_multiview_development1",
+          "swan_statistic_design1",
+          "swan_statistic_feasibility1",
+          "swan_verdict_audit1"
+        ],
+        "passed": true
+      },
+      {
+        "name": "all_new_directories_named_in_document",
+        "actual": [],
+        "expected": [],
+        "passed": true
+      },
+      {
+        "name": "original_narrative_sha_unchanged",
+        "actual": "dc31a9ad31ce9bcf845455f6a5eccc0dfd45d926bdb75417f47ce90bb64d2431",
+        "expected": "dc31a9ad31ce9bcf845455f6a5eccc0dfd45d926bdb75417f47ce90bb64d2431",
+        "passed": true
+      },
+      {
+        "name": "code_fences_balanced",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "display_math_balanced",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "no_private_content_links",
+        "actual": false,
+        "expected": false,
+        "passed": true
+      },
+      {
+        "name": "no_context_or_secret_endpoint_links",
+        "actual": false,
+        "expected": false,
+        "passed": true
+      },
+      {
+        "name": "formal_null_false_positive_count",
+        "actual": 6,
+        "expected": 6,
+        "passed": true
+      },
+      {
+        "name": "formal_null_test_denominator",
+        "actual": 1000,
+        "expected": 1000,
+        "passed": true
+      },
+      {
+        "name": "formal_null_one_sided_upper_percent",
+        "actual": 1.1808,
+        "expected": 1.1808,
+        "passed": true
+      },
+      {
+        "name": "formal_null_upper_gate_not_passed",
+        "actual": false,
+        "expected": false,
+        "passed": true
+      },
+      {
+        "name": "v4p2_stress_positive_rows",
+        "actual": 51,
+        "expected": 51,
+        "passed": true
+      },
+      {
+        "name": "v4p2_stress_row_denominator",
+        "actual": 5000,
+        "expected": 5000,
+        "passed": true
+      },
+      {
+        "name": "v4p2_positive_denominator_empty",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "confirmation_final_method_count",
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      {
+        "name": "confirmation_final_condition_count",
+        "actual": 5,
+        "expected": 5,
+        "passed": true
+      },
+      {
+        "name": "confirmation_performance_gates_all_false",
+        "actual": [
+          false,
+          false,
+          false
+        ],
+        "expected": [
+          false,
+          false,
+          false
+        ],
+        "passed": true
+      },
+      {
+        "name": "confirmation_s8_calibration_unavailable",
+        "actual": false,
+        "expected": false,
+        "passed": true
+      },
+      {
+        "name": "confirmation_strict_calibration_unavailable",
+        "actual": false,
+        "expected": false,
+        "passed": true
+      },
+      {
+        "name": "S8_baseline_positive_completed",
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      {
+        "name": "S8_baseline_human_completed",
+        "actual": 28,
+        "expected": 28,
+        "passed": true
+      },
+      {
+        "name": "S8_baseline_TPR_not_numeric",
+        "actual": null,
+        "expected": null,
+        "passed": true
+      },
+      {
+        "name": "P0raw_baseline_positive_decisions",
+        "actual": 18,
+        "expected": 18,
+        "passed": true
+      },
+      {
+        "name": "P0raw_baseline_human_false_positives",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "P0raw_baseline_human_denominator",
+        "actual": 200,
+        "expected": 200,
+        "passed": true
+      },
+      {
+        "name": "S8_newline_positive_completed",
+        "actual": 4,
+        "expected": 4,
+        "passed": true
+      },
+      {
+        "name": "S8_newline_human_completed",
+        "actual": 34,
+        "expected": 34,
+        "passed": true
+      },
+      {
+        "name": "S8_newline_TPR_not_numeric",
+        "actual": null,
+        "expected": null,
+        "passed": true
+      },
+      {
+        "name": "P0raw_newline_positive_decisions",
+        "actual": 18,
+        "expected": 18,
+        "passed": true
+      },
+      {
+        "name": "P0raw_newline_human_false_positives",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "P0raw_newline_human_denominator",
+        "actual": 200,
+        "expected": 200,
+        "passed": true
+      },
+      {
+        "name": "S8_merge_positive_completed",
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      {
+        "name": "S8_merge_human_completed",
+        "actual": 33,
+        "expected": 33,
+        "passed": true
+      },
+      {
+        "name": "S8_merge_TPR_not_numeric",
+        "actual": null,
+        "expected": null,
+        "passed": true
+      },
+      {
+        "name": "P0raw_merge_positive_decisions",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "P0raw_merge_human_false_positives",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "P0raw_merge_human_denominator",
+        "actual": 200,
+        "expected": 200,
+        "passed": true
+      },
+      {
+        "name": "S8_comma_positive_completed",
+        "actual": 3,
+        "expected": 3,
+        "passed": true
+      },
+      {
+        "name": "S8_comma_human_completed",
+        "actual": 29,
+        "expected": 29,
+        "passed": true
+      },
+      {
+        "name": "S8_comma_TPR_not_numeric",
+        "actual": null,
+        "expected": null,
+        "passed": true
+      },
+      {
+        "name": "P0raw_comma_positive_decisions",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "P0raw_comma_human_false_positives",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "P0raw_comma_human_denominator",
+        "actual": 200,
+        "expected": 200,
+        "passed": true
+      },
+      {
+        "name": "S8_space_positive_completed",
+        "actual": 5,
+        "expected": 5,
+        "passed": true
+      },
+      {
+        "name": "S8_space_human_completed",
+        "actual": 29,
+        "expected": 29,
+        "passed": true
+      },
+      {
+        "name": "S8_space_TPR_not_numeric",
+        "actual": null,
+        "expected": null,
+        "passed": true
+      },
+      {
+        "name": "P0raw_space_positive_decisions",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "P0raw_space_human_false_positives",
+        "actual": 0,
+        "expected": 0,
+        "passed": true
+      },
+      {
+        "name": "P0raw_space_human_denominator",
+        "actual": 200,
+        "expected": 200,
+        "passed": true
+      },
+      {
+        "name": "readout_W_clean_planned",
+        "actual": 96,
+        "expected": 96,
+        "passed": true
+      },
+      {
+        "name": "readout_W_clean_correct",
+        "actual": 38,
+        "expected": 38,
+        "passed": true
+      },
+      {
+        "name": "readout_W_clean_BA_percent",
+        "actual": 39.58,
+        "expected": 39.58,
+        "passed": true
+      },
+      {
+        "name": "readout_W_paraphrase_planned",
+        "actual": 96,
+        "expected": 96,
+        "passed": true
+      },
+      {
+        "name": "readout_W_paraphrase_correct",
+        "actual": 31,
+        "expected": 31,
+        "passed": true
+      },
+      {
+        "name": "readout_W_paraphrase_BA_percent",
+        "actual": 32.29,
+        "expected": 32.29,
+        "passed": true
+      },
+      {
+        "name": "readout_E1_clean_planned",
+        "actual": 96,
+        "expected": 96,
+        "passed": true
+      },
+      {
+        "name": "readout_E1_clean_correct",
+        "actual": 50,
+        "expected": 50,
+        "passed": true
+      },
+      {
+        "name": "readout_E1_clean_BA_percent",
+        "actual": 52.08,
+        "expected": 52.08,
+        "passed": true
+      },
+      {
+        "name": "readout_E1_paraphrase_planned",
+        "actual": 96,
+        "expected": 96,
+        "passed": true
+      },
+      {
+        "name": "readout_E1_paraphrase_correct",
+        "actual": 37,
+        "expected": 37,
+        "passed": true
+      },
+      {
+        "name": "readout_E1_paraphrase_BA_percent",
+        "actual": 38.54,
+        "expected": 38.54,
+        "passed": true
+      },
+      {
+        "name": "readout_C_clean_planned",
+        "actual": 96,
+        "expected": 96,
+        "passed": true
+      },
+      {
+        "name": "readout_C_clean_correct",
+        "actual": 16,
+        "expected": 16,
+        "passed": true
+      },
+      {
+        "name": "readout_C_clean_BA_percent",
+        "actual": 16.67,
+        "expected": 16.67,
+        "passed": true
+      },
+      {
+        "name": "readout_C_paraphrase_planned",
+        "actual": 96,
+        "expected": 96,
+        "passed": true
+      },
+      {
+        "name": "readout_C_paraphrase_correct",
+        "actual": 12,
+        "expected": 12,
+        "passed": true
+      },
+      {
+        "name": "readout_C_paraphrase_BA_percent",
+        "actual": 12.5,
+        "expected": 12.5,
+        "passed": true
+      },
+      {
+        "name": "readout_parameters_not_retuned",
+        "actual": false,
+        "expected": false,
+        "passed": true
+      },
+      {
+        "name": "exact_equal_frequency_permutations",
+        "actual": 2520,
+        "expected": 2520,
+        "passed": true
+      },
+      {
+        "name": "order_W_soft_paraphrase_win_percent",
+        "actual": 77.48,
+        "expected": 77.48,
+        "passed": true
+      },
+      {
+        "name": "order_W_soft_paraphrase_average_rank",
+        "actual": 568.21,
+        "expected": 568.21,
+        "passed": true
+      },
+      {
+        "name": "order_W_soft_rank_win_identity",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "order_E1_soft_paraphrase_win_percent",
+        "actual": 88.12,
+        "expected": 88.12,
+        "passed": true
+      },
+      {
+        "name": "order_E1_soft_paraphrase_average_rank",
+        "actual": 300.33,
+        "expected": 300.33,
+        "passed": true
+      },
+      {
+        "name": "order_E1_soft_rank_win_identity",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "order_W_hard_paraphrase_win_percent",
+        "actual": 62.05,
+        "expected": 62.05,
+        "passed": true
+      },
+      {
+        "name": "order_W_hard_paraphrase_average_rank",
+        "actual": 957.08,
+        "expected": 957.08,
+        "passed": true
+      },
+      {
+        "name": "order_W_hard_rank_win_identity",
+        "actual": true,
+        "expected": true,
+        "passed": true
+      },
+      {
+        "name": "order_parameters_not_retuned",
+        "actual": false,
+        "expected": false,
+        "passed": true
+      },
+      {
+        "name": "all_document_source_links_exist",
+        "actual": [],
+        "expected": [],
+        "passed": true
+      }
+    ],
+    "limit": "Selected primary counts and rates were compared to JSON. Source hashing identifies files and does not certify scientific validity or external reproducibility. No experiments, provider calls, model inference, or human review were performed."
+  }
+}

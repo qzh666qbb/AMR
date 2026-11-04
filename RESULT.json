@@ -1,0 +1,159 @@
+{
+  "artifacts": {
+    "INPUT_MANIFEST.json": "87477ebb5111e18bca99a31d228fdc72ecb26f1ad3120c6843485779eec12ea5",
+    "RUNTIME_MANIFEST.json": "662ec25ef4241e903d4f30410ab3667abed261cf30acd10c700efb3e06030953",
+    "results/CALIBRATION.json": "fd209a34e1cb88ce67cfeb2cef34906185c66a8382ad9dfe70f188a1db44b502",
+    "results/calibration_rows.jsonl": "34f4a1d26fc06cfd9fc047d0c622c3848d709b02bfbf3f9d234b453c332b017d",
+    "results/development_rows.jsonl": "ef25b4f7fcb725d9f36cd53b8adc4f25ff373e36f93dd973ae25620f9e279230",
+    "results/parser_recovery_rows.jsonl": "9328b4e5b9a2f1ec828eae87d00f8b8333bd77aeb43d6a3779ab56c191381a07"
+  },
+  "completed_at": "2026-10-15T10:12:41.131573+00:00",
+  "decision": "No-Go",
+  "decision_scope": "blind test",
+  "extractor_stats": {
+    "cache_hits": 18321,
+    "cache_misses": 38621,
+    "cached_invalid_records": 0,
+    "invalid_graph_records": 1,
+    "invalid_roundtrip_records": 0,
+    "parsed_texts": 38621,
+    "parsed_with_warnings": 68,
+    "parser_calls": 486,
+    "penman_warning_records": 186
+  },
+  "fingerprints": {
+    "bank": "swan-bank-scorer-v3:58a0549cf46c3402ded8dc7b4a63c7fad247095942667796670bf28e444ac54b",
+    "bank_sha256": "7e51393dacc5473ac9b3d96a12ba2a2591503432277ede174a125864e755a777",
+    "detector": "swan-bank-detector:4ce8e21a29f1c6b4fd55d1af6460e28b79a972bd9a069999fb55aeee21368efd",
+    "parser": "amrlib:a6bb135d6884fca45d0c7ea9f22fc6aa7f9349d3c4672bba115b402a5d707c08"
+  },
+  "gates": {
+    "fpr_under_1_percent": false,
+    "selected_invalid_edges_zero": true
+  },
+  "parser_recovery_audit": {
+    "error_events": 31,
+    "fallback_beam_spans": 1,
+    "spans_with_error_events": 28,
+    "spans_with_events": 1916,
+    "spans_with_selected_beam_errors": 27,
+    "unique_spans": 57810,
+    "version": "amrlib-recovery-audit:v1",
+    "warning_events": 2115
+  },
+  "status": "complete",
+  "summary": {
+    "baseline_detection": {
+      "rate": null,
+      "successes": 0,
+      "trials": 0
+    },
+    "calibration": {
+      "abstain": {
+        "rate": 0.0,
+        "successes": 0,
+        "trials": 1000
+      },
+      "rows": 1000
+    },
+    "development_abstain": {
+      "rate": 0.0,
+      "successes": 0,
+      "trials": 5000
+    },
+    "historical_boundary_attack_detection": {
+      "rate": null,
+      "successes": 0,
+      "trials": 0
+    },
+    "historical_boundary_survival": {
+      "rate": null,
+      "successes": 0,
+      "trials": 0
+    },
+    "independent_null_punctuation_stress": {
+      "rate": 0.0102,
+      "successes": 51,
+      "trials": 5000
+    },
+    "invalid_candidate_edge_reasons": {
+      "graph_invalid": 1,
+      "roundtrip_invalid": 1,
+      "selected_beam_error": 73
+    },
+    "invalid_candidate_edges": 74,
+    "positive_punctuation": {
+      "comma_all": {
+        "detected": {
+          "rate": null,
+          "successes": 0,
+          "trials": 0
+        },
+        "survival_given_baseline_detected": {
+          "rate": null,
+          "successes": 0,
+          "trials": 0
+        }
+      },
+      "newline_all": {
+        "detected": {
+          "rate": null,
+          "successes": 0,
+          "trials": 0
+        },
+        "survival_given_baseline_detected": {
+          "rate": null,
+          "successes": 0,
+          "trials": 0
+        }
+      },
+      "semicolon_all": {
+        "detected": {
+          "rate": null,
+          "successes": 0,
+          "trials": 0
+        },
+        "survival_given_baseline_detected": {
+          "rate": null,
+          "successes": 0,
+          "trials": 0
+        }
+      },
+      "semicolon_pairs": {
+        "detected": {
+          "rate": null,
+          "successes": 0,
+          "trials": 0
+        },
+        "survival_given_baseline_detected": {
+          "rate": null,
+          "successes": 0,
+          "trials": 0
+        }
+      },
+      "space_all": {
+        "detected": {
+          "rate": null,
+          "successes": 0,
+          "trials": 0
+        },
+        "survival_given_baseline_detected": {
+          "rate": null,
+          "successes": 0,
+          "trials": 0
+        }
+      }
+    },
+    "row_local_graph_invalid_span_records": 1,
+    "row_local_roundtrip_invalid_span_records": 1,
+    "row_local_warning_span_records": 159,
+    "selected_invalid_edges": 0,
+    "survival_all_five_variants": {
+      "rate": null,
+      "successes": 0,
+      "trials": 0
+    },
+    "total_rows": 6000
+  },
+  "version": "swan-elastic-v4-p2-formal:v1"
+}

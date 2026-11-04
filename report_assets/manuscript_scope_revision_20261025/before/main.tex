@@ -1,0 +1,1056 @@
+\documentclass[10pt]{article}
+\usepackage{tmlr}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{url}
+\hypersetup{hidelinks}
+
+\title{Sentence Boundaries Are Part of the Watermark Interface:
+A SWAN Audit and an Exact Resegmentation Framework}
+
+\author{\name Anonymous Authors}
+
+\def\month{10}
+\def\year{2026}
+\def\openreview{\url{https://openreview.net/forum?id=XXXX}}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Resegmentation is a recognized weakness of sentence-level semantic watermarks.
+We audit this known risk and study exact evaluation at behavioral, algorithmic,
+and systems levels. First, we audit SWAN. On 30 saved five-unit texts, replacing four sentence-final punctuation
+marks with semicolons while preserving lexical tokens and order changed the
+number of below-threshold decisions from 1/30 to 30/30; restoring the saved
+five spans returned it to 1/30. This establishes a reversible short-text
+interface dependence, but a one-unit score ceiling implied by SWAN's existing
+statistic already explains the fixed-threshold outcome, and two normal-length count-neutral routes stopped
+before detection. Second, we formalize fixed-token, fixed-unit-count boundary
+relocation and instantiate exact dynamic programs for independent-span and
+first-order adjacent-span detectors using standard optimal-substructure
+arguments. The pairwise program agrees with brute
+force on 7,669 systematic and random instances, agrees with the additive
+program on 1,000 reductions, and solves a 300-token case containing
+14,606,509 legal segmentations in 0.8054 seconds. A compiled factorized
+implementation exactly processes a synthetic real-data shape representing
+$3.94\times10^{19}$ segmentations. Third, we stress-test the full path on
+SemStamp and SimMark. A final frozen SemStamp detector-health run obtained
+4.7\% test FPR and 95.4\% positive TPR, but exact-certificate readiness
+stopped before scoring because one document required 78.6 million pruned
+span pairs and the two-replay budget was 86.65 GPU-hours. We therefore report
+no real certified rate. Together, the results show why segmentation must be
+specified as part of the detector contract, what exact certification can
+guarantee, and where an audited implementation still becomes impractical.
+\end{abstract}
+
+\section{Introduction}
+
+Semantic text watermarks aim to preserve detectability under lexical or
+syntactic variation by placing signals in sentence-level representations.
+This design introduces an interface that token-level evaluations can obscure:
+before a sentence-level detector can score a document, some procedure must
+decide what its units are. The same word sequence may consequently induce
+different statistical trials, different encoder or parser calls, and
+different pairwise relations.
+
+This risk has already been recognized. SWAN explicitly identifies splitting
+and merging sentences to alter AMR structure as a future challenge and
+suggests multi-sentence AMRs and subgraph signals \citep{ye2026swan}.
+AliMark analyzes structural perturbations and uses reconstruction and
+bit-sequence alignment to recover detection \citep{li2026alimark};
+SwordStamp studies resegmentation, unit-count effects, and sub-sentence
+units \citep{diaa2026swordstamp}. Our question is therefore how to audit a
+specific instance of that known risk and state the coverage of an exact
+evaluation. We do not claim to discover segmentation sensitivity.
+
+We investigate this problem through one research program with two evidence
+streams. The first is an empirical audit of SWAN, an AMR-based semantic
+watermark \citep{ye2026swan}. The second asks whether robustness to a declared
+set of word-preserving resegmentations can be certified exactly for
+sentence-level detectors such as SemStamp \citep{hou2024semstamp},
+k-SemStamp \citep{hou2024ksemstamp}, and SimMark
+\citep{dabiriaghdam2025simmark}. These streams address the same interface at
+different levels, but their evidence is not interchangeable: a SemStamp
+certificate does not establish a SWAN mechanism, and a SWAN counterexample
+does not establish that a certificate is non-vacuous.
+
+The SWAN audit begins with a reversible behavior observation. Thirty saved
+texts contain five detection units each. Replacing four sentence-final marks
+with semicolons preserves lexical tokens and their order while making the
+default detector see one unit. Below-threshold decisions change from 1/30 to
+30/30. Supplying the detector with the five saved spans restores the count to
+1/30. However, with SWAN's default null rate, a one-unit document cannot
+cross the strict public threshold even if its unit is marked. The result
+quantifies a reversible interface behavior in the saved configuration; it
+does not establish that AMR semantics are uniquely fragile.
+
+We attempted to isolate effects beyond unit-count reduction through
+normal-length, count-neutral boundary exchange. Two preregistered generation
+routes stopped before transformation and detection. A later targeted
+construction produced one detectable 126-word document, but not the
+source-anchored, independently reviewed cohort required for confirmation. The
+normal-length causal endpoint therefore remains unestimated.
+
+The certification stream turns the same concern into a finite optimization
+problem. Given a frozen token tape, original boundaries, admissible spans, a
+fixed number of units, and a relocation radius $k$, we minimize the detector
+score over every legal segmentation in that set. Independent-span scores
+admit a standard segmentation dynamic program. SemStamp, k-SemStamp, and
+SimMark instead use first-order relations between adjacent units, requiring
+an edge-state dynamic program that retains the preceding span.
+Unlike AliMark's search for the strongest detection evidence among
+reconstructed candidates, this objective finds the weakest detector score
+over a declared complete set. The difference concerns the optimization
+target and coverage contract, not the invention of dynamic programming.
+
+We validate the algorithms against independent exhaustive oracles, implement
+split-conformal calibration with strict ties, reproduce public detector
+interfaces on frozen assets, and carry the pipeline to its final resource
+gate. The terminal SemStamp run is informative precisely because it does not
+produce a certificate: detector health passes, while exact workload capacity
+and budget do not. This separates ``the detector is unhealthy,'' ``the exact
+algorithm is wrong,'' and ``the validated implementation is too expensive''
+as distinct failure modes.
+
+We position the study as a bounded system audit and exact-evaluation
+framework. Its contributions are:
+
+\begin{enumerate}
+  \item A reproducible A--B--A observation on 30 short SWAN texts, interpreted
+  using the elementary unit-count ceiling of the existing statistic, with
+  complete provenance for the unestimated normal-length endpoint.
+  \item A precise fixed-token, fixed-unit-count relocation contract and
+  exact DP instantiations for independent-span and first-order adjacent-span
+  scores, with a soundness argument and independent oracle checks.
+  \item An audited SemStamp/SimMark implementation record that separates
+  correctness, calibration, adapter equivalence, detector health, and
+  resource feasibility. It reports a healthy SemStamp baseline and a
+  score-blind readiness Stop, with no real certified rate.
+\end{enumerate}
+
+The known sentence-boundary risk, the one-proportion z-test, its elementary
+upper bound, standard DP optimality, and split-conformal calibration are
+background ingredients. The proposed value lies in the specific audited
+evidence, the declared optimization contract, and the implementation's
+verified scope; none alone establishes a generally superior watermark.
+
+\section{Related Work}
+
+\paragraph{Sentence-level semantic watermarks.}
+SemStamp partitions a sentence-embedding space with locality-sensitive
+hashing and conditions each accepted region on the preceding sentence
+\citep{hou2024semstamp}. k-SemStamp replaces that partition with clustering
+\citep{hou2024ksemstamp}. SimMark embeds a signal through adjacent-sentence
+similarities and uses a soft detector \citep{dabiriaghdam2025simmark}. SWAN
+injects AMR templates and detects them through sentence segmentation, neural
+AMR parsing, graph normalization, S2Match, and document aggregation
+\citep{ye2026swan}.
+
+\paragraph{What the original papers already state.}
+SWAN's Section~3.3 specifies its one-proportion z-statistic, and its
+Section~6 explicitly names multi-sentence splitting/merging attacks and
+AMR subgraphs as future directions \citep{ye2026swan}. SemStamp's Appendix~B
+defines the corresponding sentence-count z-test; its limitations acknowledge
+inter-sentence attacks, including reordering \citep{hou2024semstamp}.
+SimMark's Section~4.3 already evaluates a Paraphrase+Merge attack
+\citep{dabiriaghdam2025simmark}. These statements preclude interpreting our
+short-text observation as a previously unanticipated class of vulnerability.
+
+\paragraph{Resegmentation and rewriting.}
+AliMark's Section~2 analyzes the loss of prefix-conditioned signals after
+structural perturbations. Sections~3.2.1--3.2.3 specify single-step
+restructuring candidates, a block-edit alignment DP, and the maximum
+normalized watermark score over the candidates \citep{li2026alimark}.
+SwordStamp is
+the closest structural neighbor: it evaluates rewording, reordering, and
+resegmentation, studies unit-count effects, and proposes order-robust
+sub-sentence units \citep{diaa2026swordstamp}. These works preclude claims
+that we introduce merge/split attacks, boundary exchange, or
+segmentation-aware detection. In particular, SwordStamp's Section~5.3
+explicitly writes the z-score as proportional to $\sqrt{n}$ at a fixed hit
+rate. Our one-unit ceiling is a direct consequence of that existing
+statistical form, not a new statistical theorem. Section~\ref{sec:objectives}
+distinguishes AliMark's alignment minimum and outer score maximum from our
+minimum of the detector score over every declared legal partition. This
+comparison identifies a problem-specific difference, not a proof of global
+algorithmic novelty.
+
+DIPPER provides controllable paragraph paraphrasing
+\citep{krishna2023dipper}; SIRA targets high-self-information tokens
+\citep{cheng2025sira}; RLCracker studies adaptive worst-case watermark
+vulnerability \citep{huang2026rlcracker}; and Chainwash studies repeated
+rewriting for diffusion-language-model watermarks
+\citep{ameen2026chainwash}. WaterPark emphasizes joint reporting of
+detection, quality, and realized false-positive rates
+\citep{liang2025waterpark}. FreqMark and CoheMark provide further
+sentence-level context \citep{xu2024freqmark,zhang2025cohemark}.
+
+\paragraph{Calibration.}
+We use split-conformal order statistics to freeze thresholds before
+independent testing \citep{angelopoulos2023gentle}. Binomial uncertainty is
+reported with one-sided Clopper--Pearson bounds
+\citep{clopper1934confidence}. Calibration is part of the certificate
+procedure: the worst-case score distribution is not silently assigned the
+raw detector threshold when comparing power at a common target FPR.
+
+\section{Study Design and Evidence Separation}
+
+\subsection{One question, two evidence streams}
+
+The unifying question is whether sentence boundaries are an implicit part of
+a sentence-level watermark's security contract. The empirical stream asks
+whether changing that interface changes a deployed decision. The
+certification stream asks whether a detector can guarantee its decision for
+every segmentation in a declared neighborhood.
+
+\begin{table}[t]
+\caption{Evidence roles in the unified study.}
+\label{tab:evidence}
+\centering
+\small
+\begin{tabular}{p{0.20\linewidth}p{0.34\linewidth}p{0.37\linewidth}}
+\toprule
+Tier & Evidence & Permitted use \\
+\midrule
+SWAN behavior & 30 short-text punctuation A--B--A pairs &
+System-specific interface result at a historical threshold \\
+SWAN stopping & Two eight-source normal-length pilots &
+Feasibility and stopping provenance, not detector evidence \\
+Exact algorithms & Oracle and reduction tests on frozen lattices &
+Correctness for the stated mathematical detector classes \\
+Synthetic statistics & 99,980 synthetic null documents &
+Calibration implementation, not real-system FPR \\
+System reproduction & Frozen public SemStamp/SimMark assets &
+Implementation equivalence and detector-health diagnosis \\
+Certificate readiness & 3,000-row SemStamp workload audit &
+Capacity and cost conclusion, not a certified robustness rate \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The streams appear in one submission because the audit motivates the formal
+problem and the formalization clarifies what the audit did not establish.
+They remain separate at the claim level. In particular, no SemStamp or
+SimMark result upgrades the missing SWAN count-neutral endpoint.
+
+\subsection{Fail-closed protocol}
+
+Each stage freezes inputs, code identity, thresholds, continuation gates, and
+resource limits before reading the next class of result. A failed gate
+terminates that version. We do not delete hard samples, relax a radius,
+increase a budget, or substitute a cheaper bound while preserving the old
+version label. This produces many negative engineering records, but prevents
+partial runs from becoming post-hoc positive claims.
+
+\section{Part I: Auditing the SWAN Segmentation Interface}
+
+\subsection{Detection chain and statistical boundary}
+
+Let a segmenter map a document to units $s_1,\ldots,s_N$. We distinguish:
+
+\begin{itemize}
+  \item $B$, SWAN's fixed secret bank of AMR templates;
+  \item $R(s)$, the frozen parser's raw AMR output for unit $s$;
+  \item $T(R(s))$, the normalized candidate graph supplied to S2Match;
+  \item $D(g_1,g_2)$, an artificial composition of saved graphs used only for
+  scorer diagnostics.
+\end{itemize}
+
+A unit is \emph{green} when at least one fixed-bank match crosses the unit
+threshold. If $G$ of $N$ units are green, the statistic specified in SWAN's
+Section~3.3 \citep{ye2026swan} is
+
+\begin{equation}
+z = \frac{G-\lambda N}{\sqrt{N\lambda(1-\lambda)}}.
+\label{eq:swan}
+\end{equation}
+
+Since $0\leq G\leq N$, the following elementary bound is immediate:
+
+\begin{equation}
+z \leq z_{\max}(N) = \sqrt{\frac{N(1-\lambda)}{\lambda}}.
+\end{equation}
+
+Equivalently, a necessary condition for the strict decision $z>\tau$, for
+$\tau>0$, is $N>\tau^2\lambda/(1-\lambda)$. This is a corollary of the
+existing detector formula, not an independent robustness theorem.
+SwordStamp's explicit $\sqrt{n}$ scaling analysis describes the same
+unit-count dependence \citep{diaa2026swordstamp}.
+
+At $\lambda=0.25$, $z_{\max}=\sqrt{3}=1.7321$ for $N=1$, below the
+strict threshold $z>2.33$. SWAN also has two entry-point semantics: the
+direct-AMR path returns \texttt{NaN} for $N<2$, while the pre-parsed path
+evaluates Equation~\ref{eq:swan}. We preserve that distinction and never
+count \texttt{NaN} as an attack success.
+
+\subsection{Short-text A--B--A intervention}
+
+The saved cohort contains 30 independently generated SWAN baselines of
+17--46 words and five detection units. The intervention replaces four
+sentence-final punctuation marks with semicolons without changing lexical
+tokens or their order. We compare the original text, the punctuation-merged
+text under default segmentation, and the same merged text supplied with the
+five saved original spans.
+
+\begin{table}[t]
+\caption{Saved SWAN A--B--A behavior at the strict public threshold.}
+\label{tab:swan-aba}
+\centering
+\begin{tabular}{lrr}
+\toprule
+Detector input & Units & $z\leq2.33$ \\
+\midrule
+Original text & 5 & 1/30 \\
+Terminal marks replaced by semicolons & 1 & 30/30 \\
+Merged text with saved spans restored & 5 & 1/30 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The paired changes in both directions have exact $p=3.73\times10^{-9}$.
+Table~\ref{tab:swan-aba} establishes that external segmentation can
+reversibly determine the final decision for these texts and this entry point.
+It does not establish an AMR-specific mechanism: the middle condition changes
+$N$ from five to one, and the one-unit bound is already sufficient.
+
+A separate no-feedback three-arm study recorded 29/30 valid attacks in its
+boundary-reorganization arm, but those generated candidates could contain
+lexical changes. Historical fixed-budget and feedback-assisted studies
+recorded 191/250 and 218/250 valid attacks, respectively. They motivate the
+audit but do not replace the controlled A--B--A result.
+
+\subsection{Normal-length count-neutral design and stops}
+
+The confirmatory intervention would merge one adjacent sentence pair and
+split another sentence at a detector-blind natural boundary. It preserves
+tokens, order, punctuation multiset, and unit count:
+$N(C_2)=N(C_0)$. Quality must be frozen by two independent human reviewers
+before detection, and each changed detection procedure requires independent
+null calibration.
+
+The \emph{final1} pilot assigned eight fresh sources. All produced
+100--220-word terminal documents, six passed structural checks, and none of
+those six passed the frozen model-assisted quality labels. It stopped before
+transformation, parsing, matching, or detection. Those labels are not
+reported as human quality estimates.
+
+An independent source-anchored route bound ten generation slots to ten source
+anchors per document. Five of eight documents passed structure, below the
+six-of-eight continuation gate. All 60 completed slots used fallback, and
+three additional slots exhausted 30 candidates. It stopped before quality
+review, transformation, and detection.
+
+\begin{table}[t]
+\caption{Normal-length SWAN routes and their terminal evidence.}
+\label{tab:swan-stops}
+\centering
+\small
+\begin{tabular}{p{0.18\linewidth}rrp{0.43\linewidth}}
+\toprule
+Route & Structural pass & Detection runs & Terminal interpretation \\
+\midrule
+final1 & 6/8 & 0 & Auxiliary quality gate failed; no paired cohort \\
+Source-anchored & 5/8 & 0 & Structural gate failed before quality review \\
+Target-47, 126 words & 1 document & 1 baseline &
+20/20 green, but targeted and not a confirmatory cohort \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A later engineering study showed that one targeted, single-template
+construction can be both normal length and detectable: a 126-word,
+20-unit text had 20/20 strict injections and 20/20 green units
+($z=7.7460$). It lacked source anchoring, independent human review, an
+independent cohort, and empirical FPR. Its standard count-neutral
+transformation failed because no admissible natural split was available.
+An auxiliary equal-$N$ boundary relocation changed 19/19 to 18/19 green,
+leaving both versions far above threshold. This closes a narrow engineering
+question, not the confirmatory endpoint.
+
+\subsection{SWAN evidence boundary}
+
+The normal-length effect beyond unit-count reduction, the contribution of
+real $R(s)$ and $T(R(s))$, and condition-specific FPR remain unestimated.
+Artificial graph composition is therefore confined to Appendix~A. The
+finding is a system-interface counterexample, not a general watermark-removal
+algorithm and not evidence that sentence meaning changed.
+
+\section{Part II: Exact Resegmentation Certificates}
+
+\subsection{Threat set}
+
+Let $x=(x_1,\ldots,x_L)$ be a frozen token tape. An original segmentation
+$P_0$ has internal boundary set $B_0$ and fixed unit count
+$m=|B_0|+1$. Let $\mathcal G$ be the admissible internal gaps, frozen before
+scores are observed. Each candidate span must satisfy a declared legality
+predicate, such as a native tokenizer context bound.
+
+For any segmentation $P$ with $|B(P)|=|B_0|$, define the relocation radius
+
+\begin{equation}
+\rho(P,P_0)=|B(P)\setminus B_0|
+           =\frac{1}{2}|B(P)\triangle B_0|.
+\end{equation}
+
+The complete radius-$k$ threat set is
+
+\begin{equation}
+\mathcal A_k(x,P_0)=
+\left\{P:
+\begin{array}{l}
+B(P)\subseteq\mathcal G,\quad |B(P)|=|B_0|,\\
+\rho(P,P_0)\leq k,\quad
+\text{every span in }P\text{ is legal}
+\end{array}
+\right\}.
+\label{eq:threat}
+\end{equation}
+
+The threat model preserves token identity, token order, and unit count. A
+relocation can move a boundary any distance; it is not a local character-edit
+metric. The certificate does not cover paraphrasing, insertion, deletion,
+variable $N$, arbitrary punctuation rendering, or a natural-language
+segmenter's reachability.
+
+\subsection{Detection, alignment, and worst-case certification}
+\label{sec:objectives}
+
+The word ``minimum'' describes different objects in alignment and
+certification. We distinguish the original SWAN detector, AliMark's
+reconstruction/alignment detector, and our finite-set evaluation.
+Table~\ref{tab:objectives} compares their inputs, objectives, and guarantees.
+This is a methodological comparison; we do not report matched SWAN--AliMark
+performance or certify AliMark.
+
+\paragraph{SWAN: scoring the supplied units.}
+For a fixed segmentation $P$, SWAN marks each unit whose maximum S2Match
+against the secret bank crosses the unit threshold, then aggregates the hit
+count with Equation~\ref{eq:swan} \citep{ye2026swan}. Its maximum is over AMR
+templates for one unit. The original document detector contains neither
+boundary-search DP nor alignment to a secret sequence. It evaluates the
+units returned by its segmenter.
+
+\paragraph{AliMark: minimizing block-edit cost to recover evidence.}
+Let $\mathcal R(X)$ denote the candidates in AliMark's original
+Re-Structurer. For an input of $N$ sentences, these are nominally $2N$
+candidates: the unchanged text, $N-1$ single adjacent merges, and $N$
+single midpoint splits. They are deliberately limited to one operation
+\citep[Section~3.2.1]{li2026alimark}. A candidate $P$ has $n(P)$ extracted
+blocks $b_P^1,\ldots,b_P^{n(P)}$, each of $M$ bits. The Adaptive Bit Sequence
+Alignment module compares them with $\ell$ blocks of the secret sequence,
+where $\ell$ varies over a declared candidate set $\mathcal L(P)$.
+The reconstructions can change unit count; $\mathcal R(X)$ is not our
+fixed-$N$ relocation set $\mathcal A_k$.
+
+For each pair $(P,\ell)$, AliMark's Equation~(4) uses the block-edit DP
+\begin{equation}
+H_{P,\ell}(u,v)=\min\left\{
+\begin{array}{l}
+H_{P,\ell}(u-1,v)+M,\\
+H_{P,\ell}(u,v-1)+M,\\
+H_{P,\ell}(u-1,v-1)+\operatorname{Ham}(b_P^u,s^v)
+\end{array}\right\}.
+\label{eq:alimark-dp}
+\end{equation}
+The boundary costs are $H(u,0)=uM$ and $H(0,v)=vM$. Its block edit rate is
+\begin{equation}
+r(P,\ell)=\frac{H_{P,\ell}(n(P),\ell)}
+                   {M\max\{n(P),\ell\}}.
+\end{equation}
+Using the original paper's length-indexed null mean and standard deviation,
+the final detector is
+\begin{equation}
+\mathcal Z_{\mathrm{Ali}}(X)=
+\max_{\substack{P\in\mathcal R(X)\\ \ell\in\mathcal L(P)}}
+\frac{\bar\mu_{M,n(P)}-r(P,\ell)}{\bar\sigma_{M,n(P)}}.
+\label{eq:alimark-outer}
+\end{equation}
+Equations~\ref{eq:alimark-dp}--\ref{eq:alimark-outer} restate AliMark's
+Equations~(4)--(6), with renamed indices \citep{li2026alimark}. For fixed
+$(P,\ell)$, DP finds the least-cost alignment; the outer maximum selects the
+strongest normalized evidence. Because normalization varies with candidate
+length, that outer maximum need not equal a single global minimum of
+unnormalized edit cost. Its decision asks whether a reconstruction and an
+alignment provide sufficient evidence. An optimal alignment does not imply
+that every possible text partition was searched or remains detectable.
+
+\paragraph{Our evaluation: minimizing the detector score.}
+Here the original token tape is fixed, each DP path constructs a partition
+in $\mathcal A_k(x,P_0)$, and the output is
+\begin{equation}
+C_k(x)=\min_{P\in\mathcal A_k(x,P_0)}D(x,P).
+\label{eq:objective-min}
+\end{equation}
+For a nonempty finite threat set and a fixed threshold, the implication
+$C_k(x)>\tau \Rightarrow \forall P\in\mathcal A_k,\ D(x,P)>\tau$
+follows from the definition of a minimum. The substantive algorithmic
+obligation is to show that the implemented DP returns exactly that minimum.
+It chooses text boundaries and, for adjacent-span scores, retains the
+previous span. It does not align extracted bit blocks to a secret sequence.
+AliMark's higher-is-better aggregate in Equation~\ref{eq:alimark-outer}
+includes candidate selection and alignment; it is not a locally
+decomposable $D$ covered by the DP classes below without another derivation.
+
+\begin{table}[t]
+\caption{Different optimization targets. Exactness is relative to the
+stated search object, not to arbitrary meaning-preserving edits.}
+\label{tab:objectives}
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.13\linewidth}
+                >{\raggedright\arraybackslash}p{0.23\linewidth}
+                >{\raggedright\arraybackslash}p{0.27\linewidth}
+                >{\raggedright\arraybackslash}p{0.29\linewidth}}
+\toprule
+Dimension & Original SWAN & Original AliMark & This exact evaluation \\
+\midrule
+Search object & AMR bank for each supplied unit &
+Limited text reconstructions, secret-prefix lengths, block alignments &
+Every legal partition in a fixed-token, fixed-$N$ relocation set \\
+DP state & No document-level DP &
+Consumed extracted blocks and secret blocks $(u,v)$ &
+Units, boundary budget, token endpoint; previous span for pair scores \\
+Inner objective & Maximum bank similarity &
+Minimum block-edit cost &
+Minimum additive or adjacent-span detector sum \\
+Document output & Hit-count z-score on one segmentation &
+Maximum normalized score across reconstruction/alignment candidates &
+Minimum detector score across all declared legal partitions \\
+Meaning of success & Supplied units exceed the threshold &
+A tested reconstruction/alignment exceeds the threshold &
+All partitions in the declared threat set exceed the threshold \\
+Scope limit & No partition-uniform guarantee &
+Alignment optimum is not an all-partition certificate &
+No paraphrase, variable-$N$, or AliMark certificate claimed \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Thus the contribution concerns a specified worst-case evaluation problem
+and its verified solution. Standard block-edit DP and standard
+optimal-substructure reasoning are prior ingredients; this comparison does
+not establish that exact resegmentation is globally novel or practically
+non-vacuous.
+
+\subsection{Detector classes}
+
+For independent-span scores $s(i,j)$,
+
+\begin{equation}
+D(x,P)=b+\frac{1}{m}\sum_{[i,j)\in P}s(i,j).
+\end{equation}
+
+For first-order adjacent-span detectors, let
+$0=b_0<b_1<\cdots<b_m=L$ be the segmentation endpoints and let
+$q(h,i,j)$ score adjacent spans $[h,i)$ and $[i,j)$. Then
+
+\begin{equation}
+D(x,P)=b+\frac{1}{c}
+\sum_{t=2}^{m}q(b_{t-2},b_{t-1},b_t),\qquad c>0,
+\label{eq:pairwise}
+\end{equation}
+
+where $b$, $c$, model parameters, and threshold are fixed over the threat set.
+SemStamp and k-SemStamp use adjacent region transitions; SimMark uses a soft
+count derived from adjacent sentence-embedding similarity. For fixed $m$,
+their offsets and positive normalizers fit Equation~\ref{eq:pairwise}.
+
+The formulation excludes global attention, higher-order unit interactions,
+scan/post-selection statistics, stochastic scores, and thresholds that adapt
+to the candidate segmentation.
+
+\subsection{Exact dynamic programs}
+
+For independent spans, let $F(t,j,r)$ be the minimum score sum for segmenting
+the first $j$ tokens into $t$ units while introducing $r$ non-original
+internal boundaries. The recurrence adds a legal span $[i,j)$ and increments
+$r$ when the internal endpoint $j$ is not in $B_0$. With maximum span length
+$W$, the time complexity is $O(m(k+1)LW)$ after span scores are available.
+
+Pairwise detectors require the previous span. Let
+$F(t,h,i,r)$ be the minimum pair-score sum for the first $i$ tokens split
+into $t$ units, with final span $[h,i)$ and $r$ introduced boundaries.
+Adding $[i,j)$ gives
+
+\begin{equation}
+F(t+1,i,j,r+\delta(j))
+=
+\min_h\left[F(t,h,i,r)+q(h,i,j)\right],
+\label{eq:dp}
+\end{equation}
+
+where $\delta(j)=\mathbf 1[j\notin B_0]$ for $j<L$ and $\delta(L)=0$.
+Only legal gaps, legal spans, $t\leq m$, and $r\leq k$ are retained. The exact
+worst score is
+
+\begin{equation}
+C_k(x)=b+\frac{1}{c}
+\min_{\substack{h\\0\leq r\leq k}}F(m,h,L,r).
+\label{eq:certificate}
+\end{equation}
+
+The pairwise time and predecessor-space bounds are $O(m(k+1)LW^2)$ and
+$O(m(k+1)LW)$, respectively; $k+1$ includes the zero-edit state.
+
+\paragraph{Soundness.}
+This is the standard optimal-substructure argument specialized to the
+declared state and legal-path constraints.
+Every path accepted by Equation~\ref{eq:dp} contains exactly $m$ legal spans,
+and its count $r$ equals the number of introduced boundaries. Conversely,
+every $P\in\mathcal A_k$ induces exactly one such path. The recurrence keeps
+the minimum score among paths with the same sufficient state. By induction on
+$t$, Equation~\ref{eq:certificate} is therefore the minimum over
+$\mathcal A_k$. Thus
+
+\begin{equation}
+C_k(x)>\tau
+\quad\Longrightarrow\quad
+\forall P\in\mathcal A_k(x,P_0),\ D(x,P)>\tau.
+\end{equation}
+
+This guarantee is exact for the declared lattice and detector class; it says
+nothing about partitions outside that contract.
+
+\subsection{Calibration}
+
+Because $\mathcal A_k$ contains $P_0$ and expands with $k$,
+
+\begin{equation}
+C_{k+1}(x)\leq C_k(x)\leq C_0(x).
+\end{equation}
+
+Using a fixed raw upper-tail threshold cannot increase null FPR, but can make
+the certificate unnecessarily conservative. For a power comparison at a
+common target FPR $\alpha$, we calibrate each complete $C_k$ on an independent
+null split. For $n$ calibration scores, the strict threshold is the
+$r$-th ascending order statistic,
+
+\begin{equation}
+r=\left\lceil(n+1)(1-\alpha)\right\rceil,
+\qquad \tau_k=C_{k,(r)}.
+\end{equation}
+
+Ties remain on the non-detection side because the decision is
+$C_k>\tau_k$. A separate test null estimates realized FPR with a one-sided
+Clopper--Pearson upper bound. Positive certification is reported with a
+one-sided lower bound. These quantities are not pooled across radii.
+
+\section{Algorithm and Systems Validation}
+
+\subsection{Oracle and synthetic calibration results}
+
+\begin{table}[t]
+\caption{Model-independent validation of the exact framework.}
+\label{tab:algorithm}
+\centering
+\small
+\begin{tabular}{p{0.25\linewidth}rp{0.43\linewidth}}
+\toprule
+Check & Scale & Result \\
+\midrule
+Independent-span DP & 7,691 cases & Exact agreement with brute force \\
+Pairwise DP & 7,669 cases & Exact score, count, decision, and witness \\
+Pairwise-to-additive reduction & 1,000 cases & Exact agreement \\
+300-token pairwise case & 14,606,509 partitions &
+39,977 states, 449,337 transitions, 0.8054 s \\
+Synthetic calibration & 99,980 nulls &
+All 80 family/replicate/radius FPR gates passed \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The pairwise total in Table~\ref{tab:algorithm} comprises 5,669 systematic
+and 2,000 random tied-score instances. The independent-span total comprises
+5,691 systematic and 2,000 random instances and checks 36,824 legal
+partitions. All witness scores are independently recomputed; $k=0$ returns
+only the original segmentation; illegal or missing inputs fail closed.
+
+In the synthetic calibration study, separately calibrated continuous-null
+FPR means ranged from 4.57\% to 5.18\% over $k=0,\ldots,3$. The largest
+one-sided 95\% FPR upper bound among 80 checks was 7.465\%, below the frozen
+8\% gate. Reusing the raw $\tau_0$ at $k\geq1$ yielded zero FPR in these
+synthetic families, illustrating conservatism rather than a real-watermark
+result.
+
+\subsection{Adapters and compiled core}
+
+The real-system adapter preserves a typed unit-list tape and reconstructs the
+original units byte-for-byte at $k=0$. Public-code inspection showed that
+SemStamp, k-SemStamp, and SimMark are first-order adjacent-span systems, not
+independent-span systems. Frozen small-sample tests then matched official and
+direct computations: SemStamp passed 258/258 unit, region, mask, hit, and
+score checks on 43 eligible documents; SimMark passed 240/240 preprocessing,
+cosine, soft-count, and score checks on 60 documents. The SimMark check used
+an explicitly diagnostic $\gamma=0.5$ sentinel and is not a detector-health
+result.
+
+The Python sparse implementation exceeded a 60-second gate on the largest
+frozen real-data shape. A C++17 grouped, layer-local core preserved all oracle
+outputs and processed a shape with 14,169 atoms, 845 units, and $k=3$ in
+18.35 and 18.47 seconds using about 165 MB. It represented
+$39{,}353{,}742{,}686{,}409{,}367{,}909$ legal segmentations through
+961,430 unique spans and 38,664,070 unique pair queries.
+
+Materializing pair tables then failed a five-million-pair gate. A factorized
+core instead caches one feature per span and computes pair values on demand.
+It passed real-provider equivalence for 12 documents per system, but full
+two-system score-blind projections were 22.44 GPU-hours for SemStamp and
+71.81 GPU-hours for SimMark. Increasing SimMark batch size gave only
+1.0027$\times$ speedup, and an exploratory global-reuse audit reduced work by
+only 0.6748\%; that audit also violated its frozen row-scope contract and is
+marked invalid.
+
+\subsection{Detector reproduction and health}
+
+\begin{table}[t]
+\caption{Real-system terminal results. Certificate rates are intentionally
+absent when detector health or readiness failed.}
+\label{tab:systems}
+\centering
+\small
+\begin{tabular}{p{0.20\linewidth}rrp{0.40\linewidth}}
+\toprule
+Run & Test FPR & Positive rate & Interpretation \\
+\midrule
+SimMark v9, $k=0$ & 27/400 & 89/1000 &
+Published-asset baseline unhealthy; no robustness inference \\
+SimMark v9, $k=1$ & 37/400 & 97/1000 &
+Recalibrated exact score, but invalid as watermark evidence \\
+SemStamp v10, $k=0$ & 33/400 & 974/999 &
+TPR passed; FPR CP95 upper 10.88\% failed the 8\% gate \\
+SemStamp v17, $k=0$ & 47/1000 & 954/1000 &
+Detector-health Go; CP95 bounds 5.95\% and 94.16\% \\
+SemStamp v18, $k\geq1$ & -- & -- &
+Readiness Stop before score or certificate computation \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+SimMark v9 completed exact scores for 200 fit and 1,800
+calibration/test/positive documents over $k=0,\ldots,3$, but the official
+histogram produced $\gamma=0$ and clean-positive detection was only 8.9\%.
+Subsequent diagnosis reproduced all 2,000 official/direct document scores and
+localized the discrepancy to Instructor prompt-pooling compatibility. A
+no-prompt-pooling diagnostic restored 99.0\% positive detection on the frozen
+split, but it was not preregistered as a new detector and did not retroactively
+validate v9.
+
+SemStamp v10 detected 974/999 positives, but its test FPR was 8.25\% and the
+one-sided 95\% upper bound was 10.88\%, above the frozen 8\% gate.
+Across 100 deterministic rotated splits, this split was near the high end of
+the observed FPR distribution. Rather than choose a favorable split, we
+constructed fresh, identity-separated C4 cohorts and a new positive set.
+
+The positive-generation sequence itself exposed reproducibility failures:
+an initial smoke produced two prompt-only samples; one runner stalled because
+its fallback was unreachable; a bounded replacement broke a strict-prefix
+contract; and an independent audit later found five multi-sentence
+prompt-only outputs among 1,000 claimed positives. A disclosed post-hoc
+validation rescue retained 995 valid outputs and generated five replacements
+from the fixed queue. This history is not rewritten as preregistered success.
+
+With the resulting 1,000 positives and two independent 1,000-document null
+cohorts, SemStamp v17 passed detector health. The threshold was the 951st
+calibration order statistic, $\tau_0=1.6667$. Test FPR was 47/1000
+(CP95 upper 5.95\%), positive TPR was 954/1000 (CP95 lower 94.16\%), and two
+3,000-row replays were byte-identical. Official and direct scores agreed
+exactly on 6,000 evaluations.
+
+\subsection{Final exact-certificate readiness}
+
+SemStamp v18 froze the same 3,000 identities, native tokenizer legality,
+$k=0,\ldots,3$, a 50-million-pair per-document cap, and a 72 GPU-hour budget
+for two complete replays. A score-blind pass reconstructed every workload
+without loading the detector.
+
+\begin{table}[t]
+\caption{Frozen SemStamp v18 readiness gates.}
+\label{tab:v18}
+\centering
+\begin{tabular}{lrrl}
+\toprule
+Gate & Limit & Observed maximum & Result \\
+\midrule
+Pruned pairs per document & 50,000,000 & 78,642,945 & Stop \\
+All-allowed pairs per document & 50,000,000 & 83,540,900 & Stop \\
+Two-replay budget & 72 h & 86.6501 h & Stop \\
+Rows reconstructed & 3,000 & 3,000 & Pass \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The automatic gate left formal B1 as \texttt{STOPPED / Not started}.
+Detector, model, region, score, threshold, generation, and certificate calls
+were all zero. No threshold $\tau_k$, witness, test FPR, positive certified
+rate, or non-vacuity statistic exists for v18. The result is a capacity and
+budget limit of the validated exact implementation, not evidence that
+SemStamp is or is not robust to resegmentation.
+
+\section{Discussion}
+
+\subsection{Contribution beyond the known risk}
+
+SWAN already anticipates multi-sentence attacks, and AliMark and SwordStamp
+already analyze and mitigate structural perturbations. The paper's focus
+is therefore the evidence added by a reproducible case study, an explicit
+optimization contract, and a system audit. The A--B--A result measures a
+specific reversible behavior; its statistical explanation is elementary.
+The DP supplies a complete minimum for stated local detector classes; its
+proof uses standard principles. The resource study distinguishes a healthy
+detector from an executable certificate on the frozen workload.
+
+These contributions remain limited. The available behavior does not
+establish an AMR-specific mechanism at normal length, and the exact
+framework has no final real certified rate. The work should be assessed
+as a bounded audit and exact-evaluation study, rather than as a new
+watermark, a previously unknown attack class, or a general impossibility
+theorem. The number of engineering iterations is not itself evidence of
+novelty.
+
+\subsection{What the unified evidence establishes}
+
+The SWAN observation shows that segmentation is not merely preprocessing:
+it can determine the final decision. The exact framework then states what a
+stronger robustness claim would require: enumerate a declared finite
+boundary lattice implicitly, minimize the complete detector statistic, and
+calibrate that statistic on independent null data.
+
+The algorithmic result is positive. For independent-span and first-order
+pairwise detectors, exhaustive search over all legal partitions can be
+replaced by exact dynamic programming without weakening the threat set. The
+systems result is mixed. Detector semantics, data identity, rendering,
+feature extraction, calibration, and resource limits all matter before a
+certified rate can be interpreted. On our final SemStamp assets, detector
+health was adequate but the validated exact implementation exceeded its
+predeclared capacity and runtime gates.
+
+\subsection{Why the two streams do not substitute for each other}
+
+The certificate threat set fixes token identity, token order, and unit count.
+The strongest SWAN behavior result changes unit count. Conversely, the
+SemStamp and SimMark detectors do not use SWAN's AMR parser or fixed AMR bank.
+The common problem is the segmentation interface. The contribution is the
+specific evidence and evaluation contract; causal and statistical claims
+remain system-specific.
+
+\subsection{Implications for watermark evaluation}
+
+Sentence-level watermark reports should specify at least:
+
+\begin{enumerate}
+  \item the segmentation and rendering contract;
+  \item whether unit count may change under the threat model;
+  \item whether the detector statistic decomposes locally;
+  \item whether thresholds are raw or calibrated after robustification;
+  \item clean TPR and independent realized FPR before robust conclusions;
+  \item the coverage and computational cost of any claimed certificate.
+\end{enumerate}
+
+Reporting only a successful attack or only a dynamic program is insufficient.
+The former may collapse statistical power; the latter may be exact but
+computationally or statistically vacuous.
+
+\section{Limitations}
+
+\begin{itemize}
+  \item \textbf{Originality scope.} Sentence-boundary risks, unit-count
+  scaling, reconstruction/alignment, and standard DP and calibration
+  principles have prior sources. We do not establish global algorithmic
+  novelty, and the bounded case study does not resolve the missing
+  mechanism or real-certificate endpoints.
+  \item \textbf{AliMark comparison.} Section~\ref{sec:objectives} compares
+  objectives and search coverage. It is not a performance benchmark, a
+  criticism of AliMark's reported FPR, or a robustness certificate for its
+  reconstruction/alignment detector.
+  \item \textbf{SWAN sample scope.} The A--B--A cohort contains 30 English
+  texts of 17--46 words and five original units. The normal-length,
+  count-neutral endpoint was not run.
+  \item \textbf{SWAN quality and calibration.} The short-text result lacks
+  condition-specific FPR. The normal-length routes did not produce the
+  independently human-reviewed cohort required by protocol.
+  \item \textbf{Threat-set scope.} The certificate fixes tokens, order, and
+  unit count. It does not certify arbitrary paraphrase, punctuation
+  realizability, variable $N$, or semantic equivalence.
+  \item \textbf{Detector class.} Exactness applies to independent-span or
+  first-order adjacent-span scores with fixed affine aggregation. It does not
+  cover global or higher-order detectors.
+  \item \textbf{Real certificate endpoint.} SimMark's completed run had an
+  unhealthy baseline. SemStamp's final healthy run stopped at readiness.
+  No defensible real certified rate is reported.
+  \item \textbf{Assets and environments.} Results depend on frozen public
+  revisions, CUDA behavior, tokenizers, and generated SemStamp positives.
+  The v16 positive set is a disclosed post-hoc validation rescue.
+  \item \textbf{Multiplicity.} Radius-specific intervals are not presented as
+  a simultaneous confidence statement over all radii.
+\end{itemize}
+
+\subsubsection*{Broader Impact Statement}
+
+This work is intended to improve the evaluation and engineering of text
+watermarks by making segmentation assumptions explicit. The same analysis
+could inform attempts to reduce detectability. We limit that risk by
+reporting aggregate frozen results, a bounded threat model, and no live key,
+credential, sealed text, or service-targeting procedure. Exact certificates,
+when available, can support defenders as well as auditors.
+
+\section{Conclusion}
+
+The known dependence on sentence boundaries is part of the operational
+contract of sentence-level watermarks. SWAN's decision changed reversibly under a short-text
+segmentation intervention, but the available evidence does not isolate an
+AMR-specific or normal-length count-neutral mechanism. Exact dynamic
+programming can certify all segmentations in a fixed-token,
+fixed-unit-count relocation ball for local detector classes, and our
+implementation passes exhaustive correctness and calibration checks. The
+final real-system result is nevertheless a Stop: SemStamp detector health
+passed, while exact-certificate capacity and budget did not. The resulting
+contribution is a bounded behavioral audit, a verified exact evaluation for
+a declared threat set, and an implementation feasibility record. It does
+not introduce the underlying boundary risk, the z-test, or standard DP
+principles.
+
+\bibliography{references}
+\bibliographystyle{tmlr}
+
+\appendix
+
+\section{SWAN Exploration and Diagnostic Results}
+
+\paragraph{Exploration history.}
+Plans A--E explored ordinary paraphrasing, AMR node and edge edits, modifier
+and argument operations, reentrancy changes, sentence restructuring, and
+feedback-assisted candidate selection. Increasingly strong graph edits traded
+off detectability against factual preservation. Plan F corrected denominators
+to quality-gated valid attacks. Plans G--J isolated sentence boundaries,
+tested no-feedback selection, compared SIRA-adapted, and added unmatched KGW
+and SynthID-Text controls. These studies motivate the interface audit but are
+not pooled as one confirmatory endpoint.
+
+\paragraph{Artificial-graph diagnostic.}
+Across 108 accepted injection targets, median target S2Match F1 was 0.8197
+for original candidates, 0.4502 for artificial compositions, and 0.5200 for
+saved merged-text reparses. Target-green counts were 108/108, 0/108, and
+8/108. Artificial composition adds a root and connector edges and is not a
+natural-text counterfactual.
+
+\paragraph{Stopped defenses and range controls.}
+Unmatched boundary-reorganization controls recorded valid attack rates of
+0/30 for KGW and 1/30 for SynthID-Text. Three local SWAN defenses failed
+their development gates: multi-instance rules recovered 0/15 across three
+representations; template-tail detection reached 4/15 on original graphs and
+2/15 on reparses, below a joint 8/15 gate; relation-motif recall at five was
+41/56 and 33/56, each one below its continuation gate. A direct
+resegmentation mitigation changed valid escapes from 23/30 to 19/30
+($p=.125$) while human-null false positives changed from 3/250 to 5/250.
+No effective segmentation-invariant SWAN defense is claimed.
+
+\section{Certificate Engineering Timeline}
+
+\begin{table}[h]
+\caption{Terminal certificate stages. ``Pass'' applies only to the stated
+gate, not to an end-to-end robustness claim.}
+\label{tab:timeline}
+\centering
+\scriptsize
+\begin{tabular}{p{0.10\linewidth}p{0.31\linewidth}p{0.50\linewidth}}
+\toprule
+Stage & Purpose & Terminal evidence \\
+\midrule
+WP1 & Additive exact DP & 7,691 oracle cases passed \\
+WP1b & Pairwise edge-state DP & 7,669 oracle cases and 1,000 reductions passed \\
+WP1c & Certificate calibration & 99,980 synthetic nulls; 80/80 FPR gates passed \\
+WP2a & Canonical adapter & 500 model-free instances and $k=0$ restoration passed \\
+v1--v2 & Public assets and lossless adapter &
+Official/direct checks passed; frozen eligibility contracts failed \\
+v3 & Typed structural separator & Eligibility recovered; Python core timed out \\
+v4 & Compiled sparse core & Algorithm-Ready on the largest frozen shape \\
+v5 & External pair table & Stopped at 5,000,001 pairs before model loading \\
+v6 & Factorized features & Provider equivalence passed; SimMark projection 71.81 h \\
+v7 & Batch scaling & Best speedup 1.0027$\times$; Stop \\
+v8 & Global reuse & Invalid row scope; exploratory reuse only 0.6748\% \\
+v9 & SimMark long run & Exact scores completed; detector baseline unhealthy \\
+v10 & SemStamp health-first & TPR passed; independent FPR bound failed \\
+v11 & Reproduction diagnosis &
+Official/direct equivalence; SimMark pooling and SemStamp split instability \\
+v12 & Fresh identities & 12,612 legal identities; smoke 18/20, then Stop \\
+v13 & Replacement-aware generation & Stalled at attempt 372 after 84,981 s \\
+v14 & Bounded fallback & Strict-prefix divergence at attempt 2; Stop \\
+v15 & Causal-prefix generation & 1,000 claimed; audit found five prompt-only rows \\
+v16 & Validation rescue & Disclosed 995+5 cohort; identity audit Go \\
+v17 & SemStamp detector health & 4.7\% FPR, 95.4\% TPR; Go \\
+v18 & Exact-certificate readiness & 78.6M pairs and 86.65 h; Stop before scoring \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+No stopped version is retroactively relabeled as successful. The v9 scores
+remain a detector-reproduction diagnostic; v10 remains a failed health gate;
+v16 remains post-hoc; and v18 contains no certificate output.
+
+\section{Additional SimMark Diagnostics}
+
+The v9 radius-specific diagnostic rates were:
+
+\begin{center}
+\begin{tabular}{rrr}
+\toprule
+$k$ & Independent-test FPR & Positive rate \\
+\midrule
+0 & 27/400 & 89/1000 \\
+1 & 37/400 & 97/1000 \\
+2 & 36/400 & 64/1000 \\
+3 & 36/400 & 34/1000 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Each radius used its own calibrated threshold, so the positive point estimate
+need not be monotone even though every document satisfies
+$C_0\geq C_1\geq C_2\geq C_3$. The table is not a certified-robustness result
+because the $k=0$ detector failed before-attack health.
+
+\clearpage
+\section{Unestimated Endpoints}
+
+\begin{table}[h]
+\caption{Important quantities that must not be read as zero.}
+\label{tab:unestimated}
+\centering
+\small
+\begin{tabular}{p{0.26\linewidth}p{0.62\linewidth}}
+\toprule
+Endpoint & Status \\
+\midrule
+SWAN normal-length $N$-preserving effect & Not run \\
+SWAN parser and candidate-graph mechanism & Not run \\
+SWAN condition-specific FPR & Not run \\
+SemStamp exact $C_k$ on final v18 cohorts & Not run \\
+SemStamp post-certificate $\tau_k$, FPR, TPR & Not run \\
+SemStamp real certified-positive rate & Not run \\
+Healthy SimMark certified-positive rate & Not available \\
+Cross-system certified robustness comparison & Not available \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Reproducibility Boundary}
+
+The internal evidence tree stores frozen protocols, code and model revisions,
+identity manifests, row-level derived outputs, independent audits, terminal
+states, and SHA256 chains. The SWAN reconciliation audit preserves 39,457
+file hashes and 82 original-document copies. The SemStamp v17 health run uses
+two byte-identical 3,000-row replays; the v18 workload and timing rows are
+independently recomputed without loading the detector.
+
+A public artifact must exclude credentials, sealed source or generated text,
+and third-party payloads without redistribution permission. It can include
+the claim registry, aggregate tables, exact-DP and audit code, frozen
+revisions, non-sensitive manifests, and synthetic tests. Local paths are
+reproducibility indices, not publication URLs.
+
+\end{document}

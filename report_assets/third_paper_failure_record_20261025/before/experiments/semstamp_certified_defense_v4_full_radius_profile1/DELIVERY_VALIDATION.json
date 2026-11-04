@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "all_local_links_exist": true,
+    "all_manifest_sha_exact": true,
+    "corrected_plan_3000_rows": true,
+    "cross_platform_observations_exact": true,
+    "historical_sha_unchanged": true,
+    "no_new_full_profile_rows": true,
+    "no_remaining_v4_processes": true,
+    "resource_audit_25_of_25": true
+  },
+  "conclusion_sha256": "c2849f4d3c4b94c8db487f6a8cf1c15ce2d56cbebf9361e97c73ef597e1c4ec9",
+  "local_links_checked": 86,
+  "result_sha256": "84271ebeb34828d7700daffe8358bb0dd4ba1d4640dde5a7c4284ef67bf48318",
+  "schema": "semstamp-v4-delivery-validation/v1",
+  "sha_entries": 19,
+  "sha_manifest_sha256": "ab1e7c2cdecfbf4aaa80a03163ce9bb4f6ed26d94f8b83c5d800c588bdcf9e1f",
+  "status": "pass"
+}

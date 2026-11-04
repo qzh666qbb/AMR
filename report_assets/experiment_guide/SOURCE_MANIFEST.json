@@ -1,0 +1,2607 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-25T06:53:12.133726+00:00",
+  "scope": "All existing top-level experiments directories; local evidence guide only",
+  "deliverable": {
+    "path": "实验目录导读.md",
+    "sha256": "72484eb128bd87f1e1379cfaf172c02e701d1b0423929a08cfda01d115d68e5c",
+    "lines": 417,
+    "characters": 43804
+  },
+  "preserved_narratives": [
+    {
+      "path": "叙事.md",
+      "sha256": "dc31a9ad31ce9bcf845455f6a5eccc0dfd45d926bdb75417f47ce90bb64d2431",
+      "unchanged": true
+    },
+    {
+      "path": "V2.md",
+      "sha256": "b6caa524dbf782e5226bae367d8b12646f802ea44512bae25cbee948630a515e",
+      "unchanged": true
+    }
+  ],
+  "coverage": {
+    "actual_top_level_count": 196,
+    "entry_count": 196,
+    "unique_directory_count": 196,
+    "missing": [],
+    "extra": [],
+    "duplicates": [],
+    "all_cited_local_files_exist": true
+  },
+  "groups": [
+    {
+      "id": "01",
+      "title": "早期表层改写与图攻击",
+      "count": 41
+    },
+    {
+      "id": "02",
+      "title": "攻击确认、机制拆分与早期防御",
+      "count": 22
+    },
+    {
+      "id": "03",
+      "title": "正常长度、质量和正例构造",
+      "count": 53
+    },
+    {
+      "id": "04",
+      "title": "SemStamp／SimMark精确认证旧支线",
+      "count": 27
+    },
+    {
+      "id": "05",
+      "title": "SemStamp可认证防御新支线",
+      "count": 15
+    },
+    {
+      "id": "06",
+      "title": "SWAN弹性检测",
+      "count": 14
+    },
+    {
+      "id": "07",
+      "title": "统计量、模板族与锚点审计",
+      "count": 7
+    },
+    {
+      "id": "08",
+      "title": "多视图与多尺度",
+      "count": 2
+    },
+    {
+      "id": "09",
+      "title": "语义符号序列与独立读回",
+      "count": 5
+    },
+    {
+      "id": "10",
+      "title": "选题、主张、投稿与辅助资产",
+      "count": 10
+    }
+  ],
+  "entries": [
+    {
+      "group": "01",
+      "name": "api_natural5",
+      "role": "候选先导",
+      "purpose": "先改少量单句的主动被动、名词化和关系从句，试探自然句法改写能否降分。",
+      "state": "保存了候选与检测资产；属于小规模探索。",
+      "source": "scripts/run_api_natural5.py",
+      "index": 1
+    },
+    {
+      "group": "01",
+      "name": "api_natural_batch2",
+      "role": "分批候选",
+      "purpose": "沿用 natural5 方法处理第2批单句，扩大同一种改写的覆盖。",
+      "state": "分批执行资产，不是另一个新方法。",
+      "source": "scripts/run_api_natural_batch2.py",
+      "index": 2
+    },
+    {
+      "group": "01",
+      "name": "api_natural_batch3",
+      "role": "分批候选",
+      "purpose": "沿用 natural5 方法处理第3批单句，检查效果是否重复出现。",
+      "state": "分批执行资产，不能按独立方法计数。",
+      "source": "scripts/run_api_natural_batch3.py",
+      "index": 3
+    },
+    {
+      "group": "01",
+      "name": "api_natural_batch4",
+      "role": "分批候选",
+      "purpose": "沿用 natural5 方法处理第4批单句，继续收集相同算子的候选。",
+      "state": "保存候选及检测资产。",
+      "source": "scripts/run_api_natural_batch4.py",
+      "index": 4
+    },
+    {
+      "group": "01",
+      "name": "api_natural_batch5",
+      "role": "分批候选",
+      "purpose": "沿用 natural5 方法处理第5批单句，补足预定的小样本覆盖。",
+      "state": "保存候选及检测资产。",
+      "source": "scripts/run_api_natural_batch5.py",
+      "index": 5
+    },
+    {
+      "group": "01",
+      "name": "api_natural_batch6",
+      "role": "分批候选",
+      "purpose": "沿用 natural5 方法处理第6批单句，完成这组分批候选生成。",
+      "state": "保存候选及检测资产。",
+      "source": "scripts/run_api_natural_batch6.py",
+      "index": 6
+    },
+    {
+      "group": "01",
+      "name": "api_natural_paragraph30",
+      "role": "段落组装",
+      "purpose": "把上述批次中改过的句子放回原段落，检查整篇检测是否下降。",
+      "state": "目录名带30，但 meta 记录实际组装16篇；不能用名字作分母。",
+      "source": "experiments/api_natural_paragraph30/meta.json",
+      "index": 7
+    },
+    {
+      "group": "01",
+      "name": "api_natural223",
+      "role": "候选扩量",
+      "purpose": "把自然句法改写扩展到更大的候选集合，并保存质量检查和检测结果。",
+      "state": "历史逐句候选资产；不自动构成质量合格的整篇攻击。",
+      "source": "scripts/prepare_api_natural223.py",
+      "index": 8
+    },
+    {
+      "group": "01",
+      "name": "api_full_paragraphs",
+      "role": "段落组装与评估",
+      "purpose": "将通过既有筛选的句子替换回完整段落，评估局部改写的段落效果。",
+      "state": "meta 保存97篇，附检测和抽样评价资产；历史质量口径保留。",
+      "source": "experiments/api_full_paragraphs/meta.json",
+      "index": 9
+    },
+    {
+      "group": "01",
+      "name": "api_joint_paragraph5",
+      "role": "整段改写先导",
+      "purpose": "一次改写整段多个句子，同时要求句数、实体、数字和事实保持。",
+      "state": "5个选定段落的小先导；检验整段指令是否比逐句替换方便。",
+      "source": "scripts/run_api_joint_paragraph5.py",
+      "index": 10
+    },
+    {
+      "group": "01",
+      "name": "api_joint_paragraph5b",
+      "role": "整段改写追加先导",
+      "purpose": "换另一组固定段落，重复 joint_paragraph5 的指令。",
+      "state": "同方法不同输入的小批次。",
+      "source": "scripts/run_api_joint_paragraph5b.py",
+      "index": 11
+    },
+    {
+      "group": "01",
+      "name": "api_joint_strict5",
+      "role": "约束提示先导",
+      "purpose": "把实体和数字显式列进提示，并限制长度，减少整段改写中的事实漂移。",
+      "state": "保存候选与检测；更严格提示不等于已确认语义保真。",
+      "source": "scripts/run_api_joint_strict5.py",
+      "index": 12
+    },
+    {
+      "group": "01",
+      "name": "api_syntax5",
+      "role": "生成候选",
+      "purpose": "用保持句数的句法变化提示，先试少量整段改写。",
+      "state": "本地仅见候选文件，没有独立检测报告。",
+      "source": "scripts/run_api_syntax5.py",
+      "index": 13
+    },
+    {
+      "group": "01",
+      "name": "api_syntax30",
+      "role": "生成候选扩量",
+      "purpose": "将 syntax5 的句法改写探索扩展到预定30段规模。",
+      "state": "本地仅见候选资产；不能宣称完成攻击确认。",
+      "source": "scripts/run_api_syntax30.py",
+      "index": 14
+    },
+    {
+      "group": "01",
+      "name": "planB_b0",
+      "role": "往返冒烟",
+      "purpose": "不攻击图，先检查 AMR→文本→AMR 往返能否运行，建立对照。",
+      "state": "b0_roundtrip 记录10/10 valid；这是基础往返检查。",
+      "source": "experiments/planB_b0/b0_roundtrip.json",
+      "index": 15
+    },
+    {
+      "group": "01",
+      "name": "planB_b1",
+      "role": "基础图变换先导",
+      "purpose": "先尝试节点概念替换，并汇总节点、边和序列化顺序三类基础操作。",
+      "state": "10段先导；平均降分小，未建立稳定绕过。",
+      "source": "experiments/planB_b1/report.md",
+      "index": 16
+    },
+    {
+      "group": "01",
+      "name": "planB_b1_edge",
+      "role": "边角色变换先导",
+      "purpose": "改 AMR 的语义边角色，经过生成和重解析后观察检测变化。",
+      "state": "与 b1 同批10段的分支；边操作效果较弱。",
+      "source": "experiments/planB_b1/report.md",
+      "index": 17
+    },
+    {
+      "group": "01",
+      "name": "planB_b1_subgraph",
+      "role": "序列化负对照",
+      "purpose": "改变子图书写或遍历顺序，检查只是换表达顺序会不会改变图级结果。",
+      "state": "属于负对照；不能把线性书写变化算作语义攻击。",
+      "source": "experiments/planB_b1/report.md",
+      "index": 18
+    },
+    {
+      "group": "01",
+      "name": "planB_b2_node50",
+      "role": "节点替换扩量",
+      "purpose": "在50段上进一步检查概念同义替换，观察重解析是否抹平改动。",
+      "state": "保存变换与检测资产；仍为浅层图算子探索。",
+      "source": "experiments/planB_b2_node50/transform.json",
+      "index": 19
+    },
+    {
+      "group": "01",
+      "name": "planB_b2_reattach50",
+      "role": "拓扑变换扩量",
+      "purpose": "把 modifier 子图重新挂到根节点，尝试改变实际图结构。",
+      "state": "50段探索；强挂接可能改变原意。",
+      "source": "scripts/run_planb_b2_reattach50.py",
+      "index": 20
+    },
+    {
+      "group": "01",
+      "name": "planB_b3_combo50",
+      "role": "组合算子先导",
+      "purpose": "同时做概念替换和 modifier 重挂接，看组合能否增加降分。",
+      "state": "50段保存156次节点改动、39次重挂接；这些不是有效攻击数。",
+      "source": "experiments/planB_b3_combo50/transform.json",
+      "index": 21
+    },
+    {
+      "group": "01",
+      "name": "planB_b6_combo100",
+      "role": "同算子扩量",
+      "purpose": "把 b3 的组合操作扩展到100段，观察先导效果能否维持。",
+      "state": "同方法的规模版本，不是新攻击原理。",
+      "source": "scripts/run_planb_b6_combo100.py",
+      "index": 22
+    },
+    {
+      "group": "01",
+      "name": "planB_b7_combo250",
+      "role": "组合图攻击主规模",
+      "purpose": "扩展到250段，验证简单图操作是否足够强。",
+      "state": "历史低分率20.0%，仍有生成失真和重解析抹平问题。",
+      "source": "叙事.md",
+      "index": 23
+    },
+    {
+      "group": "01",
+      "name": "planC_modifier_swap30",
+      "role": "受限子图交换",
+      "purpose": "只交换 mod 修饰子图，希望避免改动事件核心事实。",
+      "state": "适用范围很窄；原叙事记录30段中仅5句可变换。",
+      "source": "scripts/run_planc_modifier_swap30.py",
+      "index": 24
+    },
+    {
+      "group": "01",
+      "name": "planC_modifier_family30",
+      "role": "扩大修饰关系族",
+      "purpose": "将交换范围从 mod 扩展到地点、时间、数量等修饰关系。",
+      "state": "覆盖有所扩展，但缺少严格类型检查会发生错误挂接。",
+      "source": "scripts/run_planc_modifier_family30.py",
+      "index": 25
+    },
+    {
+      "group": "01",
+      "name": "planC_argument_swap30",
+      "role": "核心论元交换",
+      "purpose": "交换 ARG1/ARG2 子图，测试更强的事件角色扰动。",
+      "state": "更容易动到施事、受事，语义保真成为主要风险。",
+      "source": "scripts/run_planc_argument_swap30.py",
+      "index": 26
+    },
+    {
+      "group": "01",
+      "name": "planC_mod_arg_combo30",
+      "role": "组合算子先导",
+      "purpose": "把修饰关系和核心论元交换放进同一候选策略。",
+      "state": "30段开发版本，保存质量筛选与检测资产。",
+      "source": "scripts/run_planc_mod_arg_combo30.py",
+      "index": 27
+    },
+    {
+      "group": "01",
+      "name": "planC_mod_arg_combo100",
+      "role": "组合算子扩量",
+      "purpose": "扩展组合交换，正式观察降分与保真的权衡。",
+      "state": "历史低分率约23%，质量通过约46%；不能只报低分。",
+      "source": "叙事.md",
+      "index": 28
+    },
+    {
+      "group": "01",
+      "name": "planD_reentrancy30",
+      "role": "重入结构探索",
+      "purpose": "改共享节点、重绑定等重入结构，看更深的拓扑改动是否有效。",
+      "state": "30段探索；已有算子收益有限，不能推成所有重入攻击都无效。",
+      "source": "scripts/run_pland_reentrancy30.py",
+      "index": 29
+    },
+    {
+      "group": "01",
+      "name": "planD_reent_arg30",
+      "role": "重入与论元组合",
+      "purpose": "在重入修改的基础上再交换核心论元，增加结构扰动。",
+      "state": "组合可能进一步伤害事实；与上一目录是同一研究问题的分支。",
+      "source": "scripts/run_pland_reent_arg30.py",
+      "index": 30
+    },
+    {
+      "group": "01",
+      "name": "planE_e1_roundtrip",
+      "role": "回译先导",
+      "purpose": "使用跨语言往返回译产生改写候选，检查自然生成是否比手工图操作有效。",
+      "state": "两条支线历史低分率20.0%与16.7%；只是先导。",
+      "source": "experiments/planE_e1_roundtrip/report.md",
+      "index": 31
+    },
+    {
+      "group": "01",
+      "name": "planE_e2_joint30",
+      "role": "反馈整段改写先导",
+      "purpose": "允许句界、语态、名词化、句序与指代一起变化，再按检测反馈选候选。",
+      "state": "30段先导，促成后续扩量；低分需另过质量门。",
+      "source": "experiments/planE_e2_joint30/report.md",
+      "index": 32
+    },
+    {
+      "group": "01",
+      "name": "planE_e2_joint100",
+      "role": "反馈整段改写扩量",
+      "purpose": "将 joint30 扩展到100段，并补保存图完整性和质量检查。",
+      "state": "探索性扩量；不能把自动质量检查当独立真人评审。",
+      "source": "experiments/planE_e2_joint100/quality_checks.json",
+      "index": 33
+    },
+    {
+      "group": "01",
+      "name": "planE_e2_joint250",
+      "role": "反馈整段改写主规模",
+      "purpose": "每段生成4个候选，检验检测反馈下的结构改写攻击面。",
+      "state": "249/250有低分候选；纠偏后固定预算有效成功191/250，补救累计218/250。",
+      "source": "叙事.md",
+      "index": 34
+    },
+    {
+      "group": "01",
+      "name": "planE_e3_combo30",
+      "role": "多生成策略组合",
+      "purpose": "把回译、联合改写等候选来源组合起来，检查是否比单一路线更好。",
+      "state": "保存候选和严格筛选；没有独立优势确认。",
+      "source": "experiments/planE_e3_combo30/strict_valid.json",
+      "index": 35
+    },
+    {
+      "group": "01",
+      "name": "planE_transfer_strict30",
+      "role": "模板子库迁移",
+      "purpose": "将既有 Plan E 攻击交给不同模板子库，检查效果是否只依赖源库配置。",
+      "state": "同文本的检测器侧重评，不能称跨水印迁移。",
+      "source": "experiments/planE_transfer_strict30/results.json",
+      "index": 36
+    },
+    {
+      "group": "01",
+      "name": "e1_invariance",
+      "role": "评分负对照",
+      "purpose": "核对变量改名、三元组重排、空白等变化是否保持同一图的评分。",
+      "state": "图级控制支持不变性，但字符串接口有序列化 caveat。",
+      "source": "experiments/e1_invariance/report.md",
+      "index": 37
+    },
+    {
+      "group": "01",
+      "name": "e2_attack_pilot",
+      "role": "三类改写先导",
+      "purpose": "在50个基线正例上等预算比较普通复述、句界改写、AMR引导。",
+      "state": "自动质量口径下有效率10%、34%、24%；仍缺独立真人质量。",
+      "source": "experiments/e2_attack_pilot/report.md",
+      "index": 38
+    },
+    {
+      "group": "01",
+      "name": "e3_main",
+      "role": "三类改写扩量比较",
+      "purpose": "把普通复述、句界和AMR引导比较扩展到223个基线正例。",
+      "state": "历史自动有效率6.7%、30.9%、21.1%；句界臂更强。",
+      "source": "experiments/e3_main/report.md",
+      "index": 39
+    },
+    {
+      "group": "01",
+      "name": "e4_ablation",
+      "role": "候选组件消融",
+      "purpose": "拆开已有改写提示或候选策略，检查优势来自哪种操作。",
+      "state": "保存候选及分臂检测资产；属于开发消融。",
+      "source": "experiments/e4_ablation/candidates.json",
+      "index": 40
+    },
+    {
+      "group": "01",
+      "name": "e5_transfer",
+      "role": "模板子库迁移",
+      "purpose": "对 e4 两臂使用 first25/random25 子库重评，检查模板库规模影响。",
+      "state": "逃逸率仅小幅变化；不是把SWAN攻击迁移到别的水印。",
+      "source": "experiments/e5_transfer/report.md",
+      "index": 41
+    },
+    {
+      "group": "02",
+      "name": "targeted_sentence_attack",
+      "role": "目标选择准备",
+      "purpose": "计算每篇最少翻转几个 green 句才能逃逸，再选最高分、近阈值和随机目标。",
+      "state": "250篇的平均最少翻转数1.680；这里只算预算和目标。",
+      "source": "experiments/targeted_sentence_attack/report.md",
+      "index": 42
+    },
+    {
+      "group": "02",
+      "name": "targeted_sentence_pilot30",
+      "role": "靶向改写初版",
+      "purpose": "按三种目标选择策略，只改指定句子，检查局部攻击是否可控。",
+      "state": "90条生成记录中非目标逐字保留75条、目标改变39条；完整性不足。",
+      "source": "experiments/targeted_sentence_pilot30/validation.json",
+      "index": 43
+    },
+    {
+      "group": "02",
+      "name": "targeted_sentence_controlled30",
+      "role": "靶向改写受控版",
+      "purpose": "收紧非目标句和句数约束，在完整配对段落上比较三种选择策略。",
+      "state": "29段配对，逃逸0%–3.4%；未见靶向高分句优势。",
+      "source": "experiments/targeted_sentence_controlled30/report.md",
+      "index": 44
+    },
+    {
+      "group": "02",
+      "name": "prompt_component_ablation30",
+      "role": "提示组件消融",
+      "purpose": "去掉句界、语态等指令组件，看检测下降与实际句数变化的关系。",
+      "state": "30段等调用预算先导；模型未完全遵守部分指令。",
+      "source": "experiments/prompt_component_ablation30/report.md",
+      "index": 45
+    },
+    {
+      "group": "02",
+      "name": "milestone_a",
+      "role": "预算与选择策略审计",
+      "purpose": "比较候选数 K 和质量后选优策略，纠正多候选最低分带来的指标膨胀。",
+      "state": "191/250与自适应218/250属于不同预算口径；不能混写。",
+      "source": "experiments/milestone_a/report.md",
+      "index": 46
+    },
+    {
+      "group": "02",
+      "name": "candidate_budget16_pilot30",
+      "role": "大预算与严格质量审计",
+      "purpose": "把候选预算扩到16，并检查事实约束补救、反馈严格筛选及难例对照。",
+      "state": "内含多轮开发与复算；严格质量会大幅缩小原始低分收益。",
+      "source": "experiments/candidate_budget16_pilot30/final_30_assistant_audit.json",
+      "index": 47
+    },
+    {
+      "group": "02",
+      "name": "confirmation_three_arm30",
+      "role": "独立三臂确认",
+      "purpose": "在新30个提示上等预算比较普通复述、仅句界指令与完整Plan E，并冻结无反馈选择。",
+      "state": "无反馈有效成功分别2/30、29/30、10/30；句界臂最强。",
+      "source": "叙事.md",
+      "index": 48
+    },
+    {
+      "group": "02",
+      "name": "confirmation_mechanism30",
+      "role": "严格句界与统计拆分",
+      "purpose": "做词汇词序不变的标点 A-B-A，并将句数与命中率的数值效应分开。",
+      "state": "逃逸1/30→30/30→1/30；直接支持短文本句界依赖。",
+      "source": "experiments/confirmation_mechanism30/summary.json",
+      "index": 49
+    },
+    {
+      "group": "02",
+      "name": "mechanism_sentence_boundary",
+      "role": "回溯关联分析",
+      "purpose": "按实际句数变化分组，查句界臂的降分是否主要出现在合句样本。",
+      "state": "有句数和分数变化关联；不是单变量因果证明。",
+      "source": "experiments/mechanism_sentence_boundary/report.md",
+      "index": 50
+    },
+    {
+      "group": "02",
+      "name": "mechanism_e2_amr",
+      "role": "回溯图特征分析",
+      "purpose": "检查选优攻击后的节点、边、重入、模板匹配与green-rate变化。",
+      "state": "可定位相关现象；不能由相关系数证明攻击AMR语义。",
+      "source": "experiments/mechanism_e2_amr/report.md",
+      "index": 51
+    },
+    {
+      "group": "02",
+      "name": "parser_repeatability30",
+      "role": "解析与评分重复性",
+      "purpose": "重复解析相同文本，再对固定AMR反复打分，区分parser与匹配随机性。",
+      "state": "跨运行AMR150/150相同，z149/150相同；固定图评分仍有波动。",
+      "source": "experiments/parser_repeatability30/report.md",
+      "index": 52
+    },
+    {
+      "group": "02",
+      "name": "sira_adapted30",
+      "role": "强攻击基线",
+      "purpose": "按相同30段和4候选预算适配SIRA，避免只与弱复述比较。",
+      "state": "有反馈有效成功13/30；本地适配不等于原论文等价复现。",
+      "source": "叙事.md",
+      "index": 53
+    },
+    {
+      "group": "02",
+      "name": "cross_watermark_transfer30",
+      "role": "跨水印范围检验",
+      "purpose": "分别生成KGW和SynthID自己的水印文本，再用冻结无反馈句界方法测试。",
+      "state": "KGW 0/30、SynthID 1/30；限定适用范围，非强系统因果证明。",
+      "source": "叙事.md",
+      "index": 54
+    },
+    {
+      "group": "02",
+      "name": "defense_aggregation",
+      "role": "聚合防御原型",
+      "purpose": "保持已有句级分数，改用均值、中位数、最大值等聚合，试图恢复攻击后检测。",
+      "state": "这些离线聚合均未恢复；基线分数重建也有边界差异。",
+      "source": "experiments/defense_aggregation/report.md",
+      "index": 55
+    },
+    {
+      "group": "02",
+      "name": "segmentation_intervention",
+      "role": "重新分句防御",
+      "purpose": "对已有攻击重新切分并重新校准，看简单边界修复是否有效。",
+      "state": "有效逃逸23/30降至19/30，p=0.125；独立人类误报上升。",
+      "source": "叙事.md",
+      "index": 56
+    },
+    {
+      "group": "02",
+      "name": "swan_amr_composition_decomposition1",
+      "role": "人工图作用域诊断",
+      "purpose": "比较真实句级图、人工组合图和合句重解析图，检查扩大评分范围的影响。",
+      "state": "目标green 108/108→0/108；人工组合不是自然parser反事实。",
+      "source": "experiments/swan_amr_composition_decomposition1/report.md",
+      "index": 57
+    },
+    {
+      "group": "02",
+      "name": "swan_amr_precision_recall1",
+      "role": "图匹配分量诊断",
+      "purpose": "把上述匹配下降拆成precision与recall，观察局部证据如何被整图稀释。",
+      "state": "人工组合precision下降更大；不能据此宣布真实攻击主因已识别。",
+      "source": "experiments/swan_amr_precision_recall1/report.md",
+      "index": 58
+    },
+    {
+      "group": "02",
+      "name": "swan_local_multi_instance1",
+      "role": "局部实例防御预检",
+      "purpose": "从大图恢复多个互斥的局部模板实例，绕开whole-graph稀释。",
+      "state": "现存报告原图恢复1/15、重解析0/15，未过门。",
+      "source": "experiments/swan_local_multi_instance1/report.md",
+      "index": 59
+    },
+    {
+      "group": "02",
+      "name": "swan_local_multi_instance2",
+      "role": "局部实例防御审计版",
+      "purpose": "继续核对同类coverage、precision和互斥实例计数规则，完善可追溯审计。",
+      "state": "现存报告与版本1给出相同关键计数；不能算两次独立成功。",
+      "source": "experiments/swan_local_multi_instance2/report.md",
+      "index": 60
+    },
+    {
+      "group": "02",
+      "name": "swan_template_specificity1",
+      "role": "模板背景校准防御",
+      "purpose": "对不同模板分别估计人类背景尾概率，降低常见模板的误报贡献。",
+      "state": "开发原图4/15、重解析2/15；门失败，holdout未评。",
+      "source": "experiments/swan_template_specificity1/report.md",
+      "index": 61
+    },
+    {
+      "group": "02",
+      "name": "swan_relation_motif1",
+      "role": "关系锚点定位防御",
+      "purpose": "先通过关系motif定位局部子图，再与模板匹配。",
+      "state": "原图/重解析recall@5为41/56、33/56，均差一项仍按门停止。",
+      "source": "experiments/swan_relation_motif1/report.md",
+      "index": 62
+    },
+    {
+      "group": "02",
+      "name": "feedback2_diagnostics",
+      "role": "阶段诊断与下一轮准备",
+      "purpose": "汇总既有攻击、短文本、阈值距离和文献约束，决定下一轮该补什么证据。",
+      "state": "属于诊断与协议准备，不是新增攻击结果。",
+      "source": "experiments/feedback2_diagnostics/report.md",
+      "index": 63
+    },
+    {
+      "group": "03",
+      "name": "swan_count_neutral_boundary1",
+      "role": "句数守恒构造预检",
+      "purpose": "寻找一处合并和另一处自然拆分，保持词汇、词序和总句数。",
+      "state": "30篇中23篇可合并、0篇可自然拆分；未调用检测器。",
+      "source": "experiments/swan_count_neutral_boundary1/report.md",
+      "index": 64
+    },
+    {
+      "group": "03",
+      "name": "swan_oracle_composition1",
+      "role": "长度压力诊断",
+      "purpose": "把已知短正例跨文档组合成长批次，检查不只句数项是否也会降分。",
+      "state": "144–181词批次缺乏主题连贯性；不是正常长度确认文本。",
+      "source": "experiments/swan_oracle_composition1/report.md",
+      "index": 65
+    },
+    {
+      "group": "03",
+      "name": "swan_length_probe",
+      "role": "长度生成初版",
+      "purpose": "探测短、中、长句提示与模板约束能否同时满足，准备正常长度基线。",
+      "state": "保存单次调用与summary；正式完整18单元结果在v2。",
+      "source": "experiments/swan_length_probe/summary.json",
+      "index": 66
+    },
+    {
+      "group": "03",
+      "name": "swan_length_probe_v2",
+      "role": "长度生成完整探针",
+      "purpose": "对3个新提示、2个模板、3档长度做固定18次生成。",
+      "state": "18/18完成，但每档至少4/6联合通过门未达。",
+      "source": "experiments/swan_length_probe_v2/report.md",
+      "index": 67
+    },
+    {
+      "group": "03",
+      "name": "swan_sentence_growth1",
+      "role": "增加句数探针",
+      "purpose": "用更多短句凑够总篇幅，检查长度达标后是否仍连贯。",
+      "state": "39/40注入接受；5/20/40句前缀均未过质量，未跑攻击。",
+      "source": "experiments/swan_sentence_growth1/report.md",
+      "index": 68
+    },
+    {
+      "group": "03",
+      "name": "swan_generator_comparison1",
+      "role": "生成器配对对照",
+      "purpose": "比较上游注入函数、本地适配和无水印逐句生成，查质量问题来自哪里。",
+      "state": "同一提示的三条路径均未过联合门；不能叫官方生成等价复现。",
+      "source": "experiments/swan_generator_comparison1/report.md",
+      "index": 69
+    },
+    {
+      "group": "03",
+      "name": "swan_onepass_control1",
+      "role": "无水印整段对照",
+      "purpose": "用一次整段生成检查同一模型能否写出不重复的正常长度段落。",
+      "state": "单个127词输出通过辅助门；未注水印，也非稳定性确认。",
+      "source": "experiments/swan_onepass_control1/report.md",
+      "index": 70
+    },
+    {
+      "group": "03",
+      "name": "grounded_generation3",
+      "role": "事实约束生成对照",
+      "purpose": "在3篇源文上比较逐句和整段摘要，限制新增事实并控制篇幅。",
+      "state": "逐句0/3、整段1/3联合通过；未达到继续门。",
+      "source": "experiments/grounded_generation3/report.md",
+      "index": 71
+    },
+    {
+      "group": "03",
+      "name": "grounded_injection5",
+      "role": "事实约束注入先导",
+      "purpose": "把5篇源文的正常长度摘要接入固定拒绝采样，检查模板接受率。",
+      "state": "150次尝试最高约0.5607，无正常长度水印基线；停止该配置。",
+      "source": "experiments/grounded_injection5/report.md",
+      "index": 72
+    },
+    {
+      "group": "03",
+      "name": "swan_known_positive1",
+      "role": "已知正例链路核查",
+      "purpose": "用已保存raw AMR、模板和提示样例核查归一化与S2Match。",
+      "state": "基础链路通过；零接受不能简单归咎于parser坏掉。",
+      "source": "experiments/swan_known_positive1/report.md",
+      "index": 73
+    },
+    {
+      "group": "03",
+      "name": "swan_atomic_fact_preflight1",
+      "role": "短事实句预检",
+      "purpose": "将正常源文拆成短事实句，先查图规模是否与Bank50兼容。",
+      "state": "5篇均未过门；未发起付费注入。",
+      "source": "experiments/swan_atomic_fact_preflight1/report.md",
+      "index": 74
+    },
+    {
+      "group": "03",
+      "name": "swan_microfact_generation1",
+      "role": "微事实生成",
+      "purpose": "一次要求生成多条短事实，试图同时满足篇幅与小模板。",
+      "state": "父实验联合0/5；后验JSON修复与图规模分析不能改写失败。",
+      "source": "experiments/swan_microfact_generation1/report.md",
+      "index": 75
+    },
+    {
+      "group": "03",
+      "name": "swan_microfact_sequential2",
+      "role": "逐条微事实生成",
+      "purpose": "改成按顺序逐条生成微事实，减少一次生成的结构错误和重复。",
+      "state": "父实验质量0/5；后验图规模门也未过。",
+      "source": "experiments/swan_microfact_sequential2/report.md",
+      "index": 76
+    },
+    {
+      "group": "03",
+      "name": "swan_bank_scale_pilot1",
+      "role": "模板库扩容诊断",
+      "purpose": "比较50/100/500/800模板，查扩大库是否改善长句与模板兼容。",
+      "state": "兼容和green率上升；只授权独立校准准备，未证明FPR控制。",
+      "source": "experiments/swan_bank_scale_pilot1/report.md",
+      "index": 77
+    },
+    {
+      "group": "03",
+      "name": "swan_bank100_null_calibration1",
+      "role": "扩容后的Null校准",
+      "purpose": "在Bank100下分别检查人类与无水印机器文本，避免扩容直接抬误报。",
+      "state": "机器质量13/30，联合门失败；未进行注入或攻击。",
+      "source": "experiments/swan_bank100_null_calibration1/report.md",
+      "index": 78
+    },
+    {
+      "group": "03",
+      "name": "swan_bank100_microfact_null1",
+      "role": "同形式机器Null",
+      "purpose": "用与微事实正例相近的无水印生成形式，检查是否靠格式造成高分。",
+      "state": "质量合格0/30，条件机器FPR不可用，不能写成0%。",
+      "source": "experiments/swan_bank100_microfact_null1/report.md",
+      "index": 79
+    },
+    {
+      "group": "03",
+      "name": "swan_natural_mixed_windows1",
+      "role": "天然混合窗口筛选",
+      "purpose": "直接找既有自然文本中兼具篇幅和短句的窗口，减少人工生成依赖。",
+      "state": "质量与图规模联合0/5；未进入注入。",
+      "source": "experiments/swan_natural_mixed_windows1/report.md",
+      "index": 80
+    },
+    {
+      "group": "03",
+      "name": "swan_natural_narrative_windows2",
+      "role": "天然叙事窗口筛选",
+      "purpose": "增加叙事性条件，避免短句窗口只是列表或混杂片段。",
+      "state": "扫描9563行仍未找到5篇合格窗口；后置模型调用0。",
+      "source": "experiments/swan_natural_narrative_windows2/report.md",
+      "index": 81
+    },
+    {
+      "group": "03",
+      "name": "swan_c4_train_narrative_windows3",
+      "role": "换语料窗口筛选",
+      "purpose": "转向C4 train搜索正常长度、短事件句较多的叙事窗口。",
+      "state": "质量与图规模联合0/5；没有检测结果。",
+      "source": "experiments/swan_c4_train_narrative_windows3/report.md",
+      "index": 82
+    },
+    {
+      "group": "03",
+      "name": "swan_quality_first_windows4",
+      "role": "质量优先窗口筛选",
+      "purpose": "先保证自然段落质量，再数可承担水印的短句槽。",
+      "state": "质量14/30，但覆盖0/30；优质段落的短载体仍不足。",
+      "source": "experiments/swan_quality_first_windows4/report.md",
+      "index": 83
+    },
+    {
+      "group": "03",
+      "name": "swan_partial_coverage_power1",
+      "role": "部分载体功效核算",
+      "purpose": "检查只给部分短句注水印，整篇保留完整分母时能否达到检测阈值。",
+      "state": "Bank50对14篇保证0篇；Bank100仅敏感性分析，未授权注入。",
+      "source": "experiments/swan_partial_coverage_power1/report.md",
+      "index": 84
+    },
+    {
+      "group": "03",
+      "name": "swan_constrained_microfact1",
+      "role": "约束微事实构造",
+      "purpose": "用局部生成和表面约束限制长度、词语和事实，使微事实更接近模板。",
+      "state": "600候选仍联合0/5；未进入parser和注入。",
+      "source": "experiments/swan_constrained_microfact1/report.md",
+      "index": 85
+    },
+    {
+      "group": "03",
+      "name": "swan_deepseek_span_compiler1",
+      "role": "跨度计划编译",
+      "purpose": "先让模型选源文跨度，再确定性编译成短事实，减少自由生成失真。",
+      "state": "270个解码计划仍联合0/5；不足以构造可用文档。",
+      "source": "experiments/swan_deepseek_span_compiler1/report.md",
+      "index": 86
+    },
+    {
+      "group": "03",
+      "name": "swan_dependency_pruner1",
+      "role": "依存路径裁剪",
+      "purpose": "根据依存路径剪掉多余成分，尝试保事实地缩小候选句。",
+      "state": "构造0/5，评审只完成3/5；不能写质量0/5。",
+      "source": "experiments/swan_dependency_pruner1/terminal_report.md",
+      "index": 87
+    },
+    {
+      "group": "03",
+      "name": "swan_length_gate_tradeoff1",
+      "role": "长度筛选回溯",
+      "purpose": "重算已保存605个候选，查长度门是不是挡住了本可接受的模板句。",
+      "state": "359个历史分数精确重放；这是筛选诊断，无新生成。",
+      "source": "experiments/swan_length_gate_tradeoff1/report.md",
+      "index": 88
+    },
+    {
+      "group": "03",
+      "name": "swan_positive_asset_audit1",
+      "role": "正例资产可用性审计",
+      "purpose": "查公开发布和本地历史资产，是否已有独立、正常长度、可追溯合格SWAN正例。",
+      "state": "冻结检查范围内合格数0；不是断言任何地方都不存在。",
+      "source": "experiments/swan_positive_asset_audit1/report.md",
+      "index": 89
+    },
+    {
+      "group": "03",
+      "name": "swan_positive_collection1",
+      "role": "正式正例采集准备",
+      "purpose": "冻结官方代码、依赖、来源、预算和5 pilot＋30 main的采集流程。",
+      "state": "完成本地离线就绪审计；准备状态不等于正例采集完成。",
+      "source": "experiments/swan_positive_collection1/execution_readiness_report_v3.md",
+      "index": 90
+    },
+    {
+      "group": "03",
+      "name": "swan_positive_local_qwen_preflight1",
+      "role": "本地小模型注入预检",
+      "purpose": "先用Qwen2.5-0.5B检查5个源的首槽能否达到官方模板接受门。",
+      "state": "50次生成，接受0/5；本地路线Stop。",
+      "source": "experiments/swan_positive_local_qwen_preflight1/report.md",
+      "index": 91
+    },
+    {
+      "group": "03",
+      "name": "swan_positive_deepseek_preflight1",
+      "role": "API后端注入预检",
+      "purpose": "换DeepSeek检查相同类型首槽可行性，避免直接花钱生成大cohort。",
+      "state": "41次生成接受1/5，未过3/5门；后端路线Stop。",
+      "source": "experiments/swan_positive_deepseek_preflight1/report.md",
+      "index": 92
+    },
+    {
+      "group": "03",
+      "name": "swan_positive_deepseek_confirmation1",
+      "role": "严格正例pilot",
+      "purpose": "要求每篇16槽全部严格接受，再进入正常长度质量和句界确认。",
+      "state": "五文档pilot失败，main未启动；不是检测效果负结论。",
+      "source": "experiments/swan_positive_deepseek_confirmation1/pilot_terminal_report.md",
+      "index": 93
+    },
+    {
+      "group": "03",
+      "name": "swan_positive_deepseek_length_confirmation2",
+      "role": "长度门正例pilot",
+      "purpose": "调整长度资格并按新来源重做严格注入pilot。",
+      "state": "3篇注入失败，第4篇不确定调用停止，第5篇未开始；操作性未完成。",
+      "source": "experiments/swan_positive_deepseek_length_confirmation2/pilot_operational_stop_report.md",
+      "index": 94
+    },
+    {
+      "group": "03",
+      "name": "swan_positive_deepseek_length_confirmation3",
+      "role": "新来源与停止策略准备",
+      "purpose": "另立新来源，冻结7–12词候选和不确定调用后继续剩余分配的策略。",
+      "state": "停在准备并被后续纠偏关闭，不能算已执行确认。",
+      "source": "experiments/swan_reframing1/decision_log.md",
+      "index": 95
+    },
+    {
+      "group": "03",
+      "name": "swan_count_neutral_confirmation1",
+      "role": "句数守恒确认方案",
+      "purpose": "规定在独立正常长度合格正例上只移动边界、不改词汇与单位数的确认方法。",
+      "state": "上游正例未过门，未形成正式A/B确认结果。",
+      "source": "experiments/swan_count_neutral_confirmation1/protocol.md",
+      "index": 96
+    },
+    {
+      "group": "03",
+      "name": "swan_final_confirmation1",
+      "role": "最终确认方案草案",
+      "purpose": "收窄论文问题，准备同时验证正常长度句界、质量和机制端点。",
+      "state": "前置协议资产，不等于最终确认完成。",
+      "source": "experiments/swan_final_confirmation1/protocol.md",
+      "index": 97
+    },
+    {
+      "group": "03",
+      "name": "swan_count_neutral_final1",
+      "role": "正式正常长度pilot",
+      "purpose": "改为按文档长度停止并如实记录fallback，生成8篇后过质量门。",
+      "state": "8篇终态、6篇结构合格、冻结质量0/6；变换和main未运行。",
+      "source": "experiments/swan_count_neutral_final1/PILOT_CONCLUSION.md",
+      "index": 98
+    },
+    {
+      "group": "03",
+      "name": "swan_normal_length_feasibility2",
+      "role": "新正常长度可行性pilot",
+      "purpose": "另立新来源，检查正式注入与严格日志合同能否形成完整正常文档。",
+      "state": "未捕获parser warning永久halt；8个fallback槽、0篇终态。",
+      "source": "experiments/swan_normal_length_feasibility2/RUNTIME_HALT.md",
+      "index": 99
+    },
+    {
+      "group": "03",
+      "name": "swan_source_anchored1",
+      "role": "源文绑定pilot",
+      "purpose": "把10个生成槽逐一绑定真实源句，再在parser前过表面门。",
+      "state": "8篇中5篇结构过门，60个完成槽全fallback；后置质量和检测未跑。",
+      "source": "experiments/swan_source_anchored1/PILOT_CONCLUSION.md",
+      "index": 100
+    },
+    {
+      "group": "03",
+      "name": "swan_accepted_baseline_preflight1",
+      "role": "接受句基线预检",
+      "purpose": "只拿历史真正接受且不重复的20句，拼两篇10句文档，检查注入→检测链路。",
+      "state": "已保存detection原件；拼接阳性不证明连贯或独立正常长度质量。",
+      "source": "experiments/swan_accepted_baseline_preflight1/detection.json",
+      "index": 101
+    },
+    {
+      "group": "03",
+      "name": "swan_accepted_boundary_preflight1",
+      "role": "接受句边界预检",
+      "purpose": "对固定接受句文档检查可合并边界、自然拆分及辅助位置控制。",
+      "state": "已保存边界检测原件；标准C2与辅助位置控制不能互相替代。",
+      "source": "experiments/swan_accepted_boundary_preflight1/detection.json",
+      "index": 102
+    },
+    {
+      "group": "03",
+      "name": "swan_splittable_positive_pilot1",
+      "role": "可拆分句注入预检",
+      "purpose": "尝试得到两条既严格接受又有自然内部拆分点的句子。",
+      "state": "本地仅见设计与预算等准备制品，无完成结果。",
+      "source": "experiments/swan_splittable_positive_pilot1/protocol.md",
+      "index": 103
+    },
+    {
+      "group": "03",
+      "name": "swan_injection_only_pilot1",
+      "role": "最小注入能力检查",
+      "purpose": "暂时去掉篇章、来源和可拆分要求，只问当前后端能否生成10条真接受句。",
+      "state": "用于最窄的注入能力诊断，不能代表正常文档生成成功。",
+      "source": "experiments/swan_injection_only_pilot1/result.json",
+      "index": 104
+    },
+    {
+      "group": "03",
+      "name": "swan_injection_only_baseline1",
+      "role": "最小注入读回检查",
+      "purpose": "将上个pilot的10条接受句原样拼接，验证能否被Bank50检测。",
+      "state": "已保存detection原件；只核对注入和检测，不评价篇章连贯性。",
+      "source": "experiments/swan_injection_only_baseline1/detection.json",
+      "index": 105
+    },
+    {
+      "group": "03",
+      "name": "swan_coherent_injection_pilot1",
+      "role": "连贯注入初版",
+      "purpose": "在10句连贯任务文档中使用严格接受，检查注入与篇章能否兼得。",
+      "state": "4槽接受后slot耗尽，未完成10槽。",
+      "source": "experiments/swan_coherent_injection_pilot1/result.json",
+      "index": 106
+    },
+    {
+      "group": "03",
+      "name": "swan_coherent_injection_pilot2",
+      "role": "有利模板连贯注入",
+      "purpose": "只用先导中有利的模板47，尝试完成10个主题相同事件。",
+      "state": "10/10严格接受，但原辅助连贯门失败；有利模板选择需披露。",
+      "source": "experiments/swan_coherent_injection_pilot2/result.json",
+      "index": 107
+    },
+    {
+      "group": "03",
+      "name": "swan_coherent_injection_pilot3",
+      "role": "显式篇章连接注入",
+      "purpose": "增加时间连接和固定工作流，试图修复pilot2的简略事件列表。",
+      "state": "首槽耗尽，0/10接受；连接词会改变结构匹配。",
+      "source": "experiments/swan_coherent_injection_pilot3/result.json",
+      "index": 108
+    },
+    {
+      "group": "03",
+      "name": "swan_coherent_injection_pilot4",
+      "role": "事件日志形式注入",
+      "purpose": "预先改用与简短事件日志匹配的评价规则，并换新主题人物。",
+      "state": "首槽耗尽，0/10接受；未建立一般生成可行性。",
+      "source": "experiments/swan_coherent_injection_pilot4/result.json",
+      "index": 109
+    },
+    {
+      "group": "03",
+      "name": "swan_coherent_baseline1",
+      "role": "事后体裁复核",
+      "purpose": "把pilot2固定文本按其实际事件日志体裁重新评价，不改任何文字。",
+      "state": "明确事后辅助评价，不可追认预注册真人质量。",
+      "source": "experiments/swan_coherent_baseline1/protocol.md",
+      "index": 110
+    },
+    {
+      "group": "03",
+      "name": "swan_coherent_baseline_cached1",
+      "role": "缓存评分工程修复",
+      "purpose": "缓存固定词向量，避免官方helper每个配对反复加载，再完成53词正例检测。",
+      "state": "Bank50 10/10 green，z=5.4772；仍是单篇定向工程正例。",
+      "source": "experiments/swan_coherent_baseline_cached1/CONCLUSION.md",
+      "index": 111
+    },
+    {
+      "group": "03",
+      "name": "swan_normal_length_coherent_pilot1",
+      "role": "定向正例长度扩展",
+      "purpose": "将有利模板47的事件日志扩到20槽，检查能否达到正常篇幅。",
+      "state": "126词、20/20严格接受，辅助质量通过；仍缺source anchoring和真人评审。",
+      "source": "experiments/swan_normal_length_coherent_pilot1/result.json",
+      "index": 112
+    },
+    {
+      "group": "03",
+      "name": "swan_normal_length_coherent_baseline1",
+      "role": "正常长度定向基线检测",
+      "purpose": "对固定126词、20句输出做完整Bank50检测与缓存等价核对。",
+      "state": "20/20 green，z=7.7460；单篇可检出不等于cohort及FPR确认。",
+      "source": "experiments/swan_normal_length_coherent_baseline1/CONCLUSION.md",
+      "index": 113
+    },
+    {
+      "group": "03",
+      "name": "swan_normal_length_boundary_location1",
+      "role": "正常长度边界位置诊断",
+      "purpose": "在上述126词文档寻找句数守恒自然拆分，并另做N=19位置对照。",
+      "state": "标准C2构造失败；辅助19/19→18/19仍高于阈值。",
+      "source": "叙事.md",
+      "index": 114
+    },
+    {
+      "group": "03",
+      "name": "swan_source_anchored_splittable1",
+      "role": "来源与可拆分联合pilot",
+      "purpose": "尝试21槽源文绑定、严格阳性和自然可拆分同时成立。",
+      "state": "普通大写被误实现为PROPN门，按合同停止。",
+      "source": "叙事.md",
+      "index": 115
+    },
+    {
+      "group": "03",
+      "name": "swan_source_anchored_single_preflight2",
+      "role": "实现修复单槽预检",
+      "purpose": "在全新源上修正PROPN合同，只试一个槽能否达到模板47接受门。",
+      "state": "30候选仅3个进入评分，最高0.5625，0/1接受；未扩展21句。",
+      "source": "叙事.md",
+      "index": 116
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_preflight1",
+      "role": "独立跨度算法预检",
+      "purpose": "先对简单跨度加性分数，精确寻找全部合法重分句的最坏值。",
+      "state": "与穷举oracle通过；只证明算法正确，不是水印实证。",
+      "source": "experiments/certified_resegmentation_preflight1/audit_results.json",
+      "index": 117
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_interface_audit1",
+      "role": "官方接口审计",
+      "purpose": "查SemStamp/SimMark真实检测公式是否符合独立跨度假设。",
+      "state": "发现实际是一阶相邻跨度pair评分，需要换DP状态。",
+      "source": "experiments/certified_resegmentation_interface_audit1/INTERFACE_AUDIT.md",
+      "index": 118
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_pairwise_preflight1",
+      "role": "相邻pair算法预检",
+      "purpose": "实现edge-state DP，精确求相邻跨度交互分数的最坏划分。",
+      "state": "oracle和退化一致性检查通过；零真实模型。",
+      "source": "experiments/certified_resegmentation_pairwise_preflight1/audit_results.json",
+      "index": 119
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_calibration_preflight1",
+      "role": "证书统计预检",
+      "purpose": "用合成Null检查split-conformal阈值、严格平局和独立误报审计。",
+      "state": "80个统计门通过；不是真实文本FPR结果。",
+      "source": "experiments/certified_resegmentation_calibration_preflight1/audit_results.json",
+      "index": 120
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_adapter_preflight1",
+      "role": "文本适配器预检",
+      "purpose": "冻结文本到atom、边界、detector字符串的映射，并核对去重和cohort隔离。",
+      "state": "模型无关oracle通过；只验证适配与拆分合同。",
+      "source": "experiments/certified_resegmentation_wp2_adapter_preflight1/audit_results.json",
+      "index": 121
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_adapter_scale1",
+      "role": "适配器规模预检",
+      "purpose": "将适配与DP扩大到100/200/300 atom，提前检查规模成本。",
+      "state": "合成规模不是主要瓶颈；真实模型成本尚未测。",
+      "source": "experiments/certified_resegmentation_wp2_adapter_scale1/audit_results.json",
+      "index": 122
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_readiness1",
+      "role": "真实执行合同",
+      "purpose": "冻结官方模型、资产、角色、阈值和资源门，查本机是否具备执行条件。",
+      "state": "当时本机No-Go；不能用合同文件证明执行完成。",
+      "source": "experiments/certified_resegmentation_wp2_readiness1/PROTOCOL.md",
+      "index": 123
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_execution1",
+      "role": "远端环境与等价预检",
+      "purpose": "在Linux CUDA准备模型资产、做SHA绑定，有限比较官方与direct接口。",
+      "state": "SemStamp 258项、SimMark 240项一致；SimMark用sentinel gamma。",
+      "source": "experiments/certified_resegmentation_wp2_execution1/CONCLUSION.md",
+      "index": 124
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_eligibility1",
+      "role": "全量资格审计",
+      "purpose": "不读模型分数，先查冻结旧资产是否满足长度、单位和角色数量门。",
+      "state": "旧5–35 atom合同流失严重，容量不足Stop。",
+      "source": "experiments/certified_resegmentation_wp2_eligibility1/CONCLUSION.md",
+      "index": 125
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v2_design1",
+      "role": "无损与原生长度修订",
+      "purpose": "移除人为5–35限制，尝试lossless native-context适配。",
+      "state": "SemStamp主候选positive 0/1000合格，双系统Stop。",
+      "source": "experiments/certified_resegmentation_wp2_v2_design1/CONCLUSION.md",
+      "index": 126
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v3_readiness1",
+      "role": "结构分隔符与稀疏DP",
+      "purpose": "用typed-list separator恢复官方unit列表等价，并跑Python sparse DP。",
+      "state": "资格和小规模正确性通过，最大结构超时Stop。",
+      "source": "experiments/certified_resegmentation_wp2_v3_readiness1/CONCLUSION.md",
+      "index": 127
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v4_sparse1",
+      "role": "C++稀疏核心",
+      "purpose": "将相同递推编译并压缩状态存储，解决Python规模问题。",
+      "state": "最大真实结构约18.4秒，Algorithm-Ready；还未给证书。",
+      "source": "experiments/certified_resegmentation_wp2_v4_sparse1/CONCLUSION.md",
+      "index": 128
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v5_scorer1",
+      "role": "真实评分接入初版",
+      "purpose": "尝试物化全部相邻pair-score表，把模型分数送入exact core。",
+      "state": "单篇5M外部pair-key门先失败，模型加载前Stop。",
+      "source": "experiments/certified_resegmentation_wp2_v5_scorer1/CONCLUSION.md",
+      "index": 129
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v6_feature1",
+      "role": "特征因子化接入",
+      "purpose": "只存跨度特征、按需组合pair，降低表物化成本并测真实吞吐。",
+      "state": "SemStamp可行，SimMark外推71.81小时超过48小时门；双系统Stop。",
+      "source": "experiments/certified_resegmentation_wp2_v6_feature1/CONCLUSION.md",
+      "index": 130
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v7_throughput1",
+      "role": "batch吞吐优化",
+      "purpose": "测试增加SimMark batch是否能补足计算预算缺口。",
+      "state": "最佳仅1.0027倍，未过1.15倍probe门。",
+      "source": "experiments/certified_resegmentation_wp2_v7_throughput1/CONCLUSION.md",
+      "index": 131
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v8_global_reuse1",
+      "role": "跨文档缓存机会审计",
+      "purpose": "查重复输入token能否让全局特征cache省下足够计算。",
+      "state": "读取cohort范围违约，Invalid/Stop；探索复用仅0.6748%。",
+      "source": "experiments/certified_resegmentation_wp2_v8_global_reuse1/CONCLUSION.md",
+      "index": 132
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v9_simmark_long1",
+      "role": "放宽时间后的探索长跑",
+      "purpose": "用户对新v9撤销48小时门，完成SimMark fit和证书结构评分。",
+      "state": "gamma=0，clean TPR 89/1000，k=1 FPR 9.25%；健康基线未成立。",
+      "source": "叙事.md",
+      "index": 133
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v10_semstamp1",
+      "role": "先健康再证书",
+      "purpose": "改成SemStamp先检查固定检测器FPR/TPR，过门后才跑证书。",
+      "state": "P0误报上界失败，证书保持0/1799；节省后续计算。",
+      "source": "叙事.md",
+      "index": 134
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v11_detector_reproduction1",
+      "role": "复现根因诊断",
+      "purpose": "比较official/direct全量等价，并查模型prompt、pooling、数据split。",
+      "state": "实现等价成立；全新确认资产仍不足，不恢复证书主线。",
+      "source": "叙事.md",
+      "index": 135
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v12_fresh_assets1",
+      "role": "全新资产获取",
+      "purpose": "冻结全新C4身份及替补队列，准备重新建立健康正例。",
+      "state": "20条SemStamp smoke有2条prompt-only，未进入全量生成。",
+      "source": "叙事.md",
+      "index": 136
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v13_semstamp_generation1",
+      "role": "替补感知生成",
+      "purpose": "允许机械排除不合格生成并按冻结队列替补，凑满1000正例。",
+      "state": "attempt372陷入不可达fallback，326条eligible后运行Stop。",
+      "source": "experiments/certified_resegmentation_wp2_v13_semstamp_generation1/RUNTIME_STOP.md",
+      "index": 137
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v13_offline_preparation1",
+      "role": "生成后续离线准备",
+      "purpose": "在生成期间准备H0身份审计、B0/B1代码与第二系统缺口说明。",
+      "state": "离线准备完成；不是第二次v13生成或detector运行。",
+      "source": "experiments/certified_resegmentation_wp2_v13_offline_preparation1/PLAN.md",
+      "index": 138
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v14_bounded_generation1",
+      "role": "fallback工程修复",
+      "purpose": "给fallback循环加有界退出，并要求与v13已提交前缀严格重放一致。",
+      "state": "attempt2前缀身份不同，按合同Stop。",
+      "source": "experiments/certified_resegmentation_wp2_v14_bounded_generation1/RUNTIME_STOP.md",
+      "index": 139
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v15_causal_prefix1",
+      "role": "因果前缀生成",
+      "purpose": "只允许真实fallback引起可解释输出差异，继续固定队列生成。",
+      "state": "自报1000正例中5条是空continuation；H0 Stop保持。",
+      "source": "experiments/certified_resegmentation_wp2_v15_causal_prefix1/H0_STOP.md",
+      "index": 140
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v16_prompt_only_rescue1",
+      "role": "事后验证补救",
+      "purpose": "机械剔除5条prompt-only，保留995条，再按固定队列补5条。",
+      "state": "combined 1000行身份零交集、H0 Go；不改写v15成功。",
+      "source": "experiments/certified_resegmentation_wp2_v16_prompt_only_rescue1/H0_RESULT.json",
+      "index": 141
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v17_b0_detector_health1",
+      "role": "正式检测器健康门",
+      "purpose": "用1000校准、1000独立Null、1000正例核对SemStamp固定基线。",
+      "state": "FPR47/1000、TPR954/1000，双重放一致，B0 Go。",
+      "source": "experiments/certified_resegmentation_wp2_v17_b0_detector_health1/B0_RESULT.json",
+      "index": 142
+    },
+    {
+      "group": "04",
+      "name": "certified_resegmentation_wp2_v18_b1_exact_certificate1",
+      "role": "证书计算资源预检",
+      "purpose": "对全部3000行预估合法pair和双重放成本，过门才正式算证书。",
+      "state": "pair超50M、预算86.65小时超72；正式B1未启动，无证书端点。",
+      "source": "experiments/certified_resegmentation_wp2_v18_b1_exact_certificate1/B1_GATE_RESULT.json",
+      "index": 143
+    },
+    {
+      "group": "05",
+      "name": "semantic_watermark_defense_plan_20261007",
+      "role": "新防御研究方案",
+      "purpose": "另立SemStamp可认证防御，先证全部合法边界扰动，再研究证书引导编码。",
+      "state": "WP0与载体—读出合同；不续跑旧v18，也不提供防御结果。",
+      "source": "experiments/semantic_watermark_defense_plan_20261007/PLAN.md",
+      "index": 144
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v1_wp2_algorithm1",
+      "role": "variable-N算法初版",
+      "purpose": "把边界插入、删除、移动都纳入exact DP，覆盖不同最终单位数。",
+      "state": "systematic/random与fixed-N reduction通过；零模型算法Go。",
+      "source": "experiments/semstamp_certified_defense_v1_wp2_algorithm1/RESULT.json",
+      "index": 145
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v1_wp3_detector_health1",
+      "role": "初版载体健康审计",
+      "purpose": "检查固定字节atom是否能逐字节还原v17的detector句子。",
+      "state": "42/3000句界落在atom内，Health Stop；未进入smoke。",
+      "source": "experiments/semstamp_certified_defense_v1_wp3_detector_health1/AUDIT.json",
+      "index": 146
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v2_wp1_threat_model1",
+      "role": "refined-atom威胁模型",
+      "purpose": "只在原NLTK端点细化atom，修复句界而保留原始字节和空白。",
+      "state": "3000/3000恢复，42风险行与59个零字节gap全部保留。",
+      "source": "experiments/semstamp_certified_defense_v2_wp1_threat_model1/AUDIT.json",
+      "index": 147
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v2_wp2_algorithm1",
+      "role": "细化后的算法重建",
+      "purpose": "给零字节gap加入合法性检查，再验证variable-N DP与oracle。",
+      "state": "双语义重放及独立枚举通过；仅算法和合同Go。",
+      "source": "experiments/semstamp_certified_defense_v2_wp2_algorithm1/RESULT.json",
+      "index": 148
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v2_wp3_detector_health1",
+      "role": "分级健康预检",
+      "purpose": "先做3000行无模型结构重放，再选覆盖风险的96行smoke输入。",
+      "state": "P0结构恢复通过；实际smoke/full分开冻结执行。",
+      "source": "experiments/semstamp_certified_defense_v2_wp3_detector_health1/FINAL_RESULT.json",
+      "index": 149
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v2_wp3_detector_smoke_design1",
+      "role": "smoke设计与正式执行",
+      "purpose": "冻结96行双重放，核对renderer修复是否改变官方SemStamp分数。",
+      "state": "192/192逐项一致，27/27审计通过；没有证书计算。",
+      "source": "experiments/semstamp_certified_defense_v2_wp3_detector_smoke_design1/FINAL_RESULT.json",
+      "index": 150
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v2_wp3_detector_smoke_attempt0",
+      "role": "首次启动失败封存",
+      "purpose": "保留smoke首次因缺确定性CUDA环境变量而失败的原始记录。",
+      "state": "完成行、checkpoint、score均0；不是一次水印性能失败。",
+      "source": "experiments/semstamp_certified_defense_v2_wp3_detector_smoke_attempt0/ATTEMPT_RESULT.json",
+      "index": 151
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v2_wp3_detector_full_replay_design1",
+      "role": "全量检测器重放",
+      "purpose": "扩大到2×3000行，确认refined renderer和v17全量评分等价。",
+      "state": "6000/6000一致，重现4.7% FPR和95.4% TPR；不是认证TPR。",
+      "source": "experiments/semstamp_certified_defense_v2_wp3_detector_full_replay_design1/FINAL_RESULT.json",
+      "index": 152
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v2_wp4_resource_preflight_design1",
+      "role": "资源预检初版",
+      "purpose": "在零分数条件下计算完整variable-N合法跨度和pair规模。",
+      "state": "83行后发现只调用fixed-N分支，前缀封存不可续跑。",
+      "source": "experiments/semstamp_certified_defense_v2_wp4_resource_preflight_design1/DESIGN_RESULT.json",
+      "index": 153
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v2_wp4_resource_preflight_correction1",
+      "role": "资源实现纠正",
+      "purpose": "用fixed-N是variable-N子集的关系，独立重放最大核心样本证明硬门超限。",
+      "state": "仅fixed-N已83,540,900 pair超50M；v2 Core-Cap Stop。",
+      "source": "experiments/semstamp_certified_defense_v2_wp4_resource_preflight_correction1/CORRECTIVE_RESULT.json",
+      "index": 154
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v3_wp2_compiled_core1",
+      "role": "完整编译核心",
+      "purpose": "另立C++ core，按最终edge count完整覆盖插入、删除、移动。",
+      "state": "跨macOS/Linux双重正确性重放通过；不回写v2门。",
+      "source": "experiments/semstamp_certified_defense_v3_wp2_compiled_core1/PROTOCOL.md",
+      "index": 155
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v3_wp2_compiled_core_scale2",
+      "role": "更大规模核心验证",
+      "purpose": "预冻结放大实例，检验新200M pair合同能否实际承载。",
+      "state": "133,713,262 pair放大实例与双重放通过。",
+      "source": "experiments/semstamp_certified_defense_v3_wp2_compiled_core_scale2/AUDIT.json",
+      "index": 156
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v3_wp2_throughput1",
+      "role": "SemStamp batch吞吐审计",
+      "purpose": "检查batch64/128/256/512是否在不改变region的前提下提速。",
+      "state": "大样本batch128与canonical64的region不同，语义Stop。",
+      "source": "experiments/semstamp_certified_defense_v3_wp2_throughput1/THROUGHPUT_RESULT.json",
+      "index": 157
+    },
+    {
+      "group": "05",
+      "name": "semstamp_certified_defense_v3_wp3_variable_n_profile1",
+      "role": "完整资源全量审计",
+      "purpose": "用canonical batch64账本遍历3000行、半径0–3的全部合法层。",
+      "state": "46,501层完成，双重放上界77.6152小时超72；证书与防御未启动。",
+      "source": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROFILE_RESULT.json",
+      "index": 158
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_bank_null_smoke1",
+      "role": "弹性检测冒烟",
+      "purpose": "构造多个可能句界，按Bank100评分搜索完整划分，并验证缓存可重放。",
+      "state": "工程12/12通过；两篇Null不能评价1%误报。",
+      "source": "experiments/swan_elastic_bank_null_smoke1/REPORT.md",
+      "index": 159
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_formal_smoke1",
+      "role": "正式输入准备",
+      "purpose": "准备校准与独立测试窗口、manifest，将小冒烟扩成正式校准输入。",
+      "state": "仅确认输入制品，本地没有结果报告。",
+      "source": "experiments/swan_elastic_formal_smoke1/INPUT_MANIFEST.json",
+      "index": 160
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_formal_null1",
+      "role": "完整Null校准测试",
+      "purpose": "用1000篇校准、1000篇独立Null检查搜索后误报。",
+      "state": "6/1000，单侧95%上界约1.18%；严格1%门未过。",
+      "source": "experiments/swan_elastic_formal_null1/results/REPORT.md",
+      "index": 161
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_positive_attack1",
+      "role": "正例恢复开发",
+      "purpose": "将弹性搜索用于旧30篇短正例及历史句界攻击，查能否找回证据。",
+      "state": "baseline28/30、攻击27/30；短正例与长校准长度错配未解决。",
+      "source": "experiments/swan_elastic_positive_attack1/results/REPORT.md",
+      "index": 162
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_length_boundary1",
+      "role": "短长度与压力审计初版",
+      "purpose": "专门检查短Null及标点条件，不只看旧攻击恢复。",
+      "state": "192/1000时恢复日志绑定缺口触发永久Stop。",
+      "source": "experiments/swan_elastic_length_boundary1/STOP.json",
+      "index": 163
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_length_boundary_audited2",
+      "role": "带解析日志重跑",
+      "purpose": "补齐逐跨度恢复审计，完成短Null、正例、历史攻击和五变体。",
+      "state": "旧校准短FPR168/1000；重校准后联合五变体存活0/26。",
+      "source": "experiments/swan_elastic_length_boundary_audited2/DECISION.md",
+      "index": 164
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_v2_preflight1",
+      "role": "边界覆盖P0",
+      "purpose": "扩大候选边界，先不评分地验证恢复与完整路径覆盖。",
+      "state": "各类120/120、5150条路径通过；不是TPR。",
+      "source": "experiments/swan_elastic_v2_preflight1/DECISION.md",
+      "index": 165
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_v2_development1",
+      "role": "v2真实解析开发",
+      "purpose": "按新格图执行1000校准和210开发，检查几何覆盖能否转成有效检测。",
+      "state": "144条校准后非法图Stop，开发0/210；无P1统计裁决。",
+      "source": "experiments/swan_elastic_v2_development1/PARTIAL_STOP.json",
+      "index": 166
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_v3_preflight1",
+      "role": "非法边策略P0",
+      "purpose": "冻结非法AMR、恢复和round-trip边剔除策略，完整路径不足则弃权。",
+      "state": "P0通过；要求从row0重做校准。",
+      "source": "experiments/swan_elastic_v3_preflight1/DECISION.md",
+      "index": 167
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_v3_development1",
+      "role": "v3有效边开发",
+      "purpose": "用有效边策略重跑，检查既保持baseline又抵抗五变体的能力。",
+      "state": "baseline20/30未过80%门；条件联合18/20，整体No-Go。",
+      "source": "experiments/swan_elastic_v3_development1/DECISION.md",
+      "index": 168
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_v4_development1",
+      "role": "路径惩罚开发",
+      "purpose": "把多跳惩罚设0.18并整体重校准，避免过度处罚恢复句界路径。",
+      "state": "baseline25/30、条件联合20/25，开发Go；只允许P2准备。",
+      "source": "experiments/swan_elastic_v4_development1/DECISION.md",
+      "index": 169
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_v4_p2_formal",
+      "role": "v4正式确认尝试",
+      "purpose": "将v4扩展到压力Null与正式正例，检查独立泛化。",
+      "state": "51/5000压力阳性，但源与校准重合、正例0；报告生成又失败。",
+      "source": "experiments/swan_elastic_v4_p2_formal/RESULT.json",
+      "index": 170
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_v4_p2_audit1",
+      "role": "P2原件复算",
+      "purpose": "不重跑模型，逐行重算p值、身份、路径和alpha断点，分清计算与设计问题。",
+      "state": "三种计数均51/5000；alpha-only未补出联合解。",
+      "source": "experiments/swan_elastic_v4_p2_audit1/REPORT.md",
+      "index": 171
+    },
+    {
+      "group": "06",
+      "name": "swan_elastic_v4_mechanism1",
+      "role": "高分Null机制诊断",
+      "purpose": "拆出模板概念、关系、路径及utility，查误报由哪些评分项贡献。",
+      "state": "发现空路径奖励；取消该项尚未证明改善完整检测。",
+      "source": "experiments/swan_elastic_v4_mechanism1/REPORT.md",
+      "index": 172
+    },
+    {
+      "group": "07",
+      "name": "swan_verdict_audit1",
+      "role": "历史裁决复审",
+      "purpose": "用PASS/INCONCLUSIVE/FAIL统一看点值与置信区间，检查旧门是否混用。",
+      "state": "诊断可提示欠功效；不能事后改写冻结Go/Stop或放宽门。",
+      "source": "experiments/swan_verdict_audit1/REPORT.md",
+      "index": 173
+    },
+    {
+      "group": "07",
+      "name": "swan_statistic_design1",
+      "role": "统计量重构方案",
+      "purpose": "尝试将搜索最大分换成确认计数，减少阈值不稳和相关通道影响。",
+      "state": "设计假设；不能把理想独立零分布套给真实DP选后数据。",
+      "source": "experiments/swan_statistic_design1/DESIGN.md",
+      "index": 174
+    },
+    {
+      "group": "07",
+      "name": "swan_statistic_feasibility1",
+      "role": "统计可行性离线验证",
+      "purpose": "查真实Null是否重尾、99%分位是否漂移、同源变体是否独立。",
+      "state": "干净Null近正态、阈值会漂、变体相关；不足以归因全部误报。",
+      "source": "experiments/swan_statistic_feasibility1/REPORT.md",
+      "index": 175
+    },
+    {
+      "group": "07",
+      "name": "swan_b1_family_units1",
+      "role": "模板族计数验证",
+      "purpose": "把相近模板分成族，按族确认数统计，试图减少证据重复。",
+      "state": "已有选中路径上过散度较小，但检出率低，不能证明族独立。",
+      "source": "experiments/swan_b1_family_units1/REPORT.md",
+      "index": 176
+    },
+    {
+      "group": "07",
+      "name": "swan_b1b_statistic_power1",
+      "role": "聚合与功效比较",
+      "purpose": "保持冻结单元分数，比较最大值、均值、top-k和求和等工作点。",
+      "state": "有开发分离信号；同源变体分母和联合鲁棒性仍有限。",
+      "source": "experiments/swan_b1b_statistic_power1/REPORT.md",
+      "index": 177
+    },
+    {
+      "group": "07",
+      "name": "swan_anchor_stability1",
+      "role": "锚点稳定性移植",
+      "purpose": "查模板间隔与同一文档模板编号存活是否相关，探索KARW思路。",
+      "state": "描述性关联；不是候选margin证书或同一事实符号恢复。",
+      "source": "experiments/swan_anchor_stability1/REPORT.md",
+      "index": 178
+    },
+    {
+      "group": "07",
+      "name": "swan_fusion_audit1",
+      "role": "KARW融合审计",
+      "purpose": "检查相关性修正、多假设机会与特征融合能否解释或改善SWAN检测。",
+      "state": "发现跨集合撞号、置换与融合实现问题；原综合No-Go撤回。",
+      "source": "experiments/swan_fusion_audit1/REPORT.md",
+      "index": 179
+    },
+    {
+      "group": "08",
+      "name": "swan_multiview_development1",
+      "role": "多视图、盲窗与确认总线",
+      "purpose": "比较整图和局部事件图，从已知位置开发走向全文盲扫，再独立确认固定S8。",
+      "state": "最终8250条完成；S8校准不可用、完整率低，性能门未过，已收口。",
+      "source": "experiments/swan_multiview_development1/FINAL_ROUND_PLAN.md",
+      "index": 180
+    },
+    {
+      "group": "08",
+      "name": "swan_multiscale_attention_development1",
+      "role": "多尺度融合学习",
+      "purpose": "融合S6、S12和事件子图分数，比较普通门控、可信度特征、高分负例和注意力。",
+      "state": "有开发信号；注意力额外稳定增益未建立，最坏条件工作点仍有代价。",
+      "source": "experiments/swan_multiscale_attention_development1/ablation1/REPORT.md",
+      "index": 181
+    },
+    {
+      "group": "09",
+      "name": "semantic_sequence_stage1_design1",
+      "role": "语义符号与序列设计",
+      "purpose": "把24模板划为ABCD四类，每篇写8个符号，单独检验频数之外的顺序信息。",
+      "state": "冻结字典与读出对象；方案不是可靠解码结果。",
+      "source": "experiments/semantic_sequence_stage1_design1/PROTOCOL.md",
+      "index": 182
+    },
+    {
+      "group": "09",
+      "name": "semantic_sequence_stage1_run2",
+      "role": "初轮符号读出执行",
+      "purpose": "先用旧缓存查四类信号，再生成新文本、审查parser对齐并做transfer诊断。",
+      "state": "432请求完成，但目标结构实现差；有高分不等于符号读对。",
+      "source": "experiments/semantic_sequence_stage1_run2/CURRENT_DIAGNOSTIC_STATUS.md",
+      "index": 183
+    },
+    {
+      "group": "09",
+      "name": "semantic_sequence_cycle1",
+      "role": "写入读回修复pilot",
+      "purpose": "修正未知节点、姓名和语气合同，先过写入→解析必要门。",
+      "state": "16/24低于20/24，No-Go；剩余大样本与后置步骤未执行。",
+      "source": "experiments/semantic_sequence_cycle1/FINAL_REPORT.md",
+      "index": 184
+    },
+    {
+      "group": "09",
+      "name": "semantic_sequence_cycle2",
+      "role": "第二轮写入与盲定位诊断",
+      "purpose": "进一步修复合同，并比较完整AMR、事件子图和embedding的符号与定位读回。",
+      "state": "19/24仍No-Go；五execution主要是工程恢复，18/18诊断已完成。",
+      "source": "experiments/semantic_sequence_cycle2/execution5/FINAL_REPORT.md",
+      "index": 185
+    },
+    {
+      "group": "09",
+      "name": "semantic_sequence_readout1",
+      "role": "独立读出与顺序复盘",
+      "purpose": "在12对新文本上分开测语义写入、已知位置符号、盲定位和2520等频顺序。",
+      "state": "W原句/复述BA39.58%/32.29%；软顺序胜率77.48%，可靠解码未实现。",
+      "source": "experiments/semantic_sequence_readout1/FINAL_REPORT.md",
+      "index": 186
+    },
+    {
+      "group": "10",
+      "name": "literature_novelty_audit1",
+      "role": "创新性审计",
+      "purpose": "查句界攻击、重分句和防御是否已有工作，决定剩余论文增量。",
+      "state": "收窄到SWAN系统审计；旧机制表述以之后纠正为准。",
+      "source": "experiments/literature_novelty_audit1/report.md",
+      "index": 187
+    },
+    {
+      "group": "10",
+      "name": "unitization_go_no_go1",
+      "role": "广义课题立项审计",
+      "purpose": "评估把SWAN现象扩成普遍unitization漏洞是否足够新。",
+      "state": "广义主线No-Go，仅保留精确认证条件方向。",
+      "source": "experiments/unitization_go_no_go1/UNITIZATION_GO_NO_GO.md",
+      "index": 188
+    },
+    {
+      "group": "10",
+      "name": "swan_reframing1",
+      "role": "主张、术语与冻结纠偏",
+      "purpose": "保留原件和SHA，修正AMR对象、质量来源、机制归因与Branch C边界。",
+      "state": "证据治理目录，不是一次新模型实验。",
+      "source": "experiments/swan_reframing1/BRANCH_C_SYSTEM_AUDIT.md",
+      "index": 189
+    },
+    {
+      "group": "10",
+      "name": "research_direction_reconciliation_20261002",
+      "role": "证据流归位",
+      "purpose": "决定SWAN与certificate怎样进入同一稿件，同时保持系统主张独立。",
+      "state": "旧v18终止，不建v19；统一投稿不等于互相补证。",
+      "source": "experiments/research_direction_reconciliation_20261002/DECISION.md",
+      "index": 190
+    },
+    {
+      "group": "10",
+      "name": "swan_branch_c_submission_readiness_20261002",
+      "role": "投稿就绪与制品审计",
+      "purpose": "检查稿件主张、复现材料和公开包是否符合实际证据边界。",
+      "state": "TMLR统一稿准备Go，主会立即投稿No-Go；不是外部提交记录。",
+      "source": "experiments/swan_branch_c_submission_readiness_20261002/SUBMISSION_DECISION.md",
+      "index": 191
+    },
+    {
+      "group": "10",
+      "name": "swan_branch_c_final_literature_refresh_20261002",
+      "role": "投稿前文献与稿件资产",
+      "purpose": "保存唯一一次文献刷新、venue裁决和TMLR稿件制品。",
+      "state": "TMLR被选为目标；这个目录的出现不证明已经投稿。",
+      "source": "experiments/swan_branch_c_final_literature_refresh_20261002/VENUE_DECISION.md",
+      "index": 192
+    },
+    {
+      "group": "10",
+      "name": "baseline_comparison",
+      "role": "历史方法对照汇总",
+      "purpose": "把已有baseline与攻击的分数、逃逸和AUROC放到同一张汇总图。",
+      "state": "再分析资产，不是重新生成和检测的独立实验。",
+      "source": "experiments/baseline_comparison/baseline_comparison.json",
+      "index": 193
+    },
+    {
+      "group": "10",
+      "name": "best_observed_frontier",
+      "role": "历史最佳观察汇总",
+      "purpose": "分别记录严格有效率、稳定性支持和原始低分的最好观察值。",
+      "state": "不同质量与预算口径不能合成一个全局最优结论。",
+      "source": "experiments/best_observed_frontier/best_observed_frontier.json",
+      "index": 194
+    },
+    {
+      "group": "10",
+      "name": "archive_20260725",
+      "role": "旧资产归档",
+      "purpose": "保存早期结果压缩包与manifest，供复查原始证据。",
+      "state": "归档目录，不是实验。",
+      "source": "experiments/archive_20260725/manifest.json",
+      "index": 195
+    },
+    {
+      "group": "10",
+      "name": "report_assets",
+      "role": "历史图表资产",
+      "purpose": "保存攻击率和AUROC等叙事配图。",
+      "state": "图表输出目录，不是独立数据采集。",
+      "source": "experiments/report_assets/attack_rates.png",
+      "index": 196
+    }
+  ],
+  "sources": [
+    {
+      "path": "V2.md",
+      "sha256": "b6caa524dbf782e5226bae367d8b12646f802ea44512bae25cbee948630a515e"
+    },
+    {
+      "path": "experiments/api_full_paragraphs/meta.json",
+      "sha256": "de57502fcfd76589302c5d43c642f83e1f017ba6f7f06adbcbcf550715dd3d14"
+    },
+    {
+      "path": "experiments/api_natural_paragraph30/meta.json",
+      "sha256": "4ca2adb9849d6bd69d3b8a8bfc9d9d5ffecd5a9b70fad77d9d31cdce4c0914c3"
+    },
+    {
+      "path": "experiments/archive_20260725/manifest.json",
+      "sha256": "0db0a3380e6a163da3d945ebb165dfe411443c359dcdde1c3cfc43536ab29267"
+    },
+    {
+      "path": "experiments/baseline_comparison/baseline_comparison.json",
+      "sha256": "9943f1767d8aae7d53d4f348ade3dbfb9283ed24d5c40354bf63427488d016b8"
+    },
+    {
+      "path": "experiments/best_observed_frontier/best_observed_frontier.json",
+      "sha256": "5e58427047aaa49e516017ecf9ef2260054bb86167fb37aaf6eae6b1505cb057"
+    },
+    {
+      "path": "experiments/candidate_budget16_pilot30/feedback_driven_strict30/assistant_audit.json",
+      "sha256": "edf34023ec1d5920c5fb4deed220212bcee6c7b9220d77de57201e098ca2f489"
+    },
+    {
+      "path": "experiments/candidate_budget16_pilot30/final_30_assistant_audit.json",
+      "sha256": "ec522f0dfd6733e1ca4c86aced60183736ce30dcd353ae2948b839a365b74779"
+    },
+    {
+      "path": "experiments/certified_resegmentation_calibration_preflight1/audit_results.json",
+      "sha256": "1cbf7a1646966cd5050c6a385c5619ad0da1d9efd86738bde84ff083ea83f143"
+    },
+    {
+      "path": "experiments/certified_resegmentation_interface_audit1/INTERFACE_AUDIT.md",
+      "sha256": "5d6f2171494dd10b6abb10a01fafc99d7d1d082e92803aac78483effc41abc15"
+    },
+    {
+      "path": "experiments/certified_resegmentation_pairwise_preflight1/audit_results.json",
+      "sha256": "a584f089f32b8032ef28ddd6b9a38ae0cb474ce52e1657961d0e39083d056862"
+    },
+    {
+      "path": "experiments/certified_resegmentation_preflight1/audit_results.json",
+      "sha256": "9d7ced86619d91df93789b221ebeb2945419e66f5b77ed02beee13bb4e004f64"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_adapter_preflight1/audit_results.json",
+      "sha256": "4f45a184b33109b7ac2fead2552fc70e02ee1bcbfeb9b4b64b1e58e81372d4da"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_adapter_scale1/audit_results.json",
+      "sha256": "5fd234e1007551e5b73d7f70dcdaba637f8bfd352bb3cbf57845512312d2b2ae"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_eligibility1/CONCLUSION.md",
+      "sha256": "4277754f1ab8b66d50035171bf5218448b382edcc908133ca923576d941e9a10"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_execution1/CONCLUSION.md",
+      "sha256": "17aa9147e986d70d9625ddc5bd9ec376a629397cca331519ad6b15bb2154a476"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_readiness1/PROTOCOL.md",
+      "sha256": "9e3017c1d6645452d232d191ec95e3b127c1ba7d31d1082a7793d9347b08d2ec"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v13_offline_preparation1/PLAN.md",
+      "sha256": "ed29264cab99920730c60021e47bf364bd6dd383d2e4d9b7d120aa1a3c846e97"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v13_semstamp_generation1/RUNTIME_STOP.md",
+      "sha256": "e40088aa79d0c89914967c48a825a48395fbf4569a10920c4da987d9352c9c2b"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v14_bounded_generation1/RUNTIME_STOP.md",
+      "sha256": "fe9b88c056dd00c5b9855626caf3e28e1ad67db1c42f1c237c04388791750fdf"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v15_causal_prefix1/H0_STOP.md",
+      "sha256": "9ce4c0957d4dccd7fa118a59dd7c3a94a09b7dde3cfd0b5bbf934d793cfcc590"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v16_prompt_only_rescue1/H0_RESULT.json",
+      "sha256": "9fa13f542414a29734b367d0e73a04675ad212e8980aa7b1fafdc00468cdf5b4"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v17_b0_detector_health1/B0_RESULT.json",
+      "sha256": "c17a382d6946fe93e09df34f420b2ff07a9ccc9daad184b55c71d23118cf9e9e"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v18_b1_exact_certificate1/B1_GATE_RESULT.json",
+      "sha256": "268437451738d258c6f0bc7f9e772b0f34f083a3eeea42b3663044311bba12df"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v2_design1/CONCLUSION.md",
+      "sha256": "6fc70eec40deada9dd49270413f08523947459343fe83244cb64e6a55d68296b"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v3_readiness1/CONCLUSION.md",
+      "sha256": "8f6c8f56054fe3e937d704f2f4ba21aa423cecc2135aed76e05df8a572395c7e"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v4_sparse1/CONCLUSION.md",
+      "sha256": "0c5372562f2ca62a63104be3165adc9563bfb11cd2b7f3ecf7f0ccb4669341b9"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v5_scorer1/CONCLUSION.md",
+      "sha256": "8c925944a4613732e67435ed3559df28d591260247eaaaaa4308829dda57a2ba"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v6_feature1/CONCLUSION.md",
+      "sha256": "454bdf5d56c1b5b6c09586d815893b5906c438ba94354eb39cbc6a23cbe41540"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v7_throughput1/CONCLUSION.md",
+      "sha256": "82ea06e796e91a7bac7ec7b659fc4974d5ea1aae54456f1f61fe119af3a78b9c"
+    },
+    {
+      "path": "experiments/certified_resegmentation_wp2_v8_global_reuse1/CONCLUSION.md",
+      "sha256": "0549a0e7af874de0bfed14e2a512a9c91411da77359e67de130e1e3a566a6ae4"
+    },
+    {
+      "path": "experiments/confirmation_mechanism30/summary.json",
+      "sha256": "ce4772da0f0d4225d485a76105995676b423d944a99e5bb4c7f3a03e90e5b3bf"
+    },
+    {
+      "path": "experiments/defense_aggregation/report.md",
+      "sha256": "10f3717c1ff664c31a7e9bceb72e9fedb85705cb8d8f79e12962a94e14479585"
+    },
+    {
+      "path": "experiments/e1_invariance/report.md",
+      "sha256": "eaae5aed77fdff9afb5562aea39105655177d3111794b3634f6326151dcac134"
+    },
+    {
+      "path": "experiments/e2_attack_pilot/report.md",
+      "sha256": "2322a38ada2afca51b404ca03a29fd03a049d5ad8362161fea84f87adc9549ca"
+    },
+    {
+      "path": "experiments/e3_main/report.md",
+      "sha256": "1e1fe25301b6d231935d8ad1d568bfefa6a20c0d5fe94e316e1679c0d96a2597"
+    },
+    {
+      "path": "experiments/e4_ablation/candidates.json",
+      "sha256": "5d8e04aab6730de4a20d2733d33f3c80efff0a8a293c23debf54c9bb7d6c7d23"
+    },
+    {
+      "path": "experiments/e5_transfer/report.md",
+      "sha256": "311cdc33d16abd030ed1f19057cb7d0447795d9765bde0ae0c996d3eac4a6695"
+    },
+    {
+      "path": "experiments/feedback2_diagnostics/report.md",
+      "sha256": "db365cdc714e50d31981572046728e5e54540bd930872e08e6954cbafbea3446"
+    },
+    {
+      "path": "experiments/grounded_generation3/report.md",
+      "sha256": "30db472f20f641b2722b409065ff46329d82ac25d1efcc38b7a2740ded26a951"
+    },
+    {
+      "path": "experiments/grounded_injection5/report.md",
+      "sha256": "dd56b89ba3c1c2c891c1b8ecae404940d7ec7bbd54b6d6e099f4c7f7f3982a3f"
+    },
+    {
+      "path": "experiments/literature_novelty_audit1/report.md",
+      "sha256": "f20a36b77357a7754dc7b541377e0672a6b9dfa016264a624238afda7d297c3b"
+    },
+    {
+      "path": "experiments/mechanism_e2_amr/report.md",
+      "sha256": "70d5761ae17510c8865da406706862039cd8f5dfc04a57186c80fbe23e90bb99"
+    },
+    {
+      "path": "experiments/mechanism_sentence_boundary/report.md",
+      "sha256": "c80cf78cd084e3d10d165e39ddf48b630db448ff437821de1d2dd54630f28a83"
+    },
+    {
+      "path": "experiments/milestone_a/report.md",
+      "sha256": "53c144038c7d7945979210bc094e2020aedaa333940721f5d97fec36339aa2a4"
+    },
+    {
+      "path": "experiments/parser_repeatability30/report.md",
+      "sha256": "946ccb3ae90acdbb747368aa7403c367e5f9f3d706b84416978910b7c3394c62"
+    },
+    {
+      "path": "experiments/planB_b0/b0_roundtrip.json",
+      "sha256": "739accfdd9a050205834f5d6d2b9fa9d63f0e12b8acb3e4a87c549224d669045"
+    },
+    {
+      "path": "experiments/planB_b1/report.md",
+      "sha256": "ed5c33c2776e698f4e1c1cf44265fbb486d8ae6ba1cba6a3cb7f5013a67e223a"
+    },
+    {
+      "path": "experiments/planB_b2_node50/transform.json",
+      "sha256": "1927387e043b1497dd28009f01d4af847ddaa25f450f6095ba57fb2c12f6f98e"
+    },
+    {
+      "path": "experiments/planB_b3_combo50/transform.json",
+      "sha256": "201b693910f884ec9115970a2e2d115e7887cc68bc5e511eee59c6b8e928ef18"
+    },
+    {
+      "path": "experiments/planE_e1_roundtrip/report.md",
+      "sha256": "63b025bdf1dcf13f761c6690655f62ba8db6693c3d065ba638206575e81149eb"
+    },
+    {
+      "path": "experiments/planE_e2_joint100/quality_checks.json",
+      "sha256": "1e66cdd332c80cc079818cf1b9a5a5e45598771fe131acbe72a9c4ae399c65bb"
+    },
+    {
+      "path": "experiments/planE_e2_joint30/report.md",
+      "sha256": "08e87c1ab7e5449d85600eabcdee42bcf89cc890f732e3a6d323f866a1c0c8a2"
+    },
+    {
+      "path": "experiments/planE_e3_combo30/strict_valid.json",
+      "sha256": "8f6fab1d1ef6345993cf4f60cf12871af3e176c36ae50fec81f907b447f3be3f"
+    },
+    {
+      "path": "experiments/planE_transfer_strict30/results.json",
+      "sha256": "2f8b2f31e481989538d9aed66de9e9d9dde718e2d25fc1bd8d37dc5b19c4b9d6"
+    },
+    {
+      "path": "experiments/prompt_component_ablation30/report.md",
+      "sha256": "13ccaa3ec552b99d289e10052e4bcf194db3adb001f3e316567ab6b0e9fa9aff"
+    },
+    {
+      "path": "experiments/report_assets/attack_rates.png",
+      "sha256": "beb892367ea7c467e378b02b4ac8060128da62eeeb2aa3b9945172da7a993519"
+    },
+    {
+      "path": "experiments/research_direction_reconciliation_20261002/DECISION.md",
+      "sha256": "2e9f6dfbaef70174c948c5ceebda598a852dcfb4440ccd76a76d58a774521158"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle1/FINAL_REPORT.md",
+      "sha256": "343b4cfb1f1367d740f840e8fce8d3c9530d9242f8678543bc1d429ebdd618fa"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle2/REPORT.md",
+      "sha256": "91375e45c1029a390160479f1ab3d793869deb057aa2340b4d164547c9c2b2d3"
+    },
+    {
+      "path": "experiments/semantic_sequence_cycle2/execution5/FINAL_REPORT.md",
+      "sha256": "a325a0fb6006f7f53583df29be0155530ec5b4c644b8f2cf80d0ffc1d22a5aaa"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/FINAL_REPORT.md",
+      "sha256": "575c62e020b0245d1be4b283e8872c15dd269b17fd479cc0672b3c8460dd5dfd"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/HUMAN_REVIEW_STATUS.json",
+      "sha256": "5a1a5a2bea46df87cbe7c686422d734a59aa25c8afcb3d80b69168dd98ce0738"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_design1/PROTOCOL.md",
+      "sha256": "906231877fe40d2a11f99aeeed1cbb60ed74a047ecdbb83acf8c37e20db75f6d"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_run2/CURRENT_DIAGNOSTIC_STATUS.md",
+      "sha256": "f4ea0cc5e83b007baa7b2e35b83788555ca89273b8b87c0ee08281beedede7a2"
+    },
+    {
+      "path": "experiments/semantic_watermark_defense_plan_20261007/PLAN.md",
+      "sha256": "bc7e50f586d15887498aff9c624c470b94ad24085ba0d4a6670d90084d70bce0"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v1_wp2_algorithm1/RESULT.json",
+      "sha256": "581bdd0f7c553e4d728f00656cdccaa0bdb4fa0f139f857a05d31fe14bca1114"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v1_wp3_detector_health1/AUDIT.json",
+      "sha256": "d5a84316c79a1dc3a9a9a0733f9fa8f414f8f2a6b071f0a2e7804fdfd1ac1e42"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v2_wp1_threat_model1/AUDIT.json",
+      "sha256": "64a8f9b40004be193ed4d2130a2e4284ab507d292c02bdb698070db0e1063084"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v2_wp2_algorithm1/RESULT.json",
+      "sha256": "bc36969f6c482c68d89895dc059c27b6a74f3ff828af8f8c11919f3d1ec98c46"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v2_wp3_detector_full_replay_design1/FINAL_RESULT.json",
+      "sha256": "b51733c497713389ca91c7e14b4313f44c9ae94d19e40d5be88e9292be0a0951"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v2_wp3_detector_health1/FINAL_RESULT.json",
+      "sha256": "6a03448655d0084fe5e55505490c9018dedf79c66609dfd504183eeea9c3d6fe"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v2_wp3_detector_smoke_attempt0/ATTEMPT_RESULT.json",
+      "sha256": "21c84fcb93bde6884c7abb93e8775ffa39330207531eccd61c6fd7163a4e3cf8"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v2_wp3_detector_smoke_design1/FINAL_RESULT.json",
+      "sha256": "64e509330781183057c7c479dacc3ae5862a39923f18dbfa3401c53236baa637"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v2_wp4_resource_preflight_correction1/CORRECTIVE_RESULT.json",
+      "sha256": "1b7458ab1cee8317b3afe1d0c186804527e962625c536d57aada865b21971db1"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v2_wp4_resource_preflight_design1/DESIGN_RESULT.json",
+      "sha256": "348fd7e81fecfe8c4b1d9246fb002e134d6fb6ce14bdd15831b16b3d61ffc929"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp2_compiled_core1/PROTOCOL.md",
+      "sha256": "07243923d41981b86a3c2412e1bddf48a4c7357a5cb8d023dcaac80c2da8ec7f"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp2_compiled_core_scale2/AUDIT.json",
+      "sha256": "ad7b3f281510fc0470e692855829c2c0cbe23de377a5a392570d649122fdb2f1"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp2_throughput1/THROUGHPUT_RESULT.json",
+      "sha256": "0d09365a5cd9a0231fb90b9e8c4bc0b1c6078a7caf680211347c93f919d9857c"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROFILE_RESULT.json",
+      "sha256": "2bb7641d59e0e6838150be3783bad0dafc0680074d03ee45e3d1246e47378074"
+    },
+    {
+      "path": "experiments/swan_accepted_baseline_preflight1/detection.json",
+      "sha256": "1eea9239ad827d89ce3ccfe12f894fb72220fd9c7256fcdcf1dcc7357067c709"
+    },
+    {
+      "path": "experiments/swan_accepted_boundary_preflight1/detection.json",
+      "sha256": "d712cbae8545e18e6d7ab625f7e82ae8dcfd6ee10ae9c33db0cfdde2df560589"
+    },
+    {
+      "path": "experiments/swan_amr_composition_decomposition1/report.md",
+      "sha256": "364b4cfbeaa9ae11543b051a282c922dab829ddaa582722f18e396b5be004bb7"
+    },
+    {
+      "path": "experiments/swan_amr_precision_recall1/report.md",
+      "sha256": "aa70bed41ce83f4c82f274b0b598b3959334ab7046f7d7079d1306218530f51d"
+    },
+    {
+      "path": "experiments/swan_anchor_stability1/REPORT.md",
+      "sha256": "0340e7b4515ba1f52274d3d5f260fe7130d435a33cba4acec1696406baea12d6"
+    },
+    {
+      "path": "experiments/swan_atomic_fact_preflight1/report.md",
+      "sha256": "44810482428d38ab26dfd25dd71df2bda54c494aeb3041e4651cee3d554232ce"
+    },
+    {
+      "path": "experiments/swan_b1_family_units1/REPORT.md",
+      "sha256": "d4508ad3cbf6ef0159d84face7fbcd33cdc575b0484d566cd1ff291f3a84a860"
+    },
+    {
+      "path": "experiments/swan_b1b_statistic_power1/REPORT.md",
+      "sha256": "e681e5ee505c1f5203b52f0a7c0279ff808182c7a0a085d3319dcd2ab2e691b4"
+    },
+    {
+      "path": "experiments/swan_bank100_microfact_null1/report.md",
+      "sha256": "3c2938b2c114bcdf1ab7c2650fd74e1be7afbc42834f502582dccdfb7fd5c9ea"
+    },
+    {
+      "path": "experiments/swan_bank100_null_calibration1/report.md",
+      "sha256": "b658fbccda4ab87c109dfa2124ab9699f2e9bab42ed902bec29238cdb2aeb8c2"
+    },
+    {
+      "path": "experiments/swan_bank_scale_pilot1/report.md",
+      "sha256": "2a6b9334f58042f325cbf73fd116c9c819eb7748a0cfde64927e06577540ae84"
+    },
+    {
+      "path": "experiments/swan_branch_c_final_literature_refresh_20261002/VENUE_DECISION.md",
+      "sha256": "6b3d43a3d6341afb7ffce950381489333295bf6ae78f550c63c693bec252747f"
+    },
+    {
+      "path": "experiments/swan_branch_c_submission_readiness_20261002/SUBMISSION_DECISION.md",
+      "sha256": "3222cfef29c678e3b53bf439cf44e6da0a99e323896bc8e24dcf7379c968180c"
+    },
+    {
+      "path": "experiments/swan_c4_train_narrative_windows3/report.md",
+      "sha256": "1ec8837feea859d93ee8f5aff455586733f3d1c586c2e2659c4dc4e1a5cbc03f"
+    },
+    {
+      "path": "experiments/swan_coherent_baseline1/protocol.md",
+      "sha256": "693194fc4126956ebaf97cb93e1e25dddd8874fcbc3c1798c955759d87d83367"
+    },
+    {
+      "path": "experiments/swan_coherent_baseline_cached1/CONCLUSION.md",
+      "sha256": "a3421d6ca4be36d117e123c206a3adf0d1911d3590ece12149ec413785071b66"
+    },
+    {
+      "path": "experiments/swan_coherent_injection_pilot1/result.json",
+      "sha256": "1cafd7b20e811c91c9de5d49cfbe0058d2928935dea4a193b832fe3807dad329"
+    },
+    {
+      "path": "experiments/swan_coherent_injection_pilot2/result.json",
+      "sha256": "b7d699f39b8521c1a16f7afe181b7881a6cfa0a88b25cbf0f420c14a1d41bde0"
+    },
+    {
+      "path": "experiments/swan_coherent_injection_pilot3/result.json",
+      "sha256": "87375f9abf61b17e6cdb879306a4c914945e290acba89c59a9ed1b67a5ecb564"
+    },
+    {
+      "path": "experiments/swan_coherent_injection_pilot4/result.json",
+      "sha256": "93bf967c20b4fb73fe5b425d50748ed23d9480ecbcfa04bf12b9c3e3e19e8ad8"
+    },
+    {
+      "path": "experiments/swan_constrained_microfact1/report.md",
+      "sha256": "2f41ca025fee278ec5cc70754d3c01db42b463b77e0feb037662aa8837517d75"
+    },
+    {
+      "path": "experiments/swan_count_neutral_boundary1/report.md",
+      "sha256": "e6d8957e108d3e5df859cc8462978789722d36702a3547bd4e05e798a934dcbd"
+    },
+    {
+      "path": "experiments/swan_count_neutral_confirmation1/protocol.md",
+      "sha256": "7137a9129e77ea8cdf074109e847a6e0e52899fdf193e54c6e330d524eb7619e"
+    },
+    {
+      "path": "experiments/swan_count_neutral_final1/PILOT_CONCLUSION.md",
+      "sha256": "f8165f74bc76405daa6f0e0679752c1371a19d8e66223f01d93ec9f27c3cfe25"
+    },
+    {
+      "path": "experiments/swan_deepseek_span_compiler1/report.md",
+      "sha256": "57b2e65adf7955626032be967457e92fd5296c8238798db001ce55c248a00f62"
+    },
+    {
+      "path": "experiments/swan_dependency_pruner1/terminal_report.md",
+      "sha256": "cc3ff0739172a63ce30350197381f25841e468e135da10e544e61db2e48bf55a"
+    },
+    {
+      "path": "experiments/swan_elastic_bank_null_smoke1/REPORT.md",
+      "sha256": "83b0a0472068e8b14d20ea841bc79a4e9ed61ca61476a60833ce9598da3d1064"
+    },
+    {
+      "path": "experiments/swan_elastic_formal_null1/results/REPORT.md",
+      "sha256": "3c9d69be154643566c59a82c56bd1a54831b5e90c0dce321e2db16a7beb3df00"
+    },
+    {
+      "path": "experiments/swan_elastic_formal_smoke1/INPUT_MANIFEST.json",
+      "sha256": "65107d0b2e801ccd72e48279a385f02d1c149a8cbdfb04fd3ea855afe52ddafa"
+    },
+    {
+      "path": "experiments/swan_elastic_length_boundary1/STOP.json",
+      "sha256": "521e915c8f49fb392b719d7303fc56b6e7ded7f9b53bad9d62241701e3feaff0"
+    },
+    {
+      "path": "experiments/swan_elastic_length_boundary_audited2/DECISION.md",
+      "sha256": "f84896886f51934259ce62d09917ea1bd7349d3a2dc13150fb55e8a5937418d3"
+    },
+    {
+      "path": "experiments/swan_elastic_positive_attack1/results/REPORT.md",
+      "sha256": "b8b4928a9a1e0e974a99e9370d4e01c2a3efdd8a5ebaa28fa4b05f40e9cbcebd"
+    },
+    {
+      "path": "experiments/swan_elastic_v2_development1/PARTIAL_STOP.json",
+      "sha256": "3b374a9f91bbdad5969e0ed961073ad03a45a2a58e412840fb409b0ac8d125af"
+    },
+    {
+      "path": "experiments/swan_elastic_v2_preflight1/DECISION.md",
+      "sha256": "c7b87ca9faec9c5101aedb99d4159d4b6cb2848871d8208e0a7e3e56ee1a8325"
+    },
+    {
+      "path": "experiments/swan_elastic_v3_development1/DECISION.md",
+      "sha256": "1c4aa5c69f2d550736f0eeaa0c90a192c0f1bce13eabe235a26dc42a3f864e75"
+    },
+    {
+      "path": "experiments/swan_elastic_v3_preflight1/DECISION.md",
+      "sha256": "ddd956079432b08669b35d270453afc4be0412da01545f87fe1bb9aecaba7c4c"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_development1/DECISION.md",
+      "sha256": "6ef1fe03282045e0bebef6b0439798690318a6dd395f35d4db5e5fc488ac99e9"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_mechanism1/REPORT.md",
+      "sha256": "162ed6191e741a3a5cfaa71da51c23b30362f52c5a2e76b6a51c7458f8e52f25"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_p2_audit1/REPORT.md",
+      "sha256": "15ebd7011f6af8eddbc880378ee3e63652d1f4aa49bfd751da1dcde5559415d8"
+    },
+    {
+      "path": "experiments/swan_elastic_v4_p2_formal/RESULT.json",
+      "sha256": "14a3d2784f6cbf67d2327c4bf088eb57b06d9a18aa68e64446e2f937b288e539"
+    },
+    {
+      "path": "experiments/swan_final_confirmation1/protocol.md",
+      "sha256": "2e8fee7060a51c788e62b1dafe6e454c08b1a5864a646edf242de75a7e4c8203"
+    },
+    {
+      "path": "experiments/swan_fusion_audit1/REPORT.md",
+      "sha256": "b785845f58e2f6cca1b8f6b849e0e9f9d1b39ccbd7b613bb134bcfb776f5af5b"
+    },
+    {
+      "path": "experiments/swan_generator_comparison1/report.md",
+      "sha256": "89474e1f6a88aced3b3ff718850525ccc07e81b0a69ff3492deb2e0f31afe7e9"
+    },
+    {
+      "path": "experiments/swan_injection_only_baseline1/detection.json",
+      "sha256": "19d1e6fc50e379fc46426face96186ecf397b651189c94ff0cacd2c53a3edd07"
+    },
+    {
+      "path": "experiments/swan_injection_only_pilot1/result.json",
+      "sha256": "cb481c602074756928abcd7e84ad2bdb815b95852e18b354096a14cd56563f2a"
+    },
+    {
+      "path": "experiments/swan_known_positive1/report.md",
+      "sha256": "c0de3a48d67753145147861c05957fef1749c5a4f3635213c72c1c09eb442dbb"
+    },
+    {
+      "path": "experiments/swan_length_gate_tradeoff1/report.md",
+      "sha256": "1a93783c7cef0c3588424a26a9103ad968f5551b8db0c178b263c3ead699c68a"
+    },
+    {
+      "path": "experiments/swan_length_probe/summary.json",
+      "sha256": "3c603217298ab933c0e9945fb7920f9f1c1b175a3a548b9574b27be31d101bb0"
+    },
+    {
+      "path": "experiments/swan_length_probe_v2/report.md",
+      "sha256": "68d5cb199e04944dfad0eb0ecbc1e13275086913a71e944815f66ba86a63bd06"
+    },
+    {
+      "path": "experiments/swan_local_multi_instance1/report.md",
+      "sha256": "b35f319f515d10e25f72262080840dae86b2b21bc9bbb6b578f7969d44e01870"
+    },
+    {
+      "path": "experiments/swan_local_multi_instance2/report.md",
+      "sha256": "b35f319f515d10e25f72262080840dae86b2b21bc9bbb6b578f7969d44e01870"
+    },
+    {
+      "path": "experiments/swan_microfact_generation1/report.md",
+      "sha256": "a602ae19d5c482d2c026362f5ac29fbed36d982877be69ffb6499328b401a963"
+    },
+    {
+      "path": "experiments/swan_microfact_sequential2/report.md",
+      "sha256": "00207af7378915ebe205ede6246d023f189580d74a76ce6b998ff63d041ac4d8"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/ablation1/REPORT.md",
+      "sha256": "0e282aa43c42fd53febdd39d14ef864bc3de8ab5cde244880ea512d10db739cf"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/family_hard1/REPORT.md",
+      "sha256": "c0e7f7dbf49f66c156f2d560b3df1d8c010d219f4160272d2754e088442f9d39"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/operating_points1/REPORT.md",
+      "sha256": "1226c54b1e22b72e04e8fd45000843c31d502b454b6a0cfae1cf016fd81c2ec9"
+    },
+    {
+      "path": "experiments/swan_multiview_development1/FINAL_ROUND_PLAN.md",
+      "sha256": "84c96aa5037e714106ace2efbdefa5941969136ea16dd437516ba3680f0c947b"
+    },
+    {
+      "path": "experiments/swan_natural_mixed_windows1/report.md",
+      "sha256": "54fe37a7c639d723271292ae0431e4b055e29be6773d8f1bec97a7f310bf9715"
+    },
+    {
+      "path": "experiments/swan_natural_narrative_windows2/report.md",
+      "sha256": "0e3576b8e687ab3a16bfa6e971900603087da1e53f157ed7ef037e9cffe0dcdb"
+    },
+    {
+      "path": "experiments/swan_normal_length_coherent_baseline1/CONCLUSION.md",
+      "sha256": "64ce86eb12d2ee1433118c5285ee7f4470108d8d522ca8bd4ae40f764a27a548"
+    },
+    {
+      "path": "experiments/swan_normal_length_coherent_pilot1/result.json",
+      "sha256": "d71fe9a9946c1c4feff85ef49122267b5a1f1c724294c1b35b1a45b30d042587"
+    },
+    {
+      "path": "experiments/swan_normal_length_feasibility2/RUNTIME_HALT.md",
+      "sha256": "b3388edaceae9e999812844381133d0fbc7a53a04f413aac3e440fa523f0e849"
+    },
+    {
+      "path": "experiments/swan_onepass_control1/report.md",
+      "sha256": "1ff7accdfe3d70c269dc1d0498a84c5d69218a48b0b97fab97b55a4bc3832a16"
+    },
+    {
+      "path": "experiments/swan_oracle_composition1/report.md",
+      "sha256": "11da2df13e412aa361e86c6db496755bcefc907a6d3651f762ad2bbcb8ad2a04"
+    },
+    {
+      "path": "experiments/swan_partial_coverage_power1/report.md",
+      "sha256": "59b0e78a8261478c38cebf54c4c1a86410527bfa4753bd30bd4e605f0e0348cf"
+    },
+    {
+      "path": "experiments/swan_positive_asset_audit1/report.md",
+      "sha256": "ba70f0c0faa652db3e578c950245d0e3165b1adbfb78c899cba41a9405df32d3"
+    },
+    {
+      "path": "experiments/swan_positive_collection1/execution_readiness_report_v3.md",
+      "sha256": "fb2b59f5e7ddd6ddf68a7daeb73eefb164ab9cd53d4b4b66a8b6226b9063550e"
+    },
+    {
+      "path": "experiments/swan_positive_deepseek_confirmation1/pilot_terminal_report.md",
+      "sha256": "7d4bc66341d58e8962eea5462c3827c2af834fc4863ac6f155cf8de101cc2477"
+    },
+    {
+      "path": "experiments/swan_positive_deepseek_length_confirmation2/pilot_operational_stop_report.md",
+      "sha256": "c1226ce697ea03f6302ec6992f784c2fa1734cd3e25590139b138a9ac350726d"
+    },
+    {
+      "path": "experiments/swan_positive_deepseek_preflight1/report.md",
+      "sha256": "6e01fc74b4d75642221176c6f80d7c79d46f2802ae01f9f48d6aacbb7173909d"
+    },
+    {
+      "path": "experiments/swan_positive_local_qwen_preflight1/report.md",
+      "sha256": "e5befb45e48e004ccb6631564399c30cc0d0688e30cbd29e160ac8c880c7b7ab"
+    },
+    {
+      "path": "experiments/swan_quality_first_windows4/report.md",
+      "sha256": "bd35217b0dc2e29cb323967476986a7da27222afaaa2400ab7211d86656f2a94"
+    },
+    {
+      "path": "experiments/swan_reframing1/BRANCH_C_SYSTEM_AUDIT.md",
+      "sha256": "f55f8763bbf6f08f6e5c1719d3a81e968f939c0dd0055bc3afc4d580147ef574"
+    },
+    {
+      "path": "experiments/swan_reframing1/decision_log.md",
+      "sha256": "e47a6952907cc75e59bbef1a01b95f7bd7f6985d2e391c84be24194c7e55af17"
+    },
+    {
+      "path": "experiments/swan_relation_motif1/report.md",
+      "sha256": "c8cfaf3f6a6d10e52e018e74f9a412b69acb858ca944a551ae7d76d84b2683ae"
+    },
+    {
+      "path": "experiments/swan_sentence_growth1/report.md",
+      "sha256": "336d576031c1b401e6a780a212edf4758e4ddc2bcd660caa32e5d7b9eb15f6a0"
+    },
+    {
+      "path": "experiments/swan_source_anchored1/PILOT_CONCLUSION.md",
+      "sha256": "26e895b97632bef7b684c4eac9aa2cba60c8b04f326ab4814d76e97d23432d89"
+    },
+    {
+      "path": "experiments/swan_splittable_positive_pilot1/protocol.md",
+      "sha256": "0a4b1ca476f7f8733f0bfed8c78f74e10f99c7247bcc4c30840b548c07330a5c"
+    },
+    {
+      "path": "experiments/swan_statistic_design1/DESIGN.md",
+      "sha256": "93331aa329890edf5d8cff727630b331fd02a3e059c1ed9295a084525a0dac70"
+    },
+    {
+      "path": "experiments/swan_statistic_feasibility1/REPORT.md",
+      "sha256": "6afe03dac66c8b14183e23d11bca522528a3bbec6812af54e41bf7d29fb38020"
+    },
+    {
+      "path": "experiments/swan_template_specificity1/report.md",
+      "sha256": "07f044c4ae26a9760ae5489a57e4e9bd820d2f55f0b1403f6b7101e2d770acf6"
+    },
+    {
+      "path": "experiments/swan_verdict_audit1/REPORT.md",
+      "sha256": "0df590ef9583941aa0e758ee04279a21f83e7849f064c4ea4f41650f76194537"
+    },
+    {
+      "path": "experiments/targeted_sentence_attack/report.md",
+      "sha256": "359c28cea81374301a7276478bfdcc5bc3faa2d7e8b1dedf0863d229b809f348"
+    },
+    {
+      "path": "experiments/targeted_sentence_controlled30/report.md",
+      "sha256": "e6fdc31fc877eb2ff97079673c980c8b8831c6c9229cbc3859ce74be2e308e16"
+    },
+    {
+      "path": "experiments/targeted_sentence_pilot30/validation.json",
+      "sha256": "dae14ad94e5f3f2ee9e2d455cee8fd1446ceeb20add09ac03ee9728b2b82ae3a"
+    },
+    {
+      "path": "experiments/unitization_go_no_go1/UNITIZATION_GO_NO_GO.md",
+      "sha256": "46331be161e6975423818d862559bcdb3fd2ec22194fa4641ff0d2a91dbfd05a"
+    },
+    {
+      "path": "scripts/prepare_api_natural223.py",
+      "sha256": "d8943276e7639585f3a5e0da31b12f3eaa8d1ce6019674487749949a3ec07e32"
+    },
+    {
+      "path": "scripts/run_api_joint_paragraph5.py",
+      "sha256": "9275d6272fffe56212bb1200f0eed059bd6bbdd07e9bf2279f5aa7ecfa143ffb"
+    },
+    {
+      "path": "scripts/run_api_joint_paragraph5b.py",
+      "sha256": "7274580a20eca9e1a7c8d0a47fd7dd13c20331fc649c66d239ca228a461f596b"
+    },
+    {
+      "path": "scripts/run_api_joint_strict5.py",
+      "sha256": "884d070be600346f3305247cb123e105d1be2b3b1e921e006acaf6fcd65027e7"
+    },
+    {
+      "path": "scripts/run_api_natural5.py",
+      "sha256": "69be7de588839637573d549f692e86e79e5935b39ad8c8688bb971336f7a4316"
+    },
+    {
+      "path": "scripts/run_api_natural_batch2.py",
+      "sha256": "a99d9e36960513f4bcac63bbc167fc1ceb11718f1a82b1efbf83a3806d70b8d6"
+    },
+    {
+      "path": "scripts/run_api_natural_batch3.py",
+      "sha256": "5d18233f894a65321a2d4684913dca92892a4849b981494f49fb538a2db46c83"
+    },
+    {
+      "path": "scripts/run_api_natural_batch4.py",
+      "sha256": "3d6ac6933853ef29ce3dc269ff5298da6c01b062fa2eabb43da7b608334bf72a"
+    },
+    {
+      "path": "scripts/run_api_natural_batch5.py",
+      "sha256": "c22052615e94989c2aba26b01789898304721d8250726fddfb8b057fafe6b776"
+    },
+    {
+      "path": "scripts/run_api_natural_batch6.py",
+      "sha256": "e053f4d0b3090219c0fe57da8e70ad5ea6449bfece2ee9905671b77d0c1b236c"
+    },
+    {
+      "path": "scripts/run_api_syntax30.py",
+      "sha256": "d800fc0c44d55090a741bf02b1804b252e745886796c47b0037b3bf90a8b71ff"
+    },
+    {
+      "path": "scripts/run_api_syntax5.py",
+      "sha256": "d4e95dd941ba954f99e531bf2fed6038bbe182f717698b7483833cf3b71283dd"
+    },
+    {
+      "path": "scripts/run_planb_b2_reattach50.py",
+      "sha256": "57adc3cfc1ca958c2a5cd3a3571cc696a8161693519f81c7c7f953de98e21d20"
+    },
+    {
+      "path": "scripts/run_planb_b6_combo100.py",
+      "sha256": "24c2d2c89248cd84dddc8184052fc2ef304e9a51afe03b991685b7d5f17a4ccf"
+    },
+    {
+      "path": "scripts/run_planc_argument_swap30.py",
+      "sha256": "026fdbb9e0030b0197deabc7d29643b748c66a6f1f704db6832191404be1cbe9"
+    },
+    {
+      "path": "scripts/run_planc_mod_arg_combo30.py",
+      "sha256": "65f2ca5b8364df5e2f7835e9ff787ea1d902b3376962241ca892270a016511f7"
+    },
+    {
+      "path": "scripts/run_planc_modifier_family30.py",
+      "sha256": "5547d715983d1947bbfbf052bbb4bbfdcffd1b64a87d69aa1130fdd3a31277d4"
+    },
+    {
+      "path": "scripts/run_planc_modifier_swap30.py",
+      "sha256": "cab18ca72dc930835f584159e3202ae34a12a22fd3dd20860b13c73800b0c736"
+    },
+    {
+      "path": "scripts/run_pland_reent_arg30.py",
+      "sha256": "c47dddb65dc34447bceb31d2110e9b7f71015ec05e2e879cc1aee1c25b8ce8d6"
+    },
+    {
+      "path": "scripts/run_pland_reentrancy30.py",
+      "sha256": "6f5705b0f874f70a1a7dd074af4ac990e9d739370de7249bd90d11bc7669b4e5"
+    },
+    {
+      "path": "叙事.md",
+      "sha256": "dc31a9ad31ce9bcf845455f6a5eccc0dfd45d926bdb75417f47ce90bb64d2431"
+    }
+  ],
+  "evidence_limits": [
+    "Directory count is not independent experiment count",
+    "Historical quality labels do not become independent human judgments",
+    "Scope-bounded SWAN evidence and certificate branches cannot substitute for each other",
+    "Software/readiness Go is not detector success or a robustness certificate",
+    "Nested stages explain existing top-level entries and are not added to the 196 count"
+  ]
+}

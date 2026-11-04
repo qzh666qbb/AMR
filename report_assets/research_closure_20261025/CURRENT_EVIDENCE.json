@@ -1,0 +1,319 @@
+{
+  "new_certificate_computations": 0,
+  "new_generation_calls": 0,
+  "new_human_labels": 0,
+  "new_neural_inference_calls": 0,
+  "paper2": {
+    "completed_requests": 228,
+    "conditions": {
+      "clean": {
+        "correct": 38,
+        "identity_f1": {
+          "CI95": [
+            0.2309121376811594,
+            0.31586201690821264
+          ],
+          "mean": 0.27434761790260515,
+          "n": 12,
+          "unit": "prompt_pair"
+        },
+        "known_position_BA": {
+          "CI95": [
+            0.3229166666666667,
+            0.4585937499999962
+          ],
+          "mean": 0.3958333333333333,
+          "n": 12,
+          "unit": "prompt_pair"
+        },
+        "observations": 250,
+        "order": {
+          "average_rank": {
+            "CI95": [
+              280.28645833333337,
+              773.6270833333333
+            ],
+            "mean": 503.2083333333333,
+            "n": 12,
+            "unit": "prompt_pair"
+          },
+          "condition": "clean",
+          "gain_over_frequency": {
+            "CI95": [
+              0.19328023686648144,
+              0.3891280435357946
+            ],
+            "mean": 0.3006318644964933,
+            "n": 12,
+            "unit": "prompt_pair"
+          },
+          "mode": "soft",
+          "pairwise_win_rate": {
+            "CI95": [
+              0.6932802368664813,
+              0.8891280435357947
+            ],
+            "mean": 0.8006318644964933,
+            "n": 12,
+            "unit": "prompt_pair"
+          },
+          "representation": "W",
+          "top1_credit": {
+            "CI95": [
+              0.0,
+              0.0
+            ],
+            "mean": 0.0,
+            "n": 12,
+            "unit": "prompt_pair"
+          }
+        },
+        "planned_symbols": 96,
+        "prompt_pairs": 12,
+        "reference_coverage": 95,
+        "tied_or_unique_top1_documents": 0,
+        "unique_top1_documents": 0
+      },
+      "paraphrase": {
+        "correct": 31,
+        "identity_f1": {
+          "CI95": [
+            0.14647321628063403,
+            0.2979378680340751
+          ],
+          "mean": 0.22191531383498428,
+          "n": 12,
+          "unit": "prompt_pair"
+        },
+        "known_position_BA": {
+          "CI95": [
+            0.21875,
+            0.4270833333333333
+          ],
+          "mean": 0.3229166666666667,
+          "n": 12,
+          "unit": "prompt_pair"
+        },
+        "observations": 253,
+        "order": {
+          "average_rank": {
+            "CI95": [
+              325.98854166666666,
+              841.6729166666665
+            ],
+            "mean": 568.2083333333334,
+            "n": 12,
+            "unit": "prompt_pair"
+          },
+          "condition": "paraphrase",
+          "gain_over_frequency": {
+            "CI95": [
+              0.16626720259362182,
+              0.3709850965991795
+            ],
+            "mean": 0.2748279740637819,
+            "n": 12,
+            "unit": "prompt_pair"
+          },
+          "mode": "soft",
+          "pairwise_win_rate": {
+            "CI95": [
+              0.6662672025936219,
+              0.8709850965991796
+            ],
+            "mean": 0.7748279740637819,
+            "n": 12,
+            "unit": "prompt_pair"
+          },
+          "representation": "W",
+          "top1_credit": {
+            "CI95": [
+              0.0,
+              0.08333333333333333
+            ],
+            "mean": 0.027777777777777776,
+            "n": 12,
+            "unit": "prompt_pair"
+          }
+        },
+        "planned_symbols": 96,
+        "prompt_pairs": 12,
+        "reference_coverage": 89,
+        "tied_or_unique_top1_documents": 1,
+        "unique_top1_documents": 0
+      }
+    },
+    "formal_gates": "NOT_EVALUATED",
+    "human_completed": false,
+    "old_cycle2": "NO_GO_19_OF_24"
+  },
+  "paper3": {
+    "baseline_health": {
+      "calibration": {
+        "calibration_size": 1000,
+        "empirical_fpr": 0.044,
+        "marginal_fpr_bound": 0.04995004995004995,
+        "maximum_calibration_exceedances": 49,
+        "order_rank": 951,
+        "strict_exceedances": 44,
+        "target_fpr": 0.05,
+        "threshold": 1.6666666666666667
+      },
+      "positive": {
+        "one_sided_cp_confidence": 0.95,
+        "one_sided_cp_lower": 0.9415636272974373,
+        "one_sided_cp_upper": 0.9643871806058294,
+        "rate": 0.954,
+        "strict_exceedances": 954,
+        "trials": 1000
+      },
+      "test": {
+        "one_sided_cp_confidence": 0.95,
+        "one_sided_cp_lower": 0.03649846972198023,
+        "one_sided_cp_upper": 0.059545101427783215,
+        "rate": 0.047,
+        "strict_exceedances": 47,
+        "trials": 1000
+      }
+    },
+    "existing_effective_radius_ledger": {
+      "estimates_only": true,
+      "feature_speedup_factor_if_other_components_fixed": 1.0852625267007132,
+      "not_an_upper_bound_for_uncapped_radius_2_3": true,
+      "total_speedup_factor_to_72_hours": 1.0779883283505896,
+      "total_time_reduction_fraction": 0.07234617138194632,
+      "two_replay_upper_gpu_hours": 77.61515964124246
+    },
+    "profile_counts": {
+      "cohorts": {
+        "calibration_null": 1000,
+        "independent_test_null": 1000,
+        "positive": 1000
+      },
+      "deduplicated_legal_feature_texts": 67001110,
+      "deduplicated_legal_input_tokens": 3773876226,
+      "distinct_target_layers": 46501,
+      "maximum_layer_pairs": 78642945,
+      "maximum_radius_union_spans": 769113,
+      "refinement_rows": 42,
+      "rows": 3000,
+      "sum_distinct_layer_pruned_pairs": 6315999311,
+      "sum_distinct_radius_union_spans": 122451013,
+      "zero_byte_gaps": 59
+    },
+    "profile_execution_attestation": {
+      "certificate_computations": 0,
+      "cuda_initializations": 0,
+      "detector_score_computations": 0,
+      "detector_score_reads": 0,
+      "generation_calls": 0,
+      "network_provider_calls": 0,
+      "region_computations": 0,
+      "sbert_model_loads": 0,
+      "sbert_weight_reads": 0,
+      "tokenizer_loads_upper_bound": 6
+    },
+    "profile_terminal": "V3_VARIABLE_N_PROFILE_READINESS_STOP",
+    "radius_scope_audit": "RADIUS_SCOPE_AUDIT.json",
+    "v4_full_radius_readiness": {
+      "audit_status": "pass",
+      "budget": {
+        "accounting_type": "frozen_protocol_projection_lower_bound",
+        "bound_depends_on_frozen_rates_and_renderer": true,
+        "cap_hours": 72.0,
+        "includes_measured_topology_time": false,
+        "inherited_model_load_seconds": 3.2334588142111897,
+        "lower_bound_excess_hours": 3.3111351767668395,
+        "lower_bound_excess_percent": 4.598798856620601,
+        "new_full_measured_wall_seconds": null,
+        "new_full_projection_hours": null,
+        "old_components_independently_reaccounted": {
+          "feature_seconds": 128650.42400927361,
+          "pair_rate_core_seconds": 6647.258984403947,
+          "union_sidecar_rate_seconds": 260.74359509564886
+        },
+        "old_integer_counts_reaccounted": {
+          "deduplicated_legal_input_tokens": 3773876226,
+          "distinct_radius_union_spans": 122451013,
+          "native_pruned_pairs": 6315999311
+        },
+        "two_replay_lower_bound_hours": 75.31113517676684,
+        "two_replay_lower_bound_seconds": 271120.0866363606
+      },
+      "certificate_authorized": false,
+      "certificate_computations": 0,
+      "checks": {
+        "all_3000_row_verifications": true,
+        "all_available_inputs_sha_exact": true,
+        "budget_lower_bound_already_exceeds_gate": true,
+        "cohorts_1000_each": true,
+        "contract_manifest_sha": true,
+        "contract_protocol_sha": true,
+        "contract_runner_sha": true,
+        "core_change_only_admits_uncapped_radius": true,
+        "corrected_affected_denominators": true,
+        "corrected_plan_all_47332_target_layers": true,
+        "frozen_canonical_profile_batch": true,
+        "full_frozen_denominator": true,
+        "historical_46501_layers_reaccounted": true,
+        "historical_component_totals_recomputed": true,
+        "historical_rows_sha_exact": true,
+        "local_linux_legacy_compatibility": true,
+        "local_linux_oracle_stream_exact": true,
+        "local_linux_oracles_pass": true,
+        "manifest_contract_entries_exact": true,
+        "no_successor_authorization": true,
+        "plan_indices_exact": true,
+        "refinement_rows_42": true,
+        "resource_profile_not_started": true,
+        "v4_original_radius_contract": true,
+        "zero_byte_gaps_59": true
+      },
+      "coverage": {
+        "additional_target_layers_planned": 831,
+        "affected_requested_radius_2_rows": 28,
+        "affected_requested_radius_3_rows": 155,
+        "cohorts": {
+          "calibration_null": 1000,
+          "independent_test_null": 1000,
+          "positive": 1000
+        },
+        "corrected_target_layers_planned": 47332,
+        "historical_distinct_target_layers": 46501,
+        "new_native_pruned_layers_measured": 0,
+        "rows_verified": 3000
+      },
+      "decision": "stop",
+      "detector_computations": 0,
+      "formal_detection_results": "NOT_COMPUTED",
+      "full_profile_executed": false,
+      "historical_v3_terminal_unchanged": "V3_VARIABLE_N_PROFILE_READINESS_STOP",
+      "input_readiness": {
+        "current_remote": false,
+        "local": false
+      },
+      "row_verification_failures": {},
+      "schema": "semstamp-v4-resource-readiness/v1",
+      "sources": {
+        "auditor_sha256": "355075cd0b224c31ffe513ec976a94a58ef793fcd404953f1ba4147b6dcd0533",
+        "contract_sha256": "2cf71c76f0a768b52ab34a33b67a7293d723aaa19b0752fc1ec5080f93cf76da",
+        "corrected_plan_sha256": "5a2c193eb2c757e8b6362fa736247318a13ae2fef753710913572da003193531",
+        "frozen_renderer_rows_sha256": "8625f6b074150d4ec099b9e57da00d6b08167b42f25ad95d34b975682e5a7474",
+        "linux_correctness_sha256": "ed849bec528d62330c5807691f82b243bbd0405673698f9568b4b80404602f49",
+        "local_correctness_sha256": "7095251ed8449a8e6fd40807def38e3936779ab0b5cdad7bdf92b84b6567286f",
+        "old_rows_sha256": "c3a941ce4d8b205090452fc31c290c0b186cf56e8b89ff10f49162dc60c08fb5",
+        "profiles_sha256": "4701a4b6d77f2d0c20e189853ec896d70ac205df05659ee38e576b5010119f6d"
+      },
+      "stop_reasons": [
+        "FROZEN_RATE_TWO_REPLAY_LOWER_BOUND_EXCEEDS_72_HOURS",
+        "FROZEN_SEALED_INPUTS_AND_TOKENIZER_UNAVAILABLE"
+      ],
+      "successor_execution_authorized": false,
+      "terminal": "V4_FULL_RADIUS_READINESS_STOP",
+      "verification_limit": "All 3000 historical ledgers and rates were reaccounted. Native text/tokenizer computation was not independently replayed; new full-radius workload and resource peaks were not measured."
+    }
+  },
+  "schema": "paper-closure-current-evidence/v1",
+  "scope": "Existing aggregates, v4 contract correction, model-free cross-platform correctness and resource readiness; no new semantic inference.",
+  "verification_at": "2026-10-25T14:24:53.494533+00:00"
+}

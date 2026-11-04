@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "editorial_revision_experiment_design_and_existing_code_review",
+  "checks": {
+    "protected_source_files_unchanged": true,
+    "reviewed_runtime_code_unchanged": true,
+    "new_links_resolve": true,
+    "existing_engineering_test_count_is_14": true,
+    "bilingual_abstract_and_identity_introduction_present": true,
+    "historical_empirical_numbers_retained": true,
+    "three_arms_specified": true,
+    "oracle_calibration_not_official_fpr_claim": true,
+    "oracle_not_forced_to_outperform": true,
+    "gold_annotation_not_prediction_pool_only": true,
+    "strict_no_alignment_not_position": true,
+    "code_gaps_separated_from_effect_claims": true
+  },
+  "source_changes": [],
+  "code_changes": [],
+  "protected_source_count": 1107,
+  "existing_tests_observed": {
+    "command": ".venv/bin/python -B -m unittest discover -s tests -p test_swan_multiview.py -v",
+    "execution_exit_code": 0,
+    "tests_run": 14,
+    "passed": 14,
+    "elapsed_seconds_reported_by_unittest": 5.339,
+    "test_names": [
+      "test_real_preflight_offsets_and_candidate_identity",
+      "test_budget_is_deterministic_and_not_prefix",
+      "test_entity_and_event_details_not_erased",
+      "test_negation_and_role_exchange_are_conflicts",
+      "test_number_conflict",
+      "test_variable_names_and_inverse_role",
+      "test_surface_explicit_contradiction_and_unknown",
+      "test_actual_spacy_constraints_and_passive",
+      "test_duplicate_observations_do_not_increase_capacity",
+      "test_modifier_variant_groups_require_overlap_and_preserve_time",
+      "test_tied_support_uses_shorter_graph_without_bank_feedback",
+      "test_capacity_and_incompatible_events",
+      "test_missing_view_stays_unmatched",
+      "test_cache_only_miss_never_parses"
+    ],
+    "result_origin": "observed terminal execution before editorial changes; not rerun by this verifier",
+    "scientific_performance_evidence": false
+  },
+  "code_readiness": "PARTIALLY_IMPLEMENTED_NOT_READY_FOR_THREE_ARM_VALIDATION",
+  "execution_attestation": {
+    "new_scientific_experiments": 0,
+    "AMR_inference_calls": 0,
+    "semantic_encoder_calls": 0,
+    "watermark_detector_runs": 0,
+    "provider_calls": 0,
+    "training_runs": 0,
+    "existing_spacy_rule_test_executed": true
+  },
+  "checked_new_links": 48,
+  "link_failures": []
+}

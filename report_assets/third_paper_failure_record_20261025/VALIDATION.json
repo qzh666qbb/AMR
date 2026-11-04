@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-25T14:35:06.975620+00:00",
+  "checks": {
+    "budget_is_model_lower_bound": true,
+    "current_fixed_byte_scope_explicit": true,
+    "failure_paragraph_available_for_manuscript": true,
+    "frozen_sha_manifest_matches_prior_document_versions": true,
+    "goal_failure_stated_early": true,
+    "historical_stop_retained": true,
+    "independent_signal_not_invented": true,
+    "light_paraphrase_positive_not_claimed": true,
+    "local_links_exist": true,
+    "no_experiment_authorization_added": true,
+    "prior_document_snapshots_exact": true,
+    "protected_scientific_artifacts_unchanged": true,
+    "related_documents_link_new_record": true,
+    "scientific_sources_match_frozen_evidence": true,
+    "strong_attack_not_falsely_reported_executed": true,
+    "uncomputed_certificates_not_recorded_as_zero_rate": true
+  },
+  "deliverables": [
+    {
+      "path": "第三篇_独立认证方法_失败与边界记录.md",
+      "sha256": "861d3ce018c132f3993da3eba675b302d019beb29c3e76853abf0b67020c6eb5"
+    },
+    {
+      "path": "论文转化方案.md",
+      "sha256": "6f071ec90a06e962525f054d60a1e4162a60f2653e331fb583e0bd571cbe8b67"
+    },
+    {
+      "path": "第二第三篇研究闭环.md",
+      "sha256": "3cb2b5f1edb5a30981b3bd1cb3433c7d7094608855c192df08da96c96d809096"
+    },
+    {
+      "path": "report_assets/third_paper_failure_record_20261025/CLAIM_STATUS.json",
+      "sha256": "b9e9c735c269233c0ae022af37326916ce6584d4ccfcd1cae3890a2e9e9fac6c"
+    },
+    {
+      "path": "report_assets/third_paper_failure_record_20261025/SOURCE_MANIFEST.json",
+      "sha256": "c433e37ca7e3a1d0195585fbf6ef51c37c2a9ce40a530ae64010004b848b6eff"
+    },
+    {
+      "path": "report_assets/third_paper_failure_record_20261025/PRIOR_DOCUMENT_SNAPSHOTS.json",
+      "sha256": "2a6c1123a37c386591610da2609ba979b098055939e8c4b260720e6c0d0d6b1d"
+    }
+  ],
+  "formal_certificate_results": "NOT_COMPUTED",
+  "historical_manifest_note": "Earlier closure and v4 delivery hashes refer to earlier root-document versions. Their files remain unchanged and document identities match the preserved before/ snapshots. Current document hashes are here.",
+  "local_links_checked": 91,
+  "new_experiments": 0,
+  "new_inference": 0,
+  "schema": "third-paper-failure-record-validation/v1",
+  "scope": "Documentary record and related-document alignment only",
+  "sources": 13,
+  "status": "PASS"
+}

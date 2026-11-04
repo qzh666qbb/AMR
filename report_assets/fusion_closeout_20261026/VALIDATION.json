@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_pre_edit_sources_unchanged": true,
+    "all_32_P4_units_covered": true,
+    "report_assigned_to_P4": true,
+    "report_not_new_independent_experiment": true,
+    "accounting_row_count_unchanged": true,
+    "global_inventory_passed": true,
+    "local_links_exist": true,
+    "source_report_not_universal_failure_claim": true,
+    "old_no_go_withdrawal_recorded": true,
+    "restart_design_marked_unexecuted": true,
+    "stop_is_current_recommendation": true
+  },
+  "protected_source_count": 1117,
+  "changed_sources": [],
+  "missing_P4_units": [],
+  "checked_local_links": 199,
+  "broken_links": [],
+  "document_coverage": {
+    "scan_roots": [
+      "experiments",
+      "archive",
+      "report_assets",
+      "baselines",
+      "deliverables",
+      "论文转化",
+      "root-level Markdown"
+    ],
+    "filename_keyword_filter_used": false,
+    "discovered_markdown_paths": 894,
+    "eligible_documents": 641,
+    "assigned_documents": 641,
+    "unassigned_documents": 0,
+    "excluded_counts_by_reason": {
+      "dependency_or_duplicate_editorial_snapshot": 159,
+      "private_or_sealed": 88,
+      "raw_payload_or_sensitive_conversation": 5,
+      "this_audit_output": 1
+    },
+    "independent_studies_inferred_from_document_count": false
+  },
+  "selected_existing_numerical_checks": 162,
+  "new_experiments": 0,
+  "new_model_detector_parser_provider_calls": 0,
+  "runtime_code_modified": false,
+  "submission_performed": false
+}

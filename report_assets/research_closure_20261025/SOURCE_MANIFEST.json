@@ -1,0 +1,187 @@
+{
+  "independence_note": "Reports, JSON and code from a single experiment are different verification layers, not independent replications.",
+  "root": "/Users/bytedance/AMR",
+  "schema": "paper-closure-source-manifest/v1",
+  "sources": [
+    {
+      "path": "experiments/semantic_sequence_readout1/CLOSEOUT.json",
+      "sha256": "8026ce138c379aff915b4cac9eb4e8580d960b874151b75b50f6acac4b617368"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/DIAGNOSTIC_VERDICT.json",
+      "sha256": "21c9edf6a1efb0c4e443527c69c2bf984cca6f043f284dd0166733fc00e05af0"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/FINAL_REPORT.md",
+      "sha256": "575c62e020b0245d1be4b283e8872c15dd269b17fd479cc0672b3c8460dd5dfd"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/HUMAN_COLLECTION_CHECK.json",
+      "sha256": "9795cf0e787bab8941f065c75fdbf0ef38dda6c62ff0da1af0eb5f455593a002"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/HUMAN_REVIEW.md",
+      "sha256": "70ecc04bc5c574eedd594f22357f20aac2e38971a6f9c7cd45a3dc139534c948"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/LOCKED_SELECTION.json",
+      "sha256": "740f21b5cf2048e255f1e15a89c83b3ba3feed133a0493a8526c55e3efca024b"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/ORDER_RESULT.json",
+      "sha256": "d717dc59983b02e556f1cd4f3c8dcba8a7e3ef155da56ace36bcc650759248da"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/PROTOCOL.md",
+      "sha256": "0f9814a2a1e55122af84ba1d05f3869b1358b20731a2e87d5adc940ab2302c3f"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RESULT.json",
+      "sha256": "c8beb360f4e4cf95f69eac5230f3642ffa49c44f33fe2812715d13ea67e80d52"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RESULT_AUDIT.json",
+      "sha256": "54b0773a6790641351145f85325d6011ecafcdd0efe3a4d789944667327d4c81"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/RETROSPECTIVE.md",
+      "sha256": "40eaeb6398141d9cf604517f09b3c0e4161a16bcee8f1296741fb0c84a760607"
+    },
+    {
+      "path": "experiments/semantic_sequence_readout1/WRITE_CONTRACT_DIAGNOSTIC.json",
+      "sha256": "b10a77433bcdf10ccf49354b14bb86eb27c8d14c4e2f2d432187d016cb8160b5"
+    },
+    {
+      "path": "experiments/semantic_sequence_stage1_design1/PROTOCOL.md",
+      "sha256": "906231877fe40d2a11f99aeeed1cbb60ed74a047ecdbb83acf8c37e20db75f6d"
+    },
+    {
+      "path": "experiments/semantic_watermark_defense_plan_20261007/ALGORITHM_CONTRACT.md",
+      "sha256": "663dfa187d6fef9ad788b656097ef65dc6fc7a0434c48b5c488611a760acac7e"
+    },
+    {
+      "path": "experiments/semantic_watermark_defense_plan_20261007/BASELINE_COMPARISON_CONTRACT.md",
+      "sha256": "a13daa9e48d7e0e9452e6eeada0f56546b358b7b1f4531311b2c0489ddf57af8"
+    },
+    {
+      "path": "experiments/semantic_watermark_defense_plan_20261007/NOVELTY_GO_NO_GO.md",
+      "sha256": "f8e38bf2d535756329c50338ef0c846cf460d496aa8ef27c55a1e5bd284b1ab7"
+    },
+    {
+      "path": "experiments/semantic_watermark_defense_plan_20261007/PLAN.md",
+      "sha256": "bc7e50f586d15887498aff9c624c470b94ad24085ba0d4a6670d90084d70bce0"
+    },
+    {
+      "path": "experiments/semantic_watermark_defense_plan_20261007/THREAT_MODEL.md",
+      "sha256": "5e8c10b3b2e915e3dffda07029bf8cd7de5607e78a2b585d6b363b86d90f8f50"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v2_wp1_threat_model1/PROTOCOL.md",
+      "sha256": "3a77a6c1d9f8334e49f1def49c2be106ccbac07a0ea9ae2c110b94e8baccd206"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v2_wp3_detector_full_replay_design1/FULL_REPLAY_RESULT.json",
+      "sha256": "5892ab27bd9bde618ee44612a0e047ac258a51c02f06f4311c26442822dba0ab"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/AUDIT.json",
+      "sha256": "ab176ec08c04acb32183771e562e2a73b439330560b5e19e9a9430ee61e52e39"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/CONCLUSION.md",
+      "sha256": "84329dad4da08ec916ed64fea652fdbd00fb037806b72101d02262640a131f50"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROFILE_RESULT.json",
+      "sha256": "2bb7641d59e0e6838150be3783bad0dafc0680074d03ee45e3d1246e47378074"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROFILE_ROWS.jsonl",
+      "sha256": "c3a941ce4d8b205090452fc31c290c0b186cf56e8b89ff10f49162dc60c08fb5"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROTOCOL.md",
+      "sha256": "2758b1913bae30a69d7637ecdb1a531fd5a14d6822812c0fddb0607c09c1212f"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/CONCLUSION.md",
+      "sha256": "c2849f4d3c4b94c8db487f6a8cf1c15ce2d56cbebf9361e97c73ef597e1c4ec9"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/CONTRACT.json",
+      "sha256": "2cf71c76f0a768b52ab34a33b67a7293d723aaa19b0752fc1ec5080f93cf76da"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/CORRECTED_RADIUS_PLAN.jsonl",
+      "sha256": "5a2c193eb2c757e8b6362fa736247318a13ae2fef753710913572da003193531"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/LINUX_CORRECTNESS.json",
+      "sha256": "ed849bec528d62330c5807691f82b243bbd0405673698f9568b4b80404602f49"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/LOCAL_CORRECTNESS.json",
+      "sha256": "7095251ed8449a8e6fd40807def38e3936779ab0b5cdad7bdf92b84b6567286f"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/LOCAL_INPUT_READINESS.json",
+      "sha256": "722beefdad7252bcafb1b9a14f1557d4f016548de075a4e879f26e227da7bbe5"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/PROTOCOL.md",
+      "sha256": "56531c7284dd2616206ed0b68ccb97c13825c53516788cde5c2553461f99a1a8"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/REMOTE_INPUT_READINESS.json",
+      "sha256": "0ac3d113697d9904cb23fdc3f3de05a43a4b30a24e324fe63343e98eb4badb1b"
+    },
+    {
+      "path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/RESOURCE_AUDIT.json",
+      "sha256": "84271ebeb34828d7700daffe8358bb0dd4ba1d4640dde5a7c4284ef67bf48318"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/ablation1/REPORT.md",
+      "sha256": "0e282aa43c42fd53febdd39d14ef864bc3de8ab5cde244880ea512d10db739cf"
+    },
+    {
+      "path": "experiments/swan_multiscale_attention_development1/validation1/REPORT.md",
+      "sha256": "bca7ad7cbdf888c24fa6d319c586064bd3695e46e7a431e03edcd64c74f73f0c"
+    },
+    {
+      "path": "scripts/audit_semstamp_certified_defense_v4_radius_correctness.py",
+      "sha256": "8a6db5171ae85d4a6937811baf1ef1bbfc2b988f1ed05784a56804d4875934ed"
+    },
+    {
+      "path": "scripts/audit_semstamp_certified_defense_v4_resource_readiness.py",
+      "sha256": "355075cd0b224c31ffe513ec976a94a58ef793fcd404953f1ba4147b6dcd0533"
+    },
+    {
+      "path": "scripts/prepare_semantic_readout_review.py",
+      "sha256": "afad6a4a14c0567c0bbaa3fafd971c1cda1b441aa64a695354ea1d2d5c5d159d"
+    },
+    {
+      "path": "scripts/run_semstamp_certified_defense_v3_variable_n_profile.py",
+      "sha256": "7223c4750772ca4dccdb1a1c4cea6b74cf7daedf424344980e9604715598270a"
+    },
+    {
+      "path": "scripts/run_semstamp_certified_defense_v4_full_radius_profile.py",
+      "sha256": "154fae5fa20142c1119056c7cec38740c164463a9a4652fc32d26751fe57f82a"
+    },
+    {
+      "path": "scripts/semstamp_certified_defense_v4_full_radius_core.cpp",
+      "sha256": "8f1429de0c2b986be0057c7f8507f452b1bbccbe47ea3bc713db1ac20a160cca"
+    },
+    {
+      "path": "src/core/multiscale_fusion.py",
+      "sha256": "1cb3270b0a41217c88e04cc047573c66710e7c8b9d9c3e08d0036b148a965b67"
+    },
+    {
+      "path": "src/core/semantic_sequence.py",
+      "sha256": "81fed0c66c1795646b691c4a31d1d6b8eec715293af02f34b648e9fbbbeaf415"
+    },
+    {
+      "path": "论文转化方案.md",
+      "sha256": "35f8091bdff075e0470990d53ccedc8a1ca12c30cac892481a0b28cfd4566f1a"
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+--- before/main.tex
++++ experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/main.tex
+@@ -7,8 +7,8 @@
+ \usepackage{url}
+ \hypersetup{hidelinks}
+ 
+-\title{Sentence Boundaries Are Part of the Watermark Interface:
+-A SWAN Audit and an Exact Resegmentation Framework}
++\title{Text Segmentation and Semantic Watermark Guarantees:\\
++A Sentence-Boundary Audit and Exact Evaluation}
+ 
+ \author{\name Anonymous Authors}
+ 
+@@ -21,30 +21,30 @@
+ \maketitle
+ 
+ \begin{abstract}
+-Resegmentation is a recognized weakness of sentence-level semantic watermarks.
+-We audit this known risk and study exact evaluation at behavioral, algorithmic,
+-and systems levels. First, we audit SWAN. On 30 saved five-unit texts, replacing four sentence-final punctuation
+-marks with semicolons while preserving lexical tokens and order changed the
+-number of below-threshold decisions from 1/30 to 30/30; restoring the saved
+-five spans returned it to 1/30. This establishes a reversible short-text
+-interface dependence, but a one-unit score ceiling implied by SWAN's existing
+-statistic already explains the fixed-threshold outcome, and two normal-length count-neutral routes stopped
+-before detection. Second, we formalize fixed-token, fixed-unit-count boundary
+-relocation and instantiate exact dynamic programs for independent-span and
+-first-order adjacent-span detectors using standard optimal-substructure
+-arguments. The pairwise program agrees with brute
+-force on 7,669 systematic and random instances, agrees with the additive
+-program on 1,000 reductions, and solves a 300-token case containing
+-14,606,509 legal segmentations in 0.8054 seconds. A compiled factorized
+-implementation exactly processes a synthetic real-data shape representing
+-$3.94\times10^{19}$ segmentations. Third, we stress-test the full path on
+-SemStamp and SimMark. A final frozen SemStamp detector-health run obtained
+-4.7\% test FPR and 95.4\% positive TPR, but exact-certificate readiness
+-stopped before scoring because one document required 78.6 million pruned
+-span pairs and the two-replay budget was 86.65 GPU-hours. We therefore report
+-no real certified rate. Together, the results show why segmentation must be
+-specified as part of the detector contract, what exact certification can
+-guarantee, and where an audited implementation still becomes impractical.
++Sentence-level semantic watermark guarantees depend on the interface that
++divides text into detection units. We study this recognized risk as an
++evaluation and influence-factor problem, separating unit count, span
++identity, adjacent-unit relations, calibration, threat coverage, and cost.
++In a SWAN audit of 30 saved five-unit texts, punctuation merging preserves
++lexical tokens and order but changes below-threshold decisions from 1/30 to
++30/30; restoring the saved spans returns them to 1/30. The existing
++z-statistic's one-unit ceiling explains this short-text outcome.
++Normal-length count-neutral effects and comparative stability across
++segmentation policies remain unestimated. As a reference evaluator, we
++formalize fixed-token, fixed-unit-count boundary relocation and instantiate
++standard exact dynamic programs for independent-span and first-order
++adjacent-span scores. The pairwise program agrees with exhaustive search
++on 7,669 instances and with an additive reduction on 1,000 instances.
++A verified minimum above a fixed threshold guarantees detection for every
++declared legal partition, conditional on the frozen scoring and coverage
++contract; it does not certify rewriting outside that set.
++Finally, a SemStamp detector-health run obtains 4.7\% test FPR and 95.4\%
++positive TPR, while final certificate readiness stops before scoring at
++78.6 million pruned span pairs and an 86.65 GPU-hour two-replay budget.
++We report no real certified rate or empirically established mild-attack
++stability region. The study makes segmentation assumptions explicit and
++distinguishes observed interface failures, conditional guarantees, and
++unmeasured robustness boundaries.
+ \end{abstract}
+ 
+ \section{Introduction}
+@@ -55,7 +55,10 @@
+ before a sentence-level detector can score a document, some procedure must
+ decide what its units are. The same word sequence may consequently induce
+ different statistical trials, different encoder or parser calls, and
+-different pairwise relations.
++different pairwise relations. A reported robustness curve therefore depends
++on a segmentation policy as well as a representation model and an attack
++strength. Evaluating one fixed policy cannot by itself establish stability
++under other unit definitions.
+ 
+ This risk has already been recognized. SWAN explicitly identifies splitting
+ and merging sentences to alter AMR structure as a future challenge and
+@@ -63,9 +66,11 @@
+ AliMark analyzes structural perturbations and uses reconstruction and
+ bit-sequence alignment to recover detection \citep{li2026alimark};
+ SwordStamp studies resegmentation, unit-count effects, and sub-sentence
+-units \citep{diaa2026swordstamp}. Our question is therefore how to audit a
+-specific instance of that known risk and state the coverage of an exact
+-evaluation. We do not claim to discover segmentation sensitivity.
++units \citep{diaa2026swordstamp}. Our central question is: \emph{how does text
++segmentation change a semantic watermark's detection guarantees, and under
++which explicit conditions can those guarantees still be evaluated exactly?}
++We investigate influencing factors and guarantee boundaries rather than
++proposing a new watermark or claiming to discover segmentation sensitivity.
+ 
+ We investigate this problem through one research program with two evidence
+ streams. The first is an empirical audit of SWAN, an AMR-based semantic
+@@ -95,8 +100,9 @@
+ source-anchored, independently reviewed cohort required for confirmation. The
+ normal-length causal endpoint therefore remains unestimated.
+ 
+-The certification stream turns the same concern into a finite optimization
+-problem. Given a frozen token tape, original boundaries, admissible spans, a
++The exact-evaluation stream supplies a reference tool for one controlled
++slice of this problem. Given a frozen token tape, original boundaries,
++admissible spans, a
+ fixed number of units, and a relocation radius $k$, we minimize the detector
+ score over every legal segmentation in that set. Independent-span scores
+ admit a standard segmentation dynamic program. SemStamp, k-SemStamp, and
+@@ -106,6 +112,8 @@
+ reconstructed candidates, this objective finds the weakest detector score
+ over a declared complete set. The difference concerns the optimization
+ target and coverage contract, not the invention of dynamic programming.
++It is narrower than a comparison of sentence, paragraph, or event
++segmentation under paraphrase and structural editing.
+ 
+ We validate the algorithms against independent exhaustive oracles, implement
+ split-conformal calibration with strict ties, reproduce public detector
+@@ -116,16 +124,27 @@
+ algorithm is wrong,'' and ``the validated implementation is too expensive''
+ as distinct failure modes.
+ 
+-We position the study as a bounded system audit and exact-evaluation
+-framework. Its contributions are:
++The desired evaluation separates an effective region from its failure
++boundary. Here, the positive guarantee is conditional: a verified worst-case
++score above threshold covers every partition in its declared set.
++Preserving coarse sentence structure alone is not a sufficient condition,
++because individual unit representations can still change. Deep paraphrase,
++large-scale reordering, and cross-sentence fusion may leave that set; then
++the certificate no longer applies, without implying that every detector
++must fail. We have not measured a multi-policy mild-attack stability region.
++
++We position the study as a bounded evaluation framework and influence-factor
++audit. Its contributions are:
+ 
+ \begin{enumerate}
+-  \item A reproducible A--B--A observation on 30 short SWAN texts, interpreted
+-  using the elementary unit-count ceiling of the existing statistic, with
+-  complete provenance for the unestimated normal-length endpoint.
++  \item An explicit segmentation-factor audit specification, anchored by a
++  reproducible A--B--A observation on 30 short SWAN texts and the existing
++  statistic's elementary unit-count ceiling. Unmeasured policy comparisons
++  and normal-length effects are identified separately.
+   \item A precise fixed-token, fixed-unit-count relocation contract and
+-  exact DP instantiations for independent-span and first-order adjacent-span
+-  scores, with a soundness argument and independent oracle checks.
++  verified exact evaluation for independent-span and first-order
++  adjacent-span scores, defining the conditions and coverage of a
++  partition-uniform detection guarantee.
+   \item An audited SemStamp/SimMark implementation record that separates
+   correctness, calibration, adapter equivalence, detector health, and
+   resource feasibility. It reports a healthy SemStamp baseline and a
+@@ -197,15 +216,62 @@
+ procedure: the worst-case score distribution is not silently assigned the
+ raw detector threshold when comparing power at a common target FPR.
+ 
+-\section{Study Design and Evidence Separation}
++\section{Segmentation Factors, Audit Design, and Evidence Scope}
++
++\subsection{Research questions and influencing factors}
++
++We organize the evaluation around three questions:
++\begin{enumerate}
++  \item \textbf{RQ1: Interface effects.} How do unit count, span identity,
++  and adjacency change the statistic and final decision?
++  \item \textbf{RQ2: Guarantee coverage.} Which segmentation perturbations
++  admit a complete worst-case evaluation, and which assumptions make its
++  positive guarantee valid?
++  \item \textbf{RQ3: Evaluation validity.} How do calibration, baseline
++  health, and computation constrain interpretable FPR and robustness curves?
++\end{enumerate}
++
++Table~\ref{tab:factors} is an audit specification, not a claim that all factors
++were independently manipulated. The SWAN intervention jointly changes unit
++count and spans; its score ceiling suffices to explain the threshold flip.
++The exact framework isolates fixed-count boundary relocation mathematically.
++Neither stream estimates a ranking of segmentation policies.
++
++\begin{table}[t]
++\caption{Segmentation factors and the available evidence for each.
++Unestimated effects are not negative findings.}
++\label{tab:factors}
++\centering
++\small
++\setlength{\tabcolsep}{4pt}
++\begin{tabular}{>{\raggedright\arraybackslash}p{0.17\linewidth}
++                >{\raggedright\arraybackslash}p{0.35\linewidth}
++                >{\raggedright\arraybackslash}p{0.38\linewidth}}
++\toprule
++Factor & Why it changes the evaluation & Evidence in this study \\
++\midrule
++Unit count & Changes statistical trial count and score ceiling &
++Short SWAN five-to-one intervention; existing z-test bound \\
++Span identity & Changes parser or encoder input even at fixed count &
++Exact relocation model; normal-length SWAN effect unestimated \\
++Adjacent-unit relations & Changes prefix-conditioned regions or pair scores &
++First-order detector inspection and pairwise oracle validation \\
++Calibration and selection & Changes the null score distribution when the
++complete detection flow changes &
++Synthetic calibration checks and raw SemStamp health; no final certificate FPR \\
++Threat coverage & Determines which transformations a guarantee includes &
++Complete fixed-token, fixed-count lattice; no rewriting coverage \\
++Computation & Determines whether the promised evaluation is executed &
++Final SemStamp score-blind capacity and budget Stop \\
++\bottomrule
++\end{tabular}
++\end{table}
+ 
+ \subsection{One question, two evidence streams}
+ 
+-The unifying question is whether sentence boundaries are an implicit part of
+-a sentence-level watermark's security contract. The empirical stream asks
+-whether changing that interface changes a deployed decision. The
+-certification stream asks whether a detector can guarantee its decision for
+-every segmentation in a declared neighborhood.
++The empirical stream asks whether changing the segmentation interface
++changes a deployed decision. The exact-evaluation stream asks whether the
++decision can be guaranteed for every segmentation in a declared neighborhood.
+ 
+ \begin{table}[t]
+ \caption{Evidence roles in the unified study.}
+@@ -237,6 +303,51 @@
+ They remain separate at the claim level. In particular, no SemStamp or
+ SimMark result upgrades the missing SWAN count-neutral endpoint.
+ 
++\subsection{Controlled transformations and missing comparisons}
++
++A broader influence-factor benchmark would compare frozen segmentation
++policies under mild paraphrase, splitting, merging, and short-sentence
++insertion or deletion, then examine deeper restructuring.
++Table~\ref{tab:transformations} states how those questions relate to the
++present evidence. It is a research agenda and coverage map; the missing
++experiments have not been run.
++
++\begin{table}[t]
++\caption{Transformation coverage. The fixed-count certificate is a subset
++of the desired audit, not a certificate for every listed attack.}
++\label{tab:transformations}
++\centering
++\small
++\setlength{\tabcolsep}{4pt}
++\begin{tabular}{>{\raggedright\arraybackslash}p{0.22\linewidth}
++                >{\raggedright\arraybackslash}p{0.32\linewidth}
++                >{\raggedright\arraybackslash}p{0.36\linewidth}}
++\toprule
++Transformation & Main variables to separate & Current status \\
++\midrule
++Mild paraphrase & Unit representations with coarse boundaries retained &
++No controlled policy comparison; outside the fixed-token certificate \\
++Sentence splitting & Unit count versus changed span representations &
++No isolated split-policy endpoint; variable count is outside coverage \\
++Sentence merging & Unit count versus changed span representations &
++Short SWAN punctuation A--B--A only; normal-length stability unestimated \\
++Count-neutral merge/split & Span identity and adjacency at fixed count &
++SWAN confirmation stopped; exact lattice covers declared legal relocations \\
++Short-sentence insertion/deletion & Content, count, and adjacency &
++No controlled endpoint; outside the fixed-token certificate \\
++Deep rewriting or reordering & Unit correspondence, token tape, and order &
++No failure curve; generally outside the declared coverage \\
++\bottomrule
++\end{tabular}
++\end{table}
++
++For any future comparison, the attack and segmentation policy must be frozen
++before detection. Paired positives should report realized boundary changes,
++unit counts, detection rates, and independent human quality. Each changed
++detection flow requires calibration of the complete procedure and an
++independent human-null FPR estimate, including any condition-specific claim.
++No such multi-policy benchmark is reported here.
++
+ \subsection{Fail-closed protocol}
+ 
+ Each stage freezes inputs, code identity, thresholds, continuation gates, and
+@@ -379,15 +490,17 @@
+ finding is a system-interface counterexample, not a general watermark-removal
+ algorithm and not evidence that sentence meaning changed.
+ 
+-\section{Part II: Exact Resegmentation Certificates}
++\section{Part II: Exact Evaluation of a Declared Segmentation Neighborhood}
+ 
+ \subsection{Threat set}
++\label{sec:threat}
+ 
+ Let $x=(x_1,\ldots,x_L)$ be a frozen token tape. An original segmentation
+ $P_0$ has internal boundary set $B_0$ and fixed unit count
+ $m=|B_0|+1$. Let $\mathcal G$ be the admissible internal gaps, frozen before
+ scores are observed. Each candidate span must satisfy a declared legality
+-predicate, such as a native tokenizer context bound.
++predicate, such as a native tokenizer context bound. We require the original
++partition $P_0$ to satisfy the same legality predicate and gap constraints.
+ 
+ For any segmentation $P$ with $|B(P)|=|B_0|$, define the relocation radius
+ 
+@@ -616,6 +729,44 @@
+ This guarantee is exact for the declared lattice and detector class; it says
+ nothing about partitions outside that contract.
+ 
++\subsection{Conditional effective region and loss of coverage}
++\label{sec:effective}
++
++The positive result concerns a declared neighborhood, not an informal
++description of attack strength. For a transformation $a$, let $P_a$ be the
++units actually supplied to the frozen detector after transformation.
++If these units are a legal partition of the same token tape with
++$P_a\in\mathcal A_k(x,P_0)$, the rendering and scoring contract is preserved,
++and a completed exact evaluation gives $C_k(x)>\tau$, then
++$D(x,P_a)>\tau$. The guarantee follows from the verified minimum; it does
++not require that the boundary movement be visually small.
++
++For a fixed threshold and evaluated radii $0,\ldots,K$, a detectable document
++with $C_0(x)>\tau$ has the conditional certified radius
++\begin{equation}
++k^\star(x;\tau)=
++\max\{k\in\{0,\ldots,K\}:C_k(x)>\tau\}.
++\end{equation}
++Nesting of the threat sets makes all radii up to $k^\star$ valid.
++This is a definition of an effective region, not an observed positive
++radius on the final real cohorts. If no evaluated radius passes, the set is
++empty; if scoring was not completed, the radius is unestimated.
++Separately recalibrated $\tau_k$ do not imply a monotone empirical TPR curve.
++
++A still narrower invariance fact holds when an intervention delivers the
++same ordered, byte-identical units to the same deterministic detector: its
++score and decision are identical. Coarse boundary preservation is weaker.
++Even mild lexical paraphrase can change an embedding, AMR, or adjacent
++relation, so it needs its own evidence or additional stability assumptions.
++
++Deep paraphrase, paragraph reordering, sentence insertion/deletion, and
++cross-sentence fusion can change tokens, order, or unit count. When they do,
++they violate the present contract and its guarantee cannot be invoked.
++This is a loss of certificate coverage, not a theorem that every
++sentence-dependent watermark must miss the rewritten text. A method may
++retain signal or recover it through different units or reconstruction;
++that possibility requires evaluation under a separately declared contract.
++
+ \subsection{Calibration}
+ 
+ Because $\mathcal A_k$ contains $P_0$ and expands with $k$,
+@@ -634,6 +785,14 @@
+ r=\left\lceil(n+1)(1-\alpha)\right\rceil,
+ \qquad \tau_k=C_{k,(r)}.
+ \end{equation}
++
++Under exchangeability of calibration and future null scores, this rule gives
++the standard marginal bound
++$\Pr_{\mathrm{null}}(C_k>\tau_k)\leq\alpha$; if $r=n+1$, the threshold is
++$+\infty$. This is a statistical guarantee under the sampling assumptions,
++not proof of condition-specific FPR under arbitrary rewriting or domain
++shift. A post-selection maximum, such as reconstruction search, requires
++calibration of that entire statistic rather than this minimum's threshold.
+ 
+ Ties remain on the non-detection side because the decision is
+ $C_k>\tau_k$. A separate test null estimates realized FPR with a one-sided
+@@ -793,12 +952,37 @@
+ 
+ \section{Discussion}
+ 
++\subsection{Effective region versus empirical failure boundary}
++
++The audit distinguishes three statements. First, the saved SWAN short-text
++configuration has an observed decision failure under five-to-one merging,
++explained sufficiently by its trial-count ceiling. Second,
++Section~\ref{sec:effective} gives a conditional positive guarantee for all
++legal partitions whose completed minimum passes the fixed threshold.
++Third, transformations outside that set have no guarantee from this
++certificate; their detection performance remains an empirical question.
++
++These statements do not establish that a particular segmentation policy
++maintains TPR and controls FPR whenever coarse sentence structure survives.
++That would require a frozen comparison across policies and transformations,
++with independent quality and null evaluation. Sentence, paragraph,
++sub-sentence, and event units are candidate policies for such a study, not
++policies ranked by the current experiments. Likewise, no general
++deep-rewriting failure curve or universal impossibility result is available.
++
++The resulting research focus is to identify which interface conditions
++support a stated guarantee and which perturbations violate them.
++Segmentation is an intermediate assumption of decoding and evaluation;
++its inclusion in a contract is not a barrier against arbitrary strong
++rewriting.
++
+ \subsection{Contribution beyond the known risk}
+ 
+ SWAN already anticipates multi-sentence attacks, and AliMark and SwordStamp
+ already analyze and mitigate structural perturbations. The paper's focus
+-is therefore the evidence added by a reproducible case study, an explicit
+-optimization contract, and a system audit. The A--B--A result measures a
++is therefore the evidence added by a factor-based audit specification, a
++reproducible case study, an explicit optimization contract, and a system
++audit. The A--B--A result measures a
+ specific reversible behavior; its statistical explanation is elementary.
+ The DP supplies a complete minimum for stated local detector classes; its
+ proof uses standard principles. The resource study distinguishes a healthy
+@@ -858,6 +1042,11 @@
+ \section{Limitations}
+ 
+ \begin{itemize}
++  \item \textbf{Comparative effective region.} We have not run a frozen
++  multi-policy benchmark under mild paraphrase, isolated splitting,
++  insertion/deletion, or deep restructuring. Preserving coarse boundaries
++  alone is not proved sufficient for stability; no universal loss of
++  detectability under strong rewriting is claimed.
+   \item \textbf{Originality scope.} Sentence-boundary risks, unit-count
+   scaling, reconstruction/alignment, and standard DP and calibration
+   principles have prior sources. We do not establish global algorithmic
+@@ -900,19 +1089,19 @@
+ 
+ \section{Conclusion}
+ 
+-The known dependence on sentence boundaries is part of the operational
+-contract of sentence-level watermarks. SWAN's decision changed reversibly under a short-text
+-segmentation intervention, but the available evidence does not isolate an
+-AMR-specific or normal-length count-neutral mechanism. Exact dynamic
+-programming can certify all segmentations in a fixed-token,
+-fixed-unit-count relocation ball for local detector classes, and our
+-implementation passes exhaustive correctness and calibration checks. The
+-final real-system result is nevertheless a Stop: SemStamp detector health
+-passed, while exact-certificate capacity and budget did not. The resulting
+-contribution is a bounded behavioral audit, a verified exact evaluation for
+-a declared threat set, and an implementation feasibility record. It does
+-not introduce the underlying boundary risk, the z-test, or standard DP
+-principles.
++Text segmentation affects the units, relations, and statistical trials on
++which sentence-level watermark guarantees depend. Our SWAN audit establishes
++a reversible short-text decision change, sufficiently explained by the
++existing statistic's unit-count ceiling. Exact evaluation supplies a
++conditional positive guarantee for all partitions in a declared fixed-token,
++fixed-count neighborhood, and independent oracles verify the implementation.
++The final SemStamp baseline is healthy, but certificate computation stops at
++resource gates, so no real certified rate follows. The study is an
++evaluation framework and influence-factor audit: it identifies observed
++interface dependence, conditions for a bounded guarantee, and evidence still
++needed to establish a practical effective region. Strong rewriting can
++invalidate the declared coverage; it is not thereby proved to defeat every
++sentence-dependent watermark.
+ 
+ \bibliography{references}
+ \bibliographystyle{tmlr}
+@@ -1034,6 +1223,9 @@
+ SemStamp real certified-positive rate & Not run \\
+ Healthy SimMark certified-positive rate & Not available \\
+ Cross-system certified robustness comparison & Not available \\
++Multi-policy mild-attack effective region & Not established \\
++Segmentation-policy sensitivity ranking & Not estimated \\
++Deep-rewriting detection-failure curve & Not estimated \\
+ \bottomrule
+ \end{tabular}
+ \end{table}

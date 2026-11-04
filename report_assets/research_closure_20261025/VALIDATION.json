@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "all_report_local_links_exist": true,
+    "all_source_hashes_unchanged_during_audit": true,
+    "effective_radius_rule_checked_all_3000_rows": true,
+    "existing_result_and_order_hashes_match_audit": true,
+    "historical_stop_and_zero_certificates_preserved": true,
+    "human_labels_not_fabricated": true,
+    "known_position_counts_recomputed": true,
+    "new_full_profile_not_claimed_executed": true,
+    "new_methods_and_thresholds_labelled_proposals": true,
+    "paper_conversion_plan_links_closure": true,
+    "profile_rows_hash_matches_historical_audit": true,
+    "top1_and_average_rank_recomputed": true,
+    "v4_radius_correctness_and_budget_stop_verified": true
+  },
+  "deliverable_hashes": {
+    "report_assets/research_closure_20261025/CURRENT_EVIDENCE.json": "405d70fb2b9741c67f36e6cbadb55bff390d82a6dee9c2e95c089bbb64130b94",
+    "report_assets/research_closure_20261025/RADIUS_SCOPE_AUDIT.json": "e57cb9e454cc2ac2bb5b07ed4b0c6e6c0a6723735cf09bf7a43ad0b87f11165b",
+    "report_assets/research_closure_20261025/SOURCE_MANIFEST.json": "8efea9c8e882b1c4e40e284629b5219720faca5dcf6d8a51e98bb83e53630045",
+    "第二第三篇研究闭环.md": "0a3d51eeac9d0e54e4b501c5c66afad8e7d7204150df1f273681bba6a3103e96",
+    "论文转化方案.md": "35f8091bdff075e0470990d53ccedc8a1ca12c30cac892481a0b28cfd4566f1a"
+  },
+  "report_local_link_count": 40,
+  "schema": "paper-closure-delivery-validation/v1",
+  "scope_limit": "Arithmetic, metadata, hashes and documentation; no new neural verification, human assessment or certificate scoring.",
+  "source_count": 45,
+  "status": "PASS"
+}

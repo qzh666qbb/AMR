@@ -1,0 +1,128 @@
+--- before/论文转化方案.md
++++ 论文转化方案.md
+@@ -18,31 +18,34 @@
+ 
+ 原[投稿裁决](experiments/swan_branch_c_submission_readiness_20261002/SUBMISSION_DECISION.md)规定 SWAN 与 fixed-`N` certificate 证据共同进入一篇稿件。本方案保持这一安排，新增的第二篇候选使用语义序列自己的问题与数据，不追溯改变旧实验身份或投稿裁决。
+ 
+-## 2. 第一篇：把既有工作转成“检测接口审计”
++## 2. 第一篇：句界接口审计与精确评估
+ 
+ ### 2.1 中心主张与真正的价值
+ 
+-建议沿用现有标题：
+-
+-> **Sentence Boundaries Are Part of the Watermark Interface: A SWAN Audit and an Exact Resegmentation Framework**
++**核心定位：评估框架 + 影响因子研究。** 围绕“文本划分怎样影响语义
++水印的检测保证”组织正文，精确DP用于评估声明的扰动集合。
++当前英文稿已调整标题为：
++
++> **Text Segmentation and Semantic Watermark Guarantees: A Sentence-Boundary Audit and Exact Evaluation**
+ 
+ 一句话中心主张：
+ 
+-> 句级语义水印的保证取决于检测器如何划分文本；必须声明划分合同，并区分可逆的接口失效、有限威胁集中的数学保证和真实模型中的实现成本。
++> 文本划分通过单元数、跨度内容和相邻关系影响句级语义水印的检测；
++> 只有明确划分、评分、校准和扰动覆盖，才能判断保证的有效范围及其边界。
+ 
+ 这篇审计的是原论文已经指出的风险，并对具体系统行为、保证范围和实现成本作可核查的评估。现有证据没有支持“提出了一个全面优于现有方法的新水印”，也不能把“句界会影响检测”或单元数上限当作原创理论。审计与负结果能否成篇，取决于是否提供了超出已有说明的、有价值的新证据。
+ 
+ 建议将贡献收敛为三项：
+ 
+-1. **具体系统的可逆接口行为。** SWAN 的30篇短文本保持词汇和顺序，通过标点合并与保存跨度恢复，使低于阈值的决策从1/30变为30/30，再回到1/30；用已有 z-test 的直接推论解释该结果。新增部分是冻结设置下的配对观测与审计，不是句界风险或统计上限的首创。
+-2. **声明完整搜索范围并给出精确评估。** 固定 token、固定单元数、限定边界重定位的有限集合，对独立跨度和一阶相邻跨度评分分别给出精确 DP、完备性与 soundness 论证，并用独立枚举核验。贡献表述为水印接口的形式化和精确求解，避免将标准 DP 原理声称为全新算法。
++1. **影响因子审计与可逆接口行为。** 区分单元数、跨度内容、相邻关系、校准、扰动覆盖和计算成本。SWAN 的30篇短文本保持词汇和顺序，通过标点合并与保存跨度恢复，使低于阈值的决策从1/30变为30/30，再回到1/30；用已有 z-test 的直接推论解释该结果。六项因素是审计组织方式，不表示全部因素已有独立操纵实验。
++2. **有限集合中的条件性保证。** 固定 token、固定单元数、限定边界重定位的有限集合，对独立跨度和一阶相邻跨度评分给出精确DP及独立枚举核验。只有完整最坏值超过阈值且实际扰动属于该集合，才保证全部合法划分可检出。精确DP是评估工具，其条件性正确性不等于真实系统已有非空有效区间。
+ 3. **区分算法正确、检测器健康和认证可执行。** 报告官方接口适配、校准实现和真实资源门：SemStamp v17 的原始检测健康，但 v18 在证书评分前停止。因此，算法核验通过与健康检测器均不足以证明真实 certified rate。
+ 
+ 正文可以直接采用以下英文贡献句；它们是写作草案，需与最终图表核对：
+ 
+-> We document a reversible, scope-limited segmentation-interface failure in SWAN and explain the observed short-text threshold flips using the unit-count ceiling implied by the existing one-proportion z-statistic.
++> We specify segmentation factors for a bounded audit and document a reversible short-text interface effect in SWAN, explained by the existing statistic's unit-count ceiling.
+ >
+-> We formalize a finite, fixed-token and fixed-unit-count boundary-relocation contract and instantiate exact dynamic programs for independent-span and first-order adjacent-span detectors, with soundness arguments and exhaustive-oracle validation.
++> We provide verified exact evaluation for a finite fixed-token, fixed-unit-count boundary-relocation contract, making the conditions and coverage of a partition-uniform detection guarantee explicit.
+ >
+ > We separate algorithmic correctness, detector health, and certificate readiness through an audited implementation record, reporting a healthy SemStamp baseline and a resource-gated stop rather than an unobserved certified rate.
+ 
+@@ -77,6 +80,39 @@
+ 具体实例，正常长度count-neutral机制与真实最终certificate仍缺失。
+ 原TMLR“准备Go”是历史准备裁决，不能读成新颖性已通过、录用有保证，
+ 或本次原文核查升级了任何实验端点。
++
++### 2.1b 叙事主线：划分假设 → 影响因子 → 有效范围 → 边界
++
++按用户给出的基调，正文依次回答：
++
++1. **背景与隐含前提。** 句级语义水印需要先决定按哪些单元解码；改变划分可能改变试验数、表示和相邻依赖。只在固定划分下评测，不能直接外推到其他划分策略。
++2. **研究问题。** 划分策略怎样影响检测保证与鲁棒曲线？哪些变化来自单元数，哪些来自跨度内容和相邻关系？校准及计算成本又怎样限制有效结论？
++3. **受控审计。** 理想对比包括轻度复述、拆句、合句、增删短句，以及句子、段落、子句、事件等划分策略。当前仅有短文本合并A–B–A、正常长度停止记录和固定单元数的精确评估链；其余比较作为待验证问题写入覆盖表，不冒充已完成实验。
++4. **正向有效范围。** 已有数学结论是：对冻结评分器，若声明集合内的完整最坏分数超过阈值，则该集合内全部合法划分可检出。相同有序字节单元交给相同确定性检测器，分数相同。二者均不能推出“保留粗粒度句界就能稳定检出并控制FPR”。
++5. **边界声明。** 深度复述、大范围重组、段落重排、长句融合可能改变token、词序或单元数，超出当前证书集合，此时原保证不能援引。句界是解码和评估的中间假设，不能据此抵挡任意强改写。
++
++**建议直接写进论文的边界句：**
++
++> 当改写不再满足声明的划分与评分合同，本文的检测保证不再适用。
++> 超出保证范围后的实际检出率需要另行评测；本文不证明所有依赖句界的
++> 语义水印在强改写下必然失效。
++
++| 希望建立的结论 | 当前能写的程度 | 尚缺证据 |
++|---|---|---|
++| 合适划分在轻度攻击下维持检测并控制FPR | 研究假设，尚未建立经验有效区间 | 冻结多策略对比、独立人工质量、完整流程校准和条件特异FPR |
++| 部分划分对拆句/合句更敏感 | 有一般原理与既有文献；本项目未给出策略排名 | 匹配条件下的拆/合对比，分离单元数与跨度变化 |
++| 声明有限集合内全部划分可检出 | 最坏分数通过阈值时的条件性数学保证 | 最终健康真实系统上的非空证书与鲁棒曲线 |
++| 强改写使保证失效 | 实际扰动越出声明集合时，原证书不适用 | 若主张实际检出失败，仍需专门攻击实验；普遍必败需更强理论 |
++
++英文稿中将“有效区间”的精确定义写为固定阈值下的认证半径：
++
++$$
++k^\star(x;\tau)=\max\{k\in\{0,\ldots,K\}:C_k(x)>\tau\}.
++$$
++
++这一定义以完成评分且集合非空为前提。最终v18没有完成评分，所以其半径
++和certified rate均为未估计；不能写成0，也不能用v17的原始TPR替代。
++不同半径分别重新校准阈值后，经验TPR曲线不必单调。
+ 
+ ### 2.2 把实验记录改造成论文证据
+ 
+@@ -100,14 +136,14 @@
+ 
+ 现有[英文稿](experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/main.tex)已经具备主体，转化工作以编辑和证据绑定为主。
+ 
+-1. **Introduction：**提出隐含的划分合同；明确三个研究问题和范围。
++1. **Introduction：**以“划分怎样影响检测保证”为中心；明确评估框架与影响因子定位。
+ 2. **Related Work：**对齐 SWAN、SemStamp、SimMark、AliMark、SwordStamp；承认已有 merge/split、重分句和单元数讨论。
+-3. **Detector Contract and Study Design：**声明接口、威胁集、严格判定规则、证据隔离与全分母。
++3. **Segmentation Factors, Audit Design, and Evidence Scope：**列出六项因素、三个研究问题、已有证据和未运行的攻击/策略比较。
+ 4. **SWAN Interface Audit：**展示短文本 A–B–A、统计上限与正常长度端点未确认；探索性图诊断另放附录。
+-5. **Exact Evaluation：**给出固定 $N$ 的集合、两类评分器、DP、soundness 与校准。
++5. **Exact Evaluation：**给出固定 $N$ 的集合、两类评分器、DP、条件性有效范围与校准；保留SWAN/AliMark目标对照。
+ 6. **Validation and Resource Limits：**报告 oracle、adapter、baseline health、v18停止与成本来源。
+-7. **Discussion and Limitations：**解释对水印评测的含义，以及短文本、人工质量、真实证书和跨系统比较的限制。
+-8. **Conclusion：**只重述已建立的接口与算法结论。
++7. **Discussion and Limitations：**依次区分实测失败、条件保证与覆盖之外；说明尚无多策略有效区间或普遍强改写失败定理。
++8. **Conclusion：**回到划分影响与保证条件，不将算法核验写成真实鲁棒成功。
+ 
+ ### 2.4 正文保留与移出原则
+ 
+@@ -254,12 +290,15 @@
+ - [语义序列最终报告](experiments/semantic_sequence_readout1/FINAL_REPORT.md)、[复盘](experiments/semantic_sequence_readout1/RETROSPECTIVE.md)与[人工交付说明](experiments/semantic_sequence_readout1/HUMAN_REVIEW.md)
+ - [本轮来源与核验记录](report_assets/paper_conversion/SOURCE_MANIFEST.json)
+ 
+-2026-10-25按用户要求，已将本方案的原文出处及贡献边界写入现有英文稿。
+-新增§5.2与Table 4比较SWAN、AliMark和本框架的优化对象、DP状态及保证；
+-§7.1说明超出已知风险的有限贡献。修订PDF为16页，编译、引用、
+-交叉引用、排版与冻结证据SHA核验通过。见[具体修订说明](experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/EDITORIAL_REVISION.md)
+-及[修订审计](report_assets/manuscript_revision_20261025/AUDIT.json)。
+-修订前稿件、PDF和构建记录已另存；本次编辑不改变实验或历史投稿裁决。
++2026-10-25先完成原文出处与贡献边界修订，保留SWAN、AliMark和本框架的
++优化对象、DP状态及保证对照。随后按用户要求，将全文定位调整为评估框架
++与影响因子研究，补入六因素表、攻击覆盖表、条件性有效范围和强改写
++边界。见[具体修订说明](experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/EDITORIAL_REVISION.md)。
++第一轮16页稿及其审计仍保存在[出处修订档案](report_assets/manuscript_revision_20261025/AUDIT.json)；
++本轮之前的16页稿、PDF、构建记录及本方案另存于
++`report_assets/manuscript_scope_revision_20261025/before/`。
++当前构建与核验结果见[本轮审计](report_assets/manuscript_scope_revision_20261025/AUDIT.json)。
++本次编辑不改变实验端点或历史投稿裁决。
+ 
+ 相关工作口径沿用已核查材料和现有参考文献：
+ [SWAN](https://arxiv.org/html/2605.04305)、

@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-25",
+  "status": "pass",
+  "checks": {
+    "frozen_evidence_and_historical_decisions_unchanged": true,
+    "pre_revision_snapshots_valid": true,
+    "bibliography_keys_and_cross_references_valid": true,
+    "pdf_compilation_complete": true,
+    "unresolved_citations": 0,
+    "overfull_boxes": 0,
+    "comparison_table_all_rows_on_one_page": true,
+    "new_experimental_endpoint_created": false,
+    "visual_overview_and_focused_pages_pass": true,
+    "research_claim_lint_pass": true,
+    "pdf_source_hash_matches_build_record": true
+  },
+  "baseline": {
+    "date": "2026-10-25",
+    "previous_draft": [
+      {
+        "original_path": "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/main.tex",
+        "snapshot_path": "report_assets/manuscript_revision_20261025/before/main.tex",
+        "sha256": "9c07094c39c8efac791a9a02e520d0af08f2fd511de88ba3d757b2dfd634c5be"
+      },
+      {
+        "original_path": "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/main.pdf",
+        "snapshot_path": "report_assets/manuscript_revision_20261025/before/main.pdf",
+        "sha256": "0d90a490e3e88346ac35c1b8e573e47411c03a8e31606bc82640be27e53adf9c"
+      },
+      {
+        "original_path": "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/BUILD.json",
+        "snapshot_path": "report_assets/manuscript_revision_20261025/before/BUILD.json",
+        "sha256": "36001a471ea26305ea5fb53eb0712e9de26df5c65e95beaba38bd1ee2e2ad1b8"
+      },
+      {
+        "original_path": "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/README.md",
+        "snapshot_path": "report_assets/manuscript_revision_20261025/before/README.md",
+        "sha256": "d24e5735ac5a3eb0787e82c8ea6e47ac152265b5311d859f2aac4ae92ebba80a"
+      },
+      {
+        "original_path": "experiments/swan_branch_c_final_literature_refresh_20261002/tmlr_submission/references.bib",
+        "snapshot_path": "report_assets/manuscript_revision_20261025/before/references.bib",
+        "sha256": "bdee30ecfee6489382f4db3896c88f5de7adcfa923190055cdc231fc878ca7ec"
+      }
+    ],
+    "immutable_files": [
+      {
+        "path": "experiments/swan_branch_c_final_literature_refresh_20261002/UNIFIED_CLAIMS.json",
+        "sha256": "f34499422b189602e32cf0b1dbdfbb8a0af6f55fd3670cc728236b070b751af9"
+      },
+      {
+        "path": "experiments/swan_reframing1/claims_v2.json",
+        "sha256": "a58aee8e4f753b8c6ebf9bd1b8245c9b314dba81b403cffe369b6cad35430c17"
+      },
+      {
+        "path": "CLAIM_EVIDENCE_MATRIX.md",
+        "sha256": "5dd7e4d5234a947c2bfa5569468e53870650284e7fc56cfdf2e4d3c1fad4dda4"
+      },
+      {
+        "path": "叙事.md",
+        "sha256": "dc31a9ad31ce9bcf845455f6a5eccc0dfd45d926bdb75417f47ce90bb64d2431"
+      },
+      {
+        "path": "V2.md",
+        "sha256": "b6caa524dbf782e5226bae367d8b12646f802ea44512bae25cbee948630a515e"
+      },
+      {
+        "path": "experiments/swan_branch_c_submission_readiness_20261002/SUBMISSION_DECISION.md",
+        "sha256": "3222cfef29c678e3b53bf439cf44e6da0a99e323896bc8e24dcf7379c968180c"
+      },
+      {
+        "path": "experiments/swan_branch_c_final_literature_refresh_20261002/MANIFEST.sha256",
+        "sha256": "116dbefab2a1027d45fa1fbf2478e72160ecfe0cb65fda7aff1f638694278fa4"
+      },
+      {
+        "path": "experiments/confirmation_mechanism30/summary.json",
+        "sha256": "ce4772da0f0d4225d485a76105995676b423d944a99e5bb4c7f3a03e90e5b3bf"
+      },
+      {
+        "path": "experiments/certified_resegmentation_preflight1/audit_results.json",
+        "sha256": "9d7ced86619d91df93789b221ebeb2945419e66f5b77ed02beee13bb4e004f64"
+      },
+      {
+        "path": "experiments/certified_resegmentation_pairwise_preflight1/audit_results.json",
+        "sha256": "a584f089f32b8032ef28ddd6b9a38ae0cb474ce52e1657961d0e39083d056862"
+      },
+      {
+        "path": "experiments/certified_resegmentation_calibration_preflight1/audit_results.json",
+        "sha256": "1cbf7a1646966cd5050c6a385c5619ad0da1d9efd86738bde84ff083ea83f143"
+      },
+      {
+        "path": "experiments/certified_resegmentation_wp2_v4_sparse1/scale_replay1.json",
+        "sha256": "ff1a12ca6f42c44eb80de3f8dd624d99fdf57eac0903506ea1b0a001baed786e"
+      },
+      {
+        "path": "experiments/certified_resegmentation_wp2_v9_simmark_long1/final_summary.json",
+        "sha256": "c8e74d75d2a5bdc7526399ea949c7764188699962a70a864c8549671c474e4b4"
+      },
+      {
+        "path": "experiments/certified_resegmentation_wp2_v17_b0_detector_health1/B0_RESULT.json",
+        "sha256": "c17a382d6946fe93e09df34f420b2ff07a9ccc9daad184b55c71d23118cf9e9e"
+      },
+      {
+        "path": "experiments/certified_resegmentation_wp2_v18_b1_exact_certificate1/P0_STOP_AUDIT.json",
+        "sha256": "bbda07954068b6d4b870cd042c79690c9350fd353895957f47c828a64922ea72"
+      }
+    ]
+  },
+  "current_source_sha256": "ac4f04dd97a50f2ed6b49bf69f30daedaf880c981b7986aea0901fd1cd82af23",
+  "current_pdf_sha256": "2881f0cfa9b2eec7e9b08eac4fe69f6a3915357a1f829e487f5ed5da0713eccd",
+  "current_pages": 16,
+  "source_attributions": [
+    {
+      "paper": "SWAN",
+      "url": "https://arxiv.org/html/2605.04305v1",
+      "sections": [
+        "3.3",
+        "6, Future Directions"
+      ]
+    },
+    {
+      "paper": "SemStamp",
+      "url": "https://arxiv.org/html/2310.03991v2",
+      "sections": [
+        "Appendix B",
+        "Limitations, Robustness to Stronger Attacks"
+      ]
+    },
+    {
+      "paper": "SimMark",
+      "url": "https://arxiv.org/html/2502.02787v2",
+      "sections": [
+        "4.3"
+      ]
+    },
+    {
+      "paper": "AliMark",
+      "url": "https://arxiv.org/html/2605.29434v1",
+      "sections": [
+        "2",
+        "3.2.1",
+        "3.2.2",
+        "3.2.3"
+      ],
+      "equations": [
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "paper": "SwordStamp",
+      "url": "https://arxiv.org/html/2608.27666v1",
+      "sections": [
+        "4",
+        "5.3"
+      ]
+    }
+  ],
+  "visual_inspection": {
+    "pages_overview_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "focused_pages_inspected": [
+      1,
+      6,
+      7,
+      11
+    ],
+    "objective_table_page": 7,
+    "comparison_subsection_pages": [
+      6,
+      7
+    ],
+    "inspection_status": "pass",
+    "overlap_or_clipping_found": false,
+    "hyperlink_boxes_hidden": true
+  },
+  "original_paper_cache_sha256": {
+    "swan": "2322a51f1ef21d02b5b72020754afcaafb3d5ee5fc73ed018a344cfe3f239265",
+    "semstamp": "323c43e512056719eee1da78fd2c16251aa76a5012727020edd9fe3629dfef1a",
+    "simmark": "cee52132d29c44789cac05a18bfe279e6418f79779319f025b01306c2b6b472d",
+    "alimark": "9b291bdc420745dbb9a2d823d2144a74896644e7562f5040749fd98553d39fde",
+    "swordstamp": "2ba9705f674e6540fc8aee07f782037f757eeed8a8a0ef12eb04ff0088d9e292"
+  }
+}

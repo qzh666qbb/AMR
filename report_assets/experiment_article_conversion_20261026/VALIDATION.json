@@ -1,0 +1,2039 @@
+{
+  "status": "PASS",
+  "snapshot_date": "2026-10-26",
+  "checks": {
+    "top_level_directory_count_exact": true,
+    "top_level_coverage_exact": true,
+    "unique_accounting_ids": true,
+    "one_primary_article_each": true,
+    "all_rows_have_converted_paragraph": true,
+    "all_sources_exist": true,
+    "source_sha_unchanged_during_audit": true,
+    "new_local_links_resolve": true,
+    "all_numerical_claim_checks_pass": true,
+    "all_descendants_assigned": true,
+    "document_reverse_discovery_complete": true,
+    "all_document_sources_match_final_bytes": true,
+    "previous_852_protected_sources_unchanged": true,
+    "previous_source_manifest_fully_retained": true,
+    "new_row_delta_matches_reaudit": true,
+    "no_model_detector_provider_calls": true
+  },
+  "counts": {
+    "top_level_directories": 212,
+    "accounting_rows": 294,
+    "kinds": {
+      "top_level_directory": 212,
+      "nested_scientific_unit": 58,
+      "archive_scientific_unit": 3,
+      "external_support": 13,
+      "archived_report_unit": 2,
+      "documentary_support": 6
+    },
+    "source_sha_files": 1237,
+    "public_rollup_directories": 1042,
+    "sealed_rollup_directories": 351,
+    "no_direct_report_or_historical_report_rows": 51,
+    "eligible_documentary_sources": 692
+  },
+  "numerical_checks": [
+    {
+      "claim": "P1 A–B–A original",
+      "source": "experiments/confirmation_mechanism30/summary.json",
+      "selector": "punctuation_control/fixed_2_33/escape_rates/original/count",
+      "observed": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "claim": "P1 A–B–A full denominator original",
+      "source": "experiments/confirmation_mechanism30/summary.json",
+      "selector": "punctuation_control/fixed_2_33/escape_rates/original/n",
+      "observed": 30,
+      "expected": 30,
+      "passed": true
+    },
+    {
+      "claim": "P1 A–B–A merged_sentence",
+      "source": "experiments/confirmation_mechanism30/summary.json",
+      "selector": "punctuation_control/fixed_2_33/escape_rates/merged_sentence/count",
+      "observed": 30,
+      "expected": 30,
+      "passed": true
+    },
+    {
+      "claim": "P1 A–B–A full denominator merged_sentence",
+      "source": "experiments/confirmation_mechanism30/summary.json",
+      "selector": "punctuation_control/fixed_2_33/escape_rates/merged_sentence/n",
+      "observed": 30,
+      "expected": 30,
+      "passed": true
+    },
+    {
+      "claim": "P1 A–B–A merged_exact_clause",
+      "source": "experiments/confirmation_mechanism30/summary.json",
+      "selector": "punctuation_control/fixed_2_33/escape_rates/merged_exact_clause/count",
+      "observed": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "claim": "P1 A–B–A full denominator merged_exact_clause",
+      "source": "experiments/confirmation_mechanism30/summary.json",
+      "selector": "punctuation_control/fixed_2_33/escape_rates/merged_exact_clause/n",
+      "observed": 30,
+      "expected": 30,
+      "passed": true
+    },
+    {
+      "claim": "P1 pairwise oracle total",
+      "source": "experiments/certified_resegmentation_pairwise_preflight1/audit_results.json",
+      "selector": "systematic_small_instances/dp_oracle_comparisons + random_small_instances/case_count",
+      "observed": 7669,
+      "expected": 7669,
+      "passed": true
+    },
+    {
+      "claim": "P1 additive degeneration controls",
+      "source": "experiments/certified_resegmentation_pairwise_preflight1/audit_results.json",
+      "selector": "additive_degeneracy_checks/case_count",
+      "observed": 1000,
+      "expected": 1000,
+      "passed": true
+    },
+    {
+      "claim": "P1 v17 test",
+      "source": "experiments/certified_resegmentation_wp2_v17_b0_detector_health1/B0_RESULT.json",
+      "selector": "statistics/test/strict_exceedances",
+      "observed": 47,
+      "expected": 47,
+      "passed": true
+    },
+    {
+      "claim": "P1 v17 denominator test",
+      "source": "experiments/certified_resegmentation_wp2_v17_b0_detector_health1/B0_RESULT.json",
+      "selector": "statistics/test/trials",
+      "observed": 1000,
+      "expected": 1000,
+      "passed": true
+    },
+    {
+      "claim": "P1 v17 positive",
+      "source": "experiments/certified_resegmentation_wp2_v17_b0_detector_health1/B0_RESULT.json",
+      "selector": "statistics/positive/strict_exceedances",
+      "observed": 954,
+      "expected": 954,
+      "passed": true
+    },
+    {
+      "claim": "P1 v17 denominator positive",
+      "source": "experiments/certified_resegmentation_wp2_v17_b0_detector_health1/B0_RESULT.json",
+      "selector": "statistics/positive/trials",
+      "observed": 1000,
+      "expected": 1000,
+      "passed": true
+    },
+    {
+      "claim": "P1 v18 maximum pruned pairs",
+      "source": "experiments/certified_resegmentation_wp2_v18_b1_exact_certificate1/P0_STOP_AUDIT.json",
+      "selector": "counts/max_document_pruned_pairs",
+      "observed": 78642945,
+      "expected": 78642945,
+      "passed": true
+    },
+    {
+      "claim": "P1 v18 frozen runtime upper bound",
+      "source": "experiments/certified_resegmentation_wp2_v18_b1_exact_certificate1/P0_STOP_AUDIT.json",
+      "selector": "runtime_upper_bound/conservative_two_replay_gpu_hours",
+      "observed": 86.6501,
+      "expected": 86.6501,
+      "passed": true
+    },
+    {
+      "claim": "P1 v18 pre-scoring stop",
+      "source": "experiments/certified_resegmentation_wp2_v18_b1_exact_certificate1/P0_STOP_AUDIT.json",
+      "selector": "decision",
+      "observed": "stop",
+      "expected": "stop",
+      "passed": true
+    },
+    {
+      "claim": "P1 v18 no certificate artifacts",
+      "source": "experiments/certified_resegmentation_wp2_v18_b1_exact_certificate1/P0_STOP_AUDIT.json",
+      "selector": "certificate_artifacts",
+      "observed": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "claim": "P1 latest normal-length pilot cumulative_complete_API_calls",
+      "source": "experiments/swan_count_neutral_supplement3/AUDIT.json",
+      "selector": "cumulative_complete_API_calls",
+      "observed": 64,
+      "expected": 64,
+      "passed": true
+    },
+    {
+      "claim": "P1 latest normal-length pilot complete_documents",
+      "source": "experiments/swan_count_neutral_supplement3/AUDIT.json",
+      "selector": "complete_documents",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P1 latest normal-length pilot detector_calls",
+      "source": "experiments/swan_count_neutral_supplement3/AUDIT.json",
+      "selector": "detector_calls",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P1 latest normal-length pilot status",
+      "source": "experiments/swan_count_neutral_supplement3/AUDIT.json",
+      "selector": "status",
+      "observed": "Halt",
+      "expected": "Halt",
+      "passed": true
+    },
+    {
+      "claim": "P1 S8 has no fusion method",
+      "source": "experiments/swan_multiview_development1/final_completion4/RESULTS.json",
+      "selector": "methods",
+      "observed": [
+        "P0_raw",
+        "P0_strict",
+        "S8"
+      ],
+      "expected": [
+        "P0_raw",
+        "P0_strict",
+        "S8"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P1 S8 three gates failed",
+      "source": "experiments/swan_multiview_development1/final_completion4/RESULTS.json",
+      "selector": "gates",
+      "observed": [
+        false,
+        false,
+        false
+      ],
+      "expected": [
+        false,
+        false,
+        false
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P1 S8 calibration unavailable",
+      "source": "experiments/swan_multiview_development1/final_completion4/RESULTS.json",
+      "selector": "methods/S8/calibration/available",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "claim": "P1 strict calibration unavailable",
+      "source": "experiments/swan_multiview_development1/final_completion4/RESULTS.json",
+      "selector": "methods/P0_strict/calibration/available",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "claim": "P1 P0 raw decisions baseline",
+      "source": "experiments/swan_multiview_development1/final_completion4/RESULTS.json",
+      "selector": "methods/P0_raw/conditions/baseline/TPR/positive_decisions",
+      "observed": 18,
+      "expected": 18,
+      "passed": true
+    },
+    {
+      "claim": "P1 P0 raw decisions merge",
+      "source": "experiments/swan_multiview_development1/final_completion4/RESULTS.json",
+      "selector": "methods/P0_raw/conditions/merge/TPR/positive_decisions",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P1 P0 raw decisions comma",
+      "source": "experiments/swan_multiview_development1/final_completion4/RESULTS.json",
+      "selector": "methods/P0_raw/conditions/comma/TPR/positive_decisions",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P1 P0 raw decisions space",
+      "source": "experiments/swan_multiview_development1/final_completion4/RESULTS.json",
+      "selector": "methods/P0_raw/conditions/space/TPR/positive_decisions",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P1 S8 human completion range",
+      "source": "experiments/swan_multiview_development1/final_completion4/RESULTS.json",
+      "selector": "methods/S8/conditions",
+      "observed": [
+        28,
+        34
+      ],
+      "expected": [
+        28,
+        34
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P1 S8 final result rows",
+      "source": "experiments/swan_multiview_development1/final_completion4/FINAL_COMPLETION_AUDIT.json",
+      "selector": "full_detector_rows",
+      "observed": 8250,
+      "expected": 8250,
+      "passed": true
+    },
+    {
+      "claim": "P1 S8 generated intents",
+      "source": "experiments/swan_multiview_development1/final_completion4/INPUT_QUALITY_AUDIT.json",
+      "selector": "sum(groups/generated:*/documents)",
+      "observed": 250,
+      "expected": 250,
+      "passed": true
+    },
+    {
+      "claim": "P1 S8 eligible generated inputs",
+      "source": "experiments/swan_multiview_development1/final_completion4/INPUT_QUALITY_AUDIT.json",
+      "selector": "sum(groups/generated:*/input_eligible)",
+      "observed": 203,
+      "expected": 203,
+      "passed": true
+    },
+    {
+      "claim": "P1 S8 total documents",
+      "source": "experiments/swan_multiview_development1/final_completion4/INPUT_QUALITY_AUDIT.json",
+      "selector": "sum(groups/*/documents)",
+      "observed": 550,
+      "expected": 550,
+      "passed": true
+    },
+    {
+      "claim": "P2 W paraphrase order win percent",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_sequence_readout1/ORDER_RESULT.json",
+      "selector": "summaries[W,paraphrase,soft]/pairwise_win_rate/mean",
+      "observed": 77.48,
+      "expected": 77.48,
+      "passed": true
+    },
+    {
+      "claim": "P2 full message candidates",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_channel_audit1/RESULT.json",
+      "selector": "candidate_count",
+      "observed": 65536,
+      "expected": 65536,
+      "passed": true
+    },
+    {
+      "claim": "P2 all representation/mode/condition recoveries zero",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_channel_audit1/RESULT.json",
+      "selector": "summaries",
+      "observed": [
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          12
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 fusion trained models",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_multiscale_readback1/RESULT.json",
+      "selector": "trained_models",
+      "observed": 84,
+      "expected": 84,
+      "passed": true
+    },
+    {
+      "claim": "P2 fusion candidate messages",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_multiscale_readback1/RESULT.json",
+      "selector": "candidate_messages",
+      "observed": 65536,
+      "expected": 65536,
+      "passed": true
+    },
+    {
+      "claim": "P2 all ten methods/four conditions complete recovery zero",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_multiscale_readback1/RESULT.json",
+      "selector": "summaries",
+      "observed": [
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ]
+      ],
+      "expected": [
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ],
+        [
+          0.0,
+          12
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 attention paraphrase macro F1 percent",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_multiscale_readback1/RESULT.json",
+      "selector": "summaries",
+      "observed": 22.97,
+      "expected": 22.97,
+      "passed": true
+    },
+    {
+      "claim": "P2 gate paraphrase macro F1 percent",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_multiscale_readback1/RESULT.json",
+      "selector": "summaries",
+      "observed": 28.93,
+      "expected": 28.93,
+      "passed": true
+    },
+    {
+      "claim": "P2 attention-gate F1 percentage points",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_multiscale_readback1/RESULT.json",
+      "selector": "primary/mean",
+      "observed": -5.96,
+      "expected": -5.96,
+      "passed": true
+    },
+    {
+      "claim": "P2 attention-gate descriptive interval",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_multiscale_readback1/RESULT.json",
+      "selector": "primary/CI95",
+      "observed": [
+        -11.65,
+        -0.73
+      ],
+      "expected": [
+        -11.65,
+        -0.73
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers raw_graphs_available",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "raw_graphs_available",
+      "observed": 192,
+      "expected": 192,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers structurally_eligible_raw_graphs",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "structurally_eligible_raw_graphs",
+      "observed": 172,
+      "expected": 172,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers excluded_raw_graphs",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "excluded_raw_graphs",
+      "observed": 20,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers total_parser_calls",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "total_parser_calls",
+      "observed": 194,
+      "expected": 194,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers replay_parser_calls",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "replay_parser_calls",
+      "observed": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers attribution_function_calls",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "attribution_function_calls",
+      "observed": 192,
+      "expected": 192,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers human_completed",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "human_completed",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers raw_graph_fact_annotations",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "raw_graph_fact_annotations",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers independent_revised_graphs",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "independent_revised_graphs",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers ABCD_graph_predictions",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "ABCD_graph_predictions",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers complete_fact_graph_classifier_comparisons",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "complete_fact_graph_classifier_comparisons",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers parser_loss_rate",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "parser_loss_rate",
+      "observed": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers classifier_error_rate",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "classifier_error_rate",
+      "observed": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "claim": "P2 latest factual layers blind_recovery_256",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_fact_layers_v3_parse1/RESULT.json",
+      "selector": "blind_recovery_256",
+      "observed": "NOT_RUN",
+      "expected": "NOT_RUN",
+      "passed": true
+    },
+    {
+      "claim": "P3 v3 rows",
+      "source": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROFILE_RESULT.json",
+      "selector": "counts/rows",
+      "observed": 3000,
+      "expected": 3000,
+      "passed": true
+    },
+    {
+      "claim": "P3 v3 distinct_target_layers",
+      "source": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROFILE_RESULT.json",
+      "selector": "counts/distinct_target_layers",
+      "observed": 46501,
+      "expected": 46501,
+      "passed": true
+    },
+    {
+      "claim": "P3 v3 runtime upper bound",
+      "source": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROFILE_RESULT.json",
+      "selector": "runtime/conservative_two_replay_upper_bound_gpu_hours",
+      "observed": 77.6152,
+      "expected": 77.6152,
+      "passed": true
+    },
+    {
+      "claim": "P3 v3 no certificates",
+      "source": "experiments/semstamp_certified_defense_v3_wp3_variable_n_profile1/PROFILE_RESULT.json",
+      "selector": "execution_attestation/certificate_computations",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P3 v4 affected_requested_radius_2_rows",
+      "source": "experiments/semstamp_certified_defense_v4_full_radius_profile1/RESOURCE_AUDIT.json",
+      "selector": "coverage/affected_requested_radius_2_rows",
+      "observed": 28,
+      "expected": 28,
+      "passed": true
+    },
+    {
+      "claim": "P3 v4 affected_requested_radius_3_rows",
+      "source": "experiments/semstamp_certified_defense_v4_full_radius_profile1/RESOURCE_AUDIT.json",
+      "selector": "coverage/affected_requested_radius_3_rows",
+      "observed": 155,
+      "expected": 155,
+      "passed": true
+    },
+    {
+      "claim": "P3 v4 corrected_target_layers_planned",
+      "source": "experiments/semstamp_certified_defense_v4_full_radius_profile1/RESOURCE_AUDIT.json",
+      "selector": "coverage/corrected_target_layers_planned",
+      "observed": 47332,
+      "expected": 47332,
+      "passed": true
+    },
+    {
+      "claim": "P3 v4 additional_target_layers_planned",
+      "source": "experiments/semstamp_certified_defense_v4_full_radius_profile1/RESOURCE_AUDIT.json",
+      "selector": "coverage/additional_target_layers_planned",
+      "observed": 831,
+      "expected": 831,
+      "passed": true
+    },
+    {
+      "claim": "P3 v4 historical_distinct_target_layers",
+      "source": "experiments/semstamp_certified_defense_v4_full_radius_profile1/RESOURCE_AUDIT.json",
+      "selector": "coverage/historical_distinct_target_layers",
+      "observed": 46501,
+      "expected": 46501,
+      "passed": true
+    },
+    {
+      "claim": "P3 v4 frozen-rate cost lower bound",
+      "source": "experiments/semstamp_certified_defense_v4_full_radius_profile1/RESOURCE_AUDIT.json",
+      "selector": "budget/two_replay_lower_bound_hours",
+      "observed": 75.3111,
+      "expected": 75.3111,
+      "passed": true
+    },
+    {
+      "claim": "P3 v4 new full profile unrun",
+      "source": "experiments/semstamp_certified_defense_v4_full_radius_profile1/RESOURCE_AUDIT.json",
+      "selector": "full_profile_executed",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "claim": "P3 v4 final Stop",
+      "source": "experiments/semstamp_certified_defense_v4_full_radius_profile1/RESOURCE_AUDIT.json",
+      "selector": "terminal",
+      "observed": "V4_FULL_RADIUS_READINESS_STOP",
+      "expected": "V4_FULL_RADIUS_READINESS_STOP",
+      "passed": true
+    },
+    {
+      "claim": "P4 first development runs",
+      "source": "experiments/swan_multiscale_attention_development1/validation1/SUMMARY.json",
+      "selector": "verified_runs",
+      "observed": 15,
+      "expected": 15,
+      "passed": true
+    },
+    {
+      "claim": "P4 attention tpr percent",
+      "source": "experiments/swan_multiscale_attention_development1/validation1/SUMMARY.json",
+      "selector": "methods/attention/working_points/0.01/all/tpr/micro/mean",
+      "observed": 61.67,
+      "expected": 61.67,
+      "passed": true
+    },
+    {
+      "claim": "P4 attention fpr percent",
+      "source": "experiments/swan_multiscale_attention_development1/validation1/SUMMARY.json",
+      "selector": "methods/attention/working_points/0.01/all/fpr/micro/mean",
+      "observed": 0.51,
+      "expected": 0.51,
+      "passed": true
+    },
+    {
+      "claim": "P4 gate tpr percent",
+      "source": "experiments/swan_multiscale_attention_development1/validation1/SUMMARY.json",
+      "selector": "methods/gate/working_points/0.01/all/tpr/micro/mean",
+      "observed": 60.96,
+      "expected": 60.96,
+      "passed": true
+    },
+    {
+      "claim": "P4 gate fpr percent",
+      "source": "experiments/swan_multiscale_attention_development1/validation1/SUMMARY.json",
+      "selector": "methods/gate/working_points/0.01/all/fpr/micro/mean",
+      "observed": 0.57,
+      "expected": 0.57,
+      "passed": true
+    },
+    {
+      "claim": "P4 first attention gain",
+      "source": "experiments/swan_multiscale_attention_development1/validation1/SUMMARY.json",
+      "selector": "attention_minus/gate/0.01/all/tpr/micro_delta/mean",
+      "observed": 0.71,
+      "expected": 0.71,
+      "passed": true
+    },
+    {
+      "claim": "P4 first attention gain interval",
+      "source": "experiments/swan_multiscale_attention_development1/validation1/SUMMARY.json",
+      "selector": "attention_minus/gate/0.01/all/tpr/mean_micro_delta_ci95",
+      "observed": [
+        -0.59,
+        2.12
+      ],
+      "expected": [
+        -0.59,
+        2.12
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P4 sequential ablation runs",
+      "source": "experiments/swan_multiscale_attention_development1/ablation1/SUMMARY.json",
+      "selector": "verified_runs",
+      "observed": 20,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "claim": "P4 sequential A2 tpr percent",
+      "source": "experiments/swan_multiscale_attention_development1/ablation1/SUMMARY.json",
+      "selector": "methods/A2/working_points/0.01/all/tpr/micro/mean",
+      "observed": 62.18,
+      "expected": 62.18,
+      "passed": true
+    },
+    {
+      "claim": "P4 sequential A2 fpr percent",
+      "source": "experiments/swan_multiscale_attention_development1/ablation1/SUMMARY.json",
+      "selector": "methods/A2/working_points/0.01/all/fpr/micro/mean",
+      "observed": 0.4,
+      "expected": 0.4,
+      "passed": true
+    },
+    {
+      "claim": "P4 sequential A3 tpr percent",
+      "source": "experiments/swan_multiscale_attention_development1/ablation1/SUMMARY.json",
+      "selector": "methods/A3/working_points/0.01/all/tpr/micro/mean",
+      "observed": 58.37,
+      "expected": 58.37,
+      "passed": true
+    },
+    {
+      "claim": "P4 sequential A3 fpr percent",
+      "source": "experiments/swan_multiscale_attention_development1/ablation1/SUMMARY.json",
+      "selector": "methods/A3/working_points/0.01/all/fpr/micro/mean",
+      "observed": 0.39,
+      "expected": 0.39,
+      "passed": true
+    },
+    {
+      "claim": "P4 family training trajectories",
+      "source": "experiments/swan_multiscale_attention_development1/family_hard1/SUMMARY.json",
+      "selector": "execution/completed_runs",
+      "observed": 80,
+      "expected": 80,
+      "passed": true
+    },
+    {
+      "claim": "P4 family frozen endpoints",
+      "source": "experiments/swan_multiscale_attention_development1/family_hard1/SUMMARY.json",
+      "selector": "runs",
+      "observed": 100,
+      "expected": 100,
+      "passed": true
+    },
+    {
+      "claim": "P4 family planned comparisons",
+      "source": "experiments/swan_multiscale_attention_development1/family_hard1/SUMMARY.json",
+      "selector": "comparisons",
+      "observed": 32,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "claim": "P4 all extra loss selections zero",
+      "source": "experiments/swan_multiscale_attention_development1/family_hard1/SUMMARY.json",
+      "selector": "selected_coefficients",
+      "observed": [
+        "L000",
+        "L000",
+        "L000"
+      ],
+      "expected": [
+        "L000",
+        "L000",
+        "L000"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P4 family strict benefit rule none passed",
+      "source": "experiments/swan_multiscale_attention_development1/family_hard1/REPORT.md",
+      "selector": "completed-report statement",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "claim": "P4 transfer original_signal_sentences_checked",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer3/HALT_AUDIT.json",
+      "selector": "original_signal_sentences_checked",
+      "observed": 384,
+      "expected": 384,
+      "passed": true
+    },
+    {
+      "claim": "P4 transfer original_signal_score_cells_checked",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer3/HALT_AUDIT.json",
+      "selector": "original_signal_score_cells_checked",
+      "observed": 38400,
+      "expected": 38400,
+      "passed": true
+    },
+    {
+      "claim": "P4 transfer partial_feature_pairs",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer3/HALT_AUDIT.json",
+      "selector": "partial_feature_pairs",
+      "observed": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "claim": "P4 transfer expected_clean_feature_pairs",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer3/HALT_AUDIT.json",
+      "selector": "expected_clean_feature_pairs",
+      "observed": 24,
+      "expected": 24,
+      "passed": true
+    },
+    {
+      "claim": "P4 transfer model_comparison_available",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer3/HALT_AUDIT.json",
+      "selector": "model_comparison_available",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "claim": "P4 transfer attack_evaluation_available",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer3/HALT_AUDIT.json",
+      "selector": "attack_evaluation_available",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "claim": "P4 transfer halt_retained",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer3/HALT_AUDIT.json",
+      "selector": "halt_retained",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "claim": "P4 independent readout original carrier AUROC",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer3/SIGNAL_RESULTS.json",
+      "selector": "populations/readout/carrier_auroc",
+      "observed": 0.741,
+      "expected": 0.741,
+      "passed": true
+    },
+    {
+      "claim": "P4 independent readout document paired wins",
+      "source": "第二篇_语义消息写入与读回/02_实验/semantic_sequence_stage1_run2/multiscale_transfer3/SIGNAL_RESULTS.json",
+      "selector": "populations/readout/document_paired_win",
+      "observed": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed target alignment R0 original",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R0/versions/original/target_matches",
+      "observed": 83,
+      "expected": 83,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed alignment denominator R0 original",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R0/versions/original/denominator",
+      "observed": 96,
+      "expected": 96,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed model interval R0 original",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R0/versions/original/model_cluster_95_percent_interval",
+      "observed": [
+        80.21,
+        92.71
+      ],
+      "expected": [
+        80.21,
+        92.71
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed target alignment R0 paraphrase",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R0/versions/paraphrase/target_matches",
+      "observed": 83,
+      "expected": 83,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed alignment denominator R0 paraphrase",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R0/versions/paraphrase/denominator",
+      "observed": 96,
+      "expected": 96,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed model interval R0 paraphrase",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R0/versions/paraphrase/model_cluster_95_percent_interval",
+      "observed": [
+        80.21,
+        92.71
+      ],
+      "expected": [
+        80.21,
+        92.71
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed target alignment R1 original",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R1/versions/original/target_matches",
+      "observed": 88,
+      "expected": 88,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed alignment denominator R1 original",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R1/versions/original/denominator",
+      "observed": 96,
+      "expected": 96,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed model interval R1 original",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R1/versions/original/model_cluster_95_percent_interval",
+      "observed": [
+        85.42,
+        96.88
+      ],
+      "expected": [
+        85.42,
+        96.88
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed target alignment R1 paraphrase",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R1/versions/paraphrase/target_matches",
+      "observed": 88,
+      "expected": 88,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed alignment denominator R1 paraphrase",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R1/versions/paraphrase/denominator",
+      "observed": 96,
+      "expected": 96,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed model interval R1 paraphrase",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R1/versions/paraphrase/model_cluster_95_percent_interval",
+      "observed": [
+        85.42,
+        96.88
+      ],
+      "expected": [
+        85.42,
+        96.88
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed target alignment R2 original",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R2/versions/original/target_matches",
+      "observed": 89,
+      "expected": 89,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed alignment denominator R2 original",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R2/versions/original/denominator",
+      "observed": 96,
+      "expected": 96,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed model interval R2 original",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R2/versions/original/model_cluster_95_percent_interval",
+      "observed": [
+        86.46,
+        97.92
+      ],
+      "expected": [
+        86.46,
+        97.92
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed target alignment R2 paraphrase",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R2/versions/paraphrase/target_matches",
+      "observed": 89,
+      "expected": 89,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed alignment denominator R2 paraphrase",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R2/versions/paraphrase/denominator",
+      "observed": 96,
+      "expected": 96,
+      "passed": true
+    },
+    {
+      "claim": "P2 sealed model interval R2 paraphrase",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/variants/R2/versions/paraphrase/model_cluster_95_percent_interval",
+      "observed": [
+        86.46,
+        97.92
+      ],
+      "expected": [
+        86.46,
+        97.92
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 target-alignment scope real_human/completed_reviewers",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "real_human/completed_reviewers",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 target-alignment scope real_human/required_reviewers",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "real_human/required_reviewers",
+      "observed": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "claim": "P2 target-alignment scope real_human/nonblank_label_cells",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "real_human/nonblank_label_cells",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 target-alignment scope real_human/gate",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "real_human/gate",
+      "observed": "NOT_EVALUATED",
+      "expected": "NOT_EVALUATED",
+      "passed": true
+    },
+    {
+      "claim": "P2 target-alignment scope model_diagnostic/paraphrase_preservation/matches",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/paraphrase_preservation/matches",
+      "observed": 95,
+      "expected": 95,
+      "passed": true
+    },
+    {
+      "claim": "P2 target-alignment scope model_diagnostic/paraphrase_preservation/denominator",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/paraphrase_preservation/denominator",
+      "observed": 96,
+      "expected": 96,
+      "passed": true
+    },
+    {
+      "claim": "P2 target-alignment scope model_diagnostic/formal_gate_decision_issued",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_validation_20261026/RESULT.json",
+      "selector": "model_diagnostic/formal_gate_decision_issued",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "claim": "P2 v2 model carrier original_target_correct",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_carrier_v2_20261026/MODEL_RESULT.json",
+      "selector": "original_target_correct",
+      "observed": 96,
+      "expected": 96,
+      "passed": true
+    },
+    {
+      "claim": "P2 v2 model carrier paraphrase_target_correct",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_carrier_v2_20261026/MODEL_RESULT.json",
+      "selector": "paraphrase_target_correct",
+      "observed": 96,
+      "expected": 96,
+      "passed": true
+    },
+    {
+      "claim": "P2 v2 model carrier pair_all_three_preserved",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_carrier_v2_20261026/MODEL_RESULT.json",
+      "selector": "pair_all_three_preserved",
+      "observed": 96,
+      "expected": 96,
+      "passed": true
+    },
+    {
+      "claim": "P2 v2 model carrier exact_unchanged_paraphrases",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_carrier_v2_20261026/MODEL_RESULT.json",
+      "selector": "exact_unchanged_paraphrases",
+      "observed": 13,
+      "expected": 13,
+      "passed": true
+    },
+    {
+      "claim": "P2 v2 model carrier original_cluster_95ci",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_carrier_v2_20261026/MODEL_RESULT.json",
+      "selector": "original_cluster_95ci",
+      "observed": [
+        1.0,
+        1.0
+      ],
+      "expected": [
+        1.0,
+        1.0
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 v2 model carrier bootstrap/all_success_interval_is_empirical_degenerate_not_certainty",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_carrier_v2_20261026/MODEL_RESULT.json",
+      "selector": "bootstrap/all_success_interval_is_empirical_degenerate_not_certainty",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "claim": "P2 v2 model carrier independent_annotation",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_carrier_v2_20261026/MODEL_RESULT.json",
+      "selector": "independent_annotation",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "claim": "P2 v2 model carrier human_completed",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_carrier_v2_20261026/MODEL_RESULT.json",
+      "selector": "human_completed",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 v2 model carrier full_message_recovery_estimated",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_carrier_v2_20261026/MODEL_RESULT.json",
+      "selector": "full_message_recovery_estimated",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "claim": "P2 historical v2 gate actual_row_count",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_layer_gate_analysis_20261026/RESULT.json",
+      "selector": "actual_row_count",
+      "observed": 192,
+      "expected": 192,
+      "passed": true
+    },
+    {
+      "claim": "P2 historical v2 gate actual_field_counts/status/PENDING_TEXT_CONFIRMATION",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_layer_gate_analysis_20261026/RESULT.json",
+      "selector": "actual_field_counts/status/PENDING_TEXT_CONFIRMATION",
+      "observed": 192,
+      "expected": 192,
+      "passed": true
+    },
+    {
+      "claim": "P2 historical v2 gate actual_field_counts/raw_graph_present/False",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_layer_gate_analysis_20261026/RESULT.json",
+      "selector": "actual_field_counts/raw_graph_present/False",
+      "observed": 192,
+      "expected": 192,
+      "passed": true
+    },
+    {
+      "claim": "P2 historical v2 gate actual_field_counts/human_text_confirmed/False",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_layer_gate_analysis_20261026/RESULT.json",
+      "selector": "actual_field_counts/human_text_confirmed/False",
+      "observed": 192,
+      "expected": 192,
+      "passed": true
+    },
+    {
+      "claim": "P2 historical v2 gate synthetic_probe_count",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_layer_gate_analysis_20261026/RESULT.json",
+      "selector": "synthetic_probe_count",
+      "observed": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "claim": "P2 historical v2 gate real_graphs_generated",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_layer_gate_analysis_20261026/RESULT.json",
+      "selector": "real_graphs_generated",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 historical v2 gate first_two_probes_never_reached_raw_graph_gate",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_layer_gate_analysis_20261026/RESULT.json",
+      "selector": "first_two_probes_never_reached_raw_graph_gate",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "claim": "P2 historical v2 gate historical_execution_manifest_unchanged",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_fact_layer_gate_analysis_20261026/RESULT.json",
+      "selector": "historical_execution_manifest_unchanged",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "claim": "P2 existing codebook audit message_count",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_innovation_validation_20261026/CODEBOOK_AUDIT.json",
+      "selector": "message_count",
+      "observed": 256,
+      "expected": 256,
+      "passed": true
+    },
+    {
+      "claim": "P2 existing codebook audit unique_codeword_count",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_innovation_validation_20261026/CODEBOOK_AUDIT.json",
+      "selector": "unique_codeword_count",
+      "observed": 256,
+      "expected": 256,
+      "passed": true
+    },
+    {
+      "claim": "P2 existing codebook audit codeword_length",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_innovation_validation_20261026/CODEBOOK_AUDIT.json",
+      "selector": "codeword_length",
+      "observed": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "claim": "P2 existing codebook audit unordered_pairs_checked",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_innovation_validation_20261026/CODEBOOK_AUDIT.json",
+      "selector": "unordered_pairs_checked",
+      "observed": 32640,
+      "expected": 32640,
+      "passed": true
+    },
+    {
+      "claim": "P2 existing codebook audit minimum_hamming_distance",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_innovation_validation_20261026/CODEBOOK_AUDIT.json",
+      "selector": "minimum_hamming_distance",
+      "observed": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "claim": "P2 existing codebook audit minimum_unit_levenshtein_distance",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_innovation_validation_20261026/CODEBOOK_AUDIT.json",
+      "selector": "minimum_unit_levenshtein_distance",
+      "observed": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "claim": "P2 existing codebook audit ideal_aligned_hard_substitution_radius",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_innovation_validation_20261026/CODEBOOK_AUDIT.json",
+      "selector": "ideal_aligned_hard_substitution_radius",
+      "observed": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "claim": "P2 existing codebook audit empirical_channel_test",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_innovation_validation_20261026/CODEBOOK_AUDIT.json",
+      "selector": "empirical_channel_test",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "claim": "P2 existing codebook audit arbitrary_single_insertion_or_deletion_guarantee",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_innovation_validation_20261026/CODEBOOK_AUDIT.json",
+      "selector": "arbitrary_single_insertion_or_deletion_guarantee",
+      "observed": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "claim": "P2 published one-deletion ambiguity",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_innovation_validation_20261026/CODEBOOK_AUDIT.json",
+      "selector": "one_deletion_ambiguity",
+      "observed": [
+        "AABDAAA",
+        "AABDAAA"
+      ],
+      "expected": [
+        "AABDAAA",
+        "AABDAAA"
+      ],
+      "passed": true
+    },
+    {
+      "claim": "P2 authentication design provenance checks_count",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_sequence_authentication_design_20261026/VALIDATION.json",
+      "selector": "checks_count",
+      "observed": 60,
+      "expected": 60,
+      "passed": true
+    },
+    {
+      "claim": "P2 authentication design provenance new_authentication_runs",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_sequence_authentication_design_20261026/VALIDATION.json",
+      "selector": "new_authentication_runs",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 authentication design provenance new_forgery_tests",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_sequence_authentication_design_20261026/VALIDATION.json",
+      "selector": "new_forgery_tests",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 authentication design provenance new_keys_created",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_sequence_authentication_design_20261026/VALIDATION.json",
+      "selector": "new_keys_created",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P2 authentication design provenance scope",
+      "source": "第二篇_语义消息写入与读回/03_实验外支持材料/semantic_sequence_authentication_design_20261026/VALIDATION.json",
+      "selector": "scope",
+      "observed": "documentation_only",
+      "expected": "documentation_only",
+      "passed": true
+    },
+    {
+      "claim": "P3 precursor radius audit source_rows",
+      "source": "report_assets/research_closure_20261025/RADIUS_SCOPE_AUDIT.json",
+      "selector": "source_rows",
+      "observed": 3000,
+      "expected": 3000,
+      "passed": true
+    },
+    {
+      "claim": "P3 precursor radius audit capped_rows_by_requested_radius/2",
+      "source": "report_assets/research_closure_20261025/RADIUS_SCOPE_AUDIT.json",
+      "selector": "capped_rows_by_requested_radius/2",
+      "observed": 28,
+      "expected": 28,
+      "passed": true
+    },
+    {
+      "claim": "P3 precursor radius audit capped_rows_by_requested_radius/3",
+      "source": "report_assets/research_closure_20261025/RADIUS_SCOPE_AUDIT.json",
+      "selector": "capped_rows_by_requested_radius/3",
+      "observed": 155,
+      "expected": 155,
+      "passed": true
+    },
+    {
+      "claim": "P3 precursor radius audit inference_calls",
+      "source": "report_assets/research_closure_20261025/RADIUS_SCOPE_AUDIT.json",
+      "selector": "inference_calls",
+      "observed": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "claim": "P3 precursor radius audit formal_certificate_outcomes",
+      "source": "report_assets/research_closure_20261025/RADIUS_SCOPE_AUDIT.json",
+      "selector": "formal_certificate_outcomes",
+      "observed": "NOT_COMPUTED",
+      "expected": "NOT_COMPUTED",
+      "passed": true
+    },
+    {
+      "claim": "P1 historical full repeatability 10",
+      "source": "archive/20260911_pre_unification/derived_experiment_docs/experiments/candidate_budget16_pilot30/feedback_driven_strict30/full_repeatability_10.md",
+      "selector": "report statements",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "claim": "P1 historical full repeatability 20",
+      "source": "archive/20260911_pre_unification/derived_experiment_docs/experiments/candidate_budget16_pilot30/feedback_driven_strict30/full_repeatability_20.md",
+      "selector": "report statements",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "claim": "P1 historical full repeatability 50",
+      "source": "archive/20260911_pre_unification/derived_experiment_docs/experiments/candidate_budget16_pilot30/feedback_driven_strict30/full_repeatability_50.md",
+      "selector": "report statements",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "claim": "P1 B4 candidate denominator",
+      "source": "archive/20260911_pre_unification/experiment_docs/planB_b4_candidate_report.md",
+      "selector": "report statement",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "claim": "P1 B5 automatic candidate composition",
+      "source": "archive/20260911_pre_unification/experiment_docs/planB_b5_joint_report.md",
+      "selector": "report statement",
+      "observed": true,
+      "expected": true,
+      "passed": true
+    }
+  ],
+  "links": {
+    "checked_local_links": 1594,
+    "failures": [],
+    "preexisting_out_of_scope_broken_links": [
+      {
+        "document": "第二篇_语义消息写入与读回/01_论文文档/第二第三篇研究闭环.md",
+        "target": "file:///Users/bytedance/AMR/第二篇_语义消息写入与读回/02_实验/semantic_watermark_defense_plan_20261007/ALGORITHM_CONTRACT.md",
+        "exists": false
+      },
+      {
+        "document": "第二篇_语义消息写入与读回/01_论文文档/第二第三篇研究闭环.md",
+        "target": "file:///Users/bytedance/AMR/第二篇_语义消息写入与读回/02_实验/semantic_watermark_defense_plan_20261007/THREAT_MODEL.md",
+        "exists": false
+      },
+      {
+        "document": "第二篇_语义消息写入与读回/01_论文文档/第二第三篇研究闭环.md",
+        "target": "file:///Users/bytedance/AMR/第二篇_语义消息写入与读回/02_实验/semantic_watermark_defense_plan_20261007/BASELINE_COMPARISON_CONTRACT.md",
+        "exists": false
+      },
+      {
+        "document": "第二篇_语义消息写入与读回/01_论文文档/第二第三篇研究闭环.md",
+        "target": "file:///Users/bytedance/AMR/第二篇_语义消息写入与读回/02_实验/semantic_watermark_defense_plan_20261007/PLAN.md",
+        "exists": false
+      },
+      {
+        "document": "第二篇_语义消息写入与读回/01_论文文档/第二第三篇研究闭环.md",
+        "target": "file:///Users/bytedance/AMR/第二篇_语义消息写入与读回/02_实验/semantic_watermark_defense_plan_20261007/NOVELTY_GO_NO_GO.md",
+        "exists": false
+      },
+      {
+        "document": "第二篇_语义消息写入与读回/01_论文文档/第二第三篇研究闭环.md",
+        "target": "file:///Users/bytedance/AMR/第二篇_语义消息写入与读回/02_实验/semantic_watermark_defense_plan_20261007/THREAT_MODEL.md",
+        "exists": false
+      },
+      {
+        "document": "第二篇_语义消息写入与读回/01_论文文档/第二第三篇研究闭环.md",
+        "target": "file:///Users/bytedance/AMR/第二篇_语义消息写入与读回/02_实验/semantic_watermark_defense_plan_20261007/ALGORITHM_CONTRACT.md",
+        "exists": false
+      },
+      {
+        "document": "第二篇_语义消息写入与读回/01_论文文档/第二第三篇研究闭环.md",
+        "target": "file:///Users/bytedance/AMR/第二篇_语义消息写入与读回/02_实验/semantic_watermark_defense_plan_20261007/BASELINE_COMPARISON_CONTRACT.md",
+        "exists": false
+      }
+    ],
+    "scope": "new manuscripts/table and added conversion links in synchronized navigation",
+    "anchor_validation": "file existence only; machine paragraph IDs separately verified"
+  },
+  "document_coverage": {
+    "scan_roots": [
+      "experiments",
+      "archive",
+      "report_assets",
+      "baselines",
+      "deliverables",
+      "论文",
+      "第二篇_语义消息写入与读回",
+      "root-level Markdown"
+    ],
+    "filename_keyword_filter_used": false,
+    "discovered_markdown_paths": 956,
+    "eligible_documents": 692,
+    "assigned_documents": 692,
+    "unassigned_documents": 0,
+    "excluded_counts_by_reason": {
+      "dependency_or_duplicate_editorial_snapshot": 159,
+      "private_or_sealed": 99,
+      "raw_payload_or_sensitive_conversation": 5,
+      "this_audit_output": 1
+    },
+    "independent_studies_inferred_from_document_count": false
+  },
+  "reaudit": {
+    "previous_accounting_rows": 294,
+    "added_accounting_rows": 0,
+    "added_ids": [],
+    "previous_protected_source_count": 1237,
+    "changed_previous_protected_sources": []
+  },
+  "limits": [
+    "directory inventory is not an independent-study count or a claim that all manuscripts are publication ready",
+    "raw-only historical folders retain an unverified scientific terminal; no new performance claim is synthesized",
+    "observed scalar markers are copied metadata, not normalized experimental outcomes",
+    "this checks selected aggregate facts and report provenance, not new statistical inference",
+    "private/source/generated text and remote access configuration are not copied into editorial artifacts",
+    "P1 English manuscript is existing work; S8 extension here is not silently inserted into its abstract",
+    "reverse discovery covers accessible Markdown in declared roots; excluded payloads and binary-only assets are not asserted to be semantically re-audited",
+    "historical summaries and finite codebook arithmetic are not additional empirical channel or authentication trials"
+  ],
+  "execution_attestation": {
+    "new_experiments": 0,
+    "detector_calls": 0,
+    "model_calls": 0,
+    "provider_calls": 0,
+    "submissions": 0
+  }
+}

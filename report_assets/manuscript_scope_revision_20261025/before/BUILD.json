@@ -1,0 +1,87 @@
+{
+  "schema_version": 3,
+  "built_at": "2026-10-25T13:31:09.092370+00:00",
+  "target": "TMLR anonymous unified draft, editorial revision 2026-10-25",
+  "included_evidence_streams": [
+    "SWAN segmentation-interface audit",
+    "SemStamp/SimMark exact-resegmentation framework and system validation"
+  ],
+  "external_submission_performed": false,
+  "new_experiment_performed": false,
+  "command": "tectonic --keep-logs main.tex",
+  "build_isolated_from_workspace": true,
+  "status": "pass_with_underfull_layout_warnings",
+  "pdf": {
+    "path": "main.pdf",
+    "pages": 16,
+    "bytes": 138737,
+    "page_size": "US Letter",
+    "page_size_points": [
+      612,
+      792
+    ],
+    "encrypted": false,
+    "unresolved_citations": 0,
+    "overfull_boxes": 0,
+    "sha256": "2881f0cfa9b2eec7e9b08eac4fe69f6a3915357a1f829e487f5ed5da0713eccd"
+  },
+  "source_sha256": {
+    "main.tex": "ac4f04dd97a50f2ed6b49bf69f30daedaf880c981b7986aea0901fd1cd82af23",
+    "references.bib": "bdee30ecfee6489382f4db3896c88f5de7adcfa923190055cdc231fc878ca7ec",
+    "README.md": "350df45d186b3f0141f037acc1974cc30437841ae37b638868f30d7cb11d2e82",
+    "EDITORIAL_REVISION.md": "76aca282b2992eb289561545ee9cd23fcf85c4ccd2ead56d4edf0e35cf5c2466"
+  },
+  "template": {
+    "repository": "https://github.com/JmlrOrg/tmlr-style-file",
+    "head": "7bf90efe3a0debbba703c05c43f3ff7e4d4a2992",
+    "archive_sha256": "48f9f972cc812d2cfc8032a78578c2f5d8939b92fbd4f61095e8cbeb3394f92d",
+    "modified": false
+  },
+  "warnings": [
+    "Underfull hbox/vbox layout warnings only"
+  ],
+  "underfull_warning_count_final_tex_log": 8,
+  "revision": {
+    "date": "2026-10-25",
+    "previous_source_sha256": "9c07094c39c8efac791a9a02e520d0af08f2fd511de88ba3d757b2dfd634c5be",
+    "previous_pdf_sha256": "0d90a490e3e88346ac35c1b8e573e47411c03a8e31606bc82640be27e53adf9c",
+    "previous_build_record": "report_assets/manuscript_revision_20261025/before/BUILD.json",
+    "historical_parent_manifest_unchanged": true,
+    "experimental_claims_and_primary_endpoints_unchanged": true,
+    "comparison_is_methodological_not_performance_benchmark": true
+  },
+  "visual_checks": {
+    "pages_overview_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "focused_pages_inspected": [
+      1,
+      6,
+      7,
+      11
+    ],
+    "objective_table_page": 7,
+    "comparison_subsection_pages": [
+      6,
+      7
+    ],
+    "inspection_status": "pass",
+    "overlap_or_clipping_found": false,
+    "hyperlink_boxes_hidden": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "src/core/multiview_alignment.py": "c0e3c7cb1df56dd5d0d8118f4fa26fe1a60b28d2ed25f255cedffc57e24d93de",
+    "src/core/multiview_detector.py": "c3299f1e31807056e9760f189476be7ac6d0c2039a408c493f472cd9ff228e71",
+    "src/core/multiview_views.py": "6875e8edf390664cd641a4d9d564408dceafd309811bbdbfb89f6193acd28fd3",
+    "src/core/multiview_candidates.py": "3822f0db7b8ee7f50f5d85a52cd4ccdbf485cb367ac0356cbd3d679d09e3d658",
+    "src/core/multiscale_blind.py": "e19427ce2c84682d02fcefd25cbe274b6f7c4d0cf544ddb77265232ac7e432fd",
+    "scripts/run_swan_multiview.py": "4d85464f490dc4eeae1bf2b4ecdc1c28d5aa5e046aaf1e549034b6289c4383a1",
+    "scripts/export_swan_multiview_review.py": "49f7dac64ffe5627110864d89c1ae73e763960961fc01b43876e43995c55786b",
+    "scripts/swan_multiview_preflight.py": "cf8a4e86be0ef27e5a82eb74b676636e1ea4cba8588fa2862404f7dbd16d5ffc",
+    "tests/test_swan_multiview.py": "c8f39adabf38401d932f43a3b598222d049a46c1f379fd65af10d6d7cd94673d"
+  },
+  "historical_result_reports": {
+    "experiments/swan_multiview_development1/IMPLEMENTATION_REPORT.md": "e5cfe1ff5bdf0423b79610a39c3e59e044375e7c182fb15024a5aa4eaeb3ab6c",
+    "experiments/swan_multiscale_attention_development1/validation1/REPORT.md": "bca7ad7cbdf888c24fa6d319c586064bd3695e46e7a431e03edcd64c74f73f0c",
+    "experiments/swan_multiscale_attention_development1/ablation1/REPORT.md": "0e282aa43c42fd53febdd39d14ef864bc3de8ab5cde244880ea512d10db739cf"
+  }
+}

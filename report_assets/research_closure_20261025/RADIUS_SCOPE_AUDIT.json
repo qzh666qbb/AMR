@@ -1,0 +1,36 @@
+{
+  "affected_cohorts": {
+    "0": {},
+    "1": {},
+    "2": {
+      "positive": 28
+    },
+    "3": {
+      "calibration_null": 51,
+      "independent_test_null": 45,
+      "positive": 59
+    }
+  },
+  "capped_rows_by_requested_radius": {
+    "0": 0,
+    "1": 0,
+    "2": 28,
+    "3": 155
+  },
+  "formal_certificate_outcomes": "NOT_COMPUTED",
+  "historical_terminal_unchanged": "V3_VARIABLE_N_PROFILE_READINESS_STOP",
+  "inference_calls": 0,
+  "original_edge_counts_below_3": {
+    "1": 28,
+    "2": 127
+  },
+  "original_full_radius_2_3_workload": "NOT_PROFILED_BY_THIS_ARTIFACT",
+  "original_threat_cost": "max(insertions, deletions)",
+  "primary_radius_1_affected": false,
+  "profile_effective_radius_rule": "min(requested_radius, original_edge_count)",
+  "reason": "Pure insertion budgets need not be capped by original edge count; requested radius 2/3 and effective radius must not be conflated.",
+  "schema": "paper-closure-radius-scope/v1",
+  "source_rows": 3000,
+  "source_rows_sha256": "c3a941ce4d8b205090452fc31c290c0b186cf56e8b89ff10f49162dc60c08fb5",
+  "status": "PROFILE_CONTRACT_MATCHES_BUT_ORIGINAL_RADIUS_SCOPE_DIFFERS"
+}

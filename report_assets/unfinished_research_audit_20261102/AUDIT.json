@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "date": "2026-11-02",
+  "registry_rows": 23,
+  "counts": {
+    "swan_open": 8,
+    "unverified_extension": 4,
+    "semstamp_open": 2,
+    "completed_comparison": 8,
+    "withdrawn_conclusion": 1
+  },
+  "swan_related_open_questions": 12,
+  "including_semstamp_open_questions": 14,
+  "unique_source_files": 29,
+  "local_report_links_checked": 29,
+  "missing_links": [],
+  "registry_sha256": "39b13b2d466b86d5dcc13421dec8c385f09d5cd94cdd0f97035e4366bc4259e1",
+  "report_sha256": "4b7e60b6bb2317faf51f4caaa542dbedf3b04b9d5d451af3264407e3706c3234",
+  "source_manifest_sha256": "309993b672aae336aed9c1b18a87f821581bf3bd5d2cef3e01ac34daf323b68c",
+  "scope": "Curated source/status audit, not a rerun or independent metric recomputation."
+}

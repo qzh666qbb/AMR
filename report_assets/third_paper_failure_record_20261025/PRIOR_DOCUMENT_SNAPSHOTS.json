@@ -1,0 +1,30 @@
+{
+  "schema": "third-paper-failure-snapshots/v1",
+  "snapshots": [
+    {
+      "original_path": "论文转化方案.md",
+      "snapshot_path": "report_assets/third_paper_failure_record_20261025/before/论文转化方案.md",
+      "sha256": "35f8091bdff075e0470990d53ccedc8a1ca12c30cac892481a0b28cfd4566f1a"
+    },
+    {
+      "original_path": "第二第三篇研究闭环.md",
+      "snapshot_path": "report_assets/third_paper_failure_record_20261025/before/第二第三篇研究闭环.md",
+      "sha256": "0a3d51eeac9d0e54e4b501c5c66afad8e7d7204150df1f273681bba6a3103e96"
+    },
+    {
+      "original_path": "report_assets/research_closure_20261025/VALIDATION.json",
+      "snapshot_path": "report_assets/third_paper_failure_record_20261025/before/report_assets/research_closure_20261025/VALIDATION.json",
+      "sha256": "02b1eeaee1011272e79065aef069f4d5ce454461b04916462bcf5fb49997cab0"
+    },
+    {
+      "original_path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/SHA256SUMS",
+      "snapshot_path": "report_assets/third_paper_failure_record_20261025/before/experiments/semstamp_certified_defense_v4_full_radius_profile1/SHA256SUMS",
+      "sha256": "ab1e7c2cdecfbf4aaa80a03163ce9bb4f6ed26d94f8b83c5d800c588bdcf9e1f"
+    },
+    {
+      "original_path": "experiments/semstamp_certified_defense_v4_full_radius_profile1/DELIVERY_VALIDATION.json",
+      "snapshot_path": "report_assets/third_paper_failure_record_20261025/before/experiments/semstamp_certified_defense_v4_full_radius_profile1/DELIVERY_VALIDATION.json",
+      "sha256": "ddfcaae957959cc1cbc30a37ddd87fa4f08ef5a1fc4c94d1e4e08067836f5a67"
+    }
+  ]
+}

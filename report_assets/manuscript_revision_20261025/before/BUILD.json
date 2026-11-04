@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "built_at": "2026-10-05T18:38:22Z",
+  "target": "TMLR anonymous unified submission draft",
+  "included_evidence_streams": [
+    "SWAN segmentation-interface audit",
+    "SemStamp/SimMark exact-resegmentation framework and system validation"
+  ],
+  "external_submission_performed": false,
+  "command": "tectonic --keep-logs main.tex",
+  "status": "pass_with_underfull_layout_warnings",
+  "pdf": {
+    "path": "main.pdf",
+    "pages": 13,
+    "bytes": 119503,
+    "page_size_points": [
+      612,
+      792
+    ],
+    "page_size": "US Letter",
+    "encrypted": false,
+    "unresolved_citations": 0,
+    "overfull_boxes": 0,
+    "sha256": "0d90a490e3e88346ac35c1b8e573e47411c03a8e31606bc82640be27e53adf9c"
+  },
+  "source_sha256": {
+    "main.tex": "9c07094c39c8efac791a9a02e520d0af08f2fd511de88ba3d757b2dfd634c5be",
+    "references.bib": "bdee30ecfee6489382f4db3896c88f5de7adcfa923190055cdc231fc878ca7ec",
+    "README.md": "d24e5735ac5a3eb0787e82c8ea6e47ac152265b5311d859f2aac4ae92ebba80a"
+  },
+  "template": {
+    "repository": "https://github.com/JmlrOrg/tmlr-style-file",
+    "head": "7bf90efe3a0debbba703c05c43f3ff7e4d4a2992",
+    "archive_sha256": "48f9f972cc812d2cfc8032a78578c2f5d8939b92fbd4f61095e8cbeb3394f92d",
+    "modified": false
+  },
+  "warnings": [
+    "Underfull hbox/vbox layout warnings only"
+  ],
+  "visual_checks": {
+    "page_1": "pass",
+    "page_7": "pass",
+    "page_12": "pass",
+    "page_13": "pass",
+    "overlap_or_clipping_found": false,
+    "hyperlink_boxes_hidden": true
+  }
+}

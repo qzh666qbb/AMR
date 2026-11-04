@@ -1,0 +1,23 @@
+{
+  "claims": {
+    "complementarity_when_event_watermark_fails": "NOT_VERIFIED",
+    "current_guarantee_does_not_cover_text_changes": "CONTRACT_SCOPE_LIMIT",
+    "current_resource_readiness": "V4_FULL_RADIUS_READINESS_STOP",
+    "existing_chain_does_not_read_amr_event_symbols": "IMPLEMENTATION_SEPARATION",
+    "high_certification_under_light_paraphrase": "NOT_TESTED_OUTSIDE_CURRENT_THREAT_SET",
+    "independent_signal_from_base_detector": "NOT_IMPLEMENTED",
+    "joint_fpr_control": "NOT_EVALUATED",
+    "new_certification_paradigm": "PROPOSED_NOT_ESTABLISHED",
+    "real_text_certificate_results": "NOT_COMPUTED",
+    "robustness_under_local_event_changes": "NOT_TESTED_OUTSIDE_CURRENT_THREAT_SET",
+    "strong_semantic_rewrite_empirically_breaks_new_signal": "NOT_TESTED",
+    "v4_radius_coverage_correction": "CPU_ORACLE_VERIFIED"
+  },
+  "goal_status": "NOT_ACHIEVED_IN_CURRENT_RUN",
+  "historical_terminals_rewritten": false,
+  "new_experiments_authorized": false,
+  "record_only": true,
+  "research_goal": "independent_practical_complementary_certification",
+  "schema": "third-paper-claim-status/v1",
+  "successor_execution_authorized": false
+}
